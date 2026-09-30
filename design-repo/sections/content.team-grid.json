@@ -1,0 +1,21 @@
+{
+  "id": "content.team-grid",
+  "layer": "section",
+  "purpose": "Team member grid on /about.",
+  "composes": ["avatar"],
+  "measuredFrom": "spec/pages/about.md (team, Frame 2147223576)",
+  "content": {
+    "type": "object",
+    "properties": {
+      "heading": { "type": "string", "maxWords": 6 },
+      "members": { "type": "array", "minItems": 1, "maxItems": 30, "items": { "type": "object", "properties": { "name": { "type": "string", "maxWords": 4 }, "role": { "type": "string", "maxWords": 8 } }, "required": ["name", "role"], "additionalProperties": false } }
+    },
+    "required": ["members"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "aboutRouteOnly" },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {
+    "employee-photo": { "enum": "employee-photo", "generationPolicy": "must-not-fabricate", "guidance": "COMPLIANCE: real named employees. Never generate a fabricated likeness of a real person; use a licensed real photo or a generic placeholder silhouette." }
+  }
+}

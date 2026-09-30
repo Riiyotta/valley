@@ -1,0 +1,489 @@
+/* /blog/:slug. spec/pages/blog-post.md + dumps/dump_{1440,1280,768,390}.txt.
+   Rich text, inline CTA card and the Try Valley card are styled in
+   src/components/longform/longform.css. Framer variants (measured live in the tablet audit):
+   desktop >= 1280, tablet 810-1279.98 (stacked sidebar, 280px cover, one-column related cards)
+   and phone < 810. The text presets (TOC h5, rich text) switch separately at 1200. */
+@import './blog-shared.css';
+
+.bp-page {
+  background: #fff;
+}
+.bp-page h1,
+.bp-page h2,
+.bp-page h3,
+.bp-page h5,
+.bp-page p {
+  margin: 0;
+}
+
+/* =========================== 1. Post header =========================== */
+.bp-head {
+  padding: 148px 48px 72px;
+  background: #e7eff0;
+}
+.bp-head-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.bp-head-inner h1 {
+  width: 100%;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 56px;
+  line-height: 62.72px;
+  letter-spacing: -1.68px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+}
+.bp-head-sub {
+  width: 100%;
+  font-family: theme('fontFamily.inter');
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 400;
+  color: #000;
+}
+.bp-cover {
+  position: relative;
+  width: 100%;
+  height: 360px;
+  border-radius: 4px;
+  overflow: clip;
+}
+.bp-cover img,
+.bp-cover-fill {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.bp-head-meta {
+  width: 100%;
+  height: 0;
+}
+
+/* =========================== 2. Body layout =========================== */
+.bp-body {
+  padding: 72px 48px;
+  background: theme('colors.surface.DEFAULT');
+}
+.bp-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 48px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.bp-side {
+  position: sticky;
+  top: 140px;
+  flex: none;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+/* TOC card */
+.bp-toc {
+  position: relative;
+  width: 100%;
+}
+.bp-toc::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid theme('colors.framer.d9');
+  pointer-events: none;
+}
+.bp-toc-inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px;
+}
+.bp-toc-inner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-top: 1px solid theme('colors.framer.d9');
+  pointer-events: none;
+}
+.bp-toc-inner h5 {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #000;
+}
+.bp-toc-link {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  /* Default <-> Active variant swap: CSS ease over ~215ms (states/motion_scroll.json) */
+  transition: background-color 215ms ease, color 215ms ease;
+}
+.bp-toc-link p {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 14px;
+  line-height: 16.8px;
+  font-weight: 400;
+  color: inherit;
+}
+.bp-toc-link.is-active {
+  background-color: theme('colors.framer.linkedin');
+  color: #fff;
+}
+@media (prefers-reduced-motion: reduce) {
+  .bp-toc-link {
+    transition: none;
+  }
+}
+
+/* Article column */
+.bp-main {
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 760px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 42px;
+}
+.bp-author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.bp-author-avatar {
+  flex: none;
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: theme('colors.framer.d9');
+}
+.bp-author-avatar img {
+  display: block;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.bp-author-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.bp-author-name {
+  font-family: theme('fontFamily.inter');
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 400;
+  color: #000;
+  white-space: pre;
+}
+.bp-dates {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+.bp-date {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+.bp-date p,
+.bp-date time {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  line-height: 16.2px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.55);
+  white-space: pre; /* live labels are "Published: " / "Updated: " with the space kept */
+}
+.bp-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  width: 100%;
+  padding-bottom: 16px;
+}
+.bp-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  scroll-margin-top: 140px;
+}
+.bp-section-title {
+  width: 100%;
+}
+.bp-section-title h2 {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 40px;
+  line-height: 44.8px;
+  letter-spacing: -1.2px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+}
+
+/* =========================== 3. Related Blogs =========================== */
+.bp-related {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 72px 48px;
+  background: theme('colors.surface.DEFAULT');
+}
+.bp-related > h3 {
+  width: 100%;
+  max-width: 960px;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 40px;
+  line-height: 44.8px;
+  letter-spacing: -1.2px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+}
+.bp-rel-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px;
+  width: 100%;
+}
+.bp-rel-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 520px;
+  background: #e7eff0;
+  overflow: hidden;
+  color: inherit;
+  text-decoration: none;
+}
+.bp-rel-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid theme('colors.framer.d9');
+  pointer-events: none;
+  z-index: 3;
+}
+.bp-rel-media {
+  position: relative;
+  flex: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 16px;
+  width: 100%;
+  aspect-ratio: 2.14 / 1;
+  padding: 24px;
+  box-sizing: border-box;
+}
+.bp-rel-img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bp-rel-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.23);
+  overflow: hidden;
+}
+.bp-rel-bottom {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.bp-rel-time {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 24px;
+  line-height: 33.6px;
+  font-weight: 500;
+  color: #fff;
+  white-space: nowrap;
+}
+.bp-rel-body {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+.bp-rel-body h5 {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 32px;
+  line-height: 35.84px;
+  letter-spacing: -0.96px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+}
+
+/* =========================== Tablet layout (810-1279.98) =========================== */
+@media (min-width: 810px) and (max-width: 1279.98px) {
+  .bp-head {
+    padding: 148px 28px 56px;
+  }
+  .bp-head-inner h1 {
+    font-size: 44px;
+    line-height: 49.28px;
+    letter-spacing: -1.32px;
+  }
+  .bp-cover {
+    height: 280px;
+  }
+
+  .bp-body {
+    padding: 56px 28px;
+  }
+  .bp-container {
+    flex-direction: column;
+    gap: 48px;
+    max-width: none;
+  }
+  .bp-side {
+    position: static;
+    width: 100%;
+  }
+  .bp-main {
+    flex: none;
+    width: 100%;
+  }
+  .bp-section-title h2 {
+    font-size: 36px;
+    line-height: 40.32px;
+    letter-spacing: -1.08px;
+  }
+
+  .bp-related {
+    padding: 56px 28px;
+  }
+  .bp-related > h3 {
+    font-size: 36px;
+    line-height: 40.32px;
+    letter-spacing: -1.08px;
+  }
+  .bp-rel-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .bp-rel-media {
+    aspect-ratio: 15 / 7; /* live 1184x552.5, 1044x487.2, 844x393.9 */
+  }
+  .bp-rel-body h5 {
+    max-width: 960px;
+  }
+}
+
+/* TOC heading follows the Framer h5 text preset, which switches at 1200 (not 1280) */
+@media screen(tablet) {
+  .bp-toc-inner h5 {
+    width: 100%;
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+}
+
+/* =========================== Phone (< 810) =========================== */
+@media screen(phone) {
+  .bp-head {
+    padding: 124px 20px 48px;
+  }
+  .bp-head-inner {
+    justify-content: flex-start;
+  }
+  .bp-head-inner h1 {
+    font-size: 38px;
+    line-height: 42.56px;
+    letter-spacing: -1.14px;
+  }
+  .bp-head-sub {
+    font-family: theme('fontFamily.ppnm-variable');
+    font-size: 18px;
+    line-height: 27.9px;
+    color: #4e606a;
+  }
+  .bp-cover {
+    height: 220px;
+  }
+
+  .bp-body {
+    padding: 48px 20px;
+  }
+  .bp-container {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .bp-side {
+    position: static;
+    width: 100%;
+  }
+  .bp-toc-inner h5 {
+    font-size: 13px;
+    line-height: 18.2px;
+  }
+  .bp-main {
+    flex: none;
+    width: 100%;
+    max-width: none;
+  }
+  .bp-section-title h2 {
+    font-size: 30px;
+    line-height: 33.6px;
+    letter-spacing: -0.9px;
+  }
+
+  .bp-related {
+    padding: 48px 20px;
+  }
+  .bp-related > h3 {
+    max-width: none;
+    font-size: 30px;
+    line-height: 33.6px;
+    letter-spacing: -0.9px;
+  }
+  .bp-rel-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .bp-rel-body h5 {
+    font-size: 26px;
+    line-height: 29.12px;
+    letter-spacing: -0.78px;
+  }
+}

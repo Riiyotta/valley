@@ -1,0 +1,650 @@
+# linkedin-outreach-for-agencies @390 H=18246
+{"i":0,"name":"Hero","code":"","y":0,"h":1048,"w":390,"pos":"relative","display":"flex"}
+{"i":1,"name":"Variant 3","code":"","y":1048,"h":1400,"w":390,"pos":"static","display":"contents"}
+{"i":2,"name":"agencyMargin","code":"","y":2448,"h":2012,"w":390,"pos":"relative","display":"flex"}
+{"i":3,"name":"Process V2","code":"","y":4460,"h":2209,"w":390,"pos":"relative","display":"flex"}
+{"i":4,"name":"Why sales teams love valley","code":"","y":6669,"h":3504,"w":390,"pos":"relative","display":"flex"}
+{"i":5,"name":"Case Studies v2","code":"","y":10172,"h":755,"w":390,"pos":"relative","display":"flex"}
+{"i":6,"name":"agencyPaths","code":"","y":10927,"h":1176,"w":390,"pos":"relative","display":"flex"}
+{"i":7,"name":"agencyCompare","code":"vc","y":12104,"h":4561,"w":390,"pos":"relative","display":"flex"}
+{"i":8,"name":"FAQs- V3 2","code":"valley-start-questions","y":16664,"h":767,"w":390,"pos":"relative","display":"flex"}
+{"i":9,"name":"Phone","code":"vf","y":17431,"h":815,"w":390,"pos":"static","display":"contents"}
+{"i":10,"name":"Phone - Close","code":"","y":0,"h":68,"w":390,"pos":"static","display":"contents"}
+
+######## [0] Hero  y=0 h=1048 pos=relative
+  B <section Hero> 0,0 390x1048 pad=144px 24px 64px bg=#f8f9f7
+  B <div Text-container> 24,144 342x840 flex column gap=48px jc=center ai=center 
+  B <div> 24,144 342x484 flex column gap=24px jc=center ai=flex-start 
+  B <div Heading> 24,144 342x355 flex column gap=20px jc=center ai=flex-start 
+  B <div Tag> 24,144 342x36 flex row gap=8px jc=flex-start ai=center 
+  B <div Tag dot> 24,160 4x4 bg=#0077b5 ovf=clip
+  T <p> 36,144 330x36 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/18px ls=normal w400 #557885  | "FOR AGENCIES & LEAD-GEN TEAMS RUNNING 5+ CLIENT ACCOUNTS"
+  T <span> 24,200 90x45 | PP Neue Montreal Variable, PP Neue Montreal Variable 40px/44.8px ls=normal w400 #1c292d  | "Keep"
+  T <span> 122,200 54x45 | PP Neue Montreal Variable, PP Neue Montreal Variable 40px/44.8px ls=normal w400 #1c292d  | "the"
+  T <span> 185,200 123x45 | PP Neue Montreal Variable, PP Neue Montreal Variable 40px/44.8px ls=normal w400 #1c292d  | "margin."
+  T <span> 24,245 90x45 | PP Neue Montreal Variable, PP Neue Montreal Variable 40px/44.8px ls=normal w400 #1c292d  | "Keep"
+  T <span> 122,245 54x45 | PP Neue Montreal Variable, PP Neue Montreal Variable 40px/44.8px ls=normal w400 #1c292d  | "the"
+  T <span> 185,245 97x45 | PP Neue Montreal Variable, PP Neue Montreal Variable 40px/44.8px ls=normal w400 #1c292d  | "client."
+  T <p> 24,310 342x189 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27px ls=normal w400 #52646a  | "Stop rebuilding a Clay + HeyReach + ChatGPT + PhantomBuster stack for every client. Valley brings warm signals, qualification, prospect research, your client’s voice, and outreach into one workflow per client—so your team can spend more time on the conversations you’re paid to create."
+  B <div> 24,523 342x105 flex column gap=24px jc=center ai=flex-start 
+  B <div cta-wrapper> 24,523 342x56 pad=0px 28px 
+  B <a agencyDemo> 120,523 151x56 pad=16px 24px bg=#1c292d ovf=clip
+  T <p> 144,539 103x24 | PP Neue Montreal Variable, PP Neue Montreal Variable 16px/24px ls=normal w400 #f8f9f7  | "Book a demo ↗"
+  B <div Tag> 24,603 342x25 pad=4px 0px 1px 6px flex row gap=8px jc=center ai=center backdrop=blur(2px)
+  B <div Ellipse 43704> 26,607 20x20 radius=100% op=0.25
+  B <div> 26,607 20x20 radius=100%
+  IMG 26,607 20x20 fit=fill pos=50% 50% radius=100% ovf=clip src=https://framerusercontent.com/images/U8j0K3SkdLeBpY8MYtbVddKkV0.jpg?scale-down-to=1024&width=2316&height=3088 alt=""
+  B <div Ellipse 43705> 36,607 20x20 radius=100% op=0.62
+  B <div> 36,607 20x20 radius=100%
+  IMG 36,607 20x20 fit=fill pos=50% 50% radius=100% ovf=clip src=https://framerusercontent.com/images/WtSAHrTok8mtlR2CI7nq7oEQ6Y.jpeg?scale-down-to=512&width=800&height=800 alt=""
+  B <div Ellipse 43706> 48,607 20x20 radius=100%
+  B <div> 48,607 20x20 radius=100%
+  IMG 48,607 20x20 fit=fill pos=50% 50% radius=100% ovf=clip src=https://framerusercontent.com/images/R5AeuyDxdoeADin1x32gC6L5St0.png?width=480&height=480 alt=""
+  B <div Variant 2> 74,609 268x16 flex column gap=10px jc=flex-start ai=flex-start 
+  B <div Tag Description 1> 62,585 281x13 tf=matrix(1, 0, 0, 1, -140.594, 0)
+  T <p> 62,585 281x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/13.2px ls=normal w500 #000000/0.6 tt=uppercase ta=left  | "bolt booked enterprise demos in"
+  T <span> 147,584 14x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/13.2px ls=normal w500 #0076b5 tt=uppercase ta=left  | "25"
+  T <span> 297,584 46x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/13.2px ls=normal w500 #0076b5 tt=uppercase ta=left  | "45 days"
+  B <div Tag Description 2> 74,609 268x13 op=0
+  T <p> 74,609 268x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/13.2px ls=normal w500 #000000/0.6 tt=uppercase ta=left  | "Ridge generated revenue in"
+  T <span> 185,608 22x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/13.2px ls=normal w500 #0076b5 tt=uppercase ta=left  | "60K"
+  T <span> 281,608 61x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/13.2px ls=normal w500 #0076b5 tt=uppercase ta=left  | "3 months"
+  B <div Tag Description 3> 74,636 282x13 op=0
+  T <p> 74,636 282x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/13.2px ls=normal w500 #000000/0.6 tt=uppercase ta=left  | "Linarca booked demos in the"
+  T <span> 179,635 11x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/13.2px ls=normal w500 #0076b5 tt=uppercase ta=left  | "15"
+  T <span> 278,635 78x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/13.2px ls=normal w500 #0076b5 tt=uppercase ta=left  | "first month"
+  B <div Tag Description 4> 74,662 285x13 op=0
+  T <p> 74,662 285x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/13.2px ls=normal w500 #000000/0.6 tt=uppercase ta=left  | "Thinkfish books Meetings"
+  T <span> 182,661 28x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/13.2px ls=normal w500 #0076b5 tt=uppercase ta=left  | ">400"
+  T <span> 276,661 83x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/13.2px ls=normal w500 #0076b5 tt=uppercase ta=left  | "Every month"
+  B <div Tag Description 5> 74,687 281x13 op=0
+  T <p> 74,687 281x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/13.2px ls=normal w500 #000000/0.6 tt=uppercase ta=left  | "bolt booked enterprise demos in"
+  T <span> 159,686 14x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/13.2px ls=normal w500 #0076b5 tt=uppercase ta=left  | "25"
+  T <span> 309,686 46x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/13.2px ls=normal w500 #0076b5 tt=uppercase ta=left  | "45 days"
+  B <div> 24,676 342x308 pad=24px flex column gap=16px jc=center ai=center 
+  IMG 24,676 342x308 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/5PTRAJLnFg6rsWb9IKzPm6tagrQ.png?scale-down-to=512&width=1536&height=768 alt=""
+  IMG 48,700 294x260 fit=cover pos=50% 50%  src=https://i.ytimg.com/vi_webp/t9cYsNR2goo/maxresdefault.webp alt=""
+  B <button> 161,806 68x48 tf=matrix(1, 0, 0, 1, -34, -24)
+  SVG 161,806 68x48 fill=#000000 stroke=none color=#000000 
+
+######## [1] Variant 3  y=1048 h=1400 pos=static
+  B <section Variant 3> 0,1048 390x1400 pad=32px 20px flex column gap=24px jc=center ai=center bg=#f8f9f7
+  T <p> 20,1080 350x108 | PP Neue Montreal Medium, PP Neue Montreal Medium 20px/27px ls=normal w500 #19282e ta=center  | "300+ B2B SaaS teams trust Valley’s LinkedIn outbound — more pipeline from the reps they already have."
+  B <div Logo-container> 20,1212 350x1204 pad=28px 0px 0px flex column gap=0px jc=flex-start ai=center bg=#f8f9f7
+  B <div> 20,1240 350x720 flex column gap=0px jc=center ai=center ::after{absolute 350pxx720px inset=0px,0px border=1px 1px 1px 1px solid #e0e0e0} bg=#f8f9f7
+  B <div> 20,1240 350x240 pad=52px 28px 28px grid gap=52px 28px cols=146.125px 119.875px jc=normal ai=normal ::after{absolute 350pxx240px inset=0px,0px border=0px 1px 0px 0px solid #cccccc} bg=#f8f9f7
+  B <div> 48,1292 146x160 flex column gap=52px normal jc=normal ai=normal 
+  B <div> 48,1294 146x40 flex row gap=10px jc=center ai=center 
+  B <div Dot Blink> 48,1312 5x5 bg=#0077b5
+  B <div> 63,1294 131x40 op=0.7
+  IMG 63,1294 131x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Bx6e2ANj69WlGVSGixBWFjy4WY.png?scale-down-to=512&width=754&height=230 alt="Ridge"
+  B <div> 84,1391 75x40 op=0.7
+  IMG 84,1391 75x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/7ii3QW0Ru8RimJQ33PMayGEtvI.png?width=225&height=120 alt="Capsule"
+  B <div Tag> 103,1218 184x48 pad=8px bg=#ffffff
+  IMG 111,1223 168x38 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/jx1u5bQyJQTHE8DVeFhTlV7WEQ.png?scale-down-to=512&width=8000&height=1812 alt="Heyreach"
+  B <div> 222,1292 120x160 flex column gap=52px normal jc=normal ai=normal 
+  B <div> 244,1292 76x40 op=0.7
+  IMG 244,1292 76x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/VuqKYnHWoTofCCM3yIH85eHOpo.png?width=228&height=120 alt="Circuit"
+  B <div> 234,1384 96x40 op=0.7
+  IMG 234,1384 96x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/yvTz5ONEScQRG5OWmiMEDzXpas.png?width=288&height=120 alt="Ditchcarbon"
+  B <div> 20,1480 350x240 pad=52px 28px 28px grid gap=52px 28px cols=133px 133px jc=normal ai=normal ::after{absolute 350pxx240px inset=0px,0px border=1px 0px 1px 0px solid #cccccc} bg=#f8f9f7
+  B <div> 48,1532 133x160 flex column gap=52px normal jc=normal ai=normal 
+  B <div> 74,1532 82x40 op=0.7
+  IMG 74,1532 82x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/gj2oKe8h7wzUNC5y3oBGI34mM.png?width=246&height=120 alt="growthexperts"
+  B <div> 68,1625 93x40 op=0.7
+  IMG 68,1625 93x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/ktz6KWkTv0W6wZYpr8fDzYPvY4I.png?width=279&height=120 alt="storygen"
+  B <div Tag> 103,1458 184x48 pad=8px bg=#ffffff
+  IMG 111,1457 168x49 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/cLS5abTnQ5XywuBkuSOLzapiDo.png?scale-down-to=512&width=1284&height=372 alt="Expandi"
+  B <div> 209,1532 133x160 flex column gap=52px normal jc=normal ai=normal 
+  B <div> 232,1532 88x40 op=0.7
+  IMG 232,1532 88x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/YG1tT9kh0M7mlsBDlaOdgRR0.png?width=264&height=120 alt="wegoliath"
+  B <div> 228,1625 96x40 op=0.7
+  IMG 228,1625 96x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/DIlJZPjonPeUe4ZwL1CEYmCOUw.png?width=288&height=120 alt="more"
+  B <div> 20,1720 350x240 pad=52px 28px 28px grid gap=52px 28px cols=133px 133px jc=normal ai=normal ::after{absolute 350pxx240px inset=0px,0px border=0px 1px 0px 1px solid #cccccc} bg=#f8f9f7
+  B <div> 48,1772 133x160 flex column gap=52px normal jc=normal ai=normal 
+  B <div> 74,1772 82x40 op=0.7
+  IMG 74,1772 82x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/ujCoumqWwdBQpRvvlCfiVuOzso.png?width=246&height=120 alt="experio"
+  B <div> 87,1865 56x40 op=0.7
+  IMG 87,1865 56x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/XR2mg0m5jaEuY77g9McpBAjsHw.png?width=168&height=120 alt="websity"
+  B <div Tag> 103,1698 184x48 pad=8px bg=#ffffff
+  IMG 111,1694 168x56 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/W4Pger03NHoxtfZHRcbAIfQ6P4.png?scale-down-to=512&width=1910&height=632 alt="Lemlist"
+  B <div> 209,1772 133x160 flex column gap=52px normal jc=normal ai=normal 
+  B <div> 216,1772 120x40 op=0.7
+  IMG 216,1772 120x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/8muhkAJTPNewpFOWmKmjxRbWdI.png?width=360&height=120 alt="salesmotion"
+  B <div> 228,1865 96x40 op=0.7
+  IMG 228,1865 96x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/DIlJZPjonPeUe4ZwL1CEYmCOUw.png?width=288&height=120 alt="more"
+  B <div> 20,1960 350x411 bg=#f8f9f7
+  B <div> 20,1960 350x411 pad=28px grid gap=0px 24px cols=135px 135px jc=center ai=normal ::after{absolute 350pxx411.484px inset=0px,0px border=0px 1px 1px 1px solid #cccccc} bg=#f8f9f7
+  B <div> 54,1987 123x40 op=0.7
+  IMG 54,1987 123x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/3UCjPMpY3Nkuy1xoJaCCN3TKJk.png?width=230&height=75 alt="UiPath"
+  B <div> 215,1987 120x40 op=0.7
+  IMG 215,1987 120x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/glOVQL3Qd1fVRyHWORpg8KFVY.png?width=360&height=120 alt="smallest.ai"
+  B <div> 70,2027 91x40 flex row gap=10px jc=center ai=center 
+  B <div Dot Blink> 70,2044 5x5 bg=#0077b5
+  B <div> 85,2027 76x40 op=0.7
+  IMG 85,2027 76x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/i9MrwcnTeJlupc8YonFW5eaOgec.png?width=228&height=120 alt="miro"
+  B <div> 227,2027 95x40 op=0.7
+  IMG 227,2027 95x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/AYyRFkyykfeW6XOj952lPF0Zc.png?width=285&height=120 alt="peecai"
+  B <div> 83,2066 64x40 op=0.7
+  IMG 83,2066 64x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/fSMDCykUwcEbvyXPdSXFjdNF4hY.png?width=193&height=120 alt="glean"
+  B <div> 241,2066 68x40 flex row gap=10px jc=center ai=center 
+  B <div Dot Blink> 241,2084 5x5 bg=#0077b5
+  B <div> 256,2066 53x40 op=0.7
+  IMG 256,2066 53x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/ZlOSMxkKcwvpfjkFDJ0ZUgjJKk.png?width=165&height=125 alt="10X"
+  B <div> 44,2106 143x40 flex row gap=10px jc=center ai=center 
+  B <div Dot Blink> 44,2123 5x5 bg=#0077b5
+  B <div> 59,2106 128x40 op=0.7
+  IMG 59,2106 128x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/NfiYqyXn6RqMDJGpeS3bJkL9eEU.png?width=138&height=43 alt="Tacnode"
+  B <div> 230,2106 89x40 op=0.7
+  IMG 230,2106 89x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/PamliAUziZnsHcig47BKJwoquY.png?width=267&height=120 alt="ggwp"
+  B <div> 10,2145 212x40 flex row gap=10px jc=center ai=center 
+  B <div Dot Blink> 10,2163 5x5 bg=#0077b5
+  B <div> 25,2145 197x40 op=0.7
+  IMG 25,2145 197x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/4uqpOIDAG2RqFhTLQVKnRR4ENRE.png?scale-down-to=512&width=591&height=120 alt="growthproctocol"
+  B <div> 218,2145 112x40 flex row gap=10px jc=center ai=center 
+  B <div Dot Blink> 218,2163 5x5 bg=#0077b5
+  B <div> 233,2145 97x40 op=0.7
+  IMG 233,2145 97x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/uoWIwAg1brM2fxpy5tHe7EYdLbU.png?width=292&height=120 alt="kaster"
+  B <div> 78,2185 76x40 flex row gap=10px jc=center ai=center 
+  B <div Dot Blink> 78,2202 5x5 bg=#0077b5
+  B <div> 93,2185 61x40 op=0.7
+  IMG 93,2185 61x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/fPy3rajrBwOXFvdygI98ux0wDiI.png?width=183&height=120 alt="bolt"
+  B <div> 213,2185 122x40 flex row gap=10px jc=center ai=center 
+  B <div Dot Blink> 213,2202 5x5 bg=#0077b5
+  B <div> 228,2185 107x40 op=0.7
+  IMG 228,2185 107x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/2MD4BqAIsMousaVLu0QWFtAnBjA.png?width=322&height=120 alt="gocanvas"
+  B <div> 64,2224 104x40 op=0.7
+  IMG 64,2224 104x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/SOyfehqzz61uEv0nABhxHZXPaI.png?width=312&height=120 alt="Panda Doc"
+  B <div> 244,2224 61x40 op=0.7
+  IMG 244,2224 61x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/gdAPP1HxjcIBX7yTqHcYhTrA.png?width=183&height=120 alt="stubhub"
+  B <div> 55,2264 121x40 flex row gap=10px jc=center ai=center 
+  B <div Dot Blink> 55,2281 5x5 bg=#0077b5
+  B <div> 70,2264 106x40 op=0.7
+  IMG 70,2264 106x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/SsCt2nwZM7v3r1iJr5go5IakYfA.png?width=317&height=120 alt="franq"
+  B <div> 215,2264 119x40 flex row gap=10px jc=center ai=center 
+  B <div Dot Blink> 215,2281 5x5 bg=#0077b5
+  B <div> 230,2264 104x40 op=0.7
+  IMG 230,2264 104x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/10dfy9LKXgJaLU5a86bKVRe9HE.png?width=312&height=120 alt="darwinian "
+  B <div> 67,2303 96x40 op=0.7
+  IMG 67,2303 96x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/yJ5cYSTyer3TnYG3EFxM8MXhpg.png?width=289&height=120 alt="antler"
+  B <div> 227,2303 96x40 op=0.7
+  IMG 227,2303 96x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/DIlJZPjonPeUe4ZwL1CEYmCOUw.png?width=288&height=120 alt="more"
+  B <div Vector 1194233990> 74,2371 242x45 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 0.687 45%22><path d=%22M 0.999 23.463 L 0.999 22.507 L 0.5 22.507 M 0.001 23.463 L 0.001 2
+  B <div Tag> 133,1197 124x30 pad=8px bg=#ffffff tf=matrix(1, 0, 0, 1, -61.7656, 0)
+  T <p> 141,1205 108x14 | Geist Mono, monospace 14px/14px ls=0.56px w400 #0077b5  | "MIGRATED OFF"
+
+######## [2] agencyMargin  y=2448 h=2012 pos=relative
+  B <div agencyMargin> 0,2448 390x2012 pad=48px 20px flex column gap=36px jc=flex-start ai=flex-start bg=#f8f9f7 ovf=clip
+  T <p> 20,2496 350x18 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/18px ls=normal w400 #557885  | "THE AGENCY MARGIN LEAK"
+  T <h2> 20,2550 350x117 | PP Neue Montreal Variable, PP Neue Montreal Variable 34px/39.1px ls=normal w400 #1c292d  | "The retainer is yours. The overhead shouldn’t eat it."
+  T <p> 20,2703 350x180 | PP Neue Montreal Variable, PP Neue Montreal Variable 20px/30px ls=normal w400 #52646a  | "Every new account can mean another round of API keys, enrichment tables, prompt writing, and sequence setup. Multiply the maintenance by your client count, and the work starts competing with the service you actually sell."
+  B <div marginGrid> 20,2919 350x1492 flex column gap=24px jc=flex-start ai=flex-start 
+  B <div marginCard0> 20,2919 350x481 pad=24px flex column gap=20px jc=flex-start ai=flex-start bg=#e9eff0 ovf=clip
+  T <p> 44,2943 302x18 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/18px ls=normal w400 #557885  | "01 / SETUP"
+  T <h3> 44,2981 302x64 | PP Neue Montreal Variable, PP Neue Montreal Variable 28px/32.2px ls=normal w400 #1c292d  | "Win a client. Then onboard them again."
+  T <p> 44,3066 302x162 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27px ls=normal w400 #52646a  | "API keys, Clay tables, sequence rebuilds, and tool connections add work before the first message goes out. Repeating that setup across five or ten accounts consumes the hours you could put into strategy and delivery."
+  B <div marginAnswer0> 44,3248 302x129 pad=20px 0px 0px flex column gap=10px jc=flex-start ai=flex-start ::after{absolute 302pxx129px inset=0px,0px border=1px 0px 0px 0px solid #cbd6d8}
+  T <p> 44,3268 302x18 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/18px ls=normal w400 #557885  | "WITH VALLEY"
+  T <p> 44,3296 302x81 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27px ls=normal w400 #1c292d  | "Valley brings the steps together. Set the client’s audience, offer, and voice inside the same outbound workflow."
+  B <div marginCard1> 20,3425 350x481 pad=24px flex column gap=20px jc=flex-start ai=flex-start bg=#e9eff0 ovf=clip
+  T <p> 44,3449 302x18 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/18px ls=normal w400 #557885  | "02 / RETENTION"
+  T <h3> 44,3487 302x64 | PP Neue Montreal Variable, PP Neue Montreal Variable 28px/32.2px ls=normal w400 #1c292d  | "Your client buys conversations."
+  T <p> 44,3571 302x135 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27px ls=normal w400 #52646a  | "Generic outreach is easy to send and hard to defend in a client review. When replies dry up, the agency has to explain what changed—and why the retainer is still worth paying."
+  B <div marginAnswer1> 44,3726 302x156 pad=20px 0px 0px flex column gap=10px jc=flex-start ai=flex-start ::after{absolute 302pxx156px inset=0px,0px border=1px 0px 0px 0px solid #cbd6d8}
+  T <p> 44,3746 302x18 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/18px ls=normal w400 #557885  | "WITH VALLEY"
+  T <p> 44,3774 302x108 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27px ls=normal w400 #1c292d  | "Valley connects buying signals and prospect research to the message. Review what earns a reply and use that context to improve the next campaign."
+  B <div marginCard2> 20,3930 350x481 pad=24px flex column gap=20px jc=flex-start ai=flex-start bg=#e9eff0 ovf=clip
+  T <p> 44,3954 302x18 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/18px ls=normal w400 #557885  | "03 / ACCOUNT CONTROL"
+  T <h3> 44,3992 302x64 | PP Neue Montreal Variable, PP Neue Montreal Variable 28px/32.2px ls=normal w400 #1c292d  | "Their account. Your reputation."
+  T <p> 44,4077 302x135 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27px ls=normal w400 #52646a  | "A client trusts your agency with their LinkedIn account and inbox. Sending more isn’t a strategy; the timing, audience, follow-ups, and replies all need a deliberate process."
+  B <div marginAnswer2> 44,4232 302x156 pad=20px 0px 0px flex column gap=10px jc=flex-start ai=flex-start ::after{absolute 302pxx156px inset=0px,0px border=1px 0px 0px 0px solid #cbd6d8}
+  T <p> 44,4252 302x18 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/18px ls=normal w400 #557885  | "WITH VALLEY"
+  T <p> 44,4280 302x108 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27px ls=normal w400 #1c292d  | "Review messages, choose sequence timing, and work within sending limits. A reply stops the sequence so your team can take over the conversation."
+
+######## [3] Process V2  y=4460 h=2209 pos=relative
+  B <section Process V2> 0,4460 390x2209 pad=80px 24px bg=#e9eff0 ovf=clip
+  B <div Container> 24,4540 342x2049 flex column gap=40px jc=center ai=center 
+  B <div Heading> 24,4540 342x280 flex column gap=20px jc=center ai=flex-start 
+  B <div> 24,4540 342x18 flex row gap=8px jc=flex-start ai=center 
+  B <div Tag dot> 24,4547 4x4 bg=#315e8d ovf=clip
+  T <p> 36,4540 330x18 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/18px ls=normal w400 #557885  | "MORE CLIENTS. LESS OPERATING OVERHEAD."
+  T <h2> 24,4578 342x114 | PP Neue Montreal Variable, PP Neue Montreal Variable 34px/38.08px ls=normal w400 #1c292d  | "Add the next client. Not another stack to maintain."
+  T <p> 24,4712 342x108 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27px ls=normal w400 #52646a  | "Keep the work that makes your agency valuable: the offer, the strategy, and the client relationship. Let Valley connect the research, writing, and follow-up behind it."
+  B <div agencyWorkflow> 24,4860 342x1729 grid gap=24px cols=342px jc=center ai=normal 
+  B <div agencyStep0> 24,4860 342x560 flex column gap=0px jc=flex-start ai=flex-start bg=#f8f9f7 ovf=clip
+  IMG 24,4860 342x180 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/5PTRAJLnFg6rsWb9IKzPm6tagrQ.png?scale-down-to=512&width=1536&height=768 alt=""
+  B <div agencyStep0Content> 24,5040 342x353 pad=28px flex column gap=16px jc=flex-start ai=flex-start 
+  T <p> 52,5068 286x18 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/18px ls=normal w400 #557885  | "01"
+  T <h3> 52,5102 286x58 | PP Neue Montreal Variable, PP Neue Montreal Variable 26px/29.12px ls=normal w400 #1c292d  | "A reason to reach out. For every client."
+  T <p> 52,5176 286x189 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27px ls=normal w400 #52646a  | "Build each client’s audience from relevant buying signals, a play, or their own list. Valley qualifies prospects and researches the people worth reaching, so your team can spend less time assembling lists and more time refining the client’s offer."
+  B <div agencyStep1> 24,5444 342x560 flex column gap=0px jc=flex-start ai=flex-start bg=#f8f9f7 ovf=clip
+  IMG 24,5444 342x180 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/zPOKyZnbl77fH6unSixkvRUOSOs.png?scale-down-to=512&width=1536&height=768 alt=""
+  B <div agencyStep1Content> 24,5624 342x380 pad=28px flex column gap=16px jc=flex-start ai=flex-start 
+  T <p> 52,5652 286x18 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/18px ls=normal w400 #557885  | "02"
+  T <h3> 52,5686 286x58 | PP Neue Montreal Variable, PP Neue Montreal Variable 26px/29.12px ls=normal w400 #1c292d  | "Their voice. Your agency’s standard."
+  T <p> 52,5760 286x216 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27px ls=normal w400 #52646a  | "Give Valley the client’s offer, ideal customer, and writing style. Combine that voice with prospect-specific research, then review the messages before they go out. Each account gets its own context—not the same template with a different company name."
+  B <div agencyStep2> 24,6028 342x560 flex column gap=0px jc=flex-start ai=flex-start bg=#f8f9f7 ovf=clip
+  IMG 24,6028 342x180 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/5WP0tI1lICNwC23waJVfpSCTTpE.png?scale-down-to=512&width=1536&height=768 alt=""
+  B <div agencyStep2Content> 24,6208 342x353 pad=28px flex column gap=16px jc=flex-start ai=flex-start 
+  T <p> 52,6236 286x18 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/18px ls=normal w400 #557885  | "03"
+  T <h3> 52,6270 286x58 | PP Neue Montreal Variable, PP Neue Montreal Variable 26px/29.12px ls=normal w400 #1c292d  | "Follow-through without the handoffs."
+  T <p> 52,6345 286x189 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27px ls=normal w400 #52646a  | "Run LinkedIn and email sequences, manage replies, and review campaign results together. When a prospect replies, the sequence stops. Keep the research beside the conversation so your team can hand the client a useful next step, not another spreadsheet."
+
+######## [4] Why sales teams love valley  y=6669 h=3504 pos=relative
+  B <section Why sales teams love valley> 0,6669 390x3504 pad=80px 24px flex column gap=32px jc=center ai=center bg=#f8f9f7 ovf=hidden
+  B <section> 24,6749 342x3344 flex column gap=40px jc=center ai=center 
+  B <div Heading> 24,6749 342x108 flex column gap=18px jc=flex-start ai=flex-start 
+  B <div Tag> 24,6749 342x14 flex row gap=8px jc=center ai=center 
+  B <div Tag dot> 24,6754 4x4 bg=#315e8d ovf=clip
+  T <p> 36,6749 330x14 | PP Neue Montreal Variable, PP Neue Montreal Variable 11px/14.3px ls=0.56px w400 #315e8d ta=left  | "REAL RESULTS FROM REAL AGENCIES"
+  T <h2> 24,6781 342x76 | PP Neue Montreal Variable, PP Neue Montreal Variable 34px/38.08px ls=normal w400 #1c292d  | "The proof is in your clients’ pipeline."
+  B <div> 24,6897 342x3195 grid gap=24px cols=342px jc=start ai=normal 
+  B <div Video Container> 24,6897 342x758 flex column gap=0px jc=center ai=center ::after{absolute 342pxx757.578px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#e9eff0 ovf=hidden
+  IMG 24,6897 342x610 fit=cover pos=50% 50%  src=https://i.ytimg.com/vi_webp/XJ-4VYbgO0M/maxresdefault.webp alt=""
+  B <button> 161,7178 68x48 tf=matrix(1, 0, 0, 1, -34, -24)
+  SVG 161,7178 68x48 fill=#000000 stroke=none color=#000000 
+  B <div Heading> 24,7507 342x148 pad=16px 
+  T <p> 40,7523 310x116 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/23.2px ls=normal w500 #405862  | "Valley remove the anxiety around weekly pipeline and sales review meetings. I just say “Look what I booked using Valley”"
+  T <strong> 40,7525 120x19 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/23.2px ls=normal w700 #002669  | "Growth Protocol:"
+  B <div Video Container> 24,7702 342x781 flex column gap=0px jc=center ai=center ::after{absolute 342pxx780.781px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#e9eff0 ovf=hidden
+  IMG 24,7702 342x610 fit=cover pos=50% 50%  src=https://i.ytimg.com/vi_webp/bmTEE6d1oiI/maxresdefault.webp alt=""
+  B <button> 161,7983 68x48 tf=matrix(1, 0, 0, 1, -34, -24)
+  SVG 161,7983 68x48 fill=#000000 stroke=none color=#000000 
+  B <div Heading> 24,8311 342x171 pad=16px 
+  B <div Sorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.> 40,8327 310x139 flex column gap=normal jc=flex-start ai=normal 
+  T <strong> 40,8329 64x19 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/23.2px ls=normal w700 #002669  | "Tacnode:"
+  T <p> 40,8374 310x93 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/23.2px ls=normal w500 #405862  | "I’ve never used a tool like this before - we have Outreach, Seamless, but Valley has booked us more meetings than anything else."
+  B <div Video Container> 24,8507 342x758 flex column gap=0px jc=center ai=center ::after{absolute 342pxx757.578px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#e9eff0 ovf=hidden
+  IMG 24,8507 342x610 fit=cover pos=50% 50%  src=https://i.ytimg.com/vi_webp/Yr5M2U7JTkU/maxresdefault.webp alt=""
+  B <button> 161,8787 68x48 tf=matrix(1, 0, 0, 1, -34, -24)
+  SVG 161,8787 68x48 fill=#000000 stroke=none color=#000000 
+  B <div Heading> 24,9116 342x148 pad=16px 
+  T <p> 40,9132 310x116 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/23.2px ls=normal w500 #405862  | "I care a lot about costs as an agency owner - Valley is far more effective than any other tool we could use for our clients."
+  T <strong> 40,9134 71x19 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/23.2px ls=normal w700 #002669  | "ThinkFish:"
+  B <div Video Container> 24,9311 342x781 flex column gap=0px jc=center ai=center ::after{absolute 342pxx780.781px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#e9eff0 ovf=hidden
+  IMG 24,9311 342x610 fit=cover pos=50% 50%  src=https://i.ytimg.com/vi_webp/19w3cPwB6cg/maxresdefault.webp alt=""
+  B <button> 161,9592 68x48 tf=matrix(1, 0, 0, 1, -34, -24)
+  SVG 161,9592 68x48 fill=#000000 stroke=none color=#000000 
+  B <div Heading> 24,9921 342x171 pad=16px 
+  T <p> 40,9937 310x139 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/23.2px ls=normal w500 #405862  | "Dude, even if the org won’t pay for this, I would invest with this out of my own money and just build pipeline. Then u can justify your raise going into 2026."
+  T <strong> 40,9939 61x19 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/23.2px ls=normal w700 #002669  | "Bolt.new"
+  B <div> 0,10100 390x72 tf=matrix(1, 0, 0, 1, -195, 0)
+  B <div [SEO]Indexing text> 0,10064 390x144 op=0 tf=matrix(1, 0, 0, 1, 0, -72)
+  T <p> 0,10064 390x144 | CUSTOMV2;PP Neue Montreal Medium 20px/24px ls=normal w400 #000000/0.6 ta=center  | "Valley replaces the Clay + HeyReach + ChatGPT stack your agency duct-tapes together for every client — with one warm-outbound engine. Onboard a new client in 30 minutes instead of 4 hours, and scale outreach without scaling your team."
+
+######## [5] Case Studies v2  y=10172 h=755 pos=relative
+  B <section Case Studies v2> 0,10172 390x755 pad=48px 20px bg=#f8f9f7 ovf=hidden
+  B <div Testimonial Mobile> 20,10220 350x659 pad=32px flex row gap=21px jc=flex-start ai=flex-end ::after{absolute 350pxx659px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1} bg=#f6f6f6 ovf=hidden
+  IMG 20,10220 350x659 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/GGiHIlYdU4o4MMMkKUEQbJ1CUvw.png?scale-down-to=512&width=2496&height=662 alt=""
+  B <div Call to action text container> 52,10252 286x595 flex column gap=28px jc=flex-start ai=flex-start 
+  T <p> 52,10252 286x158 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/26.4px ls=normal w500 #ffffff  | ""If you're an expert at GTM, Valley is the go-to tool. It's a no-brainer. Train it, upload your leads, and forget — half of the heavy lifting is done by Valley.""
+  B <div Author Info Container> 52,10439 286x40 flex row gap=4px jc=flex-start ai=center 
+  B <div Avatar [1.0]> 52,10439 40x40 radius=969.37px
+  B <div image> 52,10439 40x40 radius=950.93px
+  B <div> 52,10439 40x40 radius=950.93px
+  IMG 52,10439 40x40 fit=cover pos=50% 50% radius=950.93px ovf=clip src=https://framerusercontent.com/images/Nl9qrqIvNbOpysNp69Ya9w6U.png?scale-down-to=512&width=638&height=586 alt="Samiyan Momin"
+  B <div Author Details> 96,10441 210x35 flex column gap=4px jc=flex-start ai=flex-start 
+  T <p> 96,10441 210x18 | CUSTOMV2;PP Neue Montreal Medium 16px/17.6px ls=normal w400 #ffffff  | "Sam Momin"
+  T <p> 96,10463 210x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/13.2px ls=normal w500 #ffffff/0.7  | "GTM & Sales Lead @Smallest.ai"
+  B <div> 122,10057 254x969 flex row gap=16px jc=center ai=center 
+  B <div Star Col> 125,10666 124x660 flex column gap=10px jc=center ai=center 
+  B <div Dark> 125,10666 124x124 radius=10px
+  B <div> 125,10666 124x124 radius=10px
+  IMG 125,10666 124x124 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Dark> 125,10800 124x124 radius=10px
+  B <div> 125,10800 124x124 radius=10px
+  IMG 125,10800 124x124 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Dark> 125,10934 124x124 radius=10px
+  B <div> 125,10934 124x124 radius=10px
+  IMG 125,10934 124x124 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Highlight> 125,11068 124x124 radius=10px
+  B <div> 125,11068 124x124 radius=10px
+  IMG 125,11068 124x124 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/ysxcQkBhX6DvdxX0UA6jJSJnSk.png?width=213&height=190 alt=""
+  B <div Dark> 125,11202 124x124 radius=10px
+  B <div> 125,11202 124x124 radius=10px
+  IMG 125,11202 124x124 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Star Col> 248,10372 124x660 flex column gap=10px jc=center ai=center 
+  B <div Dark> 248,10372 124x124 radius=10px
+  B <div> 248,10372 124x124 radius=10px
+  IMG 248,10372 124x124 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Dark> 248,10506 124x124 radius=10px
+  B <div> 248,10506 124x124 radius=10px
+  IMG 248,10506 124x124 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Dark> 248,10640 124x124 radius=10px
+  B <div> 248,10640 124x124 radius=10px
+  IMG 248,10640 124x124 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Highlight> 248,10774 124x124 radius=10px
+  B <div> 248,10774 124x124 radius=10px
+  IMG 248,10774 124x124 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/ysxcQkBhX6DvdxX0UA6jJSJnSk.png?width=213&height=190 alt=""
+  B <div Dark> 248,10908 124x124 radius=10px
+  B <div> 248,10908 124x124 radius=10px
+  IMG 248,10908 124x124 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div> 52,10644 287x95 flex column gap=8px jc=center ai=flex-start tf=matrix(1, 0, 0, 1, -143.5, 0)
+  B <div Case study date container> 52,10644 287x51 pad=10px 12px ::after{absolute 287pxx51.1875px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1 radius=4px} bg=#ffffff/0.12 radius=4px backdrop=blur(8px) ovf=hidden
+  T <span> 64,10654 245x30 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/15.6px ls=0.12px w500 #ffffff tt=capitalize ta=left  | "10-15x better meeting quality across 10 client accounts"
+  B <div Case study date container> 52,10704 287x36 pad=10px 12px ::after{absolute 287pxx35.5938px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1 radius=4px} bg=#ffffff/0.12 radius=4px backdrop=blur(8px) ovf=hidden
+  T <span> 64,10714 230x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/15.6px ls=0.12px w500 #ffffff tt=capitalize ta=left  | "1/3 the cost of the agency they replaced"
+  B <a cta__primary> 52,10801 132x48 pad=5px 0px 0px 
+  B <div Button Content> 52,10806 132x43 ::after{absolute 132pxx43.2031px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.2} bg=#111111 shadow=rgba(0, 0, 0, 0.6) 0px 6px 0px 0px ovf=hidden
+  B <div Text Wrap> 52,10806 132x43 pad=12px 18px bg=#111111 ovf=hidden
+  T <p> 65,10818 105x19 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/19.2px ls=-0.16px w400 #ffffff  | "Book a demo →"
+
+######## [6] agencyPaths  y=10927 h=1176 pos=relative
+  B <div agencyPaths> 0,10927 390x1176 pad=48px 20px flex column gap=0px jc=flex-start ai=flex-start 
+  B <div pathsHeader> 20,10975 350x423 pad=20px flex column gap=0px jc=flex-start ai=flex-start 
+  IMG 20,10975 350x423 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/5PTRAJLnFg6rsWb9IKzPm6tagrQ.png?scale-down-to=512&width=1536&height=768 alt=""
+  B <div pathsHeaderPanel> 40,10995 310x383 pad=20px flex column gap=20px jc=flex-start ai=flex-start bg=#1c292d ovf=clip
+  T <p> 60,11015 270x18 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/18px ls=normal w400 #b9cfdb  | "THE AGENCY STACK COMPARISON"
+  T <h2> 60,11053 270x195 | PP Neue Montreal Variable, PP Neue Montreal Variable 34px/39.1px ls=normal w400 #f8f9f7  | "Three ways to run client outbound. Three very different workloads."
+  T <p> 60,11269 270x90 | PP Neue Montreal Variable, PP Neue Montreal Variable 20px/30px ls=normal w400 #c3d0d4  | "Compare what your team still has to do after choosing the software."
+  B <div pathsGrid> 20,11399 350x172 pad=1px flex column gap=1px jc=flex-start ai=flex-start bg=#cbd6d8 ovf=clip
+  B <div pathCard0> 21,11400 348x56 pad=28px flex column gap=16px jc=flex-start ai=flex-start bg=#ffffff ovf=clip
+  T <p> 49,11428 292x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 13px/19.5px ls=normal w500 #52616a  | "PATH 01 / A SENDING TOOL"
+  T <h3> 49,11463 292x32 | PP Neue Montreal Medium, PP Neue Montreal Medium 28px/32.2px ls=normal w500 #1c292d  | "HeyReach or Expandi"
+  T <p> 49,11511 292x52 | PP Neue Montreal Medium, PP Neue Montreal Medium 20px/26px ls=normal w500 #1c292d  | "Sending is covered. You do the rest."
+  T <p> 49,11579 292x77 | Inter, Inter 17px/25.5px ls=normal w400 #52616a  | "Your team finds prospects, researches each person and writes the messages."
+  T <p> 49,11672 292x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 13px/19.5px ls=0.52px w500 #52616a  | "YOUR TEAM OWNS"
+  T <p> 49,11707 292x51 | Inter, Inter 17px/25.5px ls=normal w400 #52616a  | "List quality, personalization and the tools feeding the sender."
+  B <div pathCard1> 21,11457 348x56 pad=28px flex column gap=16px jc=flex-start ai=flex-start bg=#ffffff ovf=clip
+  T <p> 49,11485 292x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 13px/19.5px ls=normal w500 #52616a  | "PATH 02 / A DIY STACK"
+  T <h3> 49,11520 292x32 | PP Neue Montreal Medium, PP Neue Montreal Medium 28px/32.2px ls=normal w500 #1c292d  | "A connected DIY stack"
+  T <p> 49,11568 292x26 | PP Neue Montreal Medium, PP Neue Montreal Medium 20px/26px ls=normal w500 #1c292d  | "Build it. Connect it. Maintain it."
+  T <p> 49,11610 292x77 | Inter, Inter 17px/25.5px ls=normal w400 #52616a  | "Trigify for signals. Clay for research. ChatGPT for drafts. A separate tool to send."
+  T <p> 49,11703 292x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 13px/19.5px ls=0.52px w500 #52616a  | "YOUR TEAM OWNS"
+  T <p> 49,11738 292x51 | Inter, Inter 17px/25.5px ls=normal w400 #52616a  | "Integrations, subscriptions and troubleshooting for every client."
+  B <div pathCard2> 21,11514 348x56 pad=28px flex column gap=16px jc=flex-start ai=flex-start bg=#e9eff0 ovf=clip
+  T <p> 49,11542 292x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 13px/19.5px ls=normal w500 #52616a  | "PATH 03 / VALLEY"
+  T <h3> 49,11577 292x32 | PP Neue Montreal Medium, PP Neue Montreal Medium 28px/32.2px ls=normal w500 #1c292d  | "One workflow per client"
+  T <p> 49,11625 292x26 | PP Neue Montreal Medium, PP Neue Montreal Medium 20px/26px ls=normal w500 #1c292d  | "The full workflow in one place."
+  T <p> 49,11667 292x77 | Inter, Inter 17px/25.5px ls=normal w400 #52616a  | "Find, qualify, research and message prospects. Keep replies and results with each campaign."
+  T <p> 49,11760 292x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 13px/19.5px ls=0.52px w500 #52616a  | "YOUR TEAM FOCUSES ON"
+  T <p> 49,11795 292x51 | Inter, Inter 17px/25.5px ls=normal w400 #52616a  | "Client strategy, message approval and the next conversation."
+  B <div agencyBudget> 20,11571 350x335 pad=20px flex column gap=16px jc=flex-start ai=flex-start bg=#e9eff0 ovf=clip
+  T <p> 40,11591 310x62 | PP Neue Montreal Medium, PP Neue Montreal Medium 26px/31.2px ls=normal w500 #1c292d  | "One seat per client. A clear starting cost."
+  T <p> 40,11669 310x153 | Inter, Inter 17px/25.5px ls=normal w400 #52616a  | "Starter is $199 per seat monthly, or $149 per month billed quarterly ($447 per quarter). Five seats: $995 per month on monthly billing. Email, support and additional credits are optional."
+  B <a agencyCTA> 40,11838 310x47 pad=14px 22px bg=#111111 ovf=clip
+  T <p> 62,11852 266x19 | PP Neue Montreal Variable, PP Neue Montreal Variable 16px/19.2px ls=normal w400 #ffffff  | "Book a demo →"
+  B <div agencyDemoNote> 20,11905 350x150 pad=24px 0px flex column gap=8px jc=flex-start ai=flex-start 
+  T <p> 20,11929 350x37 | PP Neue Montreal Medium, PP Neue Montreal Medium 32px/36.8px ls=normal w500 #1c292d  | "See Valley for agencies."
+  T <p> 20,11974 350x58 | Inter, Inter 16px/19.2px ls=normal w400 #000000  | "A walkthrough of prospecting, personalized outreach and reporting across client accounts."
+
+######## [7] agencyCompare vc y=12104 h=4561 pos=relative
+  B <div agencyCompare> 0,12104 390x4561 pad=64px 24px 
+  B <section .vc> 24,12168 342x4433 bg=#f7f9f7
+  B <header .vc-intro> 24,12168 342x294 pad=36px 20px 32px 
+  T <div> 44,12204 302x21 | ValleyCompare, Arial 14px/21px ls=1.82px w500 #52616a tt=uppercase  | "Valley vs. Competition"
+  T <h2> 44,12244 302x80 | ValleyCompare, Arial 39px/40.17px ls=-2.145px w500 #1c292e  | "The whole workflow. A clearer choice."
+  T <p> 44,12344 302x86 | ValleyCompare, Arial 18px/27px ls=normal w400 #58685e pad=0px 0px 5px  | "From the first buying signal to the next conversation. See what happens in Valley, and what each alternative brings."
+  B <div .vc-picker> 24,12462 342x431 pad=0px 20px 26px border=0px 0px 1px 0px none #1c292e b:#d5ddd1
+  B <div .vc-picker-top> 44,12462 302x142 flex column gap=12px jc=space-between ai=start 
+  T <span> 44,12462 148x26 | ValleyCompare, Arial 17px/25.5px ls=normal w500 #1c292e  | "Compare Valley with"
+  B <div .vc-picker-controls> 44,12499 302x104 flex column gap=8px jc=normal ai=normal 
+  INPUT 44,12499 302x48 ph="Find a competitor" font=ValleyCompare, Arial 16px/24px w400 color=#344d40 pad=10px 12px bg=#fcfcf8 border=1px 1px 1px 1px solid #cbd4c5 ovf=clip
+  B <select> 44,12555 302x48 pad=10px 12px bg=#fcfcf8 border=1px 1px 1px 1px solid #cbd4c5 ovf=clip
+  B <div .vc-companies> 44,12617 302x248 flex row gap=7px jc=normal ai=normal 
+  B <button .vc-company> 44,12617 118x44 pad=9px 10px flex row gap=8px jc=normal ai=center bg=#233f33 border=1px 1px 1px 1px solid #233f33
+  IMG 55,12631 17x17 fit=contain pos=50% 50%  src=https://www.google.com/s2/favicons?domain=www.heyreach.io&sz=64 alt=""
+  T <span> 80,12627 71x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #f7faee ta=center  | "HeyReach"
+  B <button .vc-company> 169,12617 109x44 pad=9px 10px flex row gap=8px jc=normal ai=center border=1px 1px 1px 1px solid #d3dace
+  IMG 180,12631 17x17 fit=contain pos=50% 50% filter=grayscale(1) op=0.8 src=https://www.google.com/s2/favicons?domain=www.gojiberry.ai&sz=64 alt=""
+  T <span> 205,12627 62x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #4e5e52 ta=center  | "Gojiberry"
+  B <button .vc-company> 44,12668 137x44 pad=9px 10px flex row gap=8px jc=normal ai=center border=1px 1px 1px 1px solid #d3dace
+  IMG 55,12682 17x17 fit=contain pos=50% 50% filter=grayscale(1) op=0.8 src=https://www.google.com/s2/favicons?domain=www.amplemarket.com&sz=64 alt=""
+  T <span> 80,12678 90x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #4e5e52 ta=center  | "Amplemarket"
+  B <button .vc-company> 188,12668 90x44 pad=9px 10px flex row gap=8px jc=normal ai=center border=1px 1px 1px 1px solid #d3dace
+  IMG 199,12682 17x17 fit=contain pos=50% 50% filter=grayscale(1) op=0.8 src=https://www.google.com/s2/favicons?domain=www.lemlist.com&sz=64 alt=""
+  T <span> 224,12678 43x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #4e5e52 ta=center  | "lemlist"
+  B <button .vc-company> 44,12719 103x44 pad=9px 10px flex row gap=8px jc=normal ai=center border=1px 1px 1px 1px solid #d3dace
+  IMG 55,12733 17x17 fit=contain pos=50% 50% filter=grayscale(1) op=0.8 src=https://www.google.com/s2/favicons?domain=instantly.ai&sz=64 alt=""
+  T <span> 80,12729 56x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #4e5e52 ta=center  | "Instantly"
+  B <button .vc-company> 154,12719 94x44 pad=9px 10px flex row gap=8px jc=normal ai=center border=1px 1px 1px 1px solid #d3dace
+  IMG 165,12733 17x17 fit=contain pos=50% 50% filter=grayscale(1) op=0.8 src=https://www.google.com/s2/favicons?domain=www.artisan.co&sz=64 alt=""
+  T <span> 190,12729 47x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #4e5e52 ta=center  | "Artisan"
+  B <button .vc-company> 255,12719 65x44 pad=9px 10px flex row gap=8px jc=normal ai=center border=1px 1px 1px 1px solid #d3dace
+  IMG 266,12733 17x17 fit=contain pos=50% 50% filter=grayscale(1) op=0.8 src=https://www.google.com/s2/favicons?domain=www.11x.ai&sz=64 alt=""
+  T <span> 291,12729 18x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #4e5e52 ta=center  | "11x"
+  B <button .vc-company> 44,12770 102x44 pad=9px 10px flex row gap=8px jc=normal ai=center border=1px 1px 1px 1px solid #d3dace
+  IMG 55,12784 17x17 fit=contain pos=50% 50% filter=grayscale(1) op=0.8 src=https://www.google.com/s2/favicons?domain=expandi.io&sz=64 alt=""
+  T <span> 80,12780 55x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #4e5e52 ta=center  | "Expandi"
+  B <button .vc-company> 153,12770 77x44 pad=9px 10px flex row gap=8px jc=normal ai=center border=1px 1px 1px 1px solid #d3dace
+  IMG 164,12784 17x17 fit=contain pos=50% 50% filter=grayscale(1) op=0.8 src=https://www.google.com/s2/favicons?domain=www.clay.com&sz=64 alt=""
+  T <span> 189,12780 30x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #4e5e52 ta=center  | "Clay"
+  B <button .vc-company> 44,12821 152x44 pad=9px 10px flex row gap=8px jc=normal ai=center border=1px 1px 1px 1px solid #d3dace
+  IMG 55,12835 17x17 fit=contain pos=50% 50% filter=grayscale(1) op=0.8 src=https://www.google.com/s2/favicons?domain=phantombuster.com&sz=64 alt=""
+  T <span> 80,12831 105x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #4e5e52 ta=center  | "PhantomBuster"
+  T <button> 203,12821 139x44 | ValleyCompare, Arial 16px/24px ls=normal w400 #425c4b ta=center pad=10px  | "All 19 competitors"
+  B <div .vc-main> 24,12892 342x3388 pad=32px 20px 26px 
+  B <header .vc-comparison-heading> 44,12924 302x111 flex column gap=12px jc=space-between ai=start 
+  T <h3> 44,12924 236x33 | ValleyCompare, Arial 30px/33px ls=-1.05px w500 #1c292e  | "Valley HeyReach"
+  T <span> 118,12922 31x36 | ValleyCompare, Arial 30px/33px ls=-1.05px w500 #788578  | "vs."
+  T <p> 44,12967 236x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "LinkedIn & sequencing"
+  T <a> 44,13003 180x32 | ValleyCompare, Arial 16px/24px ls=normal w400 #1c292e pad=8px 0px 0px  | "Read the full comparison ↗"
+  B <div .vc-timeline-head> 44,13059 302x118 pad=15px 0px grid gap=16px cols=143px 143px jc=normal ai=start border=1px 0px 1px 0px solid #d5ddd1
+  T <span> 44,13075 143x26 | ValleyCompare, Arial 17px/25.5px ls=normal w400 #1c292e  | "Valley"
+  SVG 44,13078 20x20 fill=none stroke=none color=#1c292e 
+  B <span .vc-mobile-competitor> 203,13075 143x86 flex column gap=9px jc=normal ai=start 
+  B <span> 203,13075 103x26 flex row gap=8px jc=normal ai=center 
+  IMG 203,13078 20x20 fit=contain pos=50% 50%  src=https://www.google.com/s2/favicons?domain=www.heyreach.io&sz=64 alt=""
+  T <span> 231,13075 75x26 | ValleyCompare, Arial 17px/25.5px ls=normal w400 #1c292e  | "HeyReach"
+  B <span .vc-channel-badges> 203,13110 143x51 flex row gap=5px jc=normal ai=normal 
+  B <span .vc-channel-badge> 203,13110 94x23 pad=4px 5px flex row gap=5px jc=normal ai=center border=1px 1px 1px 1px solid #cbd3c6
+  T <span> 209,13115 24x13 | ValleyCompare, Arial 10px/13px ls=normal w500 #3c503c  | "Email"
+  T <span> 238,13115 6x13 | ValleyCompare, Arial 10px/13px ls=normal w400 #394c56  | "↗"
+  T <span> 248,13115 42x13 | ValleyCompare, Arial 10px/13px ls=normal w400 #394c56  | "Other tool"
+  B <span .vc-channel-badge> 203,13138 94x23 pad=4px 5px flex row gap=5px jc=normal ai=center bg=#e9f0f2 border=1px 1px 1px 1px solid #9caf96
+  T <span> 209,13143 37x13 | ValleyCompare, Arial 10px/13px ls=normal w500 #3c503c  | "LinkedIn"
+  T <span> 251,13143 8x13 | ValleyCompare, Arial 10px/13px ls=normal w400 #394c56  | "✓"
+  T <span> 263,13143 28x13 | ValleyCompare, Arial 10px/13px ls=normal w400 #394c56  | "Built in"
+  B <li> 44,13177 302x375 pad=24px 0px grid gap=12px cols=145px 145px jc=normal ai=normal border=0px 0px 1px 0px none #1c292e b:#d5ddd1
+  T <h4> 44,13201 302x30 | ValleyCompare, Arial 20px/30px ls=normal w500 #1c292e  | "Live buying signals"
+  T <span> 44,13212 11x14 | ValleyCompare, Arial 11px/16.5px ls=normal w500 #6c7a62  | "0 1"
+  T <p> 44,13243 302x96 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "Find prospects using multiple current buying-event types; a static contact database or one social trigger alone is insufficient."
+  T <strong> 44,13245 87x19 | ValleyCompare, Arial 16px/24px ls=normal w500 #344f40  | "What counts"
+  B <div> 44,13353 145x174 pad=0px 0px 0px 10px border=0px 0px 0px 2px none #1c292e
+  T <span> 56,13355 63x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #2d5637  | "Built in"
+  T <span> 56,13356 11x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #2d5637  | "✓"
+  T <p> 56,13385 133x96 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "Find prospects through buying signals, playbooks, or your own list."
+  B <div> 201,13353 145x174 pad=0px 0px 0px 10px border=0px 0px 0px 2px none #1c292e
+  T <span> 213,13355 133x45 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #394c56  | "Requires another tool"
+  T <span> 213,13356 7x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #394c56  | "↗"
+  T <p> 213,13407 133x120 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "Signals and discovery arrive from Clay, RB2B or other upstream tools."
+  B <li> 44,13552 302x378 pad=24px 0px grid gap=12px cols=145px 145px jc=normal ai=normal border=0px 0px 1px 0px none #1c292e b:#d5ddd1
+  T <h4> 44,13576 302x30 | ValleyCompare, Arial 20px/30px ls=normal w500 #1c292e  | "Qualify"
+  T <span> 44,13587 13x14 | ValleyCompare, Arial 11px/16.5px ls=normal w500 #6c7a62  | "0 2"
+  T <p> 44,13618 302x96 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "Evaluate a prospect against configured ICP criteria before outreach; distinguish fit assessment from engagement-only branching."
+  T <strong> 44,13620 87x19 | ValleyCompare, Arial 16px/24px ls=normal w500 #344f40  | "What counts"
+  B <div> 44,13728 145x177 pad=0px 0px 0px 10px border=0px 0px 0px 2px none #1c292e
+  T <span> 56,13730 63x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #2d5637  | "Built in"
+  T <span> 56,13731 11x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #2d5637  | "✓"
+  T <p> 56,13760 133x144 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "Check prospects against your ideal customer profile and review the reasons for each match."
+  B <div> 201,13728 145x177 pad=0px 0px 0px 10px border=0px 0px 0px 2px none #1c292e
+  T <span> 213,13730 133x45 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #394c56  | "Requires another tool"
+  T <span> 213,13731 7x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #394c56  | "↗"
+  T <p> 213,13782 133x120 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "Documented qualification happens upstream before HeyReach receives the lead."
+  B <li> 44,13929 302x399 pad=24px 0px grid gap=12px cols=145px 145px jc=normal ai=normal border=0px 0px 1px 0px none #1c292e b:#d5ddd1
+  T <h4> 44,13953 302x30 | ValleyCompare, Arial 20px/30px ls=normal w500 #1c292e  | "Deep research"
+  T <span> 44,13964 14x14 | ValleyCompare, Arial 11px/16.5px ls=normal w500 #6c7a62  | "0 3"
+  T <p> 44,13995 302x120 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "Produce substantive prospect-specific open-web findings with inspectable supporting sources; profile fields and generic enrichment alone are insufficient."
+  T <strong> 44,13997 87x19 | ValleyCompare, Arial 16px/24px ls=normal w500 #344f40  | "What counts"
+  B <div> 44,14129 145x174 pad=0px 0px 0px 10px border=0px 0px 0px 2px none #1c292e
+  T <span> 56,14131 63x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #2d5637  | "Built in"
+  T <span> 56,14132 11x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #2d5637  | "✓"
+  T <p> 56,14162 133x120 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "Bring prospect activity, interviews, and company context into sourced research."
+  B <div> 201,14129 145x174 pad=0px 0px 0px 10px border=0px 0px 0px 2px none #1c292e
+  T <span> 213,14131 133x45 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #394c56  | "Requires another tool"
+  T <span> 213,14132 7x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #394c56  | "↗"
+  T <p> 213,14183 133x120 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "Research and enrichment are supplied by a connected intelligence layer."
+  B <li> 44,14328 302x423 pad=24px 0px grid gap=12px cols=145px 145px jc=normal ai=normal border=0px 0px 1px 0px none #1c292e b:#d5ddd1
+  T <h4> 44,14352 302x30 | ValleyCompare, Arial 20px/30px ls=normal w500 #1c292e  | "Your writing voice"
+  T <span> 44,14363 13x14 | ValleyCompare, Arial 11px/16.5px ls=normal w500 #6c7a62  | "0 4"
+  T <p> 44,14394 302x120 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "Generate outreach from stored writing examples, style documents, sent-mail history, or learned edits; variables, generic AI copy and acoustic voice cloning alone are insufficient."
+  T <strong> 44,14396 87x19 | ValleyCompare, Arial 16px/24px ls=normal w500 #344f40  | "What counts"
+  B <div> 44,14528 145x198 pad=0px 0px 0px 10px border=0px 0px 0px 2px none #1c292e
+  T <span> 56,14530 63x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #2d5637  | "Built in"
+  T <span> 56,14531 11x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #2d5637  | "✓"
+  T <p> 56,14561 133x120 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "Turn the research and your writing style into drafts you can review and edit."
+  B <div> 201,14528 145x198 pad=0px 0px 0px 10px border=0px 0px 0px 2px none #1c292e
+  T <span> 213,14530 133x45 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #394c56  | "Requires another tool"
+  T <span> 213,14531 7x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #394c56  | "↗"
+  T <p> 213,14582 133x144 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "External AI agents can create custom messages; native learned written style is not established."
+  B <li> 44,14751 302x378 pad=24px 0px grid gap=12px cols=145px 145px jc=normal ai=normal border=0px 0px 1px 0px none #1c292e b:#d5ddd1
+  T <h4> 44,14775 302x30 | ValleyCompare, Arial 20px/30px ls=normal w500 #1c292e  | "Email + LinkedIn"
+  T <span> 44,14786 13x14 | ValleyCompare, Arial 11px/16.5px ls=normal w500 #6c7a62  | "0 5"
+  T <p> 44,14817 302x96 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "Execute both email and LinkedIn outreach automatically within the product; show the two channel dependencies separately."
+  T <strong> 44,14819 87x19 | ValleyCompare, Arial 16px/24px ls=normal w500 #344f40  | "What counts"
+  B <div> 44,14927 145x177 pad=0px 0px 0px 10px border=0px 0px 0px 2px none #1c292e
+  T <span> 56,14929 63x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #2d5637  | "Built in"
+  T <span> 56,14930 11x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #2d5637  | "✓"
+  T <p> 56,14959 133x144 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "Run researched LinkedIn and email campaigns. Email is included with Plus and an optional add-on on Starter."
+  B <div> 201,14927 145x177 pad=0px 0px 0px 10px border=0px 0px 0px 2px none #1c292e
+  T <span> 213,14929 133x45 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #394c56  | "Requires another tool"
+  T <span> 213,14930 7x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #394c56  | "↗"
+  T <p> 213,14981 133x96 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "LinkedIn sending is native; email execution needs a connected sender."
+  B <li> 44,15128 302x330 pad=24px 0px grid gap=12px cols=145px 145px jc=normal ai=normal border=0px 0px 1px 0px none #1c292e b:#d5ddd1
+  T <h4> 44,15152 302x30 | ValleyCompare, Arial 20px/30px ls=normal w500 #1c292e  | "Manage replies"
+  T <span> 44,15163 13x14 | ValleyCompare, Arial 11px/16.5px ls=normal w500 #6c7a62  | "0 6"
+  T <p> 44,15194 302x96 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "Provide a native workspace or agent for triaging and responding to inbound prospect replies; report the covered channels."
+  T <strong> 44,15196 87x19 | ValleyCompare, Arial 16px/24px ls=normal w500 #344f40  | "What counts"
+  B <div> 44,15304 145x129 pad=0px 0px 0px 10px border=0px 0px 0px 2px none #1c292e
+  T <span> 56,15306 63x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #2d5637  | "Built in"
+  T <span> 56,15307 11x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #2d5637  | "✓"
+  T <p> 56,15337 133x96 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "Review replies with the prospect and campaign context close at hand."
+  B <div> 201,15304 145x129 pad=0px 0px 0px 10px bg=#eff3e9 border=0px 0px 0px 2px none #52735a
+  T <span> 213,15306 63x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #2d5637  | "Built in"
+  T <span> 213,15307 11x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #2d5637  | "✓"
+  T <p> 213,15337 133x96 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "Unified Inbox manages replies across connected LinkedIn accounts."
+  B <li> 44,15458 302x450 pad=24px 0px grid gap=12px cols=145px 145px jc=normal ai=normal border=0px 0px 1px 0px none #1c292e b:#d5ddd1
+  T <h4> 44,15482 302x30 | ValleyCompare, Arial 20px/30px ls=normal w500 #1c292e  | "Learn & improve"
+  T <span> 44,15493 12x14 | ValleyCompare, Arial 11px/16.5px ls=normal w500 #6c7a62  | "0 7"
+  T <p> 44,15524 302x120 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "Use observed campaign outcomes to update future targeting or messaging automatically; analytics, manual A/B decisions and instruction edits alone are partial."
+  T <strong> 44,15526 87x19 | ValleyCompare, Arial 16px/24px ls=normal w500 #344f40  | "What counts"
+  B <div> 44,15658 145x225 pad=0px 0px 0px 10px border=0px 0px 0px 2px none #1c292e
+  T <span> 56,15660 63x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #2d5637  | "Built in"
+  T <span> 56,15661 11x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #2d5637  | "✓"
+  T <p> 56,15690 133x96 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "Use campaign results to refine your audience and messaging."
+  B <div> 201,15658 145x225 pad=0px 0px 0px 10px border=0px 0px 0px 2px none #1c292e
+  T <span> 213,15660 132x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #394c56  | "Partial coverage"
+  T <span> 213,15661 15x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #394c56  | "◐"
+  T <p> 213,15690 133x192 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "Reports and API events support operator or external-agent improvement; native outcome learning is not established."
+  B <div .vc-legend> 44,15931 302x220 pad=10px 0px 24px flex row gap=20px jc=space-between ai=center border=0px 0px 1px 0px none #1c292e b:#d5ddd1
+  B <div .vc-legend-items> 44,15941 302x75 flex row gap=12px 20px jc=normal ai=normal 
+  T <span> 44,15941 68x32 | ValleyCompare, Arial 16px/24px ls=normal w400 #1c292e  | "Built in"
+  T <b> 44,15941 16x32 | ValleyCompare, Arial 21px/31.5px ls=normal w700 #1c292e  | "✓"
+  T <span> 132,15941 145x32 | ValleyCompare, Arial 16px/24px ls=normal w400 #1c292e  | "Limited / external"
+  T <b> 132,15941 21x32 | ValleyCompare, Arial 21px/31.5px ls=normal w700 #1c292e  | "◐"
+  T <span> 44,15985 190x32 | ValleyCompare, Arial 16px/24px ls=normal w400 #1c292e  | "No confirmed coverage"
+  T <b> 44,15985 23x32 | ValleyCompare, Arial 21px/31.5px ls=normal w700 #1c292e  | "—"
+  T <p> 44,16036 302x90 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source."
+  B <details .vc-criteria> 44,16151 302x104 pad=22px 0px border=0px 0px 1px 0px none #1c292e b:#d5ddd1
+  T <summary> 44,16173 302x59 | ValleyCompare, Arial 20px/30px ls=normal w500 #1c292e  | "What each stage means"
+  T <span> 44,16209 302x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "7 steps in the workflow"
+  B <ol> 44,16256 302x1657 grid gap=24px cols=302px jc=normal ai=normal 
+  B <li> 44,16256 302x205 pad=20px bg=#ffffff border=1px 1px 1px 1px solid #d5dfe0
+  T <h4> 65,16277 260x53 | ValleyCompare, Arial 19px/26.6px ls=normal w500 #1c292e  | "Live buying signals"
+  T <span> 65,16277 260x18 | ValleyCompare, Arial 13px/18.2px ls=1.56px w500 #52616a  | "0 1"
+  T <p> 65,16338 260x102 | ValleyCompare, Arial 16px/25.6px ls=normal w400 #52616a  | "Find prospects using multiple current buying-event types; a static contact database or one social trigger alone is insufficient."
+  B <li> 44,16485 302x205 pad=20px bg=#ffffff border=1px 1px 1px 1px solid #d5dfe0
+  T <h4> 65,16506 260x53 | ValleyCompare, Arial 19px/26.6px ls=normal w500 #1c292e  | "Qualify"
+  T <span> 65,16506 260x18 | ValleyCompare, Arial 13px/18.2px ls=1.56px w500 #52616a  | "0 2"
+  T <p> 65,16567 260x102 | ValleyCompare, Arial 16px/25.6px ls=normal w400 #52616a  | "Evaluate a prospect against configured ICP criteria before outreach; distinguish fit assessment from engagement-only branching."
+  B <li> 44,16714 302x231 pad=20px bg=#ffffff border=1px 1px 1px 1px solid #d5dfe0
+  T <h4> 65,16735 260x53 | ValleyCompare, Arial 19px/26.6px ls=normal w500 #1c292e  | "Deep research"
+  T <span> 65,16735 260x18 | ValleyCompare, Arial 13px/18.2px ls=1.56px w500 #52616a  | "0 3"
+  T <p> 65,16796 260x128 | ValleyCompare, Arial 16px/25.6px ls=normal w400 #52616a  | "Produce substantive prospect-specific open-web findings with inspectable supporting sources; profile fields and generic enrichment alone are insufficient."
+  B <li> 44,16969 302x231 pad=20px bg=#ffffff border=1px 1px 1px 1px solid #d5dfe0
+  T <h4> 65,16990 260x53 | ValleyCompare, Arial 19px/26.6px ls=normal w500 #1c292e  | "Your writing voice"
+  T <span> 65,16990 260x18 | ValleyCompare, Arial 13px/18.2px ls=1.56px w500 #52616a  | "0 4"
+  T <p> 65,17051 260x128 | ValleyCompare, Arial 16px/25.6px ls=normal w400 #52616a  | "Generate outreach from stored writing examples, style documents, sent-mail history, or learned edits; variables, generic AI copy and acoustic voice cloning alone are insufficient."
+  B <li> 44,17224 302x205 pad=20px bg=#ffffff border=1px 1px 1px 1px solid #d5dfe0
+  T <h4> 65,17245 260x53 | ValleyCompare, Arial 19px/26.6px ls=normal w500 #1c292e  | "Email + LinkedIn"
+  T <span> 65,17245 260x18 | ValleyCompare, Arial 13px/18.2px ls=1.56px w500 #52616a  | "0 5"
+  T <p> 65,17305 260x102 | ValleyCompare, Arial 16px/25.6px ls=normal w400 #52616a  | "Execute both email and LinkedIn outreach automatically within the product; show the two channel dependencies separately."
+  B <li> 44,17453 302x205 pad=20px bg=#ffffff border=1px 1px 1px 1px solid #d5dfe0
+  T <h4> 65,17474 260x53 | ValleyCompare, Arial 19px/26.6px ls=normal w500 #1c292e  | "Manage replies"
+  T <span> 65,17474 260x18 | ValleyCompare, Arial 13px/18.2px ls=1.56px w500 #52616a  | "0 6"
+  T <p> 65,17535 260x102 | ValleyCompare, Arial 16px/25.6px ls=normal w400 #52616a  | "Provide a native workspace or agent for triaging and responding to inbound prospect replies; report the covered channels."
+  B <li> 44,17682 302x231 pad=20px bg=#ffffff border=1px 1px 1px 1px solid #d5dfe0
+  T <h4> 65,17703 260x53 | ValleyCompare, Arial 19px/26.6px ls=normal w500 #1c292e  | "Learn & improve"
+  T <span> 65,17703 260x18 | ValleyCompare, Arial 13px/18.2px ls=1.56px w500 #52616a  | "0 7"
+  T <p> 65,17764 260x128 | ValleyCompare, Arial 16px/25.6px ls=normal w400 #52616a  | "Use observed campaign outcomes to update future targeting or messaging automatically; analytics, manual A/B decisions and instruction edits alone are partial."
+  B <div .vc-close> 24,16281 342x320 pad=35px 20px flex column gap=30px jc=space-between ai=start border=1px 0px 0px 0px solid #d5ddd1 b:#1c292e
+  T <h3> 44,16317 302x67 | ValleyCompare, Arial 29px/33.35px ls=-0.87px w500 #1c292e  | "Compare the work. Then decide."
+  T <p> 44,16393 302x51 | ValleyCompare, Arial 17px/25.5px ls=normal w400 #394c56  | "Explore all seven stages and the details behind each comparison."
+  B <div .vc-actions> 44,16474 302x91 flex row gap=15px jc=normal ai=center 
+  T <a> 44,16474 159x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #1c292e  | "Valley vs. Competition ↗"
+  T <a> 44,16513 202x52 | ValleyCompare, Arial 16px/24px ls=normal w400 #ffffff pad=14px 20px bg=#1c292e | "See Valley in action"
+  T <span> 217,16527 9x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #ffffff  | "↗"
+
+######## [8] FAQs- V3 2 valley-start-questions y=16664 h=767 pos=relative
+  B <section FAQs- V3 2> 0,16664 390x767 pad=48px 20px bg=#f8f9f7 ovf=hidden
+  B <div .vsq-faq> 20,16712 350x671 pad=24px 20px grid gap=28px cols=308px jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d6dede
+  T <h2> 41,16737 308x69 | Valley Body Montreal, Arial 32px/34.56px ls=-1.28px w500 #1c292d  | "Questions, answered."
+  T <p> 41,16819 308x52 | Valley Body Montreal, Arial 18px/26.1px ls=normal w400 #52616a  | "The practical details before your first campaign."
+  B <details> 41,16899 308x68 border=1px 0px 1px 0px solid #cfd8d8
+  T <summary> 41,16900 308x66 | Valley Body Montreal, Arial 18px/23.4px ls=-0.36px w500 #1c292d pad=19px 0px  | "What do I need to get started?"
+  T <span> 321,16919 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.36px w400 #547997  | "+"
+  T <p> 41,16966 308x123 | Valley Body Montreal, Arial 16px/24.8px ls=normal w400 #4a5b64 pad=0px 0px 24px  | "Tell Valley what you sell, who you sell to and how you write. Choose a play or bring your own list, connect your sending accounts, then review the outreach before launch."
+  B <details> 41,16967 308x86 border=0px 0px 1px 0px none #1c292d b:#cfd8d8
+  T <summary> 41,16967 308x85 | Valley Body Montreal, Arial 18px/23.4px ls=-0.36px w500 #1c292d pad=19px 0px  | "Can I review and edit the messages?"
+  T <span> 321,16986 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.36px w400 #547997  | "+"
+  T <p> 41,17052 308x123 | Valley Body Montreal, Arial 16px/24.8px ls=normal w400 #4a5b64 pad=0px 0px 24px  | "Yes. Review, edit and approve drafts before they go out. You choose the sending schedule and follow-up steps for your campaign."
+  B <details> 41,17053 308x86 border=0px 0px 1px 0px none #1c292d b:#cfd8d8
+  T <summary> 41,17053 308x85 | Valley Body Montreal, Arial 18px/23.4px ls=-0.36px w500 #1c292d pad=19px 0px  | "Does Valley send email as well as LinkedIn messages?"
+  T <span> 321,17072 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.36px w400 #547997  | "+"
+  T <p> 41,17137 308x173 | Valley Body Montreal, Arial 16px/24.8px ls=normal w400 #4a5b64 pad=0px 0px 24px  | "Yes. Combine email and LinkedIn in the same sequence. Email sending is an optional add-on on the base plan; the middle and upper plans include 1,000 email messages per month. Connect your Gmail or Microsoft inbox to send."
+  B <details> 41,17138 308x86 border=0px 0px 1px 0px none #1c292d b:#cfd8d8
+  T <summary> 41,17138 308x85 | Valley Body Montreal, Arial 18px/23.4px ls=-0.36px w500 #1c292d pad=19px 0px  | "Which plan includes email and priority support?"
+  T <span> 321,17157 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.36px w400 #547997  | "+"
+  T <p> 41,17223 308x247 | Valley Body Montreal, Arial 16px/24.8px ls=normal w400 #4a5b64 pad=0px 0px 24px  | "Starter is $199/month or $149/month billed quarterly. Email sending, priority Slack support, and an onboarding call are optional add-ons. Plus, at $299/month or $249/month billed quarterly, includes 1,000 email messages per month, a priority support Slack group, and an onboarding call. Growth includ"
+  B <details> 41,17224 308x67 border=0px 0px 1px 0px none #1c292d b:#cfd8d8
+  T <summary> 41,17224 308x66 | Valley Body Montreal, Arial 18px/23.4px ls=-0.36px w500 #1c292d pad=19px 0px  | "What uses credits?"
+  T <span> 321,17243 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.36px w400 #547997  | "+"
+  T <p> 41,17290 308x148 | Valley Body Montreal, Arial 16px/24.8px ls=normal w400 #4a5b64 pad=0px 0px 24px  | "Finding new prospects, finding and verifying email addresses, and upgraded message generation use credits. Research, base message writing, imports and LinkedIn sending are included in the subscription."
+  B <details> 41,17291 308x67 border=0px 0px 1px 0px none #1c292d b:#cfd8d8
+  T <summary> 41,17291 308x66 | Valley Body Montreal, Arial 18px/23.4px ls=-0.36px w500 #1c292d pad=19px 0px  | "How does the free trial work?"
+  T <span> 321,17310 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.36px w400 #547997  | "+"
+  T <p> 41,17357 308x123 | Valley Body Montreal, Arial 16px/24.8px ls=normal w400 #4a5b64 pad=0px 0px 24px  | "Eligible new subscribers get a 7-day trial. A payment method is required. Cancel before the trial ends to avoid starting the paid subscription."
+
+######## [9] Phone vf y=17431 h=815 pos=static
+  B <footer Phone> 0,17431 390x815 bg=#1c3036 ovf=hidden
+  B <footer .vf> 0,17431 390x815 bg=#1c3036
+  B <div .vf-inner> 0,17431 390x815 pad=40px 24px 24px 
+  B <div .vf-top> 24,17471 342x307 pad=0px 0px 48px grid gap=28px cols=342px jc=normal ai=center border=0px 0px 1px 0px none #f8f9f7 b:#ffffff/0.19
+  T <h2> 24,17471 342x111 | ValleyFooter, Arial 33px/36.96px ls=-1.155px w500 #f8f9f7  | "Find your people. Give them a reason to reply."
+  T <p> 24,17600 342x54 | ValleyFooter, Arial 18px/27px ls=normal w400 #c2d0d2  | "Find, qualify, research, and reach your next buyers across email and LinkedIn."
+  B <div .vf-actions> 24,17682 342x47 flex row gap=12px jc=flex-start ai=normal 
+  T <a> 24,17682 136x47 | ValleyFooter, Arial 16px/normal ls=normal w400 #1c3036 pad=13px 17px bg=#f8f9f7 border=1px 1px 1px 1px solid #f8f9f7 | "Start for free →"
+  T <a> 172,17682 126x47 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7 pad=13px 17px border=1px 1px 1px 1px solid #718589 | "Book a demo"
+  B <div .vf-links> 24,17778 342x371 pad=44px 0px grid gap=32px cols=155px 155px jc=normal ai=normal 
+  T <a> 24,17822 342x38 | ValleyFooter, Arial 30px/normal ls=-1.05px w500 #f8f9f7  | "Valley"
+  SVG 24,17822 38x38 fill=#f8f9f7 stroke=none color=#f8f9f7 
+  T <p> 24,17860 290x45 | ValleyFooter, Arial 15px/22.5px ls=normal w400 #bbcdce  | "Your outbound team. One connected platform."
+  T <a> 24,17905 89x14 | ValleyFooter, Arial 12px/normal ls=normal w400 #f8f9f7  | "hey@joinvalley.co"
+  B <nav> 24,17951 155x154 flex column gap=14px jc=normal ai=flex-start 
+  T <strong> 24,17951 106x14 | ValleyFooter, Arial 12px/normal ls=0.72px w400 #9eb6ba tt=uppercase  | "Explore Valley"
+  T <a> 24,17987 54x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Product"
+  T <a> 24,18020 74x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Customers"
+  T <a> 24,18053 64x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Agencies"
+  T <a> 24,18086 47x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Pricing"
+  B <nav> 211,17951 155x154 flex column gap=14px jc=normal ai=flex-start 
+  T <strong> 211,17951 82x14 | ValleyFooter, Arial 12px/normal ls=0.72px w400 #9eb6ba tt=uppercase  | "Learn more"
+  T <a> 211,17987 73x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Resources"
+  T <a> 211,18020 68x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "All articles"
+  T <a> 211,18053 83x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "About Valley"
+  T <a> 211,18086 41x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Log in"
+  B <div .vf-bottom> 24,18149 342x73 pad=24px 0px 0px flex row gap=18px jc=space-between ai=normal border=1px 0px 0px 0px solid #ffffff/0.19 b:#b4c7c9
+  T <span> 24,18174 150x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "© Valley. All rights reserved."
+  B <div> 24,18207 181x15 flex row gap=16px jc=normal ai=normal 
+  T <a> 24,18207 75x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "Privacy policy"
+  T <a> 115,18207 90x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "Terms of service"
+
+######## [10] Phone - Close  y=0 h=68 pos=static
+  B <div> 0,0 390x68 pos=fixed top=0px
+  B <header Phone - Close> 0,0 390x68 pad=10px 20px bg=#f8f9f7 ovf=clip
+  B <div Mob Logo + Menu> 20,10 350x48 pad=0px 0px 0px 16px flex row gap=normal jc=space-between ai=center 
+  B <div> 36,20 99x29 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 99 29.078%22 overflow=%22visible%22><path d=%22M 6.402 0 L 14.539 8.137 L 11.738 11.071 L 
+  B <button Menu - Closed> 322,10 48x48 radius=2px ovf=hidden
+  B <div> 336,27 19x2 bg=#000000
+  B <div> 336,34 19x2 bg=#000000
+  B <div> 336,34 19x2 bg=#000000
+  B <div> 336,41 19x2 bg=#000000

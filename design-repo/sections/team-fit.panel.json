@@ -1,0 +1,30 @@
+{
+  "id": "team-fit.panel",
+  "layer": "section",
+  "purpose": "Segment-fit messaging: who Valley is built for, by persona/team-type tab.",
+  "composes": ["tab-group"],
+  "measuredFrom": "CLONE_SPEC.md section 16; spec/GRID.md:47,175-177,215",
+  "content": {
+    "type": "object",
+    "properties": {
+      "h2": { "type": "string", "maxWords": 10 },
+      "tabs": { "type": "array", "minItems": 2, "maxItems": 3, "items": { "type": "object", "properties": { "label": { "type": "string", "maxWords": 4 }, "h3": { "type": "string", "maxWords": 10 }, "body": { "type": "string", "maxWords": 30 } }, "required": ["label", "h3", "body"], "additionalProperties": false } }
+    },
+    "required": ["h2", "tabs"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true },
+  "responsive": {
+    "desktopLarge": { "containerQuery": ">=1280c", "layout": "1.08fr 1fr, gap 72, shell padding 60/64/64" },
+    "desktopMedium": { "note": "at 1366 (below 1280c container threshold) uses medium shell", "measuredFrom": "spec/GRID.md:215" },
+    "containerBand900": { "containerQuery": "<=900c", "layout": "1.08fr 1fr, gap 32" },
+    "containerBand620": { "containerQuery": "<=620c", "layout": "1fr, gap 28; tabs become repeat(3,minmax(0,1fr))" },
+    "measuredFrom": "spec/GRID.md:47,176"
+  },
+  "motion": {
+    "pattern": "panel-arrive-keyframe",
+    "keyframeRefs": ["vtf-arrive"],
+    "reducedMotionFallback": "active panel renders statically, no arrive animation on tab switch"
+  },
+  "assetRoles": {}
+}

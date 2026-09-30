@@ -1,0 +1,216 @@
+/* wall-of-love (CLONE_SPEC.md section 17; dumps section 9).
+   Ported verbatim from spec/components.css ".vgs*" (the rules this section uses), scoped under
+   #wall-of-love so they can't collide with the steps/integrations copies of the shared .vgs CSS.
+   Colors that match a shared token use theme(); the rest are the literal site values.
+   Font: "PP Neue Montreal" -> renders as Inter 400/700 (spec 4 quirk). */
+
+#wall-of-love.vgs {
+  /* lives inside the live "Who it fits, plans and questions" frame: max-width 1800 centered (grid audit) */
+  max-width: 1800px;
+  margin-inline: auto;
+  color: theme('colors.ink.vgs');
+  font-family: "PP Neue Montreal", Inter, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  background: theme('colors.surface.vgs');
+  /* Framer sets body{-webkit-font-smoothing:antialiased}; the clone body doesn't (index.css is shared). */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#wall-of-love.vgs * {
+  box-sizing: border-box;
+}
+/* live page has no preflight: img max-width stays none */
+#wall-of-love.vgs img {
+  max-width: none;
+}
+#wall-of-love.vgs h2, #wall-of-love.vgs h3, #wall-of-love.vgs p {
+  margin: 0px;
+}
+#wall-of-love.vgs a {
+  color: inherit;
+}
+#wall-of-love.vgs :focus-visible {
+  outline: rgb(52, 118, 167) solid 3px;
+  outline-offset: 4px;
+}
+#wall-of-love .vgs-wrap {
+  max-width: 1456px;
+  margin: auto;
+  padding: 88px 48px;
+}
+#wall-of-love .vgs-header {
+  margin-bottom: 56px;
+  max-width: 890px;
+}
+#wall-of-love .vgs-eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: theme('colors.accent.vgs-eyebrow');
+  display: block;
+  margin-bottom: 22px;
+}
+#wall-of-love.vgs h2 {
+  font-size: clamp(36px, 4.1vw, 58px);
+  letter-spacing: -0.035em;
+  font-weight: 500;
+  line-height: 1.07;
+}
+#wall-of-love .vgs-header > p {
+  font-size: 21px;
+  color: theme('colors.grey.body');
+  margin-top: 24px;
+  max-width: 780px;
+}
+#wall-of-love .vgs-textlink {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+  font-size: 16px;
+  color: theme('colors.accent.vgs-link') !important;
+}
+#wall-of-love .vgs-textlink:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+#wall-of-love .vgs-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0px, 1fr));
+  gap: 40px;
+  margin: 0px 0px 42px;
+}
+#wall-of-love .vgs-metrics a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+#wall-of-love .vgs-metrics b {
+  font-size: 72px;
+  font-weight: 500;
+  letter-spacing: -0.045em;
+  line-height: 1;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgb(205, 217, 212);
+}
+#wall-of-love .vgs-metrics span {
+  font-size: 19px;
+  margin-top: 16px;
+}
+#wall-of-love .vgs-metrics small {
+  color: rgb(66, 116, 151);
+  font-size: 13px;
+  margin-top: 8px;
+}
+#wall-of-love .vgs-quotes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0px, 1fr));
+  gap: 16px;
+}
+#wall-of-love .vgs-quotes figure {
+  margin: 0px;
+  padding: 28px;
+  background: white;
+  border: 1px solid theme('colors.line.vgs');
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+}
+#wall-of-love .vgs-quotes blockquote {
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: -0.015em;
+  margin: 0px;
+}
+#wall-of-love .vgs-quotes figcaption {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+#wall-of-love .vgs-quotes img {
+  width: 52px;
+  height: 52px;
+  object-fit: cover;
+  border-radius: theme('borderRadius.chip');
+}
+#wall-of-love .vgs-quotes figcaption span {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+#wall-of-love .vgs-quotes figcaption b {
+  font-size: 15px;
+  font-weight: 500;
+}
+#wall-of-love .vgs-quotes figcaption small {
+  font-size: 13px;
+  color: theme('colors.grey.body');
+}
+#wall-of-love .vgs-love-bottom {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 28px;
+}
+
+@media (max-width: 1100px) {
+  #wall-of-love .vgs-quotes {
+    grid-template-columns: repeat(2, minmax(0px, 1fr));
+  }
+  #wall-of-love .vgs-quotes figure:first-child {
+    grid-column: 1 / -1;
+  }
+}
+@media (max-width: 720px) {
+  #wall-of-love .vgs-wrap {
+    padding: 64px 24px;
+  }
+  #wall-of-love .vgs-header {
+    margin-bottom: 36px;
+  }
+  #wall-of-love .vgs-header > p {
+    font-size: 19px;
+  }
+  #wall-of-love .vgs-metrics {
+    gap: 22px;
+  }
+  #wall-of-love .vgs-metrics b {
+    font-size: 48px;
+  }
+  #wall-of-love .vgs-metrics span {
+    font-size: 15px;
+  }
+  #wall-of-love .vgs-metrics small {
+    font-size: 12px;
+  }
+  #wall-of-love .vgs-quotes {
+    grid-template-columns: 1fr;
+  }
+  #wall-of-love .vgs-quotes figure:first-child {
+    grid-column: auto;
+  }
+  #wall-of-love .vgs-love-bottom {
+    flex-direction: column;
+    align-items: start;
+  }
+  #wall-of-love .vgs-quotes blockquote {
+    font-size: 20px;
+  }
+}
+@media (max-width: 400px) {
+  #wall-of-love .vgs-metrics {
+    gap: 16px;
+  }
+  #wall-of-love .vgs-metrics b {
+    font-size: 42px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #wall-of-love.vgs * {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}

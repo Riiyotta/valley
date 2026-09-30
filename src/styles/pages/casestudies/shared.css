@@ -1,0 +1,98 @@
+/* Shared by /casestudies and /casestudies/:slug. Values: spec/pages/casestudies-index.md,
+   spec/pages/casestudy.md, spec/pages/blog-index.md 6 (Read pill). */
+
+/* ---- Template fonts (casestudy.md 11, casestudies-index.md 9) ---- */
+@font-face { font-family: "Geist Mono Regular"; src: url("/assets/pages/fonts/Lmb0Q1R6W4GsaGVtHGnTyQsZCY.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Geist Mono"; src: url("/assets/pages/fonts/geistmono-latin-var.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: "DM Sans"; src: url("/assets/pages/fonts/dmsans-latin-var.woff2") format("woff2"); font-weight: 100 1000; font-display: swap; }
+
+/* ---- In-view reveal: Framer spring {stiffness 210, damping 70, mass 1}, sampled to linear().
+   Heavily overdamped: p = 0.86 at 650ms, settles ~2.4s; y tracks opacity (y = Y * (1 - p)). ---- */
+.csx-reveal {
+  opacity: 0;
+  transform: translateY(var(--rv-y, 15px));
+}
+.csx-reveal.is-in {
+  opacity: 1;
+  transform: none;
+  transition-property: opacity, transform;
+  transition-duration: 2437ms;
+  transition-delay: var(--rv-delay, 0s);
+  transition-timing-function: linear(0, 0.1763 3.13%, 0.3509 6.25%, 0.4886 9.38%, 0.5978 12.5%, 0.6831 15.63%, 0.7504 18.75%, 0.8037 21.88%, 0.8453 25%, 0.8781 28.13%, 0.9041 31.25%, 0.9245 34.38%, 0.9405 37.5%, 0.9532 40.63%, 0.9631 43.75%, 0.971 46.88%, 0.9772 50%, 0.982 53.13%, 0.9858 56.25%, 0.9888 59.38%, 0.9912 62.5%, 0.9931 65.63%, 0.9945 68.75%, 0.9957 71.88%, 0.9966 75%, 0.9973 78.13%, 0.9979 81.25%, 0.9984 84.38%, 0.9987 87.5%, 0.999 90.63%, 0.9992 93.75%, 0.9994 96.88%, 1);
+}
+@media (prefers-reduced-motion: reduce) {
+  .csx-reveal, .csx-reveal.is-in { opacity: 1; transform: none; transition: none; }
+}
+
+/* ---- "Read" pill (blog-index.md 6; casestudies-index.md 6; hover diffs states/st_ci.json).
+   Hover spring {stiffness 500, damping 60, mass 1} -> 785ms linear(). ---- */
+.csx-pill {
+  --pill-ease: linear(0, 0.1005 3.13%, 0.262 6.25%, 0.4123 9.38%, 0.5368 12.5%, 0.6364 15.63%, 0.7149 18.75%, 0.7766 21.88%, 0.8249 25%, 0.8629 28.13%, 0.8926 31.25%, 0.9158 34.38%, 0.9341 37.5%, 0.9483 40.63%, 0.9595 43.75%, 0.9683 46.88%, 0.9752 50%, 0.9806 53.13%, 0.9848 56.25%, 0.9881 59.38%, 0.9907 62.5%, 0.9927 65.63%, 0.9943 68.75%, 0.9955 71.88%, 0.9965 75%, 0.9973 78.13%, 0.9978 81.25%, 0.9983 84.38%, 0.9987 87.5%, 0.999 90.63%, 0.9992 93.75%, 0.9994 96.88%, 1);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px 12px;
+  background-color: #000;
+  overflow: hidden;
+  text-decoration: none;
+  flex: 0 0 auto;
+  transition: background-color 785ms var(--pill-ease);
+}
+.csx-pill::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0);
+  pointer-events: none;
+  transition: border-color 785ms var(--pill-ease);
+}
+.csx-pill--card { width: 132px; height: 46px; }
+.csx-pill--compact { width: 109px; height: 40px; }
+.csx-pill-inner {
+  position: relative;
+  flex: 1 0 0px;
+  width: 1px;
+  height: 16px;
+  overflow: visible;
+}
+.csx-pill-label {
+  position: absolute;
+  left: 0;
+  white-space: pre;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  transition: transform 785ms var(--pill-ease);
+}
+/* black copy: parked above the clip (live top -19px), drops in by 20px on hover */
+.csx-pill-label--in { top: 1px; left: 1px; color: #000; z-index: 1; transform: translateY(-20px); }
+/* white copy: visible at rest, drops out 35px on hover */
+.csx-pill-label--out { top: 0; color: #fff; }
+.csx-pill-arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+.csx-pill-arrow svg { display: block; width: 16px; height: 16px; }
+.csx-pill-arrow--out { right: 0; transition: opacity 785ms var(--pill-ease); }
+/* black glyph sits 12px left of the white one (invisible on black), slides right on hover */
+.csx-pill-arrow--in { right: 12px; transition: right 785ms var(--pill-ease); }
+
+@media (hover: hover) {
+  .csx-pill:hover { background-color: rgba(0, 0, 0, 0); }
+  .csx-pill:hover::after { border-color: #000; }
+  .csx-pill:hover .csx-pill-label--in { transform: none; }
+  .csx-pill:hover .csx-pill-label--out { transform: translateY(35px); }
+  .csx-pill:hover .csx-pill-arrow--out { opacity: 0; }
+  .csx-pill:hover .csx-pill-arrow--in { right: 0; }
+}
+.csx-pill:focus-visible { outline: 2px solid #000; outline-offset: 2px; }
+
+.csx-arrow { display: block; flex: 0 0 auto; width: 10px; height: 10px; }

@@ -1,0 +1,393 @@
+/* .vlr* code component. Verbatim from the component source embedded in
+   spec/pages/product/source/d9S_C34X...mjs (the live stylesheet; same values as
+   spec/pages/product/components.css). Only change: remote font/image URLs point at local copies. */
+
+@font-face {
+  font-family: "Valley Body Montreal";
+  src: url("/assets/fonts/4U27qiCuAgm6sc2vgHfWPBCGc.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+.valley-learning-row {
+  background: #f8f9f7;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  container-type: inline-size;
+  color: #1c292d;
+  font-family: "PP Neue Montreal",Arial,sans-serif;
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+.valley-learning-row * {
+  box-sizing: border-box;
+}
+
+.vlr-row {
+  background: #f8f9f7;
+  display: grid;
+  grid-template-columns: minmax(0,.8fr) minmax(0,1.2fr);
+  gap: 64px;
+  align-items: center;
+  padding: 56px 0;
+  border-top: 1px solid #d6dede;
+}
+
+.vlr-copy small {
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: .06em;
+  color: #3275b5;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.vlr-copy h3 {
+  margin: 0;
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: -.035em;
+  font-weight: 500;
+  max-width: 460px;
+}
+
+.vlr-copy p {
+  font-size: 19px;
+  line-height: 1.5;
+  color: #4e606a;
+  margin: 22px 0 0;
+  max-width: 470px;
+}
+
+.vlr-visual {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  background: #e9efeb;
+  min-height: 390px;
+  aspect-ratio: 1.65;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 32px;
+}
+
+.vlr-visual:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image: url("/assets/img/DzF7ltBGreQELkgImDCaxxldqH0.jpg");
+  background-size: cover;
+  opacity: .23;
+}
+
+.vlr-loop {
+  width: 100%;
+  max-width: 620px;
+  position: relative;
+}
+
+.vlr-reply {
+  background: #fffefb;
+  border: 1px solid #c5d6cd;
+  box-shadow: 0 10px 22px -18px #203d4566;
+  padding: 22px 26px;
+  max-width: 450px;
+  margin: auto;
+}
+
+.vlr-reply small {
+  font-size: 11px;
+  line-height: 1.4;
+  color: #507464;
+  letter-spacing: .04em;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.vlr-reply small:before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #507464;
+}
+
+.vlr-reply p {
+  font-size: 23px;
+  line-height: 1.25;
+  letter-spacing: -.025em;
+  margin: 12px 0 0;
+  color: #203c3e;
+}
+
+.vlr-arrow {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #517870;
+}
+
+.vlr-arrow svg {
+  width: 20px;
+  height: 24px;
+}
+
+.vlr-patterns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: #bfcfc7;
+  border: 1px solid #bfcfc7;
+}
+
+.vlr-patterns>div {
+  background: #f4f6ef;
+  padding: 20px 24px;
+}
+
+.vlr-patterns strong {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 7px;
+}
+
+.vlr-patterns span {
+  display: block;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #556960;
+}
+
+.vlr-next {
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: #244d44;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.vlr-next svg {
+  width: 23px;
+  height: 23px;
+}
+
+.valley-learning-row[data-motion=true] .vlr-reply {
+  animation: vlr-arrive .65s ease both;
+}
+
+.valley-learning-row[data-motion=true] .vlr-patterns {
+  animation: vlr-arrive .65s .12s ease both;
+}
+
+.valley-learning-row[data-motion=true] .vlr-next {
+  animation: vlr-arrive .65s .25s ease both;
+}
+
+@keyframes vlr-arrive {
+  from {
+    opacity: .45;
+    transform: translateY(7px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@container (max-width:1100px) {
+  .vlr-copy h3 {
+    font-size: 36px;
+  }
+  .vlr-row {
+    gap: 64px;
+  }
+  .vlr-visual {
+    padding: 28px;
+    min-height: 380px;
+  }
+  .vlr-reply p {
+    font-size: 21px;
+  }
+  .vlr-patterns>div {
+    padding: 18px;
+  }
+  .vlr-patterns span {
+    font-size: 13px;
+  }
+}
+
+@container (max-width:900px) {
+  .vlr-row {
+    gap: 64px;
+  }
+  .vlr-copy h3 {
+    font-size: 34px;
+  }
+  .vlr-visual {
+    padding: 24px;
+    min-height: 390px;
+    aspect-ratio: auto;
+  }
+  .vlr-reply {
+    padding: 20px;
+  }
+  .vlr-reply p {
+    font-size: 21px;
+  }
+  .vlr-patterns>div {
+    padding: 15px;
+  }
+  .vlr-patterns strong {
+    font-size: 15px;
+  }
+  .vlr-next {
+    font-size: 15px;
+  }
+}
+
+@container (max-width:700px) {
+  .vlr-row {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 56px 0;
+  }
+  .vlr-copy h3 {
+    font-size: 30px;
+  }
+  .vlr-copy small {
+    font-size: 11px;
+    margin-bottom: 16px;
+  }
+  .vlr-copy p {
+    font-size: 19px;
+    margin-top: 18px;
+    max-width: none;
+  }
+  .vlr-visual {
+    min-height: 380px;
+    padding: 22px 18px 34px;
+  }
+  .vlr-patterns>div {
+    padding: 15px 12px;
+  }
+  .vlr-patterns span {
+    font-size: 12px;
+  }
+  .vlr-patterns strong {
+    font-size: 14px;
+  }
+  .vlr-reply {
+    padding: 18px;
+  }
+  .vlr-reply p {
+    font-size: 21px;
+  }
+  .vlr-next {
+    font-size: 14px;
+    gap: 8px;
+    margin-top: 18px;
+  }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .valley-learning-row * {
+    animation: none!important;
+  }
+}
+/* Consistent numbered capability cards. */
+
+.vlr-row {
+  border: 1px solid #d6dede;
+  padding: 28px;
+  gap: 40px;
+  grid-template-columns: minmax(0,1fr) minmax(0,1.15fr);
+  box-shadow: 0 -8px 28px -25px #20343b40;
+}
+
+.vlr-copy {
+  max-width: 520px;
+  padding: 12px 8px;
+  min-width: 0;
+}
+
+.vlr-copy h3 {
+  font-size: 40px;
+  line-height: 1.12;
+  letter-spacing: -.032em;
+  font-weight: 500;
+  max-width: 21ch;
+  margin-top: 24px;
+}
+
+.vlr-copy p {
+  font-size: 20px;
+  line-height: 1.5;
+  max-width: 42ch;
+}
+
+.vlr-copy>small {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  font-size: 11px;
+  letter-spacing: .055em;
+  color: #4e6b7b;
+  line-height: 1.35;
+}
+
+.vlr-copy>small b {
+  display: inline-flex;
+  padding: 10px 12px;
+  background: #e8eff3;
+  color: #456d90;
+  font-size: 14px;
+  letter-spacing: .01em;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+@container (max-width:1000px) {
+  .vlr-row {
+    padding: 22px;
+    gap: 28px;
+  }
+  .vlr-copy h3 {
+    font-size: 34px;
+  }
+  .vlr-copy p {
+    font-size: 18px;
+  }
+}
+
+@container (max-width:700px) {
+  .vlr-row {
+    padding: 18px;
+    gap: 24px;
+    grid-template-columns: 1fr;
+  }
+  .vlr-copy {
+    padding: 10px 2px;
+  }
+  .vlr-copy h3 {
+    font-size: 30px;
+  }
+  .vlr-copy p {
+    font-size: 18px;
+  }
+}

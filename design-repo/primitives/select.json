@@ -1,0 +1,10 @@
+{
+  "id": "select",
+  "layer": "primitive",
+  "description": "Dropdown selector, used by the compare-widget category filter.",
+  "measuredFrom": "spec/pages/landing.md:397 (.vc-picker category select, 6 options)",
+  "props": {
+    "options": { "type": "array", "items": { "type": "string" } },
+    "defaultValue": { "type": "string" }
+  }
+}

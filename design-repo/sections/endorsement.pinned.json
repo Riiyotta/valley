@@ -1,0 +1,35 @@
+{
+  "id": "endorsement.pinned",
+  "layer": "section",
+  "purpose": "High-authority single-quote endorsement, delivered via a scroll-pinned dramatic reveal.",
+  "composes": ["quote-block", "pinned-scroll-stage"],
+  "measuredFrom": "CLONE_SPEC.md section 11; spec/GRID.md:121,153-154",
+  "content": {
+    "type": "object",
+    "properties": {
+      "kicker": { "type": "string", "maxWords": 6 },
+      "quote": { "type": "string", "maxWords": 40 },
+      "personName": { "type": "string", "maxWords": 4 },
+      "personRole": { "type": "string", "maxWords": 10 }
+    },
+    "required": ["kicker", "quote", "personName"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true },
+  "responsive": {
+    "desktop": { "containerQuery": ">601c", "behavior": "pinned, 2610px scroll track", "measuredFrom": "spec/GRID.md:121" },
+    "belowContainer600": { "containerQuery": "<=600c", "behavior": "not pinned, static, height ~400-470px", "measuredFrom": "spec/GRID.md:121,44" }
+  },
+  "motion": {
+    "pattern": "scroll-pin",
+    "keyframeRefs": ["ve-scroll-pulse"],
+    "reducedMotionFallback": "pinning disabled; renders as a normal static section per CLONE_SPEC.md:25"
+  },
+  "assetRoles": {
+    "endorser-photo": {
+      "enum": "employee-photo",
+      "generationPolicy": "must-not-fabricate",
+      "guidance": "COMPLIANCE: if the endorser is a real named person, never generate a fabricated likeness. Use a licensed real photo or omit the photo."
+    }
+  }
+}

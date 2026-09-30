@@ -1,0 +1,40 @@
+{
+  "id": "comparison.widget",
+  "layer": "section",
+  "purpose": "Interactive 'Valley vs. Competition' widget (.vc code component): searchable/filterable competitor comparison with a 7-stage workflow track diagram. Used full-size on /compare and /product (compact mode), and on /linkedin-outreach-for-agencies as agency-compare.",
+  "measuredFrom": "spec/pages/compare.md; spec/pages/landing.md:386-425; spec/components.css (.vc* rules, vc-light-pass/vc-trace-in keyframes)",
+  "content": {
+    "type": "object",
+    "properties": {
+      "kicker": { "type": "string", "maxWords": 6 },
+      "h2": { "type": "string", "maxWords": 14 },
+      "intro": { "type": "string", "maxWords": 30 },
+      "mode": { "type": "string", "enum": ["full", "compact"] },
+      "competitors": { "type": "array", "minItems": 10, "maxItems": 19 },
+      "defaultCompetitor": { "type": "string" },
+      "categories": { "type": "array", "maxItems": 6 }
+    },
+    "required": ["h2", "mode", "competitors", "defaultCompetitor"],
+    "additionalProperties": false
+  },
+  "constraints": { "maxPerPage": 1 },
+  "responsive": {
+    "desktop": { "layout": "1248x452 SVG track diagram, 7 stages" },
+    "containerBand780": { "containerQuery": "<=780c", "layout": "timeline replaces SVG track" },
+    "containerBand390": { "layout": "vertical stage-row list", "measuredFrom": "spec/pages/landing.md:421-425" },
+    "measuredFrom": "spec/pages/compare.md (container query list)"
+  },
+  "motion": {
+    "pattern": "light-pass-and-trace-redraw",
+    "keyframeRefs": ["vc-light-pass", "vc-trace-in"],
+    "reducedMotionFallback": "static track with no light-sweep loop; trace redraws instantly on selection change with no 0.8s animation",
+    "measuredFrom": "spec/pages/landing.md:417-419"
+  },
+  "assetRoles": {
+    "competitor-favicon": {
+      "enum": "competitor-logo",
+      "generationPolicy": "must-reuse-exact",
+      "guidance": "COMPLIANCE: real named competitor products (HeyReach, Expandi, Clay, Apollo, Outreach, Salesloft, etc.). Never AI-generate or alter a real competitor's logo/favicon; use licensed exact assets or omit."
+    }
+  }
+}

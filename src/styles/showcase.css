@@ -1,0 +1,3982 @@
+/* showcase section (CLONE_SPEC.md section 14). Owned by the showcase builder.
+   Part 1: the Framer layer "Explore Valley — six product views" (.framer-13r2y9b) and its
+   code-component container (.framer-2ui0sd-container), from the saved page's Framer CSS.
+   Part 2: spec/components.css verbatim (.valley-showcase root rules first, then .vs-*),
+   every selector scoped under #showcase. */
+
+#showcase {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 48px 48px 96px;
+  overflow: clip;
+  background-color: theme('colors.surface.DEFAULT');
+}
+@media screen(tablet) {
+  #showcase { padding: 48px 28px 64px; }
+}
+@media screen(phone) {
+  #showcase { padding: 48px 20px 64px; }
+}
+#showcase .showcase-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1360px;
+}
+
+/* ---- spec/components.css (verbatim, scoped) ---- */
+#showcase .valley-showcase {
+  position: relative;
+  width: 100%;
+  min-width: 0px;
+  box-sizing: border-box;
+  container-type: inline-size;
+  color: rgb(32, 51, 66);
+  font-family: "Valley Showcase Montreal", sans-serif;
+  --vs-line: #233e5018;
+  --vs-muted: #677783;
+  --vs-paper: #fcfcfa;
+}
+#showcase .valley-showcase * {
+  box-sizing: border-box;
+}
+#showcase .valley-showcase h3, #showcase .valley-showcase h4, #showcase .valley-showcase p {
+  margin: 0px;
+}
+#showcase .valley-showcase button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+#showcase .valley-showcase button:focus-visible, #showcase .vs-stage:focus-visible {
+  outline: 2px solid var(--vs-accent);
+  outline-offset: 4px;
+}
+#showcase .valley-showcase[data-motion="false"] .vs-enter, #showcase .valley-showcase[data-motion="false"] .vs-line {
+  animation-play-state: paused;
+}
+#showcase .valley-showcase[data-reduced="true"] .vs-enter, #showcase .valley-showcase[data-reduced="true"] .vs-line {
+  animation: auto ease 0s 1 normal none running none;
+}
+#showcase .valley-showcase[data-static="true"] .vs-enter, #showcase .valley-showcase[data-static="true"] .vs-line {
+  animation: auto ease 0s 1 normal none running none;
+}
+#showcase .vs-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border-bottom: 1px solid var(--vs-line);
+}
+#showcase .vs-tabs {
+  position: relative;
+  display: flex;
+  gap: 32px;
+  overflow-x: auto;
+  min-width: 0px;
+  flex: 1 1 0%;
+  scrollbar-width: none;
+}
+#showcase .vs-tabs::-webkit-scrollbar {
+  display: none;
+}
+#showcase .vs-tabs button {
+  position: relative;
+  flex-shrink: 0;
+  border: 0px;
+  background: none;
+  padding: 16px 0px 20px;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgb(119, 132, 141);
+  white-space: nowrap;
+}
+#showcase .vs-tabs button[aria-selected="true"] {
+  color: rgb(30, 55, 72);
+}
+#showcase .vs-tab-track {
+  position: absolute;
+  bottom: 0px;
+  height: 2px;
+  left: 0px;
+  right: 0px;
+  background: transparent;
+}
+#showcase .vs-tabs button[aria-selected="true"] .vs-tab-track {
+  background: rgba(55, 111, 156, 0.15);
+}
+#showcase .vs-tab-progress {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--vs-accent);
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+#showcase .vs-tour-control {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: none;
+  border: 0px;
+  min-height: 44px;
+  padding: 0px;
+  flex-shrink: 0;
+  font-size: 12px !important;
+  color: rgb(102, 118, 129) !important;
+}
+#showcase .vs-intro {
+  display: flex;
+  min-height: 98px;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: start;
+  padding: 26px 0px 28px;
+}
+#showcase .vs-intro h3 {
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+  font-weight: 500;
+  max-width: 50%;
+}
+#showcase .vs-intro p {
+  font-size: 15px;
+  line-height: 1.45;
+  color: rgb(97, 113, 124);
+  max-width: 430px;
+  width: 45%;
+}
+#showcase .vs-stage {
+  position: relative;
+  width: 100%;
+  min-width: 0px;
+  max-width: 100%;
+  aspect-ratio: 1.55 / 1;
+  background-image: var(--vs-art);
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 26px;
+  isolation: isolate;
+}
+#showcase .vs-stage-dashboard {
+  display: flex;
+  align-items: center;
+  padding: 28px;
+}
+#showcase .vs-composition {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#showcase .vs-shell {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 0px;
+  background: rgb(248, 250, 249);
+  border: 1px solid rgb(233, 238, 235);
+  border-radius: 5px;
+  box-shadow: rgba(21, 45, 78, 0.5) 0px 10px 35px -20px;
+  overflow: hidden;
+}
+#showcase .vs-appbar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 52px;
+  border-bottom: 1px solid var(--vs-line);
+  background: rgba(255, 255, 252, 0.91);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 24px;
+  z-index: 5;
+  font-size: 13px;
+}
+#showcase .vs-app-identity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#showcase .vs-app-identity > span:first-of-type {
+  font-weight: 550;
+}
+#showcase .vs-app-divider {
+  color: rgb(188, 197, 203);
+  margin: 0px 4px;
+}
+#showcase .vs-small-label {
+  display: block;
+  font-size: 9px;
+  font-weight: 550;
+  line-height: 1.3;
+  letter-spacing: 0.085em;
+  color: rgb(125, 140, 149);
+}
+#showcase .vs-elevated {
+  background: var(--vs-paper);
+  border: 1px solid rgb(220, 227, 230);
+  border-radius: 6px;
+  box-shadow: rgba(32, 57, 72, 0.26) 0px 14px 40px -16px, rgba(32, 57, 72, 0.07) 0px 1px 3px;
+  z-index: 3;
+}
+#showcase .vs-panel-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 20px;
+  border-bottom: 1px solid var(--vs-line);
+  font-size: 13px;
+  gap: 10px;
+}
+#showcase .vs-panel-heading > span:first-child {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+#showcase .vs-soft-tag {
+  font-size: 10px;
+  padding: 4px 7px;
+  border-radius: 3px;
+  border: 1px solid rgba(43, 80, 107, 0.086);
+  background: rgb(240, 244, 245);
+  color: rgb(110, 128, 139);
+  font-weight: 400;
+  white-space: nowrap;
+}
+#showcase .vs-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: rgb(78, 123, 102);
+  font-size: 11px;
+}
+#showcase .vs-check svg {
+  flex-shrink: 0;
+}
+#showcase .vs-avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  background: rgb(216, 230, 235);
+  color: rgb(50, 94, 116);
+  border: 1px solid rgba(57, 99, 119, 0.07);
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 500;
+}
+#showcase .vs-avatar-small {
+  width: 28px;
+  height: 28px;
+  font-size: 9px;
+}
+#showcase .vs-channel {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background: rgb(228, 237, 246);
+  color: rgb(41, 97, 142);
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+#showcase .vs-email {
+  background: rgb(240, 238, 229);
+  color: rgb(123, 117, 96);
+}
+#showcase .vs-fit {
+  display: inline-block;
+  background: rgb(234, 244, 236);
+  border: 1px solid rgb(213, 231, 220);
+  color: rgb(75, 123, 96);
+  font-size: 10px;
+  line-height: 1;
+  padding: 5px 6px;
+  white-space: nowrap;
+  border-radius: 3px;
+}
+#showcase .vs-fit-medium {
+  background: rgb(245, 241, 228);
+  border-color: rgb(236, 227, 201);
+  color: rgb(142, 128, 85);
+}
+#showcase .vs-library {
+  position: absolute;
+  left: 30px;
+  top: 86px;
+  width: 60%;
+  bottom: 24px;
+}
+#showcase .vs-library-intro h3 {
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.03em;
+  margin-top: 10px;
+}
+#showcase .vs-play-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 25px;
+}
+#showcase .vs-play-card {
+  border: 1px solid rgb(223, 230, 231);
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  overflow: hidden;
+  min-height: 164px;
+}
+#showcase .vs-play-card-copy {
+  position: relative;
+  padding: 12px 14px;
+}
+#showcase .vs-play-card-copy > span:first-child {
+  font-size: 9px;
+  line-height: 1.2;
+  color: rgb(125, 137, 144);
+}
+#showcase .vs-play-card h4 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.17;
+  margin: 6px 0px;
+}
+#showcase .vs-play-card p {
+  font-size: 11px;
+  color: rgb(123, 135, 144);
+  line-height: 1.35;
+}
+#showcase .vs-play-art {
+  height: 49px;
+  background-image: var(--vs-art);
+  background-size: cover;
+}
+#showcase .vs-play-selected {
+  border-color: rgb(120, 152, 182);
+  box-shadow: rgba(55, 111, 156, 0.063) 0px 0px 0px 2px;
+}
+#showcase .vs-selected-mark {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 19px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(78, 121, 156);
+  color: white;
+  border-radius: 50%;
+}
+#showcase .vs-campaign-plan {
+  position: absolute;
+  right: 28px;
+  top: 116px;
+  width: 40%;
+  bottom: 28px;
+  display: flex;
+  flex-direction: column;
+}
+#showcase .vs-plan-art {
+  background-image: linear-gradient(90deg,#152e4973,#152e4918),var(--vs-art);
+  background-size: cover;
+  background-position: 50% 36%;
+  padding: 24px;
+  color: rgb(255, 252, 244);
+  min-height: 128px;
+}
+#showcase .vs-plan-art > span {
+  font-size: 10px;
+  color: rgb(224, 234, 240);
+}
+#showcase .vs-plan-art h4 {
+  font-size: 24px;
+  font-weight: 450;
+  line-height: 1.15;
+  margin-top: 8px;
+  letter-spacing: -0.02em;
+}
+#showcase .vs-plan-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  padding: 24px;
+  flex: 1 1 0%;
+}
+#showcase .vs-plan-steps > div {
+  display: flex;
+  gap: 12px;
+}
+#showcase .vs-step-no {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(241, 244, 244);
+  border: 1px solid rgb(223, 230, 230);
+  border-radius: 3px;
+  color: rgb(108, 128, 139);
+  font-size: 10px;
+  flex-shrink: 0;
+}
+#showcase .vs-plan-steps small {
+  display: block;
+  font-size: 8px;
+  letter-spacing: 0.08em;
+  color: rgb(139, 151, 158);
+  margin: 0px 0px 5px;
+}
+#showcase .vs-plan-steps strong {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+}
+#showcase .vs-plan-steps p {
+  font-size: 10px;
+  line-height: 1.4;
+  color: rgb(133, 144, 153);
+  margin-top: 4px;
+}
+#showcase .vs-plan-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 24px;
+  border-top: 1px solid var(--vs-line);
+  font-size: 12px;
+  color: rgb(56, 106, 147);
+}
+#showcase .vs-prospect-base {
+  position: absolute;
+  inset: 88px 24px 28px;
+}
+#showcase .vs-view-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 0px 0px 25px;
+}
+#showcase .vs-view-heading h3 {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  margin-top: 10px;
+}
+#showcase .vs-filter {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid var(--vs-line);
+  border-radius: 4px;
+  padding: 8px 10px;
+  background: white;
+  font-size: 11px;
+  color: rgb(116, 129, 138);
+}
+#showcase .vs-data-table {
+  border: 1px solid rgb(224, 230, 231);
+  border-radius: 4px;
+  overflow: hidden;
+  background: white;
+}
+#showcase .vs-table-row {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1.1fr 0.65fr;
+  gap: 15px;
+  align-items: center;
+  border-bottom: 1px solid rgb(231, 235, 236);
+  min-height: 62px;
+  padding: 10px 16px;
+  font-size: 12px;
+}
+#showcase .vs-table-row:last-child {
+  border-bottom: 0px;
+}
+#showcase .vs-table-head {
+  min-height: 39px;
+  background: rgb(250, 251, 250);
+  font-size: 10px;
+  color: rgb(132, 145, 154);
+}
+#showcase .vs-person {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#showcase .vs-person strong {
+  font-size: 12px;
+  font-weight: 500;
+  display: block;
+}
+#showcase .vs-person small {
+  font-size: 9px;
+  line-height: 1.3;
+  color: rgb(135, 147, 155);
+  display: block;
+  margin-top: 4px;
+}
+#showcase .vs-row-selected {
+  background: rgb(237, 244, 249);
+  box-shadow: rgb(112, 149, 178) 3px 0px inset;
+}
+#showcase .vs-research {
+  position: absolute;
+  top: 180px;
+  right: 25px;
+  width: 43%;
+  bottom: 25px;
+  display: flex;
+  flex-direction: column;
+}
+#showcase .vs-person-heading {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid var(--vs-line);
+}
+#showcase .vs-person-heading h4 {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+#showcase .vs-person-heading p {
+  font-size: 10px;
+  color: rgb(129, 144, 155);
+  margin-top: 5px;
+}
+#showcase .vs-person-heading > .vs-fit {
+  margin-left: auto;
+  font-size: 8px;
+}
+#showcase .vs-research-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 17px 20px 2px;
+  font-size: 14px;
+  font-weight: 500;
+}
+#showcase .vs-evidence {
+  display: flex;
+  gap: 10px;
+  margin: 17px 20px 0px;
+  padding-bottom: 17px;
+  border-bottom: 1px solid var(--vs-line);
+}
+#showcase .vs-source-icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(223, 231, 233);
+  border-radius: 4px;
+  color: rgb(108, 131, 145);
+  flex-shrink: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+#showcase .vs-evidence small {
+  font-size: 8px;
+  color: rgb(134, 149, 158);
+  letter-spacing: 0.05em;
+}
+#showcase .vs-evidence strong {
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+  line-height: 1.35;
+  margin-top: 6px;
+}
+#showcase .vs-evidence p {
+  font-size: 11px;
+  color: rgb(126, 140, 150);
+  line-height: 1.4;
+  margin-top: 5px;
+}
+#showcase .vs-source {
+  font-size: 9px;
+  color: rgb(105, 135, 155);
+  display: block;
+  margin-top: 10px;
+}
+#showcase .vs-fit-reason {
+  padding: 18px 20px;
+  background: rgb(245, 248, 244);
+  margin-top: auto;
+}
+#showcase .vs-fit-reason > div {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+#showcase .vs-fit-reason .vs-check {
+  font-size: 9px;
+}
+#showcase .vs-studio-sidebar {
+  position: absolute;
+  left: 24px;
+  top: 76px;
+  width: 48%;
+  bottom: 24px;
+}
+#showcase .vs-studio-tabs {
+  display: flex;
+  gap: 24px;
+  padding: 12px 0px;
+  border-bottom: 1px solid var(--vs-line);
+  font-size: 12px;
+  color: rgb(131, 145, 155);
+}
+#showcase .vs-current {
+  color: rgb(45, 82, 108) !important;
+  font-weight: 500;
+}
+#showcase .vs-writing-style {
+  padding: 28px 15px 24px 5px;
+}
+#showcase .vs-writing-style h3 {
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  margin-top: 10px;
+}
+#showcase .vs-style-switch {
+  display: flex;
+  gap: 21px;
+  border-bottom: 1px solid var(--vs-line);
+  margin: 25px 0px 0px;
+  padding: 0px 0px 11px;
+  color: rgb(131, 145, 155);
+  font-size: 11px;
+}
+#showcase .vs-rule-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  padding: 7px 0px;
+}
+#showcase .vs-rule-list > div {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  border-bottom: 1px solid rgb(227, 233, 233);
+  padding: 15px 0px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+#showcase .vs-rule-list svg {
+  color: rgb(100, 130, 118);
+  flex-shrink: 0;
+}
+#showcase .vs-rule-channels {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: rgb(123, 139, 149);
+  font-size: 10px;
+  margin-top: 16px;
+}
+#showcase .vs-rule-channels .vs-channel {
+  width: 22px;
+  height: 22px;
+  font-size: 12px;
+}
+#showcase .vs-rule-channels .vs-email {
+  margin-left: 12px;
+}
+#showcase .vs-source-context {
+  padding: 20px;
+  background: rgb(234, 241, 244);
+  border: 1px solid rgb(216, 227, 233);
+  border-radius: 4px;
+  margin-right: 20px;
+}
+#showcase .vs-source-context strong {
+  font-size: 13px;
+  font-weight: 500;
+  display: block;
+  margin-top: 9px;
+}
+#showcase .vs-source-context p {
+  font-size: 11px;
+  color: rgb(122, 141, 154);
+  margin-top: 5px;
+}
+#showcase .vs-source-context > span:last-child {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10px;
+  color: rgb(95, 131, 157);
+  margin-top: 13px;
+}
+#showcase .vs-playground {
+  position: absolute;
+  top: 91px;
+  right: 25px;
+  width: 50%;
+  bottom: 25px;
+  display: flex;
+  flex-direction: column;
+}
+#showcase .vs-draft-intro {
+  padding: 21px 24px 18px;
+}
+#showcase .vs-draft-intro h4 {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  margin-top: 9px;
+}
+#showcase .vs-draft {
+  margin: 0px 17px;
+  border: 1px solid rgb(225, 230, 231);
+  border-radius: 5px;
+  background: white;
+  flex: 1 1 0%;
+}
+#showcase .vs-draft-recipient {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 15px;
+  border-bottom: 1px solid var(--vs-line);
+  font-size: 11px;
+}
+#showcase .vs-draft-recipient > span:first-child {
+  color: rgb(153, 163, 169);
+  margin-right: 4px;
+}
+#showcase .vs-draft-recipient strong {
+  font-weight: 500;
+}
+#showcase .vs-draft-channel {
+  margin-left: auto;
+}
+#showcase .vs-draft-channel .vs-channel {
+  background: none;
+  width: 21px;
+  height: 21px;
+}
+#showcase .vs-draft-subject {
+  padding: 13px 15px;
+  border-bottom: 1px solid var(--vs-line);
+  font-size: 12px;
+  font-weight: 500;
+}
+#showcase .vs-draft-body {
+  padding: 17px 18px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: rgb(54, 73, 83);
+}
+#showcase .vs-draft-body p + p {
+  margin-top: 15px;
+}
+#showcase .vs-draft-footer {
+  padding: 17px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+  gap: 10px;
+}
+#showcase .vs-draft-footer > span:last-child {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: rgb(56, 108, 148);
+}
+#showcase .vs-sequence-heading {
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  top: 83px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#showcase .vs-sequence-heading h3 {
+  font-size: 23px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  margin-top: 8px;
+}
+#showcase .vs-sequence {
+  position: absolute;
+  inset: 150px 24px 25px;
+}
+#showcase .vs-connectors {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0px;
+}
+#showcase .vs-line {
+  fill: none;
+  stroke: rgb(183, 201, 213);
+  stroke-width: 1.4;
+  stroke-dasharray: 1800;
+  stroke-dashoffset: 0;
+  animation: 1.1s cubic-bezier(0.22, 1, 0.36, 1) 0s 1 normal both running vs-connect;
+}
+#showcase .vs-sequence-node {
+  position: absolute;
+  width: 29%;
+  padding: 20px;
+  display: flex;
+  gap: 12px;
+  align-items: start;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(217, 227, 233);
+  border-radius: 5px;
+  box-shadow: rgba(32, 61, 98, 0.29) 0px 6px 18px -14px;
+}
+#showcase .vs-sequence-node small {
+  display: block;
+  font-size: 8px;
+  letter-spacing: 0.07em;
+  color: rgb(135, 152, 163);
+  margin: 0px 0px 7px;
+}
+#showcase .vs-sequence-node strong {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+}
+#showcase .vs-sequence-node p {
+  font-size: 11px;
+  line-height: 1.5;
+  color: rgb(131, 148, 158);
+  margin-top: 7px;
+}
+#showcase .vs-node-start {
+  left: 34%;
+  top: 0px;
+  width: 32%;
+}
+#showcase .vs-node-check {
+  margin-left: auto;
+  color: rgb(108, 148, 130);
+}
+/* Live site has no preflight: the check svg stays inline, so the span is one line box (19px), not 15. */
+#showcase .vs-node-check > svg {
+  display: inline;
+  vertical-align: baseline;
+}
+#showcase .vs-sequence-wait {
+  position: absolute;
+  left: 50%;
+  top: 32%;
+  translate: -50% -50%;
+  background: rgb(248, 250, 249);
+  border: 1px solid rgb(220, 228, 232);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 13px;
+  white-space: nowrap;
+  font-size: 10px;
+  color: rgb(128, 146, 158);
+}
+#showcase .vs-branch-label {
+  position: absolute;
+  top: 43%;
+  font-size: 10px;
+  background: rgb(248, 250, 249);
+  padding: 3px 8px;
+  color: rgb(113, 147, 135);
+}
+#showcase .vs-branch-yes {
+  left: 21%;
+}
+#showcase .vs-branch-no {
+  right: 19%;
+  color: rgb(142, 149, 158);
+}
+#showcase .vs-node-linkedin {
+  left: 8%;
+  top: 52%;
+  width: 31%;
+}
+#showcase .vs-node-email {
+  right: 8%;
+  top: 52%;
+  width: 31%;
+}
+#showcase .vs-reply-exit {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  translate: -50%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  background: rgb(248, 250, 249);
+  border: 1px solid rgb(223, 231, 233);
+  border-radius: 4px;
+  width: 82%;
+  font-size: 10px;
+  color: rgb(138, 152, 161);
+}
+#showcase .vs-reply-exit strong {
+  font-weight: 500;
+  color: rgb(64, 91, 110);
+  white-space: nowrap;
+}
+#showcase .vs-reply-dot {
+  width: 6px;
+  height: 6px;
+  flex-shrink: 0;
+  background: rgb(122, 164, 147);
+  border-radius: 50%;
+}
+#showcase .vs-inbox-label {
+  color: rgb(80, 125, 160);
+  margin-left: auto;
+}
+#showcase .vs-chat {
+  position: absolute;
+  left: 28px;
+  top: 82px;
+  bottom: 24px;
+  width: 52%;
+  display: flex;
+  flex-direction: column;
+}
+#showcase .vs-scout-identity {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0px 0px 26px;
+  color: rgb(48, 85, 112);
+}
+#showcase .vs-scout-identity h3 {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+#showcase .vs-scout-identity p {
+  font-size: 11px;
+  color: rgb(138, 152, 161);
+  margin-top: 4px;
+}
+#showcase .vs-user-message {
+  align-self: flex-end;
+  width: 86%;
+  padding: 16px 18px;
+  background: rgb(234, 240, 243);
+  border: 1px solid rgb(224, 231, 235);
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 1.45;
+  color: rgb(66, 91, 109);
+}
+#showcase .vs-scout-message {
+  display: flex;
+  align-items: start;
+  gap: 11px;
+  padding: 23px 8px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+#showcase .vs-scout-message > svg {
+  color: rgb(81, 121, 149);
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+#showcase .vs-scout-message p {
+  max-width: 330px;
+}
+#showcase .vs-scout-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: 16px;
+}
+#showcase .vs-chat-second {
+  font-size: 13px;
+  width: 72%;
+}
+#showcase .vs-chat-last {
+  padding-bottom: 10px;
+}
+#showcase .vs-scout-open {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: rgb(57, 117, 155);
+  font-size: 11px;
+  margin-top: 9px;
+}
+#showcase .vs-chat-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding: 13px 15px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(220, 229, 233);
+  border-radius: 5px;
+  font-size: 11px;
+  color: rgb(154, 166, 174);
+}
+#showcase .vs-chat-input > span:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 23px;
+  height: 23px;
+  background: rgb(60, 98, 124);
+  color: white;
+  border-radius: 3px;
+  font-size: 15px;
+}
+#showcase .vs-scout-output {
+  position: absolute;
+  right: 24px;
+  top: 133px;
+  bottom: 42px;
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+}
+#showcase .vs-scout-output-art {
+  background-image: linear-gradient(90deg,#163c5c85,#173e593d),var(--vs-art);
+  background-size: cover;
+  background-position: 80% 50%;
+  padding: 24px;
+  color: rgb(255, 253, 243);
+}
+#showcase .vs-scout-output-art > span {
+  font-size: 10px;
+  color: rgb(226, 237, 242);
+}
+#showcase .vs-scout-output-art h4 {
+  font-size: 27px;
+  font-weight: 450;
+  line-height: 1.12;
+  letter-spacing: -0.025em;
+  margin-top: 8px;
+}
+#showcase .vs-scout-person {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 19px 20px;
+  border-bottom: 1px solid var(--vs-line);
+}
+#showcase .vs-scout-person strong {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+}
+#showcase .vs-scout-person div > span {
+  display: block;
+  font-size: 9px;
+  color: rgb(136, 152, 163);
+  margin-top: 4px;
+}
+#showcase .vs-scout-person > .vs-fit {
+  margin-left: auto;
+  font-size: 8px;
+}
+#showcase .vs-scout-draft {
+  padding: 22px;
+}
+#showcase .vs-scout-draft p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 10px;
+  color: rgb(79, 99, 113);
+}
+#showcase .vs-output-checks {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: auto;
+  padding: 18px 22px;
+  border-top: 1px solid var(--vs-line);
+  font-size: 10px;
+  color: rgb(130, 150, 163);
+}
+#showcase .vs-output-checks > span:last-child {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+#showcase .vs-output-checks .vs-channel {
+  width: 22px;
+  height: 22px;
+  font-size: 12px;
+}
+#showcase .vs-enter {
+  animation-duration: 0.55s;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation-name: vs-appear;
+  animation-timeline: auto;
+  animation-range: normal;
+  animation-delay: var(--delay,0ms);
+}
+@keyframes vs-appear {
+0% {
+opacity: 0; transform: translateY(14px); }
+100% {
+opacity: 1; transform: translateY(0px); }
+ }
+@keyframes vs-connect {
+0% {
+stroke-dashoffset: 1800; }
+100% {
+stroke-dashoffset: 0; }
+ }
+@container (max-width: 900px) {
+  #showcase .vs-tabs {
+      gap: 25px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-tabs button {
+      font-size: 13px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-stage {
+      padding: 18px;
+      aspect-ratio: 1.35 / 1;
+      min-height: 580px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-appbar {
+      height: 46px;
+      padding: 0px 18px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-intro h3 {
+      font-size: 22px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-intro p {
+      font-size: 13px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-library {
+      left: 20px;
+      top: 70px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-library-intro h3 {
+      font-size: 22px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-play-grid {
+      gap: 8px;
+      margin-top: 20px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-play-card {
+      min-height: 150px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-play-card h4 {
+      font-size: 12px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-play-card p {
+      font-size: 9px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-play-art {
+      height: 42px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-campaign-plan {
+      right: 17px;
+      top: 96px;
+      bottom: 20px;
+      width: 42%;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-plan-art {
+      padding: 18px;
+      min-height: 110px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-plan-art h4 {
+      font-size: 21px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-plan-steps {
+      padding: 18px;
+      gap: 18px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-plan-steps strong {
+      font-size: 11px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-plan-steps p {
+      font-size: 9px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-panel-heading {
+      padding: 14px 16px;
+      font-size: 11px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-prospect-base {
+      inset: 75px 18px 20px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-view-heading h3 {
+      font-size: 21px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-research {
+      right: 18px;
+      top: 156px;
+      width: 47%;
+      bottom: 20px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-person-heading {
+      padding: 15px;
+      gap: 8px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-person-heading h4 {
+      font-size: 14px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-person-heading > .vs-fit {
+      font-size: 7px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-research-heading {
+      padding: 13px 15px 2px;
+      font-size: 11px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-evidence {
+      margin: 15px 15px 0px;
+      padding-bottom: 13px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-evidence strong {
+      font-size: 11px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-fit-reason {
+      padding: 12px 15px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-table-row {
+      padding: 10px 11px;
+      gap: 9px;
+      min-height: 61px;
+      font-size: 10px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-table-head {
+      min-height: 36px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-person strong {
+      font-size: 10px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-person small {
+      font-size: 8px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-studio-sidebar {
+      left: 18px;
+      top: 65px;
+      width: 49%;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-writing-style {
+      padding: 14px 15px 10px 5px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-style-switch {
+      margin-top: 17px;
+      padding-bottom: 9px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-writing-style h3 {
+      font-size: 22px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-rule-list > div {
+      font-size: 10px;
+      padding: 9px 0px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-source-context {
+      padding: 10px;
+      margin-right: 15px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-source-context > span:last-child {
+      margin-top: 8px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-playground {
+      right: 18px;
+      top: 78px;
+      width: 49%;
+      bottom: 20px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-draft-intro {
+      padding: 14px 17px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-draft-intro h4 {
+      font-size: 21px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-draft-body {
+      font-size: 11px;
+      padding: 15px;
+      line-height: 1.45;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-draft-body p + p {
+      margin-top: 13px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-draft-footer {
+      padding: 10px 15px;
+      font-size: 9px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-draft-footer .vs-check {
+      font-size: 9px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-sequence-heading {
+      top: 69px;
+      left: 22px;
+      right: 22px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-sequence-heading h3 {
+      font-size: 20px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-sequence {
+      inset: 134px 18px 25px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-sequence-node {
+      padding: 14px;
+      gap: 9px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-sequence-node strong {
+      font-size: 12px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-sequence-node p {
+      font-size: 10px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-reply-exit {
+      gap: 6px;
+      font-size: 8px;
+      width: 92%;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-chat {
+      left: 20px;
+      top: 70px;
+      width: 50%;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-scout-identity {
+      margin-bottom: 22px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-user-message {
+      font-size: 12px;
+      padding: 14px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-scout-message {
+      font-size: 11px;
+      gap: 8px;
+      padding: 19px 4px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-scout-output {
+      right: 18px;
+      top: 96px;
+      bottom: 20px;
+      width: 44%;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-scout-output-art {
+      padding: 16px 20px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-scout-output-art h4 {
+      font-size: 23px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-scout-person {
+      padding: 15px;
+      gap: 7px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-scout-draft {
+      padding: 15px 17px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-scout-draft p {
+      font-size: 12px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-output-checks {
+      padding: 14px 17px;
+      gap: 10px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-toolbar {
+      gap: 16px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-tabs {
+      gap: 24px;
+      padding-right: 20px;
+      mask-image: linear-gradient(to right, rgb(0, 0, 0) calc(100% - 18px), transparent);
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-tabs button {
+      font-size: 13px;
+      padding: 13px 0px 17px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-tour-control span {
+      display: none;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-tour-control {
+      min-width: 28px;
+      justify-content: center;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-intro {
+      display: block;
+      min-height: 126px;
+      padding: 22px 0px 23px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-intro h3 {
+      font-size: 23px;
+      max-width: 100%;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-intro p {
+      font-size: 13px;
+      line-height: 1.5;
+      width: auto;
+      max-width: 35ch;
+      margin-top: 10px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-stage {
+      padding: 12px;
+      aspect-ratio: auto;
+      height: 740px;
+      min-height: 740px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-stage-dashboard {
+      align-items: stretch;
+      padding: 12px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-summary-icon {
+      width: 25px;
+      height: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgb(104, 143, 168);
+      flex-shrink: 0;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-appbar {
+      padding: 0px 12px;
+      height: 43px;
+      font-size: 11px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-app-identity {
+      gap: 7px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-app-identity svg {
+      width: 19px;
+      height: 19px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-app-divider {
+      margin: 0px 1px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-composition {
+      height: 100%;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-library {
+      inset: 64px 15px auto;
+      width: auto;
+      height: 288px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-library-intro h3 {
+      font-size: 21px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-library-intro h3 br {
+      display: none;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-play-grid {
+      grid-template-columns: 1fr 1fr;
+      margin-top: 18px;
+      gap: 8px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-play-card {
+      min-height: 126px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-play-art {
+      height: 36px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-play-card-copy {
+      padding: 9px 10px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-play-card h4 {
+      font-size: 12px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-play-card p {
+      font-size: 9px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-play-card:nth-child(n+3) {
+      display: none;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-play-card-copy > span:first-child {
+      font-size: 8px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-campaign-plan {
+      inset: 302px 15px 17px;
+      width: auto;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-panel-heading {
+      padding: 12px 14px;
+      font-size: 11px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-plan-art {
+      min-height: 0px;
+      padding: 15px 17px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-plan-art h4 {
+      font-size: 21px;
+      max-width: 240px;
+      margin-top: 5px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-plan-art h4 br {
+      display: none;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-plan-steps {
+      padding: 16px 17px;
+      gap: 13px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-plan-steps > div {
+      gap: 10px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-plan-steps strong {
+      font-size: 11px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-plan-steps p {
+      font-size: 9px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-plan-steps small {
+      font-size: 7px;
+      margin-bottom: 3px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-plan-footer {
+      padding: 12px 17px;
+      font-size: 11px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-prospect-base {
+      inset: 66px 12px auto;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-view-heading {
+      margin-bottom: 18px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-view-heading h3 {
+      font-size: 20px;
+      max-width: 210px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-filter {
+      display: none;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-table-row {
+      grid-template-columns: 1.6fr 1fr;
+      min-height: 55px;
+      gap: 9px;
+      padding: 10px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-table-row > span:nth-child(n+3) {
+      display: none;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-table-row:nth-child(n+5) {
+      display: none;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-person strong {
+      font-size: 11px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-person small {
+      font-size: 8px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-table-head {
+      min-height: 32px;
+      font-size: 9px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-table-row:not(.vs-table-head) > span:nth-child(2) {
+      font-size: 10px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-research {
+      inset: 278px 12px 16px 21px;
+      width: auto;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-person-heading {
+      padding: 15px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-person-heading h4 {
+      font-size: 15px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-person-heading p {
+      font-size: 9px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-research-heading {
+      font-size: 11px;
+      padding-top: 14px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-evidence {
+      margin-top: 13px;
+      padding-bottom: 13px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-evidence strong {
+      font-size: 11px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-evidence p {
+      font-size: 9px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-fit-reason {
+      padding: 14px 15px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-fit-reason > div {
+      gap: 8px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-fit-reason .vs-check {
+      font-size: 8px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-source {
+      font-size: 8px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-studio-sidebar {
+      inset: 55px 15px auto;
+      width: auto;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-studio-tabs {
+      padding: 10px 0px;
+      font-size: 10px;
+      gap: 20px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-writing-style {
+      padding: 18px 0px 0px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-writing-style h3 {
+      font-size: 22px;
+      margin-top: 6px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-style-switch {
+      margin-top: 17px;
+      font-size: 10px;
+      padding-bottom: 9px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-rule-list {
+      padding-top: 4px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-rule-list > div {
+      font-size: 11px;
+      padding: 10px 0px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-rule-list > div:nth-child(n+3) {
+      display: none;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-rule-channels, #showcase .vs-source-context {
+      display: none;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-playground {
+      inset: 275px 12px 17px 22px;
+      width: auto;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-draft-intro {
+      padding: 10px 17px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-draft-intro h4 {
+      font-size: 20px;
+      margin-top: 6px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-draft-intro h4 br {
+      display: none;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-draft-intro .vs-small-label {
+      font-size: 8px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-draft {
+      margin: 0px 13px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-draft-recipient {
+      padding: 9px 12px;
+      font-size: 10px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-draft-recipient .vs-avatar {
+      width: 22px;
+      height: 22px;
+      font-size: 8px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-draft-subject {
+      padding: 10px 12px;
+      font-size: 11px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-draft-body {
+      padding: 11px 14px;
+      font-size: 12px;
+      line-height: 1.4;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-draft-body p + p {
+      margin-top: 8px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-draft-footer {
+      padding: 9px 14px;
+      font-size: 9px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-sequence-heading {
+      left: 17px;
+      right: 17px;
+      top: 65px;
+      gap: 10px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-sequence-heading h3 {
+      font-size: 20px;
+      max-width: 210px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-sequence {
+      inset: 146px 8px 20px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-node-start {
+      width: 76%;
+      left: 12%;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-sequence-node {
+      padding: 13px 11px;
+      gap: 8px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-sequence-node .vs-channel {
+      width: 24px;
+      height: 24px;
+      font-size: 13px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-sequence-node strong {
+      font-size: 12px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-sequence-node small {
+      font-size: 7px;
+      margin-bottom: 6px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-sequence-node p {
+      font-size: 10px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-sequence-wait {
+      top: 31%;
+      font-size: 9px;
+      padding: 8px 11px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-branch-label {
+      top: 44%;
+      font-size: 9px;
+      padding: 3px 6px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-branch-yes {
+      left: 16%;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-branch-no {
+      right: 12%;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-node-linkedin {
+      left: 0px;
+      width: 47%;
+      top: 52%;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-node-email {
+      right: 0px;
+      width: 47%;
+      top: 52%;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-node-linkedin, #showcase .vs-node-email {
+      flex-direction: column;
+      gap: 10px;
+      min-height: 142px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-reply-exit {
+      width: 97%;
+      bottom: 0px;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 7px;
+      padding: 12px 11px;
+      font-size: 9px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-reply-exit > span:nth-of-type(2) {
+      width: 100%;
+      text-align: center;
+      order: 4;
+      line-height: 1.4;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-inbox-label {
+      margin-left: 0px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-chat {
+      inset: 63px 15px auto;
+      width: auto;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-scout-identity {
+      gap: 9px;
+      margin-bottom: 19px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-scout-identity > svg {
+      width: 27px;
+      height: 27px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-scout-identity h3 {
+      font-size: 22px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-scout-identity p {
+      font-size: 10px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-user-message {
+      font-size: 12px;
+      padding: 12px 14px;
+      width: 89%;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-scout-message {
+      padding: 16px 3px;
+      font-size: 12px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-scout-actions {
+      flex-flow: wrap;
+      gap: 9px;
+      margin-top: 12px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-scout-actions .vs-check {
+      font-size: 9px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-chat-second, #showcase .vs-chat-last, #showcase .vs-chat-input {
+      display: none;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-scout-output {
+      inset: 316px 12px 16px 23px;
+      width: auto;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-scout-output-art {
+      padding: 15px 18px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-scout-output-art h4 {
+      font-size: 23px;
+      margin-top: 5px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-scout-output-art h4 br {
+      display: none;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-scout-person {
+      padding: 13px 16px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-scout-draft {
+      padding: 15px 17px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-scout-draft p {
+      font-size: 12px;
+      line-height: 1.45;
+      margin-top: 7px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-output-checks {
+      padding: 12px 17px;
+      gap: 10px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-output-checks > .vs-check {
+      font-size: 9px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-output-checks > span:last-child {
+      font-size: 8px;
+      gap: 5px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-output-checks .vs-channel {
+      width: 20px;
+      height: 20px;
+      font-size: 11px;
+    }
+}
+#showcase .vs-stage-dashboard {
+  display: block;
+  padding: 26px;
+}
+@container (max-width: 900px) {
+  #showcase .vs-stage-dashboard {
+      padding: 18px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-stage-dashboard {
+      padding: 12px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-toolbar, #showcase .vs-intro {
+      max-width: none;
+      width: 100%;
+      margin: 0px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-stage {
+      width: 100%;
+      height: var(--vs-stage-height,640px);
+      min-height: 0px;
+      max-width: 100%;
+      aspect-ratio: auto;
+      margin: 0px;
+      display: block;
+      padding: 26px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-composition {
+      position: relative;
+      left: auto;
+      top: auto;
+      width: 100%;
+      height: 100%;
+      transform: none;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-appbar {
+      font-size: 14px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-small-label {
+      font-size: 10px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-panel-heading {
+      padding: 12px 18px;
+      font-size: 14px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-soft-tag {
+      font-size: 11px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-library {
+      left: 24px;
+      top: 72px;
+      width: calc(55% - 64px);
+      bottom: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-library-intro h3 {
+      font-size: 25px;
+      line-height: 1.08;
+      margin-top: 6px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-play-grid {
+      gap: 10px;
+      margin-top: 16px;
+      flex: 1 1 0%;
+      grid-template-rows: 1fr 1fr;
+      min-height: 0px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-play-card {
+      min-height: 0px;
+      display: flex;
+      flex-direction: column;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-play-art {
+      height: clamp(33px,calc((var(--vs-stage-height,640px) - 465px)/2),130px);
+      flex-shrink: 0;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-play-card-copy {
+      padding: 10px 12px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-play-card-copy > span:first-child {
+      font-size: 10px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-play-card h4 {
+      font-size: 15px;
+      line-height: 1.16;
+      margin-top: 5px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-play-card p {
+      font-size: 12px;
+      line-height: 1.25;
+      margin-top: 5px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-campaign-plan {
+      right: 20px;
+      top: 72px;
+      width: 45%;
+      bottom: 20px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-plan-art {
+      padding: 14px 20px;
+      min-height: 0px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-plan-art > span {
+      font-size: 11px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-plan-art h4 {
+      font-size: 24px;
+      line-height: 1.08;
+      margin-top: 5px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-plan-steps {
+      padding: 15px 20px;
+      gap: 13px;
+      justify-content: space-between;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-plan-steps > div {
+      gap: 12px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-plan-steps small {
+      font-size: 9px;
+      margin-bottom: 3px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-plan-steps strong {
+      font-size: 14px;
+      line-height: 1.2;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-plan-steps p {
+      font-size: 12px;
+      line-height: 1.25;
+      margin-top: 3px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-plan-footer {
+      padding: 12px 20px;
+      font-size: 14px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-prospect-base {
+      inset: 72px auto 20px 24px;
+      width: calc(56% - 64px);
+      display: flex;
+      flex-direction: column;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-view-heading {
+      margin-bottom: 16px;
+      gap: 12px;
+      align-items: end;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-view-heading h3 {
+      font-size: 23px;
+      margin-top: 7px;
+      line-height: 1.15;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-filter {
+      font-size: 11px;
+      flex-shrink: 0;
+      padding: 7px 8px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-data-table {
+      flex: 1 1 0%;
+      display: grid;
+      grid-template-rows: 32px repeat(6, minmax(0px, 1fr));
+      min-height: 0px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-table-row {
+      grid-template-columns: 1.45fr 1fr 1.1fr 0.6fr;
+      min-height: 0px;
+      padding: 7px 11px;
+      gap: 8px;
+      font-size: 12px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-table-head {
+      min-height: 0px;
+      font-size: 10px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-person {
+      gap: 7px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-person strong {
+      font-size: 13px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-person small {
+      font-size: 10px;
+      line-height: 1.15;
+      margin-top: 3px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-table-row .vs-avatar-small {
+      width: 25px;
+      height: 25px;
+      font-size: 9px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-table-row .vs-fit {
+      font-size: 10px;
+      padding: 4px 5px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-research {
+      right: 20px;
+      top: 72px;
+      width: 44%;
+      bottom: 20px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-person-heading {
+      padding: 14px 18px;
+      gap: 10px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-person-heading h4 {
+      font-size: 19px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-person-heading p {
+      font-size: 12px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-person-heading > .vs-fit {
+      font-size: 10px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-research-heading {
+      padding: 13px 18px 0px;
+      font-size: 14px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-research-heading .vs-check {
+      font-size: 11px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-evidence {
+      margin: 14px 18px 0px;
+      padding-bottom: 14px;
+      gap: 12px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-evidence small {
+      font-size: 9px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-evidence strong {
+      font-size: 16px;
+      line-height: 1.2;
+      margin-top: 5px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-evidence p {
+      font-size: 12px;
+      line-height: 1.35;
+      margin-top: 5px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-source {
+      font-size: 11px;
+      margin-top: 7px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-fit-reason {
+      padding: 12px 18px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-fit-reason > div {
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-fit-reason .vs-check {
+      font-size: 11px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-studio-sidebar {
+      left: 24px;
+      top: 64px;
+      width: calc(48% - 62px);
+      bottom: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-studio-tabs {
+      padding: 10px 0px;
+      font-size: 13px;
+      gap: 25px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-writing-style {
+      padding: 15px 0px 14px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-writing-style h3 {
+      font-size: 26px;
+      margin-top: 5px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-style-switch {
+      font-size: 12px;
+      margin-top: 14px;
+      padding-bottom: 9px;
+      gap: 25px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-rule-list {
+      padding-top: 4px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 20px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-rule-list > div {
+      font-size: 14px;
+      line-height: 1.3;
+      padding: 10px 0px;
+      align-items: start;
+      gap: 7px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-rule-list > div svg {
+      width: 15px;
+      height: 15px;
+      margin-top: 2px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-rule-channels {
+      font-size: 12px;
+      margin-top: 12px;
+      gap: 8px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-rule-channels .vs-channel {
+      width: 22px;
+      height: 22px;
+      font-size: 12px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-source-context {
+      padding: 12px 15px;
+      margin-right: 0px;
+      margin-top: auto;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      column-gap: 14px;
+      align-items: center;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-source-context > .vs-small-label {
+      grid-column: 1 / -1;
+      font-size: 9px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-source-context strong {
+      font-size: 14px;
+      margin-top: 6px;
+      grid-column: 1;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-source-context p {
+      font-size: 12px;
+      margin-top: 4px;
+      grid-column: 1;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-source-context > span:last-child {
+      grid-area: 2 / 2 / 4;
+      font-size: 11px;
+      margin-top: 0px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-playground {
+      right: 20px;
+      top: 64px;
+      width: 52%;
+      bottom: 20px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-draft-intro {
+      padding: 8px 18px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-draft-intro h4 {
+      font-size: 22px;
+      line-height: 1.1;
+      margin-top: 5px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-draft-intro h4 br {
+      display: none;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-draft {
+      margin: 0px 16px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-draft-recipient {
+      padding: 8px 14px;
+      font-size: 12px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-draft-recipient .vs-avatar {
+      width: 23px;
+      height: 23px;
+      font-size: 9px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-draft-channel .vs-channel {
+      width: 24px;
+      height: 24px;
+      font-size: 13px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-draft-subject {
+      padding: 10px 14px;
+      font-size: 14px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-draft-body {
+      font-size: 15px;
+      line-height: 1.4;
+      padding: 10px 15px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-draft-body p + p {
+      margin-top: 7px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-draft-footer {
+      padding: 12px 17px;
+      font-size: 12px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-draft-footer .vs-check {
+      font-size: 11px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-sequence-heading {
+      top: 70px;
+      left: 25px;
+      right: 25px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-sequence-heading h3 {
+      font-size: 25px;
+      margin-top: 6px;
+      line-height: 1.15;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-sequence {
+      inset: 137px 24px 20px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-sequence-node {
+      padding: 13px 18px;
+      gap: 12px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-sequence-node small {
+      font-size: 9px;
+      margin-bottom: 5px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-sequence-node strong {
+      font-size: 15px;
+      line-height: 1.2;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-sequence-node p {
+      font-size: 13px;
+      line-height: 1.3;
+      margin-top: 4px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-node-start {
+      width: 34%;
+      left: 33%;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-sequence-wait {
+      top: 31%;
+      padding: 7px 12px;
+      font-size: 12px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-branch-label {
+      top: 43%;
+      font-size: 11px;
+      padding: 3px 8px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-node-linkedin, #showcase .vs-node-email {
+      top: 53%;
+      width: 34%;
+      padding: 13px 18px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-node-linkedin {
+      left: 6%;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-node-email {
+      right: 6%;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-reply-exit {
+      width: 90%;
+      padding: 11px 15px;
+      font-size: 12px;
+      gap: 12px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-inbox-label {
+      font-size: 12px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-chat {
+      left: 26px;
+      top: 73px;
+      bottom: 20px;
+      width: 50%;
+      display: grid;
+      grid-template-columns: minmax(0px, 1fr) minmax(0px, 1fr);
+      grid-template-rows: auto auto auto auto minmax(36px, 1fr);
+      gap: 10px 14px;
+      align-items: start;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-identity {
+      grid-column: 1 / -1;
+      margin: 0px;
+      gap: 10px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-identity h3 {
+      font-size: 26px;
+      line-height: 1.1;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-identity p {
+      font-size: 12px;
+      line-height: 1.25;
+      margin-top: 4px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-user-message {
+      font-size: 14px;
+      line-height: 1.4;
+      padding: 11px 14px;
+      align-self: start;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-user-message:not(.vs-chat-second) {
+      grid-column: 1 / -1;
+      width: 88%;
+      justify-self: end;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-message {
+      font-size: 14px;
+      line-height: 1.4;
+      gap: 10px;
+      padding: 8px 3px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-message:not(.vs-chat-last) {
+      grid-column: 1 / -1;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-message p {
+      max-width: none;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-actions {
+      flex-flow: wrap;
+      gap: 8px 14px;
+      margin-top: 9px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-actions .vs-check {
+      font-size: 11px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-chat-second {
+      grid-column: 1;
+      width: 100%;
+      font-size: 14px;
+      align-self: start;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-chat-last {
+      grid-column: 2;
+      padding: 5px 0px;
+      align-self: start;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-open {
+      font-size: 12px;
+      line-height: 1.3;
+      margin-top: 6px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-chat-input {
+      grid-column: 1 / -1;
+      align-self: end;
+      margin-top: 0px;
+      padding: 9px 13px;
+      font-size: 12px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-output {
+      right: 22px;
+      top: 73px;
+      bottom: 20px;
+      width: 44%;
+      min-height: 0px;
+      display: grid;
+      grid-template-columns: minmax(0px, 1fr) minmax(0px, 1fr);
+      grid-template-rows: auto auto minmax(0px, 1fr) auto;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-output .vs-panel-heading {
+      grid-column: 1 / -1;
+      padding: 11px 17px;
+      font-size: 13px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-output .vs-soft-tag {
+      font-size: 10px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-output-art {
+      grid-area: 2 / 1;
+      padding: 13px 18px;
+      background-position: 80% 48%;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-output-art > span {
+      font-size: 11px;
+      line-height: 1.25;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-output-art h4 {
+      font-size: 22px;
+      line-height: 1.15;
+      margin-top: 5px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-person {
+      grid-area: 2 / 2;
+      padding: 11px 14px;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-content: center;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-person strong {
+      font-size: 14px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-person div > span {
+      font-size: 11px;
+      margin-top: 4px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-person > .vs-fit {
+      font-size: 10px;
+      margin-left: 0px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-draft {
+      grid-column: 1 / -1;
+      padding: 14px 18px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-draft .vs-small-label {
+      font-size: 10px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-scout-draft p {
+      font-size: 15px;
+      line-height: 1.45;
+      margin-top: 8px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-output-checks {
+      grid-column: 1 / -1;
+      margin-top: 0px;
+      padding: 11px 17px;
+      gap: 12px;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-output-checks > .vs-check {
+      font-size: 11px;
+    }
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-output-checks > span:last-child {
+      gap: 6px;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+  #showcase .vs-enter, #showcase .vs-line {
+      animation: auto ease 0s 1 normal none running none !important;
+    }
+}
+#showcase .vs-playbook-library {
+  position: absolute;
+  inset: 76px 32px 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 0px;
+}
+#showcase .vs-playbook-heading h3 {
+  font-size: 28px;
+  line-height: 1.15;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+#showcase .vs-playbook-heading p {
+  font-size: 15px;
+  line-height: 1.4;
+  color: rgb(100, 118, 129);
+  margin-top: 8px;
+  max-width: 78ch;
+}
+#showcase .vs-playbook-categories {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0px, 1fr));
+  gap: 12px;
+  flex-shrink: 0;
+}
+#showcase .vs-playbook-categories > div {
+  height: 76px;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: flex-end;
+  padding: 12px;
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+#showcase .vs-playbook-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0px, 1fr));
+  grid-template-rows: repeat(2, minmax(0px, 1fr));
+  gap: 14px;
+  flex: 1 1 0%;
+  min-height: 0px;
+}
+#showcase .vs-playbook-item {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 22px;
+  border: 1px solid rgb(223, 230, 232);
+  border-radius: 7px;
+  background: rgb(242, 245, 245);
+  min-width: 0px;
+  min-height: 0px;
+}
+#showcase .vs-playbook-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: rgb(82, 118, 154);
+  margin-bottom: 12px;
+}
+#showcase .vs-playbook-item h4 {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+#showcase .vs-playbook-item p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgb(100, 116, 125);
+  margin-top: 8px;
+  max-width: 52ch;
+}
+#showcase .vs-playbook-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 14px;
+  font-size: 12px;
+  color: rgb(84, 113, 100);
+  gap: 10px;
+}
+#showcase .vs-playbook-bottom > span {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+#showcase .vs-playbook-bottom i {
+  width: 5px;
+  height: 5px;
+  background: rgb(105, 148, 123);
+  border-radius: 50%;
+}
+#showcase .vs-playbook-launch {
+  color: rgb(53, 93, 123);
+}
+@container (max-width: 1000px) {
+  #showcase .vs-playbook-library {
+      inset: 70px 22px 22px;
+      gap: 15px;
+    }
+}
+@container (max-width: 1000px) {
+  #showcase .vs-playbook-categories > div {
+      height: 60px;
+      font-size: 12px;
+    }
+}
+@container (max-width: 1000px) {
+  #showcase .vs-playbook-item {
+      padding: 16px;
+    }
+}
+@container (max-width: 1000px) {
+  #showcase .vs-playbook-item h4 {
+      font-size: 18px;
+    }
+}
+@container (max-width: 1000px) {
+  #showcase .vs-playbook-item p {
+      font-size: 13px;
+    }
+}
+@container (max-width: 1000px) {
+  #showcase .vs-playbook-meta {
+      margin-bottom: 8px;
+    }
+}
+@container (max-width: 1000px) {
+  #showcase .vs-playbook-bottom {
+      font-size: 11px;
+      padding-top: 10px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-playbook-library {
+      inset: 62px 16px 17px;
+      gap: 15px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-playbook-heading h3 {
+      font-size: 23px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-playbook-heading p {
+      font-size: 12px;
+      line-height: 1.4;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-playbook-categories {
+      grid-template-columns: repeat(2, minmax(0px, 1fr));
+      gap: 8px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-playbook-categories > div {
+      height: 42px;
+      padding: 8px;
+      font-size: 11px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-playbook-cards {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, minmax(0px, 1fr));
+      gap: 8px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-playbook-item {
+      padding: 11px 13px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-playbook-meta {
+      display: none;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-playbook-item h4 {
+      font-size: 15px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-playbook-item p {
+      font-size: 11px;
+      margin-top: 5px;
+      line-height: 1.3;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-playbook-bottom {
+      font-size: 10px;
+      padding-top: 6px;
+    }
+}
+@container (min-width: 601px) {
+  #showcase .vs-playbook-library {
+      gap: 14px;
+    }
+}
+@container (min-width: 601px) {
+  #showcase .vs-playbook-categories > div {
+      height: 56px;
+      padding: 10px;
+      font-size: 12px;
+    }
+}
+@container (min-width: 601px) {
+  #showcase .vs-playbook-heading h3 {
+      font-size: 25px;
+    }
+}
+@container (min-width: 601px) {
+  #showcase .vs-playbook-heading p {
+      font-size: 14px;
+      margin-top: 6px;
+    }
+}
+@container (min-width: 601px) {
+  #showcase .vs-playbook-item {
+      padding: 13px 16px;
+    }
+}
+@container (min-width: 601px) {
+  #showcase .vs-playbook-meta {
+      display: none;
+    }
+}
+@container (min-width: 601px) {
+  #showcase .vs-playbook-item h4 {
+      font-size: 18px;
+      line-height: 1.2;
+    }
+}
+@container (min-width: 601px) {
+  #showcase .vs-playbook-item p {
+      font-size: 13px;
+      line-height: 1.35;
+      margin-top: 6px;
+    }
+}
+@container (min-width: 601px) {
+  #showcase .vs-playbook-bottom {
+      font-size: 10px;
+      padding-top: 8px;
+    }
+}
+@container (min-width: 601px) {
+  #showcase .vs-playbook-cards {
+      gap: 12px;
+    }
+}
+#showcase .vs-stage-dashboard {
+  min-height: 600px;
+}
+#showcase .vs-home-sidebar {
+  position: absolute;
+  inset: 52px auto 0px 0px;
+  width: 154px;
+  padding: 22px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-right: 1px solid var(--vs-line);
+  font-size: 12px;
+  color: var(--vs-muted);
+}
+#showcase .vs-home-sidebar > span {
+  padding: 8px 10px;
+  line-height: 1.2;
+  border-radius: 4px;
+}
+#showcase .vs-home-sidebar .vs-home-current {
+  background: rgb(234, 240, 243);
+  color: rgb(53, 93, 123);
+}
+#showcase .vs-home-scout {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 9px;
+  color: rgb(53, 93, 123);
+}
+#showcase .vs-home-sidebar > small {
+  margin-top: auto;
+  padding: 16px 10px 0px;
+  font-size: 10px;
+  color: var(--vs-muted);
+}
+#showcase .vs-home-main {
+  position: absolute;
+  inset: 76px 28px 24px 182px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  min-width: 0px;
+}
+#showcase .vs-home-greeting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+#showcase .vs-home-greeting h3 {
+  font-size: 25px;
+  line-height: 1.15;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+#showcase .vs-home-demo {
+  font-size: 11px;
+  color: var(--vs-muted);
+  white-space: nowrap;
+}
+#showcase .vs-home-section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+#showcase .vs-home-section-heading h4 {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+#showcase .vs-home-section-heading > span {
+  font-size: 11px;
+  color: var(--vs-muted);
+}
+#showcase .vs-home-plan {
+  padding: 16px 18px;
+  border: 1px solid rgb(223, 230, 232);
+  border-radius: 6px;
+  background: rgb(240, 244, 245);
+}
+#showcase .vs-home-plan p {
+  font-size: 16px;
+  line-height: 1.35;
+  margin-top: 10px;
+}
+#showcase .vs-home-plan-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 12px;
+  font-size: 11px;
+  color: rgb(84, 113, 100);
+}
+#showcase .vs-home-plan-footer > span:last-child {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: rgb(53, 93, 123);
+}
+#showcase .vs-home-metrics {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr;
+  gap: 20px;
+  margin-top: 16px;
+}
+#showcase .vs-home-metrics > div + div {
+  border-left: 1px solid var(--vs-line);
+  padding-left: 24px;
+}
+#showcase .vs-home-metrics strong {
+  display: block;
+  font-size: 38px;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+#showcase .vs-home-metrics span {
+  display: block;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--vs-muted);
+  margin-top: 8px;
+}
+#showcase .vs-home-bottom {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 28px;
+  margin-top: auto;
+}
+#showcase .vs-home-bottom > div {
+  min-width: 0px;
+}
+#showcase .vs-home-bottom .vs-home-section-heading {
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--vs-line);
+}
+#showcase .vs-home-activity-row, #showcase .vs-home-lead {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 0px;
+  border-bottom: 1px solid var(--vs-line);
+}
+#showcase .vs-home-activity-row:last-child, #showcase .vs-home-lead:last-child {
+  border-bottom: 0px;
+  padding-bottom: 0px;
+}
+#showcase .vs-home-activity-row > span:first-child, #showcase .vs-home-lead > span:last-child {
+  min-width: 0px;
+}
+#showcase .vs-home-activity-row > span:last-child {
+  margin-left: auto;
+  font-size: 10px;
+  color: var(--vs-muted);
+}
+#showcase .vs-home-bottom strong {
+  display: block;
+  font-size: 13px;
+  line-height: 1.25;
+  font-weight: 500;
+}
+#showcase .vs-home-bottom small {
+  display: block;
+  font-size: 11px;
+  line-height: 1.35;
+  color: var(--vs-muted);
+  margin-top: 4px;
+}
+@container (min-width: 900.01px) {
+  #showcase .vs-stage-dashboard {
+      min-height: 600px;
+    }
+}
+@container (max-width: 1100px) {
+  #showcase .vs-home-main {
+      inset: 72px 22px 20px 167px;
+      gap: 18px;
+    }
+}
+@container (max-width: 1100px) {
+  #showcase .vs-home-sidebar {
+      width: 145px;
+    }
+}
+@container (max-width: 1100px) {
+  #showcase .vs-home-metrics strong {
+      font-size: 34px;
+    }
+}
+@container (max-width: 1100px) {
+  #showcase .vs-home-metrics > div + div {
+      padding-left: 18px;
+    }
+}
+@container (max-width: 1100px) {
+  #showcase .vs-home-bottom {
+      gap: 22px;
+    }
+}
+@container (max-width: 1100px) {
+  #showcase .vs-home-plan {
+      padding: 13px 16px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-home-sidebar {
+      top: 46px;
+      width: 118px;
+      font-size: 11px;
+      padding: 20px 8px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-home-sidebar > span {
+      padding: 8px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-home-sidebar > small {
+      padding-left: 8px;
+      font-size: 9px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-home-main {
+      inset: 68px 20px 20px 138px;
+      gap: 20px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-home-greeting {
+      align-items: start;
+      flex-direction: column;
+      gap: 6px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-home-greeting h3 {
+      font-size: 23px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-home-demo {
+      font-size: 10px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-home-metrics {
+      gap: 12px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-home-metrics strong {
+      font-size: 30px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-home-metrics > div + div {
+      padding-left: 12px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-home-metrics span {
+      font-size: 11px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-home-plan p {
+      font-size: 14px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-home-plan-footer {
+      font-size: 10px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-home-bottom strong {
+      font-size: 12px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-home-bottom small {
+      font-size: 10px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-stage-dashboard {
+      height: auto;
+      min-height: 0px;
+      aspect-ratio: auto;
+      padding: 12px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-stage-dashboard .vs-composition {
+      height: auto;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home {
+      height: auto;
+      padding-top: 43px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-sidebar {
+      position: static;
+      width: auto;
+      flex-direction: row;
+      gap: 18px;
+      padding: 12px 16px;
+      border-right: 0px;
+      border-bottom: 1px solid var(--vs-line);
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-sidebar > span {
+      padding: 0px;
+      white-space: nowrap;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-sidebar > span:nth-child(n+4), #showcase .vs-home-sidebar > small {
+      display: none;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-sidebar .vs-home-current {
+      background: none;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-main {
+      position: static;
+      padding: 22px 16px;
+      gap: 24px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-greeting h3 {
+      font-size: 23px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-section-heading h4 {
+      font-size: 13px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-section-heading > span {
+      font-size: 10px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-plan {
+      padding: 14px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-plan p {
+      margin-top: 12px;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-plan-footer {
+      align-items: start;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 11px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-metrics {
+      grid-template-columns: 1fr 1fr;
+      gap: 20px 12px;
+      margin-top: 18px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-metrics > div:first-child {
+      grid-column: 1 / -1;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-metrics > div:nth-child(2) {
+      border-left: 0px;
+      padding-left: 0px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-metrics strong {
+      font-size: 32px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-metrics > div:first-child strong {
+      font-size: 40px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-metrics span {
+      font-size: 12px;
+      margin-top: 6px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-bottom {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-bottom strong {
+      font-size: 13px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-bottom small {
+      font-size: 11px;
+    }
+}
+#showcase .vs-stage-dashboard {
+  aspect-ratio: auto;
+  height: auto;
+  min-height: 0px;
+}
+#showcase .vs-stage-dashboard .vs-composition {
+  height: auto;
+}
+#showcase .vs-home {
+  height: auto;
+  min-height: 0px;
+  padding-top: 52px;
+}
+#showcase .vs-home-main {
+  position: relative;
+  inset: auto;
+  margin-left: 154px;
+  padding: 24px 28px;
+  gap: 20px;
+}
+#showcase .vs-home-sidebar {
+  background: rgb(237, 242, 238);
+}
+#showcase .vs-home-plan {
+  background: rgb(228, 237, 223);
+  border-color: rgb(197, 216, 192);
+}
+#showcase .vs-home-metrics {
+  padding: 16px;
+  background: rgb(238, 243, 245);
+  border: 1px solid rgb(213, 225, 229);
+  border-radius: 5px;
+}
+#showcase .vs-home-metrics strong {
+  color: rgb(41, 79, 97);
+}
+#showcase .vs-home-metrics > div:nth-child(2) strong {
+  color: rgb(80, 117, 89);
+}
+#showcase .vs-home-metrics > div:nth-child(3) strong {
+  color: rgb(153, 107, 80);
+}
+#showcase .vs-home-bottom {
+  margin-top: 0px;
+}
+#showcase .vs-pipeline-chart {
+  padding: 16px 18px 6px;
+  background: rgb(242, 246, 240);
+  border: 1px solid rgb(207, 222, 208);
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+#showcase .vs-pipeline-chart svg {
+  display: block;
+  width: 100%;
+  height: 180px;
+  margin-top: 12px;
+  overflow: visible;
+}
+#showcase .vs-tour-control {
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid rgb(204, 216, 211);
+  background: rgb(244, 247, 241);
+  font-size: 14px !important;
+}
+#showcase .vs-tour-control:hover {
+  background: rgb(230, 238, 228);
+}
+@container (max-width: 1100px) {
+  #showcase .vs-home-main {
+      margin-left: 145px;
+      padding: 22px;
+      inset: auto;
+    }
+}
+@container (max-width: 1100px) {
+  #showcase .vs-toolbar {
+      gap: 16px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-home-main {
+      margin-left: 118px;
+      padding: 20px;
+      inset: auto;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-home-sidebar {
+      width: 118px;
+      top: 52px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-home-greeting {
+      flex-direction: row;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-toolbar {
+      flex-wrap: wrap;
+      gap: 8px;
+      padding-bottom: 10px;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-tabs {
+      flex-basis: 100%;
+    }
+}
+@container (max-width: 900px) {
+  #showcase .vs-tour-control {
+      margin-left: auto;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home {
+      padding-top: 43px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-sidebar {
+      position: static;
+      width: auto;
+      background: rgb(237, 242, 238);
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-main {
+      margin: 0px;
+      padding: 22px 16px;
+      gap: 24px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-greeting {
+      flex-direction: column;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-home-metrics {
+      padding: 14px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-pipeline-chart {
+      padding: 14px 10px 5px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-pipeline-chart svg {
+      height: 160px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-pipeline-chart .vs-home-section-heading {
+      align-items: start;
+      flex-direction: column;
+      gap: 5px;
+    }
+}
+@container (max-width: 600px) {
+  #showcase .vs-tour-control {
+      font-size: 13px !important;
+    }
+}

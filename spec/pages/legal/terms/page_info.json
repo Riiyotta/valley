@@ -1,0 +1,233 @@
+{
+ "title": "Terms of Service | Valley AI",
+ "metaDesc": "The terms that govern your use of Valley AI, including the 5x safety guarantee and the 30-day conversations promise.",
+ "links": [
+  {
+   "text": "",
+   "href": "./",
+   "abs": "https://www.joinvalley.co/",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Home Home",
+   "href": "./",
+   "abs": "https://www.joinvalley.co/",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "",
+   "href": "/product",
+   "abs": "https://www.joinvalley.co/product",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "",
+   "href": "/playbooks",
+   "abs": "https://www.joinvalley.co/playbooks",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Valley vs. Competition Valley vs. Competition",
+   "href": "./compare",
+   "abs": "https://www.joinvalley.co/compare",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Customers Customers",
+   "href": "./casestudies",
+   "abs": "https://www.joinvalley.co/casestudies",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Agencies Agencies",
+   "href": "./linkedin-outreach-for-agencies",
+   "abs": "https://www.joinvalley.co/linkedin-outreach-for-agencies",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Pricing Pricing",
+   "href": "./pricing",
+   "abs": "https://www.joinvalley.co/pricing",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Log in",
+   "href": "https://beta.joinvalley.co/login",
+   "abs": "https://beta.joinvalley.co/login",
+   "kind": "external",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Start for free",
+   "href": "https://beta.joinvalley.co/signup",
+   "abs": "https://beta.joinvalley.co/signup",
+   "kind": "external",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Valley",
+   "href": "https://joinvalley.co/",
+   "abs": "https://joinvalley.co/",
+   "kind": "external",
+   "inBody": false,
+   "target": "_blank"
+  },
+  {
+   "text": "Start for free →",
+   "href": "https://beta.joinvalley.co/signup",
+   "abs": "https://beta.joinvalley.co/signup",
+   "kind": "external",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Book a demo",
+   "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+   "abs": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+   "kind": "external",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Valley",
+   "href": "/",
+   "abs": "https://www.joinvalley.co/",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "hey@joinvalley.co",
+   "href": "mailto:hey@joinvalley.co",
+   "abs": "mailto:hey@joinvalley.co",
+   "kind": "external",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Product",
+   "href": "/product",
+   "abs": "https://www.joinvalley.co/product",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Customers",
+   "href": "/casestudies",
+   "abs": "https://www.joinvalley.co/casestudies",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Agencies",
+   "href": "/linkedin-outreach-for-agencies",
+   "abs": "https://www.joinvalley.co/linkedin-outreach-for-agencies",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Pricing",
+   "href": "/pricing",
+   "abs": "https://www.joinvalley.co/pricing",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Resources",
+   "href": "/blog",
+   "abs": "https://www.joinvalley.co/blog",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "All articles",
+   "href": "/blog/archive",
+   "abs": "https://www.joinvalley.co/blog/archive",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "About Valley",
+   "href": "/about",
+   "abs": "https://www.joinvalley.co/about",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Log in",
+   "href": "https://beta.joinvalley.co/login",
+   "abs": "https://beta.joinvalley.co/login",
+   "kind": "external",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Privacy policy",
+   "href": "/privacy-policy",
+   "abs": "https://www.joinvalley.co/privacy-policy",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Terms of service",
+   "href": "/terms-of-service",
+   "abs": "https://www.joinvalley.co/terms-of-service",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  }
+ ],
+ "imgs": [],
+ "fonts": [
+  "PP Neue Montreal Medium 500 normal",
+  "PP Neue Montreal Variable 400 normal",
+  "PP Neue Montreal Medium normal normal",
+  "Inter 400 normal",
+  "ValleyFooter 100 900 normal"
+ ],
+ "res": [
+  "https://framerusercontent.com/assets/6uIfYl8bnz9kOy3KOuV7PxhFPhA.woff2",
+  "https://framerusercontent.com/assets/4U27qiCuAgm6sc2vgHfWPBCGc.woff2",
+  "https://framerusercontent.com/assets/vQyevYAyHtARFwPqUzQGpnDs.woff2",
+  "https://track.hubspot.com/__ptq.gif?k=1&sd=1440x900&cd=24-bit&cs=UTF-8&ln=en-us&bfp=0ca4085275dabd03d53a38bdb86097b0&v=1.1&a=39698384&rcu=https%3A%2F%2Fwww.joinvalley.co%2Fterms-of-service&pu=https%3A%2F%2Fwww.joinvalley.co%2Fterms-of-service&t=Terms+of+Service+%7C+Valley+AI&cts=1790674568596&vi=88ba5540fc0490798d7e6f6ee351854a&nc=true&u=211159690.88ba5540fc0490798d7e6f6ee351854a.1790674568595.1790674568595.1790674568595.1&b=211159690.1.1790674568595&cc=15"
+ ],
+ "iframes": [
+  {
+   "tag": "IFRAME"
+  },
+  {
+   "tag": "IFRAME",
+   "src": "https://framer.com/edit?framerSiteId=3b6af324635ed2be6bcf6f5c0fb1f7c5136ab338dfe8559ca0710529283ca697&source=www.joinvalley.co&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1790674567549"
+  },
+  {
+   "tag": "IFRAME",
+   "src": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b"
+  }
+ ]
+}

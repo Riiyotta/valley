@@ -1,0 +1,246 @@
+/* Valley /pricing: code-component CSS extracted verbatim from the live CSSOM (document.styleSheets) on 2026-09-29.
+   De-duplicated; @media/@container/@supports wrappers preserved. Reference data for spec/pages/pricing.md (not app code).
+   Prefix groups whose every rule is byte-identical (after whitespace normalisation) to /Users/riyaghosh/V3/Valley/spec/components.css are omitted and listed here: active, close, direction, hover, isCurrent, no, rich, scrollbar, status_hidden, status_measuring, status_visually_hidden, surface, svgContainer, text, valley-customer-results, valley-hero-proof, valley-hero-visual, valley-showcase, valley-start-questions, valley-team-fit, vcr, vf, vhp, vhv, vpm, vs, vsq, vtf. */
+
+
+/* ===== .vp* (40 rules; 0 also present verbatim in homepage components.css) ===== */
+.vp-plans {
+  container-type: inline-size;
+  width: 100%;
+  color: rgb(28, 41, 45);
+  font-family: ValleyPlans, Arial, sans-serif;
+  box-sizing: border-box;
+}
+.vp-plans * {
+  box-sizing: border-box;
+  min-width: 0px;
+}
+.vp-plans h2, .vp-plans h3, .vp-plans p {
+  margin: 0px;
+}
+.vp-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin: 0px auto 32px;
+  background: rgb(231, 237, 239);
+  padding: 5px;
+  width: max-content;
+  max-width: 100%;
+}
+.vp-toggle button {
+  font-style: inherit;
+  font-variant: inherit;
+  font-stretch: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  font-optical-sizing: inherit;
+  font-size-adjust: inherit;
+  font-kerning: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-language-override: inherit;
+  font-size: 17px;
+  font-weight: 500;
+  min-height: 48px;
+  border: 0px;
+  padding: 12px 22px;
+  background: transparent;
+  color: rgb(65, 86, 95);
+  cursor: pointer;
+}
+.vp-toggle button[aria-pressed="true"] {
+  background: rgb(28, 41, 45);
+  color: white;
+}
+.vp-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0px, 1fr));
+  gap: 20px;
+}
+.vp-card {
+  padding: 30px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(210, 221, 221);
+  display: flex;
+  flex-direction: column;
+}
+.vp-card:nth-child(2) {
+  background: rgb(232, 239, 240);
+  border: 2px solid rgb(82, 121, 149);
+  padding: 29px;
+}
+.vp-card h3 {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 1.15;
+}
+.vp-desc {
+  font-size: 17px;
+  line-height: 1.5;
+  color: rgb(82, 101, 112);
+  min-height: 76px;
+  margin-top: 16px !important;
+}
+.vp-price {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-top: 28px;
+}
+.vp-price strong {
+  font-size: 58px;
+  line-height: 1.05;
+  font-weight: 500;
+  letter-spacing: -0.05em;
+}
+.vp-price span {
+  font-size: 15px;
+  color: rgb(82, 101, 112);
+}
+.vp-bill {
+  font-size: 14px;
+  color: rgb(82, 101, 112);
+  min-height: 42px;
+  line-height: 1.5;
+  margin-top: 10px !important;
+}
+.vp-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(28, 41, 45);
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  min-height: 50px;
+  padding: 12px 18px;
+  margin: 24px 0px;
+}
+.vp-button:hover {
+  background: rgb(52, 80, 91);
+}
+.vp-card ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.vp-card li {
+  display: flex;
+  gap: 12px;
+  padding: 13px 0px;
+  border-top: 1px solid rgb(217, 225, 226);
+  font-size: 16px;
+  line-height: 1.45;
+}
+.vp-card li::before {
+  content: "✓";
+  color: rgb(65, 108, 101);
+}
+.vp-extra {
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgb(82, 101, 112);
+  margin-top: 24px !important;
+}
+.vp-scale {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  border-bottom: 1px solid rgb(214, 222, 222);
+  padding: 30px 0px;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.vp-scale strong {
+  font-size: 23px;
+  font-weight: 500;
+}
+.vp-scale p {
+  color: rgb(82, 101, 112);
+  margin-top: 8px;
+}
+.vp-scale a {
+  color: rgb(60, 112, 157);
+  white-space: nowrap;
+}
+.vp-plans button:focus-visible, .vp-plans a:focus-visible {
+  outline: rgb(57, 118, 174) solid 2px;
+  outline-offset: 4px;
+}
+@container (max-width: 1050px) {
+  .vp-card {
+    padding: 24px;
+  }
+}
+@container (max-width: 1050px) {
+  .vp-card:nth-child(2) {
+    padding: 23px;
+  }
+}
+@container (max-width: 1050px) {
+  .vp-card h3 {
+    font-size: 25px;
+  }
+}
+@container (max-width: 1050px) {
+  .vp-price strong {
+    font-size: 48px;
+  }
+}
+@container (max-width: 1050px) {
+  .vp-desc {
+    font-size: 16px;
+    min-height: 90px;
+  }
+}
+@container (max-width: 1050px) {
+  .vp-card li {
+    font-size: 15px;
+  }
+}
+@container (max-width: 760px) {
+  .vp-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@container (max-width: 760px) {
+  .vp-card {
+    padding: 28px;
+  }
+}
+@container (max-width: 760px) {
+  .vp-card:nth-child(2) {
+    padding: 27px;
+  }
+}
+@container (max-width: 760px) {
+  .vp-desc {
+    min-height: 0px;
+  }
+}
+@container (max-width: 760px) {
+  .vp-price strong {
+    font-size: 56px;
+  }
+}
+@container (max-width: 760px) {
+  .vp-card li {
+    font-size: 16px;
+  }
+}
+@container (max-width: 760px) {
+  .vp-scale {
+    align-items: start;
+    flex-direction: column;
+  }
+}
+@container (max-width: 760px) {
+  .vp-toggle button {
+    padding: 12px 15px;
+  }
+}
+
+/* ===== @keyframes referenced by the rules above (0) ===== */

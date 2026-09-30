@@ -1,0 +1,18 @@
+{
+  "category": "spacing",
+  "description": "Frequency-ranked spacing scale, from every flex/grid gap and padding on the live page across all measured widths.",
+  "measuredFrom": "spec/GRID.md:199-207",
+  "coreLadder": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 48, 56, 64, 72, 88, 96],
+  "gutters": {
+    "desktop": 48,
+    "tablet": 28,
+    "phone": 20,
+    "vgs-desktop-to-720": 48,
+    "vgs-below-720": 24,
+    "cta-footer": [24, 16]
+  },
+  "sectionPadding": [8, 24, 32, 40, 48, 56, 64, 88, 96, 112, 124, 140],
+  "gridColumnGaps": [10, 12, 16, 20, 24, 28, 32, 36, 40, 48, 56, 64, 72],
+  "offLadderValuesKeepOnlyWhenCloningExistingParts": [3, 5, 6, 7, 9, 14, 15, 17, 18, 22, 23, 26, 44, 52, 60, 100],
+  "note": "Off-ladder values must never be used for NEW content; they exist only because the original design uses them in specific measured places (see spec/GRID.md section 6)."
+}

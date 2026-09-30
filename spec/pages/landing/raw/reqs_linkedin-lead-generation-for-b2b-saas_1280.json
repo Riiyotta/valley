@@ -1,0 +1,1508 @@
+[
+ {
+  "url": "https://www.joinvalley.co/linkedin-lead-generation-for-b2b-saas",
+  "type": "document",
+  "status": 200,
+  "ct": "text/html"
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/gh/trysurface/scripts@latest/surface_tag.min.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://framerusercontent.com/images/x4WGqv5aU1EbJsAAySHvFBp9HaY.webp?width=680&height=920",
+  "type": "image",
+  "status": 200,
+  "ct": "image/webp"
+ },
+ {
+  "url": "https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrcdmg.woff2",
+  "type": "font",
+  "status": 200,
+  "ct": "font/woff2"
+ },
+ {
+  "url": "https://framerusercontent.com/images/GGiHIlYdU4o4MMMkKUEQbJ1CUvw.png?scale-down-to=2048&width=2496&height=662",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://datafa.st/js/script.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/U8j0K3SkdLeBpY8MYtbVddKkV0.jpg?scale-down-to=1024&width=2316&height=3088",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/R5AeuyDxdoeADin1x32gC6L5St0.png?width=480&height=480",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://cdn.tolt.io/tolt.js",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://framerusercontent.com/images/WtSAHrTok8mtlR2CI7nq7oEQ6Y.jpeg?scale-down-to=512&width=800&height=800",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/psl/dist/psl.min.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://analytics.ahrefs.com/analytics.js",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://js.navattic.com/sdk.js?key=pkey_cmcuxppar000i04jy9hjb8rc0",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+  "type": "other",
+  "status": 200,
+  "ct": ""
+ },
+ {
+  "url": "https://framerusercontent.com/images/ysxcQkBhX6DvdxX0UA6jJSJnSk.png?width=213&height=190",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/assets/6uIfYl8bnz9kOy3KOuV7PxhFPhA.woff2",
+  "type": "font",
+  "status": 200,
+  "ct": "font/woff2"
+ },
+ {
+  "url": "https://events.framer.com/script?v=2",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://i.ytimg.com/vi_webp/t9cYsNR2goo/maxresdefault.webp",
+  "type": "image",
+  "status": 200,
+  "ct": "image/webp"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/rolldown-runtime.Dh6celcD.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://i.ytimg.com/vi_webp/bmTEE6d1oiI/maxresdefault.webp",
+  "type": "image",
+  "status": 200,
+  "ct": "image/webp"
+ },
+ {
+  "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5N6RQSWZ",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=UTF-8"
+ },
+ {
+  "url": "https://i.ytimg.com/vi_webp/XJ-4VYbgO0M/maxresdefault.webp",
+  "type": "image",
+  "status": 200,
+  "ct": "image/webp"
+ },
+ {
+  "url": "https://framerusercontent.com/assets/4U27qiCuAgm6sc2vgHfWPBCGc.woff2",
+  "type": "font",
+  "status": 200,
+  "ct": "application/octet-stream"
+ },
+ {
+  "url": "https://i.ytimg.com/vi_webp/Yr5M2U7JTkU/maxresdefault.webp",
+  "type": "image",
+  "status": 200,
+  "ct": "image/webp"
+ },
+ {
+  "url": "https://events.navattic.com/api/visitors/config?key=pkey_cmcuxppar000i04jy9hjb8rc0",
+  "type": "fetch",
+  "status": 200,
+  "ct": "application/json; charset=utf-8"
+ },
+ {
+  "url": "https://www.googletagmanager.com/gtag/js?id=G-4WEVC5JR0X",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=UTF-8"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/react.CxdsAVVB.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/j2UIvY1Iwn4hh2sA1iFVwbIS11AnnYlM9EDoiK5iTXo.CbIQ9Ix7.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://i.ytimg.com/vi_webp/19w3cPwB6cg/maxresdefault.webp",
+  "type": "image",
+  "status": 200,
+  "ct": "image/webp"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/motion.BfuEmyvq.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://events.navattic.com/api/visitors/config/page?key=pkey_cmcuxppar000i04jy9hjb8rc0&url=https%3A%2F%2Fwww.joinvalley.co%2Flinkedin-lead-generation-for-b2b-saas",
+  "type": "fetch",
+  "status": 200,
+  "ct": "application/json; charset=utf-8"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/Surface_Demo.D3aL8QUC.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/framer.CJtTITw3.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/IoXKV2yX3.BZEqOraW.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/ValleyStartAndQuestions.DtMQ97Eb.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/x9iIfGhl7.Bd1JkBQK.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/YouTube.gyQfdOnW.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/OIjZRBmWDcIE2B6qgG1j.DsVN5KA9.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://js.hs-scripts.com/39698384.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript;charset=utf-8"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/TsCdg3y5y.DVoRcWB6.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/default-utils.js@_0.45.D_LNNYpT.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/DReVrQWwe.BiERzpTU.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/m5ewNrvT5.C-SmnwvS.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/XTZ8Nv8Yj.COci1Znk.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/Xxykejc03.DXSYv7jI.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/25HfKSbk0ad4aiXEQvcriMGtLiGKXkq1pDh-lQwtIa0.ByiXSvgW.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://forms.withsurface.com/api/v1/lead/track",
+  "type": "fetch",
+  "status": 200,
+  "ct": "application/json"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/Embed.TwYr82_6.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://www.google.com/measurement/conversion?random=1790673710154&cv=11&tid=G-4WEVC5JR0X&fst=1790673710154&fmt=8&en=session_start&gtm=45je69p1v9188287996z89188277532za20gzb9188277532zd9188277532xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.joinvalley.co%2Flinkedin-lead-generation-for-b2b-saas&gacid=485127526.1790673710&hn=www.googleadservices.com&frm=0&tiba=LinkedIn%20Lead%20Generation%20for%20B2B%20SaaS%20%7C%20Valley%20AI&npa=0&pscdl=noapi&auid=1386858203.1790673710&uaa=arm&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uamb=0&uam=&uap=macOS&uapv=27.0.1&uaw=0&rcb=16",
+  "type": "fetch",
+  "status": 200,
+  "ct": ""
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/ToltHubspot.DXMZaqu5.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://framerusercontent.com/images/7ii3QW0Ru8RimJQ33PMayGEtvI.png?width=225&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://analytics.google.com/g/collect?v=2&tid=G-4WEVC5JR0X&gtm=45je69p1v9188287996z89188277532za20gzb9188277532zd9188277532xf1&_p=1790673709585&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=577435251&_eu=AAAAAGAC&_prs=ok&cid=485127526.1790673710&frm=0&pscdl=noapi&rcb=16&sr=1280x900&uaa=arm&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=macOS&uapv=27.0.1&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1790673710&sct=1&seg=0&dl=https%3A%2F%2Fwww.joinvalley.co%2Flinkedin-lead-generation-for-b2b-saas&dt=LinkedIn%20Lead%20Generation%20for%20B2B%20SaaS%20%7C%20Valley%20AI&en=page_view&_fv=2&_nsi=1&_ss=2&_c=1&tfd=1091",
+  "type": "fetch",
+  "status": 204,
+  "ct": "text/plain"
+ },
+ {
+  "url": "https://framerusercontent.com/images/Bx6e2ANj69WlGVSGixBWFjy4WY.png?width=754&height=230",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/script_main.CrfoXTP4.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://framerusercontent.com/images/ceUkuYsnQN6G6F5pnloZWV1iU.png?width=136&height=148",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/jx1u5bQyJQTHE8DVeFhTlV7WEQ.png?scale-down-to=512&width=8000&height=1812",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/yvTz5ONEScQRG5OWmiMEDzXpas.png?width=288&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/gj2oKe8h7wzUNC5y3oBGI34mM.png?width=246&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/ktz6KWkTv0W6wZYpr8fDzYPvY4I.png?width=279&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/YG1tT9kh0M7mlsBDlaOdgRR0.png?width=264&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/cLS5abTnQ5XywuBkuSOLzapiDo.png?scale-down-to=512&width=1284&height=372",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/ujCoumqWwdBQpRvvlCfiVuOzso.png?width=246&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/VuqKYnHWoTofCCM3yIH85eHOpo.png?width=228&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/XR2mg0m5jaEuY77g9McpBAjsHw.png?width=168&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/DIlJZPjonPeUe4ZwL1CEYmCOUw.png?width=288&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/W4Pger03NHoxtfZHRcbAIfQ6P4.png?scale-down-to=512&width=1910&height=632",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript;charset=utf-8"
+ },
+ {
+  "url": "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://framerusercontent.com/images/glOVQL3Qd1fVRyHWORpg8KFVY.png?width=360&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/i9MrwcnTeJlupc8YonFW5eaOgec.png?width=228&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/3UCjPMpY3Nkuy1xoJaCCN3TKJk.png?width=230&height=75",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/assets/vQyevYAyHtARFwPqUzQGpnDs.woff2",
+  "type": "font",
+  "status": 200,
+  "ct": "font/woff2"
+ },
+ {
+  "url": "https://framerusercontent.com/sites/3k6OJ57RGyNET7iJc2x5n1/Icons.zR98W64C.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://framerusercontent.com/images/fSMDCykUwcEbvyXPdSXFjdNF4hY.png?width=193&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/AYyRFkyykfeW6XOj952lPF0Zc.png?width=285&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/8muhkAJTPNewpFOWmKmjxRbWdI.png?width=360&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/ZlOSMxkKcwvpfjkFDJ0ZUgjJKk.png?width=165&height=125",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/NfiYqyXn6RqMDJGpeS3bJkL9eEU.png?width=138&height=43",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/PamliAUziZnsHcig47BKJwoquY.png?width=267&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/uoWIwAg1brM2fxpy5tHe7EYdLbU.png?width=292&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://www.google.com/measurement/conversion?random=1790673710154&cv=11&tid=G-4WEVC5JR0X&fst=1790673710154&fmt=8&en=first_visit&gtm=45je69p1v9188287996z89188277532za20gzb9188277532zd9188277532xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.joinvalley.co%2Flinkedin-lead-generation-for-b2b-saas&gacid=485127526.1790673710&hn=www.googleadservices.com&frm=0&tiba=LinkedIn%20Lead%20Generation%20for%20B2B%20SaaS%20%7C%20Valley%20AI&npa=0&pscdl=noapi&auid=1386858203.1790673710&uaa=arm&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uamb=0&uam=&uap=macOS&uapv=27.0.1&uaw=0&rcb=16",
+  "type": "fetch",
+  "status": 200,
+  "ct": ""
+ },
+ {
+  "url": "https://framerusercontent.com/images/4uqpOIDAG2RqFhTLQVKnRR4ENRE.png?width=591&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://www.google.com/measurement/conversion?random=1790673710154&cv=11&tid=G-4WEVC5JR0X&fst=1790673710154&fmt=8&en=page_view&gtm=45je69p1v9188287996z89188277532za20gzb9188277532zd9188277532xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.joinvalley.co%2Flinkedin-lead-generation-for-b2b-saas&gacid=485127526.1790673710&hn=www.googleadservices.com&frm=0&tiba=LinkedIn%20Lead%20Generation%20for%20B2B%20SaaS%20%7C%20Valley%20AI&npa=0&pscdl=noapi&auid=1386858203.1790673710&uaa=arm&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uamb=0&uam=&uap=macOS&uapv=27.0.1&uaw=0&rcb=16",
+  "type": "fetch",
+  "status": 200,
+  "ct": ""
+ },
+ {
+  "url": "https://framerusercontent.com/images/fPy3rajrBwOXFvdygI98ux0wDiI.png?width=183&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/SOyfehqzz61uEv0nABhxHZXPaI.png?width=312&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/gdAPP1HxjcIBX7yTqHcYhTrA.png?width=183&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/2MD4BqAIsMousaVLu0QWFtAnBjA.png?width=322&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/SsCt2nwZM7v3r1iJr5go5IakYfA.png?width=317&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://ingest.promptwatch.com/js/client.min.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://framerusercontent.com/images/10dfy9LKXgJaLU5a86bKVRe9HE.png?width=312&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-4WEVC5JR0X&cid=485127526.1790673710&gtm=45je69p1v9188287996z89188277532za20gzb9188277532zd9188277532xf1&rcb=16&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&z=1506860789",
+  "type": "image",
+  "status": 200,
+  "ct": "image/gif"
+ },
+ {
+  "url": "https://js.hscollectedforms.net/collectedforms.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://framerusercontent.com/images/cSfuUaRCe6mtjQgGygGXc0Ms.png?scale-down-to=2048&width=5312&height=224",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framer.com/edit/init.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://framerusercontent.com/images/0WWjyvAaj9FemoWYIj02vT4iyDM.png?scale-down-to=1024&width=1020&height=1266",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://js.hs-banner.com/v2/39698384/banner.js",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript; charset=UTF-8"
+ },
+ {
+  "url": "https://framerusercontent.com/images/yJ5cYSTyer3TnYG3EFxM8MXhpg.png?width=289&height=120",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/d2ZWq2gqUINlAfjT4c6EGNOvcE.png?scale-down-to=1024&width=1194&height=1260",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/wbD2M1e4heMO5vhFyOVSd06raU.png?scale-down-to=512&width=654&height=652",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/pcdOvBzgiyoCEwCOpF4fCU2wFE.png?scale-down-to=1024&width=1132&height=1272",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/KXmPUH6iN7kM8tUEwzTIvGKjKw.png?scale-down-to=512&width=638&height=454",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/A7eybC2DWbIXqCqH5pElLOD4s.png?scale-down-to=512&width=576&height=360",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://www.googletagmanager.com/gtag/js?id=G-4WEVC5JR0X&cx=c&gtm=4e69p1",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=UTF-8"
+ },
+ {
+  "url": "https://js.hs-analytics.net/analytics/1790673600000/39698384.js",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript;charset=utf-8"
+ },
+ {
+  "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-4WEVC5JR0X&cid=485127526.1790673710&gtm=45je69p1v9188287996z89188277532za20gzb9188277532zd9188277532xf1&rcb=16&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034",
+  "type": "ping",
+  "status": 204,
+  "ct": "text/plain"
+ },
+ {
+  "url": "https://app.framerstatic.com/chunk-BAHUFDKX.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://forms.hscollectedforms.net/collected-forms/v1/config/json?portalId=39698384&utk=",
+  "type": "xhr",
+  "status": 200,
+  "ct": "application/json;charset=utf-8"
+ },
+ {
+  "url": "https://events.framer.com/anonymous",
+  "type": "ping",
+  "status": 200,
+  "ct": "application/json"
+ },
+ {
+  "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+  "type": "fetch",
+  "status": 204,
+  "ct": ""
+ },
+ {
+  "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=9263481&time=1790673710823&li_adsId=90a3e641-0560-471c-ac49-c4843474d619&pageLoadId=a9c458e1-1cac-4f65-974e-37274e79bfc1&url=https%3A%2F%2Fwww.joinvalley.co%2Flinkedin-lead-generation-for-b2b-saas",
+  "type": "image",
+  "status": 302,
+  "ct": ""
+ },
+ {
+  "url": "https://cdn.menoinfra.com/p/d7cc0aa7-45bc-47dc-84d7-f79ae1dd10da.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://radar.warmai.uk/releases/latest/radar.min.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript"
+ },
+ {
+  "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=9263481&time=1790673710823&li_adsId=90a3e641-0560-471c-ac49-c4843474d619&pageLoadId=a9c458e1-1cac-4f65-974e-37274e79bfc1&url=https%3A%2F%2Fwww.joinvalley.co%2Flinkedin-lead-generation-for-b2b-saas&cookiesTest=true",
+  "type": "image",
+  "status": 302,
+  "ct": ""
+ },
+ {
+  "url": "https://ingest.promptwatch.com/event",
+  "type": "fetch",
+  "status": 200,
+  "ct": "application/json; charset=utf-8"
+ },
+ {
+  "url": "https://radar.warmai.uk/tracker/event",
+  "type": "fetch",
+  "status": 200,
+  "ct": ""
+ },
+ {
+  "url": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D9263481%26time%3D1790673710823%26li_adsId%3D90a3e641-0560-471c-ac49-c4843474d619%26pageLoadId%3Da9c458e1-1cac-4f65-974e-37274e79bfc1%26url%3Dhttps%253A%252F%252Fwww.joinvalley.co%252Flinkedin-lead-generation-for-b2b-saas%26cookiesTest%3Dtrue%26liSync%3Dtrue",
+  "type": "image",
+  "status": 302,
+  "ct": ""
+ },
+ {
+  "url": "https://radar.warmai.uk/bp/roygRdqga6X/settings",
+  "type": "fetch",
+  "status": 200,
+  "ct": "application/json"
+ },
+ {
+  "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=9263481&time=1790673710823&li_adsId=90a3e641-0560-471c-ac49-c4843474d619&pageLoadId=a9c458e1-1cac-4f65-974e-37274e79bfc1&url=https%3A%2F%2Fwww.joinvalley.co%2Flinkedin-lead-generation-for-b2b-saas&cookiesTest=true&liSync=true",
+  "type": "image",
+  "status": 200,
+  "ct": "application/javascript"
+ },
+ {
+  "url": "https://t.menoinfra.com/api/track",
+  "type": "ping",
+  "status": 200,
+  "ct": "application/json"
+ },
+ {
+  "url": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+  "type": "document",
+  "status": 200,
+  "ct": "text/html; charset=utf-8"
+ },
+ {
+  "url": "https://framerusercontent.com/images/21ARQ0zNQJwMBIayeEce33q0SA.png",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/cEU3K0kHt8OwuJppD6dSiP8CU.png?width=120&height=40",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/oHzyQ3zMZ9eWYrQeluruiBr72o.png",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/3uRg4W7Du09SgZ8iq14CDmYcYR8.png",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/5tcZiervDAFIoj05Ml6FPEDSwA.png",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/3kp7sgisLKYY4YnymGAMtFzc.png",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/3xst6pl7wsv32.css",
+  "type": "stylesheet",
+  "status": 200,
+  "ct": "text/css; charset=utf-8"
+ },
+ {
+  "url": "https://framerusercontent.com/assets/L2cM7UBl1PBgkAjz9dlfXZPgyrI.svg",
+  "type": "image",
+  "status": 200,
+  "ct": "image/svg+xml"
+ },
+ {
+  "url": "https://framerusercontent.com/images/6IeF3jQs8bnbpIHCOHjuvPtIfUw.png",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/mTfqvalVWVCZWgPNloJ6jtLj4.png",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/2u105qmW9Mo9rPq1Pqa4a2TGU.png",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/6zgSf0wp0U8Bt2HUornH0fUrGkk.png",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/1xektmxrxby6s.css",
+  "type": "stylesheet",
+  "status": 200,
+  "ct": "text/css; charset=utf-8"
+ },
+ {
+  "url": "https://track.hubspot.com/__ptq.gif?k=1&sd=1280x900&cd=24-bit&cs=UTF-8&ln=en-us&bfp=ec7a84a785bbef6495c48baed79a403b&v=1.1&a=39698384&rcu=https%3A%2F%2Fwww.joinvalley.co%2Flinkedin-lead-generation-for-b2b-saas&pu=https%3A%2F%2Fwww.joinvalley.co%2Flinkedin-lead-generation-for-b2b-saas&t=LinkedIn+Lead+Generation+for+B2B+SaaS+%7C+Valley+AI&cts=1790673712080&vi=1071a5b12ead3065acbb5c00988c8438&nc=true&u=211159690.1071a5b12ead3065acbb5c00988c8438.1790673712079.1790673712079.1790673712079.1&b=211159690.1.1790673712079&cc=15",
+  "type": "image",
+  "status": 200,
+  "ct": "image/gif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/a0X4JO90c87LN6LiUS3wjVVfbEM.png",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/18q3zy2n7td80.css",
+  "type": "stylesheet",
+  "status": 200,
+  "ct": "text/css; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/127mhq1s0a5_j.css",
+  "type": "stylesheet",
+  "status": 200,
+  "ct": "text/css; charset=utf-8"
+ },
+ {
+  "url": "https://framerusercontent.com/images/mX7p7YZ6obsVSXSkOgczWo4vEjM.png",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+  "type": "stylesheet",
+  "status": 200,
+  "ct": "text/css; charset=utf-8"
+ },
+ {
+  "url": "https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap",
+  "type": "stylesheet",
+  "status": 200,
+  "ct": "text/css; charset=utf-8"
+ },
+ {
+  "url": "https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap",
+  "type": "stylesheet",
+  "status": 200,
+  "ct": "text/css; charset=utf-8"
+ },
+ {
+  "url": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap",
+  "type": "stylesheet",
+  "status": 200,
+  "ct": "text/css; charset=utf-8"
+ },
+ {
+  "url": "https://framerusercontent.com/images/0fxf55YOeJxgnUJVGPgN4kUW2I.png",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://framerusercontent.com/images/uMJVarJL6H5sGSGGAsEVkkV7IU.png",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/04h_xu17wed40.css",
+  "type": "stylesheet",
+  "status": 200,
+  "ct": "text/css; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/1-axv3xgyp7tk.css",
+  "type": "stylesheet",
+  "status": 200,
+  "ct": "text/css; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/0dakhjum2txgr.css",
+  "type": "stylesheet",
+  "status": 200,
+  "ct": "text/css; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/1bvbl74gnzihh.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://framer.com/edit?framerSiteId=3b6af324635ed2be6bcf6f5c0fb1f7c5136ab338dfe8559ca0710529283ca697&source=www.joinvalley.co&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1790673710859",
+  "type": "document",
+  "status": 200,
+  "ct": "text/html; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/3j-9g-59z05k1.css",
+  "type": "stylesheet",
+  "status": 200,
+  "ct": "text/css; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/0ho8uk9y2lp85.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/turbopack-2o8bhpy-xus4n.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+  "type": "font",
+  "status": 200,
+  "ct": "font/woff2"
+ },
+ {
+  "url": "https://app.framerstatic.com/chunk-6W2K2MOG.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/0zogwhjt10o4i.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://framerusercontent.com/images/mFkYfCO2VSJh19ANxRWgNRdfm8.png",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/441ndfqt9amvf.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/media/GeistMono_Variable.p.1sg4ifey12l8-.woff2",
+  "type": "font",
+  "status": 200,
+  "ct": "font/woff2"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/3dwripxlrtb4b.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/3pd5gxcpw-oqa.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/16ftqr2o0apy_.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://app.framerstatic.com/editorbar.5GIRVG4E.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://app.framerstatic.com/chunk-WOEOGJ2W.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://app.framerstatic.com/chunk-YRQ7G4QH.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://yyzsiiitcbulecsvrxtd.supabase.co/storage/v1/object/public/images/cllo318mt0003mb08hnp0f5zy/fd03c0b2a358092ae39ccc9632ffea484a2c3f5c9a65a93d59626c2fd9ee5016",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/1nj-q1bi2gfuu.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/1eqi7hnih-rvb.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://app.framerstatic.com/chunk-WLHSDIGQ.mjs",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/34_z7-jl9mtas.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/25vmyot004e5l.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://yyzsiiitcbulecsvrxtd.supabase.co/storage/v1/object/public/images/cmf48axt8001cib0b0od0bu3d/2f4a77c84a84c57421e110ac523c2078dbea955e1bf3c298941124c0fb1305f6",
+  "type": "image",
+  "status": 200,
+  "ct": "image/png"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/3d_8w_lolh1u7.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/3092z1wreu-1e.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/0v5wtl30f_au1.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/10jm3_t6ty_pn.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/3r100-az19p-y.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/04vhte_8ukxgd.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/2w0fqjiyuu4im.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://yyzsiiitcbulecsvrxtd.supabase.co/storage/v1/object/public/font_files/ppNeueMontreal/ppneuemontreal-medium.otf",
+  "type": "font",
+  "status": 200,
+  "ct": "font/otf"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/3yh7dyov8f9x5.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/2172lqhe5bh2a.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/0a-na4kpys2wq.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/0d7p3pex8avix.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://framer.com/bootstrap.d1b51f7f12b16b99afb74c4a3c9f7ef297be40d9.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/10qt_c_ojrn5i.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/38um2v26eub0h.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/061d2m-u79r2k.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/2xk7_p6hij4kc.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/2ri_vcn7whp6m.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/3xuturi4q951-.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/0dg96ftidva19.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/3jtmp0eq7dvju.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/2qe-tcj_jcjkn.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/3xcyq7b64o-y3.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/2pa4f-_df2q8u.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/1bbmcg8c9mofk.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/25l-8mtc8z-w_.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/0o6u2ry-f5jqh.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://api.framer.com/auth/web/access-token?source=editorbar",
+  "type": "fetch",
+  "status": 200,
+  "ct": "application/json; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/1mgjxdrynj3jw.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/3gbmd5gdj5qiu.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/2rzy_ih-krwdx.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/28am9d9jhhw-3.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/0sf84yuw7uuws.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://us-assets.i.posthog.com/static/exception-autocapture.js?v=1.374.0",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/0i1eqbvpz0y0-.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://us-assets.i.posthog.com/array/phc_DaUA6AiS44AcUHWgWCDLdbTYRvhmEKRenSKC4eyShfC/config.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript"
+ },
+ {
+  "url": "https://forms.withsurface.com/2d38174dc48b80d8/script.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/2hlvfa09iuta9.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://us-assets.i.posthog.com/static/surveys.js?v=1.374.0",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/0jnpmey_c4cnp.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://forms.withsurface.com/api/v1/lead/identify",
+  "type": "fetch",
+  "status": 429,
+  "ct": "application/json"
+ },
+ {
+  "url": "https://us.i.posthog.com/flags/?v=2&ip=0&_=1790673713455&ver=1.374.0&compression=base64",
+  "type": "fetch",
+  "status": 200,
+  "ct": "application/json"
+ },
+ {
+  "url": "https://forms.withsurface.com/_next/static/chunks/0wrhjq5pfbk52.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript; charset=utf-8"
+ },
+ {
+  "url": "https://framerusercontent.com/images/Nl9qrqIvNbOpysNp69Ya9w6U.png?scale-down-to=512&width=638&height=586",
+  "type": "image",
+  "status": 200,
+  "ct": "image/avif"
+ },
+ {
+  "url": "https://forms.withsurface.com/api/v1/lead/identify",
+  "type": "fetch",
+  "status": 200,
+  "ct": "application/json"
+ },
+ {
+  "url": "https://meetings.hubspot.com/zayd-from-valley/tryvalley",
+  "type": "document",
+  "status": 200,
+  "ct": "text/html; charset=utf-8"
+ },
+ {
+  "url": "https://static.hsappstatic.net/MeetingsPublic/static-1.61137/html/configure-monitoring.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript"
+ },
+ {
+  "url": "https://static.hsappstatic.net/MeetingsPublic/static-1.61137/html/book-info-early-requester.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript"
+ },
+ {
+  "url": "https://static.hsappstatic.net/hubspot-dlb/static-2.1911/bundle.production.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript"
+ },
+ {
+  "url": "https://static.hsappstatic.net/MeetingsPublic/static-1.61137/bundles/project_with_deps.css",
+  "type": "stylesheet",
+  "status": 200,
+  "ct": "text/css"
+ },
+ {
+  "url": "https://static.hsappstatic.net/head-dlb/static-1.5007/bundle.production.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript"
+ },
+ {
+  "url": "https://static.hsappstatic.net/react-dlb/static-1.92/bundle.production.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript"
+ },
+ {
+  "url": "https://static.hsappstatic.net/apollo-dlb/static-3.98/bundle.production.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript"
+ },
+ {
+  "url": "https://api.mixpanel.com/track/?verbose=1&ip=1&_=1790673715569",
+  "type": "xhr",
+  "status": 200,
+  "ct": "application/json"
+ },
+ {
+  "url": "https://static.hsappstatic.net/MeetingsPublic/static-1.61153/bundles/project.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript"
+ },
+ {
+  "url": "https://static.hsappstatic.net/MeetingsPublic/static-1.61140/i18n-allTimezones.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript"
+ },
+ {
+  "url": "https://analytics.google.com/g/collect?v=2&tid=G-4WEVC5JR0X&gtm=45je69p1v9188287996z89188277532za20gzb9188277532zd9188277532xf1&_p=1790673709585&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=577435251&_eu=AAAAAGQC&cid=485127526.1790673710&frm=0&pscdl=noapi&rcb=16&sr=1280x900&uaa=arm&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=macOS&uapv=27.0.1&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1790673710&sct=1&seg=0&dl=https%3A%2F%2Fwww.joinvalley.co%2Flinkedin-lead-generation-for-b2b-saas&dt=LinkedIn%20Lead%20Generation%20for%20B2B%20SaaS%20%7C%20Valley%20AI&en=Scroll-Embed-Cal&_et=6309&tfd=7769",
+  "type": "fetch",
+  "status": 204,
+  "ct": "text/plain"
+ },
+ {
+  "url": "https://static.hsappstatic.net/whisper-core/ex/whisper-core.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript"
+ },
+ {
+  "url": "https://static.hsappstatic.net/ui-fonts/static-1.291/fonts/LexendDeca-Light.woff2",
+  "type": "font",
+  "status": 200,
+  "ct": "application/font-woff2"
+ },
+ {
+  "url": "https://static.hsappstatic.net/MeetingsPublic/static-1.61151/framer-motion-animation-features.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript"
+ },
+ {
+  "url": "https://analytics.google.com/g/collect?v=2&tid=G-4WEVC5JR0X&gtm=45je69p1v9188287996za20gzb9188277532zd9188277532xf1&_p=1790673709585&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=577435251&_eu=AEAAAGQC&_prs=ok&ae=a&cid=485127526.1790673710&frm=0&pscdl=noapi&rcb=16&sr=1280x900&uaa=arm&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=macOS&uapv=27.0.1&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1790673710&sct=1&seg=0&dl=https%3A%2F%2Fwww.joinvalley.co%2Flinkedin-lead-generation-for-b2b-saas&dt=LinkedIn%20Lead%20Generation%20for%20B2B%20SaaS%20%7C%20Valley%20AI&en=scroll&_c=1&epn.percent_scrolled=90&_et=364&tfd=7769",
+  "type": "fetch",
+  "status": 204,
+  "ct": "text/plain"
+ },
+ {
+  "url": "https://static.hsappstatic.net/whisper-core/static-1.10225/whisper-core-entry.js",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript"
+ },
+ {
+  "url": "https://app.hubspot.com/api/meetings-public/v3/book?slug=zayd-from-valley%2Ftryvalley&now=1790673716796&includeInactiveLink=true&location=meetings.hubspot.com&hubspotUtk=null&timezone=Asia%2FCalcutta&hs_static_app=MeetingsPublic&hs_static_app_version=1.61153&clienttimeout=12000",
+  "type": "xhr",
+  "status": 200,
+  "ct": "application/json;charset=utf-8"
+ },
+ {
+  "url": "https://www.google.com/measurement/conversion?random=1790673716839&cv=11&tid=G-4WEVC5JR0X&fst=1790673716839&fmt=8&en=scroll&gtm=45je69p1v9188287996za20gzb9188277532zd9188277532xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.joinvalley.co%2Flinkedin-lead-generation-for-b2b-saas&gacid=485127526.1790673710&hn=www.googleadservices.com&ae=a&frm=0&tiba=LinkedIn%20Lead%20Generation%20for%20B2B%20SaaS%20%7C%20Valley%20AI&npa=0&pscdl=noapi&auid=1386858203.1790673710&uaa=arm&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uamb=0&uam=&uap=macOS&uapv=27.0.1&uaw=0&rcb=16",
+  "type": "fetch",
+  "status": 200,
+  "ct": ""
+ },
+ {
+  "url": "https://app.hubspot.com/api/meetings-public/v3/book/availability-page?slug=zayd-from-valley%2Ftryvalley&monthOffset=0&timezone=Asia%2FCalcutta&hs_static_app=MeetingsPublic&hs_static_app_version=1.61153&clienttimeout=12000",
+  "type": "xhr",
+  "status": 200,
+  "ct": "application/json;charset=utf-8"
+ },
+ {
+  "url": "https://events.framer.com/anonymous",
+  "type": "ping",
+  "status": 200,
+  "ct": "application/json"
+ },
+ {
+  "url": "https://api.hubspot.com/meetings-public/v1/book/user?hs_static_app=MeetingsPublic&hs_static_app_version=1.61153&includeInactiveLink=true&slug=zayd-from-valley%2Ftryvalley",
+  "type": "xhr",
+  "status": 200,
+  "ct": "application/json;charset=utf-8"
+ },
+ {
+  "url": "https://static.hsappstatic.net/ui-fonts/static-1.291/fonts/LexendDeca-Medium.woff2",
+  "type": "font",
+  "status": 200,
+  "ct": "application/font-woff2"
+ },
+ {
+  "url": "https://js.hs-scripts.com/39698384.js?disableCollectedForms=true",
+  "type": "script",
+  "status": 200,
+  "ct": "application/javascript;charset=utf-8"
+ },
+ {
+  "url": "https://js.hs-banner.com/v2/39698384/banner.js",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript; charset=UTF-8"
+ },
+ {
+  "url": "https://js.hs-analytics.net/analytics/1790673600000/39698384.js",
+  "type": "script",
+  "status": 200,
+  "ct": "text/javascript"
+ },
+ {
+  "url": "https://static.hsappstatic.net/ui-fonts/static-1.291/fonts/LexendDeca-SemiBold.woff2",
+  "type": "font",
+  "status": 200,
+  "ct": "application/font-woff2"
+ },
+ {
+  "url": "https://39698384.fs1.hubspotusercontent-na1.net/hubfs/39698384/Valley%20-%20Primary%20Logo%20-%20PNG%20-%20White%20Background.png",
+  "type": "image",
+  "status": 200,
+  "ct": "image/webp"
+ },
+ {
+  "url": "https://39698384.fs1.hubspotusercontent-na1.net/hubfs/39698384/Logo-2.png",
+  "type": "image",
+  "status": 200,
+  "ct": "image/webp"
+ },
+ {
+  "url": "https://exceptions.hubspot.com/frontend/observability/page-tracking/store/?sentry_version=7&sentry_client=raven-js%2F3.19.1&deployable=MeetingsPublicNewDomain-eu1",
+  "type": "xhr",
+  "status": 200,
+  "ct": "text/plain; charset=utf-8"
+ },
+ {
+  "url": "https://app.hubspot.com/api/cartographer/v1/rhumb?hs_static_app=MeetingsPublic&hs_static_app_version=1.61153",
+  "type": "ping",
+  "status": 204,
+  "ct": ""
+ },
+ {
+  "url": "https://track.hubspot.com/__ptq.gif?k=1&sd=1280x900&cd=24-bit&cs=UTF-8&ln=en-us&v=1.1&a=39698384&ccu=https%3A%2F%2Fmeetings.hubspot.com%2Fzayd-from-valley%2Ftryvalley&pu=https%3A%2F%2Fmeetings.hubspot.com%2Fzayd-from-valley%2Ftryvalley%3Fuuid%3D3b2de03b-98f4-4502-bec3-8fa1b020d588&t=How+Valley+can+scale+my+LinkedIn+Outreach&cts=1790673718041&vi=cfbf1411db28d23640fa5fc564c65ce6&nc=true&cc=15",
+  "type": "image",
+  "status": 200,
+  "ct": "image/gif"
+ },
+ {
+  "url": "https://track.hubspot.com/__ptq.gif?k=15&fi=7118d74f-510b-4870-8bba-96d0424fd5a8&ft=5&sd=1280x900&cd=24-bit&cs=UTF-8&ln=en-us&v=1.1&a=39698384&ccu=https%3A%2F%2Fmeetings.hubspot.com%2Fzayd-from-valley%2Ftryvalley&pu=https%3A%2F%2Fmeetings.hubspot.com%2Fzayd-from-valley%2Ftryvalley%3Fuuid%3D3b2de03b-98f4-4502-bec3-8fa1b020d588&t=How+Valley+can+scale+my+LinkedIn+Outreach&cts=1790673718041&vi=cfbf1411db28d23640fa5fc564c65ce6&nc=true&cc=15",
+  "type": "image",
+  "status": 200,
+  "ct": "image/gif"
+ }
+]

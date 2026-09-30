@@ -1,0 +1,46 @@
+{
+  "id": "cards.casestudy-grid",
+  "layer": "section",
+  "purpose": "Full grid of all 21 case-study cards on /casestudies (no pagination, no filters). Field shape follows the real cases.json record exactly.",
+  "composes": ["card-base", "stat-block"],
+  "measuredFrom": "spec/pages/casestudies/cases.json (21 cases, real field shape); spec/pages/casestudies-index.md",
+  "content": {
+    "type": "object",
+    "properties": {
+      "cases": {
+        "type": "array",
+        "minItems": 21,
+        "maxItems": 21,
+        "items": {
+          "type": "object",
+          "properties": {
+            "order": { "type": "integer" },
+            "slug": { "type": "string" },
+            "title": { "type": "string", "maxWords": 30 },
+            "company": { "type": "string", "maxWords": 4 },
+            "person": { "type": "object", "properties": { "name": { "type": "string" }, "role": { "type": "string" } } },
+            "cardStats": { "type": "array", "maxItems": 3 },
+            "excerpt": { "type": "string", "maxWords": 40 },
+            "coverImage": { "type": "string" },
+            "logoImage": { "type": "string" },
+            "avatarImage": { "type": "string" }
+          },
+          "required": ["order", "slug", "title", "company", "cardStats", "excerpt"],
+          "additionalProperties": true
+        }
+      }
+    },
+    "required": ["cases"],
+    "additionalProperties": false
+  },
+  "contentPolicy": {
+    "note": "All 21 records in cases.json reference REAL named third-party companies (Gallea AI, Smallest.ai, Klaar, etc.) and real named people. Card metadata (title/company/person/stats/excerpt) IS measured-real. The linked case study's long-form BODY, pull-quotes and testimonial are generated placeholder (see sections/content-article-body.json)."
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "casestudiesIndexOnly", "exactCount": 21, "countNote": "There are 21 case studies, not 22 — confirmed against sitemap.xml and Framer's search index (spec/pages/casestudies-index.md)" },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {
+    "customer-logo": { "enum": "customer-logo", "generationPolicy": "must-reuse-exact", "guidance": "COMPLIANCE: real named companies' logos (logoImage field). Never AI-generate or alter; use licensed exact assets." },
+    "customer-photo": { "enum": "customer-photo", "generationPolicy": "must-not-fabricate", "guidance": "COMPLIANCE: avatarImage is a real named person's photo (e.g. Brandon Kay). Never generate a fabricated likeness; use the licensed real photo." },
+    "case-cover-image": { "enum": "editorial-card-image", "generationPolicy": "may-generate-new", "guidance": "coverImage is typically a branded/product screenshot; only AI-generate if not depicting a specific real customer's actual private product data." }
+  }
+}

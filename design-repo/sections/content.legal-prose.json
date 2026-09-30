@@ -1,0 +1,23 @@
+{
+  "id": "content.legal-prose",
+  "layer": "section",
+  "purpose": "Single unbroken legal-text column, no headings/TOC/dates, used for /terms-of-service and /privacy-policy.",
+  "measuredFrom": "spec/pages/legal.md; src/components/legal/legalPlaceholder.js:1-7",
+  "content": {
+    "type": "object",
+    "properties": {
+      "kind": { "type": "string", "enum": ["terms", "privacy"] },
+      "paragraphs": { "type": "array", "items": { "type": "string" } }
+    },
+    "required": ["kind", "paragraphs"],
+    "additionalProperties": false
+  },
+  "contentPolicy": {
+    "status": "generated-placeholder-not-measured-real",
+    "citation": "src/components/legal/legalPlaceholder.js:1-7 — 'The clone does not reproduce Valley's legal text (spec/pages/legal.md \"Content rule\"). The structure follows the live pages: Terms: 103 <p> blocks..., 26 bold lead-ins, 1 external link. Privacy: one <p> broken by <br>, 29 bold heading lines, 10 bold-italic sub-heads, 5 external links. Filler is neutral lorem-style text, deterministic (fixed seeds).'",
+    "aiGenerationRule": "AI generation for this field MAY produce new neutral lorem-style filler matching the real structural counts (paragraph count, bold-lead-in count, external-link count) per kind. It must NEVER attempt to reconstruct Valley's real Terms of Service or Privacy Policy legal text — that text was deliberately never captured for licensing/scope reasons."
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "legalRoutesOnly" },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {}
+}

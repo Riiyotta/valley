@@ -1,0 +1,20 @@
+{
+  "id": "agency.workflow-steps",
+  "layer": "section",
+  "purpose": "3-card 'Process V2' agency-workflow steps, unique to /linkedin-outreach-for-agencies (agency-restyled variant of the homepage steps concept, not shared code).",
+  "measuredFrom": "spec/pages/landing.md:340-351",
+  "content": {
+    "type": "object",
+    "properties": {
+      "eyebrow": { "type": "string", "maxWords": 6 },
+      "h2": { "type": "string", "maxWords": 10 },
+      "lead": { "type": "string", "maxWords": 24 },
+      "steps": { "type": "array", "minItems": 3, "maxItems": 3, "items": { "type": "object", "properties": { "stepNumber": { "type": "string" }, "h3": { "type": "string", "maxWords": 10 }, "body": { "type": "string", "maxWords": 24 }, "coverImage": { "type": "string" } }, "required": ["h3", "body"], "additionalProperties": false } }
+    },
+    "required": ["h2", "steps"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "agencyLandingOnly" },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": { "step-cover-image": { "enum": "product-screenshot", "generationPolicy": "may-generate-new", "guidance": "Synthetic step-illustration cover image; safe to AI-generate." } }
+}

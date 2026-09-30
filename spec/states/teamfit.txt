@@ -1,0 +1,70 @@
+
+##### teamfit TAB 0 "Founders"
+  B <section .valley-team-fit> 48,12265 1344x633 bg=#e8efef border=1px 1px 1px 1px solid #ccd8d8
+  B <div .vtf-shell> 49,12266 1342x631 pad=60px 64px 64px 
+  B <header .vtf-header> 113,12326 1214x161 flex column gap=28px jc=normal ai=flex-start 
+  T <span> 113,12326 537x15 | Valley Team Montreal 11px/15.4px ls=0.99px w400 #3d6575 ta=left  | "FOR YOUR TEAM"
+  T <h2> 113,12357 537x52 | Valley Team Montreal 48px/51.84px ls=-1.824px w500 #19282e ta=left  | "Built around the way you sell."
+  B <div .vtf-tabs> 113,12437 364x50 flex row gap=0px jc=normal ai=center bg=#f8f9f7 border=1px 1px 1px 1px solid #cad6d7
+  T <button> 114,12438 114x48 | Valley Team Montreal 16px/21.6px ls=normal w400 #244a65 ta=center pad=13px 25px ::after{absolute 114.375pxx2px inset=47px,0px bg=#315e8d} bg=#e3ebed trans=[background, color|0.18s, 0.18s|ease, ease|0s, 0s] | "Founders"
+  T <button> 228,12438 134x48 | Valley Team Montreal 16px/21.6px ls=normal w400 #4f6670 ta=center pad=13px 25px ::after{absolute 132.5pxx2px inset=47px,0px bg=#315e8d} border=0px 0px 0px 1px none #4f6670 trans=[background, color|0.18s, 0.18s|ease, ease|0s, 0s] | "Sales teams"
+  T <button> 362,12438 115x48 | Valley Team Montreal 16px/21.6px ls=normal w400 #4f6670 ta=center pad=13px 25px ::after{absolute 113.5pxx2px inset=47px,0px bg=#315e8d} border=0px 0px 0px 1px none #4f6670 trans=[background, color|0.18s, 0.18s|ease, ease|0s, 0s] | "Agencies"
+  B <div .vtf-panel> 113,12487 1214x346 pad=40px 0px 0px grid gap=72px cols=592.953px 549.047px jc=normal ai=stretch tf=matrix(1, 0, 0, 1, 0, 0) anim=vtf-arrive 0.24s ease 0s 1
+  B <div .vtf-job> 113,12527 593x306 pad=16px 0px 0px 
+  T <h3> 113,12543 593x87 | Valley Team Montreal 38px/43.32px ls=-1.216px w500 #19282e ta=left  | "Keep outbound moving. Keep building your company."
+  T <p> 113,12650 563x88 | Valley Team Montreal 19px/29.45px ls=normal w400 #405862 ta=left  | "Give Valley your offer, your ideal customer and your voice. Review the outreach it prepares, then spend your time on the conversations it starts."
+  T <span> 113,12763 401x20 | Valley Team Montreal 13px/19.5px ls=normal w400 #536e75 ta=left  | "A repeatable starting point for founder-led sales."
+  B <aside .vtf-case> 778,12527 549x306 pad=32px 108px 32px 32px flex column gap=normal jc=normal ai=flex-start ::after{absolute 68pxx303.641px inset=0px,478.047px border=0px 0px 0px 1px none #19282e bg=#b5cdd5 bgi=url("https://framerusercontent.com/images/5WP0tI1lICNwC23waJVfpSCTTpE.png")} bg=#f8f9f7 border=1px 1px 1px 1px solid #c5d1d2 ovf=hidden
+  T <span> 811,12560 131x15 | Valley Team Montreal 11px/15.4px ls=0.715px w400 #4a6571 tt=uppercase ta=left  | "Linarca , with Valley"
+  T <strong> 811,12593 217x50 | Valley Team Montreal 46px/49.68px ls=-1.748px w500 #19282e ta=left  | "14 meetings"
+  T <p> 811,12651 239x23 | Valley Team Montreal 16px/23.2px ls=normal w400 #435b64 ta=left  | "In the first month, from a single seat."
+  T <span> 811,12700 90x40 | Valley Team Montreal 14px/19.6px ls=normal w400 #2f4854 ta=left  | "Roberto Arrieta"
+  T <span> 811,12723 90x17 | Valley Team Montreal 12px/16.8px ls=normal w400 #59717a ta=left  | "Founder , Linarca"
+  T <a> 811,12756 148x44 | Valley Team Montreal 14px/19.6px ls=normal w400 #315e8d ta=left  | "See Linarca’s story"
+  SVG 940,12768 19x19 fill=none stroke=#315e8d color=#315e8d 
+##### teamfit TAB 1 "Sales teams"
+  B <section .valley-team-fit> 48,12265 1344x633 bg=#e8efef border=1px 1px 1px 1px solid #ccd8d8
+  B <div .vtf-shell> 49,12266 1342x631 pad=60px 64px 64px 
+  B <header .vtf-header> 113,12326 1214x161 flex column gap=28px jc=normal ai=flex-start 
+  T <span> 113,12326 537x15 | Valley Team Montreal 11px/15.4px ls=0.99px w400 #3d6575 ta=left  | "FOR YOUR TEAM"
+  T <h2> 113,12357 537x52 | Valley Team Montreal 48px/51.84px ls=-1.824px w500 #19282e ta=left  | "Built around the way you sell."
+  B <div .vtf-tabs> 113,12437 364x50 flex row gap=0px jc=normal ai=center bg=#f8f9f7 border=1px 1px 1px 1px solid #cad6d7
+  T <button> 114,12438 114x48 | Valley Team Montreal 16px/21.6px ls=normal w400 #4f6670 ta=center pad=13px 25px ::after{absolute 114.375pxx2px inset=47px,0px bg=#315e8d} trans=[background, color|0.18s, 0.18s|ease, ease|0s, 0s] | "Founders"
+  T <button> 228,12438 134x48 | Valley Team Montreal 16px/21.6px ls=normal w400 #244a65 ta=center pad=13px 25px ::after{absolute 132.5pxx2px inset=47px,0px bg=#315e8d} bg=#e3ebed border=0px 0px 0px 1px none #244a65 trans=[background, color|0.18s, 0.18s|ease, ease|0s, 0s] | "Sales teams"
+  T <button> 362,12438 115x48 | Valley Team Montreal 16px/21.6px ls=normal w400 #4f6670 ta=center pad=13px 25px ::after{absolute 113.5pxx2px inset=47px,0px bg=#315e8d} border=0px 0px 0px 1px none #4f6670 trans=[background, color|0.18s, 0.18s|ease, ease|0s, 0s] | "Agencies"
+  B <div .vtf-panel> 113,12487 1214x346 pad=40px 0px 0px grid gap=72px cols=592.953px 549.047px jc=normal ai=stretch tf=matrix(1, 0, 0, 1, 0, 0) anim=vtf-arrive 0.24s ease 0s 1
+  B <div .vtf-job> 113,12527 593x306 pad=16px 0px 0px 
+  T <h3> 113,12543 593x87 | Valley Team Montreal 38px/43.32px ls=-1.216px w500 #19282e ta=left  | "Give every rep a researched starting point."
+  T <p> 113,12650 563x88 | Valley Team Montreal 19px/29.45px ls=normal w400 #405862 ta=left  | "Bring your team’s targeting and writing standards into the campaign. See why a prospect fits, review the message and keep the reply connected to its context."
+  T <span> 113,12763 401x20 | Valley Team Montreal 13px/19.5px ls=normal w400 #536e75 ta=left  | "Consistent preparation. More room for the human conversation."
+  B <aside .vtf-case> 778,12527 549x306 pad=32px 108px 32px 32px flex column gap=normal jc=normal ai=flex-start ::after{absolute 68pxx303.641px inset=0px,478.047px border=0px 0px 0px 1px none #19282e bg=#b5cdd5 bgi=url("https://framerusercontent.com/images/zPOKyZnbl77fH6unSixkvRUOSOs.png")} bg=#f8f9f7 border=1px 1px 1px 1px solid #c5d1d2 ovf=hidden
+  T <span> 811,12560 115x15 | Valley Team Montreal 11px/15.4px ls=0.715px w400 #4a6571 tt=uppercase ta=left  | "GGWP , with Valley"
+  T <strong> 811,12593 276x50 | Valley Team Montreal 46px/49.68px ls=-1.748px w500 #19282e ta=left  | "$4M in pipeline"
+  T <p> 811,12651 181x23 | Valley Team Montreal 16px/23.2px ls=normal w400 #435b64 ta=left  | "Generated within a quarter."
+  T <span> 811,12700 106x40 | Valley Team Montreal 14px/19.6px ls=normal w400 #2f4854 ta=left  | "Tim O’Neil"
+  T <span> 811,12723 106x17 | Valley Team Montreal 12px/16.8px ls=normal w400 #59717a ta=left  | "Sales Leader , GGWP"
+  T <a> 811,12756 146x44 | Valley Team Montreal 14px/19.6px ls=normal w400 #315e8d ta=left  | "See GGWP’s story"
+  SVG 938,12768 19x19 fill=none stroke=#315e8d color=#315e8d 
+##### teamfit TAB 2 "Agencies"
+  B <section .valley-team-fit> 48,12265 1344x683 bg=#e8efef border=1px 1px 1px 1px solid #ccd8d8
+  B <div .vtf-shell> 49,12266 1342x681 pad=60px 64px 64px 
+  B <header .vtf-header> 113,12326 1214x161 flex column gap=28px jc=normal ai=flex-start 
+  T <span> 113,12326 537x15 | Valley Team Montreal 11px/15.4px ls=0.99px w400 #3d6575 ta=left  | "FOR YOUR TEAM"
+  T <h2> 113,12357 537x52 | Valley Team Montreal 48px/51.84px ls=-1.824px w500 #19282e ta=left  | "Built around the way you sell."
+  B <div .vtf-tabs> 113,12437 364x50 flex row gap=0px jc=normal ai=center bg=#f8f9f7 border=1px 1px 1px 1px solid #cad6d7
+  T <button> 114,12438 114x48 | Valley Team Montreal 16px/21.6px ls=normal w400 #4f6670 ta=center pad=13px 25px ::after{absolute 114.375pxx2px inset=47px,0px bg=#315e8d} trans=[background, color|0.18s, 0.18s|ease, ease|0s, 0s] | "Founders"
+  T <button> 228,12438 134x48 | Valley Team Montreal 16px/21.6px ls=normal w400 #4f6670 ta=center pad=13px 25px ::after{absolute 132.5pxx2px inset=47px,0px bg=#315e8d} border=0px 0px 0px 1px none #4f6670 trans=[background, color|0.18s, 0.18s|ease, ease|0s, 0s] | "Sales teams"
+  T <button> 362,12438 115x48 | Valley Team Montreal 16px/21.6px ls=normal w400 #244a65 ta=center pad=13px 25px ::after{absolute 113.5pxx2px inset=47px,0px bg=#315e8d} bg=#e3ebed border=0px 0px 0px 1px none #244a65 trans=[background, color|0.18s, 0.18s|ease, ease|0s, 0s] | "Agencies"
+  B <div .vtf-panel> 113,12487 1214x395 pad=40px 0px 0px grid gap=72px cols=592.953px 549.047px jc=normal ai=stretch tf=matrix(1, 0, 0, 1, 0, 0) anim=vtf-arrive 0.24s ease 0s 1
+  B <div .vtf-job> 113,12527 593x355 pad=16px 0px 0px 
+  T <h3> 113,12543 593x87 | Valley Team Montreal 38px/43.32px ls=-1.216px w500 #19282e ta=left  | "A clear outbound process. For each client you serve."
+  T <p> 113,12650 563x88 | Valley Team Montreal 19px/29.45px ls=normal w400 #405862 ta=left  | "Build each client’s offer, audience and writing style into their campaigns. Connect the research and sending, and keep your team focused on relevant conversations."
+  T <span> 113,12763 401x20 | Valley Team Montreal 13px/19.5px ls=normal w400 #536e75 ta=left  | "A repeatable service, with each client’s context intact."
+  B <aside .vtf-case> 778,12527 549x355 pad=32px 108px 32px 32px flex column gap=normal jc=normal ai=flex-start ::after{absolute 68pxx353.312px inset=0px,478.047px border=0px 0px 0px 1px none #19282e bg=#b5cdd5 bgi=url("https://framerusercontent.com/images/DzF7ltBGreQELkgImDCaxxldqH0.jpg")} bg=#f8f9f7 border=1px 1px 1px 1px solid #c5d1d2 ovf=hidden
+  T <span> 811,12560 142x15 | Valley Team Montreal 11px/15.4px ls=0.715px w400 #4a6571 tt=uppercase ta=left  | "ThinkFish , with Valley"
+  T <strong> 811,12593 407x99 | Valley Team Montreal 46px/49.68px ls=-1.748px w500 #19282e ta=left  | "400 meetings per month"
+  T <p> 811,12701 157x23 | Valley Team Montreal 16px/23.2px ls=normal w400 #435b64 ta=left  | "Booked for their clients."
+  T <span> 811,12749 169x40 | Valley Team Montreal 14px/19.6px ls=normal w400 #2f4854 ta=left  | "Freizle Abarrientos"
+  T <span> 811,12773 169x17 | Valley Team Montreal 12px/16.8px ls=normal w400 #59717a ta=left  | "Chief Operating Officer , ThinkFish"
+  T <a> 811,12806 161x44 | Valley Team Montreal 14px/19.6px ls=normal w400 #315e8d ta=left  | "See ThinkFish’s story"
+  SVG 953,12818 19x19 fill=none stroke=#315e8d color=#315e8d 

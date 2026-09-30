@@ -1,0 +1,225 @@
+/* closing-cta (CLONE_SPEC.md section 18; dumps section 11).
+   .vcc* ported verbatim from spec/components.css, scoped under #closing-cta.
+   Font: "PP Neue Montreal" -> renders as Inter 400/700 (spec 4 quirk).
+   Images use the local copy of PFm0moxeBn8eOm66rVN2ssTio.png instead of the framerusercontent URL. */
+
+#closing-cta.vcc {
+  box-sizing: border-box;
+  font-family: "PP Neue Montreal", Inter, Arial, sans-serif;
+  background: theme('colors.surface.vgs');
+  color: theme('colors.ink.vgs');
+  padding: 40px 48px 64px;
+  /* inherited Framer page size on the live page (all text below sets its own size) */
+  font-size: 12px;
+  /* Framer sets body{-webkit-font-smoothing:antialiased}; the clone body doesn't (index.css is shared). */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#closing-cta.vcc * {
+  box-sizing: border-box;
+}
+#closing-cta .vcc-scene {
+  max-width: 1360px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  background-image: theme('backgroundImage.closing-scene'), url("/assets/img/PFm0moxeBn8eOm66rVN2ssTio.png");
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid rgb(213, 222, 213);
+}
+#closing-cta .vcc-content {
+  position: relative;
+  z-index: 1;
+  padding: 88px 48px 30px;
+  text-align: center;
+}
+#closing-cta .vcc-eyebrow {
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgb(66, 110, 115);
+  margin-bottom: 28px;
+}
+#closing-cta.vcc h2 {
+  font-size: clamp(38px, 4.6vw, 66px);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 1.03;
+  margin: 0px;
+}
+#closing-cta.vcc h2 > span {
+  color: theme('colors.leaf.closing-line2');
+}
+#closing-cta .vcc-content > p {
+  font-size: 21px;
+  line-height: 1.5;
+  max-width: 650px;
+  margin: 28px auto 0px;
+  color: rgb(78, 98, 98);
+}
+#closing-cta .vcc-form {
+  margin: 40px auto 0px;
+  max-width: 680px;
+}
+#closing-cta .vcc-fields {
+  display: grid;
+  grid-template-columns: minmax(0px, 1fr) auto;
+  gap: 12px;
+  text-align: left;
+  align-items: end;
+}
+#closing-cta.vcc label {
+  font-size: 13px;
+  color: rgb(53, 75, 76);
+  display: flex;
+  gap: 9px;
+  flex-direction: column;
+}
+#closing-cta.vcc input {
+  font: inherit;
+  font-size: 17px;
+  border: 1px solid rgb(181, 197, 190);
+  border-radius: 0px;
+  background: rgba(255, 255, 255, 0.93);
+  color: rgb(23, 42, 46);
+  min-width: 0px;
+  width: 100%;
+  height: 58px;
+  padding: 14px 18px;
+  box-shadow: none;
+}
+#closing-cta.vcc input::placeholder {
+  color: rgb(100, 115, 109);
+}
+#closing-cta.vcc button {
+  border: 1px solid theme('colors.dark.vcc');
+  border-radius: 0px;
+  background: theme('colors.dark.vcc');
+  color: white;
+  min-height: 58px;
+  font: inherit;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 14px 24px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+#closing-cta.vcc button:hover {
+  background: rgb(52, 79, 74);
+}
+#closing-cta.vcc button:disabled {
+  opacity: 0.72;
+  cursor: wait;
+}
+#closing-cta.vcc button span {
+  font-size: 23px;
+}
+#closing-cta.vcc :focus-visible {
+  outline: rgb(60, 120, 161) solid 3px;
+  outline-offset: 4px;
+}
+#closing-cta .vcc-next {
+  font-size: 13px !important;
+  color: rgb(86, 106, 97) !important;
+  margin: 18px 0px 0px !important;
+}
+#closing-cta.vcc a {
+  color: inherit;
+  /* The live site leaves the UA default underline on this link; Preflight strips it, so restore it. */
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+#closing-cta .vcc-next a {
+  margin-left: 10px;
+}
+#closing-cta .vcc-error {
+  margin: 18px 0px;
+  padding: 14px 20px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(187, 108, 83);
+  font-size: 15px;
+  line-height: 1.5;
+  color: rgb(103, 60, 44);
+}
+#closing-cta .vcc-error p {
+  margin: 0px 0px 8px;
+}
+#closing-cta .vcc-bottom {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  border-top: 1px solid theme('colors.line.closing');
+  padding-top: 22px;
+  margin-top: 76px;
+  color: rgb(83, 105, 97);
+  font-size: 13px;
+}
+#closing-cta .vcc-scene::after {
+  content: "";
+  position: absolute;
+  inset: auto 0px 0px;
+  height: 10px;
+  background-image: url("/assets/img/PFm0moxeBn8eOm66rVN2ssTio.png");
+  background-size: cover;
+  background-position: 50% 80%;
+}
+@media (max-width: 900px) {
+  #closing-cta.vcc {
+    padding: 32px 24px 48px;
+  }
+  #closing-cta .vcc-content {
+    padding: 64px 32px 28px;
+  }
+  #closing-cta .vcc-fields {
+    grid-template-columns: 1fr;
+  }
+  #closing-cta.vcc button {
+    grid-column: 1 / -1;
+    margin-top: 5px;
+  }
+  #closing-cta .vcc-bottom {
+    margin-top: 48px;
+  }
+}
+@media (max-width: 540px) {
+  #closing-cta.vcc {
+    padding: 24px 16px 40px;
+  }
+  #closing-cta .vcc-content {
+    padding: 52px 22px 24px;
+  }
+  #closing-cta .vcc-eyebrow {
+    font-size: 10px;
+    line-height: 1.5;
+  }
+  #closing-cta.vcc h2 {
+    font-size: 40px;
+  }
+  #closing-cta .vcc-content > p {
+    font-size: 19px;
+  }
+  #closing-cta .vcc-fields {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  #closing-cta .vcc-form {
+    margin-top: 30px;
+  }
+  #closing-cta .vcc-next {
+    line-height: 1.5;
+  }
+  #closing-cta .vcc-next a {
+    display: block;
+    margin: 8px 0px 0px;
+  }
+  #closing-cta .vcc-bottom {
+    flex-direction: column;
+    gap: 6px;
+    text-align: left;
+  }
+}

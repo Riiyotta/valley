@@ -1,0 +1,74 @@
+{
+  "id": "automation.feature-cards",
+  "layer": "section",
+  "purpose": "4-card feature-highlight row, unique to /linkedin-automation.",
+  "measuredFrom": "spec/pages/landing.md:512-516; spec/pages/ASSETS_GAPFILL.md:49-54; src/components/landing/automation/Features.jsx:11-18",
+  "content": {
+    "type": "object",
+    "properties": {
+      "label": {
+        "type": "string",
+        "maxWords": 6
+      },
+      "h2": {
+        "type": "string",
+        "maxWords": 10
+      },
+      "h3Highlight": {
+        "type": "string",
+        "maxWords": 2
+      },
+      "cards": {
+        "type": "array",
+        "minItems": 4,
+        "maxItems": 4,
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "maxWords": 6
+            }
+          },
+          "required": [
+            "title"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": [
+      "h2",
+      "cards"
+    ],
+    "additionalProperties": false
+  },
+  "constraints": {
+    "onePerPage": true,
+    "routeRestriction": "automationOnly"
+  },
+  "motion": {
+    "pattern": "rive-state-machine",
+    "reducedMotionFallback": "show each artboard's first frame, static. (Live keeps all four canvases animating under reduced motion.)",
+    "measuredFrom": "spec/pages/ASSETS_GAPFILL.md:49-54",
+    "note": "Rive 'State Machine 1', autoplay on load, loops forever, fit cover, alignment center. No inputs and no hover or click listeners. Runtime @rive-app/webgl2 2.27.5."
+  },
+  "assetRoles": {
+    "feature-illustration": {
+      "enum": "brand-animation",
+      "generationPolicy": "must-reuse-exact",
+      "guidance": "One artboard per card (illo1-illo4) of XgB0o9fJSEbmDKrQIb2G97OH9n4.riv; 300x300 canvas at every width."
+    },
+    "card-background": {
+      "enum": "hero-visual-art",
+      "generationPolicy": "may-generate-new",
+      "guidance": "Abstract gradient card background under the canvas; safe to AI-generate."
+    }
+  },
+  "responsive": {
+    "allWidths": {
+      "canvasPx": "300x300"
+    },
+    "measuredFrom": "spec/pages/ASSETS_GAPFILL.md:51"
+  }
+}

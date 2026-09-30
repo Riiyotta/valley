@@ -1,0 +1,52 @@
+{
+  "id": "automation.product-tabs",
+  "layer": "section",
+  "purpose": "Product tab viewer, unique to /linkedin-automation.",
+  "composes": [
+    "tab-group"
+  ],
+  "measuredFrom": "src/components/landing/automation/ProductTabs.jsx:19-45; spec/pages/landing.md:535-541",
+  "content": {
+    "type": "object",
+    "properties": {
+      "tabs": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 6
+      }
+    },
+    "required": [
+      "tabs"
+    ],
+    "additionalProperties": false
+  },
+  "constraints": {
+    "onePerPage": true,
+    "routeRestriction": "automationOnly"
+  },
+  "motion": {
+    "pattern": "appear-on-scroll",
+    "reducedMotionFallback": "label and heading render in place; tab switching is already instant",
+    "measuredFrom": "src/components/landing/automation/ProductTabs.jsx:32-33",
+    "note": "Click-only tabs, no autoplay (spec/pages/landing.md:539). Switching the screenshot is instant: no transition or animation in tabs.css. Only the label (15px rise) and heading (20px rise, .2s delay) appear on scroll. Live quirk kept: the Dashboard tab stays at full opacity unless Warm Leads is active."
+  },
+  "assetRoles": {
+    "product-screenshot": {
+      "enum": "product-screenshot",
+      "generationPolicy": "may-generate-new",
+      "guidance": "Synthetic UI mockup per tab; safe to AI-generate."
+    }
+  },
+  "responsive": {
+    "desktop": {
+      "minWidth": 1200,
+      "tabBar": "5 tabs, 56px tall"
+    },
+    "belowDesktop": {
+      "maxWidth": 1199.98,
+      "tabBar": "none",
+      "stageHeightPx": 301
+    },
+    "measuredFrom": "src/styles/pages/landing/automation/tabs.css:166-185"
+  }
+}

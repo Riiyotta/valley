@@ -1,0 +1,58 @@
+/* Global styles for the Valley clone. SHARED FILE: only fonts, resets and shared keyframes.
+   Section CSS lives in src/styles/<section-id>.css and is imported by its component. */
+
+/* ---- Fonts: CLONE_SPEC.md section 4, exact @font-face block ---- */
+@font-face { font-family: "PP Neue Montreal Medium"; src: url("/assets/fonts/6uIfYl8bnz9kOy3KOuV7PxhFPhA.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "PP Neue Montreal Variable"; src: url("/assets/fonts/4U27qiCuAgm6sc2vgHfWPBCGc.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
+/* Site aliases, all pointing at the variable file with weight 100 900 */
+@font-face { font-family: "Valley Proof Montreal"; src: url("/assets/fonts/4U27qiCuAgm6sc2vgHfWPBCGc.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Valley Hero Montreal"; src: url("/assets/fonts/4U27qiCuAgm6sc2vgHfWPBCGc.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Valley Results Montreal"; src: url("/assets/fonts/4U27qiCuAgm6sc2vgHfWPBCGc.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Valley Body Montreal"; src: url("/assets/fonts/4U27qiCuAgm6sc2vgHfWPBCGc.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Valley Showcase Montreal"; src: url("/assets/fonts/4U27qiCuAgm6sc2vgHfWPBCGc.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Valley Team Montreal"; src: url("/assets/fonts/4U27qiCuAgm6sc2vgHfWPBCGc.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "ValleyStack"; src: url("/assets/fonts/4U27qiCuAgm6sc2vgHfWPBCGc.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "ValleyFooter"; src: url("/assets/fonts/4U27qiCuAgm6sc2vgHfWPBCGc.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+/* Quirk: plain "PP Neue Montreal" has no face on the site, so it renders as Inter 400/700 only.
+   500 must render with the 400 file (no true Medium, no synthetic bold). */
+@font-face { font-family: "PP Neue Montreal"; src: url("/assets/fonts/vQyevYAyHtARFwPqUzQGpnDs.woff2") format("woff2"); font-weight: 100 600; font-display: swap; } /* = Inter 400 */
+@font-face { font-family: "PP Neue Montreal"; src: url("/assets/fonts/DXD0Q7LSl7HEvDzucnyLnGBHM.woff2") format("woff2"); font-weight: 700 900; font-display: swap; } /* = Inter 700 */
+@font-face { font-family: "Inter"; src: url("/assets/fonts/vQyevYAyHtARFwPqUzQGpnDs.woff2") format("woff2"); font-weight: 400; }
+@font-face { font-family: "Inter"; src: url("/assets/fonts/DXD0Q7LSl7HEvDzucnyLnGBHM.woff2") format("woff2"); font-weight: 700; }
+/* Declared on the site but never used (optional, spec 4) */
+@font-face { font-family: "PP Neue Montreal SemiBold"; src: url("/assets/fonts/4MKMq3fAUvPlUf3nRWmLMzBRBc.woff2") format("woff2"); font-display: swap; }
+/* Framer's metric-matched fallbacks (spec 4) */
+@font-face { font-family: "PP Neue Montreal Medium Placeholder"; src: local("Arial"); ascent-override: 98.07%; descent-override: 24.77%; line-gap-override: 0%; size-adjust: 97.68%; }
+@font-face { font-family: "PP Neue Montreal Variable Placeholder"; src: local("Arial"); ascent-override: 105.13%; descent-override: 26.56%; size-adjust: 91.13%; }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Framer: html, body, #main { box-sizing: border-box; margin: 0; padding: 0 } */
+  html, body, #root { margin: 0; padding: 0; }
+  /* Native scrolling, no smooth-scroll library (spec 1) */
+  html { scroll-behavior: auto; }
+  body {
+    background: #ffffff; /* spec 3: never visible, every section paints its own bg */
+    /* Preflight sets 1.5; Framer/browser default is normal. Components set their own. */
+    line-height: normal;
+    /* Framer global: all text renders antialiased (pixel-audit C). */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  /* Preflight makes svg/img display:block. Keep that, but don't force img height:auto
+     when a component sizes both width and height via its own class. */
+}
+
+/* ---- Shared keyframes ---- */
+/* Logo "Dot Blink": opacity 1 -> 0 -> 1, 2.0s period, each 1s half uses
+   cubic-bezier(.5,0,.88,.77) (spec 9 / 20 #4). All dots in phase. */
+@keyframes dot-blink {
+  0% { opacity: 1; animation-timing-function: cubic-bezier(.5, 0, .88, .77); }
+  50% { opacity: 0; animation-timing-function: cubic-bezier(.5, 0, .88, .77); }
+  100% { opacity: 1; }
+}
+/* No reduced-motion override: the live Framer dot keeps blinking under
+   prefers-reduced-motion: reduce (measured). */

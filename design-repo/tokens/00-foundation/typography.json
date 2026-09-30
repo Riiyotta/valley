@@ -1,0 +1,71 @@
+{
+  "category": "typography",
+  "description": "Font family stacks and the type scale, measured at 1440 desktop viewport from the live site's getComputedStyle output. Every role/size/weight/letter-spacing/line-height is a real measured value; none invented.",
+  "measuredFrom": "CLONE_SPEC.md:81-133, 167-214; tailwind.config.cjs:21-32",
+  "fontFamilies": {
+    "ppnm-medium": {
+      "stack": ["PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", "sans-serif"],
+      "measuredFrom": "tailwind.config.cjs:24"
+    },
+    "ppnm-variable": {
+      "stack": ["PP Neue Montreal Variable", "PP Neue Montreal Variable Placeholder", "sans-serif"],
+      "measuredFrom": "tailwind.config.cjs:25"
+    },
+    "ppnm-aliased-to-inter": {
+      "stack": ["PP Neue Montreal", "Inter", "Arial", "sans-serif"],
+      "note": "CRITICAL RENDERING QUIRK: no @font-face named plain 'PP Neue Montreal' exists on the live site; Framer only registers static Inter 400/700, so text declared font-weight:500 in this family renders as Inter 400 (no synthetic bold). Used by vgs (steps/integrations/wall-of-love), closing CTA (.vcc), nav Product dropdown (.vpm), .valley-endorsement root.",
+      "measuredFrom": "CLONE_SPEC.md:93-113"
+    },
+    "inter": {
+      "stack": ["Inter", "sans-serif"],
+      "measuredFrom": "tailwind.config.cjs:28"
+    },
+    "component-aliases-to-variable": {
+      "families": ["proof", "hero", "results", "body", "showcase", "team", "stack", "footer"],
+      "note": "All alias to the PP NM Variable file (weight 100-900) under component-specific font-family names (Valley Proof Montreal, Valley Hero Montreal, Valley Results Montreal, Valley Body Montreal, Valley Showcase Montreal, Valley Team Montreal, ValleyStack, ValleyFooter).",
+      "measuredFrom": "tailwind.config.cjs:30-37"
+    }
+  },
+  "roles": {
+    "nav-link": { "family": "ppnm-medium", "size": 14, "lineHeight": 16.8, "letterSpacing": 0, "weight": 500, "color": "#000000", "measuredFrom": "CLONE_SPEC.md:173" },
+    "nav-login": { "family": "ppnm-medium", "size": 16, "lineHeight": 19.2, "letterSpacing": 0, "weight": 500, "color": "#002669", "measuredFrom": "CLONE_SPEC.md:174" },
+    "nav-cta-label": { "family": "ppnm-medium", "size": 14, "lineHeight": 16.8, "letterSpacing": 0, "weight": 500, "color": "#ffffff", "measuredFrom": "CLONE_SPEC.md:175" },
+    "hero-eyebrow": { "family": "ppnm-medium", "size": 15, "lineHeight": 22.5, "letterSpacing": 0, "weight": 500, "color": "#4a5e68", "measuredFrom": "CLONE_SPEC.md:176" },
+    "hero-h1": { "family": "ppnm-medium", "size": 60, "lineHeight": 62.4, "letterSpacing": -2.1, "weight": 500, "color": "#19282e", "measuredFrom": "CLONE_SPEC.md:177" },
+    "hero-sub": { "family": "ppnm-medium", "size": 20, "lineHeight": 30, "letterSpacing": 0, "weight": 500, "color": "#40525c", "measuredFrom": "CLONE_SPEC.md:178" },
+    "hero-button": { "family": "ppnm-medium", "size": 14, "lineHeight": 16.8, "letterSpacing": 0, "weight": 500, "color": "#ffffff-or-#000000", "measuredFrom": "CLONE_SPEC.md:179" },
+    "hero-proof-quote": { "family": "ppnm-variable", "size": 19, "lineHeight": 26.6, "letterSpacing": -0.285, "weight": 400, "color": "#243940", "measuredFrom": "CLONE_SPEC.md:180" },
+    "hero-visual-eyebrow": { "family": "ppnm-variable", "size": 11, "lineHeight": 15.4, "letterSpacing": 0.66, "transform": "uppercase", "weight": 400, "color": "scene-dependent", "measuredFrom": "CLONE_SPEC.md:182" },
+    "hero-visual-h3": { "family": "ppnm-variable", "size": 42, "lineHeight": 44.52, "letterSpacing": -1.47, "weight": 600, "color": "scene-dependent", "measuredFrom": "CLONE_SPEC.md:183" },
+    "logos-h2": { "family": "ppnm-medium", "size": 36, "lineHeight": 43.2, "letterSpacing": 0, "weight": 500, "color": "#19282e", "measuredFrom": "CLONE_SPEC.md:185" },
+    "stories-h2": { "family": "ppnm-medium", "size": 46, "lineHeight": 55.2, "letterSpacing": -1.38, "weight": 500, "color": "#1c292e", "measuredFrom": "CLONE_SPEC.md:186" },
+    "stories-sub": { "family": "ppnm-variable", "size": 21, "lineHeight": 31.5, "letterSpacing": 0, "weight": 400, "color": "#52636c", "measuredFrom": "CLONE_SPEC.md:187" },
+    "stories-quote": { "family": "ppnm-variable", "size": 27, "lineHeight": 31.86, "letterSpacing": -0.675, "weight": 500, "color": "#19282e", "measuredFrom": "CLONE_SPEC.md:188" },
+    "stories-metric-big": { "family": "ppnm-variable", "size": 96, "lineHeight": 91.2, "letterSpacing": -5.28, "weight": 500, "color": "#19282e", "measuredFrom": "CLONE_SPEC.md:189" },
+    "stories-metric-sub": { "family": "ppnm-variable", "size": 29, "lineHeight": 31.9, "letterSpacing": -0.725, "weight": 500, "color": "#19282e", "measuredFrom": "CLONE_SPEC.md:190" },
+    "stories-eyebrow": { "family": "ppnm-variable", "size": 12, "lineHeight": 16.8, "letterSpacing": 0.78, "transform": "uppercase", "weight": 400, "color": "#376f9c", "measuredFrom": "CLONE_SPEC.md:191" },
+    "endorsement-kicker": { "family": "ppnm-variable", "size": 11, "lineHeight": 15.4, "letterSpacing": 0.66, "transform": "uppercase", "weight": 400, "color": "#e1e9e6", "measuredFrom": "CLONE_SPEC.md:192" },
+    "endorsement-quote": { "family": "ppnm-variable", "size": 48, "lineHeight": 55.2, "letterSpacing": -1.584, "weight": 500, "color": "#ffffff", "measuredFrom": "CLONE_SPEC.md:193" },
+    "vgs-eyebrow": { "family": "ppnm-aliased-to-inter", "size": 12, "lineHeight": 18, "letterSpacing": 1.2, "transform": "uppercase", "weight": 400, "color": "#42687c", "measuredFrom": "CLONE_SPEC.md:194" },
+    "vgs-h2": { "family": "ppnm-aliased-to-inter", "size": 58, "lineHeight": 62.06, "letterSpacing": -2.03, "weight": 500, "color": "#1c292e", "note": "clamp(36px,4.1vw,58px); 500 renders as Inter 400", "measuredFrom": "CLONE_SPEC.md:195" },
+    "vgs-lead": { "family": "ppnm-aliased-to-inter", "size": 21, "lineHeight": 31.5, "letterSpacing": 0, "weight": 400, "color": "#52636c", "measuredFrom": "CLONE_SPEC.md:196" },
+    "vgs-h3-steps": { "family": "ppnm-aliased-to-inter", "size": 32, "lineHeight": 37.12, "letterSpacing": -0.8, "weight": 500, "color": "#1c292e", "measuredFrom": "CLONE_SPEC.md:197" },
+    "vgs-body": { "family": "ppnm-aliased-to-inter", "size": 18, "lineHeight": 27, "letterSpacing": 0, "weight": 400, "color": "#52636c", "measuredFrom": "CLONE_SPEC.md:198" },
+    "jobs-h2": { "family": "ppnm-variable", "size": 56.448, "lineHeight": 58.71, "letterSpacing": "-0.035em", "weight": 500, "color": "#f6f8f4", "note": "clamp(38px,4.2cqw,62px)", "measuredFrom": "CLONE_SPEC.md:199" },
+    "jobs-price": { "family": "ppnm-variable", "size": 52, "lineHeight": 52, "letterSpacing": -2.34, "weight": 500, "color": "#1d343b", "measuredFrom": "CLONE_SPEC.md:200" },
+    "showcase-tab": { "family": "ppnm-variable", "size": 15, "lineHeight": 20, "letterSpacing": 0, "weight": 400, "color": "#77848d-or-#1e3748-active", "measuredFrom": "CLONE_SPEC.md:201" },
+    "showcase-intro-h3": { "family": "ppnm-variable", "size": 24, "lineHeight": 28.8, "letterSpacing": -0.6, "weight": 500, "color": "#203342", "measuredFrom": "CLONE_SPEC.md:202" },
+    "team-fit-h2": { "family": "ppnm-variable", "size": 48, "lineHeight": 51.84, "letterSpacing": -1.824, "weight": 500, "color": "#19282e", "measuredFrom": "CLONE_SPEC.md:203" },
+    "team-fit-h3": { "family": "ppnm-variable", "size": 38, "lineHeight": 43.32, "letterSpacing": -1.216, "weight": 500, "color": "#19282e", "measuredFrom": "CLONE_SPEC.md:204" },
+    "wall-metric": { "family": "inter", "size": 72, "lineHeight": 72, "letterSpacing": -3.24, "weight": 500, "color": "#1c292e", "measuredFrom": "CLONE_SPEC.md:205" },
+    "wall-quote": { "family": "inter", "size": 20, "lineHeight": 28, "letterSpacing": -0.3, "weight": 400, "color": "#1c292e", "measuredFrom": "CLONE_SPEC.md:206" },
+    "pricing-h2": { "family": "ppnm-variable", "size": 44, "lineHeight": 47.52, "letterSpacing": -1.76, "weight": 500, "color": "#1c292d", "measuredFrom": "CLONE_SPEC.md:207" },
+    "pricing-price": { "family": "ppnm-variable", "size": 76, "lineHeight": 76, "letterSpacing": -4.56, "weight": 500, "color": "#1c292d", "measuredFrom": "CLONE_SPEC.md:208" },
+    "faq-question": { "family": "ppnm-variable", "size": 20, "lineHeight": 26, "letterSpacing": -0.4, "weight": 500, "color": "#1c292d", "measuredFrom": "CLONE_SPEC.md:209" },
+    "faq-answer": { "family": "ppnm-variable", "size": 17, "lineHeight": 26.35, "letterSpacing": 0, "weight": 400, "color": "#4a5b64", "measuredFrom": "CLONE_SPEC.md:210" },
+    "closing-h2": { "family": "inter", "size": 66, "lineHeight": 67.98, "letterSpacing": -2.64, "weight": 500, "color": "#1c292e-line1-#476b60-line2", "note": "clamp(38px,4.6vw,66px)", "measuredFrom": "CLONE_SPEC.md:211" },
+    "footer-h2": { "family": "ppnm-variable", "size": 44, "lineHeight": 49.28, "letterSpacing": -1.54, "weight": 500, "color": "#f8f9f7", "measuredFrom": "CLONE_SPEC.md:212" },
+    "footer-link": { "family": "ppnm-variable", "size": 16, "lineHeight": "normal", "letterSpacing": 0, "weight": 400, "color": "#f8f9f7", "measuredFrom": "CLONE_SPEC.md:213" },
+    "footer-column-title": { "family": "ppnm-variable", "size": 12, "lineHeight": "normal", "letterSpacing": 0.72, "transform": "uppercase", "weight": 400, "color": "#9eb6ba", "measuredFrom": "CLONE_SPEC.md:214" }
+  }
+}

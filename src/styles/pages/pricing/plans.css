@@ -1,0 +1,242 @@
+/* .vp-plans (pricing-three-plans code component). Verbatim from the component source embedded in
+   spec/pages/pricing/source/3CeIl...mjs (the live stylesheet; identical values to
+   spec/pages/pricing/components.css). Only change: the font URL points at the local copy. */
+
+@font-face {
+  font-family: ValleyPlans;
+  src: url(/assets/fonts/4U27qiCuAgm6sc2vgHfWPBCGc.woff2) format('woff2');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+.vp-plans {
+  container-type: inline-size;
+  width: 100%;
+  color: #1c292d;
+  font-family: ValleyPlans,Arial,sans-serif;
+  box-sizing: border-box;
+}
+
+.vp-plans * {
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+.vp-plans h2, .vp-plans h3, .vp-plans p {
+  margin: 0;
+}
+
+.vp-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin: 0 auto 32px;
+  background: #e7edef;
+  padding: 5px;
+  width: max-content;
+  max-width: 100%;
+}
+
+.vp-toggle button {
+  font: inherit;
+  font-size: 17px;
+  font-weight: 500;
+  min-height: 48px;
+  border: 0;
+  padding: 12px 22px;
+  background: transparent;
+  color: #41565f;
+  cursor: pointer;
+}
+
+.vp-toggle button[aria-pressed=true] {
+  background: #1c292d;
+  color: white;
+}
+
+.vp-grid {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap: 20px;
+}
+
+.vp-card {
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #d2dddd;
+  display: flex;
+  flex-direction: column;
+}
+
+.vp-card:nth-child(2) {
+  background: #e8eff0;
+  border: 2px solid #527995;
+  padding: 29px;
+}
+
+.vp-card h3 {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -.035em;
+  line-height: 1.15;
+}
+
+.vp-desc {
+  font-size: 17px;
+  line-height: 1.5;
+  color: #526570;
+  margin-top: 16px!important;
+  min-height: 76px;
+}
+
+.vp-price {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-top: 28px;
+}
+
+.vp-price strong {
+  font-size: 58px;
+  line-height: 1.05;
+  font-weight: 500;
+  letter-spacing: -.05em;
+}
+
+.vp-price span {
+  font-size: 15px;
+  color: #526570;
+}
+
+.vp-bill {
+  font-size: 14px;
+  color: #526570;
+  margin-top: 10px!important;
+  min-height: 42px;
+  line-height: 1.5;
+}
+
+.vp-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1c292d;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  min-height: 50px;
+  padding: 12px 18px;
+  margin: 24px 0;
+}
+
+.vp-button:hover {
+  background: #34505b;
+}
+
+.vp-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.vp-card li {
+  display: flex;
+  gap: 12px;
+  padding: 13px 0;
+  border-top: 1px solid #d9e1e2;
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.vp-card li:before {
+  content: '✓';
+  color: #416c65;
+}
+
+.vp-extra {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #526570;
+  margin-top: 24px!important;
+}
+
+.vp-scale {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  border-bottom: 1px solid #d6dede;
+  padding: 30px 0;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.vp-scale strong {
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.vp-scale p {
+  color: #526570;
+  margin-top: 8px;
+}
+
+.vp-scale a {
+  color: #3c709d;
+  white-space: nowrap;
+}
+
+.vp-plans button:focus-visible, .vp-plans a:focus-visible {
+  outline: 2px solid #3976ae;
+  outline-offset: 4px;
+}
+
+@container (max-width:1050px) {
+  .vp-card {
+    padding: 24px;
+  }
+  .vp-card:nth-child(2) {
+    padding: 23px;
+  }
+  .vp-card h3 {
+    font-size: 25px;
+  }
+  .vp-price strong {
+    font-size: 48px;
+  }
+  .vp-desc {
+    font-size: 16px;
+    min-height: 90px;
+  }
+  .vp-card li {
+    font-size: 15px;
+  }
+}
+
+@container (max-width:760px) {
+  .vp-grid {
+    grid-template-columns: 1fr;
+  }
+  .vp-card {
+    padding: 28px;
+  }
+  .vp-card:nth-child(2) {
+    padding: 27px;
+  }
+  .vp-desc {
+    min-height: 0;
+  }
+  .vp-price strong {
+    font-size: 56px;
+  }
+  .vp-card li {
+    font-size: 16px;
+  }
+  .vp-scale {
+    align-items: start;
+    flex-direction: column;
+  }
+  .vp-toggle button {
+    padding: 12px 15px;
+  }
+}

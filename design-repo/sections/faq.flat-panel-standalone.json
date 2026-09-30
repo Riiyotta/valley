@@ -1,0 +1,23 @@
+{
+  "id": "faq.flat-panel-standalone",
+  "layer": "section",
+  "purpose": "The FAQ-only half of pricing.plans-faq (.vsq-faq, without the pricing offer panel), reused standalone across blog-index, casestudies-index, and all 6 landing pages.",
+  "composes": ["faq-item"],
+  "measuredFrom": "spec/pages/blog-index.md:20 (row 5); spec/pages/casestudies-index.md (row 5); spec/pages/landing.md:60",
+  "content": {
+    "type": "object",
+    "properties": {
+      "faqs": { "type": "array", "minItems": 6, "maxItems": 6, "items": { "type": "object", "properties": { "question": { "type": "string", "maxWords": 20 }, "answer": { "type": "string", "maxWords": 80 } }, "required": ["question", "answer"], "additionalProperties": false } }
+    },
+    "required": ["faqs"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "sameQAsAcrossTemplates": true, "note": "Same 6 Q&As reused verbatim across all templates that include this section (spec/states/faq.json)." },
+  "responsive": {
+    "desktop": { "padding": "48px" },
+    "phone": { "padding": "48px 20px" },
+    "measuredFrom": "spec/pages/landing.md:60"
+  },
+  "motion": { "pattern": "accordion-expand", "reducedMotionFallback": "instant expand/collapse" },
+  "assetRoles": {}
+}

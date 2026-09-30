@@ -1,0 +1,1697 @@
+[
+ {
+  "x": 360,
+  "y": 153,
+  "tag": "DIV",
+  "nm": "Tag",
+  "cls": "",
+  "text": "FOR AGENCIES & LEAD-GEN TEAMS RUNNING 5+ CLIENT AC",
+  "href": null,
+  "diffs": [
+   [
+    "DIV[Tag]",
+    {
+     "tf": "none -> matrix(1.05, 0, 0, 1.05, 0, 0)",
+     "box": "48,144 624x18 -> 32,144 655x19"
+    }
+   ],
+   [
+    "DIV[Tag dot]",
+    {
+     "box": "48,151 4x4 -> 32,151 4x4"
+    }
+   ],
+   [
+    "DIV[Tag Text]",
+    {
+     "box": "60,144 612x18 -> 45,144 643x19"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "60,144 612x18 -> 45,144 643x19"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 123.4609375,
+  "y": 450.375,
+  "tag": "A",
+  "nm": "agencyDemo",
+  "cls": "",
+  "text": "Book a demo ↗",
+  "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+  "diffs": []
+ },
+ {
+  "x": 1056,
+  "y": 369.1875,
+  "tag": "ARTICLE",
+  "nm": "",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": [
+   [
+    "IMG",
+    {
+     "box": "744,209 624x320 -> 0,0 0x0"
+    }
+   ],
+   [
+    "BUTTON",
+    {
+     "tf": "matrix(1, 0, 0, 1, -34, -24) -> none",
+     "box": "1022,345 68x48 -> 744,209 624x320"
+    }
+   ],
+   [
+    "svg",
+    {
+     "box": "1022,345 68x48 -> 0,0 0x0"
+    }
+   ],
+   [
+    "path",
+    {
+     "tf": "none -> matrix(1, 0, 0, 1, -34, -24)"
+    }
+   ],
+   [
+    "path",
+    {
+     "box": "1049,359 18x20 -> 1022,345 68x48"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "744,209 624x320 -> 1022,345 68x48"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 167,
+  "y": 450.4375,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": [
+   [
+    "DIV[Dot Blink]",
+    {
+     "op": "0.0225599 -> 1"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 167,
+  "y": 449.828125,
+  "tag": "DIV",
+  "nm": "Variant 2",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 377,
+  "y": 450.4375,
+  "tag": "DIV",
+  "nm": "Variant 2",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 377,
+  "y": 449.5625,
+  "tag": "DIV",
+  "nm": "Variant 2",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 615,
+  "y": 450.4375,
+  "tag": "DIV",
+  "nm": "Variant 2",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 615,
+  "y": 449.5625,
+  "tag": "DIV",
+  "nm": "Variant 2",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 825,
+  "y": 449.703125,
+  "tag": "DIV",
+  "nm": "Variant 2",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 825,
+  "y": 450.09375,
+  "tag": "DIV",
+  "nm": "Variant 2",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 1063,
+  "y": 450.4375,
+  "tag": "DIV",
+  "nm": "Variant 2",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 1063,
+  "y": 449.5625,
+  "tag": "DIV",
+  "nm": "Variant 2",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 1273,
+  "y": 449.703125,
+  "tag": "DIV",
+  "nm": "Variant 2",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 1273,
+  "y": 450.09375,
+  "tag": "DIV",
+  "nm": "Variant 2",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 171.6640625,
+  "y": 450.3046875,
+  "tag": "DIV",
+  "nm": "Variant 2",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 390.9921875,
+  "y": 450.3046875,
+  "tag": "DIV",
+  "nm": "Variant 2",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 610.3203125,
+  "y": 450.3046875,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": [
+   [
+    "DIV[Dot Blink]",
+    {
+     "op": "0.720425 -> 1"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 829.65625,
+  "y": 450.3125,
+  "tag": "DIV",
+  "nm": "Variant 2",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 1048.9921875,
+  "y": 449.5546875,
+  "tag": "DIV",
+  "nm": "Variant 2",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 1268.3203125,
+  "y": 450.3046875,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": [
+   [
+    "DIV[Dot Blink]",
+    {
+     "op": "0.46349 -> 1"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 171.6640625,
+  "y": 449.6640625,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": [
+   [
+    "DIV[Dot Blink]",
+    {
+     "op": "0.535184 -> 1"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 390.9921875,
+  "y": 449.6640625,
+  "tag": "DIV",
+  "nm": "Variant 2",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 610.3203125,
+  "y": 449.6640625,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": [
+   [
+    "DIV[Dot Blink]",
+    {
+     "op": "0.400498 -> 1"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 829.65625,
+  "y": 449.671875,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": [
+   [
+    "DIV[Dot Blink]",
+    {
+     "op": "0.647269 -> 1"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1048.9921875,
+  "y": 449.6640625,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": [
+   [
+    "DIV[Dot Blink]",
+    {
+     "op": "0.32042 -> 1"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1268.3203125,
+  "y": 449.6640625,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": [
+   [
+    "DIV[Dot Blink]",
+    {
+     "op": "0.67958 -> 1"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 171.6640625,
+  "y": 449.5390625,
+  "tag": "DIV",
+  "nm": "Variant 2",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 390.9921875,
+  "y": 449.5390625,
+  "tag": "DIV",
+  "nm": "Variant 2",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 610.3203125,
+  "y": 449.5390625,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": [
+   [
+    "DIV[Dot Blink]",
+    {
+     "op": "0.218378 -> 1"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 829.65625,
+  "y": 449.546875,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": [
+   [
+    "DIV[Dot Blink]",
+    {
+     "op": "0.798904 -> 1"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1048.9921875,
+  "y": 449.7890625,
+  "tag": "DIV",
+  "nm": "Variant 2",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 1268.3203125,
+  "y": 449.5390625,
+  "tag": "DIV",
+  "nm": "Variant 2",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 207,
+  "y": 450.078125,
+  "tag": "ARTICLE",
+  "nm": "",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": [
+   [
+    "IMG",
+    {
+     "box": "48,167 318x567 -> 0,0 0x0"
+    }
+   ],
+   [
+    "BUTTON",
+    {
+     "tf": "matrix(1, 0, 0, 1, -34, -24) -> none",
+     "box": "173,426 68x48 -> 48,167 318x567"
+    }
+   ],
+   [
+    "svg",
+    {
+     "box": "173,426 68x48 -> 0,0 0x0"
+    }
+   ],
+   [
+    "path",
+    {
+     "tf": "none -> matrix(1, 0, 0, 1, -34, -24)"
+    }
+   ],
+   [
+    "path",
+    {
+     "box": "200,440 18x20 -> 173,426 68x48"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "48,167 318x567 -> 173,426 68x48"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 124.2109375,
+  "y": 449.96875,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Growth Protocol: ",
+  "href": "./casestudies/how-growth-protocol-generated-150k-pipeline-in-4-months-with-valley",
+  "diffs": [
+   [
+    "A",
+    {
+     "c": "rgb(0, 38, 105) -> rgb(0, 0, 0)",
+     "bc": "rgb(0, 38, 105) -> rgb(0, 0, 0)",
+     "td": "none -> underline"
+    }
+   ],
+   [
+    "STRONG",
+    {
+     "c": "rgb(0, 38, 105) -> rgb(0, 0, 0)",
+     "bc": "rgb(0, 38, 105) -> rgb(0, 0, 0)"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 549,
+  "y": 450.078125,
+  "tag": "ARTICLE",
+  "nm": "",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": [
+   [
+    "IMG",
+    {
+     "box": "390,167 318x567 -> 0,0 0x0"
+    }
+   ],
+   [
+    "BUTTON",
+    {
+     "tf": "matrix(1, 0, 0, 1, -34, -24) -> none",
+     "box": "515,426 68x48 -> 390,167 318x567"
+    }
+   ],
+   [
+    "svg",
+    {
+     "box": "515,426 68x48 -> 0,0 0x0"
+    }
+   ],
+   [
+    "path",
+    {
+     "tf": "none -> matrix(1, 0, 0, 1, -34, -24)"
+    }
+   ],
+   [
+    "path",
+    {
+     "box": "542,440 18x20 -> 515,426 68x48"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "390,167 318x567 -> 515,426 68x48"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 437.8515625,
+  "y": 449.96875,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Tacnode:",
+  "href": "./casestudies/how-tacnode-booked-25-meetings-per-month-with-valley",
+  "diffs": [
+   [
+    "A",
+    {
+     "c": "rgb(0, 38, 105) -> rgb(0, 0, 0)",
+     "bc": "rgb(0, 38, 105) -> rgb(0, 0, 0)",
+     "td": "none -> underline"
+    }
+   ],
+   [
+    "STRONG",
+    {
+     "c": "rgb(0, 38, 105) -> rgb(0, 0, 0)",
+     "bc": "rgb(0, 38, 105) -> rgb(0, 0, 0)"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 891,
+  "y": 450.078125,
+  "tag": "ARTICLE",
+  "nm": "",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": [
+   [
+    "IMG",
+    {
+     "box": "732,167 318x567 -> 0,0 0x0"
+    }
+   ],
+   [
+    "BUTTON",
+    {
+     "tf": "matrix(1, 0, 0, 1, -34, -24) -> none",
+     "box": "857,426 68x48 -> 732,167 318x567"
+    }
+   ],
+   [
+    "svg",
+    {
+     "box": "857,426 68x48 -> 0,0 0x0"
+    }
+   ],
+   [
+    "path",
+    {
+     "tf": "none -> matrix(1, 0, 0, 1, -34, -24)"
+    }
+   ],
+   [
+    "path",
+    {
+     "box": "884,440 18x20 -> 857,426 68x48"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "732,167 318x567 -> 857,426 68x48"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 783.4140625,
+  "y": 449.96875,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "ThinkFish:",
+  "href": "./casestudies/how-thinkfish-books-380-400-meetings-monthly-with-valley",
+  "diffs": [
+   [
+    "A",
+    {
+     "c": "rgb(0, 38, 105) -> rgb(0, 0, 0)",
+     "bc": "rgb(0, 38, 105) -> rgb(0, 0, 0)",
+     "td": "none -> underline"
+    }
+   ],
+   [
+    "STRONG",
+    {
+     "c": "rgb(0, 38, 105) -> rgb(0, 0, 0)",
+     "bc": "rgb(0, 38, 105) -> rgb(0, 0, 0)"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1233,
+  "y": 450.078125,
+  "tag": "ARTICLE",
+  "nm": "",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": [
+   [
+    "IMG",
+    {
+     "box": "1074,167 318x567 -> 0,0 0x0"
+    }
+   ],
+   [
+    "BUTTON",
+    {
+     "tf": "matrix(1, 0, 0, 1, -34, -24) -> none",
+     "box": "1199,426 68x48 -> 1074,167 318x567"
+    }
+   ],
+   [
+    "svg",
+    {
+     "box": "1199,426 68x48 -> 0,0 0x0"
+    }
+   ],
+   [
+    "path",
+    {
+     "tf": "none -> matrix(1, 0, 0, 1, -34, -24)"
+    }
+   ],
+   [
+    "path",
+    {
+     "box": "1226,440 18x20 -> 1199,426 68x48"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "1074,167 318x567 -> 1199,426 68x48"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1120.328125,
+  "y": 449.96875,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Bolt.new",
+  "href": "./casestudies/how-bolt.new-generated-seven-figures-in-pipeline-with-valley-in-under-60-days",
+  "diffs": [
+   [
+    "A",
+    {
+     "c": "rgb(0, 38, 105) -> rgb(0, 0, 0)",
+     "bc": "rgb(0, 38, 105) -> rgb(0, 0, 0)",
+     "td": "none -> underline"
+    }
+   ],
+   [
+    "STRONG",
+    {
+     "c": "rgb(0, 38, 105) -> rgb(0, 0, 0)",
+     "bc": "rgb(0, 38, 105) -> rgb(0, 0, 0)"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 720,
+  "y": 450.1875,
+  "tag": "DIV",
+  "nm": "Testimonial Desktop",
+  "cls": "",
+  "text": "\"If you're an expert at GTM, Valley is the go-to t",
+  "href": null,
+  "diffs": [
+   [
+    "DIV[Star Col]",
+    {
+     "tf": "none -> matrix(1, 0, 0, 1, 0, 28.3272)",
+     "box": "936,112 200x1040 -> 936,-355 200x1040"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "936,112 200x200 -> 936,-355 200x200"
+    }
+   ],
+   [
+    "DIV[Dark]",
+    {
+     "box": "936,112 200x200 -> 936,-355 200x200"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "936,112 200x200 -> 936,-355 200x200"
+    }
+   ],
+   [
+    "IMG",
+    {
+     "box": "936,112 200x200 -> 936,-355 200x200"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "936,322 200x200 -> 936,-145 200x200"
+    }
+   ],
+   [
+    "DIV[Dark]",
+    {
+     "box": "936,322 200x200 -> 936,-145 200x200"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "936,322 200x200 -> 936,-145 200x200"
+    }
+   ],
+   [
+    "IMG",
+    {
+     "box": "936,322 200x200 -> 936,-145 200x200"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "936,532 200x200 -> 936,65 200x200"
+    }
+   ],
+   [
+    "DIV[Dark]",
+    {
+     "box": "936,532 200x200 -> 936,65 200x200"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "936,532 200x200 -> 936,65 200x200"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 155.0078125,
+  "y": 450.2890625,
+  "tag": "A",
+  "nm": "agencyCTA",
+  "cls": "",
+  "text": "Book a demo →",
+  "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+  "diffs": []
+ },
+ {
+  "x": 159.4765625,
+  "y": 449.640625,
+  "tag": "BUTTON",
+  "nm": "",
+  "cls": "vc-company",
+  "text": "HeyReach",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 289.1953125,
+  "y": 449.640625,
+  "tag": "BUTTON",
+  "nm": "",
+  "cls": "vc-company",
+  "text": "Gojiberry",
+  "href": null,
+  "diffs": [
+   [
+    "BUTTON.vc-company",
+    {
+     "bg": "rgba(0, 0, 0, 0) -> rgb(234, 240, 229)",
+     "bc": "rgb(211, 218, 206) -> rgb(113, 135, 120)"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 428.484375,
+  "y": 449.640625,
+  "tag": "BUTTON",
+  "nm": "",
+  "cls": "vc-company",
+  "text": "Amplemarket",
+  "href": null,
+  "diffs": [
+   [
+    "BUTTON.vc-company",
+    {
+     "bg": "rgba(0, 0, 0, 0) -> rgb(234, 240, 229)",
+     "bc": "rgb(211, 218, 206) -> rgb(113, 135, 120)"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 557.8046875,
+  "y": 449.640625,
+  "tag": "BUTTON",
+  "nm": "",
+  "cls": "vc-company",
+  "text": "lemlist",
+  "href": null,
+  "diffs": [
+   [
+    "BUTTON.vc-company",
+    {
+     "bg": "rgba(0, 0, 0, 0) -> rgb(234, 240, 229)",
+     "bc": "rgb(211, 218, 206) -> rgb(113, 135, 120)"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 670.0859375,
+  "y": 449.640625,
+  "tag": "BUTTON",
+  "nm": "",
+  "cls": "vc-company",
+  "text": "Instantly",
+  "href": null,
+  "diffs": [
+   [
+    "BUTTON.vc-company",
+    {
+     "bg": "rgba(0, 0, 0, 0) -> rgb(234, 240, 229)",
+     "bc": "rgb(211, 218, 206) -> rgb(113, 135, 120)"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 784.765625,
+  "y": 449.640625,
+  "tag": "BUTTON",
+  "nm": "",
+  "cls": "vc-company",
+  "text": "Artisan",
+  "href": null,
+  "diffs": [
+   [
+    "BUTTON.vc-company",
+    {
+     "bg": "rgba(0, 0, 0, 0) -> rgb(234, 240, 229)",
+     "bc": "rgb(211, 218, 206) -> rgb(113, 135, 120)"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 880.234375,
+  "y": 449.640625,
+  "tag": "BUTTON",
+  "nm": "",
+  "cls": "vc-company",
+  "text": "11x",
+  "href": null,
+  "diffs": [
+   [
+    "BUTTON.vc-company",
+    {
+     "bg": "rgba(0, 0, 0, 0) -> rgb(234, 240, 229)",
+     "bc": "rgb(211, 218, 206) -> rgb(113, 135, 120)"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 979.4375,
+  "y": 449.640625,
+  "tag": "BUTTON",
+  "nm": "",
+  "cls": "vc-company",
+  "text": "Expandi",
+  "href": null,
+  "diffs": [
+   [
+    "BUTTON.vc-company",
+    {
+     "bg": "rgba(0, 0, 0, 0) -> rgb(234, 240, 229)",
+     "bc": "rgb(211, 218, 206) -> rgb(113, 135, 120)"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1084.8359375,
+  "y": 449.640625,
+  "tag": "BUTTON",
+  "nm": "",
+  "cls": "vc-company",
+  "text": "Clay",
+  "href": null,
+  "diffs": [
+   [
+    "BUTTON.vc-company",
+    {
+     "bg": "rgba(0, 0, 0, 0) -> rgb(234, 240, 229)",
+     "bc": "rgb(211, 218, 206) -> rgb(113, 135, 120)"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1215.484375,
+  "y": 449.640625,
+  "tag": "BUTTON",
+  "nm": "",
+  "cls": "vc-company",
+  "text": "PhantomBuster",
+  "href": null,
+  "diffs": [
+   [
+    "BUTTON.vc-company",
+    {
+     "bg": "rgba(0, 0, 0, 0) -> rgb(234, 240, 229)",
+     "bc": "rgb(211, 218, 206) -> rgb(113, 135, 120)"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 165.2734375,
+  "y": 449.640625,
+  "tag": "BUTTON",
+  "nm": "",
+  "cls": "vc-more",
+  "text": "All 19 competitors",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 1254.0078125,
+  "y": 449.640625,
+  "tag": "A",
+  "nm": "",
+  "cls": "vc-article-link",
+  "text": "Read the full comparison ↗",
+  "href": "/blog/valley-vs-heyreach-ai-powered-personalization-vs-multi-account-volume",
+  "diffs": []
+ },
+ {
+  "x": 720,
+  "y": 449.5,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "What each stage means 7 steps in the workflow",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 1042.3046875,
+  "y": 449.921875,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Valley vs. Competition ↗",
+  "href": "/compare",
+  "diffs": []
+ },
+ {
+  "x": 1242.8203125,
+  "y": 449.921875,
+  "tag": "A",
+  "nm": "",
+  "cls": "vc-cta",
+  "text": "See Valley in action ↗",
+  "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+  "diffs": [
+   [
+    "A.vc-cta",
+    {
+     "bg": "rgb(28, 41, 46) -> rgb(62, 92, 67)"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 977.4609375,
+  "y": 450.34375,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "What do I need to get started? +",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 977.4609375,
+  "y": 450.34375,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "Can I review and edit the messages? +",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 977.4609375,
+  "y": 450.34375,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "Does Valley send email as well as LinkedIn message",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 977.4609375,
+  "y": 450.34375,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "Which plan includes email and priority support? +",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 977.4609375,
+  "y": 450.34375,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "What uses credits? +",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 977.4609375,
+  "y": 450.34375,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "How does the free trial work? +",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 1158.40625,
+  "y": 454.109375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Start for free →",
+  "href": "https://beta.joinvalley.co/signup",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1321.15625,
+  "y": 454.109375,
+  "tag": "A",
+  "nm": "",
+  "cls": "surface-form-button",
+  "text": "Book a demo",
+  "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+  "diffs": [
+   [
+    "A.surface-form-button",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 304.9375,
+  "y": 652.875,
+  "tag": "A",
+  "nm": "",
+  "cls": "vf-brand",
+  "text": "Valley",
+  "href": "/",
+  "diffs": [
+   [
+    "A.vf-brand",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 92.421875,
+  "y": 723.875,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "hey@joinvalley.co",
+  "href": "mailto:hey@joinvalley.co",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 636.6875,
+  "y": 679.375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Product",
+  "href": "/product",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 647.109375,
+  "y": 712.375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Customers",
+  "href": "/casestudies",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 641.625,
+  "y": 745.375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Agencies",
+  "href": "/linkedin-outreach-for-agencies",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 633.21875,
+  "y": 778.375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Pricing",
+  "href": "/pricing",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1061.515625,
+  "y": 679.375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Resources",
+  "href": "/blog",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1059.171875,
+  "y": 712.375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "All articles",
+  "href": "/blog/archive",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1066.6171875,
+  "y": 745.375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "About Valley",
+  "href": "/about",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1045.46875,
+  "y": 778.375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Log in",
+  "href": "https://beta.joinvalley.co/login",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1240.8046875,
+  "y": 864.375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Privacy policy",
+  "href": "/privacy-policy",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1347.140625,
+  "y": 864.375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Terms of service",
+  "href": "/terms-of-service",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 97.5,
+  "y": 42,
+  "tag": "A",
+  "nm": "logo - black",
+  "cls": "",
+  "text": "",
+  "href": "./",
+  "diffs": []
+ },
+ {
+  "x": 433.3828125,
+  "y": 42,
+  "tag": "A",
+  "nm": "Link - Black",
+  "cls": "",
+  "text": "Home Home",
+  "href": "./",
+  "diffs": [
+   [
+    "DIV",
+    {
+     "box": "415,32 37x20 -> 415,12 37x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "415,34 37x17 -> 415,14 37x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "415,34 37x17 -> 415,14 37x17"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "415,52 37x20 -> 415,32 37x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "415,54 37x17 -> 415,34 37x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "415,54 37x17 -> 415,34 37x17"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 513.734375,
+  "y": 42,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "Product",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 644.828125,
+  "y": 127.6953125,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "",
+  "href": "/product",
+  "diffs": []
+ },
+ {
+  "x": 644.828125,
+  "y": 223.0859375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "",
+  "href": "/playbooks",
+  "diffs": []
+ },
+ {
+  "x": 641.53125,
+  "y": 42,
+  "tag": "A",
+  "nm": "Link - Black",
+  "cls": "",
+  "text": "Valley vs. Competition Valley vs. Competition",
+  "href": "./compare",
+  "diffs": [
+   [
+    "DIV",
+    {
+     "box": "576,32 132x20 -> 576,12 132x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "576,34 132x17 -> 576,14 132x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "576,34 132x17 -> 576,14 132x17"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "576,52 132x20 -> 576,32 132x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "576,54 132x17 -> 576,34 132x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "576,54 132x17 -> 576,34 132x17"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 768.953125,
+  "y": 42,
+  "tag": "A",
+  "nm": "Link - Black",
+  "cls": "",
+  "text": "Customers Customers",
+  "href": "./casestudies",
+  "diffs": [
+   [
+    "DIV",
+    {
+     "box": "735,32 67x20 -> 735,12 67x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "735,34 67x17 -> 735,14 67x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "735,34 67x17 -> 735,14 67x17"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "735,52 67x20 -> 735,32 67x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "735,54 67x17 -> 735,34 67x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "735,54 67x17 -> 735,34 67x17"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 859.0234375,
+  "y": 42,
+  "tag": "A",
+  "nm": "Link - Black",
+  "cls": "",
+  "text": "Agencies Agencies",
+  "href": "./linkedin-outreach-for-agencies",
+  "diffs": [
+   [
+    "DIV",
+    {
+     "box": "830,32 57x20 -> 830,12 57x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "830,34 57x17 -> 830,14 57x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "830,34 57x17 -> 830,14 57x17"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "830,52 57x20 -> 830,32 57x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "830,54 57x17 -> 830,34 57x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "830,54 57x17 -> 830,34 57x17"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 936.7265625,
+  "y": 42,
+  "tag": "A",
+  "nm": "Link - Black",
+  "cls": "",
+  "text": "Pricing Pricing",
+  "href": "./pricing",
+  "diffs": [
+   [
+    "DIV",
+    {
+     "box": "916,32 42x20 -> 916,12 42x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "916,34 42x17 -> 916,14 42x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "916,34 42x17 -> 916,14 42x17"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "916,52 42x20 -> 916,32 42x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "916,54 42x17 -> 916,34 42x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "916,54 42x17 -> 916,34 42x17"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1246.84375,
+  "y": 41.890625,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Log in",
+  "href": "https://beta.joinvalley.co/login",
+  "diffs": [
+   [
+    "A",
+    {
+     "c": "rgb(0, 38, 105) -> rgb(0, 0, 0)",
+     "bc": "rgb(0, 38, 105) -> rgb(0, 0, 0)",
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1337.9296875,
+  "y": 42,
+  "tag": "A",
+  "nm": "Launch for Free",
+  "cls": "",
+  "text": "Start for free",
+  "href": "https://beta.joinvalley.co/signup",
+  "diffs": []
+ },
+ {
+  "x": 1400,
+  "y": 861.875,
+  "tag": "BUTTON",
+  "nm": "",
+  "cls": "__framer-cookie-component-button",
+  "text": "",
+  "href": null,
+  "diffs": []
+ }
+]

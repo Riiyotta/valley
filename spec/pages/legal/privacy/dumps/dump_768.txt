@@ -1,0 +1,97 @@
+URL https://www.joinvalley.co/privacy-policy viewport 768
+H=10269
+
+=== SECTION 0 [] 0,0 768x68 tag=DIV
+  B <div> 0,0 768x68 pos=fixed top=0px
+  B <header Phone - Close> 0,0 768x68 pad=10px 20px bg=#f8f9f7 ovf=clip
+  B <div Mob Logo + Menu> 20,10 728x48 pad=0px 0px 0px 16px flex row gap=normal jc=space-between ai=center 
+  B <div> 36,20 99x29 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 99 29.078%22 overflow=%22visible%22><path d=%22M 6.402 0 L 14.539 8.137 L 11.738 11.071 L 
+  B <button Menu - Closed> 700,10 48x48 radius=2px ovf=hidden
+  B <div> 714,27 19x2 bg=#000000
+  B <div> 714,34 19x2 bg=#000000
+  B <div> 714,34 19x2 bg=#000000
+  B <div> 714,41 19x2 bg=#000000
+
+=== SECTION 1 [] 0,0 768x9626 tag=DIV
+  B <div> 0,0 768x9626 pad=112px 20px 48px flex column gap=32px jc=center ai=flex-start 
+  T <h1> 20,112 728x85 | PP Neue Montreal Medium, PP Neue Montreal Medium 38px/42.56px ls=-1.14px w500 #1c292d  | "Privacy Policy: Valley LinkedIn Outreach Platform"
+  T <p> 20,229 728x9349 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w400 #4e606a ta=left  | "[redacted 22827 chars]"
+  T <strong> 20,232 127x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 14 chars]"
+  T <strong> 20,288 104x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 14 chars]"
+  T <strong> 201,400 104x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 14 chars]"
+  T <strong> 181,455 29x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 4 chars]"
+  T <strong> 462,483 66x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 8 chars]"
+  T <strong> 690,511 44x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #002669 ta=left  | "[redacted 6 chars]"
+  T <strong> 26,539 23x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 2 chars]"
+  T <strong> 65,539 25x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 3 chars]"
+  T <strong> 124,539 18x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 2 chars]"
+  T <strong> 335,651 127x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 16 chars]"
+  T <strong> 20,818 298x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 36 chars]"
+  T <strong> 289,874 156x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 20 chars]"
+  T <strong> 37,986 172x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 22 chars]"
+  T <strong> 208,986 225x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 29 chars]"
+  T <strong> 26,1097 64x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 7 chars]"
+  T <strong> 20,1851 268x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 35 chars]"
+  T <strong> 20,2269 604x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 78 chars]"
+  T <strong> 20,2548 351x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 41 chars]"
+  T <strong> 20,2772 213x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 27 chars]"
+  T <strong> 20,2827 279x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 34 chars]"
+  T <strong> 20,3079 162x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 19 chars]"
+  T <a> 153,3302 72x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w400 #4e606a ta=left  | "[redacted 10 chars]"
+  T <a> 86,3330 72x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w400 #4e606a ta=left  | "[redacted 10 chars]"
+  T <strong> 20,3386 159x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 21 chars]"
+  T <a> 87,3637 72x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w400 #4e606a ta=left  | "[redacted 10 chars]"
+  T <a> 20,3637 719x49 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w400 #4e606a ta=left  | "[redacted 10 chars]"
+  T <strong> 37,3804 215x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 28 chars]"
+  T <strong> 36,4530 371x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 48 chars]"
+  T <strong> 37,4948 180x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 23 chars]"
+  T <strong> 37,5423 63x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 8 chars]"
+  T <strong> 34,5730 346x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 43 chars]"
+  T <strong> 37,5925 173x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 21 chars]"
+  T <strong> 37,6204 86x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 11 chars]"
+  T <strong> 43,6539 151x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 20 chars]"
+  T <strong> 20,6846 139x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 16 chars]"
+  T <strong> 20,7348 145x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 18 chars]"
+  T <strong> 20,7544 140x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 17 chars]"
+  T <strong> 20,7711 261x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 31 chars]"
+  T <strong> 20,7767 315x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 37 chars]"
+  T <strong> 20,8353 242x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 31 chars]"
+  T <strong> 38,8604 345x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 47 chars]"
+  T <strong> 42,8883 113x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 14 chars]"
+  T <strong> 43,9162 224x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 29 chars]"
+  T <strong> 36,9469 108x21 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27.9px ls=normal w700 #4e606a ta=left  | "[redacted 13 chars]"
+
+=== SECTION 2 [] 0,464 768x84 tag=DIV
+
+=== SECTION 3 [] 0,9626 768x643 tag=DIV
+  B <div Phone> 0,9626 768x643 bg=#1c3036 ovf=hidden
+  B <footer .vf> 0,9626 768x643 bg=#1c3036
+  B <div .vf-inner> 0,9626 768x643 pad=48px 28px 24px 
+  B <div .vf-top> 28,9674 712x289 pad=0px 0px 48px grid gap=28px cols=712px jc=normal ai=center border=0px 0px 1px 0px none #f8f9f7 b:#ffffff/0.19
+  T <h2> 28,9674 650x85 | ValleyFooter, Arial 38px/42.56px ls=-1.33px w500 #f8f9f7  | "Find your people. Give them a reason to reply."
+  T <p> 28,9777 570x57 | ValleyFooter, Arial 19px/28.5px ls=normal w400 #c2d0d2  | "Find, qualify, research, and reach your next buyers across email and LinkedIn."
+  B <div .vf-actions> 28,9862 712x52 flex row gap=16px jc=flex-start ai=normal 
+  T <a> 28,9862 152x52 | ValleyFooter, Arial 17px/normal ls=normal w400 #1c3036 pad=15px 22px bg=#f8f9f7 border=1px 1px 1px 1px solid #f8f9f7 | "Start for free →"
+  T <a> 196,9862 142x52 | ValleyFooter, Arial 17px/normal ls=normal w400 #f8f9f7 pad=15px 22px border=1px 1px 1px 1px solid #718589 | "Book a demo"
+  B <div .vf-links> 28,9963 712x242 pad=44px 0px grid gap=24px cols=249px 207.5px 207.5px jc=normal ai=normal 
+  T <a> 28,10007 249x38 | ValleyFooter, Arial 30px/normal ls=-1.05px w500 #f8f9f7  | "Valley"
+  SVG 28,10007 38x38 fill=#f8f9f7 stroke=none color=#f8f9f7 
+  T <p> 28,10045 249x45 | ValleyFooter, Arial 15px/22.5px ls=normal w400 #bbcdce  | "Your outbound team. One connected platform."
+  T <a> 28,10090 89x14 | ValleyFooter, Arial 12px/normal ls=normal w400 #f8f9f7  | "hey@joinvalley.co"
+  B <nav> 301,10007 208x154 flex column gap=14px jc=normal ai=flex-start 
+  T <strong> 301,10007 106x14 | ValleyFooter, Arial 12px/normal ls=0.72px w400 #9eb6ba tt=uppercase  | "Explore Valley"
+  T <a> 301,10043 54x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Product"
+  T <a> 301,10076 74x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Customers"
+  T <a> 301,10109 64x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Agencies"
+  T <a> 301,10142 47x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Pricing"
+  B <nav> 533,10007 208x154 flex column gap=14px jc=normal ai=flex-start 
+  T <strong> 533,10007 82x14 | ValleyFooter, Arial 12px/normal ls=0.72px w400 #9eb6ba tt=uppercase  | "Learn more"
+  T <a> 533,10043 73x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Resources"
+  T <a> 533,10076 68x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "All articles"
+  T <a> 533,10109 83x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "About Valley"
+  T <a> 533,10142 41x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Log in"
+  B <div .vf-bottom> 28,10205 712x40 pad=24px 0px 0px flex row gap=20px jc=space-between ai=normal border=1px 0px 0px 0px solid #ffffff/0.19 b:#b4c7c9
+  T <span> 28,10230 150x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "© Valley. All rights reserved."
+  B <div> 551,10230 189x15 flex row gap=24px jc=normal ai=normal 
+  T <a> 551,10230 75x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "Privacy policy"
+  T <a> 650,10230 90x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "Terms of service"

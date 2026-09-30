@@ -1,0 +1,130 @@
+div
+  div
+    section [Hero]
+      div [Text-container]
+        div
+          div [Heading]
+          div
+        div.ssr-variant
+          div
+    div.ssr-variant.hidden-1cgdpv0
+      div.framer-1ql1hwu-container.hidden-3ufugp
+        section.framer-v-e1u7m8 [Variant 1]
+          div [Header Text]
+          div [Logo-container]
+    div [agencyMargin]
+      div
+        p.framer-text
+      div.ssr-variant.hidden-3ufugp.hidden-1cgdpv0
+        div
+          h2.framer-text
+      div
+        p.framer-text
+      div [marginGrid]
+        div [marginCard0]
+          div
+          div
+          div
+          div [marginAnswer0]
+        div [marginCard1]
+          div
+          div
+          div
+          div [marginAnswer1]
+        div [marginCard2]
+          div
+          div
+          div
+          div [marginAnswer2]
+    section [Process V2]
+      div [Container]
+        div [Heading]
+          div [Tag]
+          div [Heading]
+          div.ssr-variant.hidden-1cgdpv0
+        div [agencyWorkflow]
+          div [agencyStep0]
+          div [agencyStep1]
+          div [agencyStep2]
+    section [Why sales teams love valley]
+      section
+        div [Heading]
+          div [Tag]
+          div [Heading]
+        div
+          div.ssr-variant.hidden-1cgdpv0
+          div.ssr-variant.hidden-1cgdpv0
+          div.ssr-variant.hidden-1cgdpv0
+          div.ssr-variant.hidden-1cgdpv0
+      div.ssr-variant.hidden-1cgdpv0
+        div.framer-1twdkvm-container.hidden-3ufugp
+          div.framer-v-oki8cg [Variant 1]
+    section [Case Studies v2]
+      div.ssr-variant.hidden-3ufugp.hidden-1cgdpv0
+        div.framer-ee0mi6-container
+          div.framer-v-2veygs [Testimonial Desktop]
+    div [agencyPaths]
+      div.ssr-variant.hidden-3ufugp.hidden-1cgdpv0
+        div [pathsHeader]
+          div
+          div [pathsHeaderPanel]
+      div [pathsGrid]
+        div [pathCard0]
+          div
+          div
+          div
+          div
+          div
+          div
+        div [pathCard1]
+          div
+          div
+          div
+          div
+          div
+          div
+        div [pathCard2]
+          div
+          div
+          div
+          div
+          div
+          div
+      div [agencyBudget]
+        div
+          p.framer-text
+        div
+          p.framer-text
+        a [agencyCTA]
+          div
+      div [agencyDemoNote]
+        div
+          p.framer-text
+        div
+          p.framer-text
+    div [agencyCompare]
+      div.framer-cpa7p5-container
+        section.vc.vc-compact
+          header.vc-intro
+          div.vc-picker
+          div.vc-main
+          div.vc-close
+    section [FAQs- V3 2]
+      div.framer-1v96cf1-container [Questions answered]
+        section.valley-start-questions
+          div.vsq-faq
+    div.ssr-variant.hidden-3ufugp.hidden-1cgdpv0
+      div.framer-8fvl9n-container
+        footer.framer-v-1nhmdtj [Desktop]
+          div.framer-1er97io-container [Valley multichannel footer]
+    div.ssr-variant.hidden-1cgdpv0
+      div.framer-ghl8rt-container
+        div.ssr-variant.hidden-3ufugp
+          header.framer-v-15mpar8 [Large Desktop]
+  div#overlay
+  div
+  div
+    div.framer-ng2619-container
+      button.__framer-cookie-component-button
+        svg
+          path

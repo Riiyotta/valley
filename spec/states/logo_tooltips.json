@@ -1,0 +1,226 @@
+[
+ {
+  "alt": "miro",
+  "box": {
+   "x": 597.59375,
+   "y": 414.203125,
+   "width": 244.796875,
+   "height": 71.484375
+  },
+  "s": [
+   "0.409688/none | 1/none",
+   "0.876276/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none"
+  ],
+  "n": 1,
+  "txt": "“The GTM landscape is evolving daily, and Valley peaked my interest early on as a company that will be the future of GTM tools”\n\nICP: SALES & GTM  LEADERS",
+  "dump": "  B <div> 580,1003 280x170 ::after{absolute 280pxx170.469px inset=0px,0px border=1px 1px 1px 1px solid #d6dfdd radius=4px} bg=#f8f9f7 radius=4px shadow=rgba(0, 0, 0, 0.05) 0px 10px 20px 0px ovf=clip\n  B <div> 580,1003 280x170 pad=16px flex column gap=10px jc=flex-start ai=flex-start \n  SVG 596,1019 14x14 fill=#000000 stroke=none color=#000000 \n  B <div Testimonial Container> 596,1043 248x114 flex column gap=24px jc=flex-start ai=flex-start \n  T <p> 596,1043 248x76 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/18.9px ls=normal w500 #19282e  | \"“The GTM landscape is evolving daily, and Valley peaked my interest early on as a company that will be the future of GTM tools”\"\n  T <p> 596,1142 248x15 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/14.85px ls=normal w500 #4f5e63  | \"ICP: SALES & GTM  LEADERS\"",
+  "chain": [
+   "DIV op=1 tf=none pos=relative z=auto",
+   "DIV op=1 tf=none pos=static z=auto",
+   "DIV op=1 tf=none pos=absolute z=11",
+   "DIV op=1 tf=none pos=static z=auto",
+   "DIV op=1 tf=none pos=static z=auto",
+   "BODY op=1 tf=none pos=static z=auto"
+  ]
+ },
+ {
+  "alt": "10X",
+  "box": {
+   "x": 68,
+   "y": 414.328125,
+   "width": 244.796875,
+   "height": 71.484375
+  },
+  "s": [
+   "0.474016/none | 1/none",
+   "0.894606/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none"
+  ],
+  "n": 1,
+  "txt": "Valley gave us control of what we were doing as opposed to giving the keys and letting them go. But most importantly, the reason why we joined Valley is because it was a third of the price of the agency that we were using to do a similar type of outreach. - Sam\n\nICP: DEV TEAMS",
+  "dump": "  B <div> 50,1030 280x227 ::after{absolute 280pxx227.188px inset=0px,0px border=1px 1px 1px 1px solid #d6dfdd radius=4px} bg=#f8f9f7 radius=4px shadow=rgba(0, 0, 0, 0.05) 0px 10px 20px 0px ovf=clip\n  B <div> 50,1030 280x227 pad=16px flex column gap=10px jc=flex-start ai=flex-start \n  SVG 66,1046 14x14 fill=#000000 stroke=none color=#000000 \n  B <div Testimonial Container> 66,1070 248x171 flex column gap=24px jc=flex-start ai=flex-start \n  T <p> 66,1070 248x132 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/18.9px ls=normal w500 #19282e  | \"Valley gave us control of what we were doing as opposed to giving the keys and letting them go. But most importantly, the reason why we joined Valley is because it was a third of the price of the agency that we were using to do a similar type of outreach. - Sam\"\n  T <p> 66,1226 248x15 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/14.85px ls=normal w500 #4f5e63  | \"ICP: DEV TEAMS\"",
+  "chain": [
+   "DIV op=1 tf=none pos=relative z=auto",
+   "DIV op=1 tf=none pos=static z=auto",
+   "DIV op=1 tf=none pos=absolute z=11",
+   "DIV op=1 tf=none pos=static z=auto",
+   "DIV op=1 tf=none pos=static z=auto",
+   "BODY op=1 tf=none pos=static z=auto"
+  ]
+ },
+ {
+  "alt": "Tacnode",
+  "box": {
+   "x": 332.796875,
+   "y": 414.328125,
+   "width": 244.796875,
+   "height": 71.484375
+  },
+  "s": [
+   "0.324475/none | 1/none",
+   "0.894606/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none"
+  ],
+  "n": 1,
+  "txt": "I've been doing this about 12 years and I've never used a tool like this before. It's super cool. Valley seems to have booked us more meetings than anything else that we're using right now\n\nICP: AI-First, Real-time Data Teams",
+  "dump": "  B <div> 315,1068 280x189 ::after{absolute 280pxx189.375px inset=0px,0px border=1px 1px 1px 1px solid #d6dfdd radius=4px} bg=#f8f9f7 radius=4px shadow=rgba(0, 0, 0, 0.05) 0px 10px 20px 0px ovf=clip\n  B <div> 315,1068 280x189 pad=16px flex column gap=10px jc=flex-start ai=flex-start \n  SVG 331,1084 14x14 fill=#000000 stroke=none color=#000000 \n  B <div Testimonial Container> 331,1108 248x133 flex column gap=24px jc=flex-start ai=flex-start \n  T <p> 331,1108 248x95 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/18.9px ls=normal w500 #19282e  | \"I've been doing this about 12 years and I've never used a tool like this before. It's super cool. Valley seems to have booked us more meetings than anything else that we're using right now\"\n  T <p> 331,1226 248x15 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/14.85px ls=normal w500 #4f5e63  | \"ICP: AI-First, Real-time Data Teams\"",
+  "chain": [
+   "DIV op=1 tf=none pos=relative z=auto",
+   "DIV op=1 tf=none pos=static z=auto",
+   "DIV op=1 tf=none pos=absolute z=11",
+   "DIV op=1 tf=none pos=static z=auto",
+   "DIV op=1 tf=none pos=static z=auto",
+   "BODY op=1 tf=none pos=static z=auto"
+  ]
+ },
+ {
+  "alt": "growthproctocol",
+  "box": {
+   "x": 862.390625,
+   "y": 414.328125,
+   "width": 244.796875,
+   "height": 71.484375
+  },
+  "s": [
+   "0.617111/none | 1/none",
+   "0.976985/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none"
+  ],
+  "n": 1,
+  "txt": "I'm able to come into those [pipeline review] meetings and be like, look at what I booked through Valley. You know, if my other kind of channels have slowed down, I'm like, but Valley, Valley's there.\n\nICP: SALES & GTM  LEADERS",
+  "dump": "  B <div> 845,1068 280x189 ::after{absolute 280pxx189.375px inset=0px,0px border=1px 1px 1px 1px solid #d6dfdd radius=4px} bg=#f8f9f7 radius=4px shadow=rgba(0, 0, 0, 0.05) 0px 10px 20px 0px ovf=clip\n  B <div> 845,1068 280x189 pad=16px flex column gap=10px jc=flex-start ai=flex-start \n  SVG 861,1084 14x14 fill=#000000 stroke=none color=#000000 \n  B <div Testimonial Container> 861,1108 248x133 flex column gap=24px jc=flex-start ai=flex-start \n  T <p> 861,1108 248x95 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/18.9px ls=normal w500 #19282e  | \"I'm able to come into those [pipeline review] meetings and be like, look at what I booked through Valley. You know, if my other kind of channels have slowed down, I'm like, but Valley, Valley's there.\"\n  T <p> 861,1226 248x15 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/14.85px ls=normal w500 #4f5e63  | \"ICP: SALES & GTM  LEADERS\"",
+  "chain": [
+   "DIV op=1 tf=none pos=relative z=auto",
+   "DIV op=1 tf=none pos=static z=auto",
+   "DIV op=1 tf=none pos=absolute z=11",
+   "DIV op=1 tf=none pos=static z=auto",
+   "DIV op=1 tf=none pos=static z=auto",
+   "BODY op=1 tf=none pos=static z=auto"
+  ]
+ },
+ {
+  "alt": "kaster",
+  "box": {
+   "x": 1127.1875,
+   "y": 414.328125,
+   "width": 244.8125,
+   "height": 71.484375
+  },
+  "s": [
+   "0.474016/none | 1/none",
+   "0.894606/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none"
+  ],
+  "n": 1,
+  "txt": "We've booked like four enterprise level demos that we normally wouldn't have through LinkedIn in just the past two months. And two of them happened last week alone\n\nICP: C suite HR Decision Makers",
+  "dump": "  B <div> 1110,1068 280x189 ::after{absolute 280pxx189.375px inset=0px,0px border=1px 1px 1px 1px solid #d6dfdd radius=4px} bg=#f8f9f7 radius=4px shadow=rgba(0, 0, 0, 0.05) 0px 10px 20px 0px ovf=clip\n  B <div> 1110,1068 280x189 pad=16px flex column gap=10px jc=flex-start ai=flex-start \n  SVG 1126,1084 14x14 fill=#000000 stroke=none color=#000000 \n  B <div Testimonial Container> 1126,1108 248x133 flex column gap=24px jc=flex-start ai=flex-start \n  T <p> 1126,1108 248x95 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/18.9px ls=normal w500 #19282e  | \"We've booked like four enterprise level demos that we normally wouldn't have through LinkedIn in just the past two months. And two of them happened last week alone\"\n  T <p> 1126,1226 248x15 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/14.85px ls=normal w500 #4f5e63  | \"ICP: C suite HR Decision Makers\"",
+  "chain": [
+   "DIV op=1 tf=none pos=relative z=auto",
+   "DIV op=1 tf=none pos=static z=auto",
+   "DIV op=1 tf=none pos=absolute z=11",
+   "DIV op=1 tf=none pos=static z=auto",
+   "DIV op=1 tf=none pos=static z=auto",
+   "BODY op=1 tf=none pos=static z=auto"
+  ]
+ },
+ {
+  "alt": "gocanvas",
+  "box": {
+   "x": 68,
+   "y": 413.8125,
+   "width": 244.796875,
+   "height": 71.484375
+  },
+  "s": [
+   "0.474016/none | 1/none",
+   "0.894606/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none"
+  ],
+  "n": 1,
+  "txt": "A real response to a message Valley sent a prospect: “I was never considering anything until you reached out with a message that literally spoke to me.” The automation is great but the sauce within Valley is the messaging itself.\n\nICP: Field Service & Construction Firms",
+  "dump": "  B <div> 50,1133 280x208 ::after{absolute 280pxx208.281px inset=0px,0px border=1px 1px 1px 1px solid #d6dfdd radius=4px} bg=#f8f9f7 radius=4px shadow=rgba(0, 0, 0, 0.05) 0px 10px 20px 0px ovf=clip\n  B <div> 50,1133 280x208 pad=16px flex column gap=10px jc=flex-start ai=flex-start \n  SVG 66,1149 14x14 fill=#000000 stroke=none color=#000000 \n  B <div Testimonial Container> 66,1173 248x152 flex column gap=24px jc=flex-start ai=flex-start \n  T <p> 66,1173 248x113 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/18.9px ls=normal w500 #19282e  | \"A real response to a message Valley sent a prospect: “I was never considering anything until you reached out with a message that literally spoke to me.” The automation is great but the sauce within Valley is the messaging itself.\"\n  T <p> 66,1310 248x15 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/14.85px ls=normal w500 #4f5e63  | \"ICP: Field Service & Construction Firms\"",
+  "chain": [
+   "DIV op=1 tf=none pos=relative z=auto",
+   "DIV op=1 tf=none pos=static z=auto",
+   "DIV op=1 tf=none pos=absolute z=11",
+   "DIV op=1 tf=none pos=static z=auto",
+   "DIV op=1 tf=none pos=static z=auto",
+   "BODY op=1 tf=none pos=static z=auto"
+  ]
+ },
+ {
+  "alt": "franq",
+  "box": {
+   "x": 597.59375,
+   "y": 413.8125,
+   "width": 244.796875,
+   "height": 71.484375
+  },
+  "s": [
+   "0.314941/none | 1/none",
+   "0.81949/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none"
+  ],
+  "n": 1,
+  "txt": "I can standardize my approach and I can A-B test knowing that I'm actually A-B testing, not depending on someone to be in a good mood that day or in a bad mood that day.\n\nICP: SALES & GTM  LEADERS",
+  "dump": "  B <div> 580,1151 280x189 ::after{absolute 280pxx189.375px inset=0px,0px border=1px 1px 1px 1px solid #d6dfdd radius=4px} bg=#f8f9f7 radius=4px shadow=rgba(0, 0, 0, 0.05) 0px 10px 20px 0px ovf=clip\n  B <div> 580,1151 280x189 pad=16px flex column gap=10px jc=flex-start ai=flex-start \n  SVG 596,1167 14x14 fill=#000000 stroke=none color=#000000 \n  B <div Testimonial Container> 596,1191 248x133 flex column gap=24px jc=flex-start ai=flex-start \n  T <p> 596,1191 248x95 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/18.9px ls=normal w500 #19282e  | \"I can standardize my approach and I can A-B test knowing that I'm actually A-B testing, not depending on someone to be in a good mood that day or in a bad mood that day.\"\n  T <p> 596,1310 248x15 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/14.85px ls=normal w500 #4f5e63  | \"ICP: SALES & GTM  LEADERS\"",
+  "chain": [
+   "DIV op=1 tf=none pos=relative z=auto",
+   "DIV op=1 tf=none pos=static z=auto",
+   "DIV op=1 tf=none pos=absolute z=11",
+   "DIV op=1 tf=none pos=static z=auto",
+   "DIV op=1 tf=none pos=static z=auto",
+   "BODY op=1 tf=none pos=static z=auto"
+  ]
+ },
+ {
+  "alt": "darwinian ",
+  "box": {
+   "x": 862.390625,
+   "y": 413.8125,
+   "width": 244.796875,
+   "height": 71.484375
+  },
+  "s": [
+   "0.314941/none | 1/none",
+   "0.82435/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none",
+   "1/none | 1/none"
+  ],
+  "n": 1,
+  "txt": "AI cannot close a deal for you. But it can be a hot lead engine. Valley is always flipping hot leads to our reps, so they can focus on calling and emailing them.\n\nICP: SALES & GTM  LEADERS",
+  "dump": "  B <div> 845,1170 280x170 ::after{absolute 280pxx170.469px inset=0px,0px border=1px 1px 1px 1px solid #d6dfdd radius=4px} bg=#f8f9f7 radius=4px shadow=rgba(0, 0, 0, 0.05) 0px 10px 20px 0px ovf=clip\n  B <div> 845,1170 280x170 pad=16px flex column gap=10px jc=flex-start ai=flex-start \n  SVG 861,1186 14x14 fill=#000000 stroke=none color=#000000 \n  B <div Testimonial Container> 861,1210 248x114 flex column gap=24px jc=flex-start ai=flex-start \n  T <p> 861,1210 248x76 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/18.9px ls=normal w500 #19282e  | \"AI cannot close a deal for you. But it can be a hot lead engine. Valley is always flipping hot leads to our reps, so they can focus on calling and emailing them.\"\n  T <p> 861,1310 248x15 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/14.85px ls=normal w500 #4f5e63  | \"ICP: SALES & GTM  LEADERS\"",
+  "chain": [
+   "DIV op=1 tf=none pos=relative z=auto",
+   "DIV op=1 tf=none pos=static z=auto",
+   "DIV op=1 tf=none pos=absolute z=11",
+   "DIV op=1 tf=none pos=static z=auto",
+   "DIV op=1 tf=none pos=static z=auto",
+   "BODY op=1 tf=none pos=static z=auto"
+  ]
+ }
+]

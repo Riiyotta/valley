@@ -1,0 +1,13 @@
+{
+  "id": "quote-block",
+  "layer": "component",
+  "description": "Attributed quote: text + avatar + name + role. Used by endorsement, stories, wall-of-love, case-banner, video-wall.",
+  "composes": ["avatar"],
+  "measuredFrom": "CLONE_SPEC.md section 11 (endorsement); spec/pages/landing.md:244-246,441-442",
+  "props": {
+    "quote": { "type": "string", "maxWords": 60 },
+    "personName": { "type": "string", "maxLength": 40 },
+    "personRole": { "type": "string", "maxLength": 60, "optional": true },
+    "avatarAssetRole": { "type": "string", "enum": ["customer-photo", "employee-photo"] }
+  }
+}

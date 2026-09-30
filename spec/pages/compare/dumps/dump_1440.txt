@@ -1,0 +1,350 @@
+
+=== SECTION 0 nav [Valley navigation] 0,0 1440x84 tag=DIV
+  B <div Valley navigation> 0,0 1440x84 pos=fixed top=0px
+  B <header Large Desktop> 0,0 1440x84 pad=20px 48px bg=#f8f9f7
+  B <div Links & Button> 48,20 1344x44 flex row gap=normal jc=space-between ai=center 
+  B <div> 48,28 99x29 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 99 29.078%22 overflow=%22visible%22><path d=%22M 6.402 0 L 14.539 8.137 L 11.738 11.071 L 
+  B <div Menu Links> 415,20 543x44 flex row gap=28px jc=center ai=center 
+  B <a Link - Black> 415,20 37x44 pad=12px 0px 
+  B <div> 415,32 37x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 415,34 37x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Home"
+  T <p> 415,54 37x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Home"
+  T <summary> 480,20 68x44 | PP Neue Montreal, Inter, Arial 14px/16.8px ls=normal w500 #19252e  | "Product"
+  SVG 538,37 10x10 fill=none stroke=#4f6373 color=#4f6373 trans=[transform|0.15s|ease|0s]
+  B <div .vpm-panel> 480,64 330x213 pad=10px bg=#ffffff border=1px 1px 1px 1px solid #d4dedb shadow=rgba(25, 41, 46, 0.082) 0px 12px 30px 0px
+  B <a> 491,75 308x105 pad=18px 16px 
+  T <span> 507,93 276x20 | PP Neue Montreal, Inter, Arial 17px/20.4px ls=normal w500 #1c292e  | "Explore Product"
+  T <b> 766,93 17x20 | PP Neue Montreal, Inter, Arial 17px/20.4px ls=normal w400 #1c292e  | "↗"
+  T <small> 507,120 276x42 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52636c  | "See how Valley works, from signal to reply."
+  B <a> 491,180 308x85 pad=18px 16px border=1px 0px 0px 0px solid #e3e9e5 b:#1c292e
+  T <span> 507,199 276x20 | PP Neue Montreal, Inter, Arial 17px/20.4px ls=normal w500 #1c292e  | "All Playbooks"
+  T <b> 766,199 17x20 | PP Neue Montreal, Inter, Arial 17px/20.4px ls=normal w400 #1c292e  | "↗"
+  T <small> 507,227 276x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52636c  | "Find your next play. See every step."
+  B <a Link - Black> 576,20 132x44 pad=12px 0px 
+  B <div> 576,32 132x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 576,34 132x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Valley vs. Competition"
+  T <p> 576,54 132x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Valley vs. Competition"
+  B <a Link - Black> 735,20 67x44 pad=12px 0px 
+  B <div> 735,32 67x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 735,34 67x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Customers"
+  T <p> 735,54 67x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Customers"
+  B <a Link - Black> 830,20 57x44 pad=12px 0px 
+  B <div> 830,32 57x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 830,34 57x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Agencies"
+  T <p> 830,54 57x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Agencies"
+  B <a Link - Black> 916,20 42x44 pad=12px 0px 
+  B <div> 916,32 42x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 916,34 42x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Pricing"
+  T <p> 916,54 42x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Pricing"
+  B <div cta__nav> 1226,22 166x40 flex row gap=16px jc=flex-end ai=center 
+  T <a> 1226,32 42x19 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/19.2px ls=normal w500 #002669  | "Log in"
+  B <a Launch for Free> 1284,22 108x40 pad=10px 16px bg=#19282e ovf=clip
+  T <p> 1300,34 76x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w500 #ffffff  | "Start for free"
+
+=== SECTION 1 compare [Complete outbound comparison] 0,0 1440x4471 tag=DIV
+  B <div Complete outbound comparison> 0,0 1440x4471 pad=100px 0px 0px 
+  B <section .vc> 0,100 1440x4371 bg=#f7f9f7
+  B <header .vc-intro> 0,100 1440x291 pad=62px 48px 32px flex row gap=44px jc=space-between ai=end 
+  T <div> 48,162 586x21 | ValleyCompare, Arial 14px/21px ls=1.82px w500 #52616a tt=uppercase  | "Valley vs. Competition"
+  T <h1> 48,202 586x157 | ValleyCompare, Arial 76px/78.28px ls=-4.18px w500 #1c292e  | "The whole workflow. A clearer choice."
+  T <p> 1092,273 300x86 | ValleyCompare, Arial 18px/27px ls=normal w400 #58685e pad=0px 0px 5px  | "From the first buying signal to the next conversation. See what happens in Valley, and what each alternative brings."
+  B <div .vc-picker> 0,391 1440x186 pad=0px 48px 26px border=0px 0px 1px 0px none #1c292e b:#d5ddd1
+  B <div .vc-picker-top> 48,391 1344x48 flex row gap=22px jc=space-between ai=center 
+  T <span> 48,402 148x26 | ValleyCompare, Arial 17px/25.5px ls=normal w500 #1c292e  | "Compare Valley with"
+  B <div .vc-picker-controls> 1004,391 388x48 flex row gap=8px jc=normal ai=normal 
+  INPUT 1004,391 190x48 ph="Find a competitor" font=ValleyCompare, Arial 16px/24px w400 color=#344d40 pad=10px 12px bg=#fcfcf8 border=1px 1px 1px 1px solid #cbd4c5 ovf=clip
+  B <select> 1202,391 190x48 pad=10px 12px bg=#fcfcf8 border=1px 1px 1px 1px solid #cbd4c5 ovf=clip
+  B <div .vc-companies> 48,453 1344x97 flex row gap=7px jc=normal ai=normal 
+  B <button .vc-company> 48,453 127x46 pad=10px 13px flex row gap=8px jc=normal ai=center bg=#233f33 border=1px 1px 1px 1px solid #233f33
+  IMG 62,466 20x20 fit=contain pos=50% 50%  src=https://www.google.com/s2/favicons?domain=www.heyreach.io&sz=64 alt=""
+  T <span> 90,464 71x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #f7faee ta=center  | "HeyReach"
+  B <button .vc-company> 182,453 118x46 pad=10px 13px flex row gap=8px jc=normal ai=center border=1px 1px 1px 1px solid #d3dace
+  IMG 196,466 20x20 fit=contain pos=50% 50% filter=grayscale(1) op=0.8 src=https://www.google.com/s2/favicons?domain=www.gojiberry.ai&sz=64 alt=""
+  T <span> 224,464 62x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #4e5e52 ta=center  | "Gojiberry"
+  B <button .vc-company> 307,453 146x46 pad=10px 13px flex row gap=8px jc=normal ai=center border=1px 1px 1px 1px solid #d3dace
+  IMG 321,466 20x20 fit=contain pos=50% 50% filter=grayscale(1) op=0.8 src=https://www.google.com/s2/favicons?domain=www.amplemarket.com&sz=64 alt=""
+  T <span> 349,464 90x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #4e5e52 ta=center  | "Amplemarket"
+  B <button .vc-company> 461,453 99x46 pad=10px 13px flex row gap=8px jc=normal ai=center border=1px 1px 1px 1px solid #d3dace
+  IMG 475,466 20x20 fit=contain pos=50% 50% filter=grayscale(1) op=0.8 src=https://www.google.com/s2/favicons?domain=www.lemlist.com&sz=64 alt=""
+  T <span> 503,464 43x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #4e5e52 ta=center  | "lemlist"
+  B <button .vc-company> 566,453 112x46 pad=10px 13px flex row gap=8px jc=normal ai=center border=1px 1px 1px 1px solid #d3dace
+  IMG 580,466 20x20 fit=contain pos=50% 50% filter=grayscale(1) op=0.8 src=https://www.google.com/s2/favicons?domain=instantly.ai&sz=64 alt=""
+  T <span> 608,464 56x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #4e5e52 ta=center  | "Instantly"
+  B <button .vc-company> 685,453 103x46 pad=10px 13px flex row gap=8px jc=normal ai=center border=1px 1px 1px 1px solid #d3dace
+  IMG 699,466 20x20 fit=contain pos=50% 50% filter=grayscale(1) op=0.8 src=https://www.google.com/s2/favicons?domain=www.artisan.co&sz=64 alt=""
+  T <span> 727,464 47x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #4e5e52 ta=center  | "Artisan"
+  B <button .vc-company> 795,453 74x46 pad=10px 13px flex row gap=8px jc=normal ai=center border=1px 1px 1px 1px solid #d3dace
+  IMG 809,466 20x20 fit=contain pos=50% 50% filter=grayscale(1) op=0.8 src=https://www.google.com/s2/favicons?domain=www.11x.ai&sz=64 alt=""
+  T <span> 837,464 18x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #4e5e52 ta=center  | "11x"
+  B <button .vc-company> 876,453 111x46 pad=10px 13px flex row gap=8px jc=normal ai=center border=1px 1px 1px 1px solid #d3dace
+  IMG 890,466 20x20 fit=contain pos=50% 50% filter=grayscale(1) op=0.8 src=https://www.google.com/s2/favicons?domain=expandi.io&sz=64 alt=""
+  T <span> 918,464 55x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #4e5e52 ta=center  | "Expandi"
+  B <button .vc-company> 994,453 86x46 pad=10px 13px flex row gap=8px jc=normal ai=center border=1px 1px 1px 1px solid #d3dace
+  IMG 1008,466 20x20 fit=contain pos=50% 50% filter=grayscale(1) op=0.8 src=https://www.google.com/s2/favicons?domain=www.clay.com&sz=64 alt=""
+  T <span> 1036,464 30x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #4e5e52 ta=center  | "Clay"
+  B <button .vc-company> 1087,453 161x46 pad=10px 13px flex row gap=8px jc=normal ai=center border=1px 1px 1px 1px solid #d3dace
+  IMG 1101,466 20x20 fit=contain pos=50% 50% filter=grayscale(1) op=0.8 src=https://www.google.com/s2/favicons?domain=phantombuster.com&sz=64 alt=""
+  T <span> 1129,464 105x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #4e5e52 ta=center  | "PhantomBuster"
+  T <button> 48,506 139x44 | ValleyCompare, Arial 16px/24px ls=normal w400 #425c4b ta=center pad=10px  | "All 19 competitors"
+  B <div .vc-main> 0,577 1440x3068 pad=32px 48px 0px 
+  B <header .vc-comparison-heading> 48,609 1344x69 flex row gap=24px jc=space-between ai=start 
+  T <h2> 48,609 252x35 | ValleyCompare, Arial 32px/35.2px ls=-1.12px w500 #1c292e  | "Valley HeyReach"
+  T <span> 127,607 33x39 | ValleyCompare, Arial 32px/35.2px ls=-1.12px w500 #788578  | "vs."
+  T <p> 48,654 252x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #52616a  | "LinkedIn & sequencing"
+  T <a> 1212,609 180x32 | ValleyCompare, Arial 16px/24px ls=normal w400 #1c292e pad=8px 0px 0px  | "Read the full comparison ↗"
+  T <strong> 48,704 1344x33 | ValleyCompare, Arial 22px/33px ls=-0.44px w500 #1c292e  | "Start with the signal. Follow it to the reply."
+  T <span> 48,743 1344x26 | ValleyCompare, Arial 17px/25.5px ls=normal w400 #52616a  | "Read left to right. Valley is the upper track; HeyReach is below."
+  B <div .vc-track-key> 48,786 1344x96 pad=17px 0px flex row gap=24px jc=space-between ai=center border=1px 0px 1px 0px solid #d5ddd1
+  B <div .vc-track-brand> 48,820 216x28 flex row gap=9px jc=normal ai=center 
+  B <i .vc-track-swatch> 48,828 35x12 bgi=url("https://framerusercontent.com/images/DzF7ltBGreQELkgImDCaxxldqH0.jpg")
+  SVG 92,822 24x24 fill=none stroke=none color=#1c292e 
+  T <span> 125,820 57x28 | ValleyCompare, Arial 23px/27.6px ls=normal w400 #1c292e  | "Valley"
+  T <small> 195,826 69x17 | ValleyCompare, Arial 14px/16.8px ls=normal w400 #394c56  | "Upper track"
+  B <div .vc-track-rival-group> 1131,804 261x60 flex column gap=10px jc=normal ai=flex-end 
+  B <div .vc-track-brand> 1157,804 235x22 flex row gap=9px jc=normal ai=center 
+  B <i .vc-track-swatch> 1157,809 35x12 bg=#d3d9cf
+  IMG 1201,805 20x20 fit=contain pos=50% 50% filter=grayscale(1) src=https://www.google.com/s2/favicons?domain=www.heyreach.io&sz=64 alt=""
+  T <span> 1230,804 80x22 | ValleyCompare, Arial 18px/21.6px ls=normal w400 #1c292e  | "HeyReach"
+  T <small> 1323,807 69x17 | ValleyCompare, Arial 14px/16.8px ls=normal w400 #394c56  | "Lower track"
+  B <span .vc-channel-badges> 1131,836 261x28 flex row gap=8px jc=normal ai=normal 
+  B <span .vc-channel-badge> 1131,836 126x28 pad=4px 7px flex row gap=5px jc=normal ai=center border=1px 1px 1px 1px solid #cbd3c6
+  T <span> 1139,841 33x18 | ValleyCompare, Arial 14px/18.2px ls=normal w500 #3c503c  | "Email"
+  T <span> 1177,841 8x18 | ValleyCompare, Arial 14px/18.2px ls=normal w400 #394c56  | "↗"
+  T <span> 1190,841 59x18 | ValleyCompare, Arial 14px/18.2px ls=normal w400 #394c56  | "Other tool"
+  B <span .vc-channel-badge> 1265,836 127x28 pad=4px 7px flex row gap=5px jc=normal ai=center bg=#e9f0f2 border=1px 1px 1px 1px solid #9caf96
+  T <span> 1273,841 51x18 | ValleyCompare, Arial 14px/18.2px ls=normal w500 #3c503c  | "LinkedIn"
+  T <span> 1329,841 11x18 | ValleyCompare, Arial 14px/18.2px ls=normal w400 #394c56  | "✓"
+  T <span> 1345,841 39x18 | ValleyCompare, Arial 14px/18.2px ls=normal w400 #394c56  | "Built in"
+  SVG 48,900 1344x487 fill=#000000 stroke=none color=#1c292e 
+  B <div .vc-legend> 48,1387 1344x80 pad=10px 0px 24px flex row gap=20px jc=space-between ai=center border=0px 0px 1px 0px none #1c292e b:#d5ddd1
+  B <div .vc-legend-items> 48,1404 451x32 flex row gap=24px jc=normal ai=normal 
+  T <span> 48,1404 68x32 | ValleyCompare, Arial 16px/24px ls=normal w400 #1c292e  | "Built in"
+  T <b> 48,1404 16x32 | ValleyCompare, Arial 21px/31.5px ls=normal w700 #1c292e  | "✓"
+  T <span> 140,1404 145x32 | ValleyCompare, Arial 16px/24px ls=normal w400 #1c292e  | "Limited / external"
+  T <b> 140,1404 21x32 | ValleyCompare, Arial 21px/31.5px ls=normal w700 #1c292e  | "◐"
+  T <span> 309,1404 190x32 | ValleyCompare, Arial 16px/24px ls=normal w400 #1c292e  | "No confirmed coverage"
+  T <b> 309,1404 23x32 | ValleyCompare, Arial 21px/31.5px ls=normal w700 #1c292e  | "—"
+  T <p> 842,1397 550x45 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source."
+  B <details .vc-criteria> 48,1467 1344x75 pad=22px 0px border=0px 0px 1px 0px none #1c292e b:#d5ddd1
+  T <summary> 48,1489 1344x30 | ValleyCompare, Arial 20px/30px ls=normal w500 #1c292e  | "What each stage means"
+  T <span> 293,1497 144x18 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "7 steps in the workflow"
+  B <ol> 48,1543 1344x612 grid gap=24px cols=432px 432px 432px jc=normal ai=normal 
+  B <li> 48,1543 432x180 pad=20px bg=#ffffff border=1px 1px 1px 1px solid #d5dfe0
+  T <h4> 69,1564 390x53 | ValleyCompare, Arial 19px/26.6px ls=normal w500 #1c292e  | "Live buying signals"
+  T <span> 69,1564 390x18 | ValleyCompare, Arial 13px/18.2px ls=1.56px w500 #52616a  | "0 1"
+  T <p> 69,1625 390x77 | ValleyCompare, Arial 16px/25.6px ls=normal w400 #52616a  | "Find prospects using multiple current buying-event types; a static contact database or one social trigger alone is insufficient."
+  B <li> 504,1543 432x180 pad=20px bg=#ffffff border=1px 1px 1px 1px solid #d5dfe0
+  T <h4> 525,1564 390x53 | ValleyCompare, Arial 19px/26.6px ls=normal w500 #1c292e  | "Qualify"
+  T <span> 525,1564 390x18 | ValleyCompare, Arial 13px/18.2px ls=1.56px w500 #52616a  | "0 2"
+  T <p> 525,1625 390x77 | ValleyCompare, Arial 16px/25.6px ls=normal w400 #52616a  | "Evaluate a prospect against configured ICP criteria before outreach; distinguish fit assessment from engagement-only branching."
+  B <li> 960,1543 432x180 pad=20px bg=#ffffff border=1px 1px 1px 1px solid #d5dfe0
+  T <h4> 981,1564 390x53 | ValleyCompare, Arial 19px/26.6px ls=normal w500 #1c292e  | "Deep research"
+  T <span> 981,1564 390x18 | ValleyCompare, Arial 13px/18.2px ls=1.56px w500 #52616a  | "0 3"
+  T <p> 981,1625 390x77 | ValleyCompare, Arial 16px/25.6px ls=normal w400 #52616a  | "Produce substantive prospect-specific open-web findings with inspectable supporting sources; profile fields and generic enrichment alone are insufficient."
+  B <li> 48,1747 432x205 pad=20px bg=#ffffff border=1px 1px 1px 1px solid #d5dfe0
+  T <h4> 69,1768 390x53 | ValleyCompare, Arial 19px/26.6px ls=normal w500 #1c292e  | "Your writing voice"
+  T <span> 69,1768 390x18 | ValleyCompare, Arial 13px/18.2px ls=1.56px w500 #52616a  | "0 4"
+  T <p> 69,1829 390x102 | ValleyCompare, Arial 16px/25.6px ls=normal w400 #52616a  | "Generate outreach from stored writing examples, style documents, sent-mail history, or learned edits; variables, generic AI copy and acoustic voice cloning alone are insufficient."
+  B <li> 504,1747 432x205 pad=20px bg=#ffffff border=1px 1px 1px 1px solid #d5dfe0
+  T <h4> 525,1768 390x53 | ValleyCompare, Arial 19px/26.6px ls=normal w500 #1c292e  | "Email + LinkedIn"
+  T <span> 525,1768 390x18 | ValleyCompare, Arial 13px/18.2px ls=1.56px w500 #52616a  | "0 5"
+  T <p> 525,1829 390x77 | ValleyCompare, Arial 16px/25.6px ls=normal w400 #52616a  | "Execute both email and LinkedIn outreach automatically within the product; show the two channel dependencies separately."
+  B <li> 960,1747 432x205 pad=20px bg=#ffffff border=1px 1px 1px 1px solid #d5dfe0
+  T <h4> 981,1768 390x53 | ValleyCompare, Arial 19px/26.6px ls=normal w500 #1c292e  | "Manage replies"
+  T <span> 981,1768 390x18 | ValleyCompare, Arial 13px/18.2px ls=1.56px w500 #52616a  | "0 6"
+  T <p> 981,1829 390x77 | ValleyCompare, Arial 16px/25.6px ls=normal w400 #52616a  | "Provide a native workspace or agent for triaging and responding to inbound prospect replies; report the covered channels."
+  B <li> 48,1976 432x180 pad=20px bg=#ffffff border=1px 1px 1px 1px solid #d5dfe0
+  T <h4> 69,1997 390x53 | ValleyCompare, Arial 19px/26.6px ls=normal w500 #1c292e  | "Learn & improve"
+  T <span> 69,1997 390x18 | ValleyCompare, Arial 13px/18.2px ls=1.56px w500 #52616a  | "0 7"
+  T <p> 69,2058 390x77 | ValleyCompare, Arial 16px/25.6px ls=normal w400 #52616a  | "Use observed campaign outcomes to update future targeting or messaging automatically; analytics, manual A/B decisions and instruction edits alone are partial."
+  B <section .vc-differences> 48,1542 1344x216 pad=36px 0px border=0px 0px 1px 0px none #1c292e b:#d5ddd1
+  T <h3> 48,1578 690x31 | ValleyCompare, Arial 26px/31.2px ls=-0.65px w500 #1c292e  | "The purchase begins before the connection request"
+  B <ol> 48,1635 1344x86 grid gap=32px cols=426.656px 426.672px 426.656px jc=normal ai=normal 
+  T <li> 48,1635 427x86 | ValleyCompare, Arial 17px/27.2px ls=normal w400 #394c56 ::before{static 426.656pxx17.5938px inset=auto,auto content="0" counter(points)} | "Research and enrichment are supplied by a connected intelligence layer."
+  T <li> 507,1635 427x86 | ValleyCompare, Arial 17px/27.2px ls=normal w400 #394c56 ::before{static 426.672pxx17.5938px inset=auto,auto content="0" counter(points)} | "External AI agents can create custom messages; native learned written style is not established."
+  T <li> 965,1635 427x86 | ValleyCompare, Arial 17px/27.2px ls=normal w400 #394c56 ::before{static 426.656pxx17.5938px inset=auto,auto content="0" counter(points)} | "LinkedIn sending is native; email execution needs a connected sender."
+  B <section .vc-pricing> 48,1758 1344x337 pad=30px 0px border=0px 0px 1px 0px none #1c292e b:#d5ddd1
+  T <h3> 48,1788 1344x30 | ValleyCompare, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Compare the commitment, too."
+  B <div .vc-pricing-grid> 48,1840 1344x224 grid gap=32px cols=656px 656px jc=normal ai=normal 
+  B <div> 48,1840 656x224 pad=20px 22px bg=#e9f0f2 border=1px 1px 1px 1px solid #d3dccd
+  T <h4> 71,1861 610x26 | ValleyCompare, Arial 17px/25.5px ls=normal w500 #1c292e  | "Valley Starter"
+  T <p> 71,1899 610x41 | ValleyCompare, Arial 34px/40.8px ls=-1.02px w400 #1c292e  | "$199"
+  T <span> 137,1918 48x16 | ValleyCompare, Arial 14px/16.8px ls=normal w400 #1c292e  | "/ month"
+  T <p> 71,1952 610x54 | ValleyCompare, Arial 17px/27.2px ls=normal w400 #394c56  | "Or $149/month billed quarterly ($447 per quarter). Email is an optional add-on; included with Plus."
+  T <a> 71,2020 86x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley plans ↗"
+  B <div> 736,1840 656x224 pad=20px 22px border=1px 1px 1px 1px solid #d3dccd
+  T <h4> 759,1861 610x26 | ValleyCompare, Arial 17px/25.5px ls=normal w500 #1c292e  | "HeyReach"
+  T <p> 759,1899 610x82 | ValleyCompare, Arial 17px/27.2px ls=normal w400 #394c56  | "HeyReach Growth lists $79 per sender/month, or $71 per month billed quarterly ($213). Its email workflow uses connected tools, so budget for those subscriptions and research separately."
+  T <a> 759,1994 103x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Pricing source ↗"
+  B <section .vc-table-section> 48,2096 1344x1549 pad=34px 0px 0px 
+  T <h3> 48,2130 1344x31 | ValleyCompare, Arial 26px/31.2px ls=-0.65px w500 #1c292e  | "Every stage, side by side."
+  T <caption> 48,2183 1344x39 | ValleyCompare, Arial 15px/24px ls=normal w400 #52616a ta=left pad=0px 0px 15px  | "Valley and HeyReach : public product documentation. “Not verified” does not mean unavailable."
+  T <th> 48,2222 255x66 | ValleyCompare, Arial 17px/27.2px ls=normal w500 #394c56 ta=left pad=19px 20px 19px 0px border=1px 0px 1px 0px solid #d5ddd1 | "The work"
+  T <th> 303,2222 544x66 | ValleyCompare, Arial 17px/27.2px ls=normal w500 #394c56 ta=left pad=19px 20px bg=#e9f0f2 border=1px 0px 1px 0px solid #d5ddd1 | "Valley"
+  T <th> 848,2222 544x66 | ValleyCompare, Arial 17px/27.2px ls=normal w500 #394c56 ta=left pad=19px 20px border=1px 0px 1px 0px solid #d5ddd1 | "HeyReach"
+  T <th> 48,2288 255x136 | ValleyCompare, Arial 17px/27.2px ls=normal w500 #394c56 ta=left pad=19px 20px 19px 0px border=0px 0px 1px 0px none #394c56 b:#d5ddd1 | "Live buying signals"
+  B <td> 303,2288 544x136 pad=19px 20px bg=#e9f0f2 border=0px 0px 1px 0px none #394c56 b:#d5ddd1
+  T <span> 323,2311 63x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #2d5637 ta=left  | "Built in"
+  T <span> 323,2312 11x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #2d5637 ta=left  | "✓"
+  T <p> 323,2343 504x27 | ValleyCompare, Arial 17px/27.2px ls=normal w400 #394c56 ta=left  | "Find prospects through buying signals, playbooks, or your own list."
+  T <a> 323,2379 107x24 | ValleyCompare, Arial 15px/24px ls=normal w400 #52616a ta=left  | "Product details ↗"
+  B <td> 848,2288 544x136 pad=19px 20px border=0px 0px 1px 0px none #394c56 b:#d5ddd1
+  T <span> 868,2311 163x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #394c56 ta=left  | "Requires another tool"
+  T <span> 868,2312 9x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #394c56 ta=left  | "↗"
+  T <p> 868,2343 504x27 | ValleyCompare, Arial 17px/27.2px ls=normal w400 #394c56 ta=left  | "Signals and discovery arrive from Clay, RB2B or other upstream tools."
+  T <a> 868,2379 90x24 | ValleyCompare, Arial 15px/24px ls=normal w400 #52616a ta=left  | "View source ↗"
+  T <th> 48,2424 255x163 | ValleyCompare, Arial 17px/27.2px ls=normal w500 #394c56 ta=left pad=19px 20px 19px 0px border=0px 0px 1px 0px none #394c56 b:#d5ddd1 | "Qualify"
+  B <td> 303,2424 544x163 pad=19px 20px bg=#e9f0f2 border=0px 0px 1px 0px none #394c56 b:#d5ddd1
+  T <span> 323,2446 63x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #2d5637 ta=left  | "Built in"
+  T <span> 323,2447 11x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #2d5637 ta=left  | "✓"
+  T <p> 323,2479 504x54 | ValleyCompare, Arial 17px/27.2px ls=normal w400 #394c56 ta=left  | "Check prospects against your ideal customer profile and review the reasons for each match."
+  T <a> 323,2542 107x24 | ValleyCompare, Arial 15px/24px ls=normal w400 #52616a ta=left  | "Product details ↗"
+  B <td> 848,2424 544x163 pad=19px 20px border=0px 0px 1px 0px none #394c56 b:#d5ddd1
+  T <span> 868,2446 163x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #394c56 ta=left  | "Requires another tool"
+  T <span> 868,2447 9x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #394c56 ta=left  | "↗"
+  T <p> 868,2479 504x54 | ValleyCompare, Arial 17px/27.2px ls=normal w400 #394c56 ta=left  | "Documented qualification happens upstream before HeyReach receives the lead."
+  T <a> 868,2542 90x24 | ValleyCompare, Arial 15px/24px ls=normal w400 #52616a ta=left  | "View source ↗"
+  T <th> 48,2587 255x163 | ValleyCompare, Arial 17px/27.2px ls=normal w500 #394c56 ta=left pad=19px 20px 19px 0px border=0px 0px 1px 0px none #394c56 b:#d5ddd1 | "Deep research"
+  B <td> 303,2587 544x163 pad=19px 20px bg=#e9f0f2 border=0px 0px 1px 0px none #394c56 b:#d5ddd1
+  T <span> 323,2609 63x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #2d5637 ta=left  | "Built in"
+  T <span> 323,2610 11x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #2d5637 ta=left  | "✓"
+  T <p> 323,2641 504x54 | ValleyCompare, Arial 17px/27.2px ls=normal w400 #394c56 ta=left  | "Bring prospect activity, interviews, and company context into sourced research."
+  T <a> 323,2705 107x24 | ValleyCompare, Arial 15px/24px ls=normal w400 #52616a ta=left  | "Product details ↗"
+  B <td> 848,2587 544x163 pad=19px 20px border=0px 0px 1px 0px none #394c56 b:#d5ddd1
+  T <span> 868,2609 163x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #394c56 ta=left  | "Requires another tool"
+  T <span> 868,2610 9x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #394c56 ta=left  | "↗"
+  T <p> 868,2641 504x54 | ValleyCompare, Arial 17px/27.2px ls=normal w400 #394c56 ta=left  | "Research and enrichment are supplied by a connected intelligence layer."
+  T <a> 868,2705 90x24 | ValleyCompare, Arial 15px/24px ls=normal w400 #52616a ta=left  | "View source ↗"
+  T <th> 48,2749 255x163 | ValleyCompare, Arial 17px/27.2px ls=normal w500 #394c56 ta=left pad=19px 20px 19px 0px border=0px 0px 1px 0px none #394c56 b:#d5ddd1 | "Your writing voice"
+  B <td> 303,2749 544x163 pad=19px 20px bg=#e9f0f2 border=0px 0px 1px 0px none #394c56 b:#d5ddd1
+  T <span> 323,2772 63x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #2d5637 ta=left  | "Built in"
+  T <span> 323,2773 11x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #2d5637 ta=left  | "✓"
+  T <p> 323,2804 504x54 | ValleyCompare, Arial 17px/27.2px ls=normal w400 #394c56 ta=left  | "Turn the research and your writing style into drafts you can review and edit."
+  T <a> 323,2868 107x24 | ValleyCompare, Arial 15px/24px ls=normal w400 #52616a ta=left  | "Product details ↗"
+  B <td> 848,2749 544x163 pad=19px 20px border=0px 0px 1px 0px none #394c56 b:#d5ddd1
+  T <span> 868,2772 163x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #394c56 ta=left  | "Requires another tool"
+  T <span> 868,2773 9x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #394c56 ta=left  | "↗"
+  T <p> 868,2804 504x54 | ValleyCompare, Arial 17px/27.2px ls=normal w400 #394c56 ta=left  | "External AI agents can create custom messages; native learned written style is not established."
+  T <a> 868,2868 90x24 | ValleyCompare, Arial 15px/24px ls=normal w400 #52616a ta=left  | "View source ↗"
+  T <th> 48,2912 255x433 | ValleyCompare, Arial 17px/27.2px ls=normal w500 #394c56 ta=left pad=19px 20px 19px 0px border=0px 0px 1px 0px none #394c56 b:#d5ddd1 | "Email + LinkedIn"
+  B <td> 303,2912 544x433 pad=19px 20px bg=#e9f0f2 border=0px 0px 1px 0px none #394c56 b:#d5ddd1
+  T <span> 323,2935 63x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #2d5637 ta=left  | "Built in"
+  T <span> 323,2936 11x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #2d5637 ta=left  | "✓"
+  T <p> 323,2967 504x54 | ValleyCompare, Arial 17px/27.2px ls=normal w400 #394c56 ta=left  | "Run researched LinkedIn and email campaigns. Email is included with Plus and an optional add-on on Starter."
+  T <a> 323,3030 107x24 | ValleyCompare, Arial 15px/24px ls=normal w400 #52616a ta=left  | "Product details ↗"
+  B <td> 848,2912 544x433 pad=19px 20px border=0px 0px 1px 0px none #394c56 b:#d5ddd1
+  T <span> 868,2935 163x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #394c56 ta=left  | "Requires another tool"
+  T <span> 868,2936 9x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #394c56 ta=left  | "↗"
+  T <p> 868,2967 504x27 | ValleyCompare, Arial 17px/27.2px ls=normal w400 #394c56 ta=left  | "LinkedIn sending is native; email execution needs a connected sender."
+  B <ul .vc-channel-details> 868,3008 504x284 border=1px 0px 0px 0px solid #d5ddd1 b:#394c56
+  B <li> 868,3009 504x141 pad=14px 0px 
+  T <strong> 868,3023 504x24 | ValleyCompare, Arial 15px/24px ls=normal w500 #52616a ta=left  | "Email"
+  T <span> 868,3053 163x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #394c56 ta=left  | "Requires another tool"
+  T <span> 868,3054 9x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #394c56 ta=left  | "↗"
+  T <p> 868,3082 504x24 | ValleyCompare, Arial 15px/24px ls=normal w400 #52616a ta=left  | "Execution relies on a connected tool."
+  T <a> 868,3111 94x24 | ValleyCompare, Arial 15px/24px ls=normal w400 #52616a ta=left  | "Email source ↗"
+  B <li> 868,3150 504x141 pad=14px 0px 
+  T <strong> 868,3164 504x24 | ValleyCompare, Arial 15px/24px ls=normal w500 #52616a ta=left  | "LinkedIn"
+  T <span> 868,3194 63x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #2d5637 ta=left  | "Built in"
+  T <span> 868,3195 11x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #2d5637 ta=left  | "✓"
+  T <p> 868,3224 504x24 | ValleyCompare, Arial 15px/24px ls=normal w400 #52616a ta=left  | "Automated native linkedin execution documented."
+  T <a> 868,3253 113x24 | ValleyCompare, Arial 15px/24px ls=normal w400 #52616a ta=left  | "LinkedIn source ↗"
+  T <a> 868,3301 90x24 | ValleyCompare, Arial 15px/24px ls=normal w400 #52616a ta=left  | "View source ↗"
+  T <th> 48,3346 255x136 | ValleyCompare, Arial 17px/27.2px ls=normal w500 #394c56 ta=left pad=19px 20px 19px 0px border=0px 0px 1px 0px none #394c56 b:#d5ddd1 | "Manage replies"
+  B <td> 303,3346 544x136 pad=19px 20px bg=#e9f0f2 border=0px 0px 1px 0px none #394c56 b:#d5ddd1
+  T <span> 323,3368 63x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #2d5637 ta=left  | "Built in"
+  T <span> 323,3369 11x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #2d5637 ta=left  | "✓"
+  T <p> 323,3400 504x27 | ValleyCompare, Arial 17px/27.2px ls=normal w400 #394c56 ta=left  | "Review replies with the prospect and campaign context close at hand."
+  T <a> 323,3436 107x24 | ValleyCompare, Arial 15px/24px ls=normal w400 #52616a ta=left  | "Product details ↗"
+  B <td> 848,3346 544x136 pad=19px 20px border=0px 0px 1px 0px none #394c56 b:#d5ddd1
+  T <span> 868,3368 63x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #2d5637 ta=left  | "Built in"
+  T <span> 868,3369 11x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #2d5637 ta=left  | "✓"
+  T <p> 868,3400 504x27 | ValleyCompare, Arial 17px/27.2px ls=normal w400 #394c56 ta=left  | "Unified Inbox manages replies across connected LinkedIn accounts."
+  T <a> 868,3436 90x24 | ValleyCompare, Arial 15px/24px ls=normal w400 #52616a ta=left  | "View source ↗"
+  T <th> 48,3481 255x163 | ValleyCompare, Arial 17px/27.2px ls=normal w500 #394c56 ta=left pad=19px 20px 19px 0px border=0px 0px 1px 0px none #394c56 b:#d5ddd1 | "Learn & improve"
+  B <td> 303,3481 544x163 pad=19px 20px bg=#e9f0f2 border=0px 0px 1px 0px none #394c56 b:#d5ddd1
+  T <span> 323,3504 63x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #2d5637 ta=left  | "Built in"
+  T <span> 323,3505 11x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #2d5637 ta=left  | "✓"
+  T <p> 323,3536 504x27 | ValleyCompare, Arial 17px/27.2px ls=normal w400 #394c56 ta=left  | "Use campaign results to refine your audience and messaging."
+  T <a> 323,3572 107x24 | ValleyCompare, Arial 15px/24px ls=normal w400 #52616a ta=left  | "Product details ↗"
+  B <td> 848,3481 544x163 pad=19px 20px border=0px 0px 1px 0px none #394c56 b:#d5ddd1
+  T <span> 868,3504 132x22 | ValleyCompare, Arial 16px/22.4px ls=normal w500 #394c56 ta=left  | "Partial coverage"
+  T <span> 868,3505 15x21 | ValleyCompare, Arial 15px/21px ls=normal w500 #394c56 ta=left  | "◐"
+  T <p> 868,3536 504x54 | ValleyCompare, Arial 17px/27.2px ls=normal w400 #394c56 ta=left  | "Reports and API events support operator or external-agent improvement; native outcome learning is not established."
+  T <a> 868,3599 90x24 | ValleyCompare, Arial 15px/24px ls=normal w400 #52616a ta=left  | "View source ↗"
+  B <aside .vc-proof> 0,3682 1440x172 pad=35px 48px grid gap=32px cols=1133.86px 178.141px jc=normal ai=center bg=#e9f0f2 border=1px 0px 1px 0px solid #d5ddd1
+  T <div> 48,3718 1134x21 | ValleyCompare, Arial 14px/21px ls=1.82px w500 #52616a tt=uppercase  | "Bolt.new, with Valley"
+  T <blockquote> 48,3751 1134x32 | ValleyCompare, Arial 27px/32.4px ls=-0.675px w400 #1c292e  | "“Valley is a cheat code.”"
+  T <p> 48,3796 1134x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Stefano McCoy · Sales, Bolt.new. $1M+ pipeline in the first 60 days."
+  T <a> 1214,3756 178x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #1c292e  | "Read the customer story ↗"
+  B <div .vc-close> 0,3854 1440x164 pad=35px 48px flex row gap=30px jc=space-between ai=center 
+  T <h3> 48,3889 640x33 | ValleyCompare, Arial 29px/33.35px ls=-0.87px w500 #1c292e  | "Bring a prospect. Judge the work."
+  T <p> 48,3933 640x51 | ValleyCompare, Arial 17px/25.5px ls=normal w400 #394c56  | "Starter begins at $199/month, or $149/month billed quarterly. Choose Plus for included email, priority Slack support, and onboarding."
+  B <div .vc-actions> 1054,3910 338x52 flex row gap=20px jc=normal ai=center 
+  T <a> 1054,3924 116x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #1c292e  | "Compare plans ↗"
+  T <a> 1190,3910 202x52 | ValleyCompare, Arial 16px/24px ls=normal w400 #ffffff pad=14px 20px bg=#1c292e | "See Valley in action"
+  T <span> 1363,3924 9x24 | ValleyCompare, Arial 16px/24px ls=normal w400 #ffffff  | "↗"
+  B <nav .vc-directory> 0,4019 1440x275 pad=28px 48px border=1px 0px 0px 0px solid #d5ddd1 b:#1c292e
+  T <h3> 48,4048 1344x33 | ValleyCompare, Arial 22px/33px ls=normal w500 #1c292e  | "Find your comparison"
+  B <div .vc-directory-links> 48,4101 1344x165 grid gap=13px 26px cols=316.5px 316.5px 316.5px 316.5px jc=normal ai=normal 
+  T <a> 48,4101 317x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley vs. HeyReach ↗"
+  T <a> 391,4101 317x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley vs. Gojiberry ↗"
+  T <a> 733,4101 317x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley vs. Amplemarket ↗"
+  T <a> 1076,4101 317x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley vs. lemlist ↗"
+  T <a> 48,4136 317x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley vs. Instantly ↗"
+  T <a> 391,4136 317x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley vs. Artisan ↗"
+  T <a> 733,4136 317x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley vs. 11x ↗"
+  T <a> 1076,4136 317x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley vs. Expandi ↗"
+  T <a> 48,4172 317x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley vs. Clay ↗"
+  T <a> 391,4172 317x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley vs. PhantomBuster ↗"
+  T <a> 733,4172 317x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley vs. Apollo ↗"
+  T <a> 1076,4172 317x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley vs. Smartlead ↗"
+  T <a> 48,4207 317x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley vs. Dripify ↗"
+  T <a> 391,4207 317x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley vs. Linked Helper ↗"
+  T <a> 733,4207 317x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley vs. AiSDR ↗"
+  T <a> 1076,4207 317x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley vs. Regie.ai ↗"
+  T <a> 48,4243 317x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley vs. Reply.io ↗"
+  T <a> 391,4243 317x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley vs. Outreach ↗"
+  T <a> 733,4243 317x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley vs. Salesloft ↗"
+  B <section .vc-method> 0,4293 1440x178 pad=26px 48px grid gap=30px cols=180px 1134px jc=normal ai=normal border=1px 0px 0px 0px solid #d5ddd1 b:#1c292e
+  T <h3> 48,4320 180x125 | ValleyCompare, Arial 18px/27px ls=normal w500 #1c292e  | "How we compare"
+  T <p> 258,4320 830x90 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Published by Valley. Sources checked September 14, 2026. We compare public product documentation across seven stages, not hands-on benchmark results. Writing cells distinguish variables, instructed AI copy, and learned voice. Features and availability may vary by plan. “Not verified” means the avail"
+  B <div .vc-source-links> 258,4422 1134x23 flex row gap=14px jc=normal ai=normal 
+  T <a> 258,4422 227x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "HeyReach : Primary vendor source ↗"
+  T <a> 499,4422 227x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "HeyReach : Primary vendor source ↗"
+  T <a> 741,4422 227x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "HeyReach : Primary vendor source ↗"
+  T <a> 982,4422 101x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Valley product ↗"
+  T <a> 1097,4422 145x23 | ValleyCompare, Arial 15px/22.5px ls=normal w400 #52616a  | "Suggest a correction ↗"
+
+=== SECTION 2 footer [Valley footer] 0,4471 1440x597 tag=DIV
+  B <div Desktop> 0,4471 1440x597 bg=#1c3036 ovf=hidden
+  B <footer .vf> 0,4471 1440x597 bg=#1c3036
+  B <div .vf-inner> 0,4471 1440x597 pad=64px 48px 28px 
+  B <div .vf-top> 48,4535 1344x223 pad=0px 0px 48px grid gap=64px cols=746.656px 533.328px jc=normal ai=center border=0px 0px 1px 0px none #f8f9f7 b:#ffffff/0.19
+  T <h2> 48,4535 650x99 | ValleyFooter, Arial 44px/49.28px ls=-1.54px w500 #f8f9f7  | "Find your people. Give them a reason to reply."
+  T <p> 48,4651 570x57 | ValleyFooter, Arial 19px/28.5px ls=normal w400 #c2d0d2  | "Find, qualify, research, and reach your next buyers across email and LinkedIn."
+  B <div .vf-actions> 859,4595 533x52 flex row gap=16px jc=flex-end ai=normal 
+  T <a> 1082,4595 152x52 | ValleyFooter, Arial 17px/normal ls=normal w400 #1c3036 pad=15px 22px bg=#f8f9f7 border=1px 1px 1px 1px solid #f8f9f7 | "Start for free →"
+  T <a> 1250,4595 142x52 | ValleyFooter, Arial 17px/normal ls=normal w400 #f8f9f7 pad=15px 22px border=1px 1px 1px 1px solid #718589 | "Book a demo"
+  B <div .vf-links> 48,4757 1344x242 pad=44px 0px grid gap=48px cols=513.875px 367.062px 367.047px jc=normal ai=normal 
+  T <a> 48,4801 514x38 | ValleyFooter, Arial 30px/normal ls=-1.05px w500 #f8f9f7  | "Valley"
+  SVG 48,4801 38x38 fill=#f8f9f7 stroke=none color=#f8f9f7 
+  T <p> 48,4839 290x45 | ValleyFooter, Arial 15px/22.5px ls=normal w400 #bbcdce  | "Your outbound team. One connected platform."
+  T <a> 48,4884 89x14 | ValleyFooter, Arial 12px/normal ls=normal w400 #f8f9f7  | "hey@joinvalley.co"
+  B <nav> 610,4801 367x154 flex column gap=14px jc=normal ai=flex-start 
+  T <strong> 610,4801 106x14 | ValleyFooter, Arial 12px/normal ls=0.72px w400 #9eb6ba tt=uppercase  | "Explore Valley"
+  T <a> 610,4837 54x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Product"
+  T <a> 610,4870 74x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Customers"
+  T <a> 610,4903 64x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Agencies"
+  T <a> 610,4936 47x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Pricing"
+  B <nav> 1025,4801 367x154 flex column gap=14px jc=normal ai=flex-start 
+  T <strong> 1025,4801 82x14 | ValleyFooter, Arial 12px/normal ls=0.72px w400 #9eb6ba tt=uppercase  | "Learn more"
+  T <a> 1025,4837 73x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Resources"
+  T <a> 1025,4870 68x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "All articles"
+  T <a> 1025,4903 83x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "About Valley"
+  T <a> 1025,4936 41x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Log in"
+  B <div .vf-bottom> 48,4999 1344x40 pad=24px 0px 0px flex row gap=20px jc=space-between ai=normal border=1px 0px 0px 0px solid #ffffff/0.19 b:#b4c7c9
+  T <span> 48,5024 150x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "© Valley. All rights reserved."
+  B <div> 1203,5024 189x15 flex row gap=24px jc=normal ai=normal 
+  T <a> 1203,5024 75x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "Privacy policy"
+  T <a> 1302,5024 90x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "Terms of service"

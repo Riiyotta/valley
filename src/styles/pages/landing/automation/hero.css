@@ -1,0 +1,327 @@
+/* /linkedin-automation hero (spec/pages/landing.md 6 la-hero; dump_linkedin-automation_<w>
+   section [1]; motion M13). */
+
+.la-hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 828px;
+  overflow: hidden;
+}
+.la-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.07);
+  border-right: 1px solid rgba(0, 0, 0, 0.07);
+  pointer-events: none;
+}
+.la-hero__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.la-hero__stack {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  width: 100%;
+  padding: 160px 0;
+}
+.la-hero__label {
+  position: relative;
+  max-width: 100%;
+  padding: 6px;
+  font: 400 12px/14.4px "Valley Landing Geist Mono", monospace;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+}
+.la-hero__label::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #000;
+  pointer-events: none;
+}
+.la-hero__h1 {
+  font: 400 52px/55.64px theme('fontFamily.ppnm-medium');
+  color: #000;
+  text-align: center;
+}
+.la-hero__blue {
+  color: #0077b5;
+}
+.la-hero__h1--phone,
+.la-hero__sub--phone {
+  display: none;
+}
+.la-hero__sub {
+  width: 750px;
+  max-width: 100%;
+  font: 400 16px/20px "PP Neue Montreal Medium";
+  color: #3d3d3d;
+  text-align: center;
+}
+.la-hero__ctas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: 88px;
+  padding: 8px;
+}
+
+/* ---------- quote bubbles (desktop only) ----------
+   Per bubble, on a 16,480ms loop (ms from the bubble's own start, measured on the live page):
+   0-500 outline fades/draws in; 610-1010 card fades in over 400ms cubic-bezier(.44,0,.56,1)
+   (spec M13) while the outline fades out by 1120; hold; 2036-3036 card fades out (~1s,
+   "outgoing about 900ms"). The outline stroke colour is not captured (it animates from
+   rgba(255,255,255,0)); the blue here is read from screens/full_linkedin-automation_1440.jpg. */
+.la-bubbles {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+.la-bubble {
+  position: absolute;
+  width: 200px;
+  height: 116px;
+  pointer-events: auto;
+  transition: filter 200ms ease, transform 200ms ease;
+}
+.la-bubble--a {
+  top: 174px;
+  left: 16px;
+}
+.la-bubble--b {
+  top: 135px;
+  left: calc(50% + 422px);
+}
+.la-bubble--c {
+  top: 539px;
+  left: calc(50% + 348px);
+}
+.la-bubble--d {
+  top: 485px;
+  left: 108px;
+}
+.la-bubble__outline {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.la-bubble__outline path {
+  fill: none;
+  stroke: #0077b5;
+  stroke-width: 2;
+  stroke-dasharray: 1;
+  vector-effect: non-scaling-stroke;
+  animation: la-bubble-outline 16480ms linear infinite both;
+  animation-delay: var(--la-bubble-delay);
+}
+.la-bubble__card {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 12px;
+  border-radius: 3px;
+  background: linear-gradient(179deg, #fff 0%, #fff 98%);
+  overflow: hidden;
+  animation: la-bubble-card 16480ms linear infinite both;
+  animation-delay: var(--la-bubble-delay);
+}
+.la-bubble__card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  pointer-events: none;
+}
+.la-bubble__quote {
+  width: 100%;
+  opacity: 0.6;
+}
+.la-bubble__quote p {
+  font: 400 14px/16.8px theme('fontFamily.ppnm-medium');
+  color: #000;
+  text-align: center;
+}
+.la-bubble__client {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.la-bubble__photo {
+  flex: none;
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.la-bubble__who {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.la-bubble__who p {
+  font: 400 12px/14.4px theme('fontFamily.ppnm-medium');
+  color: #595959;
+}
+.la-bubble__who img {
+  display: block;
+  object-fit: contain;
+}
+/* Hover (spec 6): the other bubbles blur 2px and the hovered one lifts slightly
+   (translateY -0.92px measured in raw/hover_linkedin-automation.json). */
+.la-bubbles:has(.la-bubble:hover) .la-bubble:not(:hover) {
+  filter: blur(2px);
+}
+.la-bubble:hover {
+  transform: translateY(-0.92px);
+}
+
+@keyframes la-bubble-card {
+  0%,
+  3.701% {
+    opacity: 0;
+    animation-timing-function: cubic-bezier(0.44, 0, 0.56, 1);
+  }
+  6.129% {
+    opacity: 1;
+  }
+  12.354% {
+    opacity: 1;
+    animation-timing-function: cubic-bezier(0.44, 0, 0.56, 1);
+  }
+  18.422%,
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes la-bubble-outline {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 1;
+  }
+  3.034% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+  3.701% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+  6.796%,
+  100% {
+    opacity: 0;
+    stroke-dashoffset: 0;
+  }
+}
+
+@media screen(below-desktop) {
+  .la-hero {
+    height: 723px;
+  }
+  .la-hero__stack {
+    gap: 24px;
+    padding: 100px 20px 110px;
+  }
+  .la-hero__label {
+    width: 100%;
+  }
+  .la-hero__h1 {
+    font-size: 32px;
+    line-height: 34.24px;
+    font-weight: 500;
+  }
+  .la-hero__h1--desktop,
+  .la-hero__sub--desktop,
+  .la-bubbles {
+    display: none;
+  }
+  .la-hero__h1--phone {
+    display: block;
+  }
+  .la-hero__sub--phone {
+    display: block;
+    width: 85%;
+    font-size: 17px;
+    line-height: 21.25px;
+  }
+}
+
+/* ---------- load motion (measured on live; see Hero.jsx) ---------- */
+/* h1 word blur-in: .4s cubic-bezier(.44,0,.56,1) per word from opacity .001, blur(5px),
+   translateY(10px). Live drops only the translate under prefers-reduced-motion. */
+.la-hero__word {
+  display: inline-block;
+  animation: la-word-in 400ms cubic-bezier(0.44, 0, 0.56, 1) var(--la-word-delay, 0s) both;
+}
+@keyframes la-word-in {
+  from {
+    opacity: 0.001;
+    filter: blur(5px);
+    translate: 0 10px;
+  }
+  to {
+    opacity: 1;
+    filter: blur(0px);
+    translate: 0 0;
+  }
+}
+@keyframes la-word-in-still {
+  from {
+    opacity: 0.001;
+    filter: blur(5px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .la-hero__word {
+    animation-name: la-word-in-still;
+  }
+}
+
+/* Quote-bubble stack entrance. a/b/c: appear spring 210/70 (2000ms linear() sample) after
+   the page-start delay; d: .4s cubic-bezier(.44,0,.56,1), no delay. `translate` composes with
+   the hover lift on `transform`. Live runs these regardless of reduced motion. */
+.la-bubble[data-la-stack] {
+  animation: la-stack-in 2000ms var(--lp-appear-ease) var(--la-stack-delay, 0ms) both;
+}
+.la-bubble[data-la-stack='tween'] {
+  animation-duration: 400ms;
+  animation-timing-function: cubic-bezier(0.44, 0, 0.56, 1);
+}
+@keyframes la-stack-in {
+  from {
+    opacity: 0.001;
+    translate: 0 var(--la-stack-y, 0px);
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}

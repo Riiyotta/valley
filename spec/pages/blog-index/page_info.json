@@ -1,0 +1,723 @@
+{
+ "title": "Outbound Sales Guides, Benchmarks and Teardowns - Valley",
+ "metaDesc": "Research, practical buyer guides and sourced comparisons of outbound sales platforms. Explore 2026 reports and Valley vs. 19 competitors.",
+ "links": [
+  {
+   "text": "",
+   "href": "./",
+   "abs": "https://www.joinvalley.co/",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Home Home",
+   "href": "./",
+   "abs": "https://www.joinvalley.co/",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "",
+   "href": "/product",
+   "abs": "https://www.joinvalley.co/product",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "",
+   "href": "/playbooks",
+   "abs": "https://www.joinvalley.co/playbooks",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Valley vs. Competition Valley vs. Competition",
+   "href": "./compare",
+   "abs": "https://www.joinvalley.co/compare",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Customers Customers",
+   "href": "./casestudies",
+   "abs": "https://www.joinvalley.co/casestudies",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Agencies Agencies",
+   "href": "./linkedin-outreach-for-agencies",
+   "abs": "https://www.joinvalley.co/linkedin-outreach-for-agencies",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Pricing Pricing",
+   "href": "./pricing",
+   "abs": "https://www.joinvalley.co/pricing",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Log in",
+   "href": "https://beta.joinvalley.co/login",
+   "abs": "https://beta.joinvalley.co/login",
+   "kind": "external",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Start for free",
+   "href": "https://beta.joinvalley.co/signup",
+   "abs": "https://beta.joinvalley.co/signup",
+   "kind": "external",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "FEATURED READ Zayd Ali The 20-Minute Prospecting Revolution Read Read",
+   "href": "./blog_featured/the-20-minute-prospecting-revolution",
+   "abs": "https://www.joinvalley.co/blog_featured/the-20-minute-prospecting-revolution",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "The State of Outbound Tools in 2026 A sourced review of 19 outbound tools across",
+   "href": "./blog/state-of-outbound-tools-2026",
+   "abs": "https://www.joinvalley.co/blog/state-of-outbound-tools-2026",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Best Outbound Sales Tools of 2026, by Job and Team The best outbound sales tools",
+   "href": "./blog/best-outbound-sales-tools-2026",
+   "abs": "https://www.joinvalley.co/blog/best-outbound-sales-tools-2026",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "What an Outbound Stack Costs in 2026 Three outbound budget scenarios priced on r",
+   "href": "./blog/outbound-stack-costs-2026",
+   "abs": "https://www.joinvalley.co/blog/outbound-stack-costs-2026",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "AI SDRs, Copilots, and Automation: The 2026 Buyer’s Guide AI SDRs, copilots, and",
+   "href": "./blog/ai-sdrs-copilots-automation-buyers-guide-2026",
+   "abs": "https://www.joinvalley.co/blog/ai-sdrs-copilots-automation-buyers-guide-2026",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "How to Evaluate Outbound Personalization in 2026 A reproducible protocol for jud",
+   "href": "./blog/evaluate-outbound-personalization-2026",
+   "abs": "https://www.joinvalley.co/blog/evaluate-outbound-personalization-2026",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Explore all 19 comparisons ↗",
+   "href": "./compare",
+   "abs": "https://www.joinvalley.co/compare",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Skylead Alternatives (2026): 5 Options, Compared Honestly Read Read",
+   "href": "./blog/skylead-alternatives-2026",
+   "abs": "https://www.joinvalley.co/blog/skylead-alternatives-2026",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Meet Alfred Alternatives (2026): 5 Options for After the Rating Split Read Read",
+   "href": "./blog/meetalfred-alternatives-2026",
+   "abs": "https://www.joinvalley.co/blog/meetalfred-alternatives-2026",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Dux-Soup Alternatives (2026): What to Use Instead of an Extension Read Read",
+   "href": "./blog/dux-soup-alternatives-2026",
+   "abs": "https://www.joinvalley.co/blog/dux-soup-alternatives-2026",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "We-Connect Alternatives (2026): 5 Options, Compared Honestly Read Read",
+   "href": "./blog/we-connect-alternatives-2026",
+   "abs": "https://www.joinvalley.co/blog/we-connect-alternatives-2026",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "La Growth Machine Alternatives (2026): 5 Options, Compared Read Read",
+   "href": "./blog/la-growth-machine-alternatives-2026",
+   "abs": "https://www.joinvalley.co/blog/la-growth-machine-alternatives-2026",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Warmly Alternatives (2026): 5 Options Now That HubSpot Owns It Read Read",
+   "href": "./blog/warmly-alternatives-2026",
+   "abs": "https://www.joinvalley.co/blog/warmly-alternatives-2026",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "RB2B Alternatives (2026): 5 Options for More Than US Visitor Alerts Read Read",
+   "href": "./blog/rb2b-alternatives-2026",
+   "abs": "https://www.joinvalley.co/blog/rb2b-alternatives-2026",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Regie.ai Alternatives (2026): The $49 Headline vs the $50K Reality Read Read",
+   "href": "./blog/regie-ai-alternatives-2026",
+   "abs": "https://www.joinvalley.co/blog/regie-ai-alternatives-2026",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Seamless.AI Alternatives (2026): 5 Options With the Receipts Read Read",
+   "href": "./blog/seamless-ai-alternatives-2026",
+   "abs": "https://www.joinvalley.co/blog/seamless-ai-alternatives-2026",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Amplemarket Alternatives (2026): 5 Options Before the Annual Commit Read Read",
+   "href": "./blog/amplemarket-alternatives-2026",
+   "abs": "https://www.joinvalley.co/blog/amplemarket-alternatives-2026",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Valley vs. Amplemarket: one-seat outbound and a broader sales platform Read Read",
+   "href": "./blog/valley-vs-amplemarket",
+   "abs": "https://www.joinvalley.co/blog/valley-vs-amplemarket",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Valley vs. Instantly: integrated prospecting or an email-centered stack? Read Re",
+   "href": "./blog/valley-vs-instantly",
+   "abs": "https://www.joinvalley.co/blog/valley-vs-instantly",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Valley vs. PhantomBuster: an outbound workspace or reusable automations? Read Re",
+   "href": "./blog/valley-vs-phantombuster",
+   "abs": "https://www.joinvalley.co/blog/valley-vs-phantombuster",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Valley vs. Smartlead: buyer preparation or email infrastructure depth? Read Read",
+   "href": "./blog/valley-vs-smartlead",
+   "abs": "https://www.joinvalley.co/blog/valley-vs-smartlead",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Valley vs. Linked Helper: a web campaign workspace or desktop automation? Read R",
+   "href": "./blog/valley-vs-linkedhelper",
+   "abs": "https://www.joinvalley.co/blog/valley-vs-linkedhelper",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Valley vs. AiSDR: compare the research, support and usage units Read Read",
+   "href": "./blog/valley-vs-aisdr",
+   "abs": "https://www.joinvalley.co/blog/valley-vs-aisdr",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Valley vs. Regie.ai: evaluating research, voice and seller workflow Read Read",
+   "href": "./blog/valley-vs-regie",
+   "abs": "https://www.joinvalley.co/blog/valley-vs-regie",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Valley vs. Reply.io: select the product before comparing the workflow Read Read",
+   "href": "./blog/valley-vs-reply",
+   "abs": "https://www.joinvalley.co/blog/valley-vs-reply",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Valley vs. Outreach: focused outbound or revenue-wide orchestration? Read Read",
+   "href": "./blog/valley-vs-outreach",
+   "abs": "https://www.joinvalley.co/blog/valley-vs-outreach",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Valley vs. Salesloft: prospect-to-reply work and the revenue system around it Re",
+   "href": "./blog/valley-vs-salesloft",
+   "abs": "https://www.joinvalley.co/blog/valley-vs-salesloft",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "The State of Outbound Tools in 2026 Read Read",
+   "href": "./blog/state-of-outbound-tools-2026",
+   "abs": "https://www.joinvalley.co/blog/state-of-outbound-tools-2026",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Best Outbound Sales Tools of 2026, by Job and Team Read Read",
+   "href": "./blog/best-outbound-sales-tools-2026",
+   "abs": "https://www.joinvalley.co/blog/best-outbound-sales-tools-2026",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "What an Outbound Stack Costs in 2026 Read Read",
+   "href": "./blog/outbound-stack-costs-2026",
+   "abs": "https://www.joinvalley.co/blog/outbound-stack-costs-2026",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "AI SDRs, Copilots, and Automation: The 2026 Buyer’s Guide Read Read",
+   "href": "./blog/ai-sdrs-copilots-automation-buyers-guide-2026",
+   "abs": "https://www.joinvalley.co/blog/ai-sdrs-copilots-automation-buyers-guide-2026",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Load More How Gallea AI booked 14 meetings in 15 days and generated $600k in pip",
+   "href": "./casestudies/how-gallea-ai-generated-600k-in-pipeline-with-valley-in-just-3-weeks",
+   "abs": "https://www.joinvalley.co/casestudies/how-gallea-ai-generated-600k-in-pipeline-with-valley-in-just-3-weeks",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Load More How SaanSerif Doubled MRR in 30 Days with Valley Saanya Ali Founder $4",
+   "href": "./casestudies/how-sans-serif-generated-480k-in-pipeline-with-valley-in-30-days",
+   "abs": "https://www.joinvalley.co/casestudies/how-sans-serif-generated-480k-in-pipeline-with-valley-in-30-days",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Start for free →",
+   "href": "https://beta.joinvalley.co/signup",
+   "abs": "https://beta.joinvalley.co/signup",
+   "kind": "external",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Book a demo",
+   "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+   "abs": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+   "kind": "external",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Valley",
+   "href": "/",
+   "abs": "https://www.joinvalley.co/",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "hey@joinvalley.co",
+   "href": "mailto:hey@joinvalley.co",
+   "abs": "mailto:hey@joinvalley.co",
+   "kind": "external",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Product",
+   "href": "/product",
+   "abs": "https://www.joinvalley.co/product",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Customers",
+   "href": "/casestudies",
+   "abs": "https://www.joinvalley.co/casestudies",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Agencies",
+   "href": "/linkedin-outreach-for-agencies",
+   "abs": "https://www.joinvalley.co/linkedin-outreach-for-agencies",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Pricing",
+   "href": "/pricing",
+   "abs": "https://www.joinvalley.co/pricing",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Resources",
+   "href": "/blog",
+   "abs": "https://www.joinvalley.co/blog",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "All articles",
+   "href": "/blog/archive",
+   "abs": "https://www.joinvalley.co/blog/archive",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "About Valley",
+   "href": "/about",
+   "abs": "https://www.joinvalley.co/about",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Log in",
+   "href": "https://beta.joinvalley.co/login",
+   "abs": "https://beta.joinvalley.co/login",
+   "kind": "external",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Privacy policy",
+   "href": "/privacy-policy",
+   "abs": "https://www.joinvalley.co/privacy-policy",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  },
+  {
+   "text": "Terms of service",
+   "href": "/terms-of-service",
+   "abs": "https://www.joinvalley.co/terms-of-service",
+   "kind": "internal",
+   "inBody": false,
+   "target": ""
+  }
+ ],
+ "imgs": [
+  {
+   "src": "https://framerusercontent.com/images/RkYMuyEtdgStGU8zRVpb3dYfnE.jpeg?scale-down-to=512&width=1334&height=978",
+   "nat": "24x17",
+   "box": "24x24",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "Zayd Ali"
+  },
+  {
+   "src": "https://framerusercontent.com/images/XA88EO8N36qShdbqaMtTCXsoba8.png?scale-down-to=512&width=1200&height=600",
+   "nat": "400x200",
+   "box": "400x200",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "The 20-Minute Prospecting Revolution. Workflow: Find a signal → Research the person → Write with context."
+  },
+  {
+   "src": "https://framerusercontent.com/images/lcuoWRv8F9hn4hUivqSAw0Ph6TE.png?scale-down-to=1024&width=1200&height=600",
+   "nat": "664x332",
+   "box": "365x183",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "The State of Outbound Tools in 2026. Workflow: Research & qualify → Write & review → Send & learn."
+  },
+  {
+   "src": "https://framerusercontent.com/images/2TCuF3fC4aYxJ5G3TaYa9Erw.png?scale-down-to=1024&width=1200&height=600",
+   "nat": "664x332",
+   "box": "365x183",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "Best Outbound Sales Tools of 2026, by Job and Team. Workflow: Research & qualify → Write & review → Send & learn."
+  },
+  {
+   "src": "https://framerusercontent.com/images/DuMaOdmm2CiEWeaJCdsdrwpQglE.png?scale-down-to=1024&width=1200&height=600",
+   "nat": "664x332",
+   "box": "365x183",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "What an Outbound Stack Costs in 2026. Workflow: Seats & tools → Time & research → Pipeline & return."
+  },
+  {
+   "src": "https://framerusercontent.com/images/fcpto0bYMln2C0dJWLVZfCUVYI.png?scale-down-to=1024&width=1200&height=600",
+   "nat": "664x332",
+   "box": "365x183",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "AI SDRs, Copilots, and Automation: The 2026 Buyer’s Guide. Workflow: Research & qualify → Write & review → Send & learn."
+  },
+  {
+   "src": "https://framerusercontent.com/images/1He5jH1JKnVN9fluKbHaCIS5rY.png?scale-down-to=512&width=1200&height=600",
+   "nat": "365x182",
+   "box": "365x183",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "How to Evaluate Outbound Personalization in 2026. Workflow: Know the person → Find the context → Write in your voice."
+  },
+  {
+   "src": "https://framerusercontent.com/images/prFk260sAyAqD3KhhsqiZRiLu8.png?scale-down-to=1024&width=1200&height=600",
+   "nat": "664x332",
+   "box": "664x306",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "Valley vs. Amplemarket. Workflow comparison: find and qualify, research and write, send and follow up."
+  },
+  {
+   "src": "https://framerusercontent.com/images/BJ93wGKnnyWRwXrwmPodFtS0XM.png?scale-down-to=1024&width=1200&height=600",
+   "nat": "664x332",
+   "box": "664x306",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "Valley vs. Instantly. Workflow comparison: find and qualify, research and write, send and follow up."
+  },
+  {
+   "src": "https://framerusercontent.com/images/DVdoeyL00fAIOwkwUcjnHLRiw.png?scale-down-to=1024&width=1200&height=600",
+   "nat": "664x332",
+   "box": "664x306",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "Valley vs. PhantomBuster. Workflow comparison: find and qualify, research and write, send and follow up."
+  },
+  {
+   "src": "https://framerusercontent.com/images/QTtBM2Cqwj7GTikw015YBRrZSrc.png?scale-down-to=1024&width=1200&height=600",
+   "nat": "664x332",
+   "box": "664x306",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "Valley vs. Smartlead. Workflow comparison: find and qualify, research and write, send and follow up."
+  },
+  {
+   "src": "https://framerusercontent.com/images/Fzv4c27rzzVvHVM4Ksv3HfDESY.png?scale-down-to=1024&width=1200&height=600",
+   "nat": "664x332",
+   "box": "664x306",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "Valley vs. Linked Helper. Workflow comparison: find and qualify, research and write, send and follow up."
+  },
+  {
+   "src": "https://framerusercontent.com/images/rXBPZAF5qkfcrtyjQK5K7iyahM.png?scale-down-to=1024&width=1200&height=600",
+   "nat": "664x332",
+   "box": "664x306",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "Valley vs. AiSDR. Workflow comparison: find and qualify, research and write, send and follow up."
+  },
+  {
+   "src": "https://framerusercontent.com/images/Ef7VVRxSoapNzCSGjhE5vB8XHqw.png?scale-down-to=1024&width=1200&height=600",
+   "nat": "664x332",
+   "box": "664x306",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "Valley vs. Regie.ai. Workflow comparison: find and qualify, research and write, send and follow up."
+  },
+  {
+   "src": "https://framerusercontent.com/images/uRMhT3PIfeuz3LzsqSzj6QLJ3ek.png?scale-down-to=1024&width=1200&height=600",
+   "nat": "664x332",
+   "box": "664x306",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "Valley vs. Reply.io. Workflow comparison: find and qualify, research and write, send and follow up."
+  },
+  {
+   "src": "https://framerusercontent.com/images/MAT7jJ4QYYMQGijmL1PxBWCA.png?scale-down-to=1024&width=1200&height=600",
+   "nat": "664x332",
+   "box": "664x306",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "Valley vs. Outreach. Workflow comparison: find and qualify, research and write, send and follow up."
+  },
+  {
+   "src": "https://framerusercontent.com/images/UwVi3ZziE0E9UwlK8HjkiRt3Gko.png?scale-down-to=1024&width=1200&height=600",
+   "nat": "664x332",
+   "box": "664x306",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "Valley vs. Salesloft. Workflow comparison: find and qualify, research and write, send and follow up."
+  },
+  {
+   "src": "https://framerusercontent.com/images/lcuoWRv8F9hn4hUivqSAw0Ph6TE.png?scale-down-to=1024&width=1200&height=600",
+   "nat": "664x332",
+   "box": "664x306",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "The State of Outbound Tools in 2026. Workflow: Research & qualify → Write & review → Send & learn."
+  },
+  {
+   "src": "https://framerusercontent.com/images/2TCuF3fC4aYxJ5G3TaYa9Erw.png?scale-down-to=1024&width=1200&height=600",
+   "nat": "664x332",
+   "box": "664x306",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "Best Outbound Sales Tools of 2026, by Job and Team. Workflow: Research & qualify → Write & review → Send & learn."
+  },
+  {
+   "src": "https://framerusercontent.com/images/DuMaOdmm2CiEWeaJCdsdrwpQglE.png?scale-down-to=1024&width=1200&height=600",
+   "nat": "664x332",
+   "box": "664x306",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "What an Outbound Stack Costs in 2026. Workflow: Seats & tools → Time & research → Pipeline & return."
+  },
+  {
+   "src": "https://framerusercontent.com/images/fcpto0bYMln2C0dJWLVZfCUVYI.png?scale-down-to=1024&width=1200&height=600",
+   "nat": "664x332",
+   "box": "664x306",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "AI SDRs, Copilots, and Automation: The 2026 Buyer’s Guide. Workflow: Research & qualify → Write & review → Send & learn."
+  },
+  {
+   "src": "https://framerusercontent.com/images/Bx6e2ANj69WlGVSGixBWFjy4WY.png?width=754&height=230",
+   "nat": "616x187",
+   "box": "616x38",
+   "fit": "contain",
+   "inBody": false,
+   "alt": "Gallea AI"
+  },
+  {
+   "src": "https://framerusercontent.com/images/TWJeTtPm4M26e9aAq110o037a0I.jpg?scale-down-to=1024&width=3646&height=4140",
+   "nat": "40x45",
+   "box": "40x40",
+   "fit": "cover",
+   "inBody": false,
+   "alt": "Brandon Kay"
+  },
+  {
+   "src": "https://framerusercontent.com/images/3088PQIam4ZWVzf21buoBQiWfo.png?width=458&height=109",
+   "nat": "458x109",
+   "box": "616x38",
+   "fit": "contain",
+   "inBody": false,
+   "alt": ""
+  },
+  {
+   "src": "https://framerusercontent.com/images/mLxZ9YwNnCe2XxrnFFzvm6qcMw.jpeg?scale-down-to=512&width=800&height=800",
+   "nat": "40x40",
+   "box": "40x40",
+   "fit": "cover",
+   "inBody": false,
+   "alt": ""
+  }
+ ],
+ "fonts": [
+  "PP Neue Montreal Medium 500 normal",
+  "PP Neue Montreal Variable 400 normal",
+  "PP Neue Montreal Medium normal normal",
+  "Geist Mono Regular normal normal",
+  "Geist Mono Regular 400 normal",
+  "Inter 600 normal",
+  "Inter 400 normal",
+  "Valley Body Montreal 100 900 normal",
+  "ValleyFooter 100 900 normal"
+ ],
+ "res": [
+  "https://framerusercontent.com/images/RkYMuyEtdgStGU8zRVpb3dYfnE.jpeg?scale-down-to=512&width=1334&height=978",
+  "https://framerusercontent.com/images/XA88EO8N36qShdbqaMtTCXsoba8.png?scale-down-to=512&width=1200&height=600",
+  "https://framerusercontent.com/images/lcuoWRv8F9hn4hUivqSAw0Ph6TE.png?scale-down-to=1024&width=1200&height=600",
+  "https://framerusercontent.com/images/DuMaOdmm2CiEWeaJCdsdrwpQglE.png?scale-down-to=1024&width=1200&height=600",
+  "https://framerusercontent.com/images/2TCuF3fC4aYxJ5G3TaYa9Erw.png?scale-down-to=1024&width=1200&height=600",
+  "https://framerusercontent.com/images/fcpto0bYMln2C0dJWLVZfCUVYI.png?scale-down-to=1024&width=1200&height=600",
+  "https://framerusercontent.com/images/1He5jH1JKnVN9fluKbHaCIS5rY.png?scale-down-to=512&width=1200&height=600",
+  "https://framerusercontent.com/images/prFk260sAyAqD3KhhsqiZRiLu8.png?scale-down-to=1024&width=1200&height=600",
+  "https://framerusercontent.com/images/BJ93wGKnnyWRwXrwmPodFtS0XM.png?scale-down-to=1024&width=1200&height=600",
+  "https://framerusercontent.com/images/QTtBM2Cqwj7GTikw015YBRrZSrc.png?scale-down-to=1024&width=1200&height=600",
+  "https://framerusercontent.com/images/DVdoeyL00fAIOwkwUcjnHLRiw.png?scale-down-to=1024&width=1200&height=600",
+  "https://framerusercontent.com/images/Fzv4c27rzzVvHVM4Ksv3HfDESY.png?scale-down-to=1024&width=1200&height=600",
+  "https://framerusercontent.com/images/Ef7VVRxSoapNzCSGjhE5vB8XHqw.png?scale-down-to=1024&width=1200&height=600",
+  "https://framerusercontent.com/images/uRMhT3PIfeuz3LzsqSzj6QLJ3ek.png?scale-down-to=1024&width=1200&height=600",
+  "https://framerusercontent.com/images/MAT7jJ4QYYMQGijmL1PxBWCA.png?scale-down-to=1024&width=1200&height=600",
+  "https://framerusercontent.com/images/UwVi3ZziE0E9UwlK8HjkiRt3Gko.png?scale-down-to=1024&width=1200&height=600",
+  "https://framerusercontent.com/images/rXBPZAF5qkfcrtyjQK5K7iyahM.png?scale-down-to=1024&width=1200&height=600",
+  "https://framerusercontent.com/images/QU7xwdUlftmg0VxVB8lCK1G1e0.png?width=1200&height=600",
+  "https://framerusercontent.com/images/DTdLZGaLBmVL2L41nsT3HoszyaI.png?width=1200&height=600",
+  "https://framerusercontent.com/images/HN3shS2WM9oeyR3IQE5HEGAZhI.png?width=1200&height=600",
+  "https://framerusercontent.com/images/Bx6e2ANj69WlGVSGixBWFjy4WY.png?width=754&height=230",
+  "https://framerusercontent.com/images/bGHZvD0ht1sItkPfpjBmrSAm8I.png?width=1200&height=600",
+  "https://framerusercontent.com/images/kepzgOsUxMr8NWsxhXmM1MQpt8.png?width=1200&height=600",
+  "https://framerusercontent.com/images/TWJeTtPm4M26e9aAq110o037a0I.jpg?scale-down-to=1024&width=3646&height=4140",
+  "https://framerusercontent.com/images/3088PQIam4ZWVzf21buoBQiWfo.png?width=458&height=109",
+  "https://framerusercontent.com/images/mLxZ9YwNnCe2XxrnFFzvm6qcMw.jpeg?scale-down-to=512&width=800&height=800",
+  "https://framerusercontent.com/assets/6uIfYl8bnz9kOy3KOuV7PxhFPhA.woff2",
+  "https://framerusercontent.com/assets/vQyevYAyHtARFwPqUzQGpnDs.woff2",
+  "https://framerusercontent.com/assets/Lmb0Q1R6W4GsaGVtHGnTyQsZCY.woff2",
+  "https://framerusercontent.com/assets/4U27qiCuAgm6sc2vgHfWPBCGc.woff2",
+  "https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2",
+  "https://forms.hsforms.com/embed/v3/counters.gif?key=collected-forms-embed-js-form-bind&count=1",
+  "https://track.hubspot.com/__ptq.gif?k=1&sd=1440x900&cd=24-bit&cs=UTF-8&ln=en-us&bfp=0ca4085275dabd03d53a38bdb86097b0&v=1.1&a=39698384&rcu=https%3A%2F%2Fwww.joinvalley.co%2Fblog&pu=https%3A%2F%2Fwww.joinvalley.co%2Fblog&t=Outbound+Sales+Guides%2C+Benchmarks+and+Teardowns+-+Valley&cts=1790674448581&vi=93b34195e33f0bb917bff892f478a7b5&nc=true&u=211159690.93b34195e33f0bb917bff892f478a7b5.1790674448579.1790674448579.1790674448579.1&b=211159690.1.1790674448580&cc=15"
+ ],
+ "iframes": [
+  {
+   "tag": "IFRAME"
+  },
+  {
+   "tag": "IFRAME",
+   "src": "https://framer.com/edit?framerSiteId=3b6af324635ed2be6bcf6f5c0fb1f7c5136ab338dfe8559ca0710529283ca697&source=www.joinvalley.co&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1790674446010"
+  },
+  {
+   "tag": "IFRAME",
+   "src": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b"
+  }
+ ]
+}

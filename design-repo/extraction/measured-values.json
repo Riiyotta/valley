@@ -1,0 +1,72 @@
+{
+  "description": "Citation ledger: which real file/line-range backs every token, section, and template decision in this design-repo. Every measuredFrom string embedded across tokens/, primitives/, components/, sections/, templates/, compatibility/ is validated by extraction/verify_all.py's citation-range-validity check, which resolves the path against the sibling source tree used to BUILD this repo. That sibling tree (relative paths: spec/, src/, CLONE_SPEC.md, tailwind.config.cjs, all under the original cloned project's own root) is NOT part of this design-repo package — it is the original cloned project this design-repo was extracted FROM. When this design-repo is copied/zipped standalone without that sibling tree present, the citation check degrades gracefully: it WARNS that it cannot verify citations rather than failing the run.",
+  "sourceProjectNote": "This design-repo was built from a sibling project directory containing spec/, src/, public/assets/, CLONE_SPEC.md and tailwind.config.cjs. Those paths are cited by RELATIVE name only inside measuredFrom strings (e.g. 'CLONE_SPEC.md:177', 'spec/GRID.md:45') — never as an absolute machine path — so the citation check can attempt path resolution relative to a configurable sibling root without ever embedding a literal absolute filesystem path anywhere in this repo.",
+  "keyFacts": {
+    "realCompany": {
+      "fact": "Valley (joinvalley.co) is a real, live company. Case studies name 21 real third-party companies (Gallea AI, Smallest.ai, Klaar, etc.) and real named people.",
+      "citation": "spec/pages/casestudies/cases.json (count: 21, real company/person fields)",
+      "implication": "Every assetRole touching a customer/competitor logo or a real person's photo carries must-reuse-exact or must-not-fabricate generationPolicy — never may-generate-new. See tokens/llm/asset-role-registry.json."
+    },
+    "placeholderBodyContent": {
+      "fact": "Blog post bodies (492 posts), case study bodies (21 cases), and legal page bodies (terms/privacy) are deliberately generated placeholder text, not scraped real content.",
+      "citation": "src/components/longform/placeholderArticle.js:1-9; src/components/legal/legalPlaceholder.js:1-7",
+      "implication": "sections/content.article-body.json and sections/content.legal-prose.json both declare an explicit contentPolicy block distinguishing measured-real metadata fields from generated-placeholder body fields."
+    },
+    "realThirdPartyEndpoints": {
+      "fact": "18 files (25 occurrences) reference two real live third-party endpoints: the Surface booking form and the beta signup/HubSpot booking URLs.",
+      "citation": "src/components/longform/formSubmit.js:1-11; grep -rl 'forms.withsurface.com|beta.joinvalley.co' src/",
+      "values": {
+        "bookACallUrl": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+        "signupUrl": "https://beta.joinvalley.co/signup",
+        "hubspotBookingUrl": "https://meetings.hubspot.com/zayd-from-valley/tryvalley"
+      },
+      "implication": "Every content field carrying one of these values is PINNED via JSON Schema `const` in the owning section contract (not just closed-enum membership), independently re-verified by schema/semantic_validate.py's dedicated pinned-value check — see compatibility/graph.json rule PINNED_LIVE_ENDPOINT_VALUES."
+    },
+    "deadRouteShim": {
+      "fact": "/blog_featured/* is a deliberate React Router redirect shim to /blog, reproducing a real 308 the live site performs. Not a missing template.",
+      "citation": "src/App.jsx:47"
+    },
+    "blogArchiveOutsideLayout": {
+      "fact": "/blog/archive is a bare top-level route rendered OUTSIDE the shared <Layout> (no nav/footer chrome), unlike every other route.",
+      "citation": "src/App.jsx:29"
+    },
+    "routeCountMath": {
+      "fact": "530 total real routes map to 16 template shapes: 6 main pages + 3 landing-template routes (1 shape) + 3 other unique landing pages (3 shapes) + blog-index (1) + blog-archive (1) + 492 blog-post routes (1 shape) + casestudies-index (1) + 21 casestudy routes (1 shape) + 2 legal routes (1 shape) = 6+3+3+1+1+492+1+21+2 = 530.",
+      "citation": "src/App.jsx:1-58; spec/pages/blog/posts.json (count:492); spec/pages/casestudies/cases.json (count:21)"
+    },
+    "casestudyCountVerified21NotN22": {
+      "fact": "There are 21 case studies, not 22. Confirmed against sitemap.xml and Framer's search index; other /casestudies/<slug> links found inside blog posts 308-redirect to /blog/...",
+      "citation": "spec/pages/casestudies-index.md ('Count' section)"
+    },
+    "jobsPinningQuirk": {
+      "fact": "At viewport 810-816 the jobs (.vstack) section is stacked and NOT pinned (height 1803.5); at 801-809 it has 4 columns and IS pinned (height 2846) — a real quirk of gutter math crossing the tablet/phone boundary, reproduced deliberately.",
+      "citation": "spec/GRID.md:213 (quirk 7.1)"
+    },
+    "landingTemplateStickyBarPrecedesNav": {
+      "fact": "The 3 SEO landing-template routes render a fixed bottom sticky-bar whose DOM position precedes <nav> in source order, even though it renders visually at the bottom of the viewport.",
+      "citation": "spec/pages/landing.md:103-105"
+    },
+    "phoneOverflowClipQuirk": {
+      "fact": "At phone width the landing-template hero's eyebrow tag and video caption are wider than the viewport and get clipped by horizontal overflow — a defect in the ORIGINAL live site, reproduced deliberately, not fixed.",
+      "citation": "spec/pages/landing.md:160-166"
+    },
+    "agencyPathsPhoneCollapseQuirk": {
+      "fact": "On phone, the /linkedin-outreach-for-agencies path cards collapse to 56px tall and clip their content to only the label — a real, deliberate quirk of the original.",
+      "citation": "spec/pages/landing.md:384"
+    },
+    "automationBentoHrefQuirk": {
+      "fact": "The linkedin-automation case-study bento cards use href='./' verbatim (linking to the home page), not their own case study URL — a real quirk of the original, not a broken link to silently fix.",
+      "citation": "spec/pages/landing.md:522"
+    }
+  },
+  "tokenProvenanceSummary": {
+    "color": "tailwind.config.cjs:36-151 (primary), cross-checked against CLONE_SPEC.md:136-153",
+    "typography": "CLONE_SPEC.md:81-133,167-214; tailwind.config.cjs:21-32",
+    "radius": "tailwind.config.cjs:124-131; CLONE_SPEC.md:155",
+    "spacing": "spec/GRID.md:199-207",
+    "breakpoint": "tailwind.config.cjs:14-21; spec/GRID.md:15-51",
+    "elevation": "tailwind.config.cjs:132-139; CLONE_SPEC.md:157-165",
+    "motion": "src/index.css:52; spec/components.css (multiple @keyframes, line-cited per entry in tokens/00-foundation/motion.json)"
+  },
+  "gracefulDegradationNote": "extraction/verify_all.py's citation-range-validity check looks for a sibling source tree at a configurable --source-root (default: the design-repo's own parent directory). If that tree is absent (e.g. this design-repo was copied/unzipped standalone with no sibling project), the check prints a WARNING per unresolved citation and continues, rather than failing the run — this is the deliberate degrade-gracefully behavior BUILD-GUIDE.md section 2.7 requires, and it is proven by the self-containment test (see extraction/verify_all.py's own docstring and the build session's self-containment run)."
+}

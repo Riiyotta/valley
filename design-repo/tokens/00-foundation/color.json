@@ -1,0 +1,352 @@
+{
+  "$schema": "./_schema-note.txt",
+  "category": "color",
+  "description": "Foundation color primitives measured from the live joinvalley.co site and mirrored verbatim in tailwind.config.cjs. Every value is a real computed hex/rgba, never invented. Cite tailwind.config.cjs:<line> or CLONE_SPEC.md section 5 for provenance.",
+  "measuredFrom": "tailwind.config.cjs:39-149; CLONE_SPEC.md:136-153",
+  "tokens": {
+    "framer.white": {
+      "value": "#ffffff",
+      "measuredFrom": "tailwind.config.cjs:42"
+    },
+    "framer.white-80": {
+      "value": "#ffffff80",
+      "measuredFrom": "tailwind.config.cjs:43"
+    },
+    "framer.white-40": {
+      "value": "#ffffff40",
+      "measuredFrom": "tailwind.config.cjs:44"
+    },
+    "framer.white-0d": {
+      "value": "#ffffff0d",
+      "measuredFrom": "tailwind.config.cjs:45"
+    },
+    "framer.white-b3": {
+      "value": "#ffffffb3",
+      "measuredFrom": "tailwind.config.cjs:46"
+    },
+    "framer.black": {
+      "value": "#000000",
+      "measuredFrom": "tailwind.config.cjs:47"
+    },
+    "framer.black-80": {
+      "value": "#00000080",
+      "measuredFrom": "tailwind.config.cjs:48"
+    },
+    "framer.black-40": {
+      "value": "#00000040",
+      "measuredFrom": "tailwind.config.cjs:49"
+    },
+    "framer.black-0d": {
+      "value": "#0000000d",
+      "measuredFrom": "tailwind.config.cjs:50"
+    },
+    "framer.f8": {
+      "value": "#f8f8f8",
+      "measuredFrom": "tailwind.config.cjs:51"
+    },
+    "framer.d9": {
+      "value": "#d9d9d9",
+      "measuredFrom": "tailwind.config.cjs:52"
+    },
+    "framer.linkedin": {
+      "value": "#0077b5",
+      "measuredFrom": "tailwind.config.cjs:53"
+    },
+    "surface.default": {
+      "value": "#f8f9f7",
+      "measuredFrom": "tailwind.config.cjs:57"
+    },
+    "surface.vgs": {
+      "value": "#f7f9f7",
+      "measuredFrom": "tailwind.config.cjs:58"
+    },
+    "surface.card": {
+      "value": "#ffffff",
+      "measuredFrom": "tailwind.config.cjs:59"
+    },
+    "surface.offer": {
+      "value": "#e8eff0",
+      "measuredFrom": "tailwind.config.cjs:60"
+    },
+    "surface.team": {
+      "value": "#e8efef",
+      "measuredFrom": "tailwind.config.cjs:61"
+    },
+    "surface.hub": {
+      "value": "#eaf0ec",
+      "measuredFrom": "tailwind.config.cjs:62"
+    },
+    "surface.window": {
+      "value": "#fcfdf7",
+      "measuredFrom": "tailwind.config.cjs:63"
+    },
+    "surface.shell": {
+      "value": "#f8faf9",
+      "measuredFrom": "tailwind.config.cjs:64"
+    },
+    "dark.endorsement": {
+      "value": "#17272b",
+      "measuredFrom": "tailwind.config.cjs:68"
+    },
+    "dark.jobs": {
+      "value": "#142b32",
+      "measuredFrom": "tailwind.config.cjs:69"
+    },
+    "dark.footer": {
+      "value": "#1c3036",
+      "measuredFrom": "tailwind.config.cjs:70"
+    },
+    "dark.button": {
+      "value": "#19282e",
+      "measuredFrom": "tailwind.config.cjs:71"
+    },
+    "dark.vgs": {
+      "value": "#19292e",
+      "measuredFrom": "tailwind.config.cjs:72"
+    },
+    "dark.vcc": {
+      "value": "#1c292e",
+      "measuredFrom": "tailwind.config.cjs:73"
+    },
+    "dark.vsq": {
+      "value": "#1c292d",
+      "measuredFrom": "tailwind.config.cjs:74"
+    },
+    "dark.stories": {
+      "value": "#111111",
+      "measuredFrom": "tailwind.config.cjs:75"
+    },
+    "dark.brief": {
+      "value": "#193d3d",
+      "measuredFrom": "tailwind.config.cjs:76"
+    },
+    "dark.tabbar": {
+      "value": "rgba(21,45,48,0.95)",
+      "measuredFrom": "tailwind.config.cjs:77"
+    },
+    "dark.vgs-tag": {
+      "value": "#1d3138",
+      "measuredFrom": "tailwind.config.cjs:78"
+    },
+    "ink.default": {
+      "value": "#19282e",
+      "measuredFrom": "tailwind.config.cjs:82"
+    },
+    "ink.vgs": {
+      "value": "#1c292e",
+      "measuredFrom": "tailwind.config.cjs:83"
+    },
+    "ink.vsq": {
+      "value": "#1c292d",
+      "measuredFrom": "tailwind.config.cjs:84"
+    },
+    "ink.showcase": {
+      "value": "#203342",
+      "measuredFrom": "tailwind.config.cjs:85"
+    },
+    "ink.calc": {
+      "value": "#1d343b",
+      "measuredFrom": "tailwind.config.cjs:86"
+    },
+    "ink.on-dark": {
+      "value": "#f6f8f4",
+      "measuredFrom": "tailwind.config.cjs:87"
+    },
+    "ink.on-dark-2": {
+      "value": "#f8f9f7",
+      "measuredFrom": "tailwind.config.cjs:88"
+    },
+    "grey.hero-sub": {
+      "value": "#40525c",
+      "measuredFrom": "tailwind.config.cjs:92"
+    },
+    "grey.hero-eyebrow": {
+      "value": "#4a5e68",
+      "measuredFrom": "tailwind.config.cjs:93"
+    },
+    "grey.body": {
+      "value": "#52636c",
+      "measuredFrom": "tailwind.config.cjs:94"
+    },
+    "grey.4f5e63": {
+      "value": "#4f5e63",
+      "measuredFrom": "tailwind.config.cjs:95"
+    },
+    "grey.536e75": {
+      "value": "#536e75",
+      "measuredFrom": "tailwind.config.cjs:96"
+    },
+    "grey.step-inactive": {
+      "value": "#64767e",
+      "measuredFrom": "tailwind.config.cjs:97"
+    },
+    "grey.61717c": {
+      "value": "#61717c",
+      "measuredFrom": "tailwind.config.cjs:98"
+    },
+    "grey.showcase-meta": {
+      "value": "#677783",
+      "measuredFrom": "tailwind.config.cjs:99"
+    },
+    "grey.tab-inactive": {
+      "value": "#5e7077",
+      "measuredFrom": "tailwind.config.cjs:100"
+    },
+    "grey.on-dark-b8": {
+      "value": "#b8cbce",
+      "measuredFrom": "tailwind.config.cjs:101"
+    },
+    "grey.on-dark-c2": {
+      "value": "#c2d0d2",
+      "measuredFrom": "tailwind.config.cjs:102"
+    },
+    "grey.on-dark-bb": {
+      "value": "#bbcdce",
+      "measuredFrom": "tailwind.config.cjs:103"
+    },
+    "grey.on-dark-b4": {
+      "value": "#b4c7c9",
+      "measuredFrom": "tailwind.config.cjs:104"
+    },
+    "accent.default": {
+      "value": "#376f9c",
+      "measuredFrom": "tailwind.config.cjs:108"
+    },
+    "accent.vgs-link": {
+      "value": "#32658b",
+      "measuredFrom": "tailwind.config.cjs:109"
+    },
+    "accent.team": {
+      "value": "#315e8d",
+      "measuredFrom": "tailwind.config.cjs:110"
+    },
+    "accent.pricing": {
+      "value": "#3275b5",
+      "measuredFrom": "tailwind.config.cjs:111"
+    },
+    "accent.pricing-eyebrow": {
+      "value": "#3375b4",
+      "measuredFrom": "tailwind.config.cjs:112"
+    },
+    "accent.vgs-eyebrow": {
+      "value": "#42687c",
+      "measuredFrom": "tailwind.config.cjs:113"
+    },
+    "accent.vgs-tab": {
+      "value": "#426f94",
+      "measuredFrom": "tailwind.config.cjs:114"
+    },
+    "accent.step": {
+      "value": "#356c93",
+      "measuredFrom": "tailwind.config.cjs:115"
+    },
+    "accent.hero": {
+      "value": "#416f91",
+      "measuredFrom": "tailwind.config.cjs:116"
+    },
+    "accent.login": {
+      "value": "#002669",
+      "measuredFrom": "tailwind.config.cjs:117"
+    },
+    "accent.blink": {
+      "value": "#0077b5",
+      "measuredFrom": "tailwind.config.cjs:118"
+    },
+    "accent.jobs-top": {
+      "value": "#83b6e8",
+      "measuredFrom": "tailwind.config.cjs:119"
+    },
+    "accent.jobs-filled": {
+      "value": "#a9d0ec",
+      "measuredFrom": "tailwind.config.cjs:120"
+    },
+    "accent.jobs-progress": {
+      "value": "#96c8ea",
+      "measuredFrom": "tailwind.config.cjs:121"
+    },
+    "leaf.check": {
+      "value": "#4a755c",
+      "measuredFrom": "tailwind.config.cjs:125"
+    },
+    "leaf.pricing-check": {
+      "value": "#507466",
+      "measuredFrom": "tailwind.config.cjs:126"
+    },
+    "leaf.closing-line2": {
+      "value": "#476b60",
+      "measuredFrom": "tailwind.config.cjs:127"
+    },
+    "leaf.plan-bg": {
+      "value": "#e4eddf",
+      "measuredFrom": "tailwind.config.cjs:128"
+    },
+    "leaf.plan-border": {
+      "value": "#c5d8c0",
+      "measuredFrom": "tailwind.config.cjs:129"
+    },
+    "line.default": {
+      "value": "#d6dfdd",
+      "measuredFrom": "tailwind.config.cjs:133"
+    },
+    "line.vgs": {
+      "value": "#d4dedb",
+      "measuredFrom": "tailwind.config.cjs:134"
+    },
+    "line.ccd8d3": {
+      "value": "#ccd8d3",
+      "measuredFrom": "tailwind.config.cjs:135"
+    },
+    "line.faq": {
+      "value": "#cfd8d8",
+      "measuredFrom": "tailwind.config.cjs:136"
+    },
+    "line.offer": {
+      "value": "#d2dfe1",
+      "measuredFrom": "tailwind.config.cjs:137"
+    },
+    "line.faq-panel": {
+      "value": "#d6dede",
+      "measuredFrom": "tailwind.config.cjs:138"
+    },
+    "line.arrow": {
+      "value": "#ced9d8",
+      "measuredFrom": "tailwind.config.cjs:139"
+    },
+    "line.team-tabs": {
+      "value": "#cad6d7",
+      "measuredFrom": "tailwind.config.cjs:140"
+    },
+    "line.team-panel": {
+      "value": "#ccd8d8",
+      "measuredFrom": "tailwind.config.cjs:141"
+    },
+    "line.tool": {
+      "value": "#cddad3",
+      "measuredFrom": "tailwind.config.cjs:142"
+    },
+    "line.jobs-tile": {
+      "value": "#476069",
+      "measuredFrom": "tailwind.config.cjs:143"
+    },
+    "line.calc": {
+      "value": "#cfddda",
+      "measuredFrom": "tailwind.config.cjs:144"
+    },
+    "line.footer": {
+      "value": "rgba(255,255,255,0.19)",
+      "measuredFrom": "tailwind.config.cjs:145"
+    },
+    "line.footer-ghost": {
+      "value": "#718589",
+      "measuredFrom": "tailwind.config.cjs:146"
+    },
+    "line.closing": {
+      "value": "rgba(172,191,184,0.4)",
+      "measuredFrom": "tailwind.config.cjs:147"
+    },
+    "line.proof": {
+      "value": "#d7dfdc",
+      "measuredFrom": "tailwind.config.cjs:148"
+    }
+  }
+}

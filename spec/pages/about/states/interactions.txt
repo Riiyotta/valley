@@ -1,0 +1,41 @@
+## HOVER team LinkedIn button[0]  transition(root)=all
+  2:div.framer-wxnu8m-container width: 22px -> 24px
+  2:div.framer-wxnu8m-container height: 22px -> 24px
+  4:svg color: rgb(57, 119, 154) -> rgba(0, 0, 0, 0.8)
+  4:svg borderTopColor: rgb(57, 119, 154) -> rgba(0, 0, 0, 0.8)
+  4:svg borderBottomColor: rgb(57, 119, 154) -> rgba(0, 0, 0, 0.8)
+  4:svg borderLeftColor: rgb(57, 119, 154) -> rgba(0, 0, 0, 0.8)
+  4:svg outlineColor: rgb(57, 119, 154) -> rgba(0, 0, 0, 0.8)
+  4:svg width: 22px -> 24px
+  4:svg height: 22px -> 24px
+  5:path color: rgb(57, 119, 154) -> rgba(0, 0, 0, 0.8)
+  5:path borderTopColor: rgb(57, 119, 154) -> rgba(0, 0, 0, 0.8)
+  5:path borderBottomColor: rgb(57, 119, 154) -> rgba(0, 0, 0, 0.8)
+  5:path borderLeftColor: rgb(57, 119, 154) -> rgba(0, 0, 0, 0.8)
+  5:path outlineColor: rgb(57, 119, 154) -> rgba(0, 0, 0, 0.8)
+  timeline 2:div.framer-wxnu8m-container width: 32ms=24px | 81ms=24px | 150ms=24px | 252ms=24px | 401ms=24px | 702ms=24px
+
+## HOVER team cell[0]  transition(root)=all
+  (no computed change)
+
+## HOVER Explore Roles[0]  transition(root)=all
+  (no computed change)
+
+## HOVER Contact Us[0]  transition(root)=all
+  (no computed change)
+
+## HOVER mission inline Valley link[0]  transition(root)=all
+  0:a.framer-text color: rgb(0, 38, 105) -> rgb(0, 0, 0)
+  0:a.framer-text borderTopColor: rgb(0, 38, 105) -> rgb(0, 0, 0)
+  0:a.framer-text borderBottomColor: rgb(0, 38, 105) -> rgb(0, 0, 0)
+  0:a.framer-text borderLeftColor: rgb(0, 38, 105) -> rgb(0, 0, 0)
+  0:a.framer-text textDecorationLine: none -> underline
+  0:a.framer-text outlineColor: rgb(0, 38, 105) -> rgb(0, 0, 0)
+  timeline 0:a.framer-text color: 31ms=rgb(0, 0, 0) | 86ms=rgb(0, 0, 0) | 155ms=rgb(0, 0, 0) | 252ms=rgb(0, 0, 0) | 402ms=rgb(0, 0, 0) | 700ms=rgb(0, 0, 0)
+
+## backers media count 1
+
+## HOVER backer logo[0]  transition(root)=all
+  (no computed change)
+
+## trailing/svgContainer transforms stable over 1.5s: true

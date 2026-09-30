@@ -1,0 +1,15 @@
+{
+  "id": "content.mission",
+  "layer": "section",
+  "purpose": "Company mission/story narrative block on /about.",
+  "measuredFrom": "spec/pages/about.md (mission, Frame 2085663181)",
+  "content": {
+    "type": "object",
+    "properties": { "heading": { "type": "string", "maxWords": 10 }, "body": { "type": "string", "maxWords": 120 } },
+    "required": ["heading", "body"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "aboutRouteOnly" },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {}
+}

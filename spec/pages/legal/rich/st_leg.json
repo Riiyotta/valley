@@ -1,0 +1,169 @@
+{
+ "link0": {
+  "sel": "div[data-framer-name^=\"Valley automates\"] a",
+  "action": "hover",
+  "diffs": [
+   {
+    "i": 0,
+    "tag": "a",
+    "nm": "",
+    "txt": "",
+    "trans": "all|0s|ease",
+    "changes": {
+     "color": [
+      "rgb(0, 38, 105)",
+      "rgb(0, 0, 0)"
+     ],
+     "textDecorationLine": [
+      "none",
+      "underline"
+     ],
+     "borderTopColor": [
+      "rgb(0, 38, 105)",
+      "rgb(0, 0, 0)"
+     ],
+     "outlineColor": [
+      "rgb(0, 38, 105)",
+      "rgb(0, 0, 0)"
+     ],
+     "afterBorder": [
+      "rgb(0, 38, 105) 1",
+      "rgb(0, 0, 0) 1"
+     ]
+    },
+    "timeline": {
+     "color": [
+      [
+       24,
+       "rgb(0, 38, 105)"
+      ],
+      [
+       48,
+       "rgb(0, 0, 0)"
+      ]
+     ],
+     "textDecorationLine": [
+      [
+       24,
+       "none"
+      ],
+      [
+       48,
+       "underline"
+      ]
+     ],
+     "borderTopColor": [
+      [
+       24,
+       "rgb(0, 38, 105)"
+      ],
+      [
+       48,
+       "rgb(0, 0, 0)"
+      ]
+     ],
+     "outlineColor": [
+      [
+       24,
+       "rgb(0, 38, 105)"
+      ],
+      [
+       48,
+       "rgb(0, 0, 0)"
+      ]
+     ],
+     "afterBorder": [
+      [
+       24,
+       "rgb(0, 38, 105) 1"
+      ],
+      [
+       48,
+       "rgb(0, 0, 0) 1"
+      ]
+     ]
+    }
+   },
+   {
+    "i": 1,
+    "tag": "strong",
+    "nm": "",
+    "txt": "Valley",
+    "trans": "all|0s|ease",
+    "changes": {
+     "color": [
+      "rgb(0, 38, 105)",
+      "rgb(0, 0, 0)"
+     ],
+     "borderTopColor": [
+      "rgb(0, 38, 105)",
+      "rgb(0, 0, 0)"
+     ],
+     "outlineColor": [
+      "rgb(0, 38, 105)",
+      "rgb(0, 0, 0)"
+     ],
+     "afterBorder": [
+      "rgb(0, 38, 105) 1",
+      "rgb(0, 0, 0) 1"
+     ]
+    },
+    "timeline": {
+     "color": [
+      [
+       24,
+       "rgb(0, 38, 105)"
+      ],
+      [
+       48,
+       "rgb(0, 0, 0)"
+      ]
+     ],
+     "borderTopColor": [
+      [
+       24,
+       "rgb(0, 38, 105)"
+      ],
+      [
+       48,
+       "rgb(0, 0, 0)"
+      ]
+     ],
+     "outlineColor": [
+      [
+       24,
+       "rgb(0, 38, 105)"
+      ],
+      [
+       48,
+       "rgb(0, 0, 0)"
+      ]
+     ],
+     "afterBorder": [
+      [
+       24,
+       "rgb(0, 38, 105) 1"
+      ],
+      [
+       48,
+       "rgb(0, 0, 0) 1"
+      ]
+     ]
+    }
+   }
+  ],
+  "frames": 57
+ },
+ "link1": {
+  "sel": "div[data-framer-name^=\"Valley automates\"] a",
+  "action": "hover",
+  "diffs": [],
+  "frames": 57
+ },
+ "link4": {
+  "sel": "div[data-framer-name^=\"Valley automates\"] a",
+  "action": "hover",
+  "diffs": [],
+  "frames": 57
+ }
+}

@@ -1,0 +1,600 @@
+URL https://www.joinvalley.co/blog viewport 1280
+H=9216
+
+=== SECTION 0 [] 0,0 1280x84 tag=DIV
+  B <div> 0,0 1280x84 tf=matrix(1, 0, 0, 1, 0, 0) pos=fixed top=0px
+  B <header Large Desktop> 0,0 1280x84 pad=20px 48px bg=#f8f9f7
+  B <div Links & Button> 48,20 1184x44 flex row gap=normal jc=space-between ai=center 
+  B <div> 48,28 99x29 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 99 29.078%22 overflow=%22visible%22><path d=%22M 6.402 0 L 14.539 8.137 L 11.738 11.071 L 
+  B <div Menu Links> 335,20 543x44 flex row gap=28px jc=center ai=center 
+  B <a Link - Black> 335,20 37x44 pad=12px 0px 
+  B <div> 335,32 37x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 335,34 37x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Home"
+  T <p> 335,54 37x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Home"
+  T <summary> 400,20 68x44 | PP Neue Montreal, Inter, Arial 14px/16.8px ls=normal w500 #19252e  | "Product"
+  SVG 458,37 10x10 fill=none stroke=#4f6373 color=#4f6373 trans=[transform|0.15s|ease|0s]
+  B <div .vpm-panel> 400,64 330x213 pad=10px bg=#ffffff border=1px 1px 1px 1px solid #d4dedb shadow=rgba(25, 41, 46, 0.082) 0px 12px 30px 0px
+  B <a> 411,75 308x105 pad=18px 16px 
+  T <span> 427,93 276x20 | PP Neue Montreal, Inter, Arial 17px/20.4px ls=normal w500 #1c292e  | "Explore Product"
+  T <b> 686,93 17x20 | PP Neue Montreal, Inter, Arial 17px/20.4px ls=normal w400 #1c292e  | "↗"
+  T <small> 427,120 276x42 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52636c  | "See how Valley works, from signal to reply."
+  B <a> 411,180 308x85 pad=18px 16px border=1px 0px 0px 0px solid #e3e9e5 b:#1c292e
+  T <span> 427,199 276x20 | PP Neue Montreal, Inter, Arial 17px/20.4px ls=normal w500 #1c292e  | "All Playbooks"
+  T <b> 686,199 17x20 | PP Neue Montreal, Inter, Arial 17px/20.4px ls=normal w400 #1c292e  | "↗"
+  T <small> 427,227 276x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52636c  | "Find your next play. See every step."
+  B <a Link - Black> 496,20 132x44 pad=12px 0px 
+  B <div> 496,32 132x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 496,34 132x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Valley vs. Competition"
+  T <p> 496,54 132x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Valley vs. Competition"
+  B <a Link - Black> 655,20 67x44 pad=12px 0px 
+  B <div> 655,32 67x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 655,34 67x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Customers"
+  T <p> 655,54 67x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Customers"
+  B <a Link - Black> 750,20 57x44 pad=12px 0px 
+  B <div> 750,32 57x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 750,34 57x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Agencies"
+  T <p> 750,54 57x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Agencies"
+  B <a Link - Black> 836,20 42x44 pad=12px 0px 
+  B <div> 836,32 42x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 836,34 42x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Pricing"
+  T <p> 836,54 42x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Pricing"
+  B <div cta__nav> 1066,22 166x40 flex row gap=16px jc=flex-end ai=center 
+  T <a> 1066,32 42x19 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/19.2px ls=normal w500 #002669  | "Log in"
+  B <a Launch for Free> 1124,22 108x40 pad=10px 16px bg=#19282e ovf=clip
+  T <p> 1140,34 76x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w500 #ffffff  | "Start for free"
+
+=== SECTION 1 [Blog Page Hero] 0,0 1280x606 tag=DIV
+  B <div Blog Page Hero> 0,0 1280x606 pad=132px 48px 48px bg=#f8f9f7 filter=brightness(1) ovf=hidden
+  B <div> 48,132 1184x426 flex row gap=48px jc=flex-start ai=flex-start 
+  B <div Title Content> 48,132 736x230 flex column gap=24px jc=flex-start ai=flex-start 
+  B <div> 48,132 736x158 flex column gap=20px jc=center ai=center 
+  T <h1> 48,132 736x119 | PP Neue Montreal Medium, PP Neue Montreal Medium 56px/59.36px ls=-1.5px w500 #1c292d ta=left  | "LinkedIn and Email Outbound Resources for B2B Sales Teams"
+  T <p> 48,271 736x19 | Inter, Inter 16px/19.2px ls=normal w400 #000000  | "Compare the tools. Understand the tradeoffs. Build an outbound workflow your team can run."
+  B <form> 48,314 520x48 flex row gap=12px jc=flex-start ai=flex-start 
+  B <div> 48,314 389x48 pad=16px ::after{absolute 388.75pxx48px inset=0px,0px border=1px 1px 1px 1px solid #d6dede radius=2px} bg=#ffffff radius=2px ovf=hidden
+  INPUT 64,330 357x16 ph="Your Work Email" font=PP Neue Montreal Medium 16px/19.2px w500 color=#1c292d 
+  B <button Default> 449,314 119x48 pad=12px 22px bg=#111111 ovf=hidden
+  T <p> 471,328 75x19 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/19.2px ls=normal w500 #ffffff  | "Book a call"
+  B <a> 832,132 400x426 ::after{absolute 400pxx425.594px inset=0px,0px border=1px 1px 1px 1px solid #d6dede radius=3px} bg=#ffffff radius=3px
+  B <div Featured Blog> 832,132 400x426 flex column gap=0px jc=flex-end ai=flex-start ::after{absolute 400pxx425.594px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} bg=#f8f8f8 ovf=hidden
+  B <div> 832,132 400x64 pad=12px flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 844,152 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #000000} backdrop=blur(2px)
+  T <p> 856,157 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #000000  | "FEATURED READ"
+  B <div Frame 2085663150> 1113,144 107x40 pad=8px 12px 8px 8px flex row gap=8px jc=center ai=center bg=#fbfbfb backdrop=blur(2px)
+  B <div Rectangle 10035> 1121,152 24x24 ::after{absolute 24pxx24px inset=0px,0px border=1px 1px 1px 1px solid #ffffff/0.05} filter=drop-shadow(rgba(0, 0, 0, 0.06) 0px 2px 2px) drop-shadow(rgba(0, 0, 0, 0.05) 1px 7px 3px) drop-shadow(rgba(0, 0, 0, 0.03) 3px 15px 4px) drop-shadow(rgba(0, 0, 0, 0.01) 5px 27px 5px) drop-shadow(rgba(0, 0, 0, 0) 8px 43px 6px)
+  IMG 1121,152 24x24 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/RkYMuyEtdgStGU8zRVpb3dYfnE.jpeg?scale-down-to=512&width=1334&height=978 alt="Zayd Ali"
+  T <p> 1153,156 55x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Zayd Ali"
+  IMG 832,196 400x200 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/XA88EO8N36qShdbqaMtTCXsoba8.png?scale-down-to=512&width=1200&height=600 alt="The 20-Minute Prospecting Revolution. Workflow: Find a signal → Research the person → Write with context."
+  B <div> 832,396 400x162 pad=20px flex column gap=16px jc=center ai=flex-start bg=#ffffff ovf=hidden
+  T <h5> 852,416 360x58 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/28.8px ls=-0.5px w500 #1c292d ta=left  | "The 20-Minute Prospecting Revolution"
+  B <div Variant 1> 852,490 109x48 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 865,477 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 864,506 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 864,506 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 933,506 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 921,506 16x16 fill=#000000 stroke=none color=#000000 
+
+=== SECTION 2 [Research library spacing] 0,606 1280x1264 tag=DIV
+  B <div Research library spacing> 0,606 1280x1264 pad=64px 48px 
+  B <div 2026 outbound research library> 48,670 1184x1136 pad=40px flex column gap=28px jc=flex-start ai=flex-start ::after{absolute 1184pxx1136.39px inset=0px,0px border=1px 1px 1px 1px solid #d3dfe1} bg=#e9eff0 ovf=clip
+  T <h2> 88,710 1104x41 | PP Neue Montreal Medium, PP Neue Montreal Medium 36px/41.4px ls=-0.9px w500 #1c292d  | "The 2026 outbound research library"
+  T <p> 88,779 1104x27 | PP Neue Montreal Variable, PP Neue Montreal Variable 18px/27px ls=normal w400 #4e606a  | "Five reports. Nineteen direct comparisons. A clearer view of the complete outbound workflow."
+  B <div Reports from the CMS> 88,834 1104x853 grid gap=24px cols=352px 352px 352px jc=center ai=normal 
+  B <a Read the report> 88,834 352x414 pad=20px flex column gap=18px jc=flex-start ai=flex-start bg=#ffffff ovf=clip
+  IMG 108,854 312x156 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/lcuoWRv8F9hn4hUivqSAw0Ph6TE.png?scale-down-to=1024&width=1200&height=600 alt="The State of Outbound Tools in 2026. Workflow: Research & qualify → Write & review → Send & learn."
+  T <h3> 108,1028 312x58 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/28.8px ls=normal w500 #1c292d  | "The State of Outbound Tools in 2026"
+  T <p> 108,1104 312x96 | PP Neue Montreal Variable, PP Neue Montreal Variable 16px/24px ls=normal w400 #4e606a  | "A sourced review of 19 outbound tools across seven workflow stages: a taxonomy, a coverage map, and the questions to ask about the handoffs between them."
+  B <a Read the report> 464,834 352x414 pad=20px flex column gap=18px jc=flex-start ai=flex-start bg=#ffffff ovf=clip
+  IMG 484,854 312x156 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/2TCuF3fC4aYxJ5G3TaYa9Erw.png?scale-down-to=1024&width=1200&height=600 alt="Best Outbound Sales Tools of 2026, by Job and Team. Workflow: Research & qualify → Write & review → Send & learn."
+  T <h3> 484,1028 312x58 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/28.8px ls=normal w500 #1c292d  | "Best Outbound Sales Tools of 2026, by Job and Team"
+  T <p> 484,1104 312x96 | PP Neue Montreal Variable, PP Neue Montreal Variable 16px/24px ls=normal w400 #4e606a  | "The best outbound sales tools of 2026 sorted by who you are: founders, agencies, GTM builders, email teams, revenue orgs. Explicit criteria and tradeoffs."
+  B <a Read the report> 840,834 352x414 pad=20px flex column gap=18px jc=flex-start ai=flex-start bg=#ffffff ovf=clip
+  IMG 860,854 312x156 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/DuMaOdmm2CiEWeaJCdsdrwpQglE.png?scale-down-to=1024&width=1200&height=600 alt="What an Outbound Stack Costs in 2026. Workflow: Seats & tools → Time & research → Pipeline & return."
+  T <h3> 860,1028 312x58 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/28.8px ls=normal w500 #1c292d  | "What an Outbound Stack Costs in 2026"
+  T <p> 860,1104 312x96 | PP Neue Montreal Variable, PP Neue Montreal Variable 16px/24px ls=normal w400 #4e606a  | "Three outbound budget scenarios priced on real workloads: seats, senders, research credits, email allowances, and contract terms, with verified prices."
+  B <a Read the report> 88,1272 352x414 pad=20px flex column gap=18px jc=flex-start ai=flex-start bg=#ffffff ovf=clip
+  IMG 108,1292 312x156 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/fcpto0bYMln2C0dJWLVZfCUVYI.png?scale-down-to=1024&width=1200&height=600 alt="AI SDRs, Copilots, and Automation: The 2026 Buyer’s Guide. Workflow: Research & qualify → Write & review → Send & learn."
+  T <h3> 108,1466 312x86 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/28.8px ls=normal w500 #1c292d  | "AI SDRs, Copilots, and Automation: The 2026 Buyer’s Guide"
+  T <p> 108,1571 312x96 | PP Neue Montreal Variable, PP Neue Montreal Variable 16px/24px ls=normal w400 #4e606a  | "AI SDRs, copilots, and automation explained by what you delegate: decision rights, approval boundaries, exceptions, and the work your team still owns."
+  B <a Read the report> 464,1272 352x414 pad=20px flex column gap=18px jc=flex-start ai=flex-start bg=#ffffff ovf=clip
+  IMG 484,1292 312x156 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/1He5jH1JKnVN9fluKbHaCIS5rY.png?scale-down-to=512&width=1200&height=600 alt="How to Evaluate Outbound Personalization in 2026. Workflow: Know the person → Find the context → Write in your voice."
+  T <h3> 484,1466 312x58 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/28.8px ls=normal w500 #1c292d  | "How to Evaluate Outbound Personalization in 2026"
+  T <p> 484,1542 312x96 | PP Neue Montreal Variable, PP Neue Montreal Variable 16px/24px ls=normal w400 #4e606a  | "A reproducible protocol for judging outbound personalization: a weighted rubric, an annotated example, and editing-cost measures. No invented benchmarks."
+  B <a Explore all comparisons> 88,1715 240x51 pad=16px 24px bg=#1c292d
+  T <p> 112,1731 192x19 | PP Neue Montreal Variable, PP Neue Montreal Variable 16px/19.2px ls=normal w400 #ffffff  | "Explore all 19 comparisons ↗"
+
+=== SECTION 3 [List] 0,1870 1280x5429 tag=DIV
+  B <div List> 0,1870 1280x5429 pad=48px 48px 64px bg=#f8f9f7
+  B <div> 48,1918 1184x5317 pad=0px 0px 80px grid gap=16px cols=584px 584px jc=center ai=normal 
+  B <div Featured Blog> 48,1918 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 48,1918 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  B <div> 48,1918 584x269 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22126%22 height=%22126%22><path id=%22a%22 d=%22M126 0v21.584L21.584 126H0v-17.585L108.415 0H126Zm0 108.414V126h-17.586L126 108.414Zm0-84v39.171L
+  B <div> 68,2143 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 68,2143 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 80,2148 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 579,2145 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 48,2187 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 64,2203 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "Skylead Alternatives (2026): 5 Options, Compared Honestly"
+  B <div Variant 1> 64,2284 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 77,2267 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 76,2296 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 76,2296 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 145,2296 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 133,2296 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 648,1918 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 648,1918 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  B <div> 648,1918 584x269 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22126%22 height=%22126%22><path id=%22a%22 d=%22M126 0v21.584L21.584 126H0v-17.585L108.415 0H126Zm0 108.414V126h-17.586L126 108.414Zm0-84v39.171L
+  B <div> 668,2143 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 668,2143 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 680,2148 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 1179,2145 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 648,2187 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 664,2203 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "Meet Alfred Alternatives (2026): 5 Options for After the Rating Split"
+  B <div Variant 1> 664,2284 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 677,2267 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 676,2296 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 676,2296 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 745,2296 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 733,2296 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 48,2356 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 48,2356 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  B <div> 48,2356 584x269 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22126%22 height=%22126%22><path id=%22a%22 d=%22M126 0v21.584L21.584 126H0v-17.585L108.415 0H126Zm0 108.414V126h-17.586L126 108.414Zm0-84v39.171L
+  B <div> 68,2581 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 68,2581 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 80,2585 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 579,2583 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 48,2625 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 64,2641 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "Dux-Soup Alternatives (2026): What to Use Instead of an Extension"
+  B <div Variant 1> 64,2721 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 77,2704 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 76,2733 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 76,2733 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 145,2733 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 133,2733 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 648,2356 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 648,2356 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  B <div> 648,2356 584x269 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22126%22 height=%22126%22><path id=%22a%22 d=%22M126 0v21.584L21.584 126H0v-17.585L108.415 0H126Zm0 108.414V126h-17.586L126 108.414Zm0-84v39.171L
+  B <div> 668,2581 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 668,2581 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 680,2585 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 1179,2583 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 648,2625 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 664,2641 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "We-Connect Alternatives (2026): 5 Options, Compared Honestly"
+  B <div Variant 1> 664,2721 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 677,2704 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 676,2733 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 676,2733 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 745,2733 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 733,2733 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 48,2793 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 48,2793 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  B <div> 48,2793 584x269 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22126%22 height=%22126%22><path id=%22a%22 d=%22M126 0v21.584L21.584 126H0v-17.585L108.415 0H126Zm0 108.414V126h-17.586L126 108.414Zm0-84v39.171L
+  B <div> 68,3018 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 68,3018 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 80,3023 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 579,3021 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 48,3062 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 64,3078 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "La Growth Machine Alternatives (2026): 5 Options, Compared"
+  B <div Variant 1> 64,3159 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 77,3142 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 76,3171 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 76,3171 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 145,3171 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 133,3171 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 648,2793 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 648,2793 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  B <div> 648,2793 584x269 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22126%22 height=%22126%22><path id=%22a%22 d=%22M126 0v21.584L21.584 126H0v-17.585L108.415 0H126Zm0 108.414V126h-17.586L126 108.414Zm0-84v39.171L
+  B <div> 668,3018 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 668,3018 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 680,3023 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 1179,3021 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 648,3062 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 664,3078 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "Warmly Alternatives (2026): 5 Options Now That HubSpot Owns It"
+  B <div Variant 1> 664,3159 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 677,3142 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 676,3171 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 676,3171 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 745,3171 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 733,3171 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 48,3231 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 48,3231 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  B <div> 48,3231 584x269 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22126%22 height=%22126%22><path id=%22a%22 d=%22M126 0v21.584L21.584 126H0v-17.585L108.415 0H126Zm0 108.414V126h-17.586L126 108.414Zm0-84v39.171L
+  B <div> 68,3456 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 68,3456 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 80,3461 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 579,3458 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 48,3500 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 64,3516 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "RB2B Alternatives (2026): 5 Options for More Than US Visitor Alerts"
+  B <div Variant 1> 64,3597 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 77,3580 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 76,3609 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 76,3609 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 145,3609 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 133,3609 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 648,3231 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 648,3231 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  B <div> 648,3231 584x269 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22126%22 height=%22126%22><path id=%22a%22 d=%22M126 0v21.584L21.584 126H0v-17.585L108.415 0H126Zm0 108.414V126h-17.586L126 108.414Zm0-84v39.171L
+  B <div> 668,3456 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 668,3456 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 680,3461 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 1179,3458 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 648,3500 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 664,3516 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "Regie.ai Alternatives (2026): The $49 Headline vs the $50K Reality"
+  B <div Variant 1> 664,3597 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 677,3580 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 676,3609 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 676,3609 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 745,3609 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 733,3609 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 48,3669 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 48,3669 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  B <div> 48,3669 584x269 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22126%22 height=%22126%22><path id=%22a%22 d=%22M126 0v21.584L21.584 126H0v-17.585L108.415 0H126Zm0 108.414V126h-17.586L126 108.414Zm0-84v39.171L
+  B <div> 68,3894 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 68,3894 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 80,3899 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 579,3896 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 48,3938 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 64,3954 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "Seamless.AI Alternatives (2026): 5 Options With the Receipts"
+  B <div Variant 1> 64,4035 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 77,4018 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 76,4047 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 76,4047 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 145,4047 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 133,4047 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 648,3669 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 648,3669 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  B <div> 648,3669 584x269 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22126%22 height=%22126%22><path id=%22a%22 d=%22M126 0v21.584L21.584 126H0v-17.585L108.415 0H126Zm0 108.414V126h-17.586L126 108.414Zm0-84v39.171L
+  B <div> 668,3894 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 668,3894 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 680,3899 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 1179,3896 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 648,3938 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 664,3954 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "Amplemarket Alternatives (2026): 5 Options Before the Annual Commit"
+  B <div Variant 1> 664,4035 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 677,4018 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 676,4047 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 676,4047 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 745,4047 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 733,4047 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 48,4107 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 48,4107 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  IMG 48,4107 584x269 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/prFk260sAyAqD3KhhsqiZRiLu8.png?scale-down-to=1024&width=1200&height=600 alt="Valley vs. Amplemarket. Workflow comparison: find and qualify, research and write, send and follow up."
+  B <div> 68,4332 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 68,4332 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 80,4336 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 579,4334 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 48,4376 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 64,4392 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "Valley vs. Amplemarket: one-seat outbound and a broader sales platform"
+  B <div Variant 1> 64,4472 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 77,4455 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 76,4484 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 76,4484 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 145,4484 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 133,4484 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 648,4107 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 648,4107 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  IMG 648,4107 584x269 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/BJ93wGKnnyWRwXrwmPodFtS0XM.png?scale-down-to=1024&width=1200&height=600 alt="Valley vs. Instantly. Workflow comparison: find and qualify, research and write, send and follow up."
+  B <div> 668,4332 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 668,4332 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 680,4336 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 1179,4334 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 648,4376 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 664,4392 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "Valley vs. Instantly: integrated prospecting or an email-centered stack?"
+  B <div Variant 1> 664,4472 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 677,4455 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 676,4484 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 676,4484 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 745,4484 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 733,4484 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 48,4544 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 48,4544 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  IMG 48,4544 584x269 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/DVdoeyL00fAIOwkwUcjnHLRiw.png?scale-down-to=1024&width=1200&height=600 alt="Valley vs. PhantomBuster. Workflow comparison: find and qualify, research and write, send and follow up."
+  B <div> 68,4769 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 68,4769 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 80,4774 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 579,4772 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 48,4813 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 64,4829 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "Valley vs. PhantomBuster: an outbound workspace or reusable automations?"
+  B <div Variant 1> 64,4910 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 77,4893 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 76,4922 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 76,4922 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 145,4922 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 133,4922 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 648,4544 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 648,4544 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  IMG 648,4544 584x269 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/QTtBM2Cqwj7GTikw015YBRrZSrc.png?scale-down-to=1024&width=1200&height=600 alt="Valley vs. Smartlead. Workflow comparison: find and qualify, research and write, send and follow up."
+  B <div> 668,4769 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 668,4769 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 680,4774 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 1179,4772 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 648,4813 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 664,4829 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "Valley vs. Smartlead: buyer preparation or email infrastructure depth?"
+  B <div Variant 1> 664,4910 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 677,4893 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 676,4922 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 676,4922 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 745,4922 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 733,4922 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 48,4982 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 48,4982 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  IMG 48,4982 584x269 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Fzv4c27rzzVvHVM4Ksv3HfDESY.png?scale-down-to=1024&width=1200&height=600 alt="Valley vs. Linked Helper. Workflow comparison: find and qualify, research and write, send and follow up."
+  B <div> 68,5207 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 68,5207 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 80,5212 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 579,5209 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 48,5251 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 64,5267 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "Valley vs. Linked Helper: a web campaign workspace or desktop automation?"
+  B <div Variant 1> 64,5348 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 77,5331 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 76,5360 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 76,5360 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 145,5360 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 133,5360 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 648,4982 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 648,4982 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  IMG 648,4982 584x269 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rXBPZAF5qkfcrtyjQK5K7iyahM.png?scale-down-to=1024&width=1200&height=600 alt="Valley vs. AiSDR. Workflow comparison: find and qualify, research and write, send and follow up."
+  B <div> 668,5207 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 668,5207 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 680,5212 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 1179,5209 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 648,5251 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 664,5267 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "Valley vs. AiSDR: compare the research, support and usage units"
+  B <div Variant 1> 664,5348 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 677,5331 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 676,5360 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 676,5360 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 745,5360 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 733,5360 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 48,5420 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 48,5420 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  IMG 48,5420 584x269 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Ef7VVRxSoapNzCSGjhE5vB8XHqw.png?scale-down-to=1024&width=1200&height=600 alt="Valley vs. Regie.ai. Workflow comparison: find and qualify, research and write, send and follow up."
+  B <div> 68,5645 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 68,5645 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 80,5650 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 579,5647 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 48,5689 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 64,5705 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "Valley vs. Regie.ai: evaluating research, voice and seller workflow"
+  B <div Variant 1> 64,5786 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 77,5769 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 76,5798 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 76,5798 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 145,5798 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 133,5798 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 648,5420 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 648,5420 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  IMG 648,5420 584x269 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/uRMhT3PIfeuz3LzsqSzj6QLJ3ek.png?scale-down-to=1024&width=1200&height=600 alt="Valley vs. Reply.io. Workflow comparison: find and qualify, research and write, send and follow up."
+  B <div> 668,5645 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 668,5645 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 680,5650 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 1179,5647 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 648,5689 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 664,5705 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "Valley vs. Reply.io: select the product before comparing the workflow"
+  B <div Variant 1> 664,5786 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 677,5769 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 676,5798 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 676,5798 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 745,5798 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 733,5798 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 48,5858 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 48,5858 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  IMG 48,5858 584x269 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/MAT7jJ4QYYMQGijmL1PxBWCA.png?scale-down-to=1024&width=1200&height=600 alt="Valley vs. Outreach. Workflow comparison: find and qualify, research and write, send and follow up."
+  B <div> 68,6083 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 68,6083 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 80,6087 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 579,6085 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 48,6127 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 64,6143 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "Valley vs. Outreach: focused outbound or revenue-wide orchestration?"
+  B <div Variant 1> 64,6223 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 77,6206 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 76,6235 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 76,6235 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 145,6235 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 133,6235 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 648,5858 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 648,5858 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  IMG 648,5858 584x269 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/UwVi3ZziE0E9UwlK8HjkiRt3Gko.png?scale-down-to=1024&width=1200&height=600 alt="Valley vs. Salesloft. Workflow comparison: find and qualify, research and write, send and follow up."
+  B <div> 668,6083 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 668,6083 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 680,6087 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 1179,6085 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 648,6127 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 664,6143 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "Valley vs. Salesloft: prospect-to-reply work and the revenue system around it"
+  B <div Variant 1> 664,6223 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 677,6206 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 676,6235 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 676,6235 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 745,6235 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 733,6235 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 48,6295 584x389 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx389.344px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 48,6295 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  IMG 48,6295 584x269 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/lcuoWRv8F9hn4hUivqSAw0Ph6TE.png?scale-down-to=1024&width=1200&height=600 alt="The State of Outbound Tools in 2026. Workflow: Research & qualify → Write & review → Send & learn."
+  B <div> 68,6520 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 68,6520 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 80,6525 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 579,6523 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 48,6564 584x120 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 64,6580 552x32 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "The State of Outbound Tools in 2026"
+  B <div Variant 1> 64,6629 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 77,6612 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 76,6641 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 76,6641 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 145,6641 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 133,6641 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 648,6295 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 648,6295 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  IMG 648,6295 584x269 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/2TCuF3fC4aYxJ5G3TaYa9Erw.png?scale-down-to=1024&width=1200&height=600 alt="Best Outbound Sales Tools of 2026, by Job and Team. Workflow: Research & qualify → Write & review → Send & learn."
+  B <div> 668,6520 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 668,6520 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 680,6525 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 1179,6523 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 648,6564 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 664,6580 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "Best Outbound Sales Tools of 2026, by Job and Team"
+  B <div Variant 1> 664,6661 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 677,6644 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 676,6673 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 676,6673 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 745,6673 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 733,6673 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 48,6733 584x389 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx389.344px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 48,6733 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  IMG 48,6733 584x269 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/DuMaOdmm2CiEWeaJCdsdrwpQglE.png?scale-down-to=1024&width=1200&height=600 alt="What an Outbound Stack Costs in 2026. Workflow: Seats & tools → Time & research → Pipeline & return."
+  B <div> 68,6958 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 68,6958 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 80,6963 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 579,6960 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 48,7002 584x120 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 64,7018 552x32 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "What an Outbound Stack Costs in 2026"
+  B <div Variant 1> 64,7067 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 77,7050 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 76,7079 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 76,7079 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 145,7079 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 133,7079 16x16 fill=#000000 stroke=none color=#000000 
+  B <div Featured Blog> 648,6733 584x422 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 584pxx421.75px inset=0px,0px border=1px 1px 1px 1px solid #d6dede} bg=#ffffff ovf=hidden
+  B <div Image> 648,6733 584x269 pad=20px flex column gap=10px jc=flex-end ai=center 
+  IMG 648,6733 584x269 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/fcpto0bYMln2C0dJWLVZfCUVYI.png?scale-down-to=1024&width=1200&height=600 alt="AI SDRs, Copilots, and Automation: The 2026 Buyer’s Guide. Workflow: Research & qualify → Write & review → Send & learn."
+  B <div> 668,6958 544x24 flex row gap=normal jc=space-between ai=center 
+  B <div Frame 2147223413> 668,6958 118x24 pad=6px 12px ::after{absolute 117.609pxx24px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} backdrop=blur(2px)
+  T <p> 680,6963 94x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "FEATURED READ"
+  T <h5> 1179,6960 33x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/19.6px ls=normal w400 #ffffff ta=left  | "5 min"
+  B <a> 648,7002 584x153 pad=16px flex column gap=16px jc=flex-start ai=flex-start 
+  T <h5> 664,7018 552x65 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/32.4px ls=normal w500 #1c292d ta=left  | "AI SDRs, Copilots, and Automation: The 2026 Buyer’s Guide"
+  B <div Variant 1> 664,7099 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 677,7082 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 676,7111 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 676,7111 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 745,7111 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 733,7111 16x16 fill=#000000 stroke=none color=#000000 
+  B <button Default> 1128,7195 104x40 pad=16px bg=#000000
+  T <p> 1144,7207 72x17 | Inter, Inter 14px/16.8px ls=normal w600 #ffffff ta=center  | "Load More"
+
+=== SECTION 4 [List] 0,7299 1280x715 tag=DIV
+  B <div List> 0,7299 1280x715 pad=64px 48px bg=#f8f9f7
+  B <div Blog List> 48,7363 1184x587 flex column gap=24px jc=flex-start ai=flex-start 
+  B <div> 48,7363 1184x48 flex row gap=10px jc=center ai=center 
+  T <h2> 48,7367 1065x40 | PP Neue Montreal Medium, PP Neue Montreal Medium 36px/39.6px ls=-0.5px w500 #1c292d ta=left  | "Case Studies"
+  B <div Variant 1> 1123,7363 109x48 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 1136,7350 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 1135,7379 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 1135,7379 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 1204,7379 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 1192,7379 16x16 fill=#000000 stroke=none color=#000000 
+  B <div> 48,7435 1184x515 pad=0px 0px 80px 
+  B <div> 48,7435 576x435 bg=#ffffff
+  B <a Case Study> 48,7435 576x435 flex column gap=0px jc=flex-end ai=flex-start 
+  B <button Default> 580,8317 104x40 pad=0px 16px bg=#000000
+  T <p> 596,8329 72x17 | Inter, Inter 14px/16.8px ls=normal w600 #ffffff ta=center  | "Load More"
+  B <div> 48,7435 576x435 pad=20px flex column gap=32px jc=flex-start ai=flex-start ::after{absolute 576pxx435.188px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} bg=#f8f8f8 ovf=hidden
+  B <div> 68,7455 536x323 flex column gap=16px jc=center ai=center 
+  IMG 68,7455 536x38 fit=contain pos=0% 50%  src=https://framerusercontent.com/images/Bx6e2ANj69WlGVSGixBWFjy4WY.png?width=754&height=230 alt="Gallea AI"
+  T <h2> 68,7509 536x101 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/33.6px ls=normal w500 #000000  | "How Gallea AI booked 14 meetings in 15 days and generated $600k in pipeline for their AI search agency"
+  B <div> 68,7645 536x133 flex column gap=24px jc=center ai=flex-start 
+  B <div> 68,7645 536x46 flex row gap=10px jc=flex-start ai=center 
+  IMG 68,7648 40x40 fit=cover pos=50% 0%  src=https://framerusercontent.com/images/TWJeTtPm4M26e9aAq110o037a0I.jpg?scale-down-to=1024&width=3646&height=4140 alt="Brandon Kay"
+  B <div> 118,7645 486x46 flex column gap=4px jc=center ai=flex-start 
+  T <p> 118,7645 486x25 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/25.2px ls=normal w500 #1c292e ta=left  | "Brandon Kay"
+  T <p> 118,7674 486x17 | PP Neue Montreal Variable, PP Neue Montreal Variable 14px/16.8px ls=normal w400 #52616a ta=left  | "Sales Leader"
+  B <div> 68,7715 536x63 flex row gap=10px jc=center ai=center 
+  B <div> 68,7715 263x63 flex column gap=4px jc=center ai=center 
+  T <p> 68,7715 263x40 | PP Neue Montreal Medium, PP Neue Montreal Medium 36px/39.6px ls=normal w500 #1c292e ta=left  | "$600K+"
+  T <p> 68,7759 263x20 | PP Neue Montreal Variable, PP Neue Montreal Variable 14px/19.6px ls=normal w400 #52616a ta=left  | "Pipeline Expanded"
+  B <div> 341,7715 263x63 flex column gap=4px jc=center ai=center 
+  T <p> 341,7715 263x40 | PP Neue Montreal Medium, PP Neue Montreal Medium 36px/39.6px ls=normal w500 #1c292e ta=left  | "14"
+  T <p> 341,7759 263x20 | PP Neue Montreal Variable, PP Neue Montreal Variable 14px/19.6px ls=normal w400 #52616a ta=left  | "More Meetings"
+  B <div Variant 1> 68,7810 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 81,7793 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 80,7822 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 80,7822 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 149,7822 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 137,7822 16x16 fill=#000000 stroke=none color=#000000 
+  B <div> 656,7435 576x435 bg=#ffffff
+  B <a Case Study> 656,7435 576x435 flex column gap=0px jc=flex-end ai=flex-start 
+  B <button Default> 1188,8317 104x40 pad=0px 16px bg=#000000
+  T <p> 1204,8329 72x17 | Inter, Inter 14px/16.8px ls=normal w600 #ffffff ta=center  | "Load More"
+  B <div> 656,7435 576x435 pad=20px flex column gap=32px jc=flex-start ai=flex-start ::after{absolute 576pxx435.188px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9} bg=#f8f8f8 ovf=hidden
+  B <div> 676,7455 536x323 flex column gap=16px jc=center ai=center 
+  IMG 676,7455 536x38 fit=contain pos=0% 50%  src=https://framerusercontent.com/images/3088PQIam4ZWVzf21buoBQiWfo.png?width=458&height=109 alt=""
+  T <h2> 676,7509 536x34 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/33.6px ls=normal w500 #000000  | "How SaanSerif Doubled MRR in 30 Days with Valley"
+  B <div> 676,7645 536x133 flex column gap=24px jc=center ai=flex-start 
+  B <div> 676,7645 536x46 flex row gap=10px jc=flex-start ai=center 
+  IMG 676,7648 40x40 fit=cover pos=50% 0%  src=https://framerusercontent.com/images/mLxZ9YwNnCe2XxrnFFzvm6qcMw.jpeg?scale-down-to=512&width=800&height=800 alt=""
+  B <div> 726,7645 486x46 flex column gap=4px jc=center ai=flex-start 
+  T <p> 726,7645 486x25 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/25.2px ls=normal w500 #1c292e ta=left  | "Saanya Ali"
+  T <p> 726,7674 486x17 | PP Neue Montreal Variable, PP Neue Montreal Variable 14px/16.8px ls=normal w400 #52616a ta=left  | "Founder"
+  B <div> 676,7715 536x63 flex row gap=10px jc=center ai=center 
+  B <div> 676,7715 263x63 flex column gap=4px jc=center ai=center 
+  T <p> 676,7715 263x40 | PP Neue Montreal Medium, PP Neue Montreal Medium 36px/39.6px ls=normal w500 #1c292e ta=left  | "$480K+"
+  T <p> 676,7759 263x20 | PP Neue Montreal Variable, PP Neue Montreal Variable 14px/19.6px ls=normal w400 #52616a ta=left  | "Pipeline Expanded"
+  B <div> 949,7715 263x63 flex column gap=4px jc=center ai=center 
+  T <p> 949,7715 263x40 | PP Neue Montreal Medium, PP Neue Montreal Medium 36px/39.6px ls=normal w500 #1c292e ta=left  | "16"
+  T <p> 949,7759 263x20 | PP Neue Montreal Variable, PP Neue Montreal Variable 14px/19.6px ls=normal w400 #52616a ta=left  | "More Meetings"
+  B <div Variant 1> 676,7810 109x40 pad=8px 12px bg=#000000 ovf=hidden
+  T <p> 689,7793 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Read"
+  B <div Try Valley> 688,7822 37x16 tf=matrix(1, 0, 0, 1, 0, -8)
+  T <p> 688,7822 37x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Read"
+  SVG 757,7822 16x16 fill=#ffffff stroke=none color=#ffffff 
+  SVG 745,7822 16x16 fill=#000000 stroke=none color=#000000 
+
+=== SECTION 5 [resources-questions-current] 0,8014 1280x605 tag=DIV
+  B <div resources-questions-current> 0,8014 1280x605 pad=48px 
+  B <div .vsq-faq> 48,8062 1184x509 pad=40px grid gap=48px cols=405.375px 648.625px jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d6dede
+  T <h2> 89,8103 240x86 | Valley Body Montreal, Arial 40px/43.2px ls=-1.6px w500 #1c292d  | "Questions, answered."
+  T <p> 89,8210 260x52 | Valley Body Montreal, Arial 18px/26.1px ls=normal w400 #52616a  | "The practical details before your first campaign."
+  B <details> 542,8103 649x72 border=1px 0px 1px 0px solid #cfd8d8
+  T <summary> 542,8104 649x70 | Valley Body Montreal, Arial 20px/26px ls=-0.4px w500 #1c292d pad=21px 0px  | "What do I need to get started?"
+  T <span> 1163,8125 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.4px w400 #547997  | "+"
+  T <p> 542,8174 649x77 | Valley Body Montreal, Arial 17px/26.35px ls=normal w400 #4a5b64 pad=0px 34px 24px 0px  | "Tell Valley what you sell, who you sell to and how you write. Choose a play or bring your own list, connect your sending accounts, then review the outreach before launch."
+  B <details> 542,8175 649x71 border=0px 0px 1px 0px none #1c292d b:#cfd8d8
+  T <summary> 542,8175 649x70 | Valley Body Montreal, Arial 20px/26px ls=-0.4px w500 #1c292d pad=21px 0px  | "Can I review and edit the messages?"
+  T <span> 1163,8196 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.4px w400 #547997  | "+"
+  T <p> 542,8245 649x77 | Valley Body Montreal, Arial 17px/26.35px ls=normal w400 #4a5b64 pad=0px 34px 24px 0px  | "Yes. Review, edit and approve drafts before they go out. You choose the sending schedule and follow-up steps for your campaign."
+  B <details> 542,8246 649x71 border=0px 0px 1px 0px none #1c292d b:#cfd8d8
+  T <summary> 542,8246 649x70 | Valley Body Montreal, Arial 20px/26px ls=-0.4px w500 #1c292d pad=21px 0px  | "Does Valley send email as well as LinkedIn messages?"
+  T <span> 1163,8267 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.4px w400 #547997  | "+"
+  T <p> 542,8316 649x103 | Valley Body Montreal, Arial 17px/26.35px ls=normal w400 #4a5b64 pad=0px 34px 24px 0px  | "Yes. Combine email and LinkedIn in the same sequence. Email sending is an optional add-on on the base plan; the middle and upper plans include 1,000 email messages per month. Connect your Gmail or Microsoft inbox to send."
+  B <details> 542,8317 649x71 border=0px 0px 1px 0px none #1c292d b:#cfd8d8
+  T <summary> 542,8317 649x70 | Valley Body Montreal, Arial 20px/26px ls=-0.4px w500 #1c292d pad=21px 0px  | "Which plan includes email and priority support?"
+  T <span> 1163,8338 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.4px w400 #547997  | "+"
+  T <p> 542,8387 649x156 | Valley Body Montreal, Arial 17px/26.35px ls=normal w400 #4a5b64 pad=0px 34px 24px 0px  | "Starter is $199/month or $149/month billed quarterly. Email sending, priority Slack support, and an onboarding call are optional add-ons. Plus, at $299/month or $249/month billed quarterly, includes 1,000 email messages per month, a priority support Slack group, and an onboarding call. Growth includ"
+  B <details> 542,8388 649x71 border=0px 0px 1px 0px none #1c292d b:#cfd8d8
+  T <summary> 542,8388 649x70 | Valley Body Montreal, Arial 20px/26px ls=-0.4px w500 #1c292d pad=21px 0px  | "What uses credits?"
+  T <span> 1163,8409 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.4px w400 #547997  | "+"
+  T <p> 542,8458 649x103 | Valley Body Montreal, Arial 17px/26.35px ls=normal w400 #4a5b64 pad=0px 34px 24px 0px  | "Finding new prospects, finding and verifying email addresses, and upgraded message generation use credits. Research, base message writing, imports and LinkedIn sending are included in the subscription."
+  B <details> 542,8459 649x71 border=0px 0px 1px 0px none #1c292d b:#cfd8d8
+  T <summary> 542,8459 649x70 | Valley Body Montreal, Arial 20px/26px ls=-0.4px w500 #1c292d pad=21px 0px  | "How does the free trial work?"
+  T <span> 1163,8480 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.4px w400 #547997  | "+"
+  T <p> 542,8529 649x77 | Valley Body Montreal, Arial 17px/26.35px ls=normal w400 #4a5b64 pad=0px 34px 24px 0px  | "Eligible new subscribers get a 7-day trial. A payment method is required. Cancel before the trial ends to avoid starting the paid subscription."
+
+=== SECTION 6 [] 0,8619 1280x597 tag=DIV
+  B <div Desktop> 0,8619 1280x597 bg=#1c3036 ovf=hidden
+  B <footer .vf> 0,8619 1280x597 bg=#1c3036
+  B <div .vf-inner> 0,8619 1280x597 pad=64px 48px 28px 
+  B <div .vf-top> 48,8683 1184x223 pad=0px 0px 48px grid gap=64px cols=653.328px 466.656px jc=normal ai=center border=0px 0px 1px 0px none #f8f9f7 b:#ffffff/0.19
+  T <h2> 48,8683 650x99 | ValleyFooter, Arial 44px/49.28px ls=-1.54px w500 #f8f9f7  | "Find your people. Give them a reason to reply."
+  T <p> 48,8800 570x57 | ValleyFooter, Arial 19px/28.5px ls=normal w400 #c2d0d2  | "Find, qualify, research, and reach your next buyers across email and LinkedIn."
+  B <div .vf-actions> 765,8744 467x52 flex row gap=16px jc=flex-end ai=normal 
+  T <a> 922,8744 152x52 | ValleyFooter, Arial 17px/normal ls=normal w400 #1c3036 pad=15px 22px bg=#f8f9f7 border=1px 1px 1px 1px solid #f8f9f7 | "Start for free →"
+  T <a> 1090,8744 142x52 | ValleyFooter, Arial 17px/normal ls=normal w400 #f8f9f7 pad=15px 22px border=1px 1px 1px 1px solid #718589 | "Book a demo"
+  B <div .vf-links> 48,8906 1184x242 pad=44px 0px grid gap=48px cols=448px 320px 320px jc=normal ai=normal 
+  T <a> 48,8950 448x38 | ValleyFooter, Arial 30px/normal ls=-1.05px w500 #f8f9f7  | "Valley"
+  SVG 48,8950 38x38 fill=#f8f9f7 stroke=none color=#f8f9f7 
+  T <p> 48,8988 290x45 | ValleyFooter, Arial 15px/22.5px ls=normal w400 #bbcdce  | "Your outbound team. One connected platform."
+  T <a> 48,9033 89x14 | ValleyFooter, Arial 12px/normal ls=normal w400 #f8f9f7  | "hey@joinvalley.co"
+  B <nav> 544,8950 320x154 flex column gap=14px jc=normal ai=flex-start 
+  T <strong> 544,8950 106x14 | ValleyFooter, Arial 12px/normal ls=0.72px w400 #9eb6ba tt=uppercase  | "Explore Valley"
+  T <a> 544,8986 54x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Product"
+  T <a> 544,9019 74x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Customers"
+  T <a> 544,9052 64x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Agencies"
+  T <a> 544,9085 47x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Pricing"
+  B <nav> 912,8950 320x154 flex column gap=14px jc=normal ai=flex-start 
+  T <strong> 912,8950 82x14 | ValleyFooter, Arial 12px/normal ls=0.72px w400 #9eb6ba tt=uppercase  | "Learn more"
+  T <a> 912,8986 73x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Resources"
+  T <a> 912,9019 68x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "All articles"
+  T <a> 912,9052 83x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "About Valley"
+  T <a> 912,9085 41x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Log in"
+  B <div .vf-bottom> 48,9148 1184x40 pad=24px 0px 0px flex row gap=20px jc=space-between ai=normal border=1px 0px 0px 0px solid #ffffff/0.19 b:#b4c7c9
+  T <span> 48,9173 150x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "© Valley. All rights reserved."
+  B <div> 1043,9173 189x15 flex row gap=24px jc=normal ai=normal 
+  T <a> 1043,9173 75x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "Privacy policy"
+  T <a> 1142,9173 90x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "Terms of service"

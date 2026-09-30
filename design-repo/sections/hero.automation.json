@@ -1,0 +1,81 @@
+{
+  "id": "hero.automation",
+  "layer": "section",
+  "purpose": "Older-generation image hero with floating cross-fading quote bubbles, unique to /linkedin-automation.",
+  "composes": [
+    "button",
+    "quote-block"
+  ],
+  "measuredFrom": "spec/pages/landing.md:503-511; src/styles/pages/landing/automation/hero.css:274-283",
+  "content": {
+    "type": "object",
+    "properties": {
+      "outlinedLabel": {
+        "type": "string",
+        "maxWords": 10
+      },
+      "h1": {
+        "type": "string",
+        "maxWords": 14
+      },
+      "sub": {
+        "type": "string",
+        "maxWords": 24
+      },
+      "bookDemoLabel": {
+        "type": "string",
+        "maxWords": 4
+      },
+      "bookDemoHref": {
+        "type": "string",
+        "const": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b"
+      },
+      "tryFreeLabel": {
+        "type": "string",
+        "maxWords": 4
+      },
+      "tryFreeHref": {
+        "type": "string",
+        "const": "https://beta.joinvalley.co/signup"
+      },
+      "floatingQuotes": {
+        "type": "array",
+        "minItems": 1,
+        "maxItems": 4
+      }
+    },
+    "required": [
+      "h1",
+      "sub",
+      "bookDemoLabel",
+      "bookDemoHref"
+    ],
+    "additionalProperties": false
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeFirstAfterNav": true,
+    "routeRestriction": "automationOnly"
+  },
+  "motion": {
+    "pattern": "cross-fade-bubbles",
+    "durationMs": 400,
+    "easingRef": "cubic-bezier(.44,0,.56,1)",
+    "reducedMotionFallback": "one static quote bubble set renders per position, no cross-fade cycling",
+    "measuredFrom": "spec/pages/landing.md:510",
+    "note": "Also: h1 word blur-in, 400ms cubic-bezier(.44,0,.56,1) per word from opacity .001, blur(5px), translateY(10px); starts at .2s with .05-.1s steps (src/components/landing/automation/Hero.jsx:30-31). Reduced motion drops only the translate. Outgoing bubbles fade over about 900ms."
+  },
+  "assetRoles": {
+    "hero-sky-image": {
+      "enum": "hero-visual-art",
+      "generationPolicy": "may-generate-new",
+      "guidance": "Abstract sky/watercolor background; safe to AI-generate."
+    },
+    "customer-logo": {
+      "enum": "customer-logo",
+      "generationPolicy": "must-reuse-exact",
+      "guidance": "Floating quote bubbles include real company logos; never alter."
+    }
+  },
+  "pinnedValueNote": "bookDemoHref/tryFreeHref are PINNED (const) to real live third-party endpoints."
+}

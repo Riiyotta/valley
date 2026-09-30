@@ -1,0 +1,21 @@
+{
+  "id": "landing.hubspot-demo",
+  "layer": "section",
+  "purpose": "HubSpot booking-calendar embed section, on the SEO landing-template routes only.",
+  "measuredFrom": "spec/pages/landing.md:270-279",
+  "content": {
+    "type": "object",
+    "properties": {
+      "headingLines": { "type": "array", "maxItems": 2 },
+      "embedUrl": { "type": "string", "const": "https://meetings.hubspot.com/zayd-from-valley/tryvalley" }
+    },
+    "required": ["embedUrl"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "landingSeoTemplateOnly" },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {
+    "dot-grid-bg": { "enum": "hero-visual-art", "generationPolicy": "may-generate-new", "guidance": "Tiled dot-grid pattern background; safe to AI-generate." }
+  },
+  "pinnedValueNote": "embedUrl is PINNED (const) to the real live third-party HubSpot booking endpoint, per MASTER-GUIDE.md 3.23. Third-party iframe renders blank in headless capture; the clone embeds the same real URL or shows a same-size placeholder, but never a fabricated URL."
+}

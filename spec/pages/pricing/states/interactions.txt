@@ -1,0 +1,49 @@
+## toggle back to Monthly, sampled: [[64,"$199 op=1"],[106,"$199 op=1"],[148,"$199 op=1"],[190,"$199 op=1"],[233,"$199 op=1"],[281,"$199 op=1"]]
+
+## HOVER toggle (unpressed)[1]  transition(root)=all
+  (no computed change)
+
+## HOVER plan CTA Starter[0]  transition(root)=all
+  0:a.vp-button backgroundColor: rgb(28, 41, 45) -> rgb(52, 80, 91)
+  timeline 0:a.vp-button backgroundColor: 32ms=rgb(52, 80, 91) | 81ms=rgb(52, 80, 91) | 151ms=rgb(52, 80, 91) | 256ms=rgb(52, 80, 91) | 401ms=rgb(52, 80, 91) | 702ms=rgb(52, 80, 91)
+
+## HOVER plan CTA Plus[1]  transition(root)=all
+  0:a.vp-button backgroundColor: rgb(28, 41, 45) -> rgb(52, 80, 91)
+  timeline 0:a.vp-button backgroundColor: 34ms=rgb(52, 80, 91) | 88ms=rgb(52, 80, 91) | 152ms=rgb(52, 80, 91) | 252ms=rgb(52, 80, 91) | 400ms=rgb(52, 80, 91) | 700ms=rgb(52, 80, 91)
+
+## HOVER Talk to sales[0]  transition(root)=all
+  (no computed change)
+
+## FOCUS-VISIBLE (keyboard) plan CTA[0]
+  0:a.vp-button outlineStyle: none -> solid
+  0:a.vp-button outlineColor: rgb(255, 255, 255) -> rgb(57, 118, 174)
+  0:a.vp-button outlineWidth: 3px -> 2px
+  0:a.vp-button outlineOffset: 0px -> 4px
+
+## studios form {
+ "action": null,
+ "method": "get",
+ "inputs": [
+  "<input type=\"email\" required=\"\" name=\"Email\" placeholder=\"Your work email\" class=\"framer-form-input framer-form-input-empty\" value=\"\" data-gtm-form-interact-field-id=\"0\" style=\"\">",
+  "<button type=\"submit\" class=\"framer-WhBup framer-1kqu8hg surface-form-button framer-v-1kqu8hg\" data-framer-name=\"Default\" data-reset=\"button\" tabindex=\"0\" style=\"height: 100%; opacity: 1;\"><div class=\"framer-1qgdjf3\" data-framer-name=\"Hole\" style=\"opacity: 1;\"><div class=\"framer-11u26ax\" data-framer",
+  "<input type=\"text\" name=\"website\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position: absolute; transform: scale(0);\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value=\"\">",
+  "<input type=\"text\" name=\"company\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position: absolute; transform: scale(0);\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value=\"\">",
+  "<input type=\"text\" name=\"message\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position: absolute; transform: scale(0);\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value=\"\">",
+  "<input type=\"text\" name=\"subject\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position: absolute; transform: scale(0);\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value=\"\">",
+  "<input type=\"text\" name=\"title\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position: absolute; transform: scale(0);\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value=\"\">",
+  "<input type=\"text\" name=\"description\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position: absolute; transform: scale(0);\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value=\"\">",
+  "<input type=\"text\" name=\"feedback\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position: absolute; transform: scale(0);\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value=\"\">",
+  "<input type=\"text\" name=\"notes\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position: absolute; transform: scale(0);\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value=\"\">",
+  "<input type=\"text\" name=\"details\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position: absolute; transform: scale(0);\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value=\"\">",
+  "<input type=\"text\" name=\"remarks\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position: absolute; transform: scale(0);\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value=\"\">",
+  "<input type=\"text\" name=\"comments\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position: absolute; transform: scale(0);\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value=\"\">"
+ ]
+}
+
+## HOVER studios Book a call[0]  transition(root)=all
+  (no computed change)
+
+## studios input focus (click)
+
+
+## calendar iframe [{"src":"https://meetings.hubspot.com/zayd-from-valley/tryvalley","w":1000,"h":872,"title":"","style":"width:100%;height:100%;border:none;max-width:100%;zoom:1;border-radius:0px;transform-origin:top center"},{"src":"","w":0,"h":0,"title":"archetype","style":"display: none; visibility: hidden;"},{"src":"https://i.liadm.com/sync-container?duid=cd7c217f7235--01m3p8gdt42an0d4q609h92xfx&ds=did-006g&euns=1&s=&version=v3.19.0&cd=.joinvalley.co&pv=e9f3e925-7080-4eca-86e3-5665a7a1180f","w":0,"h":0,"title":"data","style":"opacity: 0; width: 0px; height: 0px; border: 0px; position: absolute; top: 0px; left: 0px; z-index: -1000;"},{"src":"https://framer.com/edit?framerSiteId=3b6af324635ed2be6bcf6f5c0fb1f7c5136ab338dfe8559ca0710529283ca697&source=www.joinvalley.co&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1790674746657","w":0,"h":0,"title":"","style":null},{"src":"https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b","w":0,"h":0,"title":"","style":"opacity: 1;"}]

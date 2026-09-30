@@ -1,0 +1,57 @@
+/* /blog/archive. spec/pages/blog-index.md section 9, screens/archive_1440_top.jpg. */
+.ba-page {
+  min-height: 100vh;
+  background: #fff;
+}
+.ba-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 96px;
+  box-sizing: border-box;
+}
+.ba-content h1 {
+  margin: 0;
+  font-family: "PP Neue Montreal SemiBold", sans-serif;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: -1px;
+  font-weight: 600;
+  color: #000;
+}
+.ba-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.ba-link {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.25);
+  text-decoration: none;
+}
+.ba-link:hover {
+  text-decoration: underline;
+}
+@media screen(phone) {
+  .ba-content {
+    gap: 20px;
+    padding: 48px 20px 56px;
+  }
+  .ba-content h1 {
+    font-size: 32px;
+    line-height: 35.2px;
+  }
+  .ba-list {
+    gap: 14px;
+  }
+  .ba-link {
+    font-size: 17px;
+    line-height: 24.65px;
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "closing-cta.form",
+  "layer": "section",
+  "purpose": "Final full-width conversion moment before the footer, on the homepage only.",
+  "measuredFrom": "CLONE_SPEC.md section 18 (.vcc); spec/GRID.md:187-190",
+  "content": {
+    "type": "object",
+    "properties": {
+      "h2Line1": { "type": "string", "maxWords": 10 },
+      "h2Line2": { "type": "string", "maxWords": 10 },
+      "ctaLabel": { "type": "string", "maxWords": 4 },
+      "ctaHref": { "type": "string", "const": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b" }
+    },
+    "required": ["h2Line1", "ctaLabel", "ctaHref"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "notUsedOnLandingPages": true, "note": "landing.md:62 confirms closing-cta is not used on any of the 6 landing pages" },
+  "responsive": {
+    "desktop": { "padding": "88px 48px 30px" },
+    "containerBand900": { "containerQuery": "<=900c", "padding": "64px 32px 28px" },
+    "containerBand540": { "containerQuery": "<=540c", "padding": "52px 22px 24px" },
+    "measuredFrom": "spec/GRID.md:188"
+  },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {
+    "background-scene": {
+      "enum": "hero-visual-art",
+      "generationPolicy": "may-generate-new",
+      "guidance": "Non-human watercolor/gradient background scene; safe to AI-generate."
+    }
+  },
+  "pinnedValueNote": "ctaHref is PINNED (const, not just enum-membership) to the real live Surface form endpoint. This is a compliance-critical field per MASTER-GUIDE.md 3.23: a generator must never rewrite this to a different-but-plausible URL. See extraction/measured-values.json and schema/tests/adversarial_test.py for the dedicated pinned-value mutation test."
+}

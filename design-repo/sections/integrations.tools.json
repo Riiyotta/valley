@@ -1,0 +1,33 @@
+{
+  "id": "integrations.tools",
+  "layer": "section",
+  "purpose": "Demonstrate ecosystem breadth: Claude, ChatGPT, CRM, API and MCP integrations.",
+  "measuredFrom": "CLONE_SPEC.md section 15; spec/GRID.md:170-173",
+  "content": {
+    "type": "object",
+    "properties": {
+      "eyebrow": { "type": "string", "maxWords": 6 },
+      "h2": { "type": "string", "maxWords": 10 },
+      "lead": { "type": "string", "maxWords": 24 },
+      "tabs": { "type": "array", "minItems": 2, "maxItems": 4 },
+      "toolRows": { "type": "array", "minItems": 1, "maxItems": 6 }
+    },
+    "required": ["eyebrow", "h2", "toolRows"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true },
+  "responsive": {
+    "desktop": { "layout": "1fr 1fr; tool rows repeat(3,minmax(0,1fr)) gap 12" },
+    "phoneBand": { "viewportMax": 720, "layout": "1fr (single column)" },
+    "vgsGutterQuirk": "keeps 48px gutter down to 721px",
+    "measuredFrom": "spec/GRID.md:171,216"
+  },
+  "motion": { "pattern": "tab-switch-fade", "reducedMotionFallback": "first tab renders active statically" },
+  "assetRoles": {
+    "integration-logo": {
+      "enum": "customer-logo",
+      "generationPolicy": "must-reuse-exact",
+      "guidance": "Real third-party product logos (Claude, ChatGPT, CRM vendors). Never AI-generate or alter; use licensed exact assets only."
+    }
+  }
+}

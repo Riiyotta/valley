@@ -1,0 +1,255 @@
+h2
+   1440: 34px/40.12px ls=-0.85px w500 #1c292d m=20px 0px 0px (n23); 40px/44.8px ls=-1.2px w500 #1c292d (n17)
+   1280: 34px/40.12px ls=-0.85px w500 #1c292d m=20px 0px 0px (n23); 40px/44.8px ls=-1.2px w500 #1c292d (n17)
+   768: 28px/33.04px ls=-0.7px w500 #1c292d m=20px 0px 0px (n23); 30px/33.6px ls=-0.9px w500 #1c292d (n17)
+   390: 28px/33.04px ls=-0.7px w500 #1c292d m=20px 0px 0px (n23); 30px/33.6px ls=-0.9px w500 #1c292d (n17)
+p
+   1440: 20px/31px ls=normal w400 #4e606a m=20px 0px 0px (n348); 20px/31px ls=normal w400 #4e606a (n10)
+   1280: 20px/31px ls=normal w400 #4e606a m=20px 0px 0px (n348); 20px/31px ls=normal w400 #4e606a (n10)
+   768: 18px/27.9px ls=normal w400 #4e606a m=20px 0px 0px (n348); 18px/27.9px ls=normal w400 #4e606a (n10)
+   390: 18px/27.9px ls=normal w400 #4e606a m=20px 0px 0px (n348); 18px/27.9px ls=normal w400 #4e606a (n10)
+p>em
+   1440: 20px/31px ls=normal w400 #4e606a (n14)
+   1280: 20px/31px ls=normal w400 #4e606a (n14)
+   768: 18px/27.9px ls=normal w400 #4e606a (n14)
+   390: 18px/27.9px ls=normal w400 #4e606a (n14)
+img
+   1440: 12px/normal ls=normal w400 #000000 (n14)
+   1280: 12px/normal ls=normal w400 #000000 (n14)
+   768: 12px/normal ls=normal w400 #000000 (n14)
+   390: 12px/normal ls=normal w400 #000000 (n14)
+p>strong
+   1440: 20px/31px ls=normal w700 #4e606a (n96)
+   1280: 20px/31px ls=normal w700 #4e606a (n96)
+   768: 18px/27.9px ls=normal w700 #4e606a (n96)
+   390: 18px/27.9px ls=normal w700 #4e606a (n96)
+figure
+   1440: 12px/normal ls=normal w400 #000000 m=28px 0px pad=0px 0px 12px (n4)
+   1280: 12px/normal ls=normal w400 #000000 m=28px 0px pad=0px 0px 12px (n4)
+   768: 12px/normal ls=normal w400 #000000 m=28px 0px pad=0px 0px 12px (n4)
+   390: 12px/normal ls=normal w400 #000000 m=28px 0px pad=0px 0px 12px (n4)
+figure>table
+   1440: 15px/22.5px ls=normal w400 #000000 (n4)
+   1280: 15px/22.5px ls=normal w400 #000000 (n4)
+   768: 15px/22.5px ls=normal w400 #000000 (n4)
+   390: 15px/22.5px ls=normal w400 #000000 (n4)
+figure>table>tbody>tr
+   1440: 15px/22.5px ls=normal w400 #000000 (n29)
+   1280: 15px/22.5px ls=normal w400 #000000 (n29)
+   768: 15px/22.5px ls=normal w400 #000000 (n29)
+   390: 15px/22.5px ls=normal w400 #000000 (n29)
+table>tbody>tr>th
+   1440: 15px/22.5px ls=normal w500 #20373b pad=18px 20px (n7)
+   1280: 15px/22.5px ls=normal w500 #20373b pad=18px 20px (n7)
+   768: 15px/22.5px ls=normal w500 #20373b pad=18px 20px (n7)
+   390: 15px/22.5px ls=normal w500 #20373b pad=18px 20px (n7)
+tbody>tr>th>p
+   1440: 15px/22.5px ls=normal w400 #4e606a (n7)
+   1280: 15px/22.5px ls=normal w400 #4e606a (n7)
+   768: 15px/22.5px ls=normal w400 #4e606a (n7)
+   390: 15px/22.5px ls=normal w400 #4e606a (n7)
+table>tbody>tr>td
+   1440: 15px/22.5px ls=normal w400 #35494f pad=18px 20px (n89); 15px/22.5px ls=normal w500 #20373b pad=18px 20px (n8)
+   1280: 15px/22.5px ls=normal w400 #35494f pad=18px 20px (n89); 15px/22.5px ls=normal w500 #20373b pad=18px 20px (n8)
+   768: 15px/22.5px ls=normal w400 #35494f pad=18px 20px (n89); 15px/22.5px ls=normal w500 #20373b pad=18px 20px (n8)
+   390: 15px/22.5px ls=normal w400 #35494f pad=18px 20px (n89); 15px/22.5px ls=normal w500 #20373b pad=18px 20px (n8)
+tbody>tr>td>p
+   1440: 15px/22.5px ls=normal w400 #4e606a (n97)
+   1280: 15px/22.5px ls=normal w400 #4e606a (n97)
+   768: 15px/22.5px ls=normal w400 #4e606a (n97)
+   390: 15px/22.5px ls=normal w400 #4e606a (n97)
+ul
+   1440: 16px/19.2px ls=normal w400 #000000 (n44)
+   1280: 16px/19.2px ls=normal w400 #000000 (n44)
+   768: 16px/19.2px ls=normal w400 #000000 (n44)
+   390: 16px/19.2px ls=normal w400 #000000 (n44)
+ul>li
+   1440: 20px/31px ls=normal w400 #4e606a pad=0px 0px 0px 24.6796px (n178)
+   1280: 20px/31px ls=normal w400 #4e606a pad=0px 0px 0px 24.6796px (n178)
+   768: 18px/27.9px ls=normal w400 #4e606a pad=0px 0px 0px 22.2116px (n178)
+   390: 18px/27.9px ls=normal w400 #4e606a pad=0px 0px 0px 22.2116px (n178)
+ul>li>p
+   1440: 20px/31px ls=normal w400 #4e606a (n178)
+   1280: 20px/31px ls=normal w400 #4e606a (n178)
+   768: 18px/27.9px ls=normal w400 #4e606a (n178)
+   390: 18px/27.9px ls=normal w400 #4e606a (n178)
+ul>li>p>code
+   1440: 20px/31px ls=normal w400 #333333 pad=2px 4px (n16)
+   1280: 20px/31px ls=normal w400 #333333 pad=2px 4px (n16)
+   768: 18px/27.9px ls=normal w400 #333333 pad=1.8px 3.6px (n16)
+   390: 18px/27.9px ls=normal w400 #333333 pad=1.8px 3.6px (n16)
+p>code
+   1440: 20px/31px ls=normal w400 #333333 pad=2px 4px (n12)
+   1280: 20px/31px ls=normal w400 #333333 pad=2px 4px (n12)
+   768: 18px/27.9px ls=normal w400 #333333 pad=1.8px 3.6px (n12)
+   390: 18px/27.9px ls=normal w400 #333333 pad=1.8px 3.6px (n12)
+p>a
+   1440: 20px/31px ls=normal w400 #002669 (n56)
+   1280: 20px/31px ls=normal w400 #002669 (n56)
+   768: 18px/27.9px ls=normal w400 #002669 (n56)
+   390: 18px/27.9px ls=normal w400 #002669 (n56)
+p>a>strong
+   1440: 20px/31px ls=normal w700 #002669 (n26)
+   1280: 20px/31px ls=normal w700 #002669 (n26)
+   768: 18px/27.9px ls=normal w700 #002669 (n26)
+   390: 18px/27.9px ls=normal w700 #002669 (n26)
+CTA img
+   1440: 12px/normal ls=normal w400 #000000 (n18)
+   1280: 12px/normal ls=normal w400 #000000 (n18)
+   768: 12px/normal ls=normal w400 #000000 (n18)
+   390: 12px/normal ls=normal w400 #000000 (n18)
+CTA h2
+   1440: 28px/39.2px ls=normal w400 #000000 (n18)
+   1280: 28px/39.2px ls=normal w400 #000000 (n18)
+   768: 20px/28px ls=normal w400 #000000 (n18)
+   390: 20px/28px ls=normal w400 #000000 (n18)
+h3
+   1440: 26px/31.2px ls=-0.52px w500 #1c292d m=20px 0px 0px (n69); 26px/31.2px ls=-0.52px w500 #1c292d (n4)
+   1280: 26px/31.2px ls=-0.52px w500 #1c292d m=20px 0px 0px (n69); 26px/31.2px ls=-0.52px w500 #1c292d (n4)
+   768: 23px/27.6px ls=-0.46px w500 #1c292d m=20px 0px 0px (n69); 23px/27.6px ls=-0.46px w500 #1c292d (n4)
+   390: 23px/27.6px ls=-0.46px w500 #1c292d m=20px 0px 0px (n69); 23px/27.6px ls=-0.46px w500 #1c292d (n4)
+ul>li>p>strong
+   1440: 20px/31px ls=normal w700 #4e606a (n74)
+   1280: 20px/31px ls=normal w700 #4e606a (n74)
+   768: 18px/27.9px ls=normal w700 #4e606a (n74)
+   390: 18px/27.9px ls=normal w700 #4e606a (n74)
+h4
+   1440: 42px/42px ls=normal w400 #000000 m=40px 0px 0px (n5)
+   1280: 42px/42px ls=normal w400 #000000 m=40px 0px 0px (n5)
+   768: 32px/32px ls=normal w400 #000000 m=40px 0px 0px (n5)
+   390: 32px/32px ls=normal w400 #000000 m=40px 0px 0px (n5)
+h4>strong
+   1440: 42px/42px ls=normal w700 #000000 (n6)
+   1280: 42px/42px ls=normal w700 #000000 (n6)
+   768: 32px/32px ls=normal w700 #000000 (n6)
+   390: 32px/32px ls=normal w700 #000000 (n6)
+h4>code
+   1440: 42px/42px ls=normal w400 #333333 pad=4.2px 8.4px (n1)
+   1280: 42px/42px ls=normal w400 #333333 pad=4.2px 8.4px (n1)
+   768: 32px/32px ls=normal w400 #333333 pad=3.2px 6.4px (n1)
+   390: 32px/32px ls=normal w400 #333333 pad=3.2px 6.4px (n1)
+h4>code>strong
+   1440: 42px/42px ls=normal w700 #333333 (n1)
+   1280: 42px/42px ls=normal w700 #333333 (n1)
+   768: 32px/32px ls=normal w700 #333333 (n1)
+   390: 32px/32px ls=normal w700 #333333 (n1)
+p>a>em
+   1440: 20px/31px ls=normal w400 #002669 (n3)
+   1280: 20px/31px ls=normal w400 #002669 (n3)
+   768: 18px/27.9px ls=normal w400 #002669 (n3)
+   390: 18px/27.9px ls=normal w400 #002669 (n3)
+h5
+   1440: 20px/28px ls=normal w400 #000000 m=40px 0px 0px (n4); 20px/28px ls=normal w400 #000000 (n2)
+   1280: 20px/28px ls=normal w400 #000000 m=40px 0px 0px (n4); 20px/28px ls=normal w400 #000000 (n2)
+   768: 13px/18.2px ls=normal w400 #000000 m=40px 0px 0px (n4); 13px/18.2px ls=normal w400 #000000 (n2)
+   390: 13px/18.2px ls=normal w400 #000000 m=40px 0px 0px (n4); 13px/18.2px ls=normal w400 #000000 (n2)
+h5>strong
+   1440: 20px/28px ls=normal w400 #000000 (n4)
+   1280: 20px/28px ls=normal w400 #000000 (n4)
+   768: 13px/18.2px ls=normal w400 #000000 (n4)
+   390: 13px/18.2px ls=normal w400 #000000 (n4)
+h6
+   1440: 16px/22.4px ls=normal w400 #000000 m=40px 0px 0px (n1)
+   1280: 16px/22.4px ls=normal w400 #000000 m=40px 0px 0px (n1)
+   768: 12px/16.8px ls=normal w400 #000000 m=40px 0px 0px (n1)
+   390: 12px/16.8px ls=normal w400 #000000 m=40px 0px 0px (n1)
+tr>td>p>a
+   1440: 15px/22.5px ls=normal w400 #002669 (n3)
+   1280: 15px/22.5px ls=normal w400 #002669 (n3)
+   768: 15px/22.5px ls=normal w400 #002669 (n3)
+   390: 15px/22.5px ls=normal w400 #002669 (n3)
+codeblock div>span
+   1440: 14px/21px ls=normal w400 #eeeeee (n91)
+   1280: 14px/21px ls=normal w400 #eeeeee (n91)
+   768: 14px/21px ls=normal w400 #eeeeee (n91)
+   390: 14px/21px ls=normal w400 #eeeeee (n91)
+ol
+   1440: 16px/19.2px ls=normal w400 #000000 (n51)
+   1280: 16px/19.2px ls=normal w400 #000000 (n51)
+   768: 16px/19.2px ls=normal w400 #000000 (n51)
+   390: 16px/19.2px ls=normal w400 #000000 (n51)
+ol>li
+   1440: 42px/42px ls=normal w400 #000000 pad=0px 0px 0px 53.34px (n41); 20px/31px ls=normal w400 #4e606a pad=0px 0px 0px 24.6796px (n38); 26px/31.2px ls=-0.52px w500 #1c292d pad=0px 0px 0px 33.02px (n1)
+   1280: 42px/42px ls=normal w400 #000000 pad=0px 0px 0px 53.34px (n41); 20px/31px ls=normal w400 #4e606a pad=0px 0px 0px 24.6796px (n38); 26px/31.2px ls=-0.52px w500 #1c292d pad=0px 0px 0px 33.02px (n1)
+   768: 32px/32px ls=normal w400 #000000 pad=0px 0px 0px 40.64px (n41); 18px/27.9px ls=normal w400 #4e606a pad=0px 0px 0px 22.2116px (n38); 23px/27.6px ls=-0.46px w500 #1c292d pad=0px 0px 0px 29.21px (n1)
+   390: 32px/32px ls=normal w400 #000000 pad=0px 0px 0px 40.64px (n41); 18px/27.9px ls=normal w400 #4e606a pad=0px 0px 0px 22.2116px (n38); 23px/27.6px ls=-0.46px w500 #1c292d pad=0px 0px 0px 29.21px (n1)
+ol>li>p
+   1440: 20px/31px ls=normal w400 #4e606a (n38)
+   1280: 20px/31px ls=normal w400 #4e606a (n38)
+   768: 18px/27.9px ls=normal w400 #4e606a (n38)
+   390: 18px/27.9px ls=normal w400 #4e606a (n38)
+ol>li>p>strong
+   1440: 20px/31px ls=normal w700 #4e606a (n23)
+   1280: 20px/31px ls=normal w700 #4e606a (n23)
+   768: 18px/27.9px ls=normal w700 #4e606a (n23)
+   390: 18px/27.9px ls=normal w700 #4e606a (n23)
+blockquote
+   1440: 12px/normal ls=normal w400 #000000 m=20px 0px 0px pad=0px 0px 0px 24px (n1)
+   1280: 12px/normal ls=normal w400 #000000 m=20px 0px 0px pad=0px 0px 0px 24px (n1)
+   768: 12px/normal ls=normal w400 #000000 m=20px 0px 0px pad=0px 0px 0px 24px (n1)
+   390: 12px/normal ls=normal w400 #000000 m=20px 0px 0px pad=0px 0px 0px 24px (n1)
+blockquote>p
+   1440: 20px/40px ls=normal w400 #000000 (n1)
+   1280: 20px/40px ls=normal w400 #000000 (n1)
+   768: 20px/40px ls=normal w400 #000000 (n1)
+   390: 20px/40px ls=normal w400 #000000 (n1)
+h2>strong
+   1440: 34px/40.12px ls=-0.85px w600 #1c292d (n6)
+   1280: 34px/40.12px ls=-0.85px w600 #1c292d (n6)
+   768: 28px/33.04px ls=-0.7px w600 #1c292d (n6)
+   390: 28px/33.04px ls=-0.7px w600 #1c292d (n6)
+h3>strong
+   1440: 26px/31.2px ls=-0.52px w600 #1c292d (n35)
+   1280: 26px/31.2px ls=-0.52px w600 #1c292d (n35)
+   768: 23px/27.6px ls=-0.46px w600 #1c292d (n35)
+   390: 23px/27.6px ls=-0.46px w600 #1c292d (n35)
+tr>td>p>strong
+   1440: 15px/22.5px ls=normal w700 #4e606a (n11)
+   1280: 15px/22.5px ls=normal w700 #4e606a (n11)
+   768: 15px/22.5px ls=normal w700 #4e606a (n11)
+   390: 15px/22.5px ls=normal w700 #4e606a (n11)
+ol>li>h4
+   1440: 42px/42px ls=normal w400 #000000 (n41)
+   1280: 42px/42px ls=normal w400 #000000 (n41)
+   768: 32px/32px ls=normal w400 #000000 (n41)
+   390: 32px/32px ls=normal w400 #000000 (n41)
+ol>li>h4>strong
+   1440: 42px/42px ls=normal w700 #000000 (n37)
+   1280: 42px/42px ls=normal w700 #000000 (n37)
+   768: 32px/32px ls=normal w700 #000000 (n37)
+   390: 32px/32px ls=normal w700 #000000 (n37)
+h2>em
+   1440: 34px/40.12px ls=-0.85px w500 #1c292d (n1)
+   1280: 34px/40.12px ls=-0.85px w500 #1c292d (n1)
+   768: 28px/33.04px ls=-0.7px w500 #1c292d (n1)
+   390: 28px/33.04px ls=-0.7px w500 #1c292d (n1)
+h2>em>strong
+   1440: 34px/40.12px ls=-0.85px w700 #1c292d (n1)
+   1280: 34px/40.12px ls=-0.85px w700 #1c292d (n1)
+   768: 28px/33.04px ls=-0.7px w700 #1c292d (n1)
+   390: 28px/33.04px ls=-0.7px w700 #1c292d (n1)
+h1
+   1440: 40px/44.8px ls=-1.2px w500 #1c292d m=20px 0px 0px (n1)
+   1280: 40px/44.8px ls=-1.2px w500 #1c292d m=20px 0px 0px (n1)
+   768: 34px/38.08px ls=-1.02px w500 #1c292d m=20px 0px 0px (n1)
+   390: 34px/38.08px ls=-1.02px w500 #1c292d m=20px 0px 0px (n1)
+ol>li>p>a
+   1440: 20px/31px ls=normal w400 #002669 (n2)
+   1280: 20px/31px ls=normal w400 #002669 (n2)
+   768: 18px/27.9px ls=normal w400 #002669 (n2)
+   390: 18px/27.9px ls=normal w400 #002669 (n2)
+ol>li>h3
+   1440: 26px/31.2px ls=-0.52px w500 #1c292d (n1)
+   1280: 26px/31.2px ls=-0.52px w500 #1c292d (n1)
+   768: 23px/27.6px ls=-0.46px w500 #1c292d (n1)
+   390: 23px/27.6px ls=-0.46px w500 #1c292d (n1)
+ol>li>h4>a
+   1440: 42px/42px ls=normal w400 #002669 (n1)
+   1280: 42px/42px ls=normal w400 #002669 (n1)
+   768: 32px/32px ls=normal w400 #002669 (n1)
+   390: 32px/32px ls=normal w400 #002669 (n1)
+ul>li>p>a
+   1440: 20px/31px ls=normal w400 #002669 (n1)
+   1280: 20px/31px ls=normal w400 #002669 (n1)
+   768: 18px/27.9px ls=normal w400 #002669 (n1)
+   390: 18px/27.9px ls=normal w400 #002669 (n1)

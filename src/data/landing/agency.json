@@ -1,0 +1,143 @@
+{
+  "hero": {
+    "eyebrow": "FOR AGENCIES & LEAD-GEN TEAMS RUNNING 5+ CLIENT ACCOUNTS",
+    "h1Lines": [
+      "Keep the margin.",
+      "Keep the client."
+    ],
+    "sub": "Stop rebuilding a Clay + HeyReach + ChatGPT + PhantomBuster stack for every client. Valley brings warm signals, qualification, prospect research, your client’s voice, and outreach into one workflow per client—so your team can spend more time on the conversations you’re paid to create.",
+    "cta": {
+      "label": "Book a demo ↗",
+      "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b"
+    },
+    "art": "/assets/pages/product/5PTRAJLnFg6rsWb9IKzPm6tagrQ.png",
+    "poster": "/assets/pages/landing/yt/t9cYsNR2goo-maxresdefault.webp"
+  },
+  "margin": {
+    "eyebrow": "THE AGENCY MARGIN LEAK",
+    "h2": "The retainer is yours.\nThe overhead shouldn’t eat it.",
+    "lead": "Every new account can mean another round of API keys, enrichment tables, prompt writing, and sequence setup. Multiply the maintenance by your client count, and the work starts competing with the service you actually sell.",
+    "cards": [
+      {
+        "label": "01 / SETUP",
+        "title": "Win a client. Then onboard them again.",
+        "body": "API keys, Clay tables, sequence rebuilds, and tool connections add work before the first message goes out. Repeating that setup across five or ten accounts consumes the hours you could put into strategy and delivery.",
+        "answerLabel": "WITH VALLEY",
+        "answer": "Valley brings the steps together. Set the client’s audience, offer, and voice inside the same outbound workflow."
+      },
+      {
+        "label": "02 / RETENTION",
+        "title": "Your client buys conversations.",
+        "body": "Generic outreach is easy to send and hard to defend in a client review. When replies dry up, the agency has to explain what changed—and why the retainer is still worth paying.",
+        "answerLabel": "WITH VALLEY",
+        "answer": "Valley connects buying signals and prospect research to the message. Review what earns a reply and use that context to improve the next campaign."
+      },
+      {
+        "label": "03 / ACCOUNT CONTROL",
+        "title": "Their account. Your reputation.",
+        "body": "A client trusts your agency with their LinkedIn account and inbox. Sending more isn’t a strategy; the timing, audience, follow-ups, and replies all need a deliberate process.",
+        "answerLabel": "WITH VALLEY",
+        "answer": "Review messages, choose sequence timing, and work within sending limits. A reply stops the sequence so your team can take over the conversation."
+      }
+    ]
+  },
+  "workflow": {
+    "eyebrow": "MORE CLIENTS. LESS OPERATING OVERHEAD.",
+    "h2": "Add the next client.\nNot another stack to maintain.",
+    "lead": "Keep the work that makes your agency valuable: the offer, the strategy, and the client relationship. Let Valley connect the research, writing, and follow-up behind it.",
+    "steps": [
+      {
+        "img": "/assets/pages/product/5PTRAJLnFg6rsWb9IKzPm6tagrQ.png",
+        "num": "01",
+        "title": "A reason to reach out. For every client.",
+        "body": "Build each client’s audience from relevant buying signals, a play, or their own list. Valley qualifies prospects and researches the people worth reaching, so your team can spend less time assembling lists and more time refining the client’s offer."
+      },
+      {
+        "img": "/assets/img/zPOKyZnbl77fH6unSixkvRUOSOs.png",
+        "num": "02",
+        "title": "Their voice. Your agency’s standard.",
+        "body": "Give Valley the client’s offer, ideal customer, and writing style. Combine that voice with prospect-specific research, then review the messages before they go out. Each account gets its own context—not the same template with a different company name."
+      },
+      {
+        "img": "/assets/img/5WP0tI1lICNwC23waJVfpSCTTpE.png",
+        "num": "03",
+        "title": "Follow-through without the handoffs.",
+        "body": "Run LinkedIn and email sequences, manage replies, and review campaign results together. When a prospect replies, the sequence stops. Keep the research beside the conversation so your team can hand the client a useful next step, not another spreadsheet."
+      }
+    ]
+  },
+  "videoWall": {
+    "eyebrow": "REAL RESULTS FROM REAL AGENCIES",
+    "h2": "The proof is in\nyour clients’ pipeline.",
+    "cards": [
+      {
+        "poster": "/assets/pages/landing/yt/XJ-4VYbgO0M-maxresdefault.webp",
+        "company": "Growth Protocol:",
+        "companyHref": "./casestudies/how-growth-protocol-generated-150k-pipeline-in-4-months-with-valley",
+        "quote": "Valley remove the anxiety around weekly pipeline and sales review meetings. I just say “Look what I booked using Valley”"
+      },
+      {
+        "poster": "/assets/pages/landing/yt/bmTEE6d1oiI-maxresdefault.webp",
+        "company": "Tacnode:",
+        "companyHref": "./casestudies/how-tacnode-booked-25-meetings-per-month-with-valley",
+        "quote": "I’ve never used a tool like this before - we have Outreach, Seamless, but Valley has booked us more meetings than anything else."
+      },
+      {
+        "poster": "/assets/pages/landing/yt/Yr5M2U7JTkU-maxresdefault.webp",
+        "company": "ThinkFish:",
+        "companyHref": "./casestudies/how-thinkfish-books-380-400-meetings-monthly-with-valley",
+        "quote": "I care a lot about costs as an agency owner - Valley is far more effective than any other tool we could use for our clients."
+      },
+      {
+        "poster": "/assets/pages/landing/yt/19w3cPwB6cg-maxresdefault.webp",
+        "company": "Bolt.new",
+        "companyHref": "./casestudies/how-bolt.new-generated-seven-figures-in-pipeline-with-valley-in-under-60-days",
+        "quote": "Dude, even if the org won’t pay for this, I would invest with this out of my own money and just build pipeline. Then u can justify your raise going into 2026."
+      }
+    ]
+  },
+  "paths": {
+    "art": "/assets/pages/product/5PTRAJLnFg6rsWb9IKzPm6tagrQ.png",
+    "eyebrow": "THE AGENCY STACK COMPARISON",
+    "h2": "Three ways to run client outbound.\nThree very different workloads.",
+    "lead": "Compare what your team still has to do after choosing the software.",
+    "cards": [
+      {
+        "label": "PATH 01 / A SENDING TOOL",
+        "title": "HeyReach or Expandi",
+        "line": "Sending is covered. You do the rest.",
+        "body": "Your team finds prospects, researches each person and writes the messages.",
+        "ownsLabel": "YOUR TEAM OWNS",
+        "owns": "List quality, personalization and the tools feeding the sender."
+      },
+      {
+        "label": "PATH 02 / A DIY STACK",
+        "title": "A connected DIY stack",
+        "line": "Build it. Connect it. Maintain it.",
+        "body": "Trigify for signals. Clay for research. ChatGPT for drafts. A separate tool to send.",
+        "ownsLabel": "YOUR TEAM OWNS",
+        "owns": "Integrations, subscriptions and troubleshooting for every client."
+      },
+      {
+        "label": "PATH 03 / VALLEY",
+        "title": "One workflow per client",
+        "line": "The full workflow in one place.",
+        "body": "Find, qualify, research and message prospects. Keep replies and results with each campaign.",
+        "ownsLabel": "YOUR TEAM FOCUSES ON",
+        "owns": "Client strategy, message approval and the next conversation."
+      }
+    ],
+    "budget": {
+      "title": "One seat per client. A clear starting cost.",
+      "body": "Starter is $199 per seat monthly, or $149 per month billed quarterly ($447 per quarter). Five seats: $995 per month on monthly billing. Email, support and additional credits are optional.",
+      "cta": {
+        "label": "Book a demo →",
+        "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b"
+      }
+    },
+    "note": {
+      "title": "See Valley for agencies.",
+      "body": "A walkthrough of prospecting, personalized outreach and reporting across client accounts."
+    }
+  }
+}

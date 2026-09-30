@@ -1,0 +1,93 @@
+[
+ {
+  "i": 0,
+  "name": "Phone - Close",
+  "tag": "DIV",
+  "id": "Z2d0YOpMg-96do92",
+  "root": "",
+  "y": 0,
+  "h": 68,
+  "w": 390,
+  "pos": "fixed",
+  "text": "",
+  "sid": "nav"
+ },
+ {
+  "i": 1,
+  "name": "Frame 2085663185",
+  "tag": "DIV",
+  "id": "",
+  "root": "",
+  "y": 0,
+  "h": 658,
+  "w": 390,
+  "pos": "relative",
+  "text": "A NEW YORK SALES OS COMPANY Augmenting Sales Intelligence for the Next Generation",
+  "sid": "about-hero"
+ },
+ {
+  "i": 2,
+  "name": "Frame 2085663181",
+  "tag": "DIV",
+  "id": "",
+  "root": "svgContainer",
+  "y": 706,
+  "h": 1638.38,
+  "w": 390,
+  "pos": "relative",
+  "text": "Built by the outbound-obsessed. The game has changed for sales reps. Prospects are seeing ",
+  "sid": "mission"
+ },
+ {
+  "i": 3,
+  "name": "Frame 2147223576",
+  "tag": "DIV",
+  "id": "team",
+  "root": "svgContainer",
+  "y": 2392,
+  "h": 2441.59,
+  "w": 390,
+  "pos": "relative",
+  "text": "Our team CEO & Founder Head of Frontend Head of Backend Head of CX Software Engineer Desig",
+  "sid": "team"
+ },
+ {
+  "i": 4,
+  "name": "Frame 2147223575",
+  "tag": "DIV",
+  "id": "",
+  "root": "",
+  "y": 4834,
+  "h": 241.59,
+  "w": 390,
+  "pos": "relative",
+  "text": "Backed by great partners",
+  "sid": "backers"
+ },
+ {
+  "i": 5,
+  "name": "Frame 2085663186",
+  "tag": "DIV",
+  "id": "",
+  "root": "svgContainer",
+  "y": 5076,
+  "h": 250,
+  "w": 390,
+  "pos": "relative",
+  "text": "Valley is growing. Explore Roles Contact Us",
+  "sid": "hiring"
+ },
+ {
+  "i": 6,
+  "name": "Phone",
+  "tag": "DIV",
+  "id": "",
+  "root": "vf",
+  "y": 5326,
+  "h": 814.86,
+  "w": 390,
+  "pos": "relative",
+  "text": "Find your people. Give them a reason to reply. Find, qualify, research, and reach your nex",
+  "sid": "footer"
+ }
+]

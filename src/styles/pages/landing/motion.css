@@ -1,0 +1,100 @@
+/* Landing-page motion shared by the six landing routes (spec/pages/landing.md section 7).
+   Every curve here was measured on the live pages or read from the live Framer config, and
+   converted to linear() by sampling the spring:
+   - --lp-appear-ease: Framer "Appear" spring {stiffness 210, damping 70, mass 1} (zeta 2.415,
+     omega 14.49 rad/s; overdamped, p = .27 @100ms, .61 @300ms, .85 @600ms, .96 @1s). Sampled
+     over 2000ms (p = .998 at the end).
+   - --lp-rowin-ease: proof-ticker row appear spring {stiffness 200, damping 30}, 800ms.
+   - --lp-heading-ease: template hero "Heading" fade spring {stiffness 200, damping 35}, 1000ms.
+   - --lp-ticker-ease: proof-ticker row step, fitted to live frames (zeta .73, omega 18.9;
+     overshoot 2.8%, rms error .005), 600ms. */
+:root {
+  --lp-appear-ease: linear(0, 0.0084 0.5%, 0.0392 1.25%, 0.2215 4.75%, 0.324 7%, 0.4223 9.5%, 0.5139 12.25%, 0.5974 15.25%, 0.6718 18.5%, 0.7366 22%, 0.7951 26%, 0.848 30.75%, 0.8924 36.25%, 0.9296 43%, 0.9587 51.5%, 0.9803 63.25%, 0.9939 82%, 1);
+  --lp-rowin-ease: linear(0, 0.0059 1%, 0.0271 2.25%, 0.0672 3.75%, 0.1453 6%, 0.4088 12.75%, 0.5212 16%, 0.6104 19%, 0.6912 22.25%, 0.7569 25.5%, 0.8166 29.25%, 0.8676 33.5%, 0.9102 38.5%, 0.9439 44.5%, 0.9696 52.25%, 0.9876 63.5%, 0.9976 84%, 1);
+  --lp-heading-ease: linear(0, 0.0052 0.75%, 0.0251 1.75%, 0.0644 3%, 0.1454 5%, 0.3542 9.75%, 0.4618 12.5%, 0.5546 15.25%, 0.6327 18%, 0.7031 21%, 0.7646 24.25%, 0.8201 28%, 0.8698 32.5%, 0.9107 37.75%, 0.9441 44.25%, 0.9696 52.75%, 0.9874 65%, 0.9976 87.75%, 1);
+  --lp-ticker-ease: linear(0, 0.0061 1%, 0.0287 2.25%, 0.0647 3.5%, 0.1316 5.25%, 0.2356 7.5%, 0.522 13.25%, 0.645 16%, 0.7417 18.5%, 0.8151 20.75%, 0.8817 23.25%, 0.9335 25.75%, 0.9752 28.5%, 1.0056 31.5%, 1.0257 35%, 1.0346 39.5%, 1.0284 47%, 1.0048 63%, 0.9988 80.75%, 1);
+}
+
+/* ---------- Appear on scroll (M3) ----------
+   useLandingAppear() marks eligible [data-lp-appear] elements "hidden" before first paint and
+   flips them to "shown" from an IntersectionObserver: amount 0 = any intersection (the 15px
+   elements), amount .5 = half of the (translated) box visible (the 20px headings). Live runs
+   the same spring with a per-element delay (0 / .2 / .5 / .6 ... 1.4s) and no reduced-motion
+   override (measured with prefers-reduced-motion emulated). The offset uses the individual
+   `translate` property so it composes with any transform the element already has. The
+   :not(#id) only raises specificity above component transition rules (e.g. the case cards,
+   whose own hover transition is folded in through --lp-appear-extra). */
+[data-lp-appear][data-lp-appear-state='hidden']:not(#lp-appear-specificity) {
+  opacity: 0;
+  translate: 0 var(--lp-appear-y, 15px);
+}
+[data-lp-appear][data-lp-appear-state='shown']:not(#lp-appear-specificity) {
+  opacity: 1;
+  translate: 0 0;
+  transition:
+    opacity 2000ms var(--lp-appear-ease) var(--lp-appear-delay, 0s),
+    translate 2000ms var(--lp-appear-ease) var(--lp-appear-delay, 0s),
+    var(--lp-appear-extra, visibility 0s);
+}
+
+/* ---------- Template / agency hero load (Framer optimized appear, live JSON config) ----------
+   "Heading" fades opacity .001 -> 1 (spring 200/35, no delay); ticker row 1 rises 10px and
+   fades in (spring 200/30) after .5s. Live runs both regardless of reduced motion. */
+.lp-hero__heading[data-lp-load],
+.lp-ahero__heading[data-lp-load] {
+  animation: lp-heading-in 1000ms var(--lp-heading-ease) both;
+}
+@keyframes lp-heading-in {
+  from {
+    opacity: 0.001;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ---------- Hero proof ticker (M2) ---------- */
+.lp-proof__rows[data-lp-anim] {
+  overflow: hidden;
+  transition: width 600ms var(--lp-ticker-ease);
+}
+.lp-proof__rows[data-lp-anim] .lp-proof__row {
+  opacity: 0;
+  transform-origin: 0 0;
+  transition:
+    transform 600ms var(--lp-ticker-ease),
+    scale 600ms var(--lp-ticker-ease);
+}
+.lp-proof__rows[data-lp-anim] .lp-proof__row[data-shown] {
+  opacity: 1;
+}
+.lp-proof__rows[data-lp-anim][data-lp-snap],
+.lp-proof__rows[data-lp-anim][data-lp-snap] .lp-proof__row {
+  transition: none;
+}
+.lp-proof__rows[data-lp-anim] .lp-proof__row:first-child {
+  animation: lp-rowin 800ms var(--lp-rowin-ease) 500ms both;
+}
+@keyframes lp-rowin {
+  from {
+    opacity: 0.001;
+    translate: 0 10px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+/* ---------- YouTube facade hover (live: the Framer YouTube play button) ----------
+   The play-button background path turns #f00 at full fill-opacity on hover and back to
+   #212121 / .8 on leave: fill + fill-opacity .1s cubic-bezier(.4, 0, 1, 1), both ways. */
+.lp-yt__play-bg {
+  transition:
+    fill 0.1s cubic-bezier(0.4, 0, 1, 1),
+    fill-opacity 0.1s cubic-bezier(0.4, 0, 1, 1);
+}
+.lp-yt:hover .lp-yt__play-bg {
+  fill: #f00;
+  fill-opacity: 1;
+}

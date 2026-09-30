@@ -1,0 +1,18 @@
+{
+  "id": "cards.related-compact",
+  "layer": "section",
+  "purpose": "Compact 'more posts'/'more case studies' card strip, used as the blog-index 'Case Studies' strip and as the casestudy detail's 'More Case Studies' footer strip.",
+  "composes": ["card-base"],
+  "measuredFrom": "spec/pages/blog-index.md (List > Blog List, 'Case Studies' strip); spec/pages/casestudy.md (More Blogs)",
+  "content": {
+    "type": "object",
+    "properties": { "items": { "type": "array", "minItems": 1, "maxItems": 6 } },
+    "required": ["items"],
+    "additionalProperties": false
+  },
+  "constraints": { "maxPerPage": 1 },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {
+    "customer-logo": { "enum": "customer-logo", "generationPolicy": "must-reuse-exact", "guidance": "Real company trademarks when representing a real case study; never AI-generate or alter." }
+  }
+}

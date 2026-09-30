@@ -1,0 +1,734 @@
+{
+  "description": "One entry per distinct real PAGE SHAPE observed on joinvalley.co, not one per route. 530 real routes map to exactly these 16 template shapes. Every node is a structured object ({section, required, repeatable}), never a bare string, so required/repeatable are machine-enforceable.",
+  "routeCountMath": "6 main pages (home/pricing/product/about/compare/playbooks) + 3 landing-template routes (1 shape) + 3 other unique landing pages (agency/tryvalley/automation, 3 shapes) + blog-index (1) + blog-archive (1) + 492 blog-post routes (1 shape) + casestudies-index (1) + 21 casestudy routes (1 shape) + 2 legal routes (1 shape) = 6+3+3+1+1+492+1+21+2 = 530 total real routes, mapped to 16 template shapes",
+  "measuredFrom": "src/App.jsx:1-58 (route table); spec/pages/landing.md:34-52 (template decision)",
+  "templates": {
+    "template.home": {
+      "routes": [
+        "/"
+      ],
+      "measuredFrom": "src/pages/Home.jsx:1-29; CLONE_SPEC.md:56-74",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.marketing",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "logos.wall",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "stories.rotating",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "endorsement.pinned",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "steps.walkthrough",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "jobs.stack",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "showcase.product",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "integrations.tools",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "team-fit.panel",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "wall-of-love.grid",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "pricing.plans-faq",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "closing-cta.form",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "template.pricing": {
+      "routes": [
+        "/pricing"
+      ],
+      "measuredFrom": "spec/pages/pricing.md",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.page-simple",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "pricing.plans-toggle",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "template.product": {
+      "routes": [
+        "/product"
+      ],
+      "measuredFrom": "spec/pages/product.md",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.page-simple",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "logos.wall",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "showcase.product",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "product.workflow-rows",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "stories.rotating",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "comparison.widget",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "template.about": {
+      "routes": [
+        "/about"
+      ],
+      "measuredFrom": "spec/pages/about.md",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.page-simple",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.mission",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.team-grid",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.backers",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.hiring-cta",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "template.compare": {
+      "routes": [
+        "/compare"
+      ],
+      "measuredFrom": "spec/pages/compare.md",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "comparison.widget",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "template.playbooks": {
+      "routes": [
+        "/playbooks"
+      ],
+      "measuredFrom": "spec/pages/playbooks.md",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "playbooks.library",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "template.landing-seo-template": {
+      "routes": [
+        "/linkedin-lead-generation-for-b2b-saas",
+        "/lead-generation-for-software-companies",
+        "/lead-generation-for-content-agencies"
+      ],
+      "routeCount": 3,
+      "note": "DOM trees identical node-for-node per spec/pages/landing.md section 1 ('Their DOM trees are identical node for node... They differ only in copy'). Rendered by one component (LandingTemplate.jsx) parameterized by slug.",
+      "measuredFrom": "spec/pages/landing.md:34-52,103-298; src/pages/landing/LandingTemplate.jsx",
+      "nodes": [
+        {
+          "section": "landing.sticky-bar",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.landing-template",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cards.feature-tiles",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "logos.migrated",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "landing.problem-cards",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cards.video-wall",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cards.case-banner",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "comparison.landing-cards",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "landing.hubspot-demo",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "faq.flat-panel-standalone",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "template.landing-agency": {
+      "routes": [
+        "/linkedin-outreach-for-agencies"
+      ],
+      "measuredFrom": "spec/pages/landing.md:299-425",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.agency",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "logos.migrated",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "agency.margin-cards",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "agency.workflow-steps",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cards.video-wall",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cards.case-banner",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "agency.paths",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "comparison.widget",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "faq.flat-panel-standalone",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "template.landing-tryvalley": {
+      "routes": [
+        "/tryvalley"
+      ],
+      "measuredFrom": "spec/pages/landing.md:427-493",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "form.contact",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cards.logo-case-popup",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "valley-magic.calendar",
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "wall-of-love.marquee-ticker",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "faq.flat-panel-standalone",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "nodeNote": "valley-magic.calendar is required:false because it is display:none below 1200px viewport (desktop-only), per spec/pages/landing.md:462,480 — it is always present in the DOM but structurally optional to render for a generator targeting a mobile-only experience."
+    },
+    "template.landing-automation": {
+      "routes": [
+        "/linkedin-automation"
+      ],
+      "measuredFrom": "spec/pages/landing.md:495-542 (section 6: order and per-section detail); spec/pages/landing.md:695-718 (section 11: measured heights; valley-magic is absent from the 768/390 lists); spec/pages/landing.md:720-732 (section 12: could-not-capture notes); src/pages/landing/LinkedinAutomation.jsx",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.automation",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cards.logo-case-popup",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "automation.feature-cards",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "automation.step-rows",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "automation.case-bento",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "automation.quote-reveal",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "automation.product-tabs",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "valley-magic.calendar",
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "automation.hubspot-calendar",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "wall-of-love.marquee-ticker",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "faq.flat-panel-standalone",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "template.blog-index": {
+      "routes": [
+        "/blog"
+      ],
+      "measuredFrom": "spec/pages/blog-index.md",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.page-simple",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.research-library",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cards.blog-grid",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cards.related-compact",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "faq.flat-panel-standalone",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "template.blog-archive": {
+      "routes": [
+        "/blog/archive"
+      ],
+      "note": "Bare top-level route, NOT wrapped in Layout (src/App.jsx:29 is outside the <Route element={<Layout/>}> wrapper). No shared nav/footer chrome.",
+      "measuredFrom": "src/App.jsx:29; spec/pages/blog-index.md (covers /blog/archive as the same template file, bare list variant)",
+      "nodes": [
+        {
+          "section": "cards.blog-grid",
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "template.blog-post": {
+      "routes": [
+        "/blog/:slug"
+      ],
+      "routeCount": 492,
+      "note": "492 real routes, ONE template shape, per spec/pages/blog/posts.json (count: 492, len(posts)==492).",
+      "measuredFrom": "spec/pages/blog-post.md; spec/pages/blog/posts.json",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.post-header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.article-body",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.blog-cta",
+          "required": false,
+          "repeatable": true
+        },
+        {
+          "section": "cards.related-compact",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "template.casestudies-index": {
+      "routes": [
+        "/casestudies"
+      ],
+      "measuredFrom": "spec/pages/casestudies-index.md",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.page-simple",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cards.casestudy-grid",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cards.video-testimonials",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cards.customer-logo-band",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "faq.flat-panel-standalone",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "template.casestudy": {
+      "routes": [
+        "/casestudies/:slug"
+      ],
+      "routeCount": 21,
+      "note": "21 real routes, ONE template shape, per spec/pages/casestudies/cases.json (count: 21, confirmed not 22 against sitemap.xml).",
+      "measuredFrom": "spec/pages/casestudy.md; spec/pages/casestudies/cases.json",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "casestudy.hero-stats",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.article-body",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "casestudy.result-stats",
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.blog-cta",
+          "required": false,
+          "repeatable": true
+        },
+        {
+          "section": "cards.related-compact",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.waitlist-band",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "faq.accordion-detailed",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "template.legal": {
+      "routes": [
+        "/terms-of-service",
+        "/privacy-policy"
+      ],
+      "measuredFrom": "spec/pages/legal.md",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.legal-prose",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    }
+  },
+  "noHeroTemplates": [
+    "template.blog-archive",
+    "template.compare",
+    "template.playbooks",
+    "template.legal"
+  ],
+  "noHeroTemplatesNote": "template.compare and template.playbooks and template.legal have no marketing hero section (they open directly with the widget/library/prose). template.blog-archive has no chrome at all. These must be exempted from any blanket ONE_HERO_PER_PAGE-style rule in compatibility/graph.json — see compatibility/graph.json's own exception list, kept in sync with this note per MASTER-GUIDE.md 3.8/3.18.",
+  "deadRouteShim": {
+    "route": "/blog_featured/*",
+    "behavior": "Navigate replace to /blog (React Router shim reproducing a real 308 redirect the live site performs)",
+    "measuredFrom": "src/App.jsx:47",
+    "note": "Deliberate dead-route redirect shim, NOT a missing template — do not build a blog-featured template."
+  }
+}

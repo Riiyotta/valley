@@ -1,0 +1,91 @@
+{
+  "id": "automation.step-rows",
+  "layer": "section",
+  "purpose": "5-row numbered step list with a flow-diagram panel, unique to /linkedin-automation.",
+  "composes": [
+    "button"
+  ],
+  "measuredFrom": "spec/pages/landing.md:517-519; spec/pages/ASSETS_GAPFILL.md:55; src/components/landing/automation/Steps.jsx:11-53",
+  "content": {
+    "type": "object",
+    "properties": {
+      "label": {
+        "type": "string",
+        "maxWords": 6
+      },
+      "h3": {
+        "type": "string",
+        "maxWords": 10
+      },
+      "steps": {
+        "type": "array",
+        "minItems": 5,
+        "maxItems": 5,
+        "items": {
+          "type": "object",
+          "properties": {
+            "stepLabel": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string",
+              "maxWords": 16
+            }
+          },
+          "required": [
+            "stepLabel",
+            "text"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "ctaLabel": {
+        "type": "string",
+        "maxWords": 4
+      },
+      "ctaHref": {
+        "type": "string",
+        "const": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b"
+      }
+    },
+    "required": [
+      "h3",
+      "steps"
+    ],
+    "additionalProperties": false
+  },
+  "constraints": {
+    "onePerPage": true,
+    "routeRestriction": "automationOnly"
+  },
+  "motion": {
+    "pattern": "rive-state-machine",
+    "reducedMotionFallback": "show the diagram's final frame (message card with its callouts), static.",
+    "measuredFrom": "spec/pages/ASSETS_GAPFILL.md:55",
+    "note": "Starts paused. Plays once the section is at least 50% visible, pauses when it leaves, never restarts, and holds its final frame after about 6s. Runtime @rive-app/webgl2 2.27.5."
+  },
+  "assetRoles": {
+    "flow-diagram": {
+      "enum": "brand-animation",
+      "generationPolicy": "must-reuse-exact",
+      "guidance": "Artboard 'flow' of 2s4AJnvpSsn8LzY6toNdF1nb84.riv: LINKEDIN / WEBSITE / SALES / LEADS -> Valley -> message card."
+    },
+    "panel-background": {
+      "enum": "hero-visual-art",
+      "generationPolicy": "may-generate-new",
+      "guidance": "Blue watercolor panel behind the diagram; safe to AI-generate."
+    }
+  },
+  "pinnedValueNote": "ctaHref is PINNED (const) to the real Surface endpoint.",
+  "responsive": {
+    "desktop": {
+      "minWidth": 1280,
+      "canvasPx": "594x700"
+    },
+    "belowDesktop": {
+      "maxWidth": 1279.98,
+      "canvasPx": "424x500"
+    },
+    "measuredFrom": "spec/pages/ASSETS_GAPFILL.md:55"
+  }
+}

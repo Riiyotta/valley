@@ -1,0 +1,27 @@
+{
+  "id": "form.contact",
+  "layer": "section",
+  "purpose": "Two-column demo-request contact form, unique to /tryvalley.",
+  "composes": ["input", "button", "avatar", "icon"],
+  "measuredFrom": "spec/pages/landing.md:435-448",
+  "content": {
+    "type": "object",
+    "properties": {
+      "headline": { "type": "string", "maxWords": 10 },
+      "subline": { "type": "string", "maxWords": 20 },
+      "checkItems": { "type": "array", "maxItems": 2 },
+      "quote": { "type": "string", "maxWords": 20 },
+      "personName": { "type": "string", "maxWords": 4 },
+      "personRole": { "type": "string", "maxWords": 10 },
+      "submitLabel": { "type": "string", "maxWords": 4 }
+    },
+    "required": ["headline", "submitLabel"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "mustBeFirstAfterNav": true, "routeRestriction": "tryvalleyOnly" },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {
+    "employee-photo": { "enum": "employee-photo", "generationPolicy": "must-not-fabricate", "guidance": "Real named employee (e.g. Jason Hardman); never fabricate a likeness." }
+  },
+  "note": "Form posts to the Surface flow via src/components/longform/formSubmit.js: browser-native constraint validation only (form.reportValidity()), then window.location.assign to the real endpoint. No field values are stored or forwarded by the clone."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "agency.margin-cards",
+  "layer": "section",
+  "purpose": "3-card 'agencyMargin' setup/answer cards, unique to /linkedin-outreach-for-agencies.",
+  "measuredFrom": "spec/pages/landing.md:325-338",
+  "content": {
+    "type": "object",
+    "properties": {
+      "eyebrow": { "type": "string", "maxWords": 6 },
+      "h2": { "type": "string", "maxWords": 10 },
+      "lead": { "type": "string", "maxWords": 24 },
+      "cards": { "type": "array", "minItems": 3, "maxItems": 3, "items": { "type": "object", "properties": { "label": { "type": "string", "maxWords": 4 }, "h3": { "type": "string", "maxWords": 10 }, "body": { "type": "string", "maxWords": 24 }, "answerLabel": { "type": "string", "maxWords": 4 }, "answerLine": { "type": "string", "maxWords": 16 } }, "required": ["h3", "body"], "additionalProperties": false } }
+    },
+    "required": ["h2", "cards"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "agencyLandingOnly" },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {}
+}

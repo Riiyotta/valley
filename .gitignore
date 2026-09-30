@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.dev.log
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+# Regenerated from design-repo/; never commit alongside the live folder.
+design-repo.zip

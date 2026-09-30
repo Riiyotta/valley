@@ -1,0 +1,19 @@
+{
+  "id": "shell.footer",
+  "layer": "section",
+  "purpose": "Closing site-wide chrome: secondary navigation, legal links, brand sign-off.",
+  "composes": ["footer-chrome"],
+  "measuredFrom": "CLONE_SPEC.md section 18; spec/GRID.md:192-195",
+  "content": {
+    "type": "object",
+    "properties": {
+      "heading": { "type": "string", "maxWords": 8 },
+      "columns": { "type": "array", "minItems": 3, "maxItems": 3, "items": { "type": "object", "properties": { "title": { "type": "string", "maxWords": 3 }, "links": { "type": "array", "maxItems": 8, "items": { "type": "string" } } }, "required": ["title", "links"], "additionalProperties": false } }
+    },
+    "required": ["heading", "columns"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "mustBeLast": true },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a, no motion on this section" },
+  "assetRoles": {}
+}

@@ -1,0 +1,50 @@
+{
+  "id": "cards.blog-grid",
+  "layer": "section",
+  "purpose": "Paginated CMS-list grid of blog post cards, on /blog and /blog/archive. Field shape follows the real posts.json record exactly.",
+  "composes": ["card-base", "badge"],
+  "measuredFrom": "spec/pages/blog/posts.json (492 posts, real field shape); spec/pages/blog-index.md (List > All Blogs)",
+  "content": {
+    "type": "object",
+    "properties": {
+      "posts": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "order": { "type": "integer" },
+            "slug": { "type": "string" },
+            "title": { "type": "string", "maxWords": 20 },
+            "dateDisplayed": { "type": "string" },
+            "author": { "type": "string", "maxWords": 4 },
+            "authorDisplayed": { "type": "string", "maxWords": 2 },
+            "authorAvatar": { "type": "string" },
+            "cardLabel": { "type": "string", "maxWords": 4, "optional": true },
+            "readTime": { "type": "string", "maxWords": 3 },
+            "excerpt": { "type": "string", "maxWords": 40 },
+            "cardImage": { "type": ["string", "null"] },
+            "cardUsesPattern": { "type": "boolean" }
+          },
+          "required": ["order", "slug", "title", "dateDisplayed", "author", "excerpt"],
+          "additionalProperties": true
+        }
+      }
+    },
+    "required": ["posts"],
+    "additionalProperties": false
+  },
+  "contentPolicy": {
+    "measuredRealFields": ["order", "slug", "title", "dateDisplayed", "author", "authorDisplayed", "category", "cardLabel", "readTime", "excerpt", "seoTitle"],
+    "note": "Card metadata fields ARE measured-real from posts.json. Only the linked post's own long-form BODY is generated placeholder (see sections/content-article-body.json)."
+  },
+  "constraints": { "onePerPage": true },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {
+    "author-photo": {
+      "enum": "author-photo",
+      "generationPolicy": "must-not-fabricate",
+      "guidance": "COMPLIANCE: authorAvatar fields point to real framerusercontent.com photos of real named authors (e.g. Saniya Sood). Never AI-generate a fabricated likeness of a real person; use the licensed real photo or a generic placeholder avatar for fictional authors only."
+    },
+    "card-image": { "enum": "editorial-card-image", "generationPolicy": "may-generate-new", "guidance": "Editorial illustration/photo for a blog card; safe to AI-generate new, brand-neutral imagery." }
+  }
+}

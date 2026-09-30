@@ -1,0 +1,17 @@
+{
+  "id": "cards.feature-tiles",
+  "layer": "section",
+  "purpose": "4-tile feature-highlight row, on the SEO landing-template routes only.",
+  "measuredFrom": "spec/pages/landing.md:168-178",
+  "content": {
+    "type": "object",
+    "properties": { "tiles": { "type": "array", "minItems": 4, "maxItems": 4, "items": { "type": "object", "properties": { "title": { "type": "string", "maxWords": 6 }, "tag": { "type": "string", "maxWords": 6 } }, "required": ["title"], "additionalProperties": false } } },
+    "required": ["tiles"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "landingSeoTemplateOnly" },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {
+    "tile-texture-bg": { "enum": "hero-visual-art", "generationPolicy": "may-generate-new", "guidance": "Abstract dark grain texture background; safe to AI-generate." }
+  }
+}

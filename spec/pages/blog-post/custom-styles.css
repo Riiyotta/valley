@@ -1,0 +1,15 @@
+/* ==== <style type=text/css data-framer-css=true> in HEAD.[] (0 chars) ==== */
+
+
+/* ==== <style > in DIV.[] (1766 chars) ==== */
+
+[data-framer-component-type="RichTextContainer"] figure:has(table){display:block!important;width:100%!important;max-width:100%!important;overflow-x:auto!important;margin:28px 0!important;padding-bottom:12px;overscroll-behavior-x:contain;scrollbar-color:#657e89 #e7edeb;scrollbar-width:auto}
+[data-framer-component-type="RichTextContainer"] figure:has(table)::before{content:"Compare the details · Scroll across to see every column →";display:block;position:sticky;left:0;margin-bottom:14px;font-size:13px;line-height:1.5;color:#53676e}
+[data-framer-component-type="RichTextContainer"] table{width:100%!important;min-width:740px!important;table-layout:fixed!important;border-collapse:collapse!important;font-size:15px!important;line-height:1.5!important}
+[data-framer-component-type="RichTextContainer"] table:has(tr>:nth-child(5)){min-width:1440px!important}
+[data-framer-component-type="RichTextContainer"] :is(td,th){padding:18px 20px!important;text-align:left!important;vertical-align:top!important;border:1px solid #d5dedb!important;word-break:normal!important;overflow-wrap:normal!important;background:#fbfcf9;color:#35494f}
+[data-framer-component-type="RichTextContainer"] th,[data-framer-component-type="RichTextContainer"] tr:first-child>td{background:#e8eeea!important;font-weight:500!important;color:#20373b!important}
+[data-framer-component-type="RichTextContainer"] :is(td,th) :is(p,a,strong,span){font-size:15px!important;line-height:1.5!important;letter-spacing:0!important;word-break:normal!important;overflow-wrap:normal!important}
+[data-framer-component-type="RichTextContainer"] :is(td,th) p+p{margin-top:8px!important}
+[data-framer-component-type="RichTextContainer"] figure:has(table):focus-visible{outline:2px solid #416f91;outline-offset:5px}
+

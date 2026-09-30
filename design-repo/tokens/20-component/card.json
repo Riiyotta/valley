@@ -1,0 +1,14 @@
+{
+  "category": "component-token",
+  "component": "card",
+  "description": "Component-scoped card surface/border/radius overrides.",
+  "measuredFrom": "CLONE_SPEC.md:155,157-163; spec/pages/blog-index.md; spec/pages/casestudies-index.md",
+  "variants": {
+    "card-default": { "bg": "surface.card", "border": "line.default", "radius": "radius.none" },
+    "card-hero-chip": { "bg": "surface.card", "radius": "radius.chip", "shadow": "shadow.hero-chip" },
+    "card-hero": { "bg": "surface.card", "radius": "radius.card", "shadow": "shadow.hero-card" },
+    "card-showcase": { "bg": "surface.shell", "radius": "radius.showcase-card", "shadow": "shadow.showcase-shell" },
+    "card-blog": { "bg": "surface.card", "border": "line.default", "radius": "radius.none", "usage": "BlogCard, CaseStudyCard grids" },
+    "card-tooltip": { "bg": "surface.card", "radius": "radius.card", "shadow": "shadow.tooltip" }
+  }
+}

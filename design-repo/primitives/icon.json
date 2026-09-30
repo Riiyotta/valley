@@ -1,0 +1,10 @@
+{
+  "id": "icon",
+  "layer": "primitive",
+  "description": "Small vector glyph (checkmark, arrow, play button, dot, star tile).",
+  "measuredFrom": "tokens/00-foundation/icon-size.json",
+  "props": {
+    "name": { "type": "string", "enum": ["checkmark", "arrow-right", "arrow-up-right", "play", "dot-blink", "star-tile", "hamburger", "close"] },
+    "size": { "type": "string", "enum": ["icon.dot-blink", "icon.checkmark", "icon.avatar-sm", "icon.favicon-chip", "icon.star-tile", "icon.play-button"] }
+  }
+}

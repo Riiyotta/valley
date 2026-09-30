@@ -1,0 +1,11 @@
+{
+  "id": "logo-grid",
+  "layer": "component",
+  "description": "Grid of logo-mark primitives, the base for the homepage Logos section and landing-page 'Logos Variant 1' migrated grid.",
+  "composes": ["logo-mark", "badge"],
+  "measuredFrom": "CLONE_SPEC.md section 9; spec/pages/landing.md:180-194",
+  "props": {
+    "columns": { "type": "number" },
+    "items": { "type": "array" }
+  }
+}

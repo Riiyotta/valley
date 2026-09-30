@@ -1,0 +1,20 @@
+{
+  "id": "conversion.blog-cta",
+  "layer": "section",
+  "purpose": "Inline 'Try Valley' CTA card embedded mid-article inside blog-post and casestudy long-form bodies.",
+  "measuredFrom": "src/components/longform/InlineCtaCard.jsx; src/components/longform/TryValleyForm.jsx; src/components/longform/formSubmit.js",
+  "content": {
+    "type": "object",
+    "properties": {
+      "heading": { "type": "string", "maxWords": 10 },
+      "ctaLabel": { "type": "string", "maxWords": 4 },
+      "ctaHref": { "type": "string", "const": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b" }
+    },
+    "required": ["heading", "ctaLabel", "ctaHref"],
+    "additionalProperties": false
+  },
+  "constraints": { "maxPerPage": 2 },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {},
+  "pinnedValueNote": "ctaHref is PINNED (const) to the real live Surface form endpoint, per MASTER-GUIDE.md 3.23. Never rewrite to a different-but-valid URL."
+}

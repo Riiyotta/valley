@@ -1,0 +1,40 @@
+[
+ {
+  "i": 0,
+  "name": "Phone - Close",
+  "tag": "DIV",
+  "id": "Z2d0YOpMg-96do92",
+  "root": "",
+  "y": 0,
+  "h": 68,
+  "w": 768,
+  "pos": "sticky",
+  "text": "",
+  "sid": "nav"
+ },
+ {
+  "i": 1,
+  "tag": "SECTION",
+  "id": "",
+  "root": "vpl-hero",
+  "y": 68,
+  "h": 11339.47,
+  "w": 768,
+  "pos": "relative",
+  "text": "THE VALLEY PLAYBOOK LIBRARY A better reason to reach out. A play for every one. Ready-to-r",
+  "sid": "playbooks"
+ },
+ {
+  "i": 2,
+  "name": "Phone",
+  "tag": "DIV",
+  "id": "",
+  "root": "vf",
+  "y": 11407,
+  "h": 643.09,
+  "w": 768,
+  "pos": "relative",
+  "text": "Find your people. Give them a reason to reply. Find, qualify, research, and reach your nex",
+  "sid": "footer"
+ }
+]

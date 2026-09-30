@@ -1,0 +1,89 @@
+{
+ "io": [],
+ "scroll": [
+  {
+   "type": "scroll",
+   "on": "window",
+   "fn": "function () {\n    var h = document.body.scrollHeight - window.innerHeight;\n    if (h <= 0) return;\n    var pct = Math.round((window.scrollY / h) * 100);\n    [50, 75, 90].forEach(function (mark) {\n      if (pct >= mark && !fired[mark]) {\n        fired[mark] = true;\n        push('scroll_depth', { depth: mark });\n      }\n    });\n  }"
+  },
+  {
+   "type": "resize",
+   "on": "window",
+   "fn": "function c(){NL(a,b);OL(c,!0)}"
+  },
+  {
+   "type": "resize",
+   "on": "DIV",
+   "fn": "function () { [native code] }"
+  },
+  {
+   "type": "scroll",
+   "on": "DIV",
+   "fn": "function () { [native code] }"
+  },
+  {
+   "type": "wheel",
+   "on": "DIV",
+   "fn": "function () { [native code] }"
+  },
+  {
+   "type": "wheel",
+   "on": "DIV",
+   "fn": "function () { [native code] }"
+  },
+  {
+   "type": "resize",
+   "on": "window",
+   "fn": "()=>{let e=p.innerWidth;e!==r&&(r=e,this.root.updateBlockedByResize=!0,n&&n(),n=_i(i,250),zd.hasAnimatedSinceResize&&(zd.hasAnimatedSinceResize=!1,this.nodes.forEach(Mi)))}"
+  },
+  {
+   "type": "resize",
+   "on": "BODY",
+   "fn": "function () { [native code] }"
+  },
+  {
+   "type": "scroll",
+   "on": "BODY",
+   "fn": "function () { [native code] }"
+  },
+  {
+   "type": "wheel",
+   "on": "BODY",
+   "fn": "function () { [native code] }"
+  },
+  {
+   "type": "wheel",
+   "on": "BODY",
+   "fn": "function () { [native code] }"
+  },
+  {
+   "type": "scroll",
+   "on": "window",
+   "fn": "function(){clearTimeout(sdt);sdt=setTimeout(tsc,100)}"
+  },
+  {
+   "type": "scroll",
+   "on": "window",
+   "fn": "()=>{this.recordActivity()}"
+  },
+  {
+   "type": "scroll",
+   "on": "window",
+   "fn": "()=>{this.recordActivity()}"
+  },
+  {
+   "type": "scroll",
+   "on": "window",
+   "fn": "()=>{this.recordActivity()}"
+  }
+ ],
+ "anims": [
+  {
+   "name": "Animation",
+   "target": "framer-la0u6f-container",
+   "dur": 500,
+   "iter": 1,
+   "state": "finished"
+  }
+ ]
+}

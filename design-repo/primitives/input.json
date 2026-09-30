@@ -1,0 +1,12 @@
+{
+  "id": "input",
+  "layer": "primitive",
+  "description": "Text/email form field, used by the contact form (tryvalley), compare-widget search, and pricing calculator inputs.",
+  "measuredFrom": "spec/pages/landing.md:443-447 (tryvalley form fields), 396 (.vc-picker search input)",
+  "props": {
+    "type": { "type": "string", "enum": ["text", "email", "search"] },
+    "placeholder": { "type": "string", "maxLength": 40 },
+    "required": { "type": "boolean" }
+  },
+  "validation": "browser-native constraint validation only (form.reportValidity()), per src/components/longform/formSubmit.js — no custom JS validation library"
+}

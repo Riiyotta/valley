@@ -1,0 +1,300 @@
+/* .vot* code component. Verbatim from the component source embedded in
+   spec/pages/product/source/d9S_C34X...mjs (the live stylesheet; same values as
+   spec/pages/product/components.css). Only change: remote font/image URLs point at local copies. */
+
+@font-face {
+  font-family: "Valley Body Montreal";
+  src: url("/assets/fonts/4U27qiCuAgm6sc2vgHfWPBCGc.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+.valley-outbound-team {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  container-type: inline-size;
+  color: #1c292d;
+  font-family: "PP Neue Montreal",Arial,sans-serif;
+  font-size: 19px;
+  line-height: 1.45;
+}
+
+.valley-outbound-team * {
+  box-sizing: border-box;
+}
+
+.vot-intro {
+  display: grid;
+  grid-template-columns: minmax(0,.8fr) minmax(0,1.2fr);
+  gap: 64px;
+  align-items: center;
+  padding: 52px 0 64px;
+}
+
+.vot-copy small {
+  display: block;
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: .05em;
+  color: #3275b5;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+
+.vot-copy h2 {
+  font-size: 52px;
+  line-height: 1.06;
+  letter-spacing: -.042em;
+  font-weight: 500;
+  margin: 0;
+  max-width: 600px;
+}
+
+.vot-copy p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #4e606a;
+  max-width: 460px;
+  margin: 24px 0 0;
+}
+
+.vot-org {
+  background: #1a3037;
+  color: #fff;
+  padding: 34px 36px;
+  display: grid;
+  grid-template-columns: 1.3fr .7fr;
+  align-items: center;
+  gap: 34px;
+  position: relative;
+  isolation: isolate;
+}
+
+.vot-roles {
+  position: relative;
+}
+
+.vot-role {
+  padding: 13px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  border-bottom: 1px solid #ffffff23;
+}
+
+.vot-role:last-child {
+  border-bottom: 0;
+}
+
+.vot-role strong {
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.vot-role span {
+  font-size: 14px;
+  color: #bbcecf;
+  line-height: 1.4;
+}
+
+.vot-valley {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid #b9d3ce70;
+  padding-left: 34px;
+  height: 75%;
+  min-height: 220px;
+}
+
+.vot-valley:before {
+  content: "";
+  position: absolute;
+  left: -1px;
+  top: 50%;
+  width: 24px;
+  height: 1px;
+  background: #b9d3ce;
+}
+
+.vot-valley svg {
+  width: 55px;
+  height: 52px;
+}
+
+.vot-valley strong {
+  font-size: 29px;
+  font-weight: 500;
+  letter-spacing: -.03em;
+  margin-top: 8px;
+}
+
+.vot-valley span {
+  font-size: 13px;
+  color: #bbcecf;
+  line-height: 1.4;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.vot-org:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: radial-gradient(ellipse at top right,#416a7442,transparent 70%);
+  pointer-events: none;
+}
+
+@container (max-width:1100px) {
+  .vot-copy h2 {
+    font-size: 44px;
+  }
+  .vot-copy p {
+    font-size: 19px;
+  }
+  .vot-intro {
+    gap: 48px;
+  }
+  .vot-org {
+    padding: 28px;
+    gap: 26px;
+  }
+  .vot-valley {
+    padding-left: 26px;
+  }
+  .vot-role strong {
+    font-size: 19px;
+  }
+  .vot-role span {
+    font-size: 13px;
+  }
+}
+
+@container (max-width:900px) {
+  .vot-intro {
+    gap: 36px;
+  }
+  .vot-copy h2 {
+    font-size: 38px;
+  }
+  .vot-org {
+    padding: 24px;
+    gap: 22px;
+  }
+  .vot-valley {
+    padding-left: 22px;
+  }
+  .vot-valley:before {
+    width: 14px;
+  }
+  .vot-valley svg {
+    width: 42px;
+    height: 40px;
+  }
+  .vot-valley strong {
+    font-size: 25px;
+  }
+  .vot-role strong {
+    font-size: 18px;
+  }
+  .vot-role span {
+    font-size: 12px;
+  }
+}
+
+@container (max-width:700px) {
+  .vot-intro {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 28px 0 44px;
+  }
+  .vot-copy h2 {
+    font-size: 38px;
+    max-width: 430px;
+  }
+  .vot-copy p {
+    font-size: 18px;
+    margin-top: 18px;
+    max-width: none;
+  }
+  .vot-copy small {
+    font-size: 11px;
+    margin-bottom: 16px;
+  }
+  .vot-org {
+    padding: 24px;
+    gap: 26px;
+  }
+  .vot-role strong {
+    font-size: 18px;
+  }
+  .vot-valley span {
+    font-size: 12px;
+  }
+  .vot-valley {
+    padding-left: 24px;
+  }
+  .vot-role span {
+    font-size: 12px;
+  }
+}
+
+.vot-intro {
+  background: #e8eff0;
+  border: 1px solid #d5dfe0;
+  padding: 40px;
+  gap: 48px;
+  margin: 12px 0 72px;
+  grid-template-columns: minmax(0,1fr) minmax(0,1.1fr);
+}
+
+.vot-copy h2 {
+  font-size: 46px;
+  line-height: 1.12;
+}
+
+.vot-copy p {
+  font-size: 19px;
+}
+
+.vot-copy small {
+  color: #456a7a;
+}
+
+@container (max-width:1000px) {
+  .vot-intro {
+    padding: 28px;
+    gap: 30px;
+  }
+  .vot-copy h2 {
+    font-size: 38px;
+  }
+}
+
+@container (max-width:700px) {
+  .vot-intro {
+    padding: 24px;
+    grid-template-columns: 1fr;
+    gap: 28px;
+    margin-bottom: 48px;
+  }
+  .vot-copy h2 {
+    font-size: 34px;
+  }
+  .vot-copy p {
+    font-size: 18px;
+  }
+  .vot-org {
+    padding: 20px;
+    gap: 18px;
+  }
+  .vot-valley {
+    padding-left: 18px;
+  }
+}

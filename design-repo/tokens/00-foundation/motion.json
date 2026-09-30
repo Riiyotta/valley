@@ -1,0 +1,32 @@
+{
+  "category": "motion",
+  "description": "Real keyframes, easing curves and durations measured/quoted from spec/components.css and src/index.css. Closed set — no invented animation names. This is the sole source of truth motion.pattern enums in sections/ and schema/pagespec.schema.json must cite.",
+  "measuredFrom": "src/index.css:52; spec/components.css (line-cited per keyframe below); tailwind.config.cjs:177-183",
+  "easingCurves": {
+    "out-expo": { "value": "cubic-bezier(.22,1,.36,1)", "usage": "hero / showcase enter curve", "measuredFrom": "tailwind.config.cjs:178" },
+    "blink": { "value": "cubic-bezier(.5,0,.88,.77)", "usage": "dot blink half-period tween", "measuredFrom": "tailwind.config.cjs:179" },
+    "sticky-bar-scroll": { "value": "cubic-bezier(0.55, 0, 0.14, 1)", "usage": "landing template sticky bar hide/show on scroll direction, 500ms", "measuredFrom": "spec/pages/landing.md:122" }
+  },
+  "keyframes": {
+    "dot-blink": { "definedIn": "src/index.css:52", "duration": "2s", "iteration": "infinite", "usage": "5x5 #0077b5 LinkedIn-blue dot, used in logos and landing-page tags" },
+    "vhv-source-in": { "definedIn": "spec/components.css:898", "usage": "hero visual source-card entrance" },
+    "vhv-thread-in": { "definedIn": "spec/components.css:904", "usage": "hero visual connecting-thread entrance" },
+    "vhv-card-in": { "definedIn": "spec/components.css:910", "usage": "hero visual card entrance" },
+    "vhv-detail-in": { "definedIn": "spec/components.css:916", "usage": "hero visual detail-chip entrance" },
+    "vcr-reveal": { "definedIn": "spec/components.css:2811", "usage": "stories (.valley-customer-results) slide reveal" },
+    "ve-scroll-pulse": { "definedIn": "spec/components.css:3376", "usage": "endorsement scroll-hint pulse" },
+    "vs-appear": { "definedIn": "spec/components.css:5917", "usage": "showcase dashboard appear" },
+    "vs-connect": { "definedIn": "spec/components.css:5923", "usage": "showcase connector line draw" },
+    "vtf-arrive": { "definedIn": "spec/components.css:8916", "usage": "team-fit panel arrive" },
+    "vc-light-pass": { "definedIn": "spec/pages/landing/components.css (compare widget, verbatim in spec/components.css lineage)", "duration": "11s", "iteration": "infinite", "usage": "Valley-vs-Competition light sweep on the Valley track", "measuredFrom": "spec/pages/landing.md:418" },
+    "vc-trace-in": { "definedIn": "spec/pages/landing/components.css", "duration": "0.8s", "iteration": "1", "usage": "Valley-vs-Competition trace redraw after a competitor selection", "measuredFrom": "spec/pages/landing.md:419" }
+  },
+  "scrollDrivenPatterns": {
+    "endorsement-pin": { "description": "Section is position:sticky-pinned for the duration of a 2610px-tall scroll track (container >=601c); content fades/parallaxes with scroll offset, not a CSS animation.", "measuredFrom": "CLONE_SPEC.md:64; spec/GRID.md:121" },
+    "jobs-pin": { "description": "Jobs (.vstack) section pins similarly; see quirk 7.1 in spec/GRID.md for the 801-816px viewport edge case where pinning toggles off.", "measuredFrom": "spec/GRID.md:213" },
+    "sticky-bar-direction-aware": { "description": "Landing-template sticky bar (section 3.1) hides on scroll-down (translateY 79px, opacity 0) and reveals on scroll-up after ~100ms, animating over ~480-500ms with the sticky-bar-scroll easing curve.", "measuredFrom": "spec/pages/landing.md:117-124" }
+  },
+  "globalRule": "prefers-reduced-motion:reduce disables autoplay, pinning and keyframes site-wide (CLONE_SPEC.md:25). Every section's motion contract in sections/ MUST declare a reducedMotionFallback and every PageSpec node's motion object is schema-required to include one.",
+  "noLibraryUse": "Site does not use GSAP, ScrollTrigger, Lenis, or any smooth-scroll library. Only plain CSS keyframes/transitions, requestAnimationFrame loops, scroll listeners, IntersectionObserver, and one Web Animations API use (showcase tab progress). Framer-authored hover variants use framer-motion only for nav/hero-copy/logo-wall hover states, the mobile-menu variant change, the logo tooltip, and the dot-blink loop.",
+  "closedSetNote": "additionalProperties:false is enforced on the motion object in schema/pagespec.schema.json. A generated PageSpec may only reference pattern names present in this file's keyframes/scrollDrivenPatterns/easingCurves — never an invented animation."
+}

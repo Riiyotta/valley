@@ -1,0 +1,513 @@
+[
+ {
+  "sid": "nav",
+  "name": "Valley navigation",
+  "text": "Home\n\nHome\n\nProduct\n\nValley vs. Competition\n\nValley vs. Competition\n\nCustomers\n\nCustomers\n\nAgencies\n\nAgencies\n\nPricing\n\nPricing\n\nLog in\n\nStart for free",
+  "links": [
+   {
+    "text": "",
+    "href": "./",
+    "abs": "https://www.joinvalley.co/",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Home Home",
+    "href": "./",
+    "abs": "https://www.joinvalley.co/",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "/product",
+    "abs": "https://www.joinvalley.co/product",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "/playbooks",
+    "abs": "https://www.joinvalley.co/playbooks",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. Competition Valley vs. Competition",
+    "href": "./compare",
+    "abs": "https://www.joinvalley.co/compare",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Customers Customers",
+    "href": "./casestudies",
+    "abs": "https://www.joinvalley.co/casestudies",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Agencies Agencies",
+    "href": "./linkedin-outreach-for-agencies",
+    "abs": "https://www.joinvalley.co/linkedin-outreach-for-agencies",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Pricing Pricing",
+    "href": "./pricing",
+    "abs": "https://www.joinvalley.co/pricing",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Log in",
+    "href": "https://beta.joinvalley.co/login",
+    "abs": "https://beta.joinvalley.co/login",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Start for free",
+    "href": "https://beta.joinvalley.co/signup",
+    "abs": "https://beta.joinvalley.co/signup",
+    "target": "",
+    "visible": true
+   }
+  ]
+ },
+ {
+  "sid": "compare",
+  "name": "Complete outbound comparison",
+  "text": "VALLEY VS. COMPETITION\nThe whole workflow.\nA clearer choice.\n\nFrom the first buying signal to the next conversation. See what happens in Valley, and what each alternative brings.\n\nCompare Valley with\nAll competitors\nLinkedIn & sequencing\nAI outbound platforms\nEmail & infrastructure\nData & automation\nRevenue platforms\nHeyReach\nGojiberry\nAmplemarket\nlemlist\nInstantly\nArtisan\n11x\nExpandi\nClay\nPhantomBuster\nAll 19 competitors\nValley vs. HeyReach\n\nLinkedIn & sequencing\n\nRead the full comparison ↗\n\nStart with the signal. Follow it to the reply.\nRead left to right. Valley is the upper track; HeyReach is below.\n\nValley\nUpper track\nHeyReach\nLower track\nEmail\n↗\nOther tool\nLinkedIn\n✓\nBuilt in\n01\nLive buyingsignals\n◐\n02\nQualify\n◐\n03\nDeepresearch\n◐\n04\nYour writingvoice\n◐\n05\nEmail +LinkedIn\n◐\n06\nManagereplies\n✓\n07\nLearn &improve\n◐\n✓\nBuilt in\n◐\nLimited / external\n—\nNo confirmed coverage\n\nEmail is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source.\n\nWhat each stage means 7 steps in the workflow\nThe purchase begins before the connection request\nResearch and enrichment are supplied by a connected intelligence layer.\nExternal AI agents can create custom messages; native learned written style is not established.\nLinkedIn sending is native; email execution needs a connected sender.\nCompare the commitment, too.\nValley Starter\n\n$199 / month\n\nOr $149/month billed quarterly ($447 per quarter). Email is an optional add-on; included with Plus.\n\nValley plans ↗\nHeyReach\n\nHeyReach Growth lists $79 per sender/month, or $71 per month billed quarterly ($213). Its email workflow uses connected tools, so budget for those subscriptions and research separately.\n\nPricing source ↗\nEvery stage, side by side.\nValley and HeyReach: public product documentation. “Not verified” does not mean unavailable.\nThe work\tValley\tHeyReach\nLive buying signals\t\n✓\nBuilt in\n\nFind prospects through buying signals, playbooks, or your own list.\n\nProduct details ↗\t\n↗\nRequires another tool\n\nSignals and discovery arrive from Clay, RB2B or other upstream tools.\n\nView source ↗\nQualify\t\n✓\nBuilt in\n\nCheck prospects against your ideal customer profile and review the reasons for each match.\n\nProduct details ↗\t\n↗\nRequires another tool\n\nDocumented qualification happens upstream before HeyReach receives the lead.\n\nView source ↗\nDeep research\t\n✓\nBuilt in\n\nBring prospect activity, interviews, and company context into sourced research.\n\nProduct details ↗\t\n↗\nRequires another tool\n\nResearch and enrichment are supplied by a connected intelligence layer.\n\nView source ↗\nYour writing voice\t\n✓\nBuilt in\n\nTurn the research and your writing style into drafts you can review and edit.\n\nProduct details ↗\t\n↗\nRequires another tool\n\nExternal AI agents can create custom messages; native learned written style is not established.\n\nView source ↗\nEmail + LinkedIn\t\n✓\nBuilt in\n\nRun researched LinkedIn and email campaigns. Email is included with Plus and an optional add-on on Starter.\n\nProduct details ↗\t\n↗\nRequires another tool\n\nLinkedIn sending is native; email execution needs a connected sender.\n\nEmail\n↗\nRequires another tool\n\nExecution relies on a connected tool.\n\nEmail source ↗\nLinkedIn\n✓\nBuilt in\n\nAutomated native linkedin execution documented.\n\nLinkedIn source ↗\nView source ↗\nManage replies\t\n✓\nBuilt in\n\nReview replies with the prospect and campaign context close at hand.\n\nProduct details ↗\t\n✓\nBuilt in\n\nUnified Inbox manages replies across connected LinkedIn accounts.\n\nView source ↗\nLearn & improve\t\n✓\nBuilt in\n\nUse campaign results to refine your audience and messaging.\n\nProduct details ↗\t\n◐\nPartial coverage\n\nReports and API events support operator or external-agent improvement; native outcome learning is not established.\n\nView source ↗\nBOLT.NEW, WITH VALLEY\n“Valley is a cheat code.”\n\nStefano McCoy · Sales, Bolt.new. $1M+ pipeline in the first 60 days.\n\nRead the customer story ↗\nBring a prospect. Judge the work.\n\nStarter begins at $199/month, or $149/month billed quarterly. Choose Plus for included email, priority Slack support, and onboarding.\n\nCompare plans ↗\nSee Valley in action\n↗\nFind your comparison\nValley vs. HeyReach ↗\nValley vs. Gojiberry ↗\nValley vs. Amplemarket ↗\nValley vs. lemlist ↗\nValley vs. Instantly ↗\nValley vs. Artisan ↗\nValley vs. 11x ↗\nValley vs. Expandi ↗\nValley vs. Clay ↗\nValley vs. PhantomBuster ↗\nValley vs. Apollo ↗\nValley vs. Smartlead ↗\nValley vs. Dripify ↗\nValley vs. Linked Helper ↗\nValley vs. AiSDR ↗\nValley vs. Regie.ai ↗\nValley vs. Reply.io ↗\nValley vs. Outreach ↗\nValley vs. Salesloft ↗\nHow we compare\n\nPublished by Valley. Sources checked September 14, 2026. We compare public product documentation across seven stages, not hands-on benchmark results. Writing cells distinguish variables, instructed AI copy, and learned voice. Features and availability may vary by plan. “Not verified” means the available evidence does not establish the capability. Check each source and the package you would buy.\n\nHeyReach: Primary vendor source ↗\nHeyReach: Primary vendor source ↗\nHeyReach: Primary vendor source ↗\nValley product ↗\nSuggest a correction ↗",
+  "links": [
+   {
+    "text": "Read the full comparison ↗",
+    "href": "/blog/valley-vs-heyreach-ai-powered-personalization-vs-multi-account-volume",
+    "abs": "https://www.joinvalley.co/blog/valley-vs-heyreach-ai-powered-personalization-vs-multi-account-volume",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley plans ↗",
+    "href": "/pricing",
+    "abs": "https://www.joinvalley.co/pricing",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Pricing source ↗",
+    "href": "https://www.heyreach.io/pricing",
+    "abs": "https://www.heyreach.io/pricing",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "Product details ↗",
+    "href": "/product",
+    "abs": "https://www.joinvalley.co/product",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "View source ↗",
+    "href": "https://www.heyreach.io/blog/trigger-based-outreach",
+    "abs": "https://www.heyreach.io/blog/trigger-based-outreach",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "Product details ↗",
+    "href": "/product",
+    "abs": "https://www.joinvalley.co/product",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "View source ↗",
+    "href": "https://www.heyreach.io/blog/trigger-based-outreach",
+    "abs": "https://www.heyreach.io/blog/trigger-based-outreach",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "Product details ↗",
+    "href": "/product",
+    "abs": "https://www.joinvalley.co/product",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "View source ↗",
+    "href": "https://www.heyreach.io/blog/automated-data-enrichment",
+    "abs": "https://www.heyreach.io/blog/automated-data-enrichment",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "Product details ↗",
+    "href": "/product",
+    "abs": "https://www.joinvalley.co/product",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "View source ↗",
+    "href": "https://www.heyreach.io/",
+    "abs": "https://www.heyreach.io/",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "Product details ↗",
+    "href": "/pricing",
+    "abs": "https://www.joinvalley.co/pricing",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Email source ↗",
+    "href": "https://www.heyreach.io/",
+    "abs": "https://www.heyreach.io/",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "LinkedIn source ↗",
+    "href": "https://www.heyreach.io/",
+    "abs": "https://www.heyreach.io/",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "View source ↗",
+    "href": "https://www.heyreach.io/",
+    "abs": "https://www.heyreach.io/",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "Product details ↗",
+    "href": "/product",
+    "abs": "https://www.joinvalley.co/product",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "View source ↗",
+    "href": "https://www.heyreach.io/",
+    "abs": "https://www.heyreach.io/",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "Product details ↗",
+    "href": "/product",
+    "abs": "https://www.joinvalley.co/product",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "View source ↗",
+    "href": "https://www.heyreach.io/",
+    "abs": "https://www.heyreach.io/",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "Read the customer story ↗",
+    "href": "/casestudies/how-bolt.new-generated-seven-figures-in-pipeline-with-valley-in-under-60-days",
+    "abs": "https://www.joinvalley.co/casestudies/how-bolt.new-generated-seven-figures-in-pipeline-with-valley-in-under-60-days",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Compare plans ↗",
+    "href": "/pricing",
+    "abs": "https://www.joinvalley.co/pricing",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "See Valley in action ↗",
+    "href": "https://meetings.hubspot.com/zayd-from-valley/tryvalley",
+    "abs": "https://meetings.hubspot.com/zayd-from-valley/tryvalley",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. HeyReach ↗",
+    "href": "/blog/valley-vs-heyreach-ai-powered-personalization-vs-multi-account-volume",
+    "abs": "https://www.joinvalley.co/blog/valley-vs-heyreach-ai-powered-personalization-vs-multi-account-volume",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. Gojiberry ↗",
+    "href": "/blog/valley-vs-gojiberry",
+    "abs": "https://www.joinvalley.co/blog/valley-vs-gojiberry",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. Amplemarket ↗",
+    "href": "/blog/valley-vs-amplemarket",
+    "abs": "https://www.joinvalley.co/blog/valley-vs-amplemarket",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. lemlist ↗",
+    "href": "/blog/valley-vs-lemlist",
+    "abs": "https://www.joinvalley.co/blog/valley-vs-lemlist",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. Instantly ↗",
+    "href": "/blog/valley-vs-instantly",
+    "abs": "https://www.joinvalley.co/blog/valley-vs-instantly",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. Artisan ↗",
+    "href": "/blog/artisan-vs-valley-which-ai-sdr-platform-actually-books-meetings",
+    "abs": "https://www.joinvalley.co/blog/artisan-vs-valley-which-ai-sdr-platform-actually-books-meetings",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. 11x ↗",
+    "href": "/blog/valley-vs-11x",
+    "abs": "https://www.joinvalley.co/blog/valley-vs-11x",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. Expandi ↗",
+    "href": "/blog/valley-vs-expandi-which-linkedin-outreach-tool-is-right-for-your-team",
+    "abs": "https://www.joinvalley.co/blog/valley-vs-expandi-which-linkedin-outreach-tool-is-right-for-your-team",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. Clay ↗",
+    "href": "/blog/valley-vs-clay",
+    "abs": "https://www.joinvalley.co/blog/valley-vs-clay",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. PhantomBuster ↗",
+    "href": "/blog/valley-vs-phantombuster",
+    "abs": "https://www.joinvalley.co/blog/valley-vs-phantombuster",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. Apollo ↗",
+    "href": "/blog/valley-vs-apollo",
+    "abs": "https://www.joinvalley.co/blog/valley-vs-apollo",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. Smartlead ↗",
+    "href": "/blog/valley-vs-smartlead",
+    "abs": "https://www.joinvalley.co/blog/valley-vs-smartlead",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. Dripify ↗",
+    "href": "/blog/valley-vs-dripify-which-linkedin-outreach-tool-actually-converts-in-2026",
+    "abs": "https://www.joinvalley.co/blog/valley-vs-dripify-which-linkedin-outreach-tool-actually-converts-in-2026",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. Linked Helper ↗",
+    "href": "/blog/valley-vs-linkedhelper",
+    "abs": "https://www.joinvalley.co/blog/valley-vs-linkedhelper",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. AiSDR ↗",
+    "href": "/blog/valley-vs-aisdr",
+    "abs": "https://www.joinvalley.co/blog/valley-vs-aisdr",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. Regie.ai ↗",
+    "href": "/blog/valley-vs-regie",
+    "abs": "https://www.joinvalley.co/blog/valley-vs-regie",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. Reply.io ↗",
+    "href": "/blog/valley-vs-reply",
+    "abs": "https://www.joinvalley.co/blog/valley-vs-reply",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. Outreach ↗",
+    "href": "/blog/valley-vs-outreach",
+    "abs": "https://www.joinvalley.co/blog/valley-vs-outreach",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. Salesloft ↗",
+    "href": "/blog/valley-vs-salesloft",
+    "abs": "https://www.joinvalley.co/blog/valley-vs-salesloft",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "HeyReach: Primary vendor source ↗",
+    "href": "https://www.heyreach.io/blog/trigger-based-outreach",
+    "abs": "https://www.heyreach.io/blog/trigger-based-outreach",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "HeyReach: Primary vendor source ↗",
+    "href": "https://www.heyreach.io/blog/automated-data-enrichment",
+    "abs": "https://www.heyreach.io/blog/automated-data-enrichment",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "HeyReach: Primary vendor source ↗",
+    "href": "https://www.heyreach.io/",
+    "abs": "https://www.heyreach.io/",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "Valley product ↗",
+    "href": "/product",
+    "abs": "https://www.joinvalley.co/product",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Suggest a correction ↗",
+    "href": "mailto:hey@joinvalley.co",
+    "abs": "mailto:hey@joinvalley.co",
+    "target": "",
+    "visible": true
+   }
+  ]
+ },
+ {
+  "sid": "footer",
+  "name": "Valley footer",
+  "text": "Find your people.\nGive them a reason to reply.\n\nFind, qualify, research, and reach your next buyers across email and LinkedIn.\n\nStart for free →\nBook a demo\nValley\n\nYour outbound team.\nOne connected platform.\n\nhey@joinvalley.co\nEXPLORE VALLEY\nProduct\nCustomers\nAgencies\nPricing\nLEARN MORE\nResources\nAll articles\nAbout Valley\nLog in\n© Valley. All rights reserved.\nPrivacy policy\nTerms of service",
+  "links": [
+   {
+    "text": "Start for free →",
+    "href": "https://beta.joinvalley.co/signup",
+    "abs": "https://beta.joinvalley.co/signup",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Book a demo",
+    "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+    "abs": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley",
+    "href": "/",
+    "abs": "https://www.joinvalley.co/",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "hey@joinvalley.co",
+    "href": "mailto:hey@joinvalley.co",
+    "abs": "mailto:hey@joinvalley.co",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Product",
+    "href": "/product",
+    "abs": "https://www.joinvalley.co/product",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Customers",
+    "href": "/casestudies",
+    "abs": "https://www.joinvalley.co/casestudies",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Agencies",
+    "href": "/linkedin-outreach-for-agencies",
+    "abs": "https://www.joinvalley.co/linkedin-outreach-for-agencies",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Pricing",
+    "href": "/pricing",
+    "abs": "https://www.joinvalley.co/pricing",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Resources",
+    "href": "/blog",
+    "abs": "https://www.joinvalley.co/blog",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "All articles",
+    "href": "/blog/archive",
+    "abs": "https://www.joinvalley.co/blog/archive",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "About Valley",
+    "href": "/about",
+    "abs": "https://www.joinvalley.co/about",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Log in",
+    "href": "https://beta.joinvalley.co/login",
+    "abs": "https://beta.joinvalley.co/login",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Privacy policy",
+    "href": "/privacy-policy",
+    "abs": "https://www.joinvalley.co/privacy-policy",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Terms of service",
+    "href": "/terms-of-service",
+    "abs": "https://www.joinvalley.co/terms-of-service",
+    "target": "",
+    "visible": true
+   }
+  ]
+ }
+]

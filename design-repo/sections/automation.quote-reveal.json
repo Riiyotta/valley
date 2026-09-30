@@ -1,0 +1,30 @@
+{
+  "id": "automation.quote-reveal",
+  "layer": "section",
+  "purpose": "Scroll-driven letter-reveal quote section, unique to /linkedin-automation.",
+  "measuredFrom": "src/components/landing/automation/QuoteReveal.jsx:11-17; spec/pages/landing.md:529-534",
+  "content": {
+    "type": "object",
+    "properties": {
+      "quote": {
+        "type": "string",
+        "maxWords": 30
+      }
+    },
+    "required": [
+      "quote"
+    ],
+    "additionalProperties": false
+  },
+  "constraints": {
+    "onePerPage": true,
+    "routeRestriction": "automationOnly"
+  },
+  "motion": {
+    "pattern": "scroll-driven-letter-reveal",
+    "reducedMotionFallback": "full quote text renders immediately and statically, no letter-by-letter scroll-tied reveal",
+    "measuredFrom": "src/components/landing/automation/QuoteReveal.jsx:11-17",
+    "note": "Word-by-word reveal. p = (scrollY - sectionTop) / (sectionHeight - innerHeight). Each of the 26 words owns 1/26 of p and its letters split that slice evenly: s = (k + j/n)/26, e = (k + (j+1)/n)/26. p <= s: rgba(255,255,255,.4) at opacity .7; s < p < e: #fff, opacity .7 -> 1; p >= e: #fff, opacity 1 -> .7 over [e, 1]. Supersedes the per-letter formula in spec/pages/landing.md:553 (M6), which drifted by up to 10 letters mid-quote against live."
+  },
+  "assetRoles": {}
+}

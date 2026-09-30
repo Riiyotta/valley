@@ -1,0 +1,91 @@
+{
+  "id": "hero.landing-template",
+  "layer": "section",
+  "purpose": "SEO landing-template hero: tag/h1/sub/dual-CTA/proof-ticker/YouTube-facade, shared node-for-node across all 3 landing-template routes, differing only in copy.",
+  "composes": [
+    "button",
+    "avatar"
+  ],
+  "measuredFrom": "spec/pages/landing.md:126-166",
+  "content": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 6
+      },
+      "h1": {
+        "type": "string",
+        "maxWords": 16
+      },
+      "sub": {
+        "type": "string",
+        "maxWords": 30
+      },
+      "bookDemoLabel": {
+        "type": "string",
+        "maxWords": 4
+      },
+      "bookDemoHref": {
+        "type": "string",
+        "const": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b"
+      },
+      "startFreeLabel": {
+        "type": "string",
+        "maxWords": 4
+      },
+      "startFreeHref": {
+        "type": "string",
+        "const": "https://beta.joinvalley.co/signup"
+      },
+      "proofTicker": {
+        "type": "array",
+        "minItems": 5,
+        "maxItems": 5
+      },
+      "videoCaption": {
+        "type": "string",
+        "maxWords": 10
+      }
+    },
+    "required": [
+      "eyebrow",
+      "h1",
+      "sub",
+      "bookDemoLabel",
+      "bookDemoHref",
+      "startFreeLabel",
+      "startFreeHref"
+    ],
+    "additionalProperties": false
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeFirstAfterNav": true,
+    "routeRestriction": "landingSeoTemplateOnly"
+  },
+  "responsive": {
+    "desktop": {
+      "layout": "row, gap 32, padding-top 112"
+    },
+    "phone": {
+      "layout": "column, padding 24px 20px 56px, centered text",
+      "quirk": "at phone the eyebrow tag (437 wide) and video caption are wider than viewport and get clipped by horizontal overflow — this is a defect in the ORIGINAL, reproduce it, do not fix",
+      "measuredFrom": "spec/pages/landing.md:160-166"
+    }
+  },
+  "motion": {
+    "pattern": "tag-hover-spring-scale",
+    "reducedMotionFallback": "tag renders at scale 1.0 always, no hover spring",
+    "note": "Also: proof ticker. The row stack steps up after 2.0s dwells (rows 1-4) and a 1.0s dwell on row 5, then snaps back to row 1: a 9.0s cycle. Each step is a spring (zeta .73, omega 18.9). Rows move with no fade; rows 3-5 stay at opacity 0, a live quirk that is reproduced. Supersedes spec/pages/landing.md:549 (M2), which estimated ~2.03s steps with a 460ms fade.",
+    "measuredFrom": "src/components/landing/shared/ProofTicker.jsx:10-22"
+  },
+  "assetRoles": {
+    "hero-poster": {
+      "enum": "editorial-card-image",
+      "generationPolicy": "may-generate-new",
+      "guidance": "YouTube-facade poster image; safe to AI-generate a generic product-demo-style still."
+    }
+  },
+  "pinnedValueNote": "bookDemoHref and startFreeHref are PINNED (const) to the real live third-party endpoints. Never rewrite to a different-but-plausible URL — see MASTER-GUIDE.md 3.23."
+}

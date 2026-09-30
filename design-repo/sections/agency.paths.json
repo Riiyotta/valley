@@ -1,0 +1,31 @@
+{
+  "id": "agency.paths",
+  "layer": "section",
+  "purpose": "'agencyPaths' 3-card path comparison with a dark header panel and a budget/demo-note footer, unique to /linkedin-outreach-for-agencies. KNOWN QUIRK: on phone the path cards collapse to 56px tall and clip their content to just the label — reproduce, do not silently fix.",
+  "composes": ["button"],
+  "measuredFrom": "spec/pages/landing.md:362-384",
+  "content": {
+    "type": "object",
+    "properties": {
+      "headerEyebrow": { "type": "string", "maxWords": 6 },
+      "headerH2": { "type": "string", "maxWords": 10 },
+      "headerLead": { "type": "string", "maxWords": 24 },
+      "pathCards": { "type": "array", "minItems": 3, "maxItems": 3 },
+      "budgetTitle": { "type": "string", "maxWords": 8 },
+      "budgetBody": { "type": "string", "maxWords": 20 },
+      "budgetCtaLabel": { "type": "string", "maxWords": 4 },
+      "budgetCtaHref": { "type": "string", "const": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b" },
+      "demoNoteHeading": { "type": "string", "maxWords": 8 },
+      "demoNoteBody": { "type": "string", "maxWords": 12 }
+    },
+    "required": ["headerH2", "pathCards"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "agencyLandingOnly" },
+  "responsive": {
+    "phone": { "quirk": "path cards collapse to 56px tall and clip content to only the 'PATH 0x / ...' label — this is the original's real behavior, reproduce as-is unless explicitly asked to fix", "measuredFrom": "spec/pages/landing.md:384" }
+  },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": { "header-watercolor": { "enum": "hero-visual-art", "generationPolicy": "may-generate-new", "guidance": "Abstract watercolor background; safe to AI-generate." } },
+  "pinnedValueNote": "budgetCtaHref is PINNED (const) to the real Surface endpoint."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "shell.navbar",
+  "layer": "section",
+  "purpose": "Persistent primary navigation across every template; drive cross-site orientation and the primary conversion CTA click.",
+  "composes": ["nav-bar"],
+  "measuredFrom": "src/routes/Layout.jsx:1-40; CLONE_SPEC.md section 7",
+  "content": {
+    "type": "object",
+    "properties": {
+      "logoLabel": { "type": "string", "maxWords": 2 },
+      "links": { "type": "array", "maxItems": 6, "items": { "type": "object", "properties": { "label": { "type": "string", "maxWords": 3 }, "href": { "type": "string" } }, "required": ["label", "href"], "additionalProperties": false } },
+      "ctaLabel": { "type": "string", "maxWords": 3 }
+    },
+    "required": ["logoLabel", "links", "ctaLabel"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "mustBeFirst": true },
+  "responsive": {
+    "desktop": { "minWidth": 1200, "height": 84, "layout": "inline-links", "measuredFrom": "spec/GRID.md:21" },
+    "tablet": { "minWidth": 810, "maxWidth": 1199.98, "height": 68, "layout": "hamburger", "measuredFrom": "spec/GRID.md:21" },
+    "phone": { "maxWidth": 809.98, "height": 68, "layout": "hamburger", "measuredFrom": "spec/GRID.md:21" }
+  },
+  "motion": {
+    "pattern": "load-appear-or-none",
+    "reducedMotionFallback": "renders in final state immediately"
+  },
+  "assetRoles": {}
+}

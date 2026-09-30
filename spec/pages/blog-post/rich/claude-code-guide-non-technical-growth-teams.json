@@ -1,0 +1,4342 @@
+{
+ "390": {
+  "root": {
+   "box": {
+    "x": 20,
+    "w": 350,
+    "h": 10034
+   },
+   "display": "flex",
+   "gap": "48px",
+   "pad": "0px 0px 16px"
+  },
+  "sections": [
+   {
+    "name": "Section 1",
+    "box": {
+     "x": 20,
+     "w": 350,
+     "h": 3073
+    },
+    "gap": "24px",
+    "dir": "column"
+   },
+   {
+    "name": "Section 2",
+    "box": {
+     "x": 20,
+     "w": 350,
+     "h": 2607
+    },
+    "gap": "24px",
+    "dir": "column"
+   },
+   {
+    "name": "Section 3",
+    "box": {
+     "x": 20,
+     "w": 350,
+     "h": 3135
+    },
+    "gap": "24px",
+    "dir": "column"
+   }
+  ],
+  "outline": [
+   {
+    "name": "Section 1",
+    "box": {
+     "x": 20,
+     "w": 350,
+     "h": 3073
+    },
+    "blocks": "p×3, img, p×4, figure>table(8r x 3c), p, h2, p, ul(4 li), p, h2, p, img, p×2, ul(4 li), p, ul(3 li), p×2"
+   },
+   {
+    "name": "Section 2",
+    "box": {
+     "x": 20,
+     "w": 350,
+     "h": 2607
+    },
+    "blocks": "p, h3, p×3, h3, p, ul(3 li), h3, p, h3, p, h3, p, h3, ul(2 li), h2, p, ul(4 li), p, img, h2×2, p×2"
+   },
+   {
+    "name": "Section 3",
+    "box": {
+     "x": 20,
+     "w": 350,
+     "h": 3135
+    },
+    "blocks": "p×6, h2, h4, p, h4, p, h4, p, h4, p, h4, p×3, img, p×4"
+   }
+  ],
+  "styles": {
+   "h2": {
+    "count": 9,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"30px\",\"lh\":\"33.6px\",\"ls\":\"-0.9px\",\"w\":\"500\",\"color\":\"#1c292d\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "30px",
+       "lh": "33.6px",
+       "ls": "-0.9px",
+       "w": "500",
+       "color": "#1c292d",
+       "display": "block",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 20,
+        "w": 350,
+        "h": 101
+       }
+      },
+      "gaps": {}
+     },
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"28px\",\"lh\":\"33.04px\",\"ls\":\"-0.7px\",\"w\":\"500\",\"color\":\"#1c292d\",\"margin\":\"20px 0px 0px\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "28px",
+       "lh": "33.04px",
+       "ls": "-0.7px",
+       "w": "500",
+       "color": "#1c292d",
+       "margin": "20px 0px 0px",
+       "display": "block",
+       "ws": "pre-wrap",
+       "gapFromPrev": "20px after p",
+       "box": {
+        "x": 20,
+        "w": 350,
+        "h": 66
+       }
+      },
+      "gaps": {
+       "20px after p": 3,
+       "20px after ul": 1,
+       "20px after img": 1,
+       "20px after h2": 1
+      }
+     }
+    }
+   },
+   "p": {
+    "count": 45,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "display": "block",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 20,
+        "w": 350,
+        "h": 56
+       }
+      },
+      "gaps": {}
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"margin\":\"20px 0px 0px\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 42,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "margin": "20px 0px 0px",
+       "display": "block",
+       "ws": "pre-wrap",
+       "gapFromPrev": "20px after p",
+       "box": {
+        "x": 20,
+        "w": 350,
+        "h": 195
+       }
+      },
+      "gaps": {
+       "20px after p": 20,
+       "20px after img": 3,
+       "48px after figure": 1,
+       "20px after h2": 4,
+       "20px after ul": 4,
+       "20px after h3": 5,
+       "20px after h4": 5
+      }
+     }
+    }
+   },
+   "p>em": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"style\":\"italic\",\"color\":\"#4e606a\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "style": "italic",
+       "color": "#4e606a",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 20,
+        "w": 291,
+        "h": 49
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "img": {
+    "count": 4,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"12px\",\"lh\":\"normal\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"display\":\"block\",\"ws\":\"pre-wrap\",\"ovf\":\"clip\",\"fit\":\"fill\",\"maxw\":\"100%\"}": {
+      "n": 4,
+      "sample": {
+       "font": "sans-serif",
+       "size": "12px",
+       "lh": "normal",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "display": "block",
+       "ws": "pre-wrap",
+       "ovf": "clip",
+       "fit": "fill",
+       "maxw": "100%",
+       "gapFromPrev": "0px after p",
+       "box": {
+        "x": 20,
+        "w": 350,
+        "h": 209
+       }
+      },
+      "gaps": {
+       "0px after p": 4
+      }
+     }
+    }
+   },
+   "p>strong": {
+    "count": 8,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"700\",\"color\":\"#4e606a\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 8,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "700",
+       "color": "#4e606a",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 20,
+        "w": 303,
+        "h": 21
+       }
+      },
+      "gaps": {
+       "5px after code": 1
+      }
+     }
+    }
+   },
+   "figure": {
+    "count": 1,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"12px\",\"lh\":\"normal\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"margin\":\"28px 0px\",\"pad\":\"0px 0px 12px\",\"display\":\"block\",\"ws\":\"pre-wrap\",\"ovf\":\"auto\",\"maxw\":\"100%\",\"::before\":\"content=\\\"Compare the details · Scroll across to see every column →\\\" sticky 350pxx19.5px top=auto left=0px bg=#000000/0 color=#53676e font=13px/19.5px sans-serif border=0px #53676e\"}": {
+      "n": 1,
+      "sample": {
+       "font": "sans-serif",
+       "size": "12px",
+       "lh": "normal",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "margin": "28px 0px",
+       "pad": "0px 0px 12px",
+       "display": "block",
+       "ws": "pre-wrap",
+       "ovf": "auto",
+       "maxw": "100%",
+       "::before": "content=\"Compare the details · Scroll across to see every column →\" sticky 350pxx19.5px top=auto left=0px bg=#000000/0 color=#53676e font=13px/19.5px sans-serif border=0px #53676e",
+       "gapFromPrev": "28px after p",
+       "box": {
+        "x": 20,
+        "w": 350,
+        "h": 523
+       }
+      },
+      "gaps": {
+       "28px after p": 1
+      }
+     }
+    }
+   },
+   "figure>table": {
+    "count": 1,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"border\":\"1px 1px 1px 1px solid #e8e8e8\",\"radius\":\"8px\",\"display\":\"table\",\"ws\":\"pre-wrap\",\"ovf\":\"hidden\"}": {
+      "n": 1,
+      "sample": {
+       "font": "sans-serif",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "border": "1px 1px 1px 1px solid #e8e8e8",
+       "radius": "8px",
+       "display": "table",
+       "ws": "pre-wrap",
+       "ovf": "hidden",
+       "box": {
+        "x": 20,
+        "w": 740,
+        "h": 477
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "figure>table>tbody>tr": {
+    "count": 8,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"display\":\"table-row\",\"ws\":\"pre-wrap\"}": {
+      "n": 8,
+      "sample": {
+       "font": "sans-serif",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "display": "table-row",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 21,
+        "w": 739,
+        "h": 60
+       }
+      },
+      "gaps": {
+       "0px after tr": 7
+      }
+     }
+    }
+   },
+   "table>tbody>tr>th": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"500\",\"color\":\"#20373b\",\"pad\":\"18px 20px\",\"bg\":\"#e8eeea\",\"border\":\"1px 1px 1px 1px solid #d5dedb\",\"display\":\"table-cell\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "sans-serif",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "500",
+       "color": "#20373b",
+       "pad": "18px 20px",
+       "bg": "#e8eeea",
+       "border": "1px 1px 1px 1px solid #d5dedb",
+       "display": "table-cell",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 21,
+        "w": 246,
+        "h": 60
+       }
+      },
+      "gaps": {
+       "-59px after th": 2
+      }
+     }
+    }
+   },
+   "tbody>tr>th>p": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "display": "block",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 41,
+        "w": 205,
+        "h": 23
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "table>tbody>tr>td": {
+    "count": 21,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#35494f\",\"pad\":\"18px 20px\",\"bg\":\"#fbfcf9\",\"border\":\"1px 1px 1px 1px solid #d5dedb\",\"display\":\"table-cell\",\"ws\":\"pre-wrap\"}": {
+      "n": 21,
+      "sample": {
+       "font": "sans-serif",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#35494f",
+       "pad": "18px 20px",
+       "bg": "#fbfcf9",
+       "border": "1px 1px 1px 1px solid #d5dedb",
+       "display": "table-cell",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 21,
+        "w": 246,
+        "h": 60
+       }
+      },
+      "gaps": {
+       "-59px after td": 14
+      }
+     }
+    }
+   },
+   "tbody>tr>td>p": {
+    "count": 21,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 21,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "display": "block",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 41,
+        "w": 205,
+        "h": 23
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "ul": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"16px\",\"lh\":\"19.2px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"display\":\"block\",\"list\":\"disc outside\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "16px",
+       "lh": "19.2px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "display": "block",
+       "list": "disc outside",
+       "ws": "pre-wrap",
+       "gapFromPrev": "0px after p",
+       "box": {
+        "x": 20,
+        "w": 350,
+        "h": 172
+       }
+      },
+      "gaps": {
+       "0px after p": 5,
+       "0px after h3": 1
+      }
+     }
+    }
+   },
+   "ul>li": {
+    "count": 20,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 22.2116px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 6.45312pxx27.9062px top=0px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 6,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 22.2116px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 6.45312pxx27.9062px top=0px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "box": {
+        "x": 20,
+        "w": 350,
+        "h": 29
+       }
+      },
+      "gaps": {}
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 22.2116px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 6.45312pxx27.9062px top=28.9062px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 3,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 22.2116px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 6.45312pxx27.9062px top=28.9062px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 20,
+        "w": 350,
+        "h": 29
+       }
+      },
+      "gaps": {
+       "0px after li": 3
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 22.2116px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 6.45312pxx27.9062px top=57.8125px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 2,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 22.2116px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 6.45312pxx27.9062px top=57.8125px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 20,
+        "w": 350,
+        "h": 29
+       }
+      },
+      "gaps": {
+       "0px after li": 2
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 22.2116px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 6.45312pxx27.9062px top=86.7188px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 2,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 22.2116px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 6.45312pxx27.9062px top=86.7188px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 20,
+        "w": 350,
+        "h": 86
+       }
+      },
+      "gaps": {
+       "0px after li": 2
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 22.2116px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 6.45312pxx27.9062px top=56.8125px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 2,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 22.2116px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 6.45312pxx27.9062px top=56.8125px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 20,
+        "w": 350,
+        "h": 57
+       }
+      },
+      "gaps": {
+       "0px after li": 2
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 22.2116px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 6.45312pxx27.9062px top=113.625px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 1,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 22.2116px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 6.45312pxx27.9062px top=113.625px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 20,
+        "w": 350,
+        "h": 29
+       }
+      },
+      "gaps": {
+       "0px after li": 1
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 22.2116px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 6.45312pxx27.9062px top=27.9062px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 1,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 22.2116px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 6.45312pxx27.9062px top=27.9062px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 20,
+        "w": 350,
+        "h": 28
+       }
+      },
+      "gaps": {
+       "0px after li": 1
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 22.2116px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 6.45312pxx27.9062px top=83.7188px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 1,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 22.2116px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 6.45312pxx27.9062px top=83.7188px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 20,
+        "w": 350,
+        "h": 112
+       }
+      },
+      "gaps": {
+       "0px after li": 1
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 22.2116px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 6.45312pxx27.9062px top=195.344px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 1,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 22.2116px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 6.45312pxx27.9062px top=195.344px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 20,
+        "w": 350,
+        "h": 112
+       }
+      },
+      "gaps": {
+       "0px after li": 1
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 22.2116px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 6.45312pxx27.9062px top=306.969px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 1,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 22.2116px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 6.45312pxx27.9062px top=306.969px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 20,
+        "w": 350,
+        "h": 84
+       }
+      },
+      "gaps": {
+       "0px after li": 1
+      }
+     }
+    }
+   },
+   "ul>li>p": {
+    "count": 20,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 20,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "display": "block",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 42,
+        "w": 328,
+        "h": 29
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "ul>li>p>code": {
+    "count": 16,
+    "variants": {
+     "{\"font\":\"Fragment Mono, monospace\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#333333\",\"pad\":\"1.8px 3.6px\",\"bg\":\"#000000/0.1\",\"radius\":\"6px\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 16,
+      "sample": {
+       "font": "Fragment Mono, monospace",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#333333",
+       "pad": "1.8px 3.6px",
+       "bg": "#000000/0.1",
+       "radius": "6px",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 42,
+        "w": 29,
+        "h": 26
+       }
+      },
+      "gaps": {
+       "-26px after code": 3,
+       "3px after code": 1
+      }
+     }
+    }
+   },
+   "p>code": {
+    "count": 12,
+    "variants": {
+     "{\"font\":\"Fragment Mono, monospace\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#333333\",\"pad\":\"1.8px 3.6px\",\"bg\":\"#000000/0.1\",\"radius\":\"6px\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 12,
+      "sample": {
+       "font": "Fragment Mono, monospace",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#333333",
+       "pad": "1.8px 3.6px",
+       "bg": "#000000/0.1",
+       "radius": "6px",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "gapFromPrev": "5px after strong",
+       "box": {
+        "x": 130,
+        "w": 74,
+        "h": 26
+       }
+      },
+      "gaps": {
+       "5px after strong": 1,
+       "-23px after strong": 3,
+       "3px after code": 2
+      }
+     }
+    }
+   },
+   "p>a": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#002669\",\"display\":\"inline\",\"ws\":\"pre-wrap\",\"cursor\":\"pointer\"}": {
+      "n": 6,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#002669",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "cursor": "pointer",
+       "box": {
+        "x": 20,
+        "w": 339,
+        "h": 77
+       }
+      },
+      "gaps": {
+       "7px after em": 1,
+       "-21px after em": 2
+      }
+     }
+    }
+   },
+   "p>a>strong": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"700\",\"color\":\"#002669\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "700",
+       "color": "#002669",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 20,
+        "w": 285,
+        "h": 49
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "CTA img": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"12px\",\"lh\":\"normal\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"display\":\"block\",\"ovf\":\"clip\",\"fit\":\"cover\"}": {
+      "n": 3,
+      "sample": {
+       "font": "sans-serif",
+       "size": "12px",
+       "lh": "normal",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "display": "block",
+       "ovf": "clip",
+       "fit": "cover",
+       "box": {
+        "x": 20,
+        "w": 350,
+        "h": 321
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "CTA h2": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"20px\",\"lh\":\"28px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"display\":\"block\",\"ws\":\"pre\"}": {
+      "n": 3,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "20px",
+       "lh": "28px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "display": "block",
+       "ws": "pre",
+       "box": {
+        "x": 68,
+        "w": 179,
+        "h": 56
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "h3": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"23px\",\"lh\":\"27.6px\",\"ls\":\"-0.46px\",\"w\":\"500\",\"color\":\"#1c292d\",\"margin\":\"20px 0px 0px\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "23px",
+       "lh": "27.6px",
+       "ls": "-0.46px",
+       "w": "500",
+       "color": "#1c292d",
+       "margin": "20px 0px 0px",
+       "display": "block",
+       "ws": "pre-wrap",
+       "gapFromPrev": "20px after p",
+       "box": {
+        "x": 20,
+        "w": 350,
+        "h": 55
+       }
+      },
+      "gaps": {
+       "20px after p": 5,
+       "20px after ul": 1
+      }
+     }
+    }
+   },
+   "ul>li>p>strong": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"700\",\"color\":\"#4e606a\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "700",
+       "color": "#4e606a",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 260,
+        "w": 56,
+        "h": 21
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "h4": {
+    "count": 5,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"32px\",\"lh\":\"32px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"margin\":\"40px 0px 0px\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 5,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "32px",
+       "lh": "32px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "margin": "40px 0px 0px",
+       "display": "block",
+       "ws": "pre-wrap",
+       "gapFromPrev": "40px after h2",
+       "box": {
+        "x": 20,
+        "w": 350,
+        "h": 96
+       }
+      },
+      "gaps": {
+       "40px after h2": 1,
+       "40px after p": 4
+      }
+     }
+    }
+   },
+   "h4>strong": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"32px\",\"lh\":\"32px\",\"ls\":\"normal\",\"w\":\"700\",\"color\":\"#000000\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "32px",
+       "lh": "32px",
+       "ls": "normal",
+       "w": "700",
+       "color": "#000000",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 20,
+        "w": 355,
+        "h": 103
+       }
+      },
+      "gaps": {
+       "-42px after code": 1
+      }
+     }
+    }
+   },
+   "h4>code": {
+    "count": 1,
+    "variants": {
+     "{\"font\":\"Fragment Mono, monospace\",\"size\":\"32px\",\"lh\":\"32px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#333333\",\"pad\":\"3.2px 6.4px\",\"bg\":\"#000000/0.1\",\"radius\":\"6px\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 1,
+      "sample": {
+       "font": "Fragment Mono, monospace",
+       "size": "32px",
+       "lh": "32px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#333333",
+       "pad": "3.2px 6.4px",
+       "bg": "#000000/0.1",
+       "radius": "6px",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "gapFromPrev": "-41px after strong",
+       "box": {
+        "x": 248,
+        "w": 92,
+        "h": 44
+       }
+      },
+      "gaps": {
+       "-41px after strong": 1
+      }
+     }
+    }
+   },
+   "h4>code>strong": {
+    "count": 1,
+    "variants": {
+     "{\"font\":\"Fragment Mono, monospace\",\"size\":\"32px\",\"lh\":\"32px\",\"ls\":\"normal\",\"w\":\"700\",\"color\":\"#333333\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 1,
+      "sample": {
+       "font": "Fragment Mono, monospace",
+       "size": "32px",
+       "lh": "32px",
+       "ls": "normal",
+       "w": "700",
+       "color": "#333333",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 254,
+        "w": 79,
+        "h": 38
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "p>a>em": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"style\":\"italic\",\"color\":\"#002669\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "style": "italic",
+       "color": "#002669",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 20,
+        "w": 184,
+        "h": 21
+       }
+      },
+      "gaps": {}
+     }
+    }
+   }
+  },
+  "order": [
+   "h2",
+   "p",
+   "p>em",
+   "img",
+   "p>strong",
+   "figure",
+   "figure>table",
+   "figure>table>tbody>tr",
+   "table>tbody>tr>th",
+   "tbody>tr>th>p",
+   "table>tbody>tr>td",
+   "tbody>tr>td>p",
+   "ul",
+   "ul>li",
+   "ul>li>p",
+   "ul>li>p>code",
+   "p>code",
+   "p>a",
+   "p>a>strong",
+   "CTA img",
+   "CTA h2",
+   "h3",
+   "ul>li>p>strong",
+   "h4",
+   "h4>strong",
+   "h4>code",
+   "h4>code>strong",
+   "p>a>em"
+  ]
+ },
+ "768": {
+  "root": {
+   "box": {
+    "x": 20,
+    "w": 728,
+    "h": 8899
+   },
+   "display": "flex",
+   "gap": "48px",
+   "pad": "0px 0px 16px"
+  },
+  "sections": [
+   {
+    "name": "Section 1",
+    "box": {
+     "x": 20,
+     "w": 728,
+     "h": 3165
+    },
+    "gap": "24px",
+    "dir": "column"
+   },
+   {
+    "name": "Section 2",
+    "box": {
+     "x": 20,
+     "w": 728,
+     "h": 2041
+    },
+    "gap": "24px",
+    "dir": "column"
+   },
+   {
+    "name": "Section 3",
+    "box": {
+     "x": 20,
+     "w": 728,
+     "h": 2474
+    },
+    "gap": "24px",
+    "dir": "column"
+   }
+  ],
+  "outline": [
+   {
+    "name": "Section 1",
+    "box": {
+     "x": 20,
+     "w": 728,
+     "h": 3165
+    },
+    "blocks": "p×3, img, p×4, figure>table(8r x 3c), p, h2, p, ul(4 li), p, h2, p, img, p×2, ul(4 li), p, ul(3 li), p×2"
+   },
+   {
+    "name": "Section 2",
+    "box": {
+     "x": 20,
+     "w": 728,
+     "h": 2041
+    },
+    "blocks": "p, h3, p×3, h3, p, ul(3 li), h3, p, h3, p, h3, p, h3, ul(2 li), h2, p, ul(4 li), p, img, h2×2, p×2"
+   },
+   {
+    "name": "Section 3",
+    "box": {
+     "x": 20,
+     "w": 728,
+     "h": 2474
+    },
+    "blocks": "p×6, h2, h4, p, h4, p, h4, p, h4, p, h4, p×3, img, p×4"
+   }
+  ],
+  "styles": {
+   "h2": {
+    "count": 9,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"30px\",\"lh\":\"33.6px\",\"ls\":\"-0.9px\",\"w\":\"500\",\"color\":\"#1c292d\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "30px",
+       "lh": "33.6px",
+       "ls": "-0.9px",
+       "w": "500",
+       "color": "#1c292d",
+       "display": "block",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 20,
+        "w": 728,
+        "h": 67
+       }
+      },
+      "gaps": {}
+     },
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"28px\",\"lh\":\"33.04px\",\"ls\":\"-0.7px\",\"w\":\"500\",\"color\":\"#1c292d\",\"margin\":\"20px 0px 0px\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "28px",
+       "lh": "33.04px",
+       "ls": "-0.7px",
+       "w": "500",
+       "color": "#1c292d",
+       "margin": "20px 0px 0px",
+       "display": "block",
+       "ws": "pre-wrap",
+       "gapFromPrev": "20px after p",
+       "box": {
+        "x": 20,
+        "w": 728,
+        "h": 33
+       }
+      },
+      "gaps": {
+       "20px after p": 3,
+       "20px after ul": 1,
+       "20px after img": 1,
+       "20px after h2": 1
+      }
+     }
+    }
+   },
+   "p": {
+    "count": 45,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "display": "block",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 20,
+        "w": 728,
+        "h": 28
+       }
+      },
+      "gaps": {}
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"margin\":\"20px 0px 0px\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 42,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "margin": "20px 0px 0px",
+       "display": "block",
+       "ws": "pre-wrap",
+       "gapFromPrev": "20px after p",
+       "box": {
+        "x": 20,
+        "w": 728,
+        "h": 84
+       }
+      },
+      "gaps": {
+       "20px after p": 20,
+       "20px after img": 3,
+       "48px after figure": 1,
+       "20px after h2": 4,
+       "20px after ul": 4,
+       "20px after h3": 5,
+       "20px after h4": 5
+      }
+     }
+    }
+   },
+   "p>em": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"style\":\"italic\",\"color\":\"#4e606a\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "style": "italic",
+       "color": "#4e606a",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 20,
+        "w": 429,
+        "h": 21
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "img": {
+    "count": 4,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"12px\",\"lh\":\"normal\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"display\":\"block\",\"ws\":\"pre-wrap\",\"ovf\":\"clip\",\"fit\":\"fill\",\"maxw\":\"100%\"}": {
+      "n": 4,
+      "sample": {
+       "font": "sans-serif",
+       "size": "12px",
+       "lh": "normal",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "display": "block",
+       "ws": "pre-wrap",
+       "ovf": "clip",
+       "fit": "fill",
+       "maxw": "100%",
+       "gapFromPrev": "0px after p",
+       "box": {
+        "x": 20,
+        "w": 720,
+        "h": 430
+       }
+      },
+      "gaps": {
+       "0px after p": 4
+      }
+     }
+    }
+   },
+   "p>strong": {
+    "count": 8,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"700\",\"color\":\"#4e606a\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 8,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "700",
+       "color": "#4e606a",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 20,
+        "w": 303,
+        "h": 21
+       }
+      },
+      "gaps": {
+       "-24px after code": 1
+      }
+     }
+    }
+   },
+   "figure": {
+    "count": 1,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"12px\",\"lh\":\"normal\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"margin\":\"28px 0px\",\"pad\":\"0px 0px 12px\",\"display\":\"block\",\"ws\":\"pre-wrap\",\"ovf\":\"auto\",\"maxw\":\"100%\",\"::before\":\"content=\\\"Compare the details · Scroll across to see every column →\\\" sticky 728pxx19.5px top=auto left=0px bg=#000000/0 color=#53676e font=13px/19.5px sans-serif border=0px #53676e\"}": {
+      "n": 1,
+      "sample": {
+       "font": "sans-serif",
+       "size": "12px",
+       "lh": "normal",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "margin": "28px 0px",
+       "pad": "0px 0px 12px",
+       "display": "block",
+       "ws": "pre-wrap",
+       "ovf": "auto",
+       "maxw": "100%",
+       "::before": "content=\"Compare the details · Scroll across to see every column →\" sticky 728pxx19.5px top=auto left=0px bg=#000000/0 color=#53676e font=13px/19.5px sans-serif border=0px #53676e",
+       "gapFromPrev": "28px after p",
+       "box": {
+        "x": 20,
+        "w": 728,
+        "h": 523
+       }
+      },
+      "gaps": {
+       "28px after p": 1
+      }
+     }
+    }
+   },
+   "figure>table": {
+    "count": 1,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"border\":\"1px 1px 1px 1px solid #e8e8e8\",\"radius\":\"8px\",\"display\":\"table\",\"ws\":\"pre-wrap\",\"ovf\":\"hidden\"}": {
+      "n": 1,
+      "sample": {
+       "font": "sans-serif",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "border": "1px 1px 1px 1px solid #e8e8e8",
+       "radius": "8px",
+       "display": "table",
+       "ws": "pre-wrap",
+       "ovf": "hidden",
+       "box": {
+        "x": 20,
+        "w": 740,
+        "h": 477
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "figure>table>tbody>tr": {
+    "count": 8,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"display\":\"table-row\",\"ws\":\"pre-wrap\"}": {
+      "n": 8,
+      "sample": {
+       "font": "sans-serif",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "display": "table-row",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 21,
+        "w": 739,
+        "h": 60
+       }
+      },
+      "gaps": {
+       "0px after tr": 7
+      }
+     }
+    }
+   },
+   "table>tbody>tr>th": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"500\",\"color\":\"#20373b\",\"pad\":\"18px 20px\",\"bg\":\"#e8eeea\",\"border\":\"1px 1px 1px 1px solid #d5dedb\",\"display\":\"table-cell\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "sans-serif",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "500",
+       "color": "#20373b",
+       "pad": "18px 20px",
+       "bg": "#e8eeea",
+       "border": "1px 1px 1px 1px solid #d5dedb",
+       "display": "table-cell",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 21,
+        "w": 246,
+        "h": 60
+       }
+      },
+      "gaps": {
+       "-59px after th": 2
+      }
+     }
+    }
+   },
+   "tbody>tr>th>p": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "display": "block",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 41,
+        "w": 205,
+        "h": 23
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "table>tbody>tr>td": {
+    "count": 21,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#35494f\",\"pad\":\"18px 20px\",\"bg\":\"#fbfcf9\",\"border\":\"1px 1px 1px 1px solid #d5dedb\",\"display\":\"table-cell\",\"ws\":\"pre-wrap\"}": {
+      "n": 21,
+      "sample": {
+       "font": "sans-serif",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#35494f",
+       "pad": "18px 20px",
+       "bg": "#fbfcf9",
+       "border": "1px 1px 1px 1px solid #d5dedb",
+       "display": "table-cell",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 21,
+        "w": 246,
+        "h": 60
+       }
+      },
+      "gaps": {
+       "-59px after td": 14
+      }
+     }
+    }
+   },
+   "tbody>tr>td>p": {
+    "count": 21,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 21,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "display": "block",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 41,
+        "w": 205,
+        "h": 23
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "ul": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"16px\",\"lh\":\"19.2px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"display\":\"block\",\"list\":\"disc outside\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "16px",
+       "lh": "19.2px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "display": "block",
+       "list": "disc outside",
+       "ws": "pre-wrap",
+       "gapFromPrev": "0px after p",
+       "box": {
+        "x": 20,
+        "w": 728,
+        "h": 144
+       }
+      },
+      "gaps": {
+       "0px after p": 5,
+       "0px after h3": 1
+      }
+     }
+    }
+   },
+   "ul>li": {
+    "count": 20,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 22.2116px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 6.45312pxx27.9062px top=0px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 6,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 22.2116px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 6.45312pxx27.9062px top=0px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "box": {
+        "x": 20,
+        "w": 728,
+        "h": 29
+       }
+      },
+      "gaps": {}
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 22.2116px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 6.45312pxx27.9062px top=28.9062px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 4,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 22.2116px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 6.45312pxx27.9062px top=28.9062px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 20,
+        "w": 728,
+        "h": 29
+       }
+      },
+      "gaps": {
+       "0px after li": 4
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 22.2116px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 6.45312pxx27.9062px top=57.8125px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 3,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 22.2116px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 6.45312pxx27.9062px top=57.8125px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 20,
+        "w": 728,
+        "h": 29
+       }
+      },
+      "gaps": {
+       "0px after li": 3
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 22.2116px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 6.45312pxx27.9062px top=86.7188px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 2,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 22.2116px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 6.45312pxx27.9062px top=86.7188px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 20,
+        "w": 728,
+        "h": 57
+       }
+      },
+      "gaps": {
+       "0px after li": 2
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 22.2116px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 6.45312pxx27.9062px top=56.8125px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 1,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 22.2116px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 6.45312pxx27.9062px top=56.8125px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 20,
+        "w": 728,
+        "h": 28
+       }
+      },
+      "gaps": {
+       "0px after li": 1
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 22.2116px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 6.45312pxx27.9062px top=27.9062px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 1,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 22.2116px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 6.45312pxx27.9062px top=27.9062px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 20,
+        "w": 728,
+        "h": 28
+       }
+      },
+      "gaps": {
+       "0px after li": 1
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 22.2116px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 6.45312pxx27.9062px top=55.8125px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 1,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 22.2116px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 6.45312pxx27.9062px top=55.8125px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 20,
+        "w": 728,
+        "h": 56
+       }
+      },
+      "gaps": {
+       "0px after li": 1
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 22.2116px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 6.45312pxx27.9062px top=111.625px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 1,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 22.2116px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 6.45312pxx27.9062px top=111.625px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 20,
+        "w": 728,
+        "h": 56
+       }
+      },
+      "gaps": {
+       "0px after li": 1
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 22.2116px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 6.45312pxx27.9062px top=167.438px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 1,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 22.2116px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 18px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 6.45312pxx27.9062px top=167.438px left=0px bg=#000000/0 color=#4e606a font=18px/27.9px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 20,
+        "w": 728,
+        "h": 28
+       }
+      },
+      "gaps": {
+       "0px after li": 1
+      }
+     }
+    }
+   },
+   "ul>li>p": {
+    "count": 20,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 20,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "display": "block",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 42,
+        "w": 706,
+        "h": 29
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "ul>li>p>code": {
+    "count": 16,
+    "variants": {
+     "{\"font\":\"Fragment Mono, monospace\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#333333\",\"pad\":\"1.8px 3.6px\",\"bg\":\"#000000/0.1\",\"radius\":\"6px\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 16,
+      "sample": {
+       "font": "Fragment Mono, monospace",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#333333",
+       "pad": "1.8px 3.6px",
+       "bg": "#000000/0.1",
+       "radius": "6px",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 42,
+        "w": 29,
+        "h": 26
+       }
+      },
+      "gaps": {
+       "-26px after code": 4
+      }
+     }
+    }
+   },
+   "p>code": {
+    "count": 12,
+    "variants": {
+     "{\"font\":\"Fragment Mono, monospace\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#333333\",\"pad\":\"1.8px 3.6px\",\"bg\":\"#000000/0.1\",\"radius\":\"6px\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 12,
+      "sample": {
+       "font": "Fragment Mono, monospace",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#333333",
+       "pad": "1.8px 3.6px",
+       "bg": "#000000/0.1",
+       "radius": "6px",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "gapFromPrev": "-23px after strong",
+       "box": {
+        "x": 472,
+        "w": 74,
+        "h": 26
+       }
+      },
+      "gaps": {
+       "-23px after strong": 4,
+       "-26px after code": 2
+      }
+     }
+    }
+   },
+   "p>a": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#002669\",\"display\":\"inline\",\"ws\":\"pre-wrap\",\"cursor\":\"pointer\"}": {
+      "n": 6,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#002669",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "cursor": "pointer",
+       "box": {
+        "x": 20,
+        "w": 660,
+        "h": 49
+       }
+      },
+      "gaps": {
+       "-21px after em": 3
+      }
+     }
+    }
+   },
+   "p>a>strong": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"700\",\"color\":\"#002669\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "700",
+       "color": "#002669",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 39,
+        "w": 342,
+        "h": 21
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "CTA img": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"12px\",\"lh\":\"normal\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"display\":\"block\",\"ovf\":\"clip\",\"fit\":\"cover\"}": {
+      "n": 3,
+      "sample": {
+       "font": "sans-serif",
+       "size": "12px",
+       "lh": "normal",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "display": "block",
+       "ovf": "clip",
+       "fit": "cover",
+       "box": {
+        "x": 20,
+        "w": 728,
+        "h": 321
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "CTA h2": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"20px\",\"lh\":\"28px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"display\":\"block\",\"ws\":\"pre\"}": {
+      "n": 3,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "20px",
+       "lh": "28px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "display": "block",
+       "ws": "pre",
+       "box": {
+        "x": 68,
+        "w": 179,
+        "h": 56
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "h3": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"23px\",\"lh\":\"27.6px\",\"ls\":\"-0.46px\",\"w\":\"500\",\"color\":\"#1c292d\",\"margin\":\"20px 0px 0px\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "23px",
+       "lh": "27.6px",
+       "ls": "-0.46px",
+       "w": "500",
+       "color": "#1c292d",
+       "margin": "20px 0px 0px",
+       "display": "block",
+       "ws": "pre-wrap",
+       "gapFromPrev": "20px after p",
+       "box": {
+        "x": 20,
+        "w": 728,
+        "h": 28
+       }
+      },
+      "gaps": {
+       "20px after p": 5,
+       "20px after ul": 1
+      }
+     }
+    }
+   },
+   "ul>li>p>strong": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"700\",\"color\":\"#4e606a\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "700",
+       "color": "#4e606a",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 260,
+        "w": 56,
+        "h": 21
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "h4": {
+    "count": 5,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"32px\",\"lh\":\"32px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"margin\":\"40px 0px 0px\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 5,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "32px",
+       "lh": "32px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "margin": "40px 0px 0px",
+       "display": "block",
+       "ws": "pre-wrap",
+       "gapFromPrev": "40px after h2",
+       "box": {
+        "x": 20,
+        "w": 728,
+        "h": 32
+       }
+      },
+      "gaps": {
+       "40px after h2": 1,
+       "40px after p": 4
+      }
+     }
+    }
+   },
+   "h4>strong": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"32px\",\"lh\":\"32px\",\"ls\":\"normal\",\"w\":\"700\",\"color\":\"#000000\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "32px",
+       "lh": "32px",
+       "ls": "normal",
+       "w": "700",
+       "color": "#000000",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 20,
+        "w": 722,
+        "h": 39
+       }
+      },
+      "gaps": {
+       "-42px after code": 1
+      }
+     }
+    }
+   },
+   "h4>code": {
+    "count": 1,
+    "variants": {
+     "{\"font\":\"Fragment Mono, monospace\",\"size\":\"32px\",\"lh\":\"32px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#333333\",\"pad\":\"3.2px 6.4px\",\"bg\":\"#000000/0.1\",\"radius\":\"6px\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 1,
+      "sample": {
+       "font": "Fragment Mono, monospace",
+       "size": "32px",
+       "lh": "32px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#333333",
+       "pad": "3.2px 6.4px",
+       "bg": "#000000/0.1",
+       "radius": "6px",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "gapFromPrev": "-41px after strong",
+       "box": {
+        "x": 248,
+        "w": 92,
+        "h": 44
+       }
+      },
+      "gaps": {
+       "-41px after strong": 1
+      }
+     }
+    }
+   },
+   "h4>code>strong": {
+    "count": 1,
+    "variants": {
+     "{\"font\":\"Fragment Mono, monospace\",\"size\":\"32px\",\"lh\":\"32px\",\"ls\":\"normal\",\"w\":\"700\",\"color\":\"#333333\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 1,
+      "sample": {
+       "font": "Fragment Mono, monospace",
+       "size": "32px",
+       "lh": "32px",
+       "ls": "normal",
+       "w": "700",
+       "color": "#333333",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 254,
+        "w": 79,
+        "h": 38
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "p>a>em": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"18px\",\"lh\":\"27.9px\",\"ls\":\"normal\",\"w\":\"400\",\"style\":\"italic\",\"color\":\"#002669\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "18px",
+       "lh": "27.9px",
+       "ls": "normal",
+       "w": "400",
+       "style": "italic",
+       "color": "#002669",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 528,
+        "w": 184,
+        "h": 21
+       }
+      },
+      "gaps": {}
+     }
+    }
+   }
+  },
+  "order": [
+   "h2",
+   "p",
+   "p>em",
+   "img",
+   "p>strong",
+   "figure",
+   "figure>table",
+   "figure>table>tbody>tr",
+   "table>tbody>tr>th",
+   "tbody>tr>th>p",
+   "table>tbody>tr>td",
+   "tbody>tr>td>p",
+   "ul",
+   "ul>li",
+   "ul>li>p",
+   "ul>li>p>code",
+   "p>code",
+   "p>a",
+   "p>a>strong",
+   "CTA img",
+   "CTA h2",
+   "h3",
+   "ul>li>p>strong",
+   "h4",
+   "h4>strong",
+   "h4>code",
+   "h4>code>strong",
+   "p>a>em"
+  ]
+ },
+ "1280": {
+  "root": {
+   "box": {
+    "x": 451,
+    "w": 760,
+    "h": 9665
+   },
+   "display": "flex",
+   "gap": "48px",
+   "pad": "0px 0px 16px"
+  },
+  "sections": [
+   {
+    "name": "Section 1",
+    "box": {
+     "x": 451,
+     "w": 760,
+     "h": 3333
+    },
+    "gap": "24px",
+    "dir": "column"
+   },
+   {
+    "name": "Section 2",
+    "box": {
+     "x": 451,
+     "w": 760,
+     "h": 2237
+    },
+    "gap": "24px",
+    "dir": "column"
+   },
+   {
+    "name": "Section 3",
+    "box": {
+     "x": 451,
+     "w": 760,
+     "h": 2904
+    },
+    "gap": "24px",
+    "dir": "column"
+   }
+  ],
+  "outline": [
+   {
+    "name": "Section 1",
+    "box": {
+     "x": 451,
+     "w": 760,
+     "h": 3333
+    },
+    "blocks": "p×3, img, p×4, figure>table(8r x 3c), p, h2, p, ul(4 li), p, h2, p, img, p×2, ul(4 li), p, ul(3 li), p×2"
+   },
+   {
+    "name": "Section 2",
+    "box": {
+     "x": 451,
+     "w": 760,
+     "h": 2237
+    },
+    "blocks": "p, h3, p×3, h3, p, ul(3 li), h3, p, h3, p, h3, p, h3, ul(2 li), h2, p, ul(4 li), p, img, h2×2, p×2"
+   },
+   {
+    "name": "Section 3",
+    "box": {
+     "x": 451,
+     "w": 760,
+     "h": 2904
+    },
+    "blocks": "p×6, h2, h4, p, h4, p, h4, p, h4, p, h4, p×3, img, p×4"
+   }
+  ],
+  "styles": {
+   "h2": {
+    "count": 9,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"40px\",\"lh\":\"44.8px\",\"ls\":\"-1.2px\",\"w\":\"500\",\"color\":\"#1c292d\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "40px",
+       "lh": "44.8px",
+       "ls": "-1.2px",
+       "w": "500",
+       "color": "#1c292d",
+       "display": "block",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 451,
+        "w": 760,
+        "h": 90
+       }
+      },
+      "gaps": {}
+     },
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"34px\",\"lh\":\"40.12px\",\"ls\":\"-0.85px\",\"w\":\"500\",\"color\":\"#1c292d\",\"margin\":\"20px 0px 0px\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "34px",
+       "lh": "40.12px",
+       "ls": "-0.85px",
+       "w": "500",
+       "color": "#1c292d",
+       "margin": "20px 0px 0px",
+       "display": "block",
+       "ws": "pre-wrap",
+       "gapFromPrev": "20px after p",
+       "box": {
+        "x": 451,
+        "w": 760,
+        "h": 40
+       }
+      },
+      "gaps": {
+       "20px after p": 3,
+       "20px after ul": 1,
+       "20px after img": 1,
+       "20px after h2": 1
+      }
+     }
+    }
+   },
+   "p": {
+    "count": 45,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "display": "block",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 451,
+        "w": 760,
+        "h": 31
+       }
+      },
+      "gaps": {}
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"margin\":\"20px 0px 0px\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 42,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "margin": "20px 0px 0px",
+       "display": "block",
+       "ws": "pre-wrap",
+       "gapFromPrev": "20px after p",
+       "box": {
+        "x": 451,
+        "w": 760,
+        "h": 124
+       }
+      },
+      "gaps": {
+       "20px after p": 20,
+       "20px after img": 3,
+       "48px after figure": 1,
+       "20px after h2": 4,
+       "20px after ul": 4,
+       "20px after h3": 5,
+       "20px after h4": 5
+      }
+     }
+    }
+   },
+   "p>em": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"style\":\"italic\",\"color\":\"#4e606a\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "style": "italic",
+       "color": "#4e606a",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 451,
+        "w": 477,
+        "h": 24
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "img": {
+    "count": 4,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"12px\",\"lh\":\"normal\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"display\":\"block\",\"ws\":\"pre-wrap\",\"ovf\":\"clip\",\"fit\":\"fill\",\"maxw\":\"100%\"}": {
+      "n": 4,
+      "sample": {
+       "font": "sans-serif",
+       "size": "12px",
+       "lh": "normal",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "display": "block",
+       "ws": "pre-wrap",
+       "ovf": "clip",
+       "fit": "fill",
+       "maxw": "100%",
+       "gapFromPrev": "0px after p",
+       "box": {
+        "x": 451,
+        "w": 720,
+        "h": 430
+       }
+      },
+      "gaps": {
+       "0px after p": 4
+      }
+     }
+    }
+   },
+   "p>strong": {
+    "count": 8,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"700\",\"color\":\"#4e606a\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 8,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "700",
+       "color": "#4e606a",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 451,
+        "w": 337,
+        "h": 24
+       }
+      },
+      "gaps": {
+       "-26px after code": 1
+      }
+     }
+    }
+   },
+   "figure": {
+    "count": 1,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"12px\",\"lh\":\"normal\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"margin\":\"28px 0px\",\"pad\":\"0px 0px 12px\",\"display\":\"block\",\"ws\":\"pre-wrap\",\"ovf\":\"auto\",\"maxw\":\"100%\",\"::before\":\"content=\\\"Compare the details · Scroll across to see every column →\\\" sticky 760pxx19.5px top=auto left=0px bg=#000000/0 color=#53676e font=13px/19.5px sans-serif border=0px #53676e\"}": {
+      "n": 1,
+      "sample": {
+       "font": "sans-serif",
+       "size": "12px",
+       "lh": "normal",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "margin": "28px 0px",
+       "pad": "0px 0px 12px",
+       "display": "block",
+       "ws": "pre-wrap",
+       "ovf": "auto",
+       "maxw": "100%",
+       "::before": "content=\"Compare the details · Scroll across to see every column →\" sticky 760pxx19.5px top=auto left=0px bg=#000000/0 color=#53676e font=13px/19.5px sans-serif border=0px #53676e",
+       "gapFromPrev": "28px after p",
+       "box": {
+        "x": 451,
+        "w": 760,
+        "h": 523
+       }
+      },
+      "gaps": {
+       "28px after p": 1
+      }
+     }
+    }
+   },
+   "figure>table": {
+    "count": 1,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"border\":\"1px 1px 1px 1px solid #e8e8e8\",\"radius\":\"8px\",\"display\":\"table\",\"ws\":\"pre-wrap\",\"ovf\":\"hidden\"}": {
+      "n": 1,
+      "sample": {
+       "font": "sans-serif",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "border": "1px 1px 1px 1px solid #e8e8e8",
+       "radius": "8px",
+       "display": "table",
+       "ws": "pre-wrap",
+       "ovf": "hidden",
+       "box": {
+        "x": 451,
+        "w": 760,
+        "h": 477
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "figure>table>tbody>tr": {
+    "count": 8,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"display\":\"table-row\",\"ws\":\"pre-wrap\"}": {
+      "n": 8,
+      "sample": {
+       "font": "sans-serif",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "display": "table-row",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 452,
+        "w": 759,
+        "h": 60
+       }
+      },
+      "gaps": {
+       "0px after tr": 7
+      }
+     }
+    }
+   },
+   "table>tbody>tr>th": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"500\",\"color\":\"#20373b\",\"pad\":\"18px 20px\",\"bg\":\"#e8eeea\",\"border\":\"1px 1px 1px 1px solid #d5dedb\",\"display\":\"table-cell\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "sans-serif",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "500",
+       "color": "#20373b",
+       "pad": "18px 20px",
+       "bg": "#e8eeea",
+       "border": "1px 1px 1px 1px solid #d5dedb",
+       "display": "table-cell",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 452,
+        "w": 253,
+        "h": 60
+       }
+      },
+      "gaps": {
+       "-59px after th": 2
+      }
+     }
+    }
+   },
+   "tbody>tr>th>p": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "display": "block",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 472,
+        "w": 212,
+        "h": 23
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "table>tbody>tr>td": {
+    "count": 21,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#35494f\",\"pad\":\"18px 20px\",\"bg\":\"#fbfcf9\",\"border\":\"1px 1px 1px 1px solid #d5dedb\",\"display\":\"table-cell\",\"ws\":\"pre-wrap\"}": {
+      "n": 21,
+      "sample": {
+       "font": "sans-serif",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#35494f",
+       "pad": "18px 20px",
+       "bg": "#fbfcf9",
+       "border": "1px 1px 1px 1px solid #d5dedb",
+       "display": "table-cell",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 452,
+        "w": 253,
+        "h": 60
+       }
+      },
+      "gaps": {
+       "-59px after td": 14
+      }
+     }
+    }
+   },
+   "tbody>tr>td>p": {
+    "count": 21,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 21,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "display": "block",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 472,
+        "w": 212,
+        "h": 23
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "ul": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"16px\",\"lh\":\"19.2px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"display\":\"block\",\"list\":\"disc outside\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "16px",
+       "lh": "19.2px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "display": "block",
+       "list": "disc outside",
+       "ws": "pre-wrap",
+       "gapFromPrev": "0px after p",
+       "box": {
+        "x": 451,
+        "w": 760,
+        "h": 155
+       }
+      },
+      "gaps": {
+       "0px after p": 5,
+       "0px after h3": 1
+      }
+     }
+    }
+   },
+   "ul>li": {
+    "count": 20,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 24.6796px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 7.17188pxx31px top=0px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 6,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 24.6796px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 7.17188pxx31px top=0px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "box": {
+        "x": 451,
+        "w": 760,
+        "h": 31
+       }
+      },
+      "gaps": {}
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 24.6796px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 7.17188pxx31px top=31px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 5,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 24.6796px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 7.17188pxx31px top=31px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 451,
+        "w": 760,
+        "h": 31
+       }
+      },
+      "gaps": {
+       "0px after li": 5
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 24.6796px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 7.17188pxx31px top=62px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 5,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 24.6796px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 7.17188pxx31px top=62px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 451,
+        "w": 760,
+        "h": 31
+       }
+      },
+      "gaps": {
+       "0px after li": 5
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 24.6796px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 7.17188pxx31px top=93px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 2,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 24.6796px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 7.17188pxx31px top=93px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 451,
+        "w": 760,
+        "h": 62
+       }
+      },
+      "gaps": {
+       "0px after li": 2
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 24.6796px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 7.17188pxx31px top=124px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 1,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 24.6796px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 7.17188pxx31px top=124px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 451,
+        "w": 760,
+        "h": 62
+       }
+      },
+      "gaps": {
+       "0px after li": 1
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 24.6796px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 7.17188pxx31px top=186px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 1,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 24.6796px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 7.17188pxx31px top=186px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 451,
+        "w": 760,
+        "h": 62
+       }
+      },
+      "gaps": {
+       "0px after li": 1
+      }
+     }
+    }
+   },
+   "ul>li>p": {
+    "count": 20,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 20,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "display": "block",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 476,
+        "w": 735,
+        "h": 31
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "ul>li>p>code": {
+    "count": 16,
+    "variants": {
+     "{\"font\":\"Fragment Mono, monospace\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#333333\",\"pad\":\"2px 4px\",\"bg\":\"#000000/0.1\",\"radius\":\"6px\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 16,
+      "sample": {
+       "font": "Fragment Mono, monospace",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#333333",
+       "pad": "2px 4px",
+       "bg": "#000000/0.1",
+       "radius": "6px",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 476,
+        "w": 33,
+        "h": 28
+       }
+      },
+      "gaps": {
+       "-28px after code": 4
+      }
+     }
+    }
+   },
+   "p>code": {
+    "count": 12,
+    "variants": {
+     "{\"font\":\"Fragment Mono, monospace\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#333333\",\"pad\":\"2px 4px\",\"bg\":\"#000000/0.1\",\"radius\":\"6px\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 12,
+      "sample": {
+       "font": "Fragment Mono, monospace",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#333333",
+       "pad": "2px 4px",
+       "bg": "#000000/0.1",
+       "radius": "6px",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "gapFromPrev": "-26px after strong",
+       "box": {
+        "x": 953,
+        "w": 82,
+        "h": 28
+       }
+      },
+      "gaps": {
+       "-26px after strong": 4,
+       "-28px after code": 2
+      }
+     }
+    }
+   },
+   "p>a": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#002669\",\"display\":\"inline\",\"ws\":\"pre-wrap\",\"cursor\":\"pointer\"}": {
+      "n": 6,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#002669",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "cursor": "pointer",
+       "box": {
+        "x": 451,
+        "w": 734,
+        "h": 55
+       }
+      },
+      "gaps": {
+       "7px after em": 1,
+       "-24px after em": 2
+      }
+     }
+    }
+   },
+   "p>a>strong": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"700\",\"color\":\"#002669\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "700",
+       "color": "#002669",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 472,
+        "w": 380,
+        "h": 24
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "CTA img": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"12px\",\"lh\":\"normal\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"display\":\"block\",\"ovf\":\"clip\",\"fit\":\"cover\"}": {
+      "n": 3,
+      "sample": {
+       "font": "sans-serif",
+       "size": "12px",
+       "lh": "normal",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "display": "block",
+       "ovf": "clip",
+       "fit": "cover",
+       "box": {
+        "x": 451,
+        "w": 760,
+        "h": 311
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "CTA h2": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"28px\",\"lh\":\"39.2px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"display\":\"block\",\"ws\":\"pre\"}": {
+      "n": 3,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "28px",
+       "lh": "39.2px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "display": "block",
+       "ws": "pre",
+       "box": {
+        "x": 499,
+        "w": 251,
+        "h": 78
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "h3": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"26px\",\"lh\":\"31.2px\",\"ls\":\"-0.52px\",\"w\":\"500\",\"color\":\"#1c292d\",\"margin\":\"20px 0px 0px\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "26px",
+       "lh": "31.2px",
+       "ls": "-0.52px",
+       "w": "500",
+       "color": "#1c292d",
+       "margin": "20px 0px 0px",
+       "display": "block",
+       "ws": "pre-wrap",
+       "gapFromPrev": "20px after p",
+       "box": {
+        "x": 451,
+        "w": 760,
+        "h": 31
+       }
+      },
+      "gaps": {
+       "20px after p": 5,
+       "20px after ul": 1
+      }
+     }
+    }
+   },
+   "ul>li>p>strong": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"700\",\"color\":\"#4e606a\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "700",
+       "color": "#4e606a",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 718,
+        "w": 62,
+        "h": 24
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "h4": {
+    "count": 5,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"42px\",\"lh\":\"42px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"margin\":\"40px 0px 0px\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 5,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "42px",
+       "lh": "42px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "margin": "40px 0px 0px",
+       "display": "block",
+       "ws": "pre-wrap",
+       "gapFromPrev": "40px after h2",
+       "box": {
+        "x": 451,
+        "w": 760,
+        "h": 84
+       }
+      },
+      "gaps": {
+       "40px after h2": 1,
+       "40px after p": 4
+      }
+     }
+    }
+   },
+   "h4>strong": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"42px\",\"lh\":\"42px\",\"ls\":\"normal\",\"w\":\"700\",\"color\":\"#000000\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "42px",
+       "lh": "42px",
+       "ls": "normal",
+       "w": "700",
+       "color": "#000000",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 451,
+        "w": 688,
+        "h": 92
+       }
+      },
+      "gaps": {
+       "-55px after code": 1
+      }
+     }
+    }
+   },
+   "h4>code": {
+    "count": 1,
+    "variants": {
+     "{\"font\":\"Fragment Mono, monospace\",\"size\":\"42px\",\"lh\":\"42px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#333333\",\"pad\":\"4.2px 8.4px\",\"bg\":\"#000000/0.1\",\"radius\":\"6px\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 1,
+      "sample": {
+       "font": "Fragment Mono, monospace",
+       "size": "42px",
+       "lh": "42px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#333333",
+       "pad": "4.2px 8.4px",
+       "bg": "#000000/0.1",
+       "radius": "6px",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "gapFromPrev": "-54px after strong",
+       "box": {
+        "x": 750,
+        "w": 121,
+        "h": 59
+       }
+      },
+      "gaps": {
+       "-54px after strong": 1
+      }
+     }
+    }
+   },
+   "h4>code>strong": {
+    "count": 1,
+    "variants": {
+     "{\"font\":\"Fragment Mono, monospace\",\"size\":\"42px\",\"lh\":\"42px\",\"ls\":\"normal\",\"w\":\"700\",\"color\":\"#333333\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 1,
+      "sample": {
+       "font": "Fragment Mono, monospace",
+       "size": "42px",
+       "lh": "42px",
+       "ls": "normal",
+       "w": "700",
+       "color": "#333333",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 759,
+        "w": 104,
+        "h": 51
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "p>a>em": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"style\":\"italic\",\"color\":\"#002669\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "style": "italic",
+       "color": "#002669",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 451,
+        "w": 205,
+        "h": 24
+       }
+      },
+      "gaps": {}
+     }
+    }
+   }
+  },
+  "order": [
+   "h2",
+   "p",
+   "p>em",
+   "img",
+   "p>strong",
+   "figure",
+   "figure>table",
+   "figure>table>tbody>tr",
+   "table>tbody>tr>th",
+   "tbody>tr>th>p",
+   "table>tbody>tr>td",
+   "tbody>tr>td>p",
+   "ul",
+   "ul>li",
+   "ul>li>p",
+   "ul>li>p>code",
+   "p>code",
+   "p>a",
+   "p>a>strong",
+   "CTA img",
+   "CTA h2",
+   "h3",
+   "ul>li>p>strong",
+   "h4",
+   "h4>strong",
+   "h4>code",
+   "h4>code>strong",
+   "p>a>em"
+  ]
+ },
+ "1440": {
+  "root": {
+   "box": {
+    "x": 528,
+    "w": 760,
+    "h": 9665
+   },
+   "display": "flex",
+   "gap": "48px",
+   "pad": "0px 0px 16px"
+  },
+  "sections": [
+   {
+    "name": "Section 1",
+    "box": {
+     "x": 528,
+     "w": 760,
+     "h": 3333
+    },
+    "gap": "24px",
+    "dir": "column"
+   },
+   {
+    "name": "Section 2",
+    "box": {
+     "x": 528,
+     "w": 760,
+     "h": 2237
+    },
+    "gap": "24px",
+    "dir": "column"
+   },
+   {
+    "name": "Section 3",
+    "box": {
+     "x": 528,
+     "w": 760,
+     "h": 2904
+    },
+    "gap": "24px",
+    "dir": "column"
+   }
+  ],
+  "outline": [
+   {
+    "name": "Section 1",
+    "box": {
+     "x": 528,
+     "w": 760,
+     "h": 3333
+    },
+    "blocks": "p×3, img, p×4, figure>table(8r x 3c), p, h2, p, ul(4 li), p, h2, p, img, p×2, ul(4 li), p, ul(3 li), p×2"
+   },
+   {
+    "name": "Section 2",
+    "box": {
+     "x": 528,
+     "w": 760,
+     "h": 2237
+    },
+    "blocks": "p, h3, p×3, h3, p, ul(3 li), h3, p, h3, p, h3, p, h3, ul(2 li), h2, p, ul(4 li), p, img, h2×2, p×2"
+   },
+   {
+    "name": "Section 3",
+    "box": {
+     "x": 528,
+     "w": 760,
+     "h": 2904
+    },
+    "blocks": "p×6, h2, h4, p, h4, p, h4, p, h4, p, h4, p×3, img, p×4"
+   }
+  ],
+  "styles": {
+   "h2": {
+    "count": 9,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"40px\",\"lh\":\"44.8px\",\"ls\":\"-1.2px\",\"w\":\"500\",\"color\":\"#1c292d\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "40px",
+       "lh": "44.8px",
+       "ls": "-1.2px",
+       "w": "500",
+       "color": "#1c292d",
+       "display": "block",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 528,
+        "w": 760,
+        "h": 90
+       }
+      },
+      "gaps": {}
+     },
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"34px\",\"lh\":\"40.12px\",\"ls\":\"-0.85px\",\"w\":\"500\",\"color\":\"#1c292d\",\"margin\":\"20px 0px 0px\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "34px",
+       "lh": "40.12px",
+       "ls": "-0.85px",
+       "w": "500",
+       "color": "#1c292d",
+       "margin": "20px 0px 0px",
+       "display": "block",
+       "ws": "pre-wrap",
+       "gapFromPrev": "20px after p",
+       "box": {
+        "x": 528,
+        "w": 760,
+        "h": 40
+       }
+      },
+      "gaps": {
+       "20px after p": 3,
+       "20px after ul": 1,
+       "20px after img": 1,
+       "20px after h2": 1
+      }
+     }
+    }
+   },
+   "p": {
+    "count": 45,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "display": "block",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 528,
+        "w": 760,
+        "h": 31
+       }
+      },
+      "gaps": {}
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"margin\":\"20px 0px 0px\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 42,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "margin": "20px 0px 0px",
+       "display": "block",
+       "ws": "pre-wrap",
+       "gapFromPrev": "20px after p",
+       "box": {
+        "x": 528,
+        "w": 760,
+        "h": 124
+       }
+      },
+      "gaps": {
+       "20px after p": 20,
+       "20px after img": 3,
+       "48px after figure": 1,
+       "20px after h2": 4,
+       "20px after ul": 4,
+       "20px after h3": 5,
+       "20px after h4": 5
+      }
+     }
+    }
+   },
+   "p>em": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"style\":\"italic\",\"color\":\"#4e606a\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "style": "italic",
+       "color": "#4e606a",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 528,
+        "w": 477,
+        "h": 24
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "img": {
+    "count": 4,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"12px\",\"lh\":\"normal\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"display\":\"block\",\"ws\":\"pre-wrap\",\"ovf\":\"clip\",\"fit\":\"fill\",\"maxw\":\"100%\"}": {
+      "n": 4,
+      "sample": {
+       "font": "sans-serif",
+       "size": "12px",
+       "lh": "normal",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "display": "block",
+       "ws": "pre-wrap",
+       "ovf": "clip",
+       "fit": "fill",
+       "maxw": "100%",
+       "gapFromPrev": "0px after p",
+       "box": {
+        "x": 528,
+        "w": 720,
+        "h": 430
+       }
+      },
+      "gaps": {
+       "0px after p": 4
+      }
+     }
+    }
+   },
+   "p>strong": {
+    "count": 8,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"700\",\"color\":\"#4e606a\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 8,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "700",
+       "color": "#4e606a",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 528,
+        "w": 337,
+        "h": 24
+       }
+      },
+      "gaps": {
+       "-26px after code": 1
+      }
+     }
+    }
+   },
+   "figure": {
+    "count": 1,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"12px\",\"lh\":\"normal\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"margin\":\"28px 0px\",\"pad\":\"0px 0px 12px\",\"display\":\"block\",\"ws\":\"pre-wrap\",\"ovf\":\"auto\",\"maxw\":\"100%\",\"::before\":\"content=\\\"Compare the details · Scroll across to see every column →\\\" sticky 760pxx19.5px top=auto left=0px bg=#000000/0 color=#53676e font=13px/19.5px sans-serif border=0px #53676e\"}": {
+      "n": 1,
+      "sample": {
+       "font": "sans-serif",
+       "size": "12px",
+       "lh": "normal",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "margin": "28px 0px",
+       "pad": "0px 0px 12px",
+       "display": "block",
+       "ws": "pre-wrap",
+       "ovf": "auto",
+       "maxw": "100%",
+       "::before": "content=\"Compare the details · Scroll across to see every column →\" sticky 760pxx19.5px top=auto left=0px bg=#000000/0 color=#53676e font=13px/19.5px sans-serif border=0px #53676e",
+       "gapFromPrev": "28px after p",
+       "box": {
+        "x": 528,
+        "w": 760,
+        "h": 523
+       }
+      },
+      "gaps": {
+       "28px after p": 1
+      }
+     }
+    }
+   },
+   "figure>table": {
+    "count": 1,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"border\":\"1px 1px 1px 1px solid #e8e8e8\",\"radius\":\"8px\",\"display\":\"table\",\"ws\":\"pre-wrap\",\"ovf\":\"hidden\"}": {
+      "n": 1,
+      "sample": {
+       "font": "sans-serif",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "border": "1px 1px 1px 1px solid #e8e8e8",
+       "radius": "8px",
+       "display": "table",
+       "ws": "pre-wrap",
+       "ovf": "hidden",
+       "box": {
+        "x": 528,
+        "w": 760,
+        "h": 477
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "figure>table>tbody>tr": {
+    "count": 8,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"display\":\"table-row\",\"ws\":\"pre-wrap\"}": {
+      "n": 8,
+      "sample": {
+       "font": "sans-serif",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "display": "table-row",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 529,
+        "w": 759,
+        "h": 60
+       }
+      },
+      "gaps": {
+       "0px after tr": 7
+      }
+     }
+    }
+   },
+   "table>tbody>tr>th": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"500\",\"color\":\"#20373b\",\"pad\":\"18px 20px\",\"bg\":\"#e8eeea\",\"border\":\"1px 1px 1px 1px solid #d5dedb\",\"display\":\"table-cell\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "sans-serif",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "500",
+       "color": "#20373b",
+       "pad": "18px 20px",
+       "bg": "#e8eeea",
+       "border": "1px 1px 1px 1px solid #d5dedb",
+       "display": "table-cell",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 529,
+        "w": 253,
+        "h": 60
+       }
+      },
+      "gaps": {
+       "-59px after th": 2
+      }
+     }
+    }
+   },
+   "tbody>tr>th>p": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "display": "block",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 549,
+        "w": 212,
+        "h": 23
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "table>tbody>tr>td": {
+    "count": 21,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#35494f\",\"pad\":\"18px 20px\",\"bg\":\"#fbfcf9\",\"border\":\"1px 1px 1px 1px solid #d5dedb\",\"display\":\"table-cell\",\"ws\":\"pre-wrap\"}": {
+      "n": 21,
+      "sample": {
+       "font": "sans-serif",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#35494f",
+       "pad": "18px 20px",
+       "bg": "#fbfcf9",
+       "border": "1px 1px 1px 1px solid #d5dedb",
+       "display": "table-cell",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 529,
+        "w": 253,
+        "h": 60
+       }
+      },
+      "gaps": {
+       "-59px after td": 14
+      }
+     }
+    }
+   },
+   "tbody>tr>td>p": {
+    "count": 21,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"15px\",\"lh\":\"22.5px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 21,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "15px",
+       "lh": "22.5px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "display": "block",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 549,
+        "w": 212,
+        "h": 23
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "ul": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"16px\",\"lh\":\"19.2px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"display\":\"block\",\"list\":\"disc outside\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "16px",
+       "lh": "19.2px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "display": "block",
+       "list": "disc outside",
+       "ws": "pre-wrap",
+       "gapFromPrev": "0px after p",
+       "box": {
+        "x": 528,
+        "w": 760,
+        "h": 155
+       }
+      },
+      "gaps": {
+       "0px after p": 5,
+       "0px after h3": 1
+      }
+     }
+    }
+   },
+   "ul>li": {
+    "count": 20,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 24.6796px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 7.17188pxx31px top=0px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 6,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 24.6796px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 7.17188pxx31px top=0px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "box": {
+        "x": 528,
+        "w": 760,
+        "h": 31
+       }
+      },
+      "gaps": {}
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 24.6796px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 7.17188pxx31px top=31px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 5,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 24.6796px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 7.17188pxx31px top=31px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 528,
+        "w": 760,
+        "h": 31
+       }
+      },
+      "gaps": {
+       "0px after li": 5
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 24.6796px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 7.17188pxx31px top=62px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 5,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 24.6796px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 7.17188pxx31px top=62px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 528,
+        "w": 760,
+        "h": 31
+       }
+      },
+      "gaps": {
+       "0px after li": 5
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 24.6796px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 7.17188pxx31px top=93px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 2,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 24.6796px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 7.17188pxx31px top=93px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 528,
+        "w": 760,
+        "h": 62
+       }
+      },
+      "gaps": {
+       "0px after li": 2
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 24.6796px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 7.17188pxx31px top=124px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 1,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 24.6796px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 7.17188pxx31px top=124px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 528,
+        "w": 760,
+        "h": 62
+       }
+      },
+      "gaps": {
+       "0px after li": 1
+      }
+     },
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"pad\":\"0px 0px 0px 24.6796px\",\"display\":\"list-item\",\"list\":\"none outside\",\"ws\":\"pre-wrap\",\"marker\":\"normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable\",\"::before\":\"content=\\\"•\\\" absolute 7.17188pxx31px top=186px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a\"}": {
+      "n": 1,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "pad": "0px 0px 0px 24.6796px",
+       "display": "list-item",
+       "list": "none outside",
+       "ws": "pre-wrap",
+       "marker": "normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "::before": "content=\"•\" absolute 7.17188pxx31px top=186px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a",
+       "gapFromPrev": "0px after li",
+       "box": {
+        "x": 528,
+        "w": 760,
+        "h": 62
+       }
+      },
+      "gaps": {
+       "0px after li": 1
+      }
+     }
+    }
+   },
+   "ul>li>p": {
+    "count": 20,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#4e606a\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 20,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#4e606a",
+       "display": "block",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 553,
+        "w": 735,
+        "h": 31
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "ul>li>p>code": {
+    "count": 16,
+    "variants": {
+     "{\"font\":\"Fragment Mono, monospace\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#333333\",\"pad\":\"2px 4px\",\"bg\":\"#000000/0.1\",\"radius\":\"6px\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 16,
+      "sample": {
+       "font": "Fragment Mono, monospace",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#333333",
+       "pad": "2px 4px",
+       "bg": "#000000/0.1",
+       "radius": "6px",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 553,
+        "w": 33,
+        "h": 28
+       }
+      },
+      "gaps": {
+       "-28px after code": 4
+      }
+     }
+    }
+   },
+   "p>code": {
+    "count": 12,
+    "variants": {
+     "{\"font\":\"Fragment Mono, monospace\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#333333\",\"pad\":\"2px 4px\",\"bg\":\"#000000/0.1\",\"radius\":\"6px\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 12,
+      "sample": {
+       "font": "Fragment Mono, monospace",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#333333",
+       "pad": "2px 4px",
+       "bg": "#000000/0.1",
+       "radius": "6px",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "gapFromPrev": "-26px after strong",
+       "box": {
+        "x": 1030,
+        "w": 82,
+        "h": 28
+       }
+      },
+      "gaps": {
+       "-26px after strong": 4,
+       "-28px after code": 2
+      }
+     }
+    }
+   },
+   "p>a": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Variable, PP Neue Montreal Variable\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#002669\",\"display\":\"inline\",\"ws\":\"pre-wrap\",\"cursor\":\"pointer\"}": {
+      "n": 6,
+      "sample": {
+       "font": "PP Neue Montreal Variable, PP Neue Montreal Variable",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#002669",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "cursor": "pointer",
+       "box": {
+        "x": 528,
+        "w": 734,
+        "h": 55
+       }
+      },
+      "gaps": {
+       "7px after em": 1,
+       "-24px after em": 2
+      }
+     }
+    }
+   },
+   "p>a>strong": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"700\",\"color\":\"#002669\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "700",
+       "color": "#002669",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 549,
+        "w": 380,
+        "h": 24
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "CTA img": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"sans-serif\",\"size\":\"12px\",\"lh\":\"normal\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"display\":\"block\",\"ovf\":\"clip\",\"fit\":\"cover\"}": {
+      "n": 3,
+      "sample": {
+       "font": "sans-serif",
+       "size": "12px",
+       "lh": "normal",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "display": "block",
+       "ovf": "clip",
+       "fit": "cover",
+       "box": {
+        "x": 528,
+        "w": 760,
+        "h": 311
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "CTA h2": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"28px\",\"lh\":\"39.2px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"display\":\"block\",\"ws\":\"pre\"}": {
+      "n": 3,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "28px",
+       "lh": "39.2px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "display": "block",
+       "ws": "pre",
+       "box": {
+        "x": 576,
+        "w": 251,
+        "h": 78
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "h3": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"26px\",\"lh\":\"31.2px\",\"ls\":\"-0.52px\",\"w\":\"500\",\"color\":\"#1c292d\",\"margin\":\"20px 0px 0px\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "26px",
+       "lh": "31.2px",
+       "ls": "-0.52px",
+       "w": "500",
+       "color": "#1c292d",
+       "margin": "20px 0px 0px",
+       "display": "block",
+       "ws": "pre-wrap",
+       "gapFromPrev": "20px after p",
+       "box": {
+        "x": 528,
+        "w": 760,
+        "h": 31
+       }
+      },
+      "gaps": {
+       "20px after p": 5,
+       "20px after ul": 1
+      }
+     }
+    }
+   },
+   "ul>li>p>strong": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"700\",\"color\":\"#4e606a\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "700",
+       "color": "#4e606a",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 795,
+        "w": 62,
+        "h": 24
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "h4": {
+    "count": 5,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"42px\",\"lh\":\"42px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#000000\",\"margin\":\"40px 0px 0px\",\"display\":\"block\",\"ws\":\"pre-wrap\"}": {
+      "n": 5,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "42px",
+       "lh": "42px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#000000",
+       "margin": "40px 0px 0px",
+       "display": "block",
+       "ws": "pre-wrap",
+       "gapFromPrev": "40px after h2",
+       "box": {
+        "x": 528,
+        "w": 760,
+        "h": 84
+       }
+      },
+      "gaps": {
+       "40px after h2": 1,
+       "40px after p": 4
+      }
+     }
+    }
+   },
+   "h4>strong": {
+    "count": 6,
+    "variants": {
+     "{\"font\":\"PP Neue Montreal Medium, PP Neue Montreal Medium\",\"size\":\"42px\",\"lh\":\"42px\",\"ls\":\"normal\",\"w\":\"700\",\"color\":\"#000000\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 6,
+      "sample": {
+       "font": "PP Neue Montreal Medium, PP Neue Montreal Medium",
+       "size": "42px",
+       "lh": "42px",
+       "ls": "normal",
+       "w": "700",
+       "color": "#000000",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 528,
+        "w": 688,
+        "h": 92
+       }
+      },
+      "gaps": {
+       "-55px after code": 1
+      }
+     }
+    }
+   },
+   "h4>code": {
+    "count": 1,
+    "variants": {
+     "{\"font\":\"Fragment Mono, monospace\",\"size\":\"42px\",\"lh\":\"42px\",\"ls\":\"normal\",\"w\":\"400\",\"color\":\"#333333\",\"pad\":\"4.2px 8.4px\",\"bg\":\"#000000/0.1\",\"radius\":\"6px\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 1,
+      "sample": {
+       "font": "Fragment Mono, monospace",
+       "size": "42px",
+       "lh": "42px",
+       "ls": "normal",
+       "w": "400",
+       "color": "#333333",
+       "pad": "4.2px 8.4px",
+       "bg": "#000000/0.1",
+       "radius": "6px",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "gapFromPrev": "-54px after strong",
+       "box": {
+        "x": 827,
+        "w": 121,
+        "h": 59
+       }
+      },
+      "gaps": {
+       "-54px after strong": 1
+      }
+     }
+    }
+   },
+   "h4>code>strong": {
+    "count": 1,
+    "variants": {
+     "{\"font\":\"Fragment Mono, monospace\",\"size\":\"42px\",\"lh\":\"42px\",\"ls\":\"normal\",\"w\":\"700\",\"color\":\"#333333\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 1,
+      "sample": {
+       "font": "Fragment Mono, monospace",
+       "size": "42px",
+       "lh": "42px",
+       "ls": "normal",
+       "w": "700",
+       "color": "#333333",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 836,
+        "w": 104,
+        "h": 51
+       }
+      },
+      "gaps": {}
+     }
+    }
+   },
+   "p>a>em": {
+    "count": 3,
+    "variants": {
+     "{\"font\":\"Inter, Inter\",\"size\":\"20px\",\"lh\":\"31px\",\"ls\":\"normal\",\"w\":\"400\",\"style\":\"italic\",\"color\":\"#002669\",\"display\":\"inline\",\"ws\":\"pre-wrap\"}": {
+      "n": 3,
+      "sample": {
+       "font": "Inter, Inter",
+       "size": "20px",
+       "lh": "31px",
+       "ls": "normal",
+       "w": "400",
+       "style": "italic",
+       "color": "#002669",
+       "display": "inline",
+       "ws": "pre-wrap",
+       "box": {
+        "x": 528,
+        "w": 205,
+        "h": 24
+       }
+      },
+      "gaps": {}
+     }
+    }
+   }
+  },
+  "order": [
+   "h2",
+   "p",
+   "p>em",
+   "img",
+   "p>strong",
+   "figure",
+   "figure>table",
+   "figure>table>tbody>tr",
+   "table>tbody>tr>th",
+   "tbody>tr>th>p",
+   "table>tbody>tr>td",
+   "tbody>tr>td>p",
+   "ul",
+   "ul>li",
+   "ul>li>p",
+   "ul>li>p>code",
+   "p>code",
+   "p>a",
+   "p>a>strong",
+   "CTA img",
+   "CTA h2",
+   "h3",
+   "ul>li>p>strong",
+   "h4",
+   "h4>strong",
+   "h4>code",
+   "h4>code>strong",
+   "p>a>em"
+  ]
+ },
+ "url": "https://www.joinvalley.co/blog/claude-code-guide-non-technical-growth-teams"
+}

@@ -1,0 +1,72 @@
+[
+ {
+  "sid": "nav",
+  "kind": "bg",
+  "src": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 99 29.078%22 overflow=%22visible%22><path d=%22M 6.402 0 L 14.539 8.137 L 11.738 11.071 L 8.003 14.939 L 0 14.939 L 0 11.071 L 11.738 11.071 L 3.468 2.935 Z M 26.277 0 L 18.14 8.137 L 20.942 11.071 L 24.676 14.939 L 32.679 14.939 L 32.679 11.071 L 20.942 11.071 L 29.212",
+  "cls": "framer-ul32zn",
+  "w": 99,
+  "h": 29,
+  "size": "100% 100%",
+  "pos": "0% 0%"
+ },
+ {
+  "sid": "playbooks",
+  "kind": "bg",
+  "src": "linear-gradient(0deg, rgba(17, 35, 40, 0.94), rgba(17, 35, 40, 0.05)), url(\"https://framerusercontent.com/images/PFm0moxeBn8eOm66rVN2ssTio.png?scale-down-to=512\")",
+  "cls": "",
+  "w": 214,
+  "h": 150,
+  "size": "cover, cover",
+  "pos": "50% 50%, 50% 50%"
+ },
+ {
+  "sid": "playbooks",
+  "kind": "bg",
+  "src": "linear-gradient(0deg, rgba(17, 35, 40, 0.94), rgba(17, 35, 40, 0.05)), url(\"https://framerusercontent.com/images/5WP0tI1lICNwC23waJVfpSCTTpE.png?scale-down-to=512\")",
+  "cls": "",
+  "w": 214,
+  "h": 150,
+  "size": "cover, cover",
+  "pos": "50% 50%, 50% 50%"
+ },
+ {
+  "sid": "playbooks",
+  "kind": "bg",
+  "src": "linear-gradient(0deg, rgba(17, 35, 40, 0.94), rgba(17, 35, 40, 0.05)), url(\"https://framerusercontent.com/images/V5YzrhTWz6oX6qYDyJJzGKbRnIU.png?scale-down-to=512\")",
+  "cls": "",
+  "w": 214,
+  "h": 150,
+  "size": "cover, cover",
+  "pos": "50% 50%, 50% 50%"
+ },
+ {
+  "sid": "playbooks",
+  "kind": "bg",
+  "src": "linear-gradient(0deg, rgba(17, 35, 40, 0.94), rgba(17, 35, 40, 0.05)), url(\"https://framerusercontent.com/images/DzF7ltBGreQELkgImDCaxxldqH0.jpg?scale-down-to=512\")",
+  "cls": "",
+  "w": 214,
+  "h": 150,
+  "size": "cover, cover",
+  "pos": "50% 50%, 50% 50%"
+ },
+ {
+  "sid": "playbooks",
+  "kind": "bg",
+  "src": "linear-gradient(0deg, rgba(17, 35, 40, 0.94), rgba(17, 35, 40, 0.05)), url(\"https://framerusercontent.com/images/PFm0moxeBn8eOm66rVN2ssTio.png?scale-down-to=512\")",
+  "cls": "",
+  "w": 214,
+  "h": 150,
+  "size": "cover, cover",
+  "pos": "50% 50%, 50% 50%"
+ },
+ {
+  "sid": "playbooks",
+  "kind": "bg",
+  "src": "linear-gradient(0deg, rgba(17, 35, 40, 0.94), rgba(17, 35, 40, 0.05)), url(\"https://framerusercontent.com/images/5WP0tI1lICNwC23waJVfpSCTTpE.png?scale-down-to=512\")",
+  "cls": "",
+  "w": 214,
+  "h": 150,
+  "size": "cover, cover",
+  "pos": "50% 50%, 50% 50%"
+ }
+]

@@ -1,0 +1,204 @@
+/* /tryvalley "Contact Form" (spec/pages/landing.md 5.1; dump_tryvalley_<w> section [1]).
+   Input tokens from framer_tryvalley.css (--framer-input-*). */
+
+.tvc {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding: 64px 48px;
+  background: #f7f8f4;
+}
+
+.tvc-panel {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 28px;
+  min-width: 0;
+  padding: 32px;
+  background: #e9eff0;
+  overflow: hidden;
+}
+.tvc-title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+.tvc-h {
+  font: 500 44px/48.4px theme('fontFamily.ppnm-medium');
+  letter-spacing: -1.54px;
+  color: #1c292d;
+}
+.tvc-sub {
+  font: 400 18px/26.1px theme('fontFamily.ppnm-variable');
+  color: #52616a;
+}
+.tvc-checks {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 100%;
+}
+.tvc-check-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.tvc-check {
+  display: block;
+  flex: none;
+  width: 16px;
+  height: 16px;
+}
+.tvc-check-text {
+  flex: 1 1 0;
+  color: #000;
+}
+.tvc-check-text--medium {
+  font: 400 16px/22.4px theme('fontFamily.ppnm-medium');
+}
+.tvc-check-text--inter {
+  font: 400 16px/19.2px theme('fontFamily.inter');
+}
+.tvc-quote {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+.tvc-quote__text {
+  font: 400 16px/22.4px theme('fontFamily.ppnm-medium');
+  color: #000;
+}
+.tvc-quote__author {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.tvc-quote__avatar {
+  display: block;
+  flex: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 99px;
+  object-fit: cover;
+}
+.tvc-quote__author p {
+  font: 500 14px/19.6px theme('fontFamily.ppnm-medium');
+  color: #52616a;
+}
+
+.tvc-form-box {
+  position: relative;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  padding: 32px;
+  background: #fff;
+  overflow: hidden;
+}
+.tvc-form-box::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #d5ddde;
+  pointer-events: none;
+}
+.tvc-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tvc-field {
+  position: relative;
+  display: block;
+  height: 48px;
+  background: #fff;
+  overflow: hidden;
+}
+.tvc-field::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #cbd6da;
+  pointer-events: none;
+}
+.tvc-field:focus-within::after {
+  border-color: #3278a1;
+}
+.tvc-field input {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  border: none;
+  background: transparent;
+  font: 400 16px/19.2px theme('fontFamily.ppnm-medium');
+  color: #1c292e;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tvc-field input::placeholder {
+  color: #52616a;
+  opacity: 1;
+}
+.tvc-field input:focus-visible {
+  outline: none;
+}
+.tvc-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 48px;
+  padding: 12px 22px;
+  border: none;
+  background: #111;
+  font: 500 16px/19.2px theme('fontFamily.ppnm-medium');
+  color: #fff;
+  cursor: pointer;
+}
+.tvc-submit:focus-visible {
+  outline: 2px solid #3278a1;
+  outline-offset: 2px;
+}
+.tvc-submit:disabled {
+  cursor: progress;
+}
+
+@media screen(below-desktop) {
+  .tvc {
+    flex-direction: column;
+    padding: 44px 20px;
+  }
+  .tvc-panel {
+    flex: none;
+    padding: 24px;
+  }
+  .tvc-h {
+    font-size: 34px;
+    line-height: 37.4px;
+    letter-spacing: -1.19px;
+  }
+  .tvc-check-text--medium,
+  .tvc-check-text--inter {
+    font: 400 13px/18.2px theme('fontFamily.ppnm-medium');
+  }
+  .tvc-quote__text {
+    font-size: 12px;
+    line-height: 16.8px;
+  }
+  .tvc-quote__avatar {
+    width: 24px;
+    height: 24px;
+  }
+  .tvc-form-box {
+    flex: none;
+    padding: 24px;
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "cards.case-banner",
+  "layer": "section",
+  "purpose": "Single large testimonial/case-study banner card with hover-animated decorative star columns. Used on landing-template and agency routes.",
+  "composes": ["quote-block", "button"],
+  "measuredFrom": "spec/pages/landing.md:238-251",
+  "content": {
+    "type": "object",
+    "properties": {
+      "quote": { "type": "string", "maxWords": 30 },
+      "personName": { "type": "string", "maxWords": 4 },
+      "personRole": { "type": "string", "maxWords": 10 },
+      "chips": { "type": "array", "maxItems": 2 },
+      "ctaLabel": { "type": "string", "maxWords": 4 },
+      "ctaHref": { "type": "string", "const": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b" }
+    },
+    "required": ["quote", "personName", "ctaLabel", "ctaHref"],
+    "additionalProperties": false
+  },
+  "constraints": { "maxPerPage": 1 },
+  "motion": {
+    "pattern": "hover-star-column-slide",
+    "reducedMotionFallback": "star columns render in their final settled position, no slide-in on hover",
+    "measuredFrom": "spec/pages/landing.md:249"
+  },
+  "assetRoles": {
+    "customer-photo": { "enum": "customer-photo", "generationPolicy": "must-not-fabricate", "guidance": "Real named person (e.g. Sam Momin); never fabricate a likeness." }
+  },
+  "pinnedValueNote": "ctaHref is PINNED (const) to the real Surface endpoint."
+}

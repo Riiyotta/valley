@@ -1,0 +1,11 @@
+{
+  "id": "logo-mark",
+  "layer": "primitive",
+  "description": "Third-party company wordmark/logo image (competitor logos, customer logos). COMPLIANCE-CRITICAL: see the assetRole 'customer-logo' and 'competitor-logo' contracts in sections/logos.json and sections/comparison.json — real trademarks, never AI-generated or altered.",
+  "measuredFrom": "spec/pages/casestudies/cases.json (logoImage field); tailwind.config.cjs (no direct citation, logo usage documented in CLONE_SPEC.md section 9)",
+  "props": {
+    "assetRef": { "type": "string" },
+    "alt": { "type": "string" },
+    "opacity": { "type": "number", "enum": [0.7, 1.0] }
+  }
+}

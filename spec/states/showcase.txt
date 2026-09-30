@@ -1,0 +1,497 @@
+
+##### showcase TAB 0 {"sel":0,"scene":"dashboard","stageH":"640px"}
+  B <div .vs-toolbar> 48,10117 1344x57 flex row gap=24px jc=normal ai=center border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  B <div .vs-tabs> 48,10117 1173x56 flex row gap=32px jc=normal ai=normal 
+  T <button> 48,10117 70x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #1e3748 ta=center pad=16px 0px 20px  | "Dashboard"
+  B <span .vs-tab-track> 48,10171 70x2 bg=#376f9c/0.15
+  B <span .vs-tab-progress> 48,10171 8x2 bg=#376f9c tf=matrix(0.116651, 0, 0, 1, 0, 0)
+  T <button> 150,10117 66x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Playbooks"
+  T <button> 248,10117 65x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Prospects"
+  T <button> 345,10117 57x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "AI Studio"
+  T <button> 434,10117 73x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Campaigns"
+  T <button> 539,10117 38x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Scout"
+  B <button .vs-tour-control> 1245,10123 147x44 pad=8px 12px flex row gap=7px jc=normal ai=center bg=#f4f7f1 border=1px 1px 1px 1px solid #ccd8d3
+  SVG 1258,10139 13x13 fill=#667681 stroke=none color=#667681 
+  T <span> 1278,10137 101x16 | Valley Showcase Montreal 14px/normal ls=normal w400 #667681 ta=center  | "Play product tour"
+  B <div .vs-intro> 48,10174 1344x98 pad=26px 0px 28px flex row gap=40px jc=space-between ai=start 
+  T <h3> 48,10200 440x29 | Valley Showcase Montreal 24px/28.8px ls=-0.6px w500 #203342  | "Mission control for the world's best outbound."
+  T <p> 962,10200 430x44 | Valley Showcase Montreal 15px/21.75px ls=normal w400 #61717c  | "See the work in motion, track pipeline generated, analyze results, and manage replies."
+  B <div .vs-stage> 48,10272 1344x868 pad=26px bgi=url("https://framerusercontent.com/images/Qovuw4iQncZcQQ2Zp5FGwdvDJ5k.jpg")
+  B <div .vs-shell> 74,10298 1292x816 pad=52px 0px 0px bg=#f8faf9 border=1px 1px 1px 1px solid #e9eeeb radius=5px shadow=rgba(21, 45, 78, 0.5) 0px 10px 35px -20px ovf=hidden
+  B <div .vs-appbar> 75,10299 1290x52 pad=0px 24px bg=#fffffc/0.91 border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  B <span .vs-app-identity> 99,10314 167x22 flex row gap=10px jc=normal ai=center 
+  SVG 99,10314 22x22 fill=none stroke=none color=#203342 
+  T <span> 131,10317 36x16 | Valley Showcase Montreal 14px/normal ls=normal w550 #203342  | "Valley"
+  T <span> 181,10317 5x16 | Valley Showcase Montreal 14px/normal ls=normal w400 #bcc5cb  | "/"
+  T <span> 200,10317 66x16 | Valley Showcase Montreal 14px/normal ls=normal w400 #203342  | "Dashboard"
+  B <div .vs-home-sidebar> 75,10351 154x762 pad=22px 12px flex column gap=5px jc=normal ai=normal bg=#edf2ee border=0px 1px 0px 0px none #677783
+  T <span> 87,10373 129x30 | Valley Showcase Montreal 12px/14.4px ls=normal w400 #355d7b pad=8px 10px bg=#eaf0f3 radius=4px | "Home"
+  T <span> 87,10409 129x30 | Valley Showcase Montreal 12px/14.4px ls=normal w400 #677783 pad=8px 10px radius=4px | "Conversations"
+  T <span> 87,10444 129x30 | Valley Showcase Montreal 12px/14.4px ls=normal w400 #677783 pad=8px 10px radius=4px | "Campaigns"
+  T <span> 87,10479 129x30 | Valley Showcase Montreal 12px/14.4px ls=normal w400 #677783 pad=8px 10px radius=4px | "Prospects"
+  T <span> 87,10515 129x30 | Valley Showcase Montreal 12px/14.4px ls=normal w400 #677783 pad=8px 10px radius=4px | "Playbooks"
+  T <span> 87,10550 129x30 | Valley Showcase Montreal 12px/14.4px ls=normal w400 #677783 pad=8px 10px radius=4px | "AI Studio"
+  T <span> 87,10595 129x31 | Valley Showcase Montreal 12px/14.4px ls=normal w400 #355d7b pad=8px 10px radius=4px | "Scout"
+  SVG 97,10603 15x15 fill=none stroke=none color=#355d7b 
+  T <small> 87,11064 129x28 | Valley Showcase Montreal 10px/normal ls=normal w400 #677783 pad=16px 10px 0px  | "Alex’s workspace"
+  B <div .vs-home-main> 229,10351 1136x762 pad=24px 28px flex column gap=20px jc=normal ai=normal tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0s 1
+  B <div .vs-home-greeting> 257,10375 1080x29 flex row gap=16px jc=space-between ai=center 
+  T <h3> 257,10375 201x29 | Valley Showcase Montreal 25px/28.75px ls=-0.75px w500 #203342  | "Good morning, Alex."
+  T <span> 1255,10383 82x14 | Valley Showcase Montreal 11px/normal ls=normal w400 #677783  | "Demo workspace"
+  B <div .vs-home-plan> 257,10424 1080x108 pad=16px 18px bg=#e4eddf border=1px 1px 1px 1px solid #c5d8c0 radius=6px
+  B <div .vs-home-section-heading> 276,10441 1042x17 flex row gap=12px jc=space-between ai=center 
+  T <h4> 276,10441 75x17 | Valley Showcase Montreal 14px/16.8px ls=normal w500 #203342  | "Today’s Plan"
+  T <span> 1259,10442 59x14 | Valley Showcase Montreal 11px/normal ls=normal w400 #677783  | "Scout is on it"
+  T <p> 276,10468 1042x22 | Valley Showcase Montreal 16px/21.6px ls=normal w400 #203342  | "Find revenue leaders at companies hiring AEs."
+  B <div .vs-home-plan-footer> 276,10501 1042x14 flex row gap=12px jc=space-between ai=center 
+  T <span> 276,10501 99x14 | Valley Showcase Montreal 11px/normal ls=normal w400 #547164  | "Research in progress"
+  T <span> 1208,10501 110x14 | Valley Showcase Montreal 11px/normal ls=normal w400 #355d7b  | "Review Maya’s draft"
+  SVG 1305,10502 13x13 fill=none stroke=#355d7b color=#355d7b 
+  B <div .vs-home-section-heading> 257,10552 1080x17 flex row gap=12px jc=space-between ai=center 
+  T <h4> 257,10552 71x17 | Valley Showcase Montreal 14px/16.8px ls=normal w500 #203342  | "Your results"
+  T <span> 1277,10554 60x14 | Valley Showcase Montreal 11px/normal ls=normal w400 #677783  | "Last 30 days"
+  B <div .vs-home-metrics> 257,10585 1080x97 pad=16px grid gap=20px cols=396.297px 304.844px 304.844px jc=normal ai=normal bg=#eef3f5 border=1px 1px 1px 1px solid #d5e1e5 radius=5px
+  T <strong> 274,10602 396x40 | Valley Showcase Montreal 38px/39.9px ls=-1.52px w500 #294f61 fvn=tabular-nums  | "$450,000"
+  T <span> 274,10650 396x16 | Valley Showcase Montreal 12px/15.6px ls=normal w400 #677783  | "Potential pipeline"
+  B <div> 690,10602 305x63 pad=0px 0px 0px 24px border=0px 0px 0px 1px none #203342
+  T <strong> 715,10602 280x40 | Valley Showcase Montreal 38px/39.9px ls=-1.52px w500 #507559 fvn=tabular-nums  | "128"
+  T <span> 715,10650 280x16 | Valley Showcase Montreal 12px/15.6px ls=normal w400 #677783  | "Interested replies"
+  B <div> 1015,10602 305x63 pad=0px 0px 0px 24px border=0px 0px 0px 1px none #203342
+  T <strong> 1040,10602 280x40 | Valley Showcase Montreal 38px/39.9px ls=-1.52px w500 #996b50 fvn=tabular-nums  | "12"
+  T <span> 1040,10650 280x16 | Valley Showcase Montreal 12px/15.6px ls=normal w400 #677783  | "Active campaigns"
+  B <div .vs-pipeline-chart> 257,10703 1080x233 pad=16px 18px 6px bg=#f2f6f0 border=1px 1px 1px 1px solid #cfded0 radius=6px
+  B <div .vs-home-section-heading> 276,10720 1042x17 flex row gap=12px jc=space-between ai=center 
+  T <h4> 276,10720 94x17 | Valley Showcase Montreal 14px/16.8px ls=normal w500 #203342  | "Pipeline growth"
+  T <span> 1200,10721 118x14 | Valley Showcase Montreal 11px/normal ls=normal w400 #677783  | "Demo data · Last 30 days"
+  SVG 276,10749 1042x180 fill=#000000 stroke=none color=#203342 
+  B <div .vs-home-bottom> 257,10956 1080x134 grid gap=28px cols=562.688px 489.297px jc=normal ai=normal 
+  B <div .vs-home-section-heading> 257,10956 563x30 pad=0px 0px 12px flex row gap=12px jc=space-between ai=center border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  T <h4> 257,10956 89x17 | Valley Showcase Montreal 14px/16.8px ls=normal w500 #203342  | "Recent activity"
+  T <span> 791,10957 28x14 | Valley Showcase Montreal 11px/normal ls=normal w400 #677783  | "Today"
+  B <div .vs-home-activity-row> 257,10985 563x58 pad=11px 0px flex row gap=10px jc=normal ai=center border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  T <strong> 257,10996 139x16 | Valley Showcase Montreal 13px/16.25px ls=normal w500 #203342  | "Maya replied on LinkedIn"
+  T <small> 257,11017 139x15 | Valley Showcase Montreal 11px/14.85px ls=normal w400 #677783  | "Revenue leaders hiring AEs"
+  T <span> 801,11008 19x12 | Valley Showcase Montreal 10px/normal ls=normal w400 #677783  | "9:42"
+  B <div .vs-home-activity-row> 257,11043 563x46 pad=11px 0px 0px flex row gap=10px jc=normal ai=center 
+  T <strong> 257,11054 126x16 | Valley Showcase Montreal 13px/16.25px ls=normal w500 #203342  | "Jordan’s email is ready"
+  T <small> 257,11075 126x15 | Valley Showcase Montreal 11px/14.85px ls=normal w400 #677783  | "Written in your voice"
+  T <span> 800,11066 20x12 | Valley Showcase Montreal 10px/normal ls=normal w400 #677783  | "9:38"
+  B <div .vs-home-section-heading> 848,10956 489x30 pad=0px 0px 12px flex row gap=12px jc=space-between ai=center border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  T <h4> 848,10956 63x17 | Valley Showcase Montreal 14px/16.8px ls=normal w500 #203342  | "New leads"
+  T <span> 1305,10957 32x14 | Valley Showcase Montreal 11px/normal ls=normal w400 #677783  | "High fit"
+  B <div .vs-home-lead> 848,10985 489x58 pad=11px 0px flex row gap=10px jc=normal ai=center border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  B <span .vs-avatar> 848,11000 28x28 bg=#d8e6eb border=1px 1px 1px 1px solid #396377/0.07 radius=50%
+  IMG 849,11001 26x26 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/KD64dhKrNdxKzSajCepglBBXSM.jpg alt=""
+  T <strong> 886,10996 109x16 | Valley Showcase Montreal 13px/16.25px ls=normal w500 #203342  | "Maya Chen"
+  T <small> 886,11017 109x15 | Valley Showcase Montreal 11px/14.85px ls=normal w400 #677783  | "VP Revenue · Fieldwork"
+  B <div .vs-home-lead> 848,11043 489x46 pad=11px 0px 0px flex row gap=10px jc=normal ai=center 
+  B <span .vs-avatar> 848,11058 28x28 bg=#d8e6eb border=1px 1px 1px 1px solid #396377/0.07 radius=50%
+  IMG 849,11059 26x26 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/rEmg7ZgILI8aTHSynoFCdiON3g.jpg alt=""
+  T <strong> 886,11054 114x16 | Valley Showcase Montreal 13px/16.25px ls=normal w500 #203342  | "Jordan Lee"
+  T <small> 886,11075 114x15 | Valley Showcase Montreal 11px/14.85px ls=normal w400 #677783  | "Head of Sales · Northline"
+##### showcase TAB 1 {"sel":1,"scene":"playbooks","stageH":"540px"}
+  B <div .vs-toolbar> 48,10117 1344x57 flex row gap=24px jc=normal ai=center border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  B <div .vs-tabs> 48,10117 1173x56 flex row gap=32px jc=normal ai=normal 
+  T <button> 48,10117 70x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Dashboard"
+  T <button> 150,10117 66x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #1e3748 ta=center pad=16px 0px 20px  | "Playbooks"
+  B <span .vs-tab-track> 150,10171 66x2 bg=#376f9c/0.15
+  T <button> 248,10117 65x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Prospects"
+  T <button> 345,10117 57x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "AI Studio"
+  T <button> 434,10117 73x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Campaigns"
+  T <button> 539,10117 38x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Scout"
+  B <button .vs-tour-control> 1245,10123 147x44 pad=8px 12px flex row gap=7px jc=normal ai=center bg=#f4f7f1 border=1px 1px 1px 1px solid #ccd8d3
+  SVG 1258,10139 13x13 fill=#667681 stroke=none color=#667681 
+  T <span> 1278,10137 101x16 | Valley Showcase Montreal 14px/normal ls=normal w400 #667681 ta=center  | "Play product tour"
+  B <div .vs-intro> 48,10174 1344x98 pad=26px 0px 28px flex row gap=40px jc=space-between ai=start 
+  T <h3> 48,10200 360x29 | Valley Showcase Montreal 24px/28.8px ls=-0.6px w500 #203342  | "Pick a play. Valley does the outbound."
+  T <p> 962,10200 430x44 | Valley Showcase Montreal 15px/21.75px ls=normal w400 #61717c  | "Start with a signal, an audience, or your own list. Valley brings prospecting, research, messaging, and follow-up into one workflow."
+  B <div .vs-stage> 48,10272 1344x540 pad=26px bgi=url("https://framerusercontent.com/images/Qovuw4iQncZcQQ2Zp5FGwdvDJ5k.jpg")
+  B <div .vs-shell> 74,10298 1292x488 bg=#f8faf9 border=1px 1px 1px 1px solid #e9eeeb radius=5px shadow=rgba(21, 45, 78, 0.5) 0px 10px 35px -20px ovf=hidden
+  B <div .vs-appbar> 75,10299 1290x52 pad=0px 24px bg=#fffffc/0.91 border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  B <span .vs-app-identity> 99,10314 163x22 flex row gap=10px jc=normal ai=center 
+  SVG 99,10314 22x22 fill=none stroke=none color=#203342 
+  T <span> 131,10317 36x16 | Valley Showcase Montreal 14px/normal ls=normal w550 #203342  | "Valley"
+  T <span> 181,10317 5x16 | Valley Showcase Montreal 14px/normal ls=normal w400 #bcc5cb  | "/"
+  T <span> 200,10317 61x16 | Valley Showcase Montreal 14px/normal ls=normal w400 #203342  | "Playbooks"
+  B <div .vs-playbook-library> 107,10375 1226x384 flex column gap=14px jc=normal ai=normal tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0s 1
+  T <h3> 107,10375 1226x29 | Valley Showcase Montreal 25px/28.75px ls=-0.75px w500 #203342  | "Playbook library"
+  T <p> 107,10410 674x20 | Valley Showcase Montreal 14px/19.6px ls=normal w400 #647681  | "Pick a play. Valley finds the audience, checks fit, writes the messages, and runs the sequence."
+  B <div .vs-playbook-categories> 107,10444 1226x56 grid gap=12px cols=297.5px 297.5px 297.5px 297.5px jc=normal ai=normal 
+  B <div> 107,10444 298x56 pad=10px bgi=linear-gradient(0deg, rgba(23, 44, 55, 0.79), rgba(23, 44, 55, 0.125)), url("https://framerusercontent.com/images/Qovuw4iQncZcQQ2Zp5FGwdvDJ5k.jpg?scale-down-to=512") radius=6px
+  T <span> 117,10476 41x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #ffffff  | "All plays"
+  B <div> 417,10444 298x56 pad=10px bgi=linear-gradient(0deg, rgba(23, 44, 55, 0.79), rgba(23, 44, 55, 0.125)), url("https://framerusercontent.com/images/5WP0tI1lICNwC23waJVfpSCTTpE.png?scale-down-to=512") radius=6px
+  T <span> 427,10476 95x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #ffffff  | "From your network"
+  B <div> 726,10444 298x56 pad=10px bgi=linear-gradient(0deg, rgba(23, 44, 55, 0.79), rgba(23, 44, 55, 0.125)), url("https://framerusercontent.com/images/zPOKyZnbl77fH6unSixkvRUOSOs.png?scale-down-to=512") radius=6px
+  T <span> 736,10476 73x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #ffffff  | "Buying signals"
+  B <div> 1036,10444 298x56 pad=10px bgi=linear-gradient(0deg, rgba(23, 44, 55, 0.79), rgba(23, 44, 55, 0.125)), url("https://framerusercontent.com/images/DzF7ltBGreQELkgImDCaxxldqH0.jpg?scale-down-to=512") radius=6px
+  T <span> 1046,10476 52x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #ffffff  | "Bring a list"
+  B <div .vs-playbook-cards> 107,10514 1226x246 grid gap=12px cols=607px 607px jc=normal ai=normal 
+  B <div .vs-playbook-item> 107,10514 607x117 pad=13px 16px flex column gap=normal jc=normal ai=normal bg=#f2f5f5 border=1px 1px 1px 1px solid #dfe6e8 radius=7px
+  T <h4> 124,10528 573x22 | Valley Showcase Montreal 18px/21.6px ls=-0.36px w500 #203342  | "Message your profile viewers"
+  T <p> 124,10555 417x18 | Valley Showcase Montreal 13px/17.55px ls=normal w400 #64747d  | "Qualify the people already looking at you, then reach out with context."
+  B <div .vs-playbook-bottom> 124,10594 573x22 pad=8px 0px 0px flex row gap=10px jc=space-between ai=center 
+  T <span> 124,10603 55x12 | Valley Showcase Montreal 10px/normal ls=normal w400 #547164  | "Runs daily"
+  B <i> 124,10607 5x5 bg=#69947b radius=50%
+  T <span> 644,10602 53x14 | Valley Showcase Montreal 10px/normal ls=normal w400 #355d7b  | "Launch"
+  SVG 683,10602 14x14 fill=none stroke=#355d7b color=#355d7b 
+  B <div .vs-playbook-item> 726,10514 607x117 pad=13px 16px flex column gap=normal jc=normal ai=normal bg=#f2f5f5 border=1px 1px 1px 1px solid #dfe6e8 radius=7px
+  T <h4> 743,10528 573x22 | Valley Showcase Montreal 18px/21.6px ls=-0.36px w500 #203342  | "Find companies that are hiring"
+  T <p> 743,10555 417x18 | Valley Showcase Montreal 13px/17.55px ls=normal w400 #64747d  | "Spot a growing team, find the right person, and write a relevant opener."
+  B <div .vs-playbook-bottom> 743,10594 573x22 pad=8px 0px 0px flex row gap=10px jc=space-between ai=center 
+  T <span> 743,10603 58x12 | Valley Showcase Montreal 10px/normal ls=normal w400 #547164  | "Refills daily"
+  B <i> 743,10607 5x5 bg=#69947b radius=50%
+  T <span> 1263,10602 53x14 | Valley Showcase Montreal 10px/normal ls=normal w400 #355d7b  | "Launch"
+  SVG 1302,10602 14x14 fill=none stroke=#355d7b color=#355d7b 
+  B <div .vs-playbook-item> 107,10642 607x117 pad=13px 16px flex column gap=normal jc=normal ai=normal bg=#f2f5f5 border=1px 1px 1px 1px solid #dfe6e8 radius=7px
+  T <h4> 124,10656 573x22 | Valley Showcase Montreal 18px/21.6px ls=-0.36px w500 #203342  | "Reach your competitors’ engagers"
+  T <p> 124,10684 417x18 | Valley Showcase Montreal 13px/17.55px ls=normal w400 #64747d  | "Find people joining the conversation around the problem you solve."
+  B <div .vs-playbook-bottom> 124,10723 573x22 pad=8px 0px 0px flex row gap=10px jc=space-between ai=center 
+  T <span> 124,10732 55x12 | Valley Showcase Montreal 10px/normal ls=normal w400 #547164  | "Runs daily"
+  B <i> 124,10736 5x5 bg=#69947b radius=50%
+  T <span> 644,10731 53x14 | Valley Showcase Montreal 10px/normal ls=normal w400 #355d7b  | "Launch"
+  SVG 683,10731 14x14 fill=none stroke=#355d7b color=#355d7b 
+  B <div .vs-playbook-item> 726,10642 607x117 pad=13px 16px flex column gap=normal jc=normal ai=normal bg=#f2f5f5 border=1px 1px 1px 1px solid #dfe6e8 radius=7px
+  T <h4> 743,10656 573x22 | Valley Showcase Montreal 18px/21.6px ls=-0.36px w500 #203342  | "Turn your list into conversations"
+  T <p> 743,10684 417x35 | Valley Showcase Montreal 13px/17.55px ls=normal w400 #64747d  | "Upload your audience. Valley qualifies, researches, and writes for each person."
+  B <div .vs-playbook-bottom> 743,10723 573x22 pad=8px 0px 0px flex row gap=10px jc=space-between ai=center 
+  T <span> 743,10732 72x12 | Valley Showcase Montreal 10px/normal ls=normal w400 #547164  | "Your audience"
+  B <i> 743,10736 5x5 bg=#69947b radius=50%
+  T <span> 1263,10731 53x14 | Valley Showcase Montreal 10px/normal ls=normal w400 #355d7b  | "Launch"
+  SVG 1302,10731 14x14 fill=none stroke=#355d7b color=#355d7b 
+##### showcase TAB 2 {"sel":2,"scene":"prospects","stageH":"560px"}
+  B <div .vs-toolbar> 48,10117 1344x57 flex row gap=24px jc=normal ai=center border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  B <div .vs-tabs> 48,10117 1173x56 flex row gap=32px jc=normal ai=normal 
+  T <button> 48,10117 70x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Dashboard"
+  T <button> 150,10117 66x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Playbooks"
+  T <button> 248,10117 65x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #1e3748 ta=center pad=16px 0px 20px  | "Prospects"
+  B <span .vs-tab-track> 248,10171 65x2 bg=#376f9c/0.15
+  T <button> 345,10117 57x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "AI Studio"
+  T <button> 434,10117 73x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Campaigns"
+  T <button> 539,10117 38x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Scout"
+  B <button .vs-tour-control> 1245,10123 147x44 pad=8px 12px flex row gap=7px jc=normal ai=center bg=#f4f7f1 border=1px 1px 1px 1px solid #ccd8d3
+  SVG 1258,10139 13x13 fill=#667681 stroke=none color=#667681 
+  T <span> 1278,10137 101x16 | Valley Showcase Montreal 14px/normal ls=normal w400 #667681 ta=center  | "Play product tour"
+  B <div .vs-intro> 48,10174 1344x98 pad=26px 0px 28px flex row gap=40px jc=space-between ai=start 
+  T <h3> 48,10200 559x29 | Valley Showcase Montreal 24px/28.8px ls=-0.6px w500 #203342  | "Never a stale database. The best signals at your fingertips."
+  T <p> 962,10200 430x44 | Valley Showcase Montreal 15px/21.75px ls=normal w400 #61717c  | "Your buyers are constantly changing and showing signal. Valley figures out who matters, why they matter & presents them to you."
+  B <div .vs-stage> 48,10272 1344x560 pad=26px bgi=url("https://framerusercontent.com/images/Qovuw4iQncZcQQ2Zp5FGwdvDJ5k.jpg")
+  B <div .vs-shell> 74,10298 1292x508 bg=#f8faf9 border=1px 1px 1px 1px solid #e9eeeb radius=5px shadow=rgba(21, 45, 78, 0.5) 0px 10px 35px -20px ovf=hidden
+  B <div .vs-appbar> 75,10299 1290x52 pad=0px 24px bg=#fffffc/0.91 border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  B <span .vs-app-identity> 99,10314 162x22 flex row gap=10px jc=normal ai=center 
+  SVG 99,10314 22x22 fill=none stroke=none color=#203342 
+  T <span> 131,10317 36x16 | Valley Showcase Montreal 14px/normal ls=normal w550 #203342  | "Valley"
+  T <span> 181,10317 5x16 | Valley Showcase Montreal 14px/normal ls=normal w400 #bcc5cb  | "/"
+  T <span> 200,10317 60x16 | Valley Showcase Montreal 14px/normal ls=normal w400 #203342  | "Prospects"
+  B <div .vs-prospect-base> 99,10371 658x414 flex column gap=normal jc=normal ai=normal tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0s 1
+  B <div .vs-view-heading> 99,10371 658x46 flex row gap=12px jc=space-between ai=end 
+  T <span> 99,10371 256x13 | Valley Showcase Montreal 10px/13px ls=0.85px w550 #7d8c95  | "YOUR AUDIENCE"
+  T <h3> 99,10391 256x26 | Valley Showcase Montreal 23px/26.45px ls=-0.575px w500 #203342  | "Revenue leaders hiring AEs"
+  T <span> 657,10387 101x31 | Valley Showcase Montreal 11px/normal ls=normal w400 #74818a pad=7px 8px bg=#ffffff border=1px 1px 1px 1px solid #233e50/0.094 radius=4px | "All prospects"
+  SVG 666,10395 15x15 fill=none stroke=#74818a color=#74818a 
+  B <div .vs-data-table> 99,10434 658x352 grid gap=normal cols=656.391px jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #e0e6e7 radius=4px ovf=hidden
+  B <div .vs-table-row> 100,10435 656x32 pad=7px 11px grid gap=8px cols=213.266px 147.078px 161.797px 88.25px jc=normal ai=center bg=#fafbfa border=0px 0px 1px 0px none #84919a b:#e7ebec
+  T <span> 111,10444 213x12 | Valley Showcase Montreal 10px/normal ls=normal w400 #84919a  | "Name"
+  T <span> 332,10444 147x12 | Valley Showcase Montreal 10px/normal ls=normal w400 #84919a  | "Company"
+  T <span> 487,10444 162x12 | Valley Showcase Montreal 10px/normal ls=normal w400 #84919a  | "Signal"
+  T <span> 657,10444 88x12 | Valley Showcase Montreal 10px/normal ls=normal w400 #84919a  | "ICP-Fit"
+  B <div .vs-table-row> 100,10467 656x53 pad=7px 11px grid gap=8px cols=213.266px 147.078px 161.797px 88.25px jc=normal ai=center bg=#edf4f9 border=0px 0px 1px 0px none #203342 b:#e7ebec shadow=rgb(112, 149, 178) 3px 0px 0px 0px inset tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0s 1
+  B <span .vs-person> 111,10478 213x30 flex row gap=7px jc=normal ai=center 
+  B <span .vs-avatar> 111,10480 25x25 bg=#d8e6eb border=1px 1px 1px 1px solid #396377/0.07 radius=50%
+  IMG 112,10481 23x23 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/KD64dhKrNdxKzSajCepglBBXSM.jpg alt=""
+  T <strong> 143,10478 64x15 | Valley Showcase Montreal 13px/normal ls=normal w500 #203342  | "Maya Chen"
+  T <small> 143,10496 64x12 | Valley Showcase Montreal 10px/11.5px ls=normal w400 #87939b  | "VP Revenue"
+  T <span> 332,10486 147x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #203342  | "Fieldwork"
+  T <span> 487,10486 162x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #203342  | "Hiring AEs"
+  T <span> 657,10483 32x20 | Valley Showcase Montreal 10px/10px ls=normal w400 #4b7b60 pad=4px 5px bg=#eaf4ec border=1px 1px 1px 1px solid #d5e7dc radius=3px | "High"
+  B <div .vs-table-row> 100,10520 656x53 pad=7px 11px grid gap=8px cols=213.266px 147.078px 161.797px 88.25px jc=normal ai=center border=0px 0px 1px 0px none #203342 b:#e7ebec tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0.065s 1
+  B <span .vs-person> 111,10531 213x30 flex row gap=7px jc=normal ai=center 
+  B <span .vs-avatar> 111,10533 25x25 bg=#d8e6eb border=1px 1px 1px 1px solid #396377/0.07 radius=50%
+  IMG 112,10534 23x23 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/rEmg7ZgILI8aTHSynoFCdiON3g.jpg alt=""
+  T <strong> 143,10531 63x15 | Valley Showcase Montreal 13px/normal ls=normal w500 #203342  | "Jordan Lee"
+  T <small> 143,10549 63x12 | Valley Showcase Montreal 10px/11.5px ls=normal w400 #87939b  | "Head of Sales"
+  T <span> 332,10539 147x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #203342  | "Northline"
+  T <span> 487,10539 162x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #203342  | "New sales team"
+  T <span> 657,10536 32x20 | Valley Showcase Montreal 10px/10px ls=normal w400 #4b7b60 pad=4px 5px bg=#eaf4ec border=1px 1px 1px 1px solid #d5e7dc radius=3px | "High"
+  B <div .vs-table-row> 100,10573 656x53 pad=7px 11px grid gap=8px cols=213.266px 147.078px 161.797px 88.25px jc=normal ai=center border=0px 0px 1px 0px none #203342 b:#e7ebec tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0.13s 1
+  B <span .vs-person> 111,10584 213x30 flex row gap=7px jc=normal ai=center 
+  B <span .vs-avatar> 111,10586 25x25 bg=#d8e6eb border=1px 1px 1px 1px solid #396377/0.07 radius=50%
+  IMG 112,10587 23x23 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/OJmd0F7UnO0atTkkx8R4aDYiQ.jpg alt=""
+  T <strong> 143,10584 60x15 | Valley Showcase Montreal 13px/normal ls=normal w500 #203342  | "Alex Kim"
+  T <small> 143,10602 60x12 | Valley Showcase Montreal 10px/11.5px ls=normal w400 #87939b  | "Sales Director"
+  T <span> 332,10592 147x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #203342  | "Forma"
+  T <span> 487,10592 162x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #203342  | "Hiring AEs"
+  T <span> 657,10589 32x20 | Valley Showcase Montreal 10px/10px ls=normal w400 #4b7b60 pad=4px 5px bg=#eaf4ec border=1px 1px 1px 1px solid #d5e7dc radius=3px | "High"
+  B <div .vs-table-row> 100,10626 656x53 pad=7px 11px grid gap=8px cols=213.266px 147.078px 161.797px 88.25px jc=normal ai=center border=0px 0px 1px 0px none #203342 b:#e7ebec tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0.195s 1
+  B <span .vs-person> 111,10637 213x30 flex row gap=7px jc=normal ai=center 
+  B <span .vs-avatar> 111,10639 25x25 bg=#d8e6eb border=1px 1px 1px 1px solid #396377/0.07 radius=50%
+  IMG 112,10640 23x23 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/W7yMgnBYe1ctoAQ3j7TjymvkuM.jpg alt=""
+  T <strong> 143,10637 64x15 | Valley Showcase Montreal 13px/normal ls=normal w500 #203342  | "Sam Rivera"
+  T <small> 143,10655 64x12 | Valley Showcase Montreal 10px/11.5px ls=normal w400 #87939b  | "Founder"
+  T <span> 332,10644 147x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #203342  | "Relay"
+  T <span> 487,10644 162x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #203342  | "New market"
+  T <span> 657,10641 46x20 | Valley Showcase Montreal 10px/10px ls=normal w400 #8e8055 pad=4px 5px bg=#f5f1e4 border=1px 1px 1px 1px solid #ece3c9 radius=3px | "Medium"
+  B <div .vs-table-row> 100,10678 656x53 pad=7px 11px grid gap=8px cols=213.266px 147.078px 161.797px 88.25px jc=normal ai=center border=0px 0px 1px 0px none #203342 b:#e7ebec tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0.26s 1
+  B <span .vs-person> 111,10690 213x30 flex row gap=7px jc=normal ai=center 
+  B <span .vs-avatar> 111,10692 25x25 bg=#d8e6eb border=1px 1px 1px 1px solid #396377/0.07 radius=50%
+  IMG 112,10693 23x23 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/0j48LVfGtIEI1vkDwuoRchBOqI.jpg alt=""
+  T <strong> 143,10690 60x15 | Valley Showcase Montreal 13px/normal ls=normal w500 #203342  | "Drew Patel"
+  T <small> 143,10708 60x12 | Valley Showcase Montreal 10px/11.5px ls=normal w400 #87939b  | "VP Sales"
+  T <span> 332,10697 147x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #203342  | "Plainview"
+  T <span> 487,10697 162x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #203342  | "Hiring SDRs"
+  T <span> 657,10694 32x20 | Valley Showcase Montreal 10px/10px ls=normal w400 #4b7b60 pad=4px 5px bg=#eaf4ec border=1px 1px 1px 1px solid #d5e7dc radius=3px | "High"
+  B <div .vs-table-row> 100,10731 656x53 pad=7px 11px grid gap=8px cols=213.266px 147.078px 161.797px 88.25px jc=normal ai=center tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0.325s 1
+  B <span .vs-person> 111,10743 213x30 flex row gap=7px jc=normal ai=center 
+  B <span .vs-avatar> 111,10745 25x25 bg=#d8e6eb border=1px 1px 1px 1px solid #396377/0.07 radius=50%
+  IMG 112,10746 23x23 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/g9K3aNEHM2ifM6oiRVOwsjYMss.jpg alt=""
+  T <strong> 143,10743 80x15 | Valley Showcase Montreal 13px/normal ls=normal w500 #203342  | "Taylor Nguyen"
+  T <small> 143,10761 80x12 | Valley Showcase Montreal 10px/11.5px ls=normal w400 #87939b  | "Revenue Lead"
+  T <span> 332,10751 147x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #203342  | "Gather"
+  T <span> 487,10751 162x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #203342  | "Team growth"
+  T <span> 657,10748 46x20 | Valley Showcase Montreal 10px/10px ls=normal w400 #8e8055 pad=4px 5px bg=#f5f1e4 border=1px 1px 1px 1px solid #ece3c9 radius=3px | "Medium"
+  B <div .vs-research> 777,10371 568x414 flex column gap=normal jc=normal ai=normal bg=#fcfcfa border=1px 1px 1px 1px solid #dce3e6 radius=6px shadow=rgba(32, 57, 72, 0.26) 0px 14px 40px -16px, rgba(32, 57, 72, 0.07) 0px 1px 3px 0px tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0.35s 1
+  B <div .vs-person-heading> 778,10372 566x71 pad=14px 18px flex row gap=10px jc=normal ai=center border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  B <span .vs-avatar> 796,10386 42x42 bg=#d8e6eb border=1px 1px 1px 1px solid #396377/0.07 radius=50%
+  IMG 797,10387 40x40 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/KD64dhKrNdxKzSajCepglBBXSM.jpg alt=""
+  T <h4> 848,10386 119x23 | Valley Showcase Montreal 19px/22.8px ls=normal w500 #203342  | "Maya Chen"
+  T <p> 848,10414 119x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #81909b  | "VP Revenue · Fieldwork"
+  T <span> 1261,10396 65x22 | Valley Showcase Montreal 10px/10px ls=normal w400 #4b7b60 pad=5px 6px bg=#eaf4ec border=1px 1px 1px 1px solid #d5e7dc radius=3px | "High ICP-Fit"
+  B <div .vs-research-heading> 778,10443 566x29 pad=13px 18px 0px flex row gap=normal jc=space-between ai=center 
+  T <span> 796,10456 113x16 | Valley Showcase Montreal 14px/normal ls=normal w500 #203342  | "Research Findings"
+  T <span> 1276,10457 50x14 | Valley Showcase Montreal 11px/normal ls=normal w500 #4e7b66  | "Ready"
+  SVG 1276,10457 14x14 fill=none stroke=#4e7b66 color=#4e7b66 
+  B <div .vs-evidence> 796,10486 530x100 pad=0px 0px 14px flex row gap=12px jc=normal ai=normal border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  B <span .vs-source-icon> 796,10486 24x24 border=1px 1px 1px 1px solid #dfe7e9 radius=4px
+  SVG 799,10489 18x18 fill=none stroke=#6c8391 color=#6c8391 
+  T <small> 832,10492 118x11 | Valley Showcase Montreal 9px/normal ls=0.45px w400 #86959e  | "COMPANY CAREERS PAGE"
+  T <strong> 832,10510 261x19 | Valley Showcase Montreal 16px/19.2px ls=normal w500 #203342  | "Fieldwork is hiring account executives"
+  T <p> 832,10534 261x16 | Valley Showcase Montreal 12px/16.2px ls=normal w400 #7e8c96  | "The team is adding new roles in sales."
+  T <span> 832,10558 261x14 | Valley Showcase Montreal 11px/normal ls=normal w400 #69879b  | "Company careers page"
+  T <span> 944,10558 6x14 | Valley Showcase Montreal 11px/normal ls=normal w400 #69879b  | "↗"
+  B <div .vs-evidence> 796,10601 530x79 pad=0px 0px 14px flex row gap=12px jc=normal ai=normal border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  B <span .vs-source-icon> 796,10601 24x24 bg=#dceef8 border=1px 1px 1px 1px solid #c3dce9 radius=4px
+  SVG 800,10605 16x16 fill=none stroke=#39779a color=#39779a 
+  T <small> 832,10607 103x11 | Valley Showcase Montreal 9px/normal ls=0.45px w400 #86959e  | "LINKEDIN · MAYA CHEN"
+  T <strong> 832,10625 213x19 | Valley Showcase Montreal 16px/19.2px ls=normal w500 #203342  | "“We’re building our sales team.”"
+  T <p> 832,10649 213x16 | Valley Showcase Montreal 12px/16.2px ls=normal w400 #7e8c96  | "A reason to make the outreach timely."
+  B <div .vs-fit-reason> 778,10723 566x61 pad=12px 18px bg=#f5f8f4
+  T <span> 796,10735 530x13 | Valley Showcase Montreal 10px/13px ls=0.85px w550 #7d8c95  | "WHY SHE FITS"
+  B <div> 796,10758 530x14 flex row gap=10px jc=normal ai=normal 
+  T <span> 796,10758 92x14 | Valley Showcase Montreal 11px/normal ls=normal w400 #4e7b66  | "Revenue leader"
+  SVG 796,10758 14x14 fill=none stroke=#4e7b66 color=#4e7b66 
+  T <span> 898,10758 82x14 | Valley Showcase Montreal 11px/normal ls=normal w400 #4e7b66  | "B2B software"
+  SVG 898,10758 14x14 fill=none stroke=#4e7b66 color=#4e7b66 
+  T <span> 990,10758 98x14 | Valley Showcase Montreal 11px/normal ls=normal w400 #4e7b66  | "Hiring sales roles"
+  SVG 990,10758 14x14 fill=none stroke=#4e7b66 color=#4e7b66 
+##### showcase TAB 3 {"sel":3,"scene":"studio","stageH":"540px"}
+  B <div .vs-toolbar> 48,10117 1344x57 flex row gap=24px jc=normal ai=center border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  B <div .vs-tabs> 48,10117 1173x56 flex row gap=32px jc=normal ai=normal 
+  T <button> 48,10117 70x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Dashboard"
+  T <button> 150,10117 66x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Playbooks"
+  T <button> 248,10117 65x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Prospects"
+  T <button> 345,10117 57x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #1e3748 ta=center pad=16px 0px 20px  | "AI Studio"
+  B <span .vs-tab-track> 345,10171 57x2 bg=#376f9c/0.15
+  T <button> 434,10117 73x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Campaigns"
+  T <button> 539,10117 38x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Scout"
+  B <button .vs-tour-control> 1245,10123 147x44 pad=8px 12px flex row gap=7px jc=normal ai=center bg=#f4f7f1 border=1px 1px 1px 1px solid #ccd8d3
+  SVG 1258,10139 13x13 fill=#667681 stroke=none color=#667681 
+  T <span> 1278,10137 101x16 | Valley Showcase Montreal 14px/normal ls=normal w400 #667681 ta=center  | "Play product tour"
+  B <div .vs-intro> 48,10174 1344x119 pad=26px 0px 28px flex row gap=40px jc=space-between ai=start 
+  T <h3> 48,10200 627x29 | Valley Showcase Montreal 24px/28.8px ls=-0.6px w500 #203342  | "AI Messaging trained by you, that sounds like you...      no em dashes"
+  T <p> 962,10200 430x65 | Valley Showcase Montreal 15px/21.75px ls=normal w400 #61717c  | "Give Valley your product, your writing style and the rules every draft should follow to craft unique messages, at scale, indistinguishable from a handwritten message."
+  B <div .vs-stage> 48,10294 1344x540 pad=26px bgi=url("https://framerusercontent.com/images/Qovuw4iQncZcQQ2Zp5FGwdvDJ5k.jpg")
+  B <div .vs-shell> 74,10320 1292x488 bg=#f8faf9 border=1px 1px 1px 1px solid #e9eeeb radius=5px shadow=rgba(21, 45, 78, 0.5) 0px 10px 35px -20px ovf=hidden
+  B <div .vs-appbar> 75,10321 1290x52 pad=0px 24px bg=#fffffc/0.91 border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  B <span .vs-app-identity> 99,10335 155x22 flex row gap=10px jc=normal ai=center 
+  SVG 99,10335 22x22 fill=none stroke=none color=#203342 
+  T <span> 131,10338 36x16 | Valley Showcase Montreal 14px/normal ls=normal w550 #203342  | "Valley"
+  T <span> 181,10338 5x16 | Valley Showcase Montreal 14px/normal ls=normal w400 #bcc5cb  | "/"
+  T <span> 200,10338 53x16 | Valley Showcase Montreal 14px/normal ls=normal w400 #203342  | "AI Studio"
+  B <div .vs-studio-sidebar> 99,10385 557x402 flex column gap=normal jc=normal ai=normal tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0s 1
+  B <div .vs-studio-tabs> 99,10385 557x36 pad=10px 0px flex row gap=25px jc=normal ai=normal border=0px 0px 1px 0px none #83919b b:#233e50/0.094
+  T <span> 99,10395 50x15 | Valley Showcase Montreal 13px/normal ls=normal w400 #83919b  | "Products"
+  T <span> 174,10395 77x15 | Valley Showcase Montreal 13px/normal ls=normal w500 #2d526c  | "Writing Styles"
+  B <div .vs-writing-style> 99,10421 557x238 pad=15px 0px 14px 
+  T <span> 99,10436 557x13 | Valley Showcase Montreal 10px/13px ls=0.85px w550 #7d8c95  | "YOUR WRITING STYLE"
+  T <h3> 99,10454 557x30 | Valley Showcase Montreal 26px/29.9px ls=-0.78px w500 #203342  | "Sound like yourself."
+  B <div .vs-style-switch> 99,10497 557x24 pad=0px 0px 9px flex row gap=25px jc=normal ai=normal border=0px 0px 1px 0px none #83919b b:#233e50/0.094
+  T <span> 99,10497 29x14 | Valley Showcase Montreal 12px/normal ls=normal w500 #2d526c  | "Rules"
+  T <span> 153,10497 58x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #83919b  | "Playground"
+  T <span> 236,10497 37x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #83919b  | "Activity"
+  B <div .vs-rule-list> 99,10521 557x89 pad=4px 0px 7px grid gap=0px 20px cols=268.594px 268.594px jc=normal ai=normal 
+  B <div> 99,10525 269x39 pad=10px 0px flex row gap=7px jc=normal ai=start border=0px 0px 1px 0px none #203342 b:#e3e9e9
+  SVG 99,10537 15x15 fill=none stroke=#648276 color=#648276 
+  T <span> 121,10535 212x18 | Valley Showcase Montreal 14px/18.2px ls=normal w400 #203342  | "Lead with a real reason to reach out."
+  B <div> 388,10525 269x39 pad=10px 0px flex row gap=7px jc=normal ai=start border=0px 0px 1px 0px none #203342 b:#e3e9e9
+  SVG 388,10537 15x15 fill=none stroke=#648276 color=#648276 
+  T <span> 410,10535 163x18 | Valley Showcase Montreal 14px/18.2px ls=normal w400 #203342  | "Use short, direct sentences."
+  B <div> 99,10565 269x39 pad=10px 0px flex row gap=7px jc=normal ai=start border=0px 0px 1px 0px none #203342 b:#e3e9e9
+  SVG 99,10577 15x15 fill=none stroke=#648276 color=#648276 
+  T <span> 121,10575 149x18 | Valley Showcase Montreal 14px/18.2px ls=normal w400 #203342  | "Skip the flattering opener."
+  B <div> 388,10565 269x39 pad=10px 0px flex row gap=7px jc=normal ai=start border=0px 0px 1px 0px none #203342 b:#e3e9e9
+  SVG 388,10577 15x15 fill=none stroke=#648276 color=#648276 
+  T <span> 410,10575 135x18 | Valley Showcase Montreal 14px/18.2px ls=normal w400 #203342  | "Ask one easy question."
+  T <div> 99,10623 557x22 | Valley Showcase Montreal 12px/normal ls=normal w400 #7b8b95 flex row gap=8px jc=normal ai=center  | "LinkedIn Email"
+  T <span> 99,10623 22x22 | Valley Showcase Montreal 12px/normal ls=normal w600 #29618e bg=#e4edf6 radius=4px | "in"
+  B <span .vs-channel> 192,10623 22x22 bg=#f0eee5 radius=4px
+  SVG 195,10626 16x16 fill=none stroke=#7b7560 color=#7b7560 
+  B <div .vs-source-context> 99,10709 557x78 pad=12px 15px grid gap=normal 14px cols=404.656px 106.531px jc=normal ai=center bg=#eaf1f4 border=1px 1px 1px 1px solid #d8e3e9 radius=4px
+  T <span> 115,10722 525x12 | Valley Showcase Montreal 9px/11.7px ls=0.765px w550 #7d8c95  | "CONTEXT FOR THIS DRAFT"
+  T <strong> 115,10740 405x16 | Valley Showcase Montreal 14px/normal ls=normal w500 #203342  | "Fieldwork is hiring AEs."
+  T <p> 115,10760 405x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #7a8d9a  | "Maya leads the revenue team."
+  T <span> 534,10747 107x14 | Valley Showcase Montreal 11px/normal ls=normal w400 #5f839d  | "Research Findings"
+  SVG 534,10747 14x14 fill=none stroke=#5f839d color=#5f839d 
+  B <div .vs-playground> 674,10385 671x402 flex column gap=normal jc=normal ai=normal bg=#fcfcfa border=1px 1px 1px 1px solid #dce3e6 radius=6px shadow=rgba(32, 57, 72, 0.26) 0px 14px 40px -16px, rgba(32, 57, 72, 0.07) 0px 1px 3px 0px tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0.28s 1
+  B <div .vs-panel-heading> 675,10386 669x49 pad=12px 18px flex row gap=10px jc=space-between ai=center border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  T <span> 693,10400 96x19 | Valley Showcase Montreal 14px/normal ls=normal w500 #203342  | "Playground"
+  SVG 693,10400 19x19 fill=none stroke=none color=#203342 
+  T <span> 1261,10398 65x24 | Valley Showcase Montreal 11px/normal ls=normal w400 #6e808b pad=4px 7px bg=#f0f4f5 border=1px 1px 1px 1px solid #2b506b/0.086 radius=3px | "Email draft"
+  B <div .vs-draft-intro> 675,10435 669x58 pad=8px 18px 
+  T <span> 693,10443 633x13 | Valley Showcase Montreal 10px/13px ls=0.85px w550 #7d8c95  | "YOUR VOICE. HER CONTEXT."
+  T <h4> 693,10461 633x24 | Valley Showcase Montreal 22px/24.2px ls=-0.55px w500 #203342  | "A message with something to say."
+  B <div .vs-draft> 691,10493 637x254 bg=#ffffff border=1px 1px 1px 1px solid #e1e6e7 radius=5px
+  B <div .vs-draft-recipient> 692,10494 635x41 pad=8px 14px flex row gap=8px jc=normal ai=center border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  T <span> 706,10507 12x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #99a3a9  | "To"
+  B <span .vs-avatar> 731,10502 23x23 bg=#d8e6eb border=1px 1px 1px 1px solid #396377/0.07 radius=50%
+  IMG 732,10503 21x21 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/KD64dhKrNdxKzSajCepglBBXSM.jpg alt=""
+  T <strong> 762,10507 59x14 | Valley Showcase Montreal 12px/normal ls=normal w500 #203342  | "Maya Chen"
+  B <span .vs-channel> 1289,10502 24x24 radius=4px
+  SVG 1293,10506 16x16 fill=none stroke=#7b7560 color=#7b7560 
+  T <div> 692,10535 635x37 | Valley Showcase Montreal 14px/normal ls=normal w500 #203342 pad=10px 14px border=0px 0px 1px 0px none #203342 b:#233e50/0.094 | "Fieldwork’s growing sales team"
+  B <div .vs-draft-body> 692,10572 635x146 pad=10px 15px 
+  T <p> 707,10582 605x21 | Valley Showcase Montreal 15px/21px ls=normal w400 #364953  | "Hi Maya,"
+  T <p> 707,10610 605x21 | Valley Showcase Montreal 15px/21px ls=normal w400 #364953  | "Saw Fieldwork is hiring AEs. That usually means new lists to build and first touches to write."
+  T <p> 707,10638 605x42 | Valley Showcase Montreal 15px/21px ls=normal w400 #364953  | "Valley finds the prospects and drafts outreach from real research. Want to see a few examples for Fieldwork?"
+  T <p> 707,10687 605x21 | Valley Showcase Montreal 15px/21px ls=normal w400 #364953  | "Alex"
+  B <div .vs-draft-footer> 675,10747 669x39 pad=12px 17px flex row gap=10px jc=space-between ai=center 
+  T <span> 692,10759 119x14 | Valley Showcase Montreal 11px/normal ls=normal w400 #4e7b66  | "Ready for your review"
+  SVG 692,10759 14x14 fill=none stroke=#4e7b66 color=#4e7b66 
+  T <span> 1239,10759 88x15 | Valley Showcase Montreal 12px/normal ls=normal w400 #386c94  | "Review & edit"
+  SVG 1312,10759 15x15 fill=none stroke=#386c94 color=#386c94 
+##### showcase TAB 4 {"sel":4,"scene":"campaigns","stageH":"620px"}
+  B <div .vs-toolbar> 48,10117 1344x57 flex row gap=24px jc=normal ai=center border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  B <div .vs-tabs> 48,10117 1173x56 flex row gap=32px jc=normal ai=normal 
+  T <button> 48,10117 70x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Dashboard"
+  T <button> 150,10117 66x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Playbooks"
+  T <button> 248,10117 65x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Prospects"
+  T <button> 345,10117 57x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "AI Studio"
+  T <button> 434,10117 73x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #1e3748 ta=center pad=16px 0px 20px  | "Campaigns"
+  B <span .vs-tab-track> 434,10171 73x2 bg=#376f9c/0.15
+  T <button> 539,10117 38x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Scout"
+  B <button .vs-tour-control> 1245,10123 147x44 pad=8px 12px flex row gap=7px jc=normal ai=center bg=#f4f7f1 border=1px 1px 1px 1px solid #ccd8d3
+  SVG 1258,10139 13x13 fill=#667681 stroke=none color=#667681 
+  T <span> 1278,10137 101x16 | Valley Showcase Montreal 14px/normal ls=normal w400 #667681 ta=center  | "Play product tour"
+  B <div .vs-intro> 48,10174 1344x112 pad=26px 0px 28px flex row gap=40px jc=space-between ai=start 
+  T <h3> 48,10200 672x58 | Valley Showcase Montreal 24px/28.8px ls=-0.6px w500 #203342  | "One conversation. With warm prospects. Receiving incredible messaging. Across all channels."
+  T <p> 962,10200 430x44 | Valley Showcase Montreal 15px/21.75px ls=normal w400 #61717c  | "Connect LinkedIn and email in a sequence that follows what happens next."
+  B <div .vs-stage> 48,10286 1344x620 pad=26px bgi=url("https://framerusercontent.com/images/Qovuw4iQncZcQQ2Zp5FGwdvDJ5k.jpg")
+  B <div .vs-shell> 74,10312 1292x568 bg=#f8faf9 border=1px 1px 1px 1px solid #e9eeeb radius=5px shadow=rgba(21, 45, 78, 0.5) 0px 10px 35px -20px ovf=hidden
+  B <div .vs-appbar> 75,10313 1290x52 pad=0px 24px bg=#fffffc/0.91 border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  B <span .vs-app-identity> 99,10327 169x22 flex row gap=10px jc=normal ai=center 
+  SVG 99,10327 22x22 fill=none stroke=none color=#203342 
+  T <span> 131,10330 36x16 | Valley Showcase Montreal 14px/normal ls=normal w550 #203342  | "Valley"
+  T <span> 181,10330 5x16 | Valley Showcase Montreal 14px/normal ls=normal w400 #bcc5cb  | "/"
+  T <span> 200,10330 68x16 | Valley Showcase Montreal 14px/normal ls=normal w400 #203342  | "Campaigns"
+  B <div .vs-sequence-heading> 100,10383 1240x48 flex row gap=normal jc=space-between ai=center tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0s 1
+  T <span> 100,10383 281x13 | Valley Showcase Montreal 10px/13px ls=0.85px w550 #7d8c95  | "HIRING SIGNALS"
+  T <h3> 100,10402 281x29 | Valley Showcase Montreal 25px/28.75px ls=-0.5px w500 #203342  | "Revenue leaders hiring AEs"
+  T <span> 1276,10395 64x24 | Valley Showcase Montreal 11px/normal ls=normal w400 #6e808b pad=4px 7px bg=#f0f4f5 border=1px 1px 1px 1px solid #2b506b/0.086 radius=3px | "Sequence"
+  SVG 99,10450 1242x409 fill=#000000 stroke=none color=#203342 
+  B <div .vs-sequence-node> 509,10450 422x83 pad=13px 18px flex row gap=12px jc=normal ai=start bg=#ffffff border=1px 1px 1px 1px solid #d9e3e9 radius=5px shadow=rgba(32, 61, 98, 0.29) 0px 6px 18px -14px tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0s 1
+  T <span> 528,10464 28x28 | Valley Showcase Montreal 15px/normal ls=normal w600 #29618e bg=#e4edf6 radius=4px | "in"
+  T <small> 568,10464 128x11 | Valley Showcase Montreal 9px/normal ls=0.63px w400 #8798a3  | "LINKEDIN"
+  T <strong> 568,10480 128x18 | Valley Showcase Montreal 15px/18px ls=normal w500 #203342  | "Connection request"
+  T <p> 568,10502 128x17 | Valley Showcase Montreal 13px/16.9px ls=normal w400 #83949e  | "Start the conversation."
+  SVG 897,10464 15x15 fill=none stroke=#6c9482 color=#6c9482 
+  B <div .vs-sequence-wait> 643,10561 155x31 pad=7px 12px flex row gap=7px jc=normal ai=center bg=#f8faf9 border=1px 1px 1px 1px solid #dce4e8 radius=4px tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0.18s 1
+  SVG 656,10569 15x15 fill=none stroke=#80929e color=#80929e 
+  T <span> 678,10570 107x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #80929e  | "Wait for a connection"
+  T <span> 360,10626 61x20 | Valley Showcase Montreal 11px/normal ls=normal w400 #719387 pad=3px 8px bg=#f8faf9 | "Accepted"
+  T <span> 1026,10626 79x20 | Valley Showcase Montreal 11px/normal ls=normal w400 #8e959e pad=3px 8px bg=#f8faf9 | "Not accepted"
+  B <div .vs-sequence-node> 174,10667 422x100 pad=13px 18px flex row gap=12px jc=normal ai=start bg=#ffffff border=1px 1px 1px 1px solid #d9e3e9 radius=5px shadow=rgba(32, 61, 98, 0.29) 0px 6px 18px -14px tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0.36s 1
+  T <span> 193,10681 28x28 | Valley Showcase Montreal 15px/normal ls=normal w600 #29618e bg=#e4edf6 radius=4px | "in"
+  T <small> 233,10681 129x11 | Valley Showcase Montreal 9px/normal ls=0.63px w400 #8798a3  | "LINKEDIN"
+  T <strong> 233,10697 129x18 | Valley Showcase Montreal 15px/18px ls=normal w500 #203342  | "Send a message"
+  T <p> 233,10719 129x34 | Valley Showcase Montreal 13px/16.9px ls=normal w400 #83949e  | "Use the research behind the introduction."
+  B <div .vs-sequence-node> 844,10667 422x100 pad=13px 18px flex row gap=12px jc=normal ai=start bg=#ffffff border=1px 1px 1px 1px solid #d9e3e9 radius=5px shadow=rgba(32, 61, 98, 0.29) 0px 6px 18px -14px tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0.48s 1
+  B <span .vs-channel> 863,10681 28x28 bg=#f0eee5 radius=4px
+  SVG 869,10687 16x16 fill=none stroke=#7b7560 color=#7b7560 
+  T <small> 903,10681 118x11 | Valley Showcase Montreal 9px/normal ls=0.63px w400 #8798a3  | "EMAIL"
+  T <strong> 903,10697 118x18 | Valley Showcase Montreal 15px/18px ls=normal w500 #203342  | "Follow up by email"
+  T <p> 903,10719 118x34 | Valley Showcase Montreal 13px/16.9px ls=normal w400 #83949e  | "The same context. A different channel."
+  B <div .vs-reply-exit> 161,10818 1118x41 pad=11px 15px flex row gap=12px jc=normal ai=center bg=#f8faf9 border=1px 1px 1px 1px solid #dfe7e9 radius=4px tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0.6s 1
+  B <span .vs-reply-dot> 177,10835 6x6 bg=#7aa493 radius=50%
+  T <strong> 195,10831 87x14 | Valley Showcase Montreal 12px/normal ls=normal w500 #405b6e  | "A reply comes in."
+  T <span> 294,10831 253x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #8a98a1  | "The sequence stops. Your conversation continues."
+  SVG 559,10830 17x17 fill=none stroke=#8a98a1 color=#8a98a1 
+  T <span> 1235,10831 28x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #507da0  | "Inbox"
+##### showcase TAB 5 {"sel":5,"scene":"scout","stageH":"540px"}
+  B <div .vs-toolbar> 48,10117 1344x57 flex row gap=24px jc=normal ai=center border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  B <div .vs-tabs> 48,10117 1173x56 flex row gap=32px jc=normal ai=normal 
+  T <button> 48,10117 70x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Dashboard"
+  T <button> 150,10117 66x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Playbooks"
+  T <button> 248,10117 65x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Prospects"
+  T <button> 345,10117 57x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "AI Studio"
+  T <button> 434,10117 73x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #77848d ta=center pad=16px 0px 20px  | "Campaigns"
+  T <button> 539,10117 38x56 | Valley Showcase Montreal 15px/20px ls=normal w400 #1e3748 ta=center pad=16px 0px 20px  | "Scout"
+  B <span .vs-tab-track> 539,10171 38x2 bg=#376f9c/0.15
+  B <button .vs-tour-control> 1245,10123 147x44 pad=8px 12px flex row gap=7px jc=normal ai=center bg=#f4f7f1 border=1px 1px 1px 1px solid #ccd8d3
+  SVG 1258,10139 13x13 fill=#667681 stroke=none color=#667681 
+  T <span> 1278,10137 101x16 | Valley Showcase Montreal 14px/normal ls=normal w400 #667681 ta=center  | "Play product tour"
+  B <div .vs-intro> 48,10174 1344x119 pad=26px 0px 28px flex row gap=40px jc=space-between ai=start 
+  T <h3> 48,10200 672x58 | Valley Showcase Montreal 24px/28.8px ls=-0.6px w500 #203342  | "Your new AI Head of Outbound who never sleeps, misses a follow up, or forgets a signal."
+  T <p> 962,10200 430x65 | Valley Showcase Montreal 15px/21.75px ls=normal w400 #61717c  | "Scout is an AI Agent that can conduct any action in Valley or any AI Tool via our MCP connector. Ask Scout to launch the best plays for you & then go do something else."
+  B <div .vs-stage> 48,10294 1344x540 pad=26px bgi=url("https://framerusercontent.com/images/Qovuw4iQncZcQQ2Zp5FGwdvDJ5k.jpg")
+  B <div .vs-shell> 74,10320 1292x488 bg=#f8faf9 border=1px 1px 1px 1px solid #e9eeeb radius=5px shadow=rgba(21, 45, 78, 0.5) 0px 10px 35px -20px ovf=hidden
+  B <div .vs-appbar> 75,10321 1290x52 pad=0px 24px bg=#fffffc/0.91 border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  B <span .vs-app-identity> 99,10335 136x22 flex row gap=10px jc=normal ai=center 
+  SVG 99,10335 22x22 fill=none stroke=none color=#203342 
+  T <span> 131,10338 36x16 | Valley Showcase Montreal 14px/normal ls=normal w550 #203342  | "Valley"
+  T <span> 181,10338 5x16 | Valley Showcase Montreal 14px/normal ls=normal w400 #bcc5cb  | "/"
+  T <span> 200,10338 35x16 | Valley Showcase Montreal 14px/normal ls=normal w400 #203342  | "Scout"
+  B <div .vs-chat> 101,10394 645x393 grid gap=10px 14px cols=315.5px 315.5px jc=normal ai=start tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0s 1
+  B <div .vs-scout-identity> 101,10394 645x48 flex row gap=10px jc=normal ai=center 
+  SVG 101,10401 32x32 fill=none stroke=none color=#305570 
+  T <h3> 143,10394 127x29 | Valley Showcase Montreal 26px/28.6px ls=-0.65px w500 #305570  | "Scout"
+  T <p> 143,10426 127x15 | Valley Showcase Montreal 12px/15px ls=normal w400 #8a98a1  | "Your next move, together."
+  T <div> 178,10451 568x44 | Valley Showcase Montreal 14px/19.6px ls=normal w400 #425b6d pad=11px 14px bg=#eaf0f3 border=1px 1px 1px 1px solid #e0e7eb radius=5px | "Find revenue leaders at software companies hiring account executives."
+  B <div .vs-scout-message> 101,10505 645x60 pad=8px 3px flex row gap=10px jc=normal ai=start tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0.16s 1
+  SVG 104,10514 22x22 fill=none stroke=none color=#517995 
+  T <p> 136,10513 448x20 | Valley Showcase Montreal 14px/19.6px ls=normal w400 #203342  | "I’ll start with hiring signals, check the fit, and prepare outreach for your review."
+  B <div .vs-scout-actions> 136,10541 448x15 flex row gap=8px 14px jc=normal ai=normal 
+  T <span> 136,10541 101x15 | Valley Showcase Montreal 11px/15.4px ls=normal w400 #4e7b66  | "Audience defined"
+  SVG 136,10542 14x14 fill=none stroke=#4e7b66 color=#4e7b66 
+  T <span> 251,10541 127x15 | Valley Showcase Montreal 11px/15.4px ls=normal w400 #4e7b66  | "Research criteria ready"
+  SVG 251,10542 14x14 fill=none stroke=#4e7b66 color=#4e7b66 
+  T <div> 101,10575 316x44 | Valley Showcase Montreal 14px/19.6px ls=normal w400 #425b6d pad=11px 14px bg=#eaf0f3 border=1px 1px 1px 1px solid #e0e7eb radius=5px tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0.34s 1 | "Use my writing style. LinkedIn and email."
+  B <div .vs-scout-message> 431,10575 316x52 pad=5px 0px flex row gap=10px jc=normal ai=start tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0.52s 1
+  SVG 431,10581 22x22 fill=none stroke=none color=#517995 
+  T <p> 463,10580 179x20 | Valley Showcase Montreal 14px/19.6px ls=normal w400 #203342  | "Here’s the campaign to review."
+  T <span> 463,10605 179x16 | Valley Showcase Montreal 12px/15.6px ls=normal w400 #39759b  | "Open campaign"
+  SVG 549,10605 16x16 fill=none stroke=#39759b color=#39759b 
+  B <div .vs-chat-input> 101,10744 645x43 pad=9px 13px flex row gap=normal jc=space-between ai=center bg=#ffffff border=1px 1px 1px 1px solid #dce5e9 radius=5px
+  T <span> 115,10758 97x14 | Valley Showcase Montreal 12px/normal ls=normal w400 #9aa6ae  | "Ask Scout anything"
+  T <span> 709,10754 23x23 | Valley Showcase Montreal 15px/normal ls=normal w400 #ffffff bg=#3c627c radius=3px | "↑"
+  B <div .vs-scout-output> 775,10394 568x393 grid gap=normal cols=282.797px 282.797px jc=normal ai=normal bg=#fcfcfa border=1px 1px 1px 1px solid #dce3e6 radius=6px shadow=rgba(32, 57, 72, 0.26) 0px 14px 40px -16px, rgba(32, 57, 72, 0.07) 0px 1px 3px 0px tf=matrix(1, 0, 0, 1, 0, 0) anim=vs-appear 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0.6s 1
+  B <div .vs-panel-heading> 776,10395 566x45 pad=11px 17px flex row gap=10px jc=space-between ai=center border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  T <span> 793,10408 112x18 | Valley Showcase Montreal 13px/normal ls=normal w500 #203342  | "Campaign draft"
+  SVG 793,10408 18x18 fill=none stroke=#203342 color=#203342 
+  T <span> 1278,10406 47x22 | Valley Showcase Montreal 10px/normal ls=normal w400 #6e808b pad=4px 7px bg=#f0f4f5 border=1px 1px 1px 1px solid #2b506b/0.086 radius=3px | "Review"
+  B <div .vs-scout-output-art> 776,10440 283x101 pad=13px 18px bgi=linear-gradient(90deg, rgba(22, 60, 92, 0.52), rgba(23, 62, 89, 0.24)), url("https://framerusercontent.com/images/Qovuw4iQncZcQQ2Zp5FGwdvDJ5k.jpg")
+  T <span> 794,10457 62x14 | Valley Showcase Montreal 11px/13.75px ls=normal w400 #e2edf2  | "Hiring signals"
+  T <h4> 794,10477 247x51 | Valley Showcase Montreal 22px/25.3px ls=-0.55px w450 #fffdf3  | "Revenue leaders hiring AEs"
+  B <div .vs-scout-person> 1059,10440 283x101 pad=11px 14px flex row gap=8px jc=normal ai=center border=0px 0px 1px 0px none #203342 b:#233e50/0.094
+  B <span .vs-avatar> 1073,10475 28x28 bg=#d8e6eb border=1px 1px 1px 1px solid #396377/0.07 radius=50%
+  IMG 1074,10476 26x26 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/KD64dhKrNdxKzSajCepglBBXSM.jpg alt=""
+  T <strong> 1109,10472 109x16 | Valley Showcase Montreal 14px/normal ls=normal w500 #203342  | "Maya Chen"
+  T <span> 1109,10492 109x14 | Valley Showcase Montreal 11px/normal ls=normal w400 #8898a3  | "VP Revenue · Fieldwork"
+  T <span> 1226,10478 43x22 | Valley Showcase Montreal 10px/10px ls=normal w400 #4b7b60 pad=5px 6px bg=#eaf4ec border=1px 1px 1px 1px solid #d5e7dc radius=3px | "High fit"
+  B <div .vs-scout-draft> 776,10540 566x200 pad=14px 18px 
+  T <span> 794,10554 530x13 | Valley Showcase Montreal 10px/13px ls=0.85px w550 #7d8c95  | "FIRST MESSAGE"
+  T <p> 794,10575 530x65 | Valley Showcase Montreal 15px/21.75px ls=normal w400 #4f6371  | "Maya, adding AEs means lists to build and first touches to write. Valley finds the prospects and drafts outreach from real research. Want to see a few examples for Fieldwork?"
+  B <div .vs-output-checks> 776,10741 566x45 pad=11px 17px flex row gap=12px jc=space-between ai=center border=1px 0px 0px 0px solid #233e50/0.094 b:#8296a3
+  T <span> 793,10757 97x14 | Valley Showcase Montreal 11px/normal ls=normal w400 #4e7b66  | "Your writing style"
+  SVG 793,10757 14x14 fill=none stroke=#4e7b66 color=#4e7b66 
+  T <span> 1202,10753 123x22 | Valley Showcase Montreal 11px/normal ls=normal w400 #8296a3 flex row gap=6px jc=normal ai=center  | "Both channels"
+  T <span> 1202,10753 22x22 | Valley Showcase Montreal 12px/normal ls=normal w600 #29618e bg=#e4edf6 radius=4px | "in"
+  B <span .vs-channel> 1230,10753 22x22 bg=#f0eee5 radius=4px
+  SVG 1233,10756 16x16 fill=none stroke=#7b7560 color=#7b7560 

@@ -1,0 +1,18 @@
+{
+  "id": "cards.customer-logo-band",
+  "layer": "section",
+  "purpose": "Full-width customer logo band on /casestudies (CustomerLogoBand.jsx), distinct from the homepage logo wall.",
+  "composes": ["logo-mark"],
+  "measuredFrom": "spec/pages/casestudies-index.md (Logo band, section[Desktop])",
+  "content": {
+    "type": "object",
+    "properties": { "logos": { "type": "array", "minItems": 1, "maxItems": 40 } },
+    "required": ["logos"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "casestudiesIndexOnly" },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {
+    "customer-logo": { "enum": "customer-logo", "generationPolicy": "must-reuse-exact", "guidance": "Real company trademarks; never AI-generate or alter." }
+  }
+}

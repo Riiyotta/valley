@@ -1,0 +1,216 @@
+/* "Testimonial Section" (spec/pages/landing.md 5.4; dump section [6] tryvalley / [13]
+   linkedin-automation; motion M4). */
+
+.wt {
+  position: relative;
+  background: #1d2a2e;
+  overflow: hidden;
+}
+.wt::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  pointer-events: none;
+}
+.wt-content {
+  position: relative;
+  background: #1d2a2e;
+  overflow: hidden;
+}
+.wt-content::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #e0e0e0;
+  border-top-width: 0;
+  pointer-events: none;
+}
+.wt-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 64px 48px;
+}
+.wt--automation .wt-head {
+  gap: 25px;
+  padding: 80px 54px;
+}
+.wt-label {
+  color: #fff;
+}
+/* The label is Geist Mono only on /tryvalley at desktop; elsewhere it is PPNM Variable. */
+.wt--automation .wt-label {
+  font-family: theme('fontFamily.ppnm-variable');
+}
+.wt-title {
+  font: 400 42px/50.4px theme('fontFamily.ppnm-medium');
+  color: #fff;
+  text-align: center;
+}
+.wt--automation .wt-title {
+  font-weight: 500;
+}
+
+/* ---------- ticker ---------- */
+.wt-marquee {
+  width: 100%;
+  height: 450px;
+  padding: 10px;
+  overflow: hidden;
+}
+.wt-track {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  width: max-content;
+  height: 430px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  animation: wt-scroll var(--wt-dur) linear infinite;
+  will-change: transform;
+}
+/* Live pauses the WAAPI marquee (keeping its position) whenever the 450px marquee box is fully
+   off-screen and starts it at 0 only when it first scrolls into view (IntersectionObserver,
+   threshold 0). Under prefers-reduced-motion live does not run the marquee at all. */
+.wt-marquee:not([data-running]) .wt-track {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .wt-track {
+    animation: none;
+  }
+}
+@keyframes wt-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(var(--wt-shift));
+  }
+}
+
+.wt-card {
+  flex: none;
+  width: 317px;
+  height: 398px;
+  padding: 6px;
+  background: rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+}
+.wt-card__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background: #fff;
+  overflow: hidden;
+}
+.wt-card__logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 99px;
+  padding: 18px;
+}
+.wt-card__logo img {
+  display: block;
+  width: 178px;
+  height: 61px;
+  object-fit: contain;
+}
+.wt-card__body {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 24px;
+}
+.wt-card__text {
+  width: 100%;
+  padding: 0 36px;
+}
+.wt-card__text p {
+  font: 400 16px/20.8px theme('fontFamily.ppnm-medium');
+  color: #000;
+  text-align: center;
+}
+.wt-card__client {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 184px;
+  height: 92px;
+}
+.wt-card__photo {
+  position: relative;
+  flex: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #ffeadd;
+  overflow: hidden;
+}
+.wt-card__photo img {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: 52px;
+  height: 52px;
+  max-width: none;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.wt-card__who {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.wt-card__name,
+.wt-card__role {
+  opacity: 0.8;
+  color: #000;
+  text-align: center;
+  white-space: nowrap;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-weight: 400;
+}
+.wt-card__name {
+  font-size: 16px;
+  line-height: 20.8px;
+}
+.wt-card__role {
+  font-size: 12px;
+  line-height: 14.4px;
+}
+
+@media screen(below-desktop) {
+  .wt-content {
+    padding-bottom: 32px;
+  }
+  .wt-head {
+    padding: 44px 20px;
+  }
+  .wt--automation .wt-head {
+    gap: 24px;
+    padding: 42px 16px 24px;
+  }
+  .wt-label {
+    font-family: theme('fontFamily.ppnm-variable');
+  }
+  .wt-title {
+    width: 100%;
+    font-size: 32px;
+    line-height: 38.4px;
+    font-weight: 500;
+  }
+}

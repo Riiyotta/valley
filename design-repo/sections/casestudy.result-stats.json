@@ -1,0 +1,19 @@
+{
+  "id": "casestudy.result-stats",
+  "layer": "section",
+  "purpose": "In-article result/pull-quote cards and company About sidebar card, part of the case-study Content region.",
+  "composes": ["stat-block", "quote-block"],
+  "measuredFrom": "spec/pages/casestudy.md (Content: CaseAboutCard, SectionChip, PullQuoteCard, ResultStats)",
+  "content": {
+    "type": "object",
+    "properties": {
+      "results": { "type": "array", "maxItems": 6 },
+      "aboutCompany": { "type": "string", "maxWords": 60 }
+    },
+    "additionalProperties": false
+  },
+  "contentPolicy": { "note": "aboutCompany blurb text is redacted/placeholder per casestudy.md Content rule; result numbers themselves may be measured-real if sourced from cases.json heroStats/cardStats." },
+  "constraints": { "maxPerPage": 1 },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {}
+}

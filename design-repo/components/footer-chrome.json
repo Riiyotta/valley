@@ -1,0 +1,10 @@
+{
+  "id": "footer-chrome",
+  "layer": "component",
+  "description": "Shared site footer (.vf), byte-identical across all 16 templates.",
+  "composes": ["link", "divider"],
+  "measuredFrom": "CLONE_SPEC.md section 18 (footer); spec/GRID.md:192-195",
+  "props": {
+    "columns": { "type": "number", "const": 3 }
+  }
+}

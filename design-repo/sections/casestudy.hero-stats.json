@@ -1,0 +1,26 @@
+{
+  "id": "casestudy.hero-stats",
+  "layer": "section",
+  "purpose": "Dark hero + 3-stat block opening a case-study article, plus an adjoining testimonial+CTA strip.",
+  "composes": ["stat-block", "quote-block", "button"],
+  "measuredFrom": "spec/pages/casestudy.md (Blog Title, Testominoal + CTA)",
+  "content": {
+    "type": "object",
+    "properties": {
+      "title": { "type": "string", "maxWords": 30 },
+      "company": { "type": "string", "maxWords": 4 },
+      "heroStats": { "type": "array", "minItems": 1, "maxItems": 3, "items": { "type": "object", "properties": { "value": { "type": "string" }, "label": { "type": "string" }, "chip": { "type": "string" } }, "required": ["value", "label"], "additionalProperties": false } },
+      "testimonialQuote": { "type": "string", "maxWords": 40 },
+      "person": { "type": "object", "properties": { "name": { "type": "string" }, "role": { "type": "string" } } }
+    },
+    "required": ["title", "company", "heroStats"],
+    "additionalProperties": false
+  },
+  "contentPolicy": { "note": "title/company/heroStats/person ARE measured-real from cases.json. testimonialQuote text itself follows the same placeholder-body policy as content.article-body since the real quote is redacted in raw files." },
+  "constraints": { "onePerPage": true, "mustBeFirstAfterNav": true, "routeRestriction": "casestudyDetailOnly" },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {
+    "customer-logo": { "enum": "customer-logo", "generationPolicy": "must-reuse-exact", "guidance": "Real company trademark; never AI-generate or alter." },
+    "customer-photo": { "enum": "customer-photo", "generationPolicy": "must-not-fabricate", "guidance": "Real named person's photo; never fabricate a likeness." }
+  }
+}

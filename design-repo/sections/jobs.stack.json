@@ -1,0 +1,30 @@
+{
+  "id": "jobs.stack",
+  "layer": "section",
+  "purpose": "Illustrate the full outbound job/task stack Valley automates, with a pinned scroll-driven map.",
+  "composes": ["pinned-scroll-stage", "stat-block"],
+  "measuredFrom": "CLONE_SPEC.md section 13; spec/GRID.md:45,160-163,213",
+  "content": {
+    "type": "object",
+    "properties": {
+      "h2": { "type": "string", "maxWords": 10 },
+      "price": { "type": "string", "maxWords": 3 },
+      "tileGroups": { "type": "array", "minItems": 1, "maxItems": 4 }
+    },
+    "required": ["h2", "tileGroups"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true },
+  "responsive": {
+    "desktop": { "layout": "minmax(0,1.65fr) minmax(0,1fr), gap 36; map repeat(4,minmax(0,1fr)) gap 10" },
+    "containerBand1100": { "containerQuery": "<=1100c", "layout": "gap 24" },
+    "containerBand760": { "containerQuery": "<=760c", "layout": "1fr; map repeat(2,1fr) gap 24 16" },
+    "quirk801to816": "At viewport 810-816 tablet gutter 28 -> container 754-760 -> stacked NOT pinned (height 1803.5). At 801-809 phone gutter 20 -> container 761-769 -> 4 columns AND pinned (height 2846). Reproduce exactly, do not normalize.",
+    "measuredFrom": "spec/GRID.md:45,161,213"
+  },
+  "motion": {
+    "pattern": "scroll-pin",
+    "reducedMotionFallback": "pinning disabled per CLONE_SPEC.md:25; renders as static in-flow section with all tiles visible"
+  },
+  "assetRoles": {}
+}

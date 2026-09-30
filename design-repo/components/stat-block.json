@@ -1,0 +1,12 @@
+{
+  "id": "stat-block",
+  "layer": "component",
+  "description": "A numeric metric + label pair. Used by stories metrics, case-study cardStats/heroStats, wall-of-love metrics.",
+  "measuredFrom": "spec/pages/casestudies/cases.json (cardStats/heroStats fields); CLONE_SPEC.md:189-190,205 (stories/wall metric type roles)",
+  "props": {
+    "value": { "type": "string", "maxLength": 12 },
+    "label": { "type": "string", "maxLength": 40 },
+    "chip": { "type": "string", "maxLength": 24, "optional": true }
+  },
+  "tokens": { "typography": "metric.display" }
+}

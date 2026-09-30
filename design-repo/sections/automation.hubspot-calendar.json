@@ -1,0 +1,16 @@
+{
+  "id": "automation.hubspot-calendar",
+  "layer": "section",
+  "purpose": "HubSpot calendar booking embed, unique to /linkedin-automation.",
+  "measuredFrom": "src/components/landing/automation/CalendarSection.jsx; spec/pages/landing.md:499",
+  "content": {
+    "type": "object",
+    "properties": { "heading": { "type": "string", "maxWords": 10 }, "embedUrl": { "type": "string", "const": "https://meetings.hubspot.com/zayd-from-valley/tryvalley" } },
+    "required": ["embedUrl"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "automationOnly" },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {},
+  "pinnedValueNote": "embedUrl is PINNED (const) to the real live HubSpot endpoint."
+}

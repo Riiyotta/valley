@@ -1,0 +1,36 @@
+{
+  "id": "logos.wall",
+  "layer": "section",
+  "purpose": "Social proof via recognizable customer/partner logos immediately after the hero.",
+  "composes": ["logo-grid"],
+  "measuredFrom": "CLONE_SPEC.md section 9; spec/GRID.md:143-146",
+  "content": {
+    "type": "object",
+    "properties": {
+      "heading": { "type": "string", "maxWords": 12 },
+      "featured": { "type": "array", "maxItems": 4 },
+      "grid": { "type": "array", "maxItems": 18 }
+    },
+    "required": ["heading", "grid"],
+    "additionalProperties": false
+  },
+  "constraints": { "maxPerPage": 1, "noConsecutive": true },
+  "responsive": {
+    "desktop": { "minWidth": 1200, "layout": "featured repeat(4,1fr) gap 24; grid repeat(5,1fr) gap 12/20" },
+    "tablet": { "minWidth": 810, "maxWidth": 1199.98, "layout": "3 groups flex row, each repeat(2,1fr); grid repeat(4,1fr)" },
+    "phone": { "maxWidth": 809.98, "layout": "3 groups stacked, each 2 columns; featured/grid repeat(2,1fr)" },
+    "measuredFrom": "spec/GRID.md:143-146"
+  },
+  "motion": {
+    "pattern": "dot-blink",
+    "keyframeRefs": ["dot-blink"],
+    "reducedMotionFallback": "dot renders static at full opacity, no blink loop"
+  },
+  "assetRoles": {
+    "customer-logo": {
+      "enum": "customer-logo",
+      "generationPolicy": "must-reuse-exact",
+      "guidance": "COMPLIANCE: these are REAL third-party company trademarks (e.g. Gallea AI, Smallest.ai, Klaar, competitor wordmarks like HeyReach/Expandi/Lemlist). Never AI-generate, redraw, or alter a real company's logo. Use only the licensed/sourced exact asset, or omit the logo entirely for a fictional/example company."
+    }
+  }
+}

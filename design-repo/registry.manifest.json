@@ -1,0 +1,55 @@
+{
+  "repositoryId": "valley-design-repo",
+  "status": "design-review-pending",
+  "productionApproved": false,
+  "pageSpecVersion": "1.1.0",
+  "repositoryVersion": "1.1.0",
+  "allowlistVersion": "1.0.0",
+  "defaultTheme": "light",
+  "schemaValidatedThemes": [
+    "light"
+  ],
+  "versionFieldNote": "allowlistVersion is machine-checked: extraction/verify_all.py's check_allowlist_version_parity fails the run if this field drifts from tokens/llm/component-allowlist.json's own allowlistVersion. repositoryVersion and pageSpecVersion are documentation-only, hand-maintained markers — nothing automatically enforces them beyond the schema's own pageSpecVersion string-pattern check on individual PageSpec instances. Never assume a version field here implies enforcement it doesn't have.",
+  "sourceProject": {
+    "description": "A pixel-audited React 18.3.1 + Vite 5.4.10 + Tailwind 3.4.14 + react-router-dom 6.30.6 (+ @rive-app/webgl2 2.27.5) clone of the real live company Valley (joinvalley.co, an AI outbound/sales-signal platform).",
+    "note": "This design-repo is a snapshot measured from that source project on 2026-09-29/30. No path to the source project is stored here (see entryPoints below) — citation provenance lives in extraction/measured-values.json."
+  },
+  "counts": {
+    "tokenFiles": 18,
+    "primitives": 10,
+    "components": 10,
+    "sections": 62,
+    "templates": 16,
+    "routes": 530
+  },
+  "countsNote": "Every value in this block is recomputed from real files on disk by extraction/verify_all.py's check_manifest_counts, which fails the run on any drift. This is not a hand-maintained snapshot — see the self-containment test proof described in CHANGELOG.md and the build session's own verification transcript.",
+  "entryPoints": {
+    "readme": "README.md",
+    "changelog": "CHANGELOG.md",
+    "pageSpecSchema": "schema/pagespec.schema.json",
+    "pageSpecExample": "schema/example.pagespec.json",
+    "semanticValidator": "schema/semantic_validate.py",
+    "adversarialTests": "schema/tests/adversarial_test.py",
+    "templates": "templates/templates.json",
+    "compatibilityGraph": "compatibility/graph.json",
+    "componentAllowlist": "tokens/llm/component-allowlist.json",
+    "assetRoleRegistry": "tokens/llm/asset-role-registry.json",
+    "tokenCatalog": "tokens/llm/token-catalog.json",
+    "tokenPolicy": "tokens/llm/token-policy.json",
+    "measuredValues": "extraction/measured-values.json",
+    "verifyAll": "extraction/verify_all.py",
+    "primitivesDir": "primitives/",
+    "componentsDir": "components/",
+    "sectionsDir": "sections/",
+    "foundationTokensDir": "tokens/00-foundation/",
+    "semanticTokensDir": "tokens/10-semantic/",
+    "componentTokensDir": "tokens/20-component/",
+    "layoutTokensDir": "tokens/30-layout/",
+    "themesDir": "tokens/themes/"
+  },
+  "entryPointsNote": "Every entryPoints value is a path INSIDE this design-repo/ folder only — no '../' paths into the sibling spec/src/CLONE_SPEC.md project used to build it. Those external sources are cited (by relative name, never absolute machine path) in extraction/measured-values.json's citation ledger, which degrades gracefully (warns, doesn't fail) when the sibling tree isn't present alongside a standalone copy of this design-repo.",
+  "realCompanyComplianceFlag": {
+    "isRealCompany": true,
+    "note": "Source site is a real, live company (Valley/joinvalley.co) with real third-party customer/competitor names and real third-party form/booking endpoints. See tokens/llm/asset-role-registry.json for AI-generation/licensing guidance and compatibility/graph.json's PINNED_LIVE_ENDPOINT_VALUES rule. Do not publish this design-repo publicly or treat any customer-logo/customer-photo/employee-photo/author-photo assetRole as freely AI-generatable."
+  }
+}

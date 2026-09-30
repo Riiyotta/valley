@@ -1,0 +1,25 @@
+{
+  "id": "hero.page-simple",
+  "layer": "section",
+  "purpose": "Reusable simple page-title hero shape for interior pages (about, pricing, product, blog index, casestudies index) that don't need the full homepage hero-visual apparatus.",
+  "measuredFrom": "spec/pages/about.md (about-hero); spec/pages/pricing.md (pricing-hero); spec/pages/product.md (hero); spec/pages/blog-index.md (Blog Page Hero); spec/pages/casestudies-index.md (Blog Page Hero without featured card)",
+  "content": {
+    "type": "object",
+    "properties": {
+      "eyebrow": { "type": "string", "maxWords": 6, "optional": true },
+      "h1": { "type": "string", "maxWords": 14 },
+      "sub": { "type": "string", "maxWords": 30, "optional": true },
+      "featuredCard": { "type": "object", "optional": true }
+    },
+    "required": ["h1"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "mustBeFirstAfterNav": true },
+  "responsive": {
+    "desktop": { "minWidth": 1200, "gutter": 48 },
+    "phone": { "maxWidth": 809.98, "gutter": 20 },
+    "measuredFrom": "spec/pages/about.md:16"
+  },
+  "motion": { "pattern": "load-appear-or-none", "reducedMotionFallback": "renders in final state immediately" },
+  "assetRoles": {}
+}

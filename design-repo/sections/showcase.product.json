@@ -1,0 +1,36 @@
+{
+  "id": "showcase.product",
+  "layer": "section",
+  "purpose": "Interactive tabbed product-screenshot showcase across six product views.",
+  "composes": ["tab-group", "card-base"],
+  "measuredFrom": "CLONE_SPEC.md section 14; spec/GRID.md:46,165-168",
+  "content": {
+    "type": "object",
+    "properties": {
+      "toolbarLabel": { "type": "string", "maxWords": 6 },
+      "h3": { "type": "string", "maxWords": 10 },
+      "tabs": { "type": "array", "minItems": 2, "maxItems": 6, "items": { "type": "object", "properties": { "label": { "type": "string", "maxWords": 4 } }, "required": ["label"], "additionalProperties": false } }
+    },
+    "required": ["h3", "tabs"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": false, "maxPerPage": 1 },
+  "responsive": {
+    "desktop": { "layout": "toolbar flex row gap 24" },
+    "containerBand1100": { "containerQuery": "<=1100c", "layout": "gap 16" },
+    "containerBand900": { "containerQuery": "<=900c", "layout": "gap 8, wrap" },
+    "measuredFrom": "spec/GRID.md:46,166"
+  },
+  "motion": {
+    "pattern": "waapi-tab-progress",
+    "keyframeRefs": ["vs-appear", "vs-connect"],
+    "reducedMotionFallback": "active tab content renders statically, no WAAPI progress bar animation, no vs-enter px-shift on entrance"
+  },
+  "assetRoles": {
+    "product-screenshot": {
+      "enum": "product-screenshot",
+      "generationPolicy": "may-generate-new",
+      "guidance": "Synthetic product-UI mockup screenshots are safe to AI-generate in the same visual style (dashboard chrome, card layouts) as long as they don't fabricate a real customer's private data."
+    }
+  }
+}

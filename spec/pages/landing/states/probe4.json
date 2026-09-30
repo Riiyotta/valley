@@ -1,0 +1,612 @@
+{
+ "pop": [
+  {
+   "text": "How Tacnode booked 25+ meetings per month with Valley\n\nICP: CTOs, DEVOPS, ENG",
+   "box": {
+    "x": 119.99266052246094,
+    "y": 214.7641143798828,
+    "width": 156.01466369628906,
+    "height": 180.5988006591797,
+    "top": 214.7641143798828,
+    "right": 276.00732421875,
+    "bottom": 395.3629150390625,
+    "left": 119.99266052246094
+   },
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "imgs": [
+    "https://framerusercontent.com/images/21ARQ0zNQJwMBIayeEce33q0SA.png?width=122&height=40"
+   ],
+   "href": "https://www.joinvalley.co/"
+  },
+  {
+   "text": "How 10x Management generated $84K+ ARR with Valley\n\nICP: CTOs, DEVOPS, ENG",
+   "box": {
+    "x": 463.5,
+    "y": 197.828125,
+    "width": 165,
+    "height": 191,
+    "top": 197.828125,
+    "right": 628.5,
+    "bottom": 388.828125,
+    "left": 463.5
+   },
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "imgs": [
+    "https://framerusercontent.com/images/oHzyQ3zMZ9eWYrQeluruiBr72o.png?width=120&height=40"
+   ],
+   "href": "https://www.joinvalley.co/"
+  },
+  {
+   "text": "How Growth Protocol generated $150k pipeline in 4 months with Valley\n\nICP: HEADS OF SALES & MARKETING TEAMS",
+   "box": {
+    "x": 811.5,
+    "y": 197.828125,
+    "width": 165,
+    "height": 191,
+    "top": 197.828125,
+    "right": 976.5,
+    "bottom": 388.828125,
+    "left": 811.5
+   },
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "imgs": [
+    "https://framerusercontent.com/images/cEU3K0kHt8OwuJppD6dSiP8CU.png?width=120&height=40"
+   ],
+   "href": "https://www.joinvalley.co/"
+  },
+  {
+   "text": "How GoCanvas 30x’d outbound pipeline with Valley\n\nICP: OPS, FINANCE & \n\nHR LEADERS",
+   "box": {
+    "x": 1159.5,
+    "y": 197.828125,
+    "width": 165,
+    "height": 191,
+    "top": 197.828125,
+    "right": 1324.5,
+    "bottom": 388.828125,
+    "left": 1159.5
+   },
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "imgs": [
+    "https://framerusercontent.com/images/3kp7sgisLKYY4YnymGAMtFzc.png?width=120&height=40"
+   ],
+   "href": "https://www.joinvalley.co/"
+  },
+  {
+   "text": "How Franq generated $64k in pipeline with Valley in one month\n\nICP: FINANCE & BANKING  DECISION MAKERS",
+   "box": {
+    "x": 289.5,
+    "y": 197.828125,
+    "width": 165,
+    "height": 191,
+    "top": 197.828125,
+    "right": 454.5,
+    "bottom": 388.828125,
+    "left": 289.5
+   },
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "imgs": [
+    "https://framerusercontent.com/images/2u105qmW9Mo9rPq1Pqa4a2TGU.png?width=120&height=40"
+   ],
+   "href": "https://www.joinvalley.co/"
+  },
+  {
+   "text": "How Darwinian Ventures turns leads into revenue with Valley\n\nICP: SALES & GTM LEADERS",
+   "box": {
+    "x": 463.5,
+    "y": 188.828125,
+    "width": 165,
+    "height": 191,
+    "top": 188.828125,
+    "right": 628.5,
+    "bottom": 379.828125,
+    "left": 463.5
+   },
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "imgs": [
+    "https://framerusercontent.com/images/mTfqvalVWVCZWgPNloJ6jtLj4.png?width=120&height=40"
+   ],
+   "href": "https://www.joinvalley.co/"
+  },
+  {
+   "text": "How Kaster generated $400k in pipeline in 2 months using Valley\n\nICP: OPS, FINANCE & \n\nHR LEADERS",
+   "box": {
+    "x": 637.5,
+    "y": 197.828125,
+    "width": 165,
+    "height": 191,
+    "top": 197.828125,
+    "right": 802.5,
+    "bottom": 388.828125,
+    "left": 637.5
+   },
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "imgs": [
+    "https://framerusercontent.com/images/a0X4JO90c87LN6LiUS3wjVVfbEM.png?width=120&height=40"
+   ],
+   "href": "https://www.joinvalley.co/"
+  },
+  {
+   "text": "How GGWP generated $4M in pipeline with Valley\n\nICP: GAME DEVELOPERS & ENGINEERS",
+   "box": {
+    "x": 1159.5,
+    "y": 197.828125,
+    "width": 165,
+    "height": 191,
+    "top": 197.828125,
+    "right": 1324.5,
+    "bottom": 388.828125,
+    "left": 1159.5
+   },
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "imgs": [
+    "https://framerusercontent.com/images/0fxf55YOeJxgnUJVGPgN4kUW2I.png?width=150&height=49"
+   ],
+   "href": "https://www.joinvalley.co/"
+  }
+ ],
+ "barShow": [
+  [
+   0,
+   "79.0 op0.000 y2000"
+  ],
+  [
+   53,
+   "79.0 op0.000 y1950"
+  ],
+  [
+   105,
+   "79.0 op0.000 y1900"
+  ],
+  [
+   122,
+   "78.9 op0.001 y1900"
+  ],
+  [
+   139,
+   "78.6 op0.005 y1850"
+  ],
+  [
+   156,
+   "78.0 op0.013 y1850"
+  ],
+  [
+   174,
+   "75.6 op0.043 y1850"
+  ],
+  [
+   192,
+   "73.7 op0.067 y1800"
+  ],
+  [
+   209,
+   "70.9 op0.103 y1800"
+  ],
+  [
+   225,
+   "66.9 op0.154 y1750"
+  ],
+  [
+   241,
+   "61.5 op0.221 y1750"
+  ],
+  [
+   258,
+   "53.8 op0.319 y1750"
+  ],
+  [
+   274,
+   "44.4 op0.438 y1700"
+  ],
+  [
+   291,
+   "35.8 op0.546 y1700"
+  ],
+  [
+   308,
+   "28.4 op0.641 y1650"
+  ],
+  [
+   324,
+   "22.6 op0.714 y1650"
+  ],
+  [
+   341,
+   "18.3 op0.768 y1650"
+  ],
+  [
+   358,
+   "14.7 op0.815 y1600"
+  ],
+  [
+   374,
+   "11.7 op0.852 y1600"
+  ],
+  [
+   391,
+   "9.5 op0.880 y1550"
+  ],
+  [
+   407,
+   "7.5 op0.905 y1550"
+  ],
+  [
+   424,
+   "5.9 op0.925 y1550"
+  ],
+  [
+   444,
+   "5.9 op0.925 y1500"
+  ],
+  [
+   460,
+   "3.4 op0.957 y1500"
+  ],
+  [
+   478,
+   "2.3 op0.971 y1500"
+  ],
+  [
+   495,
+   "1.8 op0.978 y1500"
+  ],
+  [
+   512,
+   "1.2 op0.985 y1500"
+  ],
+  [
+   529,
+   "0.7 op0.991 y1500"
+  ],
+  [
+   546,
+   "0.4 op0.995 y1500"
+  ],
+  [
+   564,
+   "0.2 op0.998 y1500"
+  ],
+  [
+   581,
+   "0.0 op0.999 y1500"
+  ],
+  [
+   598,
+   "0.0 op1.000 y1500"
+  ],
+  [
+   615,
+   "0 op1.000 y1500"
+  ]
+ ],
+ "barHide": [
+  [
+   0,
+   "0 op1.000 y1500"
+  ],
+  [
+   50,
+   "0 op1.000 y1550"
+  ],
+  [
+   101,
+   "0 op1.000 y1600"
+  ],
+  [
+   118,
+   "0.1 op0.999 y1600"
+  ],
+  [
+   135,
+   "0.4 op0.995 y1650"
+  ],
+  [
+   152,
+   "1.0 op0.987 y1650"
+  ],
+  [
+   169,
+   "2.0 op0.975 y1650"
+  ],
+  [
+   186,
+   "3.4 op0.957 y1700"
+  ],
+  [
+   203,
+   "5.5 op0.931 y1700"
+  ],
+  [
+   236,
+   "12.7 op0.839 y1750"
+  ],
+  [
+   252,
+   "17.9 op0.774 y1750"
+  ],
+  [
+   269,
+   "25.2 op0.681 y1800"
+  ],
+  [
+   286,
+   "34.6 op0.562 y1800"
+  ],
+  [
+   303,
+   "43.7 op0.447 y1850"
+  ],
+  [
+   321,
+   "50.6 op0.359 y1850"
+  ],
+  [
+   337,
+   "56.4 op0.286 y1850"
+  ],
+  [
+   354,
+   "61.0 op0.228 y1900"
+  ],
+  [
+   372,
+   "64.3 op0.185 y1900"
+  ],
+  [
+   389,
+   "67.1 op0.151 y1950"
+  ],
+  [
+   406,
+   "69.5 op0.120 y1950"
+  ],
+  [
+   423,
+   "71.5 op0.095 y1950"
+  ],
+  [
+   441,
+   "73.1 op0.075 y2000"
+  ],
+  [
+   459,
+   "74.5 op0.056 y2000"
+  ],
+  [
+   477,
+   "75.6 op0.043 y2000"
+  ],
+  [
+   494,
+   "76.4 op0.032 y2000"
+  ],
+  [
+   511,
+   "77.2 op0.023 y2000"
+  ],
+  [
+   528,
+   "77.8 op0.015 y2000"
+  ],
+  [
+   545,
+   "78.3 op0.009 y2000"
+  ],
+  [
+   562,
+   "78.6 op0.005 y2000"
+  ],
+  [
+   580,
+   "78.8 op0.002 y2000"
+  ],
+  [
+   599,
+   "79.0 op0.000 y2000"
+  ]
+ ],
+ "vc": [
+  {
+   "text": "Valley vs. HeyReach | LinkedIn & sequencing | Read the full comparison ↗ | Start with the signal. Follow it to the reply. | Read left to right. Valley is the upper track; HeyReach is below. | Valley | Upper track | HeyReach | Lower track | Email | ↗ | Other tool | LinkedIn | ✓ | Built in | 01 | Live buyingsignals | ◐ | 02 | Qualify | ◐ | 03 | Deepresearch | ◐ | 04 | Your writingvoice | ◐ | 05 | Email +LinkedIn | ◐ | 06 | Managereplies | ✓ | 07 | Learn &improve | ◐ | ✓ | Built in | ◐ | Limited / external | — | No confirmed coverage | Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source. | What each stage means 7 steps in the workflow",
+   "link": [
+    "https://www.joinvalley.co/blog/valley-vs-heyreach-ai-powered-personalization-vs-multi-account-volume"
+   ]
+  },
+  {
+   "text": "Valley vs. Gojiberry | AI outbound platforms | Read the full comparison ↗ | Start with the signal. Follow it to the reply. | Read left to right. Valley is the upper track; Gojiberry is below. | Valley | Upper track | Gojiberry | Lower track | Email | ◐ | Partial coverage | LinkedIn | ◐ | Partial coverage | 01 | Live buyingsignals | ✓ | 02 | Qualify | ✓ | 03 | Deepresearch | ◐ | 04 | Your writingvoice | ◐ | 05 | Email +LinkedIn | ◐ | 06 | Managereplies | ◐ | 07 | Learn &improve | ◐ | ✓ | Built in | ◐ | Limited / external | — | No confirmed coverage | Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source. | What each stage means 7 steps in the workflow",
+   "link": [
+    "https://www.joinvalley.co/blog/valley-vs-gojiberry"
+   ]
+  },
+  {
+   "text": "Valley vs. Amplemarket | AI outbound platforms | Read the full comparison ↗ | Start with the signal. Follow it to the reply. | Read left to right. Valley is the upper track; Amplemarket is below. | Valley | Upper track | Amplemarket | Lower track | Email | ✓ | Built in | LinkedIn | ✓ | Built in | 01 | Live buyingsignals | ✓ | 02 | Qualify | ✓ | 03 | Deepresearch | ◐ | 04 | Your writingvoice | ✓ | 05 | Email +LinkedIn | ✓ | 06 | Managereplies | ✓ | 07 | Learn &improve | ◐ | ✓ | Built in | ◐ | Limited / external | — | No confirmed coverage | Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source. | What each stage means 7 steps in the workflow",
+   "link": [
+    "https://www.joinvalley.co/blog/valley-vs-amplemarket"
+   ]
+  },
+  {
+   "text": "Valley vs. lemlist | LinkedIn & sequencing | Read the full comparison ↗ | Start with the signal. Follow it to the reply. | Read left to right. Valley is the upper track; lemlist is below. | Valley | Upper track | lemlist | Lower track | Email | ✓ | Built in | LinkedIn | ✓ | Built in | 01 | Live buyingsignals | ✓ | 02 | Qualify | ✓ | 03 | Deepresearch | ◐ | 04 | Your writingvoice | ◐ | 05 | Email +LinkedIn | ✓ | 06 | Managereplies | ✓ | 07 | Learn &improve | ◐ | ✓ | Built in | ◐ | Limited / external | — | No confirmed coverage | Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source. | What each stage means 7 steps in the workflow",
+   "link": [
+    "https://www.joinvalley.co/blog/valley-vs-lemlist"
+   ]
+  },
+  {
+   "text": "Valley vs. Instantly | Email & infrastructure | Read the full comparison ↗ | Start with the signal. Follow it to the reply. | Read left to right. Valley is the upper track; Instantly is below. | Valley | Upper track | Instantly | Lower track | Email | ✓ | Built in | LinkedIn | ↗ | Other tool | 01 | Live buyingsignals | ✓ | 02 | Qualify | ✓ | 03 | Deepresearch | ◐ | 04 | Your writingvoice | ◐ | 05 | Email +LinkedIn | ◐ | 06 | Managereplies | ✓ | 07 | Learn &improve | ◐ | ✓ | Built in | ◐ | Limited / external | — | No confirmed coverage | Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source. | What each stage means 7 steps in the workflow",
+   "link": [
+    "https://www.joinvalley.co/blog/valley-vs-instantly"
+   ]
+  },
+  {
+   "text": "Valley vs. Artisan | AI outbound platforms | Read the full comparison ↗ | Start with the signal. Follow it to the reply. | Read left to right. Valley is the upper track; Artisan is below. | Valley | Upper track | Artisan | Lower track | Email | ✓ | Built in | LinkedIn | ✓ | Built in | 01 | Live buyingsignals | ✓ | 02 | Qualify | ✓ | 03 | Deepresearch | ◐ | 04 | Your writingvoice | ◐ | 05 | Email +LinkedIn | ✓ | 06 | Managereplies | ✓ | 07 | Learn &improve | ✓ | ✓ | Built in | ◐ | Limited / external | — | No confirmed coverage | Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source. | What each stage means 7 steps in the workflow",
+   "link": [
+    "https://www.joinvalley.co/blog/artisan-vs-valley-which-ai-sdr-platform-actually-books-meetings"
+   ]
+  },
+  {
+   "text": "Valley vs. 11x | AI outbound platforms | Read the full comparison ↗ | Start with the signal. Follow it to the reply. | Read left to right. Valley is the upper track; 11x is below. | Valley | Upper track | 11x | Lower track | Email | ✓ | Built in | LinkedIn | ✓ | Built in | 01 | Live buyingsignals | ✓ | 02 | Qualify | ✓ | 03 | Deepresearch | ✓ | 04 | Your writingvoice | ◐ | 05 | Email +LinkedIn | ✓ | 06 | Managereplies | ✓ | 07 | Learn &improve | ◐ | ✓ | Built in | ◐ | Limited / external | — | No confirmed coverage | Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source. | What each stage means 7 steps in the workflow",
+   "link": [
+    "https://www.joinvalley.co/blog/valley-vs-11x"
+   ]
+  },
+  {
+   "text": "Valley vs. Expandi | LinkedIn & sequencing | Read the full comparison ↗ | Start with the signal. Follow it to the reply. | Read left to right. Valley is the upper track; Expandi is below. | Valley | Upper track | Expandi | Lower track | Email | ✓ | Built in | LinkedIn | ✓ | Built in | 01 | Live buyingsignals | ◐ | 02 | Qualify | ◐ | 03 | Deepresearch | ◐ | 04 | Your writingvoice | ◐ | 05 | Email +LinkedIn | ✓ | 06 | Managereplies | ✓ | 07 | Learn &improve | ◐ | ✓ | Built in | ◐ | Limited / external | — | No confirmed coverage | Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source. | What each stage means 7 steps in the workflow",
+   "link": [
+    "https://www.joinvalley.co/blog/valley-vs-expandi-which-linkedin-outreach-tool-is-right-for-your-team"
+   ]
+  },
+  {
+   "text": "Valley vs. Clay | Data & automation | Read the full comparison ↗ | Start with the signal. Follow it to the reply. | Read left to right. Valley is the upper track; Clay is below. | Valley | Upper track | Clay | Lower track | Email | ✓ | Built in | LinkedIn | ↗ | Other tool | 01 | Live buyingsignals | ✓ | 02 | Qualify | ✓ | 03 | Deepresearch | ✓ | 04 | Your writingvoice | ✓ | 05 | Email +LinkedIn | ◐ | 06 | Managereplies | ✓ | 07 | Learn &improve | ◐ | ✓ | Built in | ◐ | Limited / external | — | No confirmed coverage | Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source. | What each stage means 7 steps in the workflow",
+   "link": [
+    "https://www.joinvalley.co/blog/valley-vs-clay"
+   ]
+  },
+  {
+   "text": "Valley vs. PhantomBuster | Data & automation | Read the full comparison ↗ | Start with the signal. Follow it to the reply. | Read left to right. Valley is the upper track; PhantomBuster is below. | Valley | Upper track | PhantomBuster | Lower track | Email | ↗ | Other tool | LinkedIn | ✓ | Built in | 01 | Live buyingsignals | ◐ | 02 | Qualify | ✓ | 03 | Deepresearch | ◐ | 04 | Your writingvoice | ◐ | 05 | Email +LinkedIn | ◐ | 06 | Managereplies | ◐ | 07 | Learn &improve | ◐ | ✓ | Built in | ◐ | Limited / external | — | No confirmed coverage | Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source. | What each stage means 7 steps in the workflow",
+   "link": [
+    "https://www.joinvalley.co/blog/valley-vs-phantombuster"
+   ]
+  },
+  {
+   "text": "Valley vs. Apollo | AI outbound platforms | Read the full comparison ↗ | Start with the signal. Follow it to the reply. | Read left to right. Valley is the upper track; Apollo is below. | Valley | Upper track | Apollo | Lower track | Email | ✓ | Built in | LinkedIn | ○ | Manual step | 01 | Live buyingsignals | ◐ | 02 | Qualify | ✓ | 03 | Deepresearch | ◐ | 04 | Your writingvoice | ◐ | 05 | Email +LinkedIn | ◐ | 06 | Managereplies | ✓ | 07 | Learn &improve | ◐ | ✓ | Built in | ◐ | Limited / external | — | No confirmed coverage | Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source. | What each stage means 7 steps in the workflow",
+   "link": [
+    "https://www.joinvalley.co/blog/valley-vs-apollo"
+   ]
+  },
+  {
+   "text": "Valley vs. Smartlead | Email & infrastructure | Read the full comparison ↗ | Start with the signal. Follow it to the reply. | Read left to right. Valley is the upper track; Smartlead is below. | Valley | Upper track | Smartlead | Lower track | Email | ✓ | Built in | LinkedIn | ↗ | Other tool | 01 | Live buyingsignals | ◐ | 02 | Qualify | ✓ | 03 | Deepresearch | ◐ | 04 | Your writingvoice | ◐ | 05 | Email +LinkedIn | ◐ | 06 | Managereplies | ✓ | 07 | Learn &improve | ◐ | ✓ | Built in | ◐ | Limited / external | — | No confirmed coverage | Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source. | What each stage means 7 steps in the workflow",
+   "link": [
+    "https://www.joinvalley.co/blog/valley-vs-smartlead"
+   ]
+  },
+  {
+   "text": "Valley vs. Dripify | LinkedIn & sequencing | Read the full comparison ↗ | Start with the signal. Follow it to the reply. | Read left to right. Valley is the upper track; Dripify is below. | Valley | Upper track | Dripify | Lower track | Email | ✓ | Built in | LinkedIn | ✓ | Built in | 01 | Live buyingsignals | ◐ | 02 | Qualify | ◐ | 03 | Deepresearch | — | 04 | Your writingvoice | ◐ | 05 | Email +LinkedIn | ✓ | 06 | Managereplies | ✓ | 07 | Learn &improve | ◐ | ✓ | Built in | ◐ | Limited / external | — | No confirmed coverage | Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source. | What each stage means 7 steps in the workflow",
+   "link": [
+    "https://www.joinvalley.co/blog/valley-vs-dripify-which-linkedin-outreach-tool-actually-converts-in-2026"
+   ]
+  },
+  {
+   "text": "Valley vs. Linked Helper | LinkedIn & sequencing | Read the full comparison ↗ | Start with the signal. Follow it to the reply. | Read left to right. Valley is the upper track; Linked Helper is below. | Valley | Upper track | Linked Helper | Lower track | Email | ↗ | Other tool | LinkedIn | ✓ | Built in | 01 | Live buyingsignals | ◐ | 02 | Qualify | ✓ | 03 | Deepresearch | ◐ | 04 | Your writingvoice | ◐ | 05 | Email +LinkedIn | ◐ | 06 | Managereplies | ✓ | 07 | Learn &improve | ◐ | ✓ | Built in | ◐ | Limited / external | — | No confirmed coverage | Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source. | What each stage means 7 steps in the workflow",
+   "link": [
+    "https://www.joinvalley.co/blog/valley-vs-linkedhelper"
+   ]
+  },
+  {
+   "text": "Valley vs. AiSDR | AI outbound platforms | Read the full comparison ↗ | Start with the signal. Follow it to the reply. | Read left to right. Valley is the upper track; AiSDR is below. | Valley | Upper track | AiSDR | Lower track | Email | ✓ | Built in | LinkedIn | ✓ | Built in | 01 | Live buyingsignals | ✓ | 02 | Qualify | ✓ | 03 | Deepresearch | ◐ | 04 | Your writingvoice | ✓ | 05 | Email +LinkedIn | ✓ | 06 | Managereplies | ✓ | 07 | Learn &improve | ◐ | ✓ | Built in | ◐ | Limited / external | — | No confirmed coverage | Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source. | What each stage means 7 steps in the workflow",
+   "link": [
+    "https://www.joinvalley.co/blog/valley-vs-aisdr"
+   ]
+  },
+  {
+   "text": "Valley vs. Regie.ai | AI outbound platforms | Read the full comparison ↗ | Start with the signal. Follow it to the reply. | Read left to right. Valley is the upper track; Regie.ai is below. | Valley | Upper track | Regie.ai | Lower track | Email | ✓ | Built in | LinkedIn | ? | Not verified | 01 | Live buyingsignals | ✓ | 02 | Qualify | ✓ | 03 | Deepresearch | ✓ | 04 | Your writingvoice | ✓ | 05 | Email +LinkedIn | ◐ | 06 | Managereplies | ◐ | 07 | Learn &improve | ◐ | ✓ | Built in | ◐ | Limited / external | — | No confirmed coverage | Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source. | What each stage means 7 steps in the workflow",
+   "link": [
+    "https://www.joinvalley.co/blog/valley-vs-regie"
+   ]
+  },
+  {
+   "text": "Valley vs. Reply.io | LinkedIn & sequencing | Read the full comparison ↗ | Start with the signal. Follow it to the reply. | Read left to right. Valley is the upper track; Reply.io is below. | Valley | Upper track | Reply.io | Lower track | Email | ✓ | Built in | LinkedIn | ✓ | Built in | 01 | Live buyingsignals | ◐ | 02 | Qualify | ✓ | 03 | Deepresearch | ✓ | 04 | Your writingvoice | ✓ | 05 | Email +LinkedIn | ✓ | 06 | Managereplies | ✓ | 07 | Learn &improve | ◐ | ✓ | Built in | ◐ | Limited / external | — | No confirmed coverage | Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source. | What each stage means 7 steps in the workflow",
+   "link": [
+    "https://www.joinvalley.co/blog/valley-vs-reply"
+   ]
+  },
+  {
+   "text": "Valley vs. Outreach | Revenue platforms | Read the full comparison ↗ | Start with the signal. Follow it to the reply. | Read left to right. Valley is the upper track; Outreach is below. | Valley | Upper track | Outreach | Lower track | Email | ✓ | Built in | LinkedIn | ○ | Manual step | 01 | Live buyingsignals | ◐ | 02 | Qualify | ◐ | 03 | Deepresearch | ◐ | 04 | Your writingvoice | ◐ | 05 | Email +LinkedIn | ◐ | 06 | Managereplies | ✓ | 07 | Learn &improve | ◐ | ✓ | Built in | ◐ | Limited / external | — | No confirmed coverage | Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source. | What each stage means 7 steps in the workflow",
+   "link": [
+    "https://www.joinvalley.co/blog/valley-vs-outreach"
+   ]
+  },
+  {
+   "text": "Valley vs. Salesloft | Revenue platforms | Read the full comparison ↗ | Start with the signal. Follow it to the reply. | Read left to right. Valley is the upper track; Salesloft is below. | Valley | Upper track | Salesloft | Lower track | Email | ✓ | Built in | LinkedIn | ○ | Manual step | 01 | Live buyingsignals | ◐ | 02 | Qualify | ◐ | 03 | Deepresearch | ◐ | 04 | Your writingvoice | ◐ | 05 | Email +LinkedIn | ◐ | 06 | Managereplies | ✓ | 07 | Learn &improve | ◐ | ✓ | Built in | ◐ | Limited / external | — | No confirmed coverage | Email is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source. | What each stage means 7 steps in the workflow",
+   "link": [
+    "https://www.joinvalley.co/blog/valley-vs-salesloft"
+   ]
+  }
+ ],
+ "vcAllCompanies": [
+  [
+   "HeyReach",
+   "https://www.google.com/s2/favicons?domain=www.heyreach.io&sz=64"
+  ],
+  [
+   "Gojiberry",
+   "https://www.google.com/s2/favicons?domain=www.gojiberry.ai&sz=64"
+  ],
+  [
+   "Amplemarket",
+   "https://www.google.com/s2/favicons?domain=www.amplemarket.com&sz=64"
+  ],
+  [
+   "lemlist",
+   "https://www.google.com/s2/favicons?domain=www.lemlist.com&sz=64"
+  ],
+  [
+   "Instantly",
+   "https://www.google.com/s2/favicons?domain=instantly.ai&sz=64"
+  ],
+  [
+   "Artisan",
+   "https://www.google.com/s2/favicons?domain=www.artisan.co&sz=64"
+  ],
+  [
+   "11x",
+   "https://www.google.com/s2/favicons?domain=www.11x.ai&sz=64"
+  ],
+  [
+   "Expandi",
+   "https://www.google.com/s2/favicons?domain=expandi.io&sz=64"
+  ],
+  [
+   "Clay",
+   "https://www.google.com/s2/favicons?domain=www.clay.com&sz=64"
+  ],
+  [
+   "PhantomBuster",
+   "https://www.google.com/s2/favicons?domain=phantombuster.com&sz=64"
+  ],
+  [
+   "Apollo",
+   "https://www.google.com/s2/favicons?domain=www.apollo.io&sz=64"
+  ],
+  [
+   "Smartlead",
+   "https://www.google.com/s2/favicons?domain=www.smartlead.ai&sz=64"
+  ],
+  [
+   "Dripify",
+   "https://www.google.com/s2/favicons?domain=dripify.com&sz=64"
+  ],
+  [
+   "Linked Helper",
+   "https://www.google.com/s2/favicons?domain=www.linkedhelper.com&sz=64"
+  ],
+  [
+   "AiSDR",
+   "https://www.google.com/s2/favicons?domain=aisdr.com&sz=64"
+  ],
+  [
+   "Regie.ai",
+   "https://www.google.com/s2/favicons?domain=www.regie.ai&sz=64"
+  ],
+  [
+   "Reply.io",
+   "https://www.google.com/s2/favicons?domain=reply.io&sz=64"
+  ],
+  [
+   "Outreach",
+   "https://www.google.com/s2/favicons?domain=www.outreach.ai&sz=64"
+  ],
+  [
+   "Salesloft",
+   "https://www.google.com/s2/favicons?domain=www.salesloft.com&sz=64"
+  ]
+ ],
+ "vcHover": "all",
+ "vcSvg": "<svg aria-hidden=\"true\" viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M8 5L20 17M40 5L28 17M4 23H17M31 23H44M8 40L24 24L40 40M24 25V46\" stroke=\"currentColor\" stroke-width=\"5\"></path></svg>"
+}

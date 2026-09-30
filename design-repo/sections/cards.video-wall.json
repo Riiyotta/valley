@@ -1,0 +1,22 @@
+{
+  "id": "cards.video-wall",
+  "layer": "section",
+  "purpose": "Row of customer-testimonial video cards ('Why sales teams love valley'). Used (restyled per-page) on landing-template, agency, tryvalley, and linkedin-automation routes.",
+  "measuredFrom": "spec/pages/landing.md:223-236,353-360",
+  "content": {
+    "type": "object",
+    "properties": {
+      "eyebrow": { "type": "string", "maxWords": 6 },
+      "h2": { "type": "string", "maxWords": 10 },
+      "cards": { "type": "array", "minItems": 3, "maxItems": 4, "items": { "type": "object", "properties": { "companyLabel": { "type": "string", "maxWords": 4 }, "companyHref": { "type": "string" }, "quote": { "type": "string", "maxWords": 20 }, "posterAssetRef": { "type": "string" } }, "required": ["companyLabel", "companyHref", "quote"], "additionalProperties": false } }
+    },
+    "required": ["cards"],
+    "additionalProperties": false
+  },
+  "constraints": { "maxPerPage": 1 },
+  "motion": { "pattern": "appear-on-scroll", "reducedMotionFallback": "renders in final visible state immediately" },
+  "assetRoles": {
+    "customer-photo": { "enum": "customer-photo", "generationPolicy": "must-not-fabricate", "guidance": "COMPLIANCE: real customer video testimonials link to /casestudies/... pages for real named companies. Never fabricate a likeness; only use licensed real video/poster assets." },
+    "customer-logo": { "enum": "customer-logo", "generationPolicy": "must-reuse-exact", "guidance": "Real company trademarks/wordmarks; never alter." }
+  }
+}

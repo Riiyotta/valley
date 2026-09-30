@@ -1,0 +1,95 @@
+div
+  div
+    section.hidden-qzki0t.hidden-ltztk4 [Bottom Sticky bar 3]
+      nav [Nav Container]
+        div
+          div [Links & Button]
+      div [Open]
+        div
+          div [Sec 1]
+          div [Sec 2]
+          div [Sec 3]
+        div [Last section]
+          div [Frame 2147241021]
+    section [Hero]
+      div [Text-container]
+        div
+          div [Heading]
+          div
+        div
+          div.framer-1ophwnz-container
+          div.ssr-variant.hidden-ltztk4
+        div.ssr-variant.hidden-qzki0t.hidden-ltztk4
+          div.framer-kkwmdh-container
+    div.ssr-variant.hidden-ltztk4
+      div.framer-bupv1s-container
+        div.ssr-variant.hidden-qzki0t
+          section.framer-v-4wrwtx [Desktop]
+    div.ssr-variant.hidden-ltztk4
+      div.framer-19zdymo-container.hidden-qzki0t
+        section.framer-v-e1u7m8 [Variant 1]
+          div [Header Text]
+          div [Logo-container]
+    section [Process V2]
+      div [Container]
+        div [Heading]
+          div [Tag]
+          div [Heading]
+          div.ssr-variant.hidden-ltztk4
+        div [Use Cases - Product Page 2]
+          div.hidden-qzki0t.hidden-ltztk4 [Divider]
+          div
+    section [Why sales teams love valley]
+      section
+        div [Heading]
+          div [Tag]
+          div [Heading]
+        div
+          div.ssr-variant.hidden-ltztk4
+          div.ssr-variant.hidden-ltztk4
+          div.ssr-variant.hidden-ltztk4
+          div.ssr-variant.hidden-ltztk4
+      div.ssr-variant.hidden-qzki0t.hidden-ltztk4
+        div.framer-rjlno8-container
+          div.framer-v-oki8cg [Variant 1]
+    section [Case Studies v2]
+      div.ssr-variant.hidden-qzki0t.hidden-ltztk4
+        div.framer-gbgibu-container
+          div.framer-v-2veygs [Testimonial Desktop]
+    section [Comparative Analysis]
+      div [Compare Table 2]
+        div
+          div [Heading]
+        div.ssr-variant
+          div.framer-vipz2x-container
+        div
+          div.ssr-variant
+          div.ssr-variant
+          div.ssr-variant
+      div.ssr-variant.hidden-qzki0t.hidden-ltztk4
+        div.framer-1gzwk0u-container
+          div.framer-v-oki8cg [Variant 1]
+    div.ssr-variant.hidden-qzki0t.hidden-ltztk4
+      div.framer-16vwx0d-container
+        section.framer-v-zuvehy [Desktop]
+          div
+          div [Container]
+    section [FAQs- V3 2]
+      div.framer-11iarqm-container [Questions answered]
+        section.valley-start-questions
+          div.vsq-faq
+    div.ssr-variant.hidden-qzki0t.hidden-ltztk4
+      div.framer-mrqvb8-container
+        footer.framer-v-1nhmdtj [Desktop]
+          div.framer-1er97io-container [Valley multichannel footer]
+    div.ssr-variant.hidden-ltztk4
+      div.framer-1vq6aaw-container
+        div.ssr-variant.hidden-qzki0t
+          header.framer-v-15mpar8 [Large Desktop]
+  div#overlay
+  div
+  div
+    div.framer-ng2619-container
+      button.__framer-cookie-component-button
+        svg
+          path

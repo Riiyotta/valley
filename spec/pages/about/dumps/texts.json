@@ -1,0 +1,336 @@
+[
+ {
+  "sid": "nav",
+  "name": null,
+  "text": "Home\n\nHome\n\nProduct\n\nValley vs. Competition\n\nValley vs. Competition\n\nCustomers\n\nCustomers\n\nAgencies\n\nAgencies\n\nPricing\n\nPricing\n\nLog in\n\nStart for free",
+  "links": [
+   {
+    "text": "",
+    "href": "./",
+    "abs": "https://www.joinvalley.co/",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Home Home",
+    "href": "./",
+    "abs": "https://www.joinvalley.co/",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "/product",
+    "abs": "https://www.joinvalley.co/product",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "/playbooks",
+    "abs": "https://www.joinvalley.co/playbooks",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. Competition Valley vs. Competition",
+    "href": "./compare",
+    "abs": "https://www.joinvalley.co/compare",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Customers Customers",
+    "href": "./casestudies",
+    "abs": "https://www.joinvalley.co/casestudies",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Agencies Agencies",
+    "href": "./linkedin-outreach-for-agencies",
+    "abs": "https://www.joinvalley.co/linkedin-outreach-for-agencies",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Pricing Pricing",
+    "href": "./pricing",
+    "abs": "https://www.joinvalley.co/pricing",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Log in",
+    "href": "https://beta.joinvalley.co/login",
+    "abs": "https://beta.joinvalley.co/login",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Start for free",
+    "href": "https://beta.joinvalley.co/signup",
+    "abs": "https://beta.joinvalley.co/signup",
+    "target": "",
+    "visible": true
+   }
+  ]
+ },
+ {
+  "sid": "about-hero",
+  "name": "Frame 2085663185",
+  "text": "A NEW YORK SALES OS COMPANY\n\nAugmenting Sales\nIntelligence for the\nNext Generation",
+  "links": []
+ },
+ {
+  "sid": "mission",
+  "name": "Frame 2085663181",
+  "text": "Built by the outbound-obsessed.\n\nThe game has changed for sales reps. Prospects are seeing through templated “spray and pray” outbound sequences — or worse, not seeing them at all. Volume-based outreach & robotic sales reps are dead.\n\n\n\n\nToday’s best reps are running an outbound playbook built on personalization, relevance, and timing. We built Valley to help businesses like yours scale & automate the complex world of what’s required to run a profitable outbound motion today.\n\n\n\n\nIt used to take an army of SDRs to achieve hyper-personalization at scale. We designed Valley to be your army of one. It’s a single AI-led outbound engine that understands your product, clones your voice, and learns all about your prospects — then fills up your sales calendar to prove it.\n\n\n\n\nValley is the hyper-personalized AI sales rep that books you quality meetings while your team does literally anything else.\n\n\n\n\nSigned\n\nZayd Ali\n\nCEO @Valley",
+  "links": [
+   {
+    "text": "Valley",
+    "href": "https://joinvalley.co/",
+    "abs": "https://joinvalley.co/",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley",
+    "href": "https://joinvalley.co/",
+    "abs": "https://joinvalley.co/",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley",
+    "href": "./",
+    "abs": "https://www.joinvalley.co/",
+    "target": "",
+    "visible": true
+   }
+  ]
+ },
+ {
+  "sid": "team",
+  "name": "Frame 2147223576",
+  "text": "Our team\n\nCEO & Founder\n\nHead of Frontend\n\nHead of Backend\n\nHead of CX\n\nSoftware Engineer\n\nDesign Lead\n\nSoftware Engineer\n\nFounding Customer Experience\n\nCustomer Support\n\nCustomer Support\n\nExecutive Assistant\n\nHead of Growth",
+  "links": [
+   {
+    "text": "",
+    "href": "https://www.linkedin.com/in/zayd-syed-ali-4201101a9/",
+    "abs": "https://www.linkedin.com/in/zayd-syed-ali-4201101a9/",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://www.linkedin.com/in/alex-builds-stuff/",
+    "abs": "https://www.linkedin.com/in/alex-builds-stuff/",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://www.linkedin.com/in/arimgibson/",
+    "abs": "https://www.linkedin.com/in/arimgibson/",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://www.linkedin.com/in/catherinemccollian/",
+    "abs": "https://www.linkedin.com/in/catherinemccollian/",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://www.linkedin.com/in/olamidesamuel/",
+    "abs": "https://www.linkedin.com/in/olamidesamuel/",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://www.linkedin.com/in/skeshav628/",
+    "abs": "https://www.linkedin.com/in/skeshav628/",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://www.linkedin.com/in/mrgawde/",
+    "abs": "https://www.linkedin.com/in/mrgawde/",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://www.linkedin.com/in/zubeir-said/",
+    "abs": "https://www.linkedin.com/in/zubeir-said/",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://www.linkedin.com/in/bmpcompas/",
+    "abs": "https://www.linkedin.com/in/bmpcompas/",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://www.linkedin.com/in/chad-hizon/",
+    "abs": "https://www.linkedin.com/in/chad-hizon/",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://www.linkedin.com/in/%F0%9F%97%BB-anna-vecera-%F0%9F%97%BB-887021206/",
+    "abs": "https://www.linkedin.com/in/%F0%9F%97%BB-anna-vecera-%F0%9F%97%BB-887021206/",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://www.linkedin.com/in/shubhagrawal/",
+    "abs": "https://www.linkedin.com/in/shubhagrawal/",
+    "target": "_blank",
+    "visible": true
+   }
+  ]
+ },
+ {
+  "sid": "backers",
+  "name": "Frame 2147223575",
+  "text": "Backed by great partners",
+  "links": []
+ },
+ {
+  "sid": "hiring",
+  "name": "Frame 2085663186",
+  "text": "Valley is growing.\n\nExplore Roles\n\nContact Us",
+  "links": [
+   {
+    "text": "Explore Roles",
+    "href": "https://www.linkedin.com/company/joinvalley/",
+    "abs": "https://www.linkedin.com/company/joinvalley/",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "Contact Us",
+    "href": "mailto:support@joinvalley.co",
+    "abs": "mailto:support@joinvalley.co",
+    "target": "_blank",
+    "visible": true
+   }
+  ]
+ },
+ {
+  "sid": "footer",
+  "name": null,
+  "text": "Find your people.\nGive them a reason to reply.\n\nFind, qualify, research, and reach your next buyers across email and LinkedIn.\n\nStart for free →\nBook a demo\nValley\n\nYour outbound team.\nOne connected platform.\n\nhey@joinvalley.co\nEXPLORE VALLEY\nProduct\nCustomers\nAgencies\nPricing\nLEARN MORE\nResources\nAll articles\nAbout Valley\nLog in\n© Valley. All rights reserved.\nPrivacy policy\nTerms of service",
+  "links": [
+   {
+    "text": "Start for free →",
+    "href": "https://beta.joinvalley.co/signup",
+    "abs": "https://beta.joinvalley.co/signup",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Book a demo",
+    "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+    "abs": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley",
+    "href": "/",
+    "abs": "https://www.joinvalley.co/",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "hey@joinvalley.co",
+    "href": "mailto:hey@joinvalley.co",
+    "abs": "mailto:hey@joinvalley.co",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Product",
+    "href": "/product",
+    "abs": "https://www.joinvalley.co/product",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Customers",
+    "href": "/casestudies",
+    "abs": "https://www.joinvalley.co/casestudies",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Agencies",
+    "href": "/linkedin-outreach-for-agencies",
+    "abs": "https://www.joinvalley.co/linkedin-outreach-for-agencies",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Pricing",
+    "href": "/pricing",
+    "abs": "https://www.joinvalley.co/pricing",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Resources",
+    "href": "/blog",
+    "abs": "https://www.joinvalley.co/blog",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "All articles",
+    "href": "/blog/archive",
+    "abs": "https://www.joinvalley.co/blog/archive",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "About Valley",
+    "href": "/about",
+    "abs": "https://www.joinvalley.co/about",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Log in",
+    "href": "https://beta.joinvalley.co/login",
+    "abs": "https://beta.joinvalley.co/login",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Privacy policy",
+    "href": "/privacy-policy",
+    "abs": "https://www.joinvalley.co/privacy-policy",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Terms of service",
+    "href": "/terms-of-service",
+    "abs": "https://www.joinvalley.co/terms-of-service",
+    "target": "",
+    "visible": true
+   }
+  ]
+ }
+]

@@ -1,0 +1,20 @@
+{
+  "category": "semantic-typography",
+  "description": "Semantic typography intents, mapped to the real measured roles in 00-foundation/typography.json.",
+  "resolvesFrom": "../00-foundation/typography.json",
+  "tokens": {
+    "heading.hero": { "resolvesTo": "hero-h1" },
+    "heading.section": { "resolvesTo": "stories-h2" },
+    "heading.section-vgs": { "resolvesTo": "vgs-h2" },
+    "heading.card": { "resolvesTo": "showcase-intro-h3" },
+    "body.default": { "resolvesTo": "vgs-body" },
+    "body.lead": { "resolvesTo": "vgs-lead" },
+    "eyebrow.default": { "resolvesTo": "hero-eyebrow" },
+    "eyebrow.on-dark": { "resolvesTo": "endorsement-kicker" },
+    "label.nav": { "resolvesTo": "nav-link" },
+    "label.button": { "resolvesTo": "hero-button" },
+    "metric.display": { "resolvesTo": "stories-metric-big" },
+    "faq.question": { "resolvesTo": "faq-question" },
+    "faq.answer": { "resolvesTo": "faq-answer" }
+  }
+}

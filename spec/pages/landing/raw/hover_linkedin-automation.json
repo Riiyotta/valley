@@ -1,0 +1,1645 @@
+[
+ {
+  "x": 97.5,
+  "y": 42,
+  "tag": "A",
+  "nm": "logo - black",
+  "cls": "",
+  "text": "",
+  "href": "./",
+  "diffs": []
+ },
+ {
+  "x": 433.3828125,
+  "y": 42,
+  "tag": "A",
+  "nm": "Link - Black",
+  "cls": "",
+  "text": "Home Home",
+  "href": "./",
+  "diffs": [
+   [
+    "DIV",
+    {
+     "box": "415,32 37x20 -> 415,12 37x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "415,34 37x17 -> 415,14 37x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "415,34 37x17 -> 415,14 37x17"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "415,52 37x20 -> 415,32 37x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "415,54 37x17 -> 415,34 37x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "415,54 37x17 -> 415,34 37x17"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 513.734375,
+  "y": 42,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "Product",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 644.828125,
+  "y": 127.6953125,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "",
+  "href": "/product",
+  "diffs": []
+ },
+ {
+  "x": 644.828125,
+  "y": 223.0859375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "",
+  "href": "/playbooks",
+  "diffs": []
+ },
+ {
+  "x": 641.53125,
+  "y": 42,
+  "tag": "A",
+  "nm": "Link - Black",
+  "cls": "",
+  "text": "Valley vs. Competition Valley vs. Competition",
+  "href": "./compare",
+  "diffs": [
+   [
+    "DIV",
+    {
+     "box": "576,32 132x20 -> 576,12 132x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "576,34 132x17 -> 576,14 132x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "576,34 132x17 -> 576,14 132x17"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "576,52 132x20 -> 576,32 132x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "576,54 132x17 -> 576,34 132x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "576,54 132x17 -> 576,34 132x17"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 768.953125,
+  "y": 42,
+  "tag": "A",
+  "nm": "Link - Black",
+  "cls": "",
+  "text": "Customers Customers",
+  "href": "./casestudies",
+  "diffs": [
+   [
+    "DIV",
+    {
+     "box": "735,32 67x20 -> 735,12 67x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "735,34 67x17 -> 735,14 67x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "735,34 67x17 -> 735,14 67x17"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "735,52 67x20 -> 735,32 67x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "735,54 67x17 -> 735,34 67x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "735,54 67x17 -> 735,34 67x17"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 859.0234375,
+  "y": 42,
+  "tag": "A",
+  "nm": "Link - Black",
+  "cls": "",
+  "text": "Agencies Agencies",
+  "href": "./linkedin-outreach-for-agencies",
+  "diffs": [
+   [
+    "DIV",
+    {
+     "box": "830,32 57x20 -> 830,12 57x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "830,34 57x17 -> 830,14 57x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "830,34 57x17 -> 830,14 57x17"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "830,52 57x20 -> 830,32 57x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "830,54 57x17 -> 830,34 57x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "830,54 57x17 -> 830,34 57x17"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 936.7265625,
+  "y": 42,
+  "tag": "A",
+  "nm": "Link - Black",
+  "cls": "",
+  "text": "Pricing Pricing",
+  "href": "./pricing",
+  "diffs": [
+   [
+    "DIV",
+    {
+     "box": "916,32 42x20 -> 916,12 42x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "916,34 42x17 -> 916,14 42x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "916,34 42x17 -> 916,14 42x17"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "916,52 42x20 -> 916,32 42x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "916,54 42x17 -> 916,34 42x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "916,54 42x17 -> 916,34 42x17"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1246.84375,
+  "y": 41.890625,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Log in",
+  "href": "https://beta.joinvalley.co/login",
+  "diffs": [
+   [
+    "A",
+    {
+     "c": "rgb(0, 38, 105) -> rgb(0, 0, 0)",
+     "bc": "rgb(0, 38, 105) -> rgb(0, 0, 0)",
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1337.9296875,
+  "y": 42,
+  "tag": "A",
+  "nm": "Launch for Free",
+  "cls": "",
+  "text": "Start for free",
+  "href": "https://beta.joinvalley.co/signup",
+  "diffs": []
+ },
+ {
+  "x": 646,
+  "y": 450.34375,
+  "tag": "DIV",
+  "nm": "Default",
+  "cls": "surface-form-button",
+  "text": "Book Demo →",
+  "href": null,
+  "diffs": [
+   [
+    "DIV[Default]",
+    {
+     "tf": "none -> matrix(1.05, 0, 0, 1.05, 0, 0)",
+     "box": "580,418 132x65 -> 577,416 139x68"
+    }
+   ],
+   [
+    "DIV[Hole]",
+    {
+     "tf": "none -> matrix(1.02, 0, 0, 1.02, 0, 0)",
+     "sh": "none -> rgba(0, 0, 0, 0.2) 0px 10px 10px 0px",
+     "box": "580,426 132x48 -> 575,427 141x46"
+    }
+   ],
+   [
+    "A[cta__primary]",
+    {
+     "box": "580,426 132x48 -> 575,427 141x46"
+    }
+   ],
+   [
+    "DIV[Button Content]",
+    {
+     "sh": "rgba(0, 0, 0, 0.6) 0px 6px 0px 0px -> rgba(0, 0, 0, 0) 0px 6px 0px 0px",
+     "box": "580,431 132x43 -> 575,427 141x46"
+    }
+   ],
+   [
+    "DIV[Text Wrap]",
+    {
+     "box": "580,431 132x43 -> 575,427 141x46"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "598,443 96x19 -> 595,440 103x21"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "598,443 96x19 -> 595,440 103x21"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 794,
+  "y": 450.34375,
+  "tag": "A",
+  "nm": "Default",
+  "cls": "",
+  "text": "Try Valley Now",
+  "href": "https://beta.joinvalley.co/signup",
+  "diffs": [
+   [
+    "DIV[Hole]",
+    {
+     "tf": "none -> matrix(1.02, 0, 0, 1.02, 0, 0)",
+     "sh": "none -> rgba(0, 0, 0, 0.2) 0px 10px 10px 0px",
+     "box": "728,426 132x48 -> 727,428 135x44"
+    }
+   ],
+   [
+    "DIV[cta__secondary]",
+    {
+     "box": "728,426 132x48 -> 727,428 135x44"
+    }
+   ],
+   [
+    "DIV[Button Content]",
+    {
+     "sh": "rgba(0, 0, 0, 0.6) 0px 6px 0px 0px -> rgba(0, 0, 0, 0) 0px 6px 0px 0px",
+     "box": "728,431 132x43 -> 727,428 135x44"
+    }
+   ],
+   [
+    "DIV[Text Wrap]",
+    {
+     "box": "728,431 132x43 -> 727,428 135x44"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "745,443 98x19 -> 744,441 100x20"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "745,443 98x19 -> 744,441 100x20"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 116,
+  "y": 296.65625,
+  "tag": "DIV",
+  "nm": "Fade Card Stack 1",
+  "cls": "",
+  "text": "\"It's been a game changer\" Tim",
+  "href": null,
+  "diffs": [
+   [
+    "DIV[1]",
+    {
+     "fl": "blur(0px) -> blur(2px)"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "tf": "none -> matrix(1, 0, 0, 1, 0, -0.915766)"
+    }
+   ],
+   [
+    "BR",
+    {
+     "tf": "none -> matrix(1, 0, 0, 1.06316, 0, 0)",
+     "box": "150,275 0x16 -> 24,325 184x31"
+    }
+   ],
+   [
+    "DIV[Client Details]",
+    {
+     "tf": "none -> matrix(1, 0, 0, 0.940596, -3.55206, 0)",
+     "box": "24,325 184x31 -> 78,326 29x29"
+    }
+   ],
+   [
+    "IMG",
+    {
+     "tf": "none -> matrix(1.2368, 0, 0, 1.0187, 0, 0)",
+     "box": "78,326 29x29 -> 117,325 37x31"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "tf": "none -> matrix(0.626358, 0, 0, 0.923329, -4.88945, -0.552272)",
+     "box": "117,325 38x31 -> 117,325 20x14"
+    }
+   ],
+   [
+    "DIV[Client name & Designation]",
+    {
+     "tf": "none -> matrix(1.29085, 0, 0, 1, 3.80606, 0)",
+     "box": "117,325 20x14 -> 117,325 26x14"
+    }
+   ],
+   [
+    "DIV[Client Name]",
+    {
+     "c": "rgb(0, 0, 0) -> rgb(89, 89, 89)",
+     "bc": "rgb(0, 0, 0) -> rgb(89, 89, 89)",
+     "box": "117,325 20x14 -> 117,325 26x14"
+    }
+   ],
+   [
+    "P",
+    {
+     "tf": "none -> matrix(1, 0, 0, 1.14112, 0, -0.705614)",
+     "c": "rgb(89, 89, 89) -> rgb(0, 0, 0)",
+     "bc": "rgb(89, 89, 89) -> rgb(0, 0, 0)",
+     "box": "117,325 20x14 -> 117,343 37x12"
+    }
+   ],
+   [
+    "DIV[Logo 14]",
+    {
+     "box": "117,343 38x13 -> 117,343 37x12"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "117,343 38x13 -> 117,343 37x12"
+    }
+   ],
+   [
+    "IMG",
+    {
+     "box": "117,343 38x13 -> 16,258 200x116"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1242,
+  "y": 290.15625,
+  "tag": "DIV",
+  "nm": "Fade Card Stack 3",
+  "cls": "",
+  "text": "\"No other outbound tool can compete\" Greg",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 1168,
+  "y": 449.84375,
+  "tag": "DIV",
+  "nm": "Fade Card Stack 1",
+  "cls": "",
+  "text": "\"Valley is dominating all other channels\" Jason",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 208,
+  "y": 449.84375,
+  "tag": "DIV",
+  "nm": "Fade Card Stack 3",
+  "cls": "",
+  "text": "\"No other outbound tool can compete\" Greg",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 240,
+  "y": 449.5,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "CASE STUDY",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 382.75,
+  "y": 449.828125,
+  "tag": "A",
+  "nm": "Logo 6",
+  "cls": "",
+  "text": "",
+  "href": "https://www.brevitypitch.com/",
+  "diffs": []
+ },
+ {
+  "x": 525.5,
+  "y": 449.5,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "CASE STUDY",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 668.25,
+  "y": 449,
+  "tag": "A",
+  "nm": "Logo 2",
+  "cls": "",
+  "text": "",
+  "href": "https://aminochain.io/",
+  "diffs": []
+ },
+ {
+  "x": 811,
+  "y": 449.5,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "CASE STUDY",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 953.75,
+  "y": 449.5,
+  "tag": "A",
+  "nm": "Logo 12",
+  "cls": "",
+  "text": "",
+  "href": "https://www.wayside.io/",
+  "diffs": []
+ },
+ {
+  "x": 1096.5,
+  "y": 449.5,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "CASE STUDY",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 1239.25,
+  "y": 450.078125,
+  "tag": "A",
+  "nm": "Logo 8",
+  "cls": "",
+  "text": "",
+  "href": "https://www.gathervoices.co/?utm_source=google_adwords&utm_medium=ppc&utm_campaign=branded_search&utm_term=gather%20voices&utm_campaign=Gather+Voices+Brand+Name&utm_source=adwords&utm_medium=ppc&hsa_acc=7322913244&hsa_cam=22132602204&hsa_grp=172058424685&hsa_ad=729534476104&hsa_src=g&hsa_tgt=kwd-1392025050166&hsa_kw=gather%20voices&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=22132602204&gbraid=0AAAAACmqbdpVyuu5IJMXjfonwv-8sEpCA&gclid=Cj0KCQjw8p7GBhCjARIsAEhghZ1-9blVIYIqPhpx6qTZR_iRvPRzBIRzy34uub94QJpDU8_SyTUCOpcaAvI4EALw_wcB",
+  "diffs": []
+ },
+ {
+  "x": 240,
+  "y": 449.5,
+  "tag": "A",
+  "nm": "Logo 13",
+  "cls": "",
+  "text": "",
+  "href": "https://www.credal.ai/",
+  "diffs": []
+ },
+ {
+  "x": 403.140625,
+  "y": 449.5,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "CASE STUDY",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 566.28125,
+  "y": 449.5,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "CASE STUDY",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 729.421875,
+  "y": 449.5,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "CASE STUDY",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 892.5625,
+  "y": 449.5,
+  "tag": "A",
+  "nm": "Logo 5",
+  "cls": "",
+  "text": "",
+  "href": "https://www.antler.co/",
+  "diffs": []
+ },
+ {
+  "x": 1055.703125,
+  "y": 450,
+  "tag": "A",
+  "nm": "Logo 7",
+  "cls": "",
+  "text": "",
+  "href": "https://bolt.new/",
+  "diffs": []
+ },
+ {
+  "x": 1218.84375,
+  "y": 449.5,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "CASE STUDY",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 146,
+  "y": 450.203125,
+  "tag": "DIV",
+  "nm": "Default",
+  "cls": "surface-form-button",
+  "text": "Book Demo →",
+  "href": null,
+  "diffs": [
+   [
+    "DIV[Default]",
+    {
+     "tf": "none -> matrix(1.05, 0, 0, 1.05, 0, 0)",
+     "box": "80,418 132x65 -> 77,416 139x68"
+    }
+   ],
+   [
+    "DIV[Hole]",
+    {
+     "tf": "none -> matrix(1.02001, 0, 0, 1.01991, 0, 0)",
+     "sh": "none -> rgba(0, 0, 0, 0.2) 0px 10.0082px 10.0077px 0px",
+     "box": "80,426 132x48 -> 75,427 141x46"
+    }
+   ],
+   [
+    "A[cta__primary]",
+    {
+     "tf": "none -> matrix(1, 0, 0, 1, 0, 0)",
+     "box": "80,426 132x48 -> 75,427 141x46"
+    }
+   ],
+   [
+    "DIV[Button Content]",
+    {
+     "tf": "none -> matrix(1, 0, 0, 1.0001, 0, 0)",
+     "sh": "rgba(0, 0, 0, 0.6) 0px 6px 0px 0px -> rgba(0, 0, 0, 0) 0px 6px 0px 0px",
+     "box": "80,431 132x43 -> 75,427 141x46"
+    }
+   ],
+   [
+    "DIV[Text Wrap]",
+    {
+     "box": "80,431 132x43 -> 75,427 141x46"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "98,443 96x19 -> 95,440 103x21"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "98,443 96x19 -> 95,440 103x21"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 379.5,
+  "y": 449.71875,
+  "tag": "A",
+  "nm": "Plain",
+  "cls": "",
+  "text": "How Kaster generated $400k in pipeline in 2 months",
+  "href": "./",
+  "diffs": [
+   [
+    "A[Plain]",
+    {
+     "bg": "rgb(242, 242, 242) -> rgb(0, 0, 0)"
+    }
+   ],
+   [
+    "H6",
+    {
+     "c": "rgb(0, 0, 0) -> rgb(255, 255, 255)",
+     "bc": "rgb(0, 0, 0) -> rgb(255, 255, 255)"
+    }
+   ],
+   [
+    "DIV[Label]",
+    {
+     "bg": "rgb(0, 0, 0) -> rgb(255, 255, 255)"
+    }
+   ],
+   [
+    "P",
+    {
+     "c": "rgb(0, 0, 238) -> rgb(0, 0, 0)",
+     "bc": "rgb(0, 0, 238) -> rgb(0, 0, 0)"
+    }
+   ],
+   [
+    "P",
+    {
+     "c": "rgb(0, 0, 238) -> rgb(255, 255, 255)",
+     "bc": "rgb(0, 0, 238) -> rgb(255, 255, 255)"
+    }
+   ],
+   [
+    "P",
+    {
+     "c": "rgb(0, 0, 238) -> rgb(255, 255, 255)",
+     "bc": "rgb(0, 0, 238) -> rgb(255, 255, 255)"
+    }
+   ],
+   [
+    "P",
+    {
+     "c": "rgb(0, 0, 238) -> rgb(158, 158, 158)",
+     "bc": "rgb(0, 0, 238) -> rgb(158, 158, 158)"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1060.5,
+  "y": 449.71875,
+  "tag": "A",
+  "nm": "With Stats",
+  "cls": "",
+  "text": "How 10x Management generated $84K+ ARR with Valley",
+  "href": "./",
+  "diffs": [
+   [
+    "A[With Stats]",
+    {
+     "bg": "rgb(242, 242, 242) -> rgb(0, 0, 0)"
+    }
+   ],
+   [
+    "H6",
+    {
+     "c": "rgb(0, 0, 0) -> rgb(255, 255, 255)",
+     "bc": "rgb(0, 0, 0) -> rgb(255, 255, 255)"
+    }
+   ],
+   [
+    "DIV[Label]",
+    {
+     "bg": "rgb(0, 0, 0) -> rgb(255, 255, 255)"
+    }
+   ],
+   [
+    "P",
+    {
+     "c": "rgb(255, 255, 255) -> rgb(0, 0, 0)",
+     "bc": "rgb(255, 255, 255) -> rgb(0, 0, 0)"
+    }
+   ],
+   [
+    "P",
+    {
+     "c": "rgb(0, 0, 0) -> rgb(255, 255, 255)",
+     "bc": "rgb(0, 0, 0) -> rgb(255, 255, 255)"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "bg": "rgb(248, 248, 248) -> rgb(31, 31, 31)"
+    }
+   ],
+   [
+    "H6",
+    {
+     "c": "rgb(0, 0, 0) -> rgb(255, 255, 255)",
+     "bc": "rgb(0, 0, 0) -> rgb(255, 255, 255)"
+    }
+   ],
+   [
+    "P",
+    {
+     "c": "rgba(0, 0, 0, 0.6) -> rgba(194, 194, 194, 0.6)",
+     "bc": "rgba(0, 0, 0, 0.6) -> rgba(194, 194, 194, 0.6)"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "bg": "rgb(248, 248, 248) -> rgb(31, 31, 31)"
+    }
+   ],
+   [
+    "H6",
+    {
+     "c": "rgb(0, 0, 0) -> rgb(255, 255, 255)",
+     "bc": "rgb(0, 0, 0) -> rgb(255, 255, 255)"
+    }
+   ],
+   [
+    "P",
+    {
+     "c": "rgba(0, 0, 0, 0.6) -> rgba(194, 194, 194, 0.6)",
+     "bc": "rgba(0, 0, 0, 0.6) -> rgba(194, 194, 194, 0.6)"
+    }
+   ],
+   [
+    "P",
+    {
+     "c": "rgb(0, 0, 0) -> rgb(255, 255, 255)",
+     "bc": "rgb(0, 0, 0) -> rgb(255, 255, 255)"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 266,
+  "y": 449.71875,
+  "tag": "A",
+  "nm": "Plain",
+  "cls": "",
+  "text": "How Tacnode booked 25+ meetings per month with Val",
+  "href": "./",
+  "diffs": [
+   [
+    "A[Plain]",
+    {
+     "bg": "rgb(242, 242, 242) -> rgb(0, 0, 0)"
+    }
+   ],
+   [
+    "H6",
+    {
+     "c": "rgb(0, 0, 0) -> rgb(255, 255, 255)",
+     "bc": "rgb(0, 0, 0) -> rgb(255, 255, 255)"
+    }
+   ],
+   [
+    "DIV[Label]",
+    {
+     "bg": "rgb(0, 0, 0) -> rgb(255, 255, 255)"
+    }
+   ],
+   [
+    "P",
+    {
+     "c": "rgb(255, 255, 255) -> rgb(0, 0, 0)",
+     "bc": "rgb(255, 255, 255) -> rgb(0, 0, 0)"
+    }
+   ],
+   [
+    "P",
+    {
+     "c": "rgb(0, 0, 0) -> rgb(255, 255, 255)",
+     "bc": "rgb(0, 0, 0) -> rgb(255, 255, 255)"
+    }
+   ],
+   [
+    "P",
+    {
+     "c": "rgb(0, 0, 0) -> rgb(255, 255, 255)",
+     "bc": "rgb(0, 0, 0) -> rgb(255, 255, 255)"
+    }
+   ],
+   [
+    "P",
+    {
+     "c": "rgb(89, 89, 89) -> rgb(158, 158, 158)",
+     "bc": "rgb(89, 89, 89) -> rgb(158, 158, 158)"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 720,
+  "y": 449.71875,
+  "tag": "A",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "How GGWP generated $4M in pipeline with Valley GGW",
+  "href": "./",
+  "diffs": [
+   [
+    "DIV[Case Study Card BG Image]",
+    {
+     "box": "502,278 436x344 -> 485,265 471x372"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "502,278 436x344 -> 485,265 471x372"
+    }
+   ],
+   [
+    "IMG",
+    {
+     "box": "502,278 436x344 -> 485,265 471x372"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1174,
+  "y": 449.71875,
+  "tag": "A",
+  "nm": "With Testimonial",
+  "cls": "",
+  "text": "How Franq generated $64k in pipeline with Valley i",
+  "href": "./",
+  "diffs": [
+   [
+    "A[With Testimonial]",
+    {
+     "bg": "rgb(242, 242, 242) -> rgb(0, 0, 0)"
+    }
+   ],
+   [
+    "H6",
+    {
+     "c": "rgb(0, 0, 0) -> rgb(255, 255, 255)",
+     "bc": "rgb(0, 0, 0) -> rgb(255, 255, 255)"
+    }
+   ],
+   [
+    "DIV[Label]",
+    {
+     "bg": "rgb(0, 0, 0) -> rgb(255, 255, 255)"
+    }
+   ],
+   [
+    "P",
+    {
+     "c": "rgb(255, 255, 255) -> rgb(0, 0, 0)",
+     "bc": "rgb(255, 255, 255) -> rgb(0, 0, 0)"
+    }
+   ],
+   [
+    "P",
+    {
+     "c": "rgb(0, 0, 0) -> rgb(255, 255, 255)",
+     "bc": "rgb(0, 0, 0) -> rgb(255, 255, 255)"
+    }
+   ],
+   [
+    "P",
+    {
+     "c": "rgba(0, 0, 0, 0.6) -> rgba(207, 207, 207, 0.6)",
+     "bc": "rgba(0, 0, 0, 0.6) -> rgba(207, 207, 207, 0.6)"
+    }
+   ],
+   [
+    "P",
+    {
+     "c": "rgb(0, 0, 0) -> rgb(255, 255, 255)",
+     "bc": "rgb(0, 0, 0) -> rgb(255, 255, 255)"
+    }
+   ],
+   [
+    "P",
+    {
+     "c": "rgb(89, 89, 89) -> rgb(158, 158, 158)",
+     "bc": "rgb(89, 89, 89) -> rgb(158, 158, 158)"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 720,
+  "y": 450.21875,
+  "tag": "DIV",
+  "nm": "Default",
+  "cls": "surface-form-button",
+  "text": "Book Demo →",
+  "href": null,
+  "diffs": [
+   [
+    "DIV[Default]",
+    {
+     "tf": "none -> matrix(1.05, 0, 0, 1.05, 0, 0)",
+     "box": "654,418 132x65 -> 651,416 139x68"
+    }
+   ],
+   [
+    "DIV[Hole]",
+    {
+     "tf": "none -> matrix(1.02, 0, 0, 1.02, 0, 0)",
+     "sh": "none -> rgba(0, 0, 0, 0.2) 0px 10px 10px 0px",
+     "box": "654,426 132x48 -> 649,427 141x46"
+    }
+   ],
+   [
+    "A[cta__primary]",
+    {
+     "box": "654,426 132x48 -> 649,427 141x46"
+    }
+   ],
+   [
+    "DIV[Button Content]",
+    {
+     "sh": "rgba(0, 0, 0, 0.6) 0px 6px 0px 0px -> rgba(0, 0, 0, 0) 0px 6px 0px 0px",
+     "box": "654,431 132x43 -> 649,427 141x46"
+    }
+   ],
+   [
+    "DIV[Text Wrap]",
+    {
+     "box": "654,431 132x43 -> 649,427 141x46"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "672,443 96x19 -> 669,440 103x21"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "672,443 96x19 -> 669,440 103x21"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 248.3984375,
+  "y": 450.125,
+  "tag": "DIV",
+  "nm": "",
+  "cls": "",
+  "text": "Dashboard",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 484.203125,
+  "y": 450.125,
+  "tag": "DIV",
+  "nm": "",
+  "cls": "",
+  "text": "Warm Leads",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 720.0078125,
+  "y": 450.125,
+  "tag": "DIV",
+  "nm": "",
+  "cls": "",
+  "text": "Campaigns",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 955.8046875,
+  "y": 450.125,
+  "tag": "DIV",
+  "nm": "",
+  "cls": "",
+  "text": "Approvals",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 1191.6015625,
+  "y": 450.125,
+  "tag": "DIV",
+  "nm": "",
+  "cls": "",
+  "text": "Inbox",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 330.75,
+  "y": 449.78125,
+  "tag": "DIV",
+  "nm": "trig -100%",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 275.0625,
+  "y": 449.78125,
+  "tag": "DIV",
+  "nm": "trig -75%",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 219.375,
+  "y": 449.78125,
+  "tag": "DIV",
+  "nm": "trig -50%",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 163.6875,
+  "y": 449.78125,
+  "tag": "DIV",
+  "nm": "trig -25%",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 330.75,
+  "y": 449.78125,
+  "tag": "DIV",
+  "nm": "50%",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": [
+   [
+    "DIV[Slider Movement ]",
+    {
+     "tf": "matrix(1, 0, 0, 1, 0, -24) -> matrix(0.961236, 0, 0, 1, -6.47608, -24)",
+     "box": "108,426 223x48 -> 108,426 321x48"
+    }
+   ],
+   [
+    "DIV[Slider Grad Img]",
+    {
+     "tf": "none -> matrix(1, 0, 0, 1, 0, 0)",
+     "box": "108,448 223x4 -> 108,448 321x4"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "108,448 223x4 -> 108,448 321x4"
+    }
+   ],
+   [
+    "IMG",
+    {
+     "box": "108,448 223x4 -> 108,448 321x4"
+    }
+   ],
+   [
+    "DIV[Knob Frame]",
+    {
+     "box": "108,426 238x48 -> 108,426 344x48"
+    }
+   ],
+   [
+    "DIV[Slider Knob]",
+    {
+     "tf": "none -> matrix(1.04033, 0, 0, 1, -0.968495, 0)",
+     "box": "298,426 48x48 -> 404,426 48x48"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "278,406 89x89 -> 384,406 89x89"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "296,424 53x53 -> 402,424 53x53"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "304,432 37x35 -> 409,432 37x35"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "307,435 31x29 -> 412,435 31x29"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "tf": "matrix(1, 0, 0, 1, 0, 0) -> matrix(0.729823, -0.683636, 0.683636, 0.729823, 0, 0)",
+     "box": "314,442 17x15 -> 416,438 23x23"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "bg": "rgb(255, 195, 145) -> rgb(253, 179, 109)"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 174,
+  "y": 449.625,
+  "tag": "DIV",
+  "nm": "Default",
+  "cls": "",
+  "text": "Start for free ",
+  "href": null,
+  "diffs": [
+   [
+    "DIV[Default]",
+    {
+     "tf": "none -> matrix(1.05, 0, 0, 1.05, 0, 0)",
+     "box": "108,417 132x65 -> 105,416 139x68"
+    }
+   ],
+   [
+    "DIV[Hole]",
+    {
+     "tf": "none -> matrix(1.02, 0, 0, 1.02, 0, 0)",
+     "sh": "none -> rgba(0, 0, 0, 0.2) 0px 10px 10px 0px",
+     "box": "108,426 132x48 -> 103,426 141x46"
+    }
+   ],
+   [
+    "A[cta__primary]",
+    {
+     "box": "108,426 132x48 -> 103,426 141x46"
+    }
+   ],
+   [
+    "DIV[Button Content]",
+    {
+     "sh": "rgba(0, 0, 0, 0.6) 0px 6px 0px 0px -> rgba(0, 0, 0, 0) 0px 6px 0px 0px",
+     "box": "108,431 132x43 -> 103,426 141x46"
+    }
+   ],
+   [
+    "DIV[Text Wrap]",
+    {
+     "box": "108,431 132x43 -> 103,426 141x46"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "130,443 88x19 -> 127,439 94x21"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "130,443 88x19 -> 127,439 94x21"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 977.4609375,
+  "y": 450.34375,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "What do I need to get started? +",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 977.4609375,
+  "y": 450.34375,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "Can I review and edit the messages? +",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 977.4609375,
+  "y": 450.34375,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "Does Valley send email as well as LinkedIn message",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 977.4609375,
+  "y": 450.34375,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "Which plan includes email and priority support? +",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 977.4609375,
+  "y": 450.34375,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "What uses credits? +",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 977.4609375,
+  "y": 450.34375,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "How does the free trial work? +",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 1158.40625,
+  "y": 454.109375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Start for free →",
+  "href": "https://beta.joinvalley.co/signup",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1321.15625,
+  "y": 454.109375,
+  "tag": "A",
+  "nm": "",
+  "cls": "surface-form-button",
+  "text": "Book a demo",
+  "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+  "diffs": [
+   [
+    "A.surface-form-button",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 304.9375,
+  "y": 652.875,
+  "tag": "A",
+  "nm": "",
+  "cls": "vf-brand",
+  "text": "Valley",
+  "href": "/",
+  "diffs": [
+   [
+    "A.vf-brand",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 92.421875,
+  "y": 723.875,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "hey@joinvalley.co",
+  "href": "mailto:hey@joinvalley.co",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 636.6875,
+  "y": 679.375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Product",
+  "href": "/product",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 647.109375,
+  "y": 712.375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Customers",
+  "href": "/casestudies",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 641.625,
+  "y": 745.375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Agencies",
+  "href": "/linkedin-outreach-for-agencies",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 633.21875,
+  "y": 778.375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Pricing",
+  "href": "/pricing",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1061.515625,
+  "y": 679.375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Resources",
+  "href": "/blog",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1059.171875,
+  "y": 712.375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "All articles",
+  "href": "/blog/archive",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1066.6171875,
+  "y": 745.375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "About Valley",
+  "href": "/about",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1045.46875,
+  "y": 778.375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Log in",
+  "href": "https://beta.joinvalley.co/login",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1240.8046875,
+  "y": 864.375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Privacy policy",
+  "href": "/privacy-policy",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1347.140625,
+  "y": 864.375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Terms of service",
+  "href": "/terms-of-service",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1400,
+  "y": 861.875,
+  "tag": "BUTTON",
+  "nm": "",
+  "cls": "__framer-cookie-component-button",
+  "text": "",
+  "href": null,
+  "diffs": []
+ }
+]

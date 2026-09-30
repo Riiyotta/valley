@@ -1,0 +1,18 @@
+{
+  "description": "What's enforced (machine-checked by schema/semantic_validate.py or extraction/verify_all.py) vs. convention-only (documentation, not enforced).",
+  "resolutionOrder": ["foundation", "theme-mode-override", "semantic-alias", "component-token", "permitted-local-override", "responsive-override"],
+  "resolutionOrderNote": "Genesis principle: never resolve aliases before the theme mode is known. This repo has one theme (light) so mode resolution is a no-op today, but the order is fixed for forward-compatibility if a dark theme is added later.",
+  "enforced": {
+    "assetRoleEnum": "schema/pagespec.schema.json assetRole enum + tokens/llm/component-allowlist.json parity, checked by extraction/verify_all.py",
+    "templateNodeSequence": "schema/semantic_validate.py cross-references PageSpec.template against templates/templates.json's real node list",
+    "maxWordsBudgets": "schema/semantic_validate.py counts words per content field against sections/*.json maxWords",
+    "motionReducedFallback": "schema/pagespec.schema.json node.motion.required includes reducedMotionFallback",
+    "allowlistParity": "extraction/verify_all.py"
+  },
+  "conventionOnly": {
+    "rawValueRestrictions": "Section/component authors should reference semantic tokens in tokens/10-semantic/*.json rather than foundation hex/px values directly when writing NEW CSS; this is a style-guide convention for humans/future authors, not machine-checked, because PageSpec instances carry no raw style values at all (see overrides note below)."
+  },
+  "overrides": {
+    "pageSpecTokenOverrideMechanism": "NONE. Inspect schema/pagespec.schema.json and schema/example.pagespec.json: a PageSpec node has no per-instance style/token-override field. Styling is fully owned by the section/component contracts (sections/*.json, components/*.json), not by a generated PageSpec instance. This is a deliberate scope boundary (MASTER-GUIDE.md 3.21), not an oversight — do not add a fake override field just to have something to validate."
+  }
+}

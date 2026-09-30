@@ -1,0 +1,24 @@
+{
+  "id": "playbooks.library",
+  "layer": "section",
+  "purpose": "Searchable/filterable library of 58 real outreach 'plays', each opening a detail drawer, on /playbooks (.vpl).",
+  "measuredFrom": "spec/pages/playbooks.md (.vpl-hero, states/plays.json: all 58 plays)",
+  "content": {
+    "type": "object",
+    "properties": {
+      "h1": { "type": "string", "maxWords": 10 },
+      "searchPlaceholder": { "type": "string", "maxWords": 6 },
+      "categories": { "type": "array", "maxItems": 12 },
+      "plays": { "type": "array", "minItems": 1, "maxItems": 58, "items": { "type": "object", "properties": { "title": { "type": "string", "maxWords": 12 }, "category": { "type": "string", "maxWords": 4 }, "summary": { "type": "string", "maxWords": 30 } }, "required": ["title", "category"], "additionalProperties": false } }
+    },
+    "required": ["h1", "plays"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "playbooksRouteOnly" },
+  "responsive": {
+    "note": "page-specific breakpoints: Desktop >=1440, Tablet 810-1439.98, Phone <=809.98 (differs from homepage 1200/810)",
+    "measuredFrom": "spec/pages/playbooks.md:20"
+  },
+  "motion": { "pattern": "drawer-slide-in", "reducedMotionFallback": "drawer opens/closes instantly with no slide transition" },
+  "assetRoles": {}
+}

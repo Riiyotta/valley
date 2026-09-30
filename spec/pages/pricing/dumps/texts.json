@@ -1,0 +1,312 @@
+[
+ {
+  "sid": "nav",
+  "name": null,
+  "text": "Home\n\nHome\n\nProduct\n\nValley vs. Competition\n\nValley vs. Competition\n\nCustomers\n\nCustomers\n\nAgencies\n\nAgencies\n\nPricing\n\nPricing\n\nLog in\n\nStart for free",
+  "links": [
+   {
+    "text": "",
+    "href": "./",
+    "abs": "https://www.joinvalley.co/",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Home Home",
+    "href": "./",
+    "abs": "https://www.joinvalley.co/",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "/product",
+    "abs": "https://www.joinvalley.co/product",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "/playbooks",
+    "abs": "https://www.joinvalley.co/playbooks",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. Competition Valley vs. Competition",
+    "href": "./compare",
+    "abs": "https://www.joinvalley.co/compare",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Customers Customers",
+    "href": "./casestudies",
+    "abs": "https://www.joinvalley.co/casestudies",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Agencies Agencies",
+    "href": "./linkedin-outreach-for-agencies",
+    "abs": "https://www.joinvalley.co/linkedin-outreach-for-agencies",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Pricing Pricing",
+    "href": "./pricing",
+    "abs": "https://www.joinvalley.co/pricing",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Log in",
+    "href": "https://beta.joinvalley.co/login",
+    "abs": "https://beta.joinvalley.co/login",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Start for free",
+    "href": "https://beta.joinvalley.co/signup",
+    "abs": "https://beta.joinvalley.co/signup",
+    "target": "",
+    "visible": true
+   }
+  ]
+ },
+ {
+  "sid": "pricing-hero",
+  "name": "Hero Section",
+  "text": "PLANS THAT GROW WITH YOU\n\nYour outbound platform. Your level of support.\n\nEvery plan includes prospecting, qualification, research, and personalized LinkedIn outreach. Add email and hands-on support, or choose a plan that includes them.",
+  "links": []
+ },
+ {
+  "sid": "plans",
+  "name": "pricing-three-plans",
+  "text": "Monthly\nQuarterly · save\nStarter\n\nLinkedIn only. The full outbound platform, run your way.\n\n$199\n/ seat / month\n\nBilled monthly.\n7-day trial. Payment method required.\n\nStart for free\n →\nProspecting, qualification, and research\nMessages written in your voice\nLinkedIn campaigns and follow-ups\nCampaign analytics and reply management\nUnified inbox\nICP Scoring\nValley AI Copilot (Scout)\nCRM, API and MCP integrations (HubSpot, Claude, etc.)\nLive chat support\n\nOptional add-ons: email sending, priority Slack support, and an onboarding call.\n\nPlus\n\nLinkedIn + email. Multichannel outreach with a team in your corner.\n\n$299\n/ seat / month\n\nBilled monthly.\nIncludes email, priority support, and onboarding.\n\nBook a demo\n →\nEverything in Starter\n1,000 email messages per month\nSlack group for priority support\nAn onboarding call\nDedicated customer success manager\nEmail waterfall enrichment (15+ data providers)\nAdmin access & view\n\nAdditional credits available separately.\n\nGrowth\n\nLinkedIn + email. More credits to find your next buyers.\n\n$499\n/ seat / month\n\nBilled monthly.\nIncludes email, priority support, and onboarding.\n\nBook a demo\n →\nEverything in Plus\n1,000 email messages per month\nPriority Slack support and onboarding\n$300 in additional credits every month\n\nFor teams that need more discovery and enrichment.\n\nNeed a larger team setup?\n\nValley Scale offers custom pricing for teams of five seats or more.\n\nTalk to sales →",
+  "links": [
+   {
+    "text": "Start for free →",
+    "href": "https://beta.joinvalley.co/signup",
+    "abs": "https://beta.joinvalley.co/signup",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Book a demo →",
+    "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+    "abs": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Book a demo →",
+    "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+    "abs": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Talk to sales →",
+    "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+    "abs": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+    "target": "",
+    "visible": true
+   }
+  ]
+ },
+ {
+  "sid": "spacer",
+  "name": "Spacer",
+  "text": "",
+  "links": []
+ },
+ {
+  "sid": "studios",
+  "name": "Get Early Access Banner",
+  "text": "VALLEY STUDIOS\n\nValley Done-For-You\nMeetings booked. Pipeline filled. You close deals.\n\n$1499/mo\n\nYour Valley, operated by us: strategy, campaigns, optimization, reporting. \nFor teams that want the pipeline without the operating.\n\nBook a call →\n\nCURRENTLY NOT ACCEPTING MORE USERS, JOIN OUR WAITLIST",
+  "links": []
+ },
+ {
+  "sid": "proof",
+  "name": "Logos + Case Study Popup",
+  "text": "“Valley is a cheat code.”\nStefano McCoy\nSales, Bolt.new\nRead Bolt.new’s story\nStart for free\nBOLT.NEW, WITH VALLEY\n$1M+\n\nPipeline generated in the first 60 days.\n\n15–20\nEnterprise meetings booked\n3 hrs\nSaved per rep daily\nBolt.new\nGGWP\nLinarca\nThinkFish\nPause\n01 / 04",
+  "links": [
+   {
+    "text": "Read Bolt.new’s story",
+    "href": "https://www.joinvalley.co/casestudies/how-bolt.new-generated-seven-figures-in-pipeline-with-valley-in-under-60-days",
+    "abs": "https://www.joinvalley.co/casestudies/how-bolt.new-generated-seven-figures-in-pipeline-with-valley-in-under-60-days",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Start for free",
+    "href": "https://beta.joinvalley.co/signup",
+    "abs": "https://beta.joinvalley.co/signup",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://www.joinvalley.co/casestudies/how-ggwp-generated-4m-in-pipeline-with-valley",
+    "abs": "https://www.joinvalley.co/casestudies/how-ggwp-generated-4m-in-pipeline-with-valley",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://beta.joinvalley.co/signup",
+    "abs": "https://beta.joinvalley.co/signup",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://www.joinvalley.co/casestudies/how-linarca-booked-14-qualified-meetings-in-their-first-month-with-valley",
+    "abs": "https://www.joinvalley.co/casestudies/how-linarca-booked-14-qualified-meetings-in-their-first-month-with-valley",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://beta.joinvalley.co/signup",
+    "abs": "https://beta.joinvalley.co/signup",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://www.joinvalley.co/casestudies/how-thinkfish-books-380-400-meetings-monthly-with-valley",
+    "abs": "https://www.joinvalley.co/casestudies/how-thinkfish-books-380-400-meetings-monthly-with-valley",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://beta.joinvalley.co/signup",
+    "abs": "https://beta.joinvalley.co/signup",
+    "target": "",
+    "visible": true
+   }
+  ]
+ },
+ {
+  "sid": "calendar",
+  "name": "Calendar Section",
+  "text": "See what Valley could do for your team.",
+  "links": []
+ },
+ {
+  "sid": "faq",
+  "name": "pricing-questions-current",
+  "text": "Questions,\nanswered.\n\nThe practical details before your first campaign.\n\nWhat do I need to get started?\n+\nCan I review and edit the messages?\n+\nDoes Valley send email as well as LinkedIn messages?\n+\nWhich plan includes email and priority support?\n+\nWhat uses credits?\n+\nHow does the free trial work?\n+",
+  "links": []
+ },
+ {
+  "sid": "footer",
+  "name": null,
+  "text": "Find your people.\nGive them a reason to reply.\n\nFind, qualify, research, and reach your next buyers across email and LinkedIn.\n\nStart for free →\nBook a demo\nValley\n\nYour outbound team.\nOne connected platform.\n\nhey@joinvalley.co\nEXPLORE VALLEY\nProduct\nCustomers\nAgencies\nPricing\nLEARN MORE\nResources\nAll articles\nAbout Valley\nLog in\n© Valley. All rights reserved.\nPrivacy policy\nTerms of service",
+  "links": [
+   {
+    "text": "Start for free →",
+    "href": "https://beta.joinvalley.co/signup",
+    "abs": "https://beta.joinvalley.co/signup",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Book a demo",
+    "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+    "abs": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley",
+    "href": "/",
+    "abs": "https://www.joinvalley.co/",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "hey@joinvalley.co",
+    "href": "mailto:hey@joinvalley.co",
+    "abs": "mailto:hey@joinvalley.co",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Product",
+    "href": "/product",
+    "abs": "https://www.joinvalley.co/product",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Customers",
+    "href": "/casestudies",
+    "abs": "https://www.joinvalley.co/casestudies",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Agencies",
+    "href": "/linkedin-outreach-for-agencies",
+    "abs": "https://www.joinvalley.co/linkedin-outreach-for-agencies",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Pricing",
+    "href": "/pricing",
+    "abs": "https://www.joinvalley.co/pricing",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Resources",
+    "href": "/blog",
+    "abs": "https://www.joinvalley.co/blog",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "All articles",
+    "href": "/blog/archive",
+    "abs": "https://www.joinvalley.co/blog/archive",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "About Valley",
+    "href": "/about",
+    "abs": "https://www.joinvalley.co/about",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Log in",
+    "href": "https://beta.joinvalley.co/login",
+    "abs": "https://beta.joinvalley.co/login",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Privacy policy",
+    "href": "/privacy-policy",
+    "abs": "https://www.joinvalley.co/privacy-policy",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Terms of service",
+    "href": "/terms-of-service",
+    "abs": "https://www.joinvalley.co/terms-of-service",
+    "target": "",
+    "visible": true
+   }
+  ]
+ }
+]

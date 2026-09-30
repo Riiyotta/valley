@@ -1,0 +1,282 @@
+/* "Logos + Case Study Popup" (spec/pages/landing.md 5.2 and 6; dumps section [2]).
+   /tryvalley: layer "Logos + Case Study Popup". /linkedin-automation: "Desktop" (>= 1200) and
+   "Content" (below 1200). */
+
+.lc {
+  position: relative;
+  background: #f7f8f4;
+  /* Horizontal clip only: the phone heading is a fixed 659px line that the original clips,
+     while the hover popups must be free to paint above the section (Framer portals them). */
+  overflow-x: clip;
+}
+.lc::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  pointer-events: none;
+}
+
+.lc-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.lc-heading {
+  font: 500 18px/22.5px theme('fontFamily.ppnm-medium');
+  color: #575757;
+  text-align: center;
+}
+
+/* ---------- /tryvalley ---------- */
+.lc--try {
+  padding: 0 48px;
+}
+.lc--try .lc-content {
+  padding: 64px 0;
+}
+.lc--try .lc-heading {
+  white-space: nowrap;
+}
+.lc-logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+.lc-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+}
+@media screen(below-desktop) {
+  .lc--try {
+    padding: 0 20px;
+  }
+  .lc--try .lc-content {
+    padding: 44px 0;
+  }
+}
+
+/* ---------- slots ---------- */
+.lc-slot {
+  position: relative;
+  display: flex;
+  flex: none;
+  justify-content: center;
+  align-items: flex-start;
+  width: 150px;
+}
+/* Plain logos occupy taller boxes than their images on /tryvalley: the Antler/Tofu line is
+   46 tall at 390 and the Gather Voices line 45 at 1440 (section heights 1028.5 / 497.5). */
+.lc--try .lc-slot:not(.lc-slot--case) {
+  height: 46px;
+}
+.lc-slot--case {
+  height: 90px;
+}
+.lc-img {
+  display: block;
+  flex: none;
+  max-width: none;
+}
+.lc-plain,
+.lc-case,
+.lc-boxed {
+  display: flex;
+  text-decoration: none;
+}
+.lc-case {
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.lc-case[data-sb] {
+  justify-content: space-between;
+  padding-bottom: 6px;
+}
+.lc-label {
+  display: block;
+  flex: none;
+  padding: 6px;
+  border-radius: 4.5px;
+  background: #d9eeff;
+  font: 700 12px/14.4px "Valley Landing Geist Mono", monospace;
+  color: #0077b5;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+}
+.lc-label[data-small] {
+  padding: 5px;
+  border-radius: 3.75px;
+}
+.lc-boxed {
+  justify-content: center;
+  width: 150px;
+  height: 39px;
+  overflow: hidden;
+  background: #fff;
+}
+
+/* ---------- hover popup (165x191, centred above the logo; states/try_logo_hover.png) ----------
+   Only the box, texts and position are measured. Padding, border, radius, shadow and the
+   inner type sizes are read off the screenshot (spec section 12: not captured). */
+.lc-popup {
+  position: absolute;
+  z-index: 5;
+  bottom: calc(100% + 17px);
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 165px;
+  height: 191px;
+  padding: 12px;
+  /* Live overlay (Framer hover variant, measured frame by frame): enters from opacity 0,
+     scale .5, y +60 and leaves back to it. Transform: spring bounce .2 / .6s (zeta .8,
+     omega 15.1; rms .0007 against the live exit), 1.3% overshoot. Opacity runs on a faster
+     spring (zeta .8, omega 22.6, clamped at 1: reaches 1 at 185ms, rms .001). */
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(-50%) translateY(60px) scale(0.5);
+  transition:
+    transform 700ms linear(0, 0.0081 1.25%, 0.0303 2.5%, 0.0712 4%, 0.1428 6%, 0.2703 9%, 0.4902 14%, 0.6086 17%, 0.7027 19.75%, 0.7818 22.5%, 0.846 25.25%, 0.9007 28.25%, 0.9443 31.5%, 0.978 35.25%, 1.0013 39.75%, 1.0134 45.5%, 1.0129 55.75%, 1.0008 81.25%, 1),
+    opacity 185ms linear(0, 0.0074 3%, 0.0319 6.5%, 0.0761 10.5%, 0.148 15.5%, 0.2835 23.5%, 0.492 35.5%, 0.6126 43.25%, 0.7067 50.25%, 0.7855 57.25%, 0.8515 64.5%, 0.9058 72.25%, 0.9491 80.75%, 0.9818 90.5%, 1),
+    visibility 0s linear 700ms;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  pointer-events: none;
+  text-align: left;
+}
+.lc-slot--case:hover .lc-popup {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(0) scale(1);
+  transition-delay: 0s;
+}
+.lc-popup__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.lc-popup__logo {
+  display: block;
+  width: auto;
+  height: 18px;
+}
+.lc-popup__arrow {
+  font: 400 12px/12px theme('fontFamily.ppnm-medium');
+  color: #0077b5;
+}
+.lc-popup__title {
+  margin-top: 16px;
+  font: 400 14px/16.8px theme('fontFamily.ppnm-medium');
+  color: #000;
+}
+.lc-popup__icp {
+  margin-top: auto;
+  font: 400 10px/12px "Valley Landing Geist Mono", monospace;
+  color: #000;
+  text-transform: uppercase;
+  white-space: pre-line;
+}
+
+/* ---------- /linkedin-automation ---------- */
+.lc--auto {
+  height: 479.5px;
+}
+.lc-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.lc-content--desktop {
+  padding: 46px 0;
+}
+.lc-content--desktop .lc-heading {
+  width: 100%;
+}
+.lc-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  width: 1110px;
+  height: 325px;
+}
+.lc-grid__row {
+  display: grid;
+  gap: 32px;
+  justify-content: center;
+  width: 100%;
+}
+.lc-grid__row > .lc-slot {
+  justify-self: start;
+}
+.lc-grid__row--1 {
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  height: 81px;
+}
+.lc-grid__row--2 {
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  height: 196px;
+}
+.lc-content--phone {
+  display: none;
+}
+@media screen(below-desktop) {
+  .lc--auto {
+    height: auto;
+  }
+  .lc--auto .lc-bg,
+  .lc-content--desktop {
+    display: none;
+  }
+  .lc-content--phone {
+    display: flex;
+    gap: 48px;
+    padding: 40px 20px 32px;
+  }
+  .lc-content--phone .lc-heading {
+    font-size: 16px;
+    line-height: 20.8px;
+  }
+  .lc-phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+  }
+  .lc-phone__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-rows: 90px;
+    gap: 20px;
+    width: 100%;
+  }
+  .lc-phone__grid > .lc-slot {
+    justify-self: start;
+  }
+}
+@media screen(below-desktop) {
+  /* The "Content" variant has no frame border. */
+  .lc--auto::after {
+    display: none;
+  }
+}

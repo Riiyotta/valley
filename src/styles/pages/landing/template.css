@@ -1,0 +1,830 @@
+/* "SEO landing" template (spec/pages/landing.md section 3): sticky bar, hero, feature tiles,
+   problem, comparison paths, demo. Shared blocks live in shared.css. Values are the 1440/1280
+   desktop values with the 768/390 phone variants; tablet (810-1199, not sampled) uses the phone
+   variants with the 28px Framer tablet gutter where framer_template.css declares it. */
+
+/* ---------- 3.1 sticky-bar (desktop only) ---------- */
+.lp-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* Not in the spec: keeps the bar above positioned page content, below the nav (z 10). */
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 88px;
+  padding: 0 52px;
+  background: #ffffff;
+  transform: translateY(0);
+  opacity: 1;
+  /* M1: WAAPI cubic-bezier(.55,0,.14,1) 500ms, both directions. */
+  transition: transform 500ms cubic-bezier(0.55, 0, 0.14, 1), opacity 500ms cubic-bezier(0.55, 0, 0.14, 1);
+}
+.lp-sticky::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+  pointer-events: none;
+}
+.lp-sticky[data-hidden='true'] {
+  transform: translateY(79px);
+  opacity: 0;
+}
+.lp-sticky__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 48px;
+}
+.lp-sticky__copy {
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  min-width: 0;
+  padding-right: 40px;
+}
+.lp-sticky__title {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 18px;
+  line-height: 21.6px;
+  font-weight: 500;
+  color: #000000;
+}
+.lp-sticky__sub {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+}
+@media screen(below-desktop) {
+  .lp-sticky { display: none; }
+}
+
+/* ---------- 3.2 hero ---------- */
+.lp-hero {
+  padding-top: 112px;
+  background: theme('colors.surface.DEFAULT');
+}
+.lp-hero__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+  padding: 24px 48px 56px;
+}
+/* Columns 742/570 at 1440 and 651/501 at 1280: a 1.3 : 1 split of the row. */
+.lp-hero__left {
+  display: flex;
+  flex: 1.3 1 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+  min-width: 0;
+}
+.lp-hero__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 26px;
+  width: 100%;
+}
+.lp-hero__h1 {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 56px;
+  line-height: 62.72px;
+  letter-spacing: -1.4px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+  text-align: left;
+}
+.lp-hero__sub {
+  max-width: 760px;
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 20px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #4e606a;
+  text-align: left;
+  white-space: pre-line;
+}
+.lp-hero__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+}
+.lp-hero__ctas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.lp-hero__right {
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  min-width: 0;
+}
+.lp-hero__video {
+  height: 532px;
+  flex: none;
+}
+.lp-hero__caption {
+  width: 100%;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 16px;
+  line-height: 17.6px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  text-align: left;
+}
+
+@media screen(below-desktop) {
+  .lp-hero { padding-top: 92px; }
+  .lp-hero__row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+    padding: 24px 20px 56px;
+  }
+  /* The live column is 130% of the row (946 at 768, 455 at 390) and overflows both sides;
+     the page clips it (reproduced defect, spec 3.2). */
+  .lp-hero__left,
+  .lp-hero__right {
+    flex: none;
+    width: 130%;
+  }
+  .lp-hero__heading {
+    align-items: center;
+    padding: 0 28px;
+  }
+  .lp-hero__tag .lp-tag__text {
+    font-size: 11px;
+    line-height: 11px;
+  }
+  .lp-hero__h1 {
+    font-size: 38px;
+    line-height: 42.56px;
+    letter-spacing: -0.95px;
+    text-align: center;
+  }
+  .lp-hero__sub {
+    font-size: 18px;
+    line-height: 26.1px;
+    text-align: center;
+  }
+  .lp-hero__ctas {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0 28px;
+  }
+  .lp-hero__ctas .lp-btn {
+    width: 100%;
+  }
+  .lp-hero__ctas .lp-btn:hover {
+    width: 100%;
+  }
+  .lp-hero__actions .lp-proof {
+    width: 100%;
+  }
+  .lp-hero__right { gap: 30px; }
+  .lp-hero__video { height: 277px; }
+  .lp-hero__caption {
+    font-family: theme('fontFamily.ppnm-medium');
+    font-size: 13px;
+    line-height: 14.3px;
+    font-weight: 500;
+    text-align: center;
+  }
+}
+@media screen(tablet) {
+  .lp-hero__row { padding: 24px 28px 56px; }
+}
+
+/* ---------- 3.3 feature-tiles ---------- */
+.lp-tiles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 48px;
+  background: theme('colors.surface.DEFAULT');
+  overflow: hidden;
+}
+.lp-tiles__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+.lp-tile {
+  position: relative;
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-width: 0;
+  height: 264px;
+  padding: 20px;
+  background: theme('colors.ink.vsq');
+  overflow: hidden;
+}
+.lp-tile::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  pointer-events: none;
+}
+.lp-tile__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Star Col 100x500, right edge 15px past the tile, bottom 109px below it
+   (1440: x+244 y-127 in a 329x264 tile; 768: y-185 in a 728x206 tile). */
+.lp-tile .lp-stars {
+  right: -15px;
+  bottom: -109px;
+  width: 100px;
+  height: 500px;
+  gap: 0;
+}
+.lp-tile .lp-stars__tile {
+  width: 100px;
+  height: 100px;
+}
+.lp-tile__title {
+  position: relative;
+  width: 80%;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 24px;
+  line-height: 26.4px;
+  letter-spacing: -0.48px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.lp-tile__tag {
+  position: relative;
+  padding: 4px 8px;
+  background: #34474e;
+  border-radius: 1px;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  overflow: hidden;
+}
+.lp-tile__tag::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1px;
+  pointer-events: none;
+}
+.lp-tile__tag p {
+  font-family: "Valley Landing Geist Mono", monospace;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.48px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+}
+@media screen(below-desktop) {
+  .lp-tiles { padding: 40px 20px; }
+  .lp-tiles__row { flex-direction: column; }
+  .lp-tile {
+    flex: none;
+    width: 100%;
+    height: 206px;
+  }
+}
+@media screen(tablet) {
+  .lp-tiles { padding: 40px 28px; }
+}
+
+/* ---------- 3.5 problem ---------- */
+.lp-problem {
+  padding: 56px 48px;
+  background: theme('colors.surface.DEFAULT');
+  overflow: clip;
+}
+.lp-problem__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.lp-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+.lp-h2 {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 40px;
+  line-height: 44.8px;
+  letter-spacing: -1px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+  text-align: center;
+}
+.lp-lead {
+  max-width: 760px;
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 20px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #4e606a;
+  text-align: center;
+}
+.lp-problem__strip {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #ffffff;
+  overflow: clip;
+}
+.lp-problem__hatch {
+  display: block;
+  width: 100%;
+  height: 56px;
+  object-fit: cover;
+}
+.lp-problem__cards {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+}
+.lp-pcard {
+  position: relative;
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  background: #ffffff;
+}
+.lp-pcard::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 1px 0 1px 1px;
+  pointer-events: none;
+}
+.lp-pcard:last-child::after {
+  border-width: 1px;
+}
+.lp-pcard__top {
+  width: 100%;
+  padding: 40px 30px;
+}
+.lp-pcard__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 19px;
+}
+.lp-pcard__heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 7.44828px;
+}
+.lp-pcard__title {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #000000;
+  /* Live title is 300 wide in a 290 column at 390 and does not wrap. */
+  white-space: nowrap;
+}
+.lp-pcard__body {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 16px;
+  line-height: 17.6px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+}
+.lp-pcard__tag {
+  position: relative;
+  padding: 6px 12px;
+  background: rgba(229, 229, 229, 0.4);
+  border-radius: 1px;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  overflow: hidden;
+}
+.lp-pcard__tag::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1px;
+  pointer-events: none;
+}
+.lp-pcard__tag p {
+  font-family: "Valley Landing Geist Mono", monospace;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.48px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+}
+.lp-pcard__art {
+  position: relative;
+  flex: none;
+  width: 100%;
+  height: 274px;
+  background: rgba(255, 255, 255, 0.21);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  overflow: hidden;
+}
+.lp-pcard__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Screenshot 327x238, top 44, left edge 319px from the card's right edge at every width. */
+.lp-pcard__shot {
+  position: absolute;
+  top: 44px;
+  left: calc(100% - 319px);
+  width: 327px;
+  height: 238px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 0.602187px 0.602187px 0px, rgba(0, 0, 0, 0.06) 0px 2.28853px 2.28853px 0px, rgba(0, 0, 0, 0.25) 0px 10px 10px 0px;
+}
+.lp-pcard__shot img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+@media screen(below-desktop) {
+  .lp-problem { padding: 56px 20px; }
+  .lp-problem__container { gap: 48px; }
+  .lp-problem .lp-tag__text {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .lp-h2 {
+    font-size: 30px;
+    line-height: 33.6px;
+    letter-spacing: -0.75px;
+  }
+  .lp-lead {
+    font-size: 18px;
+    line-height: 26.1px;
+  }
+  .lp-problem__hatch { display: none; }
+  .lp-problem__cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .lp-pcard { flex: none; width: 100%; }
+}
+@media screen(tablet) {
+  .lp-problem { padding: 56px 28px; }
+}
+
+/* ---------- 3.8 comparison ---------- */
+.lp-compare {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 56px 48px;
+  background: theme('colors.surface.DEFAULT');
+  overflow: hidden;
+}
+.lp-compare__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  width: 760px;
+  max-width: 100%;
+}
+.lp-compare__lines {
+  width: 100%;
+}
+.lp-compare__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+.lp-path {
+  position: relative;
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  min-width: 0;
+  padding: 28px;
+  background: theme('colors.surface.DEFAULT');
+  border-radius: 2px;
+}
+.lp-path::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  pointer-events: none;
+}
+.lp-path--hl {
+  background: #e8efef;
+  overflow: clip;
+}
+.lp-path__top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+}
+.lp-path__tag {
+  padding: 8px 10px;
+  background: theme('colors.surface.DEFAULT');
+  overflow: clip;
+}
+.lp-path__tag p {
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 12px;
+  line-height: 15.6px;
+  letter-spacing: 0.56px;
+  font-weight: 400;
+  color: theme('colors.accent.team');
+  white-space: nowrap;
+}
+.lp-path__kicker {
+  width: 100%;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 16px;
+  line-height: 21.6px;
+  font-weight: 500;
+  color: #405862;
+}
+.lp-path__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 7.44828px;
+  width: 100%;
+}
+.lp-path__title {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 24px;
+  line-height: 27.6px;
+  font-weight: 500;
+  color: theme('colors.ink.DEFAULT');
+}
+.lp-path__body,
+.lp-path__bullet p {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 18px;
+  line-height: 25.2px;
+  font-weight: 500;
+  color: #405862;
+}
+.lp-path__body {
+  white-space: pre-line;
+}
+.lp-path__cost {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 14px 16px;
+  background: theme('colors.surface.DEFAULT');
+  border-radius: 4px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  overflow: hidden;
+}
+.lp-path__cost::after,
+.lp-path__foot::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: inherit;
+  pointer-events: none;
+}
+.lp-path__cost-label {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 15px;
+  line-height: 20.25px;
+  letter-spacing: 0.15px;
+  font-weight: 500;
+  color: #405862;
+  text-transform: capitalize;
+}
+.lp-path__cost-value {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 36px;
+  line-height: 39.6px;
+  font-weight: 500;
+  color: theme('colors.ink.DEFAULT');
+}
+.lp-path__bullets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+.lp-path__bullet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+.lp-path__bullet .lp-path__dot {
+  flex: none;
+  width: 4px;
+  height: 4px;
+  background: #666666;
+  overflow: clip;
+}
+.lp-path__bullet p {
+  flex: 1 0 0px;
+  min-width: 0;
+}
+.lp-path__foot {
+  position: relative;
+  width: 100%;
+  padding: 8px 12px;
+  background: theme('colors.surface.DEFAULT');
+  border-radius: 1px;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  overflow: hidden;
+}
+.lp-path--hl .lp-path__foot {
+  border-radius: 2px;
+}
+.lp-path__foot p {
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 12px;
+  line-height: 16.2px;
+  letter-spacing: 0.48px;
+  font-weight: 400;
+  color: #405862;
+  text-transform: uppercase;
+  text-align: center;
+}
+@media screen(below-desktop) {
+  .lp-compare { padding: 56px 20px; }
+  .lp-compare__heading { gap: 18px; }
+  .lp-compare__row { flex-direction: column; }
+  .lp-path { flex: none; width: 100%; }
+}
+@media screen(tablet) {
+  .lp-compare { padding: 56px 28px; }
+}
+
+/* ---------- 3.9 demo (HubSpot booking) ---------- */
+.lp-demo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding: 80px 52px 120px;
+}
+.lp-demo__bg {
+  position: absolute;
+  inset: 0;
+  background-image: url('/assets/pages/landing/img/ceUkuYsnQN6G6F5pnloZWV1iU.png');
+  background-size: 136px 148px;
+  background-repeat: repeat;
+}
+.lp-demo__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  width: 100%;
+  padding: 40px;
+}
+.lp-demo__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+/* The live heading box is 765x202 around the two 67.2px lines (134); the remaining 68px is an
+   empty layer. Kept as a measured min-height. */
+.lp-demo__lines {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 202px;
+}
+.lp-demo__line {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 56px;
+  line-height: 67.2px;
+  letter-spacing: -1.12px;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+}
+.lp-demo__line--phone { display: none; }
+.lp-demo__frame {
+  flex: none;
+  width: 845px;
+  max-width: 100%;
+  height: 893px;
+  border: 0;
+  background: transparent;
+}
+@media screen(below-desktop) {
+  .lp-demo { padding: 60px 16px; }
+  .lp-demo__container { gap: 40px; padding: 0; }
+  .lp-demo .lp-tag__text {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .lp-demo__lines { min-height: 66px; width: 100%; }
+  .lp-demo__line { display: none; }
+  .lp-demo__line--phone {
+    display: block;
+    width: 100%;
+    font-size: 27px;
+    line-height: 32.4px;
+    letter-spacing: -0.54px;
+  }
+  .lp-demo__frame {
+    width: 100%;
+    height: 853px;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "content.hiring-cta",
+  "layer": "section",
+  "purpose": "Careers/hiring call-to-action block closing /about.",
+  "measuredFrom": "spec/pages/about.md (hiring, Frame 2085663186)",
+  "content": {
+    "type": "object",
+    "properties": { "h2": { "type": "string", "maxWords": 10 }, "ctaLabel": { "type": "string", "maxWords": 4 }, "ctaHref": { "type": "string" } },
+    "required": ["h2", "ctaLabel", "ctaHref"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "aboutRouteOnly" },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {}
+}

@@ -1,0 +1,101 @@
+/* /linkedin-automation quote section (spec 6 la-quote-reveal; dump [6]). Section height is
+   4.6 x the viewport at every captured size (4140 @900, 4710 @1024, 3882 @844); the stage is a
+   sticky 100vh block, so it pins for 3.6 viewports. */
+
+.la-quote {
+  position: relative;
+  height: 460vh;
+  background: #000;
+}
+.la-quote__stage {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 60px 40px;
+  /* Live: background-image only (no size/position captured); cover/centre assumed. */
+  background: url("/assets/pages/landing/img/D2Y8s7ddqFfxnp0I3xAHYq2wyB4.png") center / cover no-repeat;
+  overflow: hidden;
+}
+/* 800x800 circle, blur(100px), centred. No fill was captured for it (it measured as
+   transparent), so it is kept as an empty positioned layer. */
+.la-quote__glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  filter: blur(100px);
+  transform: translate(-400px, -400px);
+  pointer-events: none;
+}
+.la-quote__text {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  width: 900px;
+  max-width: 100%;
+  margin: 0;
+}
+.la-quote__word {
+  display: flex;
+}
+.la-quote__letter {
+  font: 400 40px/36px theme('fontFamily.ppnm-medium');
+  color: rgba(255, 255, 255, 0.4);
+  opacity: 0.7;
+  text-align: center;
+}
+.la-quote__author {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 60px;
+  text-align: center;
+}
+.la-quote__name {
+  font: 700 20px/normal theme('fontFamily.ppnm-medium');
+  letter-spacing: 2px;
+  color: #fff;
+}
+.la-quote__role {
+  font: 400 18px/normal theme('fontFamily.ppnm-medium');
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media screen(below-desktop) {
+  .la-quote__stage {
+    padding: 50px 20px;
+  }
+  .la-quote__glow {
+    width: 400px;
+    height: 400px;
+    filter: blur(50px);
+    transform: translate(-200px, -200px);
+  }
+  .la-quote__text {
+    gap: 8px;
+    width: 100%;
+    padding: 0 20px;
+  }
+  .la-quote__author {
+    margin-top: 40px;
+  }
+  .la-quote__name {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+  .la-quote__role {
+    font-size: 11px;
+    letter-spacing: 0.5px;
+  }
+}

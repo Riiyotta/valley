@@ -1,0 +1,23 @@
+{
+  "id": "hero.agency",
+  "layer": "section",
+  "purpose": "Agency-specific landing hero ('Keep the margin. Keep the client.'), unique to /linkedin-outreach-for-agencies.",
+  "composes": ["button"],
+  "measuredFrom": "spec/pages/landing.md:307-323",
+  "content": {
+    "type": "object",
+    "properties": {
+      "eyebrow": { "type": "string", "maxWords": 6 },
+      "h1": { "type": "string", "maxWords": 10 },
+      "sub": { "type": "string", "maxWords": 24 },
+      "ctaLabel": { "type": "string", "maxWords": 4 },
+      "ctaHref": { "type": "string", "const": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b" }
+    },
+    "required": ["h1", "sub", "ctaLabel", "ctaHref"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "mustBeFirstAfterNav": true, "routeRestriction": "agencyLandingOnly" },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": { "hero-watercolor": { "enum": "hero-visual-art", "generationPolicy": "may-generate-new", "guidance": "Abstract watercolor image; safe to AI-generate." } },
+  "pinnedValueNote": "ctaHref is PINNED (const) to the real Surface endpoint."
+}

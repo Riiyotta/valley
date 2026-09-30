@@ -1,0 +1,227 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://valley-design-repo/schema/pagespec.schema.json",
+  "title": "Valley PageSpec",
+  "description": "A generated page composition against the Valley design-repo. Structural/type validation lives here; per-section content-field validation (maxWords, required content fields) and template-node-sequence cross-referencing live in schema/semantic_validate.py, which reads sections/*.json and templates/templates.json directly as the single source of truth (avoiding duplicating 62 content contracts into this schema and risking drift).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["pageSpecVersion", "template", "route", "nodes"],
+  "properties": {
+    "pageSpecVersion": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "template": {
+      "type": "string",
+      "enum": [
+        "template.home", "template.pricing", "template.product", "template.about",
+        "template.compare", "template.playbooks", "template.landing-seo-template",
+        "template.landing-agency", "template.landing-tryvalley", "template.landing-automation",
+        "template.blog-index", "template.blog-archive", "template.blog-post",
+        "template.casestudies-index", "template.casestudy", "template.legal"
+      ]
+    },
+    "route": { "type": "string", "pattern": "^/" },
+    "nodes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/node" }
+    },
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string", "maxLength": 70 },
+        "description": { "type": "string", "maxLength": 200 }
+      }
+    }
+  },
+  "definitions": {
+    "node": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["section", "required", "repeatable", "content", "motion"],
+      "properties": {
+        "section": {
+          "type": "string",
+          "enum": [
+            "agency.margin-cards", "agency.paths", "agency.workflow-steps",
+            "automation.case-bento", "automation.feature-cards", "automation.hubspot-calendar",
+            "automation.product-tabs", "automation.quote-reveal", "automation.step-rows",
+            "cards.blog-grid", "cards.case-banner", "cards.casestudy-grid",
+            "cards.customer-logo-band", "cards.feature-tiles", "cards.logo-case-popup",
+            "cards.related-compact", "cards.video-testimonials", "cards.video-wall",
+            "casestudy.hero-stats", "casestudy.result-stats", "closing-cta.form",
+            "comparison.landing-cards", "comparison.widget", "content.article-body",
+            "content.backers", "content.hiring-cta", "content.legal-prose", "content.mission",
+            "content.post-header", "content.research-library", "content.team-grid",
+            "conversion.blog-cta", "conversion.waitlist-band", "endorsement.pinned",
+            "faq.accordion-detailed", "faq.flat-panel-standalone", "form.contact",
+            "hero.agency", "hero.automation", "hero.landing-template", "hero.marketing",
+            "hero.page-simple", "integrations.tools", "jobs.stack", "landing.hubspot-demo",
+            "landing.problem-cards", "landing.sticky-bar", "logos.migrated", "logos.wall",
+            "playbooks.library", "pricing.plans-faq", "pricing.plans-toggle",
+            "product.workflow-rows", "shell.footer", "shell.navbar", "showcase.product",
+            "steps.walkthrough", "stories.rotating", "team-fit.panel", "valley-magic.calendar",
+            "wall-of-love.grid", "wall-of-love.marquee-ticker"
+          ]
+        },
+        "required": { "type": "boolean" },
+        "repeatable": { "type": "boolean" },
+        "content": {
+          "type": "object",
+          "description": "Per-section content payload. Field-level contract (required fields, maxWords) is enforced by schema/semantic_validate.py against sections/<section>.json, not duplicated here."
+        },
+        "assetRefs": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/assetRef" }
+        },
+        "motion": { "$ref": "#/definitions/motion" }
+      },
+      "allOf": [
+        { "$ref": "#/definitions/polymorphicContentByCategory" },
+        { "$ref": "#/definitions/pinnedEndpointByCategory" }
+      ]
+    },
+    "pinnedEndpointByCategory": {
+      "description": "Defense-in-depth: the schema layer independently pins closing-cta.form.ctaHref to the real live Surface endpoint via `const`, duplicating (not replacing) the same fact semantic_validate.py checks against sections/closing-cta.form.json's own const. Two independent enforcement points for one compliance-critical fact, per MASTER-GUIDE.md 3.23.",
+      "if": { "properties": { "section": { "const": "closing-cta.form" } } },
+      "then": {
+        "properties": {
+          "content": {
+            "type": "object",
+            "properties": {
+              "ctaHref": { "const": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b" }
+            }
+          }
+        }
+      }
+    },
+    "polymorphicContentByCategory": {
+      "description": "Demonstrates the required draft-07 oneOf-of-independent-schemas pattern for a genuinely polymorphic field: the faq item shape differs completely between the flat-panel and accordion FAQ variants, and each branch is a FULLY INDEPENDENT schema (own properties + own additionalProperties:false), never a shared base + allOf patch, per MASTER-GUIDE.md's documented draft-07 trap.",
+      "if": {
+        "properties": { "section": { "const": "faq.flat-panel-standalone" } }
+      },
+      "then": {
+        "properties": {
+          "content": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["faqs"],
+            "properties": {
+              "faqs": {
+                "type": "array",
+                "minItems": 6,
+                "maxItems": 6,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["question", "answer"],
+                  "properties": {
+                    "question": { "type": "string" },
+                    "answer": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "else": {
+        "if": { "properties": { "section": { "const": "faq.accordion-detailed" } } },
+        "then": {
+          "properties": {
+            "content": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["faqs"],
+              "properties": {
+                "heading": { "type": "string" },
+                "faqs": {
+                  "type": "array",
+                  "minItems": 1,
+                  "maxItems": 10,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["question", "answer"],
+                    "properties": {
+                      "question": { "type": "string" },
+                      "answer": { "type": "string" },
+                      "variant": { "type": "string", "const": "accordion" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "assetRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["assetRole", "generationPolicy"],
+      "properties": {
+        "assetRole": {
+          "type": "string",
+          "enum": [
+            "hero-visual-art", "proof-avatar", "customer-logo", "competitor-logo",
+            "customer-photo", "employee-photo", "author-photo", "product-screenshot",
+            "editorial-card-image", "brand-animation"
+          ]
+        },
+        "generationPolicy": {
+          "type": "string",
+          "enum": ["may-generate-new", "must-reuse-exact", "must-not-fabricate", "must-not-reuse-live-endpoint"]
+        },
+        "assetSrc": { "type": "string" },
+        "alt": { "type": "string", "maxLength": 200 }
+      },
+      "allOf": [
+        {
+          "description": "PINNED-VALUE rule, not just enum membership (MASTER-GUIDE.md 3.23): customer-logo, competitor-logo, customer-photo, employee-photo, author-photo and brand-animation roles must NEVER use generationPolicy 'may-generate-new'. This is checked structurally here (schema layer) and re-verified per-role against tokens/llm/asset-role-registry.json by extraction/verify_all.py (ledger layer) — two independent enforcement points for the same compliance fact.",
+          "if": {
+            "properties": {
+              "assetRole": { "enum": ["customer-logo", "competitor-logo", "customer-photo", "employee-photo", "author-photo", "brand-animation"] }
+            }
+          },
+          "then": {
+            "properties": {
+              "generationPolicy": { "enum": ["must-reuse-exact", "must-not-fabricate", "must-not-reuse-live-endpoint"] }
+            }
+          }
+        }
+      ]
+    },
+    "motion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reducedMotionFallback"],
+      "properties": {
+        "pattern": {
+          "type": "string",
+          "enum": [
+            "none", "load-appear-or-none", "dot-blink", "scene-cross-fade-keyframes",
+            "carousel-reveal-keyframe", "scroll-pin", "step-nav-scroll-highlight",
+            "waapi-tab-progress", "tab-switch-fade", "panel-arrive-keyframe",
+            "continuous-marquee", "accordion-expand", "toggle-fade", "drawer-slide-in",
+            "sticky-stack-scroll", "light-pass-and-trace-redraw", "scroll-direction-slide",
+            "tag-hover-spring-scale", "appear-on-scroll", "hover-star-column-slide",
+            "hover-popup-reveal", "auto-step-slider-reveal", "cross-fade-bubbles",
+            "hover-invert", "scroll-driven-letter-reveal", "rive-state-machine"
+          ]
+        },
+        "keyframeRefs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "dot-blink", "vhv-source-in", "vhv-thread-in", "vhv-card-in", "vhv-detail-in",
+              "vcr-reveal", "ve-scroll-pulse", "vs-appear", "vs-connect", "vtf-arrive",
+              "vc-light-pass", "vc-trace-in"
+            ]
+          }
+        },
+        "reducedMotionFallback": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

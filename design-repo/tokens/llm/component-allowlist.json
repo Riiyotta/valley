@@ -1,0 +1,27 @@
+{
+  "allowlistVersion": "1.0.0",
+  "description": "Closed list of every id an AI generator may instantiate: primitives, components, and sections. Cross-checked 1:1 against real files on disk by extraction/verify_all.py (no phantom entries, no orphans).",
+  "primitives": ["button", "link", "badge", "avatar", "icon", "input", "select", "logo-mark", "tab", "divider"],
+  "components": ["card-base", "stat-block", "quote-block", "nav-bar", "footer-chrome", "tab-group", "logo-grid", "faq-item", "rich-text-block", "pinned-scroll-stage"],
+  "sections": [
+    "agency.margin-cards", "agency.paths", "agency.workflow-steps",
+    "automation.case-bento", "automation.feature-cards", "automation.hubspot-calendar",
+    "automation.product-tabs", "automation.quote-reveal", "automation.step-rows",
+    "cards.blog-grid", "cards.case-banner", "cards.casestudy-grid",
+    "cards.customer-logo-band", "cards.feature-tiles", "cards.logo-case-popup",
+    "cards.related-compact", "cards.video-testimonials", "cards.video-wall",
+    "casestudy.hero-stats", "casestudy.result-stats", "closing-cta.form",
+    "comparison.landing-cards", "comparison.widget", "content.article-body",
+    "content.backers", "content.hiring-cta", "content.legal-prose", "content.mission",
+    "content.post-header", "content.research-library", "content.team-grid",
+    "conversion.blog-cta", "conversion.waitlist-band", "endorsement.pinned",
+    "faq.accordion-detailed", "faq.flat-panel-standalone", "form.contact",
+    "hero.agency", "hero.automation", "hero.landing-template", "hero.marketing",
+    "hero.page-simple", "integrations.tools", "jobs.stack", "landing.hubspot-demo",
+    "landing.problem-cards", "landing.sticky-bar", "logos.migrated", "logos.wall",
+    "playbooks.library", "pricing.plans-faq", "pricing.plans-toggle",
+    "product.workflow-rows", "shell.footer", "shell.navbar", "showcase.product",
+    "steps.walkthrough", "stories.rotating", "team-fit.panel", "valley-magic.calendar",
+    "wall-of-love.grid", "wall-of-love.marquee-ticker"
+  ]
+}

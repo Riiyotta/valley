@@ -1,0 +1,24 @@
+{
+  "id": "button",
+  "layer": "primitive",
+  "description": "Interactive call-to-action element. No content contract beyond its own props.",
+  "measuredFrom": "CLONE_SPEC.md section 7 (nav CTA), section 8 (hero buttons); spec/pages/landing.md:113-116,289-297",
+  "props": {
+    "label": { "type": "string", "maxLength": 30 },
+    "variant": { "type": "string", "enum": ["primary-dark", "default-expanding", "cta-primary-3d", "ghost-footer", "text-link"] },
+    "href": { "type": "string", "format": "uri-or-relative-path" },
+    "icon": { "type": "string", "enum": ["none", "arrow-right", "external-arrow"] }
+  },
+  "tokens": {
+    "colors": "tokens/20-component/button.json",
+    "typography": "label.button"
+  },
+  "motion": {
+    "hover": ["scale-1.05-spring", "width-expand-spring", "shadow-press"],
+    "reducedMotionFallback": "instant color/opacity change only, no transform or width animation"
+  },
+  "accessibility": {
+    "role": "link-or-button depending on href presence",
+    "focusVisible": "required, real hairline outline per browser default (no custom focus ring measured on live site)"
+  }
+}

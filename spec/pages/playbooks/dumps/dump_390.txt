@@ -1,0 +1,609 @@
+
+=== SECTION 0 nav [] 0,0 390x68 tag=DIV
+  B <div> 0,0 390x68 pos=sticky top=auto
+  B <header Phone - Close> 0,0 390x68 pad=10px 20px bg=#f8f9f7 ovf=clip
+  B <div Mob Logo + Menu> 20,10 350x48 pad=0px 0px 0px 16px flex row gap=normal jc=space-between ai=center 
+  B <div> 36,20 99x29 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 99 29.078%22 overflow=%22visible%22><path d=%22M 6.402 0 L 14.539 8.137 L 11.738 11.071 L 
+  B <button Menu - Closed> 322,10 48x48 radius=2px ovf=hidden
+  B <div> 336,27 19x2 bg=#000000
+  B <div> 336,34 19x2 bg=#000000
+  B <div> 336,34 19x2 bg=#000000
+  B <div> 336,41 19x2 bg=#000000
+
+=== SECTION 1 playbooks [] 0,68 390x20211 tag=SECTION
+  B <section .vpl> 0,68 390x20211 bg=#f7f9f7
+  B <header .vpl-hero> 0,68 390x592 pad=60px 24px 48px 
+  T <span> 24,128 342x17 | PP Neue Montreal, Inter, Arial 11px/16.5px ls=1.1px w400 #4b6b7a tt=uppercase  | "The Valley playbook library"
+  T <h1> 24,169 342x166 | PP Neue Montreal, Inter, Arial 40px/41.6px ls=-1.6px w500 #1c292e  | "A better reason to reach out.
+A play for every one."
+  T <p> 24,363 342x114 | PP Neue Montreal, Inter, Arial 19px/28.5px ls=normal w400 #52616a  | "Ready-to-run outreach plays. Pick your starting signal, review the plan, and let Valley find, qualify, research and reach out."
+  T <a> 24,509 192x56 | PP Neue Montreal, Inter, Arial 16px/24px ls=normal w400 #ffffff pad=16px 24px bg=#18282d | "Start for free"
+  SVG 172,527 20x20 fill=none stroke=#ffffff color=#ffffff 
+  T <a> 24,587 342x26 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #1c292e  | "Explore the product ↗"
+  B <div .vpl-library> 0,660 390x19619 pad=0px 24px 
+  B <div .vpl-categories> 24,660 342x390 grid gap=12px cols=165px 165px jc=normal ai=normal 
+  B <button> 24,660 165x122 pad=15px flex column gap=normal jc=end ai=normal bg=#efefef bgi=linear-gradient(0deg, rgba(17, 35, 40, 0.94), rgba(17, 35, 40, 0.05)), url("https://framerusercontent.com/images/PFm0moxeBn8eOm66rVN2ssTio.png?scale-down-to=512") border=2px 2px 2px 2px solid #000000/0
+  T <span> 41,720 131x19 | PP Neue Montreal, Inter, Arial 16px/19.2px ls=normal w500 #ffffff ta=left  | "All plays"
+  T <small> 41,746 131x20 | PP Neue Montreal, Inter, Arial 13px/19.5px ls=normal w400 #e0e9e9 ta=left  | "58 plays"
+  B <button> 201,660 165x122 pad=15px flex column gap=normal jc=end ai=normal bg=#efefef bgi=linear-gradient(0deg, rgba(17, 35, 40, 0.94), rgba(17, 35, 40, 0.05)), url("https://framerusercontent.com/images/5WP0tI1lICNwC23waJVfpSCTTpE.png?scale-down-to=512") border=2px 2px 2px 2px solid #000000/0
+  T <span> 218,720 131x19 | PP Neue Montreal, Inter, Arial 16px/19.2px ls=normal w500 #ffffff ta=left  | "The basics"
+  T <small> 218,746 131x20 | PP Neue Montreal, Inter, Arial 13px/19.5px ls=normal w400 #e0e9e9 ta=left  | "7 plays"
+  B <button> 24,794 165x122 pad=15px flex column gap=normal jc=end ai=normal bg=#efefef bgi=linear-gradient(0deg, rgba(17, 35, 40, 0.94), rgba(17, 35, 40, 0.05)), url("https://framerusercontent.com/images/V5YzrhTWz6oX6qYDyJJzGKbRnIU.png?scale-down-to=512") border=2px 2px 2px 2px solid #000000/0
+  T <span> 41,835 131x38 | PP Neue Montreal, Inter, Arial 16px/19.2px ls=normal w500 #ffffff ta=left  | "Content & social signals"
+  T <small> 41,880 131x20 | PP Neue Montreal, Inter, Arial 13px/19.5px ls=normal w400 #e0e9e9 ta=left  | "9 plays"
+  B <button> 201,794 165x122 pad=15px flex column gap=normal jc=end ai=normal bg=#efefef bgi=linear-gradient(0deg, rgba(17, 35, 40, 0.94), rgba(17, 35, 40, 0.05)), url("https://framerusercontent.com/images/DzF7ltBGreQELkgImDCaxxldqH0.jpg?scale-down-to=512") border=2px 2px 2px 2px solid #000000/0
+  T <span> 218,854 131x19 | PP Neue Montreal, Inter, Arial 16px/19.2px ls=normal w500 #ffffff ta=left  | "Buying signals"
+  T <small> 218,880 131x20 | PP Neue Montreal, Inter, Arial 13px/19.5px ls=normal w400 #e0e9e9 ta=left  | "29 plays"
+  B <button> 24,928 165x122 pad=15px flex column gap=normal jc=end ai=normal bg=#efefef bgi=linear-gradient(0deg, rgba(17, 35, 40, 0.94), rgba(17, 35, 40, 0.05)), url("https://framerusercontent.com/images/PFm0moxeBn8eOm66rVN2ssTio.png?scale-down-to=512") border=2px 2px 2px 2px solid #000000/0
+  T <span> 41,969 131x38 | PP Neue Montreal, Inter, Arial 16px/19.2px ls=normal w500 #ffffff ta=left  | "Your lists & network"
+  T <small> 41,1014 131x20 | PP Neue Montreal, Inter, Arial 13px/19.5px ls=normal w400 #e0e9e9 ta=left  | "16 plays"
+  B <button> 201,928 165x122 pad=15px flex column gap=normal jc=end ai=normal bg=#efefef bgi=linear-gradient(0deg, rgba(17, 35, 40, 0.94), rgba(17, 35, 40, 0.05)), url("https://framerusercontent.com/images/5WP0tI1lICNwC23waJVfpSCTTpE.png?scale-down-to=512") border=2px 2px 2px 2px solid #000000/0
+  T <span> 218,969 131x38 | PP Neue Montreal, Inter, Arial 16px/19.2px ls=normal w500 #ffffff ta=left  | "Press, investors & advisors"
+  T <small> 218,1014 131x20 | PP Neue Montreal, Inter, Arial 13px/19.5px ls=normal w400 #e0e9e9 ta=left  | "3 plays"
+  B <div .vpl-toolbar> 24,1102 342x176 flex column gap=24px jc=space-between ai=stretch 
+  T <h2> 24,1102 342x45 | PP Neue Montreal, Inter, Arial 30px/45px ls=-0.6px w500 #1c292e  | "All plays"
+  T <span> 24,1151 56x17 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "58 plays"
+  B <label .vpl-search> 24,1197 342x82 flex column gap=7px jc=normal ai=normal 
+  T <span> 24,1197 342x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Search playbooks"
+  INPUT 24,1225 342x54 ph="Try hiring, competitors or LinkedIn…" font=PP Neue Montreal, Inter, Arial 17px/25.5px w400 color=#1c292e pad=13px 16px bg=#ffffff border=1px 1px 1px 1px solid #cfdad9 ovf=clip
+  B <div .vpl-grid> 24,1302 342x18612 grid gap=16px cols=342px jc=normal ai=normal 
+  B <a> 24,1302 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,1327 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,1328 98x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Popular play"
+  SVG 321,1327 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,1371 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Message your qualified profile viewers"
+  T <p> 49,1447 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Highly relevant outreach to people viewing your LinkedIn profile who fit your ICP."
+  B <div .vpl-card-foot> 49,1550 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,1569 68x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Runs daily"
+  T <span> 253,1569 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,1631 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,1656 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,1657 98x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Popular play"
+  SVG 321,1656 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,1700 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Message your competitors' engagers"
+  T <p> 49,1776 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "People engaging with a competitor you name. Already problem-aware, already shopping."
+  B <div .vpl-card-foot> 49,1878 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,1897 68x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Runs daily"
+  T <span> 253,1897 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,1959 342x287 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,1984 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,1985 98x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Popular play"
+  SVG 321,1984 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,2028 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Hiring for roles that signal your problem"
+  T <p> 49,2104 292x77 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "A job post is a company announcing a gap. Catch them while it hurts."
+  B <div .vpl-card-foot> 49,2181 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,2200 75x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Refills daily"
+  T <span> 253,2200 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,2262 342x283 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,2287 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,2288 98x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Popular play"
+  SVG 321,2287 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,2331 292x30 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Hijack lead-magnet posts"
+  T <p> 49,2377 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Find viral lead-magnet posts your audience engaged with, scrape the engagers, message the best fits."
+  B <div .vpl-card-foot> 49,2480 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,2499 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,2499 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,2561 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,2586 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,2587 98x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Popular play"
+  SVG 321,2586 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,2630 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Message your post engagers"
+  T <p> 49,2706 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "People reacting to and commenting on your posts, qualified and messaged."
+  B <div .vpl-card-foot> 49,2808 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,2827 68x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Runs daily"
+  T <span> 253,2827 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,2889 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,2914 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,2915 98x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Popular play"
+  SVG 321,2914 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,2958 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Publicly discussing a problem you solve"
+  T <p> 49,3034 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Companies and decision makers talking about your problem, out loud, on the record."
+  B <div .vpl-card-foot> 49,3137 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,3156 75x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Refills daily"
+  T <span> 253,3156 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,3218 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,3243 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,3244 98x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Popular play"
+  SVG 321,3243 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,3287 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Find companies with signal-based search"
+  T <p> 49,3363 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Companies and decision makers talking about your problem, out loud, on the record."
+  B <div .vpl-card-foot> 49,3465 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,3484 75x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Refills daily"
+  T <span> 253,3484 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,3546 342x343 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,3571 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,3572 98x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Popular play"
+  SVG 321,3571 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,3615 292x90 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Hyper-relevant messaging to a Sales Nav audience"
+  T <p> 49,3721 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Paste the search. Valley qualifies, researches, and writes for every person in it."
+  B <div .vpl-card-foot> 49,3824 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,3843 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,3843 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,3905 342x280 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,3930 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,3931 98x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Popular play"
+  SVG 321,3930 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,3974 292x30 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Just raised or acquired"
+  T <p> 49,4020 292x77 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "New money means new headcount, new tools, new urgency."
+  B <div .vpl-card-foot> 49,4120 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,4139 90x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Refills weekly"
+  T <span> 253,4139 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,4201 342x343 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,4226 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,4227 98x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Popular play"
+  SVG 321,4226 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,4270 292x90 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Message the post engagers of major influencers in your space"
+  T <p> 49,4376 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "The people commenting on the big accounts in your space are your buyers, pre-warmed."
+  B <div .vpl-card-foot> 49,4478 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,4497 68x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Runs daily"
+  T <span> 253,4497 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,4559 342x338 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,4584 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,4585 98x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Popular play"
+  SVG 321,4584 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,4628 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Companies running paid ads"
+  T <p> 49,4704 292x128 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Companies actively spending on paid ads right now, across Meta, Google, and LinkedIn. A live in-market budget signal."
+  B <div .vpl-card-foot> 49,4832 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,4851 75x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Refills daily"
+  T <span> 253,4851 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,4913 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,4938 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,4939 98x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Popular play"
+  SVG 321,4938 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,4982 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Clone your best customers"
+  T <p> 49,5058 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Companies that look exactly like your top ten accounts, found on the open web."
+  B <div .vpl-card-foot> 49,5161 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,5180 90x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Refills weekly"
+  T <span> 253,5180 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,5242 342x338 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,5267 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,5268 98x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Popular play"
+  SVG 321,5267 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,5311 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Message any post's engagers"
+  T <p> 49,5387 292x128 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Paste any LinkedIn posts, yours or anyone's. Valley scrapes everyone who engaged and messages the best fits."
+  B <div .vpl-card-foot> 49,5515 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,5534 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,5534 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,5596 342x283 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,5621 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,5622 98x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Popular play"
+  SVG 321,5621 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,5665 292x30 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Displace a competitor"
+  T <p> 49,5711 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Companies publicly using the tool you replace. The category is sold, the vendor is not."
+  B <div .vpl-card-foot> 49,5813 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,5832 90x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Refills weekly"
+  T <span> 253,5832 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,5894 342x287 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,5919 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,5920 98x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Popular play"
+  SVG 321,5919 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,5963 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Upload a list + send templated messages"
+  T <p> 49,6039 292x77 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "A proven three-step connect sequence that asks for the meeting."
+  B <div .vpl-card-foot> 49,6116 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,6135 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,6135 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,6197 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,6222 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,6223 98x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Popular play"
+  SVG 321,6222 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,6266 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Ambush a competitor's launch"
+  T <p> 49,6342 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Everyone engaging their launch post is evaluating. Get in the consideration set."
+  B <div .vpl-card-foot> 49,6445 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,6464 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,6464 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,6526 342x283 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,6551 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,6552 98x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Popular play"
+  SVG 321,6551 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,6595 292x30 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "New exec, new budget"
+  T <p> 49,6641 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "A just-hired VP or C-level in your buying seat rethinks the stack in their first 90 days."
+  B <div .vpl-card-foot> 49,6743 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,6762 90x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Refills weekly"
+  T <span> 253,6762 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,6824 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,6849 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,6850 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,6849 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,6893 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Hiring the role you replace"
+  T <p> 49,6969 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "They budgeted a salary for the problem. Offer them the software instead."
+  B <div .vpl-card-foot> 49,7072 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,7091 75x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Refills daily"
+  T <span> 253,7091 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,7153 342x283 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,7178 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,7179 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,7178 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,7222 292x30 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Catch competitor churn"
+  T <p> 49,7268 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "People publicly complaining about the tool they use are mid-switch. Be there."
+  B <div .vpl-card-foot> 49,7370 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,7389 75x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Refills daily"
+  T <span> 253,7389 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,7451 342x287 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,7476 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,7477 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,7476 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,7520 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Upload a list + send hyper-relevant messages"
+  T <p> 49,7596 292x77 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Your list, Valley’s brain. Every row needs a LinkedIn profile URL."
+  B <div .vpl-card-foot> 49,7673 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,7692 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,7692 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,7754 342x287 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,7779 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,7780 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,7779 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,7823 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Using complementary technology"
+  T <p> 49,7899 292x77 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Their stack tells you they are your buyer before they do."
+  B <div .vpl-card-foot> 49,7976 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,7995 90x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Refills weekly"
+  T <span> 253,7995 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,8057 342x283 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,8082 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,8083 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,8082 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,8126 292x30 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Mine your old viral post"
+  T <p> 49,8172 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "That post that popped six months ago is a prospect list nobody harvested."
+  B <div .vpl-card-foot> 49,8275 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,8294 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,8294 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,8356 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,8381 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,8382 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,8381 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,8425 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Message your company page followers"
+  T <p> 49,8501 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Your own company page. Valley pulls everyone who follows you and messages the best fits."
+  B <div .vpl-card-foot> 49,8603 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,8622 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,8622 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,8684 342x308 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,8709 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,8710 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,8709 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,8753 292x30 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Competitors' followers"
+  T <p> 49,8799 292x128 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Valley finds your competitors' LinkedIn pages and pulls everyone following them. They already care about your category."
+  B <div .vpl-card-foot> 49,8927 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,8946 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,8946 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,9008 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,9033 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,9034 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,9033 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,9077 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Clone your ICP by firmographics"
+  T <p> 49,9153 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Companies that match your ICP on size, industry, and geography, from Apollo firmographics."
+  B <div .vpl-card-foot> 49,9256 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,9275 75x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Refills daily"
+  T <span> 253,9275 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,9337 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,9362 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,9363 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,9362 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,9406 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Re-engage a previous campaign"
+  T <p> 49,9482 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "People who accepted your connect but never replied get a fresh motion, by stage reached."
+  B <div .vpl-card-foot> 49,9584 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,9603 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,9603 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,9665 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,9690 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,9691 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,9690 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,9734 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Harvest a testimonial post's engagers"
+  T <p> 49,9810 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "When a customer posts about you, everyone who liked it just raised a hand."
+  B <div .vpl-card-foot> 49,9913 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,9932 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,9932 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,9994 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,10019 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,10020 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,10019 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,10063 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Recently launched on Product Hunt"
+  T <p> 49,10139 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Companies that just shipped and are trending on Product Hunt, founders named."
+  B <div .vpl-card-foot> 49,10241 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,10260 75x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Refills daily"
+  T <span> 253,10260 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,10322 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,10347 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,10348 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,10347 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,10391 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Ask your network for intros"
+  T <p> 49,10467 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "A warm, low-pressure referral ask to first-degree connections who know your buyers."
+  B <div .vpl-card-foot> 49,10570 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,10589 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,10589 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,10651 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,10676 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,10677 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,10676 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,10720 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Follow through on your case study"
+  T <p> 49,10796 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Engagers of your own case-study post get the longer story, one to one."
+  B <div .vpl-card-foot> 49,10898 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,10917 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,10917 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,10979 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,11004 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,11005 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,11004 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,11048 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Shopify brands with a stack gap"
+  T <p> 49,11124 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Shopify DTC brands in your niche missing an app category you sell into."
+  B <div .vpl-card-foot> 49,11227 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,11246 75x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Refills daily"
+  T <span> 253,11246 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,11308 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,11333 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,11334 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,11333 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,11377 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Launched or partnered recently"
+  T <p> 49,11453 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "A launch or partnership in the last six months means motion, budget, and press to reference."
+  B <div .vpl-card-foot> 49,11555 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,11574 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,11574 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,11636 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,11661 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,11662 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,11661 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,11705 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Fastest-growing lists and awards"
+  T <p> 49,11781 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Inc 5000 types. Public proof of growth, and founders who love talking about it."
+  B <div .vpl-card-foot> 49,11884 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,11903 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,11903 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,11965 342x287 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,11990 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,11991 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,11990 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,12034 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Message your personal LinkedIn followers"
+  T <p> 49,12110 292x77 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "A follow is a hand raise. Valley finds the ones worth shaking."
+  B <div .vpl-card-foot> 49,12187 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,12206 68x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Runs daily"
+  T <span> 253,12206 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,12268 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,12293 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,12294 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,12293 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,12337 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Crossover a newsletter author's audience"
+  T <p> 49,12413 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "The engaged readership of a niche newsletter, reached where they actually reply."
+  B <div .vpl-card-foot> 49,12515 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,12534 83x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Runs weekly"
+  T <span> 253,12534 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,12596 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,12621 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,12622 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,12621 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,12665 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Companies at a target funding stage"
+  T <p> 49,12741 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Companies at the funding stage you target, optionally only ones that raised recently. Valley finds them."
+  B <div .vpl-card-foot> 49,12844 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,12863 75x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Refills daily"
+  T <span> 253,12863 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,12925 342x283 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,12950 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,12951 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,12950 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,12994 292x30 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Headcount surge"
+  T <p> 49,13040 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Companies growing over 20% a year are buying tools this quarter, not someday."
+  B <div .vpl-card-foot> 49,13142 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,13161 97x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Refills monthly"
+  T <span> 253,13161 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,13223 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,13248 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,13249 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,13248 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,13292 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Mine a conference before you get there"
+  T <p> 49,13368 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Engagers of the event and speaker posts, messaged before the booth even opens."
+  B <div .vpl-card-foot> 49,13471 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,13490 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,13490 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,13552 342x280 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,13577 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,13578 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,13577 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,13621 292x30 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Conference follow-up"
+  T <p> 49,13667 292x77 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Upload the attendee list, follow up while the badge scan is warm."
+  B <div .vpl-card-foot> 49,13767 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,13786 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,13786 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,13848 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,13873 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,13874 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,13873 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,13917 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Opening new offices or markets"
+  T <p> 49,13993 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Geographic expansion means new teams, new processes, and no incumbent vendors."
+  B <div .vpl-card-foot> 49,14095 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,14114 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,14114 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,14176 342x280 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,14201 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,14202 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,14201 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,14245 292x30 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Share a lead magnet"
+  T <p> 49,14291 292x77 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Give-first sequence that opens with the asset, not the ask."
+  B <div .vpl-card-foot> 49,14391 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,14410 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,14410 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,14472 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,14497 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,14498 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,14497 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,14541 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Catch podcast-clip engagers"
+  T <p> 49,14617 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "People engaging podcast clips in your niche are listening to someone about your problem."
+  B <div .vpl-card-foot> 49,14720 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,14739 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,14739 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,14801 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,14826 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,14827 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,14826 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,14870 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Modernizing off a legacy stack"
+  T <p> 49,14946 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Companies stuck on aging tools, found by the artifacts legacy software leaves in public."
+  B <div .vpl-card-foot> 49,15048 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,15067 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,15067 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,15129 342x280 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,15154 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,15155 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,15154 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,15198 292x30 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Invite a list to an event"
+  T <p> 49,15244 292x77 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Invite plus two reminders, timed around your event date."
+  B <div .vpl-card-foot> 49,15344 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,15363 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,15363 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,15425 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,15450 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,15451 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,15450 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,15494 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Reach ex-colleagues at new companies"
+  T <p> 49,15570 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "People who worked where you worked, now sitting in buying seats elsewhere."
+  B <div .vpl-card-foot> 49,15673 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,15692 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,15692 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,15754 342x283 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,15779 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,15780 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,15779 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,15823 292x30 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Find people with AI"
+  T <p> 49,15869 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Describe who you want to reach. Valley finds matching people on LinkedIn and builds your list."
+  B <div .vpl-card-foot> 49,15971 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,15990 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,15990 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,16052 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,16077 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,16078 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,16077 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,16121 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Recently PE-acquired or IPO’d"
+  T <p> 49,16197 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Ownership change resets every budget and every vendor relationship."
+  B <div .vpl-card-foot> 49,16300 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,16319 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,16319 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,16381 342x287 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,16406 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,16407 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,16406 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,16450 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Engage your first-degree network"
+  T <p> 49,16526 292x77 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "A slow, personal drip to people already in your network."
+  B <div .vpl-card-foot> 49,16603 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,16622 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,16622 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,16684 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,16709 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,16710 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,16709 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,16753 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "People talking about it on podcasts"
+  T <p> 49,16829 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Founders and leaders who discussed your problem on a podcast will discuss it with you."
+  B <div .vpl-card-foot> 49,16931 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,16950 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,16950 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,17012 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,17037 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,17038 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,17037 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,17081 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Message a synced Clay table"
+  T <p> 49,17157 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Your Clay workflows feed Valley continuously. New rows become outreach."
+  B <div .vpl-card-foot> 49,17260 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,17279 67x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "Syncs live"
+  T <span> 253,17279 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,17341 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,17366 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,17367 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,17366 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,17410 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Pitch journalists and analysts"
+  T <p> 49,17486 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "The people covering your category, found for you and pitched with a story, not a press release."
+  B <div .vpl-card-foot> 49,17588 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,17607 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,17607 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,17669 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,17694 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,17695 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,17694 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,17738 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Regulation with a deadline"
+  T <p> 49,17814 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "When a rule changes in your space, every affected company becomes in-market at once."
+  B <div .vpl-card-foot> 49,17917 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,17936 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,17936 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,17998 342x338 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,18023 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,18024 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,18023 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,18067 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Reach investors for your raise"
+  T <p> 49,18143 292x128 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Angels and VCs active in your category, found for you and approached with traction, not a cold deck."
+  B <div .vpl-card-foot> 49,18271 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,18290 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,18290 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,18352 342x283 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,18377 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,18378 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,18377 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,18421 292x30 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Recently rebranded"
+  T <p> 49,18467 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "A rebrand is a company mid-reinvention. Every process is up for review."
+  B <div .vpl-card-foot> 49,18569 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,18588 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,18588 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,18650 342x287 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,18675 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,18676 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,18675 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,18719 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Reach candidates engaging hiring content"
+  T <p> 49,18795 292x77 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "People engaging posts about roles like yours are quietly looking."
+  B <div .vpl-card-foot> 49,18872 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,18891 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,18891 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,18953 342x283 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,18978 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,18979 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,18978 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,19022 292x30 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Recruit advisors"
+  T <p> 49,19068 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "The operators you want around the table, found for you and approached with a real role."
+  B <div .vpl-card-foot> 49,19171 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,19190 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,19190 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,19252 342x313 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,19277 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,19278 86x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Valley play"
+  SVG 321,19277 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,19321 292x60 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Listed in partner directories"
+  T <p> 49,19397 292x103 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Agencies and consultancies in your ecosystem’s partner directories, already qualified by someone else."
+  B <div .vpl-card-foot> 49,19499 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,19518 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,19518 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <a> 24,19580 342x334 pad=24px flex column gap=normal jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedd trans=[background, border-color|0.18s, 0.18s|ease, ease|0s, 0s]
+  B <div .vpl-card-top> 49,19605 292x20 flex row gap=normal jc=space-between ai=center 
+  T <span> 49,19606 96x18 | PP Neue Montreal, Inter, Arial 12px/18px ls=0.72px w400 #396585 tt=uppercase  | "Coming soon"
+  SVG 321,19605 20x20 fill=none stroke=#396585 color=#396585 
+  T <h3> 49,19649 292x30 | PP Neue Montreal, Inter, Arial 25px/30px ls=-0.625px w500 #1c292e  | "Named accounts"
+  T <p> 49,19695 292x154 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a pad=0px 0px 26px  | "Bring the accounts you are going after. Valley groups the buyers at each, watches every account for buying signals, and drafts the opener the moment one fires."
+  B <div .vpl-card-foot> 49,19849 292x40 pad=18px 0px 0px flex row gap=12px jc=space-between ai=normal border=1px 0px 0px 0px solid #dbe3df b:#52616a
+  T <span> 49,19868 62x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a  | "One-time"
+  T <span> 253,19868 88x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52616a ta=right  | "LinkedIn only"
+  B <footer .vpl-bottom> 24,19914 342x365 pad=72px 0px 
+  T <h2> 24,19986 342x66 | PP Neue Montreal, Inter, Arial 30px/33px ls=-0.9px w500 #1c292e ta=center  | "Your next conversation has a starting point."
+  T <p> 24,20072 342x51 | PP Neue Montreal, Inter, Arial 17px/25.5px ls=normal w400 #52616a ta=center  | "Pick a play. Make it yours. Let Valley do the work."
+  T <a> 99,20151 192x56 | PP Neue Montreal, Inter, Arial 16px/24px ls=normal w400 #ffffff ta=center pad=16px 24px bg=#18282d | "Start for free"
+  SVG 247,20169 20x20 fill=none stroke=#ffffff color=#ffffff 
+
+=== SECTION 2 footer [] 0,20279 390x815 tag=DIV
+  B <div Phone> 0,20279 390x815 bg=#1c3036 ovf=hidden
+  B <footer .vf> 0,20279 390x815 bg=#1c3036
+  B <div .vf-inner> 0,20279 390x815 pad=40px 24px 24px 
+  B <div .vf-top> 24,20319 342x307 pad=0px 0px 48px grid gap=28px cols=342px jc=normal ai=center border=0px 0px 1px 0px none #f8f9f7 b:#ffffff/0.19
+  T <h2> 24,20319 342x111 | ValleyFooter, Arial 33px/36.96px ls=-1.155px w500 #f8f9f7  | "Find your people. Give them a reason to reply."
+  T <p> 24,20448 342x54 | ValleyFooter, Arial 18px/27px ls=normal w400 #c2d0d2  | "Find, qualify, research, and reach your next buyers across email and LinkedIn."
+  B <div .vf-actions> 24,20530 342x47 flex row gap=12px jc=flex-start ai=normal 
+  T <a> 24,20530 136x47 | ValleyFooter, Arial 16px/normal ls=normal w400 #1c3036 pad=13px 17px bg=#f8f9f7 border=1px 1px 1px 1px solid #f8f9f7 | "Start for free →"
+  T <a> 172,20530 126x47 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7 pad=13px 17px border=1px 1px 1px 1px solid #718589 | "Book a demo"
+  B <div .vf-links> 24,20626 342x371 pad=44px 0px grid gap=32px cols=155px 155px jc=normal ai=normal 
+  T <a> 24,20670 342x38 | ValleyFooter, Arial 30px/normal ls=-1.05px w500 #f8f9f7  | "Valley"
+  SVG 24,20670 38x38 fill=#f8f9f7 stroke=none color=#f8f9f7 
+  T <p> 24,20708 290x45 | ValleyFooter, Arial 15px/22.5px ls=normal w400 #bbcdce  | "Your outbound team. One connected platform."
+  T <a> 24,20753 89x14 | ValleyFooter, Arial 12px/normal ls=normal w400 #f8f9f7  | "hey@joinvalley.co"
+  B <nav> 24,20799 155x154 flex column gap=14px jc=normal ai=flex-start 
+  T <strong> 24,20799 106x14 | ValleyFooter, Arial 12px/normal ls=0.72px w400 #9eb6ba tt=uppercase  | "Explore Valley"
+  T <a> 24,20835 54x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Product"
+  T <a> 24,20868 74x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Customers"
+  T <a> 24,20901 64x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Agencies"
+  T <a> 24,20934 47x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Pricing"
+  B <nav> 211,20799 155x154 flex column gap=14px jc=normal ai=flex-start 
+  T <strong> 211,20799 82x14 | ValleyFooter, Arial 12px/normal ls=0.72px w400 #9eb6ba tt=uppercase  | "Learn more"
+  T <a> 211,20835 73x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Resources"
+  T <a> 211,20868 68x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "All articles"
+  T <a> 211,20901 83x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "About Valley"
+  T <a> 211,20934 41x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Log in"
+  B <div .vf-bottom> 24,20997 342x73 pad=24px 0px 0px flex row gap=18px jc=space-between ai=normal border=1px 0px 0px 0px solid #ffffff/0.19 b:#b4c7c9
+  T <span> 24,21022 150x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "© Valley. All rights reserved."
+  B <div> 24,21055 181x15 flex row gap=16px jc=normal ai=normal 
+  T <a> 24,21055 75x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "Privacy policy"
+  T <a> 115,21055 90x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "Terms of service"

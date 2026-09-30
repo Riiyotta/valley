@@ -1,0 +1,10 @@
+{
+  "id": "tab",
+  "layer": "primitive",
+  "description": "Single tab item, used by hero-visual scene tabs, showcase view tabs, integrations tool tabs, team-fit persona tabs.",
+  "measuredFrom": "CLONE_SPEC.md typography roles: hero tab label, showcase tab",
+  "props": {
+    "label": { "type": "string", "maxLength": 24 },
+    "active": { "type": "boolean" }
+  }
+}

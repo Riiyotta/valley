@@ -1,0 +1,66 @@
+/* /linkedin-automation "Calendar Section" (spec 6 la-calendar; dump [11]). */
+
+.la-cal {
+  position: relative;
+  background: #1d2a2e;
+  overflow: hidden;
+}
+.la-cal::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  pointer-events: none;
+}
+.la-cal__content {
+  position: relative;
+  background: #1d2a2e;
+  overflow: hidden;
+}
+.la-cal__content::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #e0e0e0;
+  pointer-events: none;
+}
+.la-cal__head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 58px;
+  padding: 95px 0 120px;
+}
+.la-cal__head h3 {
+  font: 500 42px/50.4px theme('fontFamily.ppnm-medium');
+  color: #fff;
+  text-align: center;
+}
+.la-cal__frame {
+  display: block;
+  width: 845px;
+  max-width: 100%;
+  height: 893px;
+  border: 0;
+}
+
+@media screen(below-desktop) {
+  .la-cal__content {
+    padding-bottom: 32px;
+  }
+  .la-cal__head {
+    align-items: flex-start;
+    gap: 24px;
+    padding: 42px 16px;
+  }
+  .la-cal__head h3 {
+    width: 100%;
+    font-size: 32px;
+    line-height: 38.4px;
+  }
+  .la-cal__frame {
+    width: 100%;
+    height: 876px;
+  }
+}

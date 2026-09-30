@@ -1,0 +1,100 @@
+
+##### integrations TAB 0 "Claude"
+  B <div .vgs-integration> 48,11632 1344x514 grid gap=normal cols=671px 671px jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedb
+  B <div .vgs-hub> 49,11633 671x512 pad=48px 32px bg=#eaf0ec
+  B <div .vgs-hub-center> 285,11681 200x132 pad=22px flex column gap=normal jc=normal ai=center bg=#fcfdf8 border=1px 1px 1px 1px solid #cfdbd4
+  SVG 369,11704 32x32 fill=#1c292e stroke=none color=#1c292e 
+  T <b> 348,11736 73x39 | PP Neue Montreal, Inter, Arial 26px/39px ls=normal w500 #1c292e  | "Valley"
+  T <span> 315,11775 139x15 | PP Neue Montreal, Inter, Arial 10px/15px ls=normal w400 #576d68  | "Research · Outreach · Replies"
+  SVG 81,11813 607x96 fill=none stroke=#96b2a2 color=#1c292e 
+  B <div .vgs-toolrow> 81,11916 607x85 grid gap=12px cols=194.328px 194.328px 194.328px jc=normal ai=normal 
+  T <span> 81,11916 194x85 | PP Neue Montreal, Inter, Arial 18px/27px ls=normal w400 #1c292e ta=center pad=17px 9px bg=#ffffff border=1px 1px 1px 1px solid #cddad3 | "Claude"
+  T <small> 91,11966 174x17 | PP Neue Montreal, Inter, Arial 11px/16.5px ls=normal w400 #526d63 ta=center  | "MCP"
+  T <span> 287,11916 194x85 | PP Neue Montreal, Inter, Arial 18px/27px ls=normal w400 #1c292e ta=center pad=17px 9px bg=#ffffff border=1px 1px 1px 1px solid #cddad3 | "ChatGPT"
+  T <small> 297,11966 174x17 | PP Neue Montreal, Inter, Arial 11px/16.5px ls=normal w400 #526d63 ta=center  | "MCP"
+  T <span> 494,11916 194x85 | PP Neue Montreal, Inter, Arial 18px/27px ls=normal w400 #1c292e ta=center pad=17px 9px bg=#ffffff border=1px 1px 1px 1px solid #cddad3 | "HubSpot"
+  T <small> 504,11966 174x17 | PP Neue Montreal, Inter, Arial 11px/16.5px ls=normal w400 #526d63 ta=center  | "CRM"
+  B <div .vgs-toolrow> 81,12016 607x80 grid gap=12px cols=297.5px 297.5px jc=normal ai=normal 
+  T <span> 81,12016 298x80 | PP Neue Montreal, Inter, Arial 15px/22.5px ls=normal w400 #1c292e ta=center pad=17px 9px border=1px 1px 1px 1px solid #cddad3 | "Your tools"
+  T <small> 91,12062 278x17 | PP Neue Montreal, Inter, Arial 11px/16.5px ls=normal w400 #526d63 ta=center  | "API + webhooks"
+  T <span> 391,12016 298x80 | PP Neue Montreal, Inter, Arial 15px/22.5px ls=normal w400 #1c292e ta=center pad=17px 9px border=1px 1px 1px 1px solid #cddad3 | "LinkedIn + email"
+  T <small> 401,12062 278x17 | PP Neue Montreal, Inter, Arial 11px/16.5px ls=normal w400 #526d63 ta=center  | "Connected accounts"
+  B <div .vgs-client> 720,11633 671x512 pad=32px 
+  B <div .vgs-tabs> 752,11665 607x52 flex row gap=24px jc=normal ai=normal border=0px 0px 1px 0px none #1c292e b:#d4dfd9
+  T <button> 752,11665 53x51 | PP Neue Montreal, Inter, Arial 16px/24px ls=normal w400 #19292e ta=center pad=10px 0px 15px border=0px 0px 2px 0px none #19292e b:#426f94 | "Claude"
+  T <button> 829,11665 68x51 | PP Neue Montreal, Inter, Arial 16px/24px ls=normal w400 #52636c ta=center pad=10px 0px 15px  | "ChatGPT"
+  T <button> 921,11665 26x51 | PP Neue Montreal, Inter, Arial 16px/24px ls=normal w400 #52636c ta=center pad=10px 0px 15px  | "API"
+  T <span> 752,11747 607x17 | PP Neue Montreal, Inter, Arial 11px/16.5px ls=0.88px w400 #4d7182  | "ASK IN CLAUDE"
+  T <p> 752,11777 607x60 | PP Neue Montreal, Inter, Arial 23px/29.9px ls=-0.46px w400 #1c292e  | "Find companies hiring for roles that signal a need for our product. Build a play and show me the plan before launch."
+  B <div .vgs-agent> 752,11865 607x88 pad=20px flex row gap=16px jc=normal ai=start bg=#f1f5ee
+  SVG 772,11885 32x32 fill=#1c292e stroke=none color=#1c292e 
+  T <p> 820,11885 519x48 | PP Neue Montreal, Inter, Arial 16px/24px ls=normal w400 #1c292e  | "Research the signal, find the buyers, and prepare the play for your review."
+  T <p> 752,11981 607x42 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52636c  | "Connect Valley to Claude with your workspace’s MCP address. You choose which actions connected tools can take."
+  T <a> 752,12049 211x52 | PP Neue Montreal, Inter, Arial 16px/24px ls=normal w400 #ffffff pad=14px 22px bg=#19292e | "Start with Valley"
+  SVG 920,12064 21x21 fill=none stroke=#ffffff color=#ffffff 
+##### integrations TAB 1 "ChatGPT"
+  B <div .vgs-integration> 48,11632 1344x514 grid gap=normal cols=671px 671px jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedb
+  B <div .vgs-hub> 49,11633 671x512 pad=48px 32px bg=#eaf0ec
+  B <div .vgs-hub-center> 285,11681 200x132 pad=22px flex column gap=normal jc=normal ai=center bg=#fcfdf8 border=1px 1px 1px 1px solid #cfdbd4
+  SVG 369,11704 32x32 fill=#1c292e stroke=none color=#1c292e 
+  T <b> 348,11736 73x39 | PP Neue Montreal, Inter, Arial 26px/39px ls=normal w500 #1c292e  | "Valley"
+  T <span> 315,11775 139x15 | PP Neue Montreal, Inter, Arial 10px/15px ls=normal w400 #576d68  | "Research · Outreach · Replies"
+  SVG 81,11813 607x96 fill=none stroke=#96b2a2 color=#1c292e 
+  B <div .vgs-toolrow> 81,11916 607x85 grid gap=12px cols=194.328px 194.328px 194.328px jc=normal ai=normal 
+  T <span> 81,11916 194x85 | PP Neue Montreal, Inter, Arial 18px/27px ls=normal w400 #1c292e ta=center pad=17px 9px bg=#ffffff border=1px 1px 1px 1px solid #cddad3 | "Claude"
+  T <small> 91,11966 174x17 | PP Neue Montreal, Inter, Arial 11px/16.5px ls=normal w400 #526d63 ta=center  | "MCP"
+  T <span> 287,11916 194x85 | PP Neue Montreal, Inter, Arial 18px/27px ls=normal w400 #1c292e ta=center pad=17px 9px bg=#ffffff border=1px 1px 1px 1px solid #cddad3 | "ChatGPT"
+  T <small> 297,11966 174x17 | PP Neue Montreal, Inter, Arial 11px/16.5px ls=normal w400 #526d63 ta=center  | "MCP"
+  T <span> 494,11916 194x85 | PP Neue Montreal, Inter, Arial 18px/27px ls=normal w400 #1c292e ta=center pad=17px 9px bg=#ffffff border=1px 1px 1px 1px solid #cddad3 | "HubSpot"
+  T <small> 504,11966 174x17 | PP Neue Montreal, Inter, Arial 11px/16.5px ls=normal w400 #526d63 ta=center  | "CRM"
+  B <div .vgs-toolrow> 81,12016 607x80 grid gap=12px cols=297.5px 297.5px jc=normal ai=normal 
+  T <span> 81,12016 298x80 | PP Neue Montreal, Inter, Arial 15px/22.5px ls=normal w400 #1c292e ta=center pad=17px 9px border=1px 1px 1px 1px solid #cddad3 | "Your tools"
+  T <small> 91,12062 278x17 | PP Neue Montreal, Inter, Arial 11px/16.5px ls=normal w400 #526d63 ta=center  | "API + webhooks"
+  T <span> 391,12016 298x80 | PP Neue Montreal, Inter, Arial 15px/22.5px ls=normal w400 #1c292e ta=center pad=17px 9px border=1px 1px 1px 1px solid #cddad3 | "LinkedIn + email"
+  T <small> 401,12062 278x17 | PP Neue Montreal, Inter, Arial 11px/16.5px ls=normal w400 #526d63 ta=center  | "Connected accounts"
+  B <div .vgs-client> 720,11633 671x512 pad=32px 
+  B <div .vgs-tabs> 752,11665 607x52 flex row gap=24px jc=normal ai=normal border=0px 0px 1px 0px none #1c292e b:#d4dfd9
+  T <button> 752,11665 53x51 | PP Neue Montreal, Inter, Arial 16px/24px ls=normal w400 #52636c ta=center pad=10px 0px 15px  | "Claude"
+  T <button> 829,11665 68x51 | PP Neue Montreal, Inter, Arial 16px/24px ls=normal w400 #19292e ta=center pad=10px 0px 15px border=0px 0px 2px 0px none #19292e b:#426f94 | "ChatGPT"
+  T <button> 921,11665 26x51 | PP Neue Montreal, Inter, Arial 16px/24px ls=normal w400 #52636c ta=center pad=10px 0px 15px  | "API"
+  T <span> 752,11747 607x17 | PP Neue Montreal, Inter, Arial 11px/16.5px ls=0.88px w400 #4d7182  | "ASK IN CHATGPT"
+  T <p> 752,11777 607x60 | PP Neue Montreal, Inter, Arial 23px/29.9px ls=-0.46px w400 #1c292e  | "Show me the replies that need attention and draft a relevant follow-up for each."
+  B <div .vgs-agent> 752,11865 607x88 pad=20px flex row gap=16px jc=normal ai=start bg=#f1f5ee
+  SVG 772,11885 32x32 fill=#1c292e stroke=none color=#1c292e 
+  T <p> 820,11885 519x48 | PP Neue Montreal, Inter, Arial 16px/24px ls=normal w400 #1c292e  | "Read the conversations, bring in their context, and prepare the next replies."
+  T <p> 752,11981 607x42 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52636c  | "Connect Valley through ChatGPT’s custom MCP connector setup. You choose which actions connected tools can take."
+  T <a> 752,12049 211x52 | PP Neue Montreal, Inter, Arial 16px/24px ls=normal w400 #ffffff pad=14px 22px bg=#19292e | "Start with Valley"
+  SVG 920,12064 21x21 fill=none stroke=#ffffff color=#ffffff 
+##### integrations TAB 2 "API"
+  B <div .vgs-integration> 48,11632 1344x514 grid gap=normal cols=671px 671px jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d4dedb
+  B <div .vgs-hub> 49,11633 671x512 pad=48px 32px bg=#eaf0ec
+  B <div .vgs-hub-center> 285,11681 200x132 pad=22px flex column gap=normal jc=normal ai=center bg=#fcfdf8 border=1px 1px 1px 1px solid #cfdbd4
+  SVG 369,11704 32x32 fill=#1c292e stroke=none color=#1c292e 
+  T <b> 348,11736 73x39 | PP Neue Montreal, Inter, Arial 26px/39px ls=normal w500 #1c292e  | "Valley"
+  T <span> 315,11775 139x15 | PP Neue Montreal, Inter, Arial 10px/15px ls=normal w400 #576d68  | "Research · Outreach · Replies"
+  SVG 81,11813 607x96 fill=none stroke=#96b2a2 color=#1c292e 
+  B <div .vgs-toolrow> 81,11916 607x85 grid gap=12px cols=194.328px 194.328px 194.328px jc=normal ai=normal 
+  T <span> 81,11916 194x85 | PP Neue Montreal, Inter, Arial 18px/27px ls=normal w400 #1c292e ta=center pad=17px 9px bg=#ffffff border=1px 1px 1px 1px solid #cddad3 | "Claude"
+  T <small> 91,11966 174x17 | PP Neue Montreal, Inter, Arial 11px/16.5px ls=normal w400 #526d63 ta=center  | "MCP"
+  T <span> 287,11916 194x85 | PP Neue Montreal, Inter, Arial 18px/27px ls=normal w400 #1c292e ta=center pad=17px 9px bg=#ffffff border=1px 1px 1px 1px solid #cddad3 | "ChatGPT"
+  T <small> 297,11966 174x17 | PP Neue Montreal, Inter, Arial 11px/16.5px ls=normal w400 #526d63 ta=center  | "MCP"
+  T <span> 494,11916 194x85 | PP Neue Montreal, Inter, Arial 18px/27px ls=normal w400 #1c292e ta=center pad=17px 9px bg=#ffffff border=1px 1px 1px 1px solid #cddad3 | "HubSpot"
+  T <small> 504,11966 174x17 | PP Neue Montreal, Inter, Arial 11px/16.5px ls=normal w400 #526d63 ta=center  | "CRM"
+  B <div .vgs-toolrow> 81,12016 607x80 grid gap=12px cols=297.5px 297.5px jc=normal ai=normal 
+  T <span> 81,12016 298x80 | PP Neue Montreal, Inter, Arial 15px/22.5px ls=normal w400 #1c292e ta=center pad=17px 9px border=1px 1px 1px 1px solid #cddad3 | "Your tools"
+  T <small> 91,12062 278x17 | PP Neue Montreal, Inter, Arial 11px/16.5px ls=normal w400 #526d63 ta=center  | "API + webhooks"
+  T <span> 391,12016 298x80 | PP Neue Montreal, Inter, Arial 15px/22.5px ls=normal w400 #1c292e ta=center pad=17px 9px border=1px 1px 1px 1px solid #cddad3 | "LinkedIn + email"
+  T <small> 401,12062 278x17 | PP Neue Montreal, Inter, Arial 11px/16.5px ls=normal w400 #526d63 ta=center  | "Connected accounts"
+  B <div .vgs-client> 720,11633 671x512 pad=32px 
+  B <div .vgs-tabs> 752,11665 607x52 flex row gap=24px jc=normal ai=normal border=0px 0px 1px 0px none #1c292e b:#d4dfd9
+  T <button> 752,11665 53x51 | PP Neue Montreal, Inter, Arial 16px/24px ls=normal w400 #52636c ta=center pad=10px 0px 15px  | "Claude"
+  T <button> 829,11665 68x51 | PP Neue Montreal, Inter, Arial 16px/24px ls=normal w400 #52636c ta=center pad=10px 0px 15px  | "ChatGPT"
+  T <button> 921,11665 26x51 | PP Neue Montreal, Inter, Arial 16px/24px ls=normal w400 #19292e ta=center pad=10px 0px 15px border=0px 0px 2px 0px none #19292e b:#426f94 | "API"
+  T <span> 752,11747 607x17 | PP Neue Montreal, Inter, Arial 11px/16.5px ls=0.88px w400 #4d7182  | "ASK IN API"
+  T <p> 752,11777 607x60 | PP Neue Montreal, Inter, Arial 23px/29.9px ls=-0.46px w400 #1c292e  | "Your CRM → Valley API → researched prospects → your workflow"
+  B <div .vgs-agent> 752,11865 607x88 pad=20px flex row gap=16px jc=normal ai=start bg=#f1f5ee
+  SVG 772,11885 32x32 fill=#1c292e stroke=none color=#1c292e 
+  T <p> 820,11885 519x48 | PP Neue Montreal, Inter, Arial 16px/24px ls=normal w400 #1c292e  | "Connect prospect data, campaign actions and results to the tools your team already runs."
+  T <p> 752,11981 607x42 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52636c  | "Use a workspace API key to connect your own tools and automations. You choose which actions connected tools can take."
+  T <a> 752,12049 211x52 | PP Neue Montreal, Inter, Arial 16px/24px ls=normal w400 #ffffff pad=14px 22px bg=#19292e | "Start with Valley"
+  SVG 920,12064 21x21 fill=none stroke=#ffffff color=#ffffff 

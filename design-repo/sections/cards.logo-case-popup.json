@@ -1,0 +1,25 @@
+{
+  "id": "cards.logo-case-popup",
+  "layer": "section",
+  "purpose": "Logo grid where hovering a customer's logo reveals a case-study popup card. Used on tryvalley ('Desktop' heading) and linkedin-automation ('Content' heading, different heading text).",
+  "composes": ["logo-mark", "badge"],
+  "measuredFrom": "spec/pages/landing.md:450-460,499",
+  "content": {
+    "type": "object",
+    "properties": {
+      "heading": { "type": "string", "maxWords": 20 },
+      "logos": { "type": "array", "minItems": 1, "maxItems": 20 },
+      "popups": {
+        "type": "array",
+        "items": { "type": "object", "properties": { "companyName": { "type": "string" }, "title": { "type": "string", "maxWords": 14 }, "icp": { "type": "string", "maxWords": 10 } }, "required": ["companyName", "title"], "additionalProperties": false }
+      }
+    },
+    "required": ["heading", "logos"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "tryvalleyOrAutomationOnly" },
+  "motion": { "pattern": "hover-popup-reveal", "reducedMotionFallback": "popup either never shows or shows instantly with no transition" },
+  "assetRoles": {
+    "customer-logo": { "enum": "customer-logo", "generationPolicy": "must-reuse-exact", "guidance": "Real company trademarks; logos link to the customer's own real external site (e.g. tacnode.io). Never AI-generate or alter." }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "content.research-library",
+  "layer": "section",
+  "purpose": "Promoted 'outbound research library' panel on the blog index, above the main post grid.",
+  "measuredFrom": "spec/pages/blog-index.md (Research library spacing > 2026 outbound research library)",
+  "content": {
+    "type": "object",
+    "properties": { "heading": { "type": "string", "maxWords": 8 }, "items": { "type": "array", "maxItems": 6 } },
+    "required": ["heading"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "blogIndexOnly" },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {}
+}

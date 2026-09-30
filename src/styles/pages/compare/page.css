@@ -1,0 +1,17 @@
+/* /compare page frame (spec/pages/compare.md section 1 and the Framer page module
+   source/ieNCbx3i...mjs): page bg #f8f9f7; wrapper "Complete outbound comparison" is a centered
+   column, max-width 1600px, top padding 100px (phone: 80px) to clear the fixed nav. */
+.cmp-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9f7;
+}
+.cmp-frame {
+  width: 100%;
+  max-width: 1600px;
+  padding-top: 100px;
+}
+@media screen(phone) {
+  .cmp-frame { padding-top: 80px; }
+}

@@ -1,0 +1,643 @@
+/* /about Framer layers. Values: spec/pages/about.md, the dumps, and the page module's Framer CSS
+   (spec/pages/about/source, framer-1O5F0 rules). Breakpoints are the homepage ones. Framer's
+   0.5px hairlines render as 1px at DPR 1 (measured), so they are written as 1px. The Tablet
+   (810-1199.98) rules come from the module and were not measured on live. */
+
+@font-face {
+  font-family: "Geist Mono Regular";
+  src: url("/assets/pages/about/fonts/Lmb0Q1R6W4GsaGVtHGnTyQsZCY.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.about-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: theme('colors.surface.DEFAULT');
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ab-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
+  width: 100%;
+}
+.ab-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  width: 100%;
+  max-width: 1600px;
+}
+.ab-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Shared section heading ("Our team", "Backed by great partners") */
+.ab-h {
+  flex: 1 0 0px;
+  width: 1px;
+  max-width: 960px;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 40px;
+  line-height: 44.8px;
+  letter-spacing: -1.2px;
+  font-weight: 500;
+  color: #1c292d;
+}
+
+/* ---------- about-hero ---------- */
+.ab-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  max-width: 1800px;
+  height: 624px;
+  padding: 132px 48px 0;
+}
+.ab-hero-group {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.ab-hero-panel {
+  position: absolute;
+  inset: 0;
+  background: #1a3037;
+}
+.ab-hero-art {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.62;
+}
+.ab-hero-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.ab-hero-text {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+  padding: 0 32px;
+}
+.ab-hero-tag {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 24px;
+  padding: 6px 12px;
+}
+.ab-hero-tag::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #ffffff;
+  pointer-events: none;
+}
+.ab-hero-tag p {
+  white-space: pre;
+  font-family: "Geist Mono Regular", monospace;
+  font-size: 12px;
+  line-height: 14.4px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.ab-hero-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+}
+.ab-hero-title {
+  flex: 1 0 0px;
+  width: 1px;
+  max-width: 960px;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 56px;
+  line-height: 62.72px;
+  letter-spacing: -1.68px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/* ---------- mission ---------- */
+.ab-mission {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  width: 100%;
+  padding: 0 48px;
+}
+.ab-mission-inner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.ab-mission-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+}
+.ab-mission-art {
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 24px;
+}
+.ab-mission-art::after,
+.ab-mission-letter::after,
+.ab-mission-list::after,
+.ab-cell::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 0 solid rgba(0, 0, 0, 0.25);
+  pointer-events: none;
+}
+.ab-mission-art::after { border-width: 1px; }
+.ab-mission-art-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.ab-mission-painting {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.ab-mission-shapes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 334px;
+  height: 297px;
+  mix-blend-mode: hard-light;
+}
+.ab-mission-shapes img { position: absolute; }
+/* Framer insets inside the 334x297 group, sizes = the extracted SVGs. */
+.ab-shape-1 { top: -1px; left: -1px; width: 148px; height: 152px; }
+.ab-shape-2 { top: -1px; left: 184px; width: 149px; height: 152px; }
+.ab-shape-3 { top: 101px; left: 34px; width: 265px; height: 195px; }
+.ab-shape-4 { top: 24px; left: 217px; width: 25px; height: 24px; }
+.ab-shape-5 { top: 69px; left: 231px; width: 25px; height: 25px; }
+.ab-shape-6 { top: 100px; left: 167px; width: 41px; height: 41px; }
+.ab-shape-7 { top: 172px; left: 66px; width: 28px; height: 29px; }
+.ab-mission-letter {
+  position: relative;
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 1px;
+  overflow: hidden;
+}
+.ab-mission-letter::after { border-width: 1px 1px 1px 0; }
+.ab-mission-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  padding: 32px;
+  overflow: hidden;
+}
+.ab-mission-title {
+  width: 100%;
+  max-width: 960px;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 40px;
+  line-height: 44.8px;
+  letter-spacing: -1.2px;
+  font-weight: 500;
+  color: #1c292d;
+}
+.ab-mission-text {
+  width: 100%;
+  max-width: 760px;
+}
+.ab-mission-text p {
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 20px;
+  line-height: 31px;
+  font-weight: 400;
+  color: #4e606a;
+}
+/* Framer paragraph spacing = one line (31px desktop, 27.9px phone; measured). */
+.ab-mission-text p + p { margin-top: 1.55em; }
+.ab-mission-text a,
+.ab-mission-name a {
+  color: #002669;
+  text-decoration: none;
+}
+/* Framer link hover: #000 + underline, instant (states/interactions.txt). */
+.ab-mission-text a:hover,
+.ab-mission-name a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+.ab-mission-sign {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+}
+.ab-mission-signature {
+  width: 221px;
+  height: 75px;
+  background: url("/assets/pages/about/svg/13-mission-signature-221x75.svg") center / 100% 100% no-repeat;
+}
+.ab-mission-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  padding: 24px;
+}
+.ab-mission-list::after { border-top-width: 1px; }
+.ab-mission-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  white-space: pre;
+}
+.ab-mission-name p {
+  font-family: "Geist Mono Regular", monospace;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* ---------- team ---------- */
+.ab-team {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  padding: 0 48px;
+}
+.ab-team-head {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  padding: 24px 0;
+}
+.ab-team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(50px, 1fr));
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+  grid-auto-rows: minmax(0, 1fr);
+  justify-content: center;
+  gap: 0;
+  width: 100%;
+}
+.ab-cell {
+  position: relative;
+  align-self: start;
+  justify-self: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  padding: 24px;
+  overflow: hidden;
+}
+.ab-cell::after { border-width: 1px 1px 0 1px; }
+.ab-cell--closed::after { border-width: 1px; }
+.ab-sig-box {
+  position: relative;
+  width: 100%;
+  height: 82px;
+  overflow: hidden;
+}
+.ab-sig {
+  position: absolute;
+  opacity: 0.5;
+}
+.ab-sig img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.ab-sig-1 { height: 89%; left: 0; top: calc(50% - 44.5122%); width: 157px; }
+.ab-sig-2 { bottom: 2px; height: 76%; left: 1px; width: 294px; }
+.ab-sig-3 { aspect-ratio: 2.927203 / 1; height: auto; left: 0; top: 50%; transform: translateY(-50%); width: 196px; }
+.ab-sig-4 { aspect-ratio: 3.145028 / 1; bottom: -6px; left: -6px; top: -5px; width: auto; }
+.ab-sig-5 { aspect-ratio: 3.855183 / 1; bottom: 0; left: 1px; top: 0; width: auto; }
+.ab-sig-6 { aspect-ratio: 6.211957 / 1; height: auto; left: 0; top: 50%; transform: translateY(-50%); width: 296px; }
+.ab-sig-7 { aspect-ratio: 4.1875 / 1; bottom: 0; left: 0; top: 0; width: auto; }
+.ab-sig-8 { aspect-ratio: 4.867133 / 1; height: auto; left: 0; top: 49%; transform: translateY(-50%); width: 348px; }
+.ab-sig-9 { aspect-ratio: 2.455227 / 1; bottom: 0; left: 0; top: 0; width: auto; }
+.ab-sig-10 { aspect-ratio: 2.828614 / 1; height: auto; left: 0; top: 50%; transform: translateY(-50%); width: 229px; }
+.ab-sig-11 { aspect-ratio: 3.429448 / 1; height: auto; left: 0; top: 50%; transform: translateY(-50%); width: 236px; }
+.ab-sig-12 { aspect-ratio: 4.695609 / 1; height: auto; left: 1px; top: 50%; transform: translateY(-50%); width: 277px; }
+.ab-cell-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.ab-role {
+  white-space: pre;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+.ab-linkedin {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 8px 12px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.ab-linkedin-icon {
+  display: block;
+  flex: none;
+  width: 22px;
+  height: 22px;
+  color: #39779a;
+}
+.ab-linkedin-icon svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+/* Hover (Framer variant swap, instant): icon 22 -> 24px, #39779a -> rgba(0,0,0,.8). */
+.ab-linkedin:hover .ab-linkedin-icon {
+  width: 24px;
+  height: 24px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* ---------- backers ---------- */
+.ab-backers {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1600px;
+  padding: 72px 48px;
+}
+.ab-backers-col {
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  width: 1px;
+}
+.ab-backers-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  width: 100%;
+}
+.ab-backers-head .ab-h { flex: none; width: 100%; }
+.ab-backers-strip {
+  position: relative;
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+}
+.ab-backers-logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 576px);
+  width: 1152px;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-width: 0 1px;
+  max-width: none;
+}
+
+/* ---------- hiring ---------- */
+.ab-hiring {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  max-width: 1800px;
+  height: 768px;
+  padding: 0 48px;
+}
+.ab-hiring-panel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #1a3037;
+}
+.ab-hiring-art {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 768px;
+  opacity: 0.62;
+}
+.ab-hiring-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.ab-hiring-content {
+  position: absolute;
+  bottom: 42px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+  width: 46%;
+}
+.ab-hiring-title {
+  width: 100%;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 56px;
+  line-height: 62.72px;
+  letter-spacing: -1.68px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.ab-hiring-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 8px;
+  width: min-content;
+}
+.ab-hiring-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: min-content;
+  height: 40px;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+.ab-hiring-btn span {
+  white-space: pre;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+}
+.ab-hiring-btn img { flex: none; width: 16px; height: 16px; }
+.ab-hiring-btn--light {
+  background: #ffffff;
+  color: #000000;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+.ab-hiring-btn--dark {
+  background: rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+}
+
+/* ---------- Tablet (810-1199.98): layout from the page module; text sizes and the backers
+   strip measured on the live page at 1024 and 900 (not in the spec) ---------- */
+@media screen(tablet) {
+  .ab-hero-title,
+  .ab-hiring-title { font-size: 44px; line-height: 49.28px; letter-spacing: -1.32px; }
+  .ab-mission-title,
+  .ab-h { font-size: 36px; line-height: 40.32px; letter-spacing: -1.08px; }
+  .ab-top { gap: 56px; }
+  .ab-hero { padding: 132px 28px 0; }
+  .ab-mission, .ab-team { padding: 0 28px; }
+  .ab-mission-art { align-self: auto; order: 0; position: sticky; top: 0; z-index: 1; }
+  .ab-mission-art-inner { height: 508px; }
+  .ab-shape-1, .ab-shape-2 { height: 28%; width: 14%; }
+  .ab-shape-3 { height: 49%; width: 68%; }
+  .ab-shape-4, .ab-shape-5, .ab-shape-7 { height: 0; width: 0; }
+  .ab-shape-6 { height: 20%; width: 19%; }
+  .ab-mission-letter { order: 1; }
+  .ab-mission-letter::after { border-left-width: 1px; }
+  .ab-sig-1 { height: 73px; top: calc(50% - 36.5px); }
+  .ab-sig-2 { height: 62px; }
+  .ab-sig-3 { aspect-ratio: auto; height: 67px; top: calc(50% - 33.5px); transform: none; }
+  .ab-sig-4 { aspect-ratio: auto; bottom: auto; height: 93px; width: 293px; }
+  .ab-sig-5 { aspect-ratio: auto; bottom: auto; height: 82px; width: 316px; }
+  .ab-sig-6 { aspect-ratio: auto; height: 48px; top: calc(50% - 24px); transform: none; }
+  .ab-sig-7 { aspect-ratio: auto; bottom: auto; height: 82px; width: 344px; }
+  .ab-sig-8 { aspect-ratio: auto; height: 72px; top: calc(48.7805% - 35.75px); transform: none; }
+  .ab-sig-9 { aspect-ratio: auto; bottom: auto; height: 82px; width: 200px; }
+  .ab-sig-10 { aspect-ratio: auto; height: 81px; top: calc(50% - 40.5px); transform: none; }
+  .ab-sig-11 { aspect-ratio: auto; height: 69px; top: calc(50% - 34.5px); transform: none; }
+  .ab-sig-12 { aspect-ratio: auto; height: 59px; top: calc(50% - 29.5px); transform: none; }
+  .ab-backers { padding: 56px 28px; }
+  .ab-backers-strip { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; height: auto; padding: 0; }
+  .ab-backers-logo { position: relative; top: auto; bottom: auto; left: auto; height: 144px; width: 100%; border-width: 1px 1px 0; }
+  .ab-hiring { height: 523px; padding: 0 28px; }
+  .ab-hiring-content { bottom: 42px; width: 63%; }
+}
+
+/* ---------- Phone (<= 809.98), measured at 768 and 390 ---------- */
+@media screen(phone) {
+  .ab-top { gap: 48px; }
+  .ab-hero { height: auto; padding: 112px 20px 0; }
+  .ab-hero-group { height: 546px; }
+  .ab-hero-art { height: 546px; top: calc(50% - 273px); left: calc(50% - 50%); }
+  .ab-hero-art img { object-position: 64.1% 41.5%; }
+  .ab-hero-text { align-items: center; padding: 0 20px; }
+  .ab-hero-title { font-size: 38px; line-height: 42.56px; letter-spacing: -1.14px; text-align: center; }
+
+  .ab-mission, .ab-team { padding: 0 20px; }
+  .ab-mission-row { flex-direction: column; }
+  .ab-mission-art { align-self: auto; height: 495px; width: 100%; }
+  .ab-mission-art-inner { height: 447px; }
+  .ab-mission-letter { width: 100%; flex: none; }
+  .ab-mission-letter::after { border-left-width: 1px; }
+  .ab-mission-body { padding: 24px; }
+  .ab-mission-title { font-size: 30px; line-height: 33.6px; letter-spacing: -0.9px; }
+  .ab-mission-text p { font-size: 18px; line-height: 27.9px; }
+
+  .ab-h { font-size: 30px; line-height: 33.6px; letter-spacing: -0.9px; }
+  .ab-team-grid { display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; }
+  .ab-cell { align-self: auto; }
+  .ab-cell:nth-child(2) { height: 194px; }
+  .ab-sig-box { overflow: visible; }
+  .ab-sig-box-2 { height: 56%; width: 294px; }
+  .ab-role { flex: 1 0 0px; width: 1px; white-space: pre-wrap; word-break: break-word; overflow-wrap: break-word; }
+  .ab-sig-1 { height: 83%; top: calc(50% - 41.4634%); width: 147px; }
+  .ab-sig-2 { bottom: 4px; height: 73%; left: calc(46.5986% - 137px); width: 274px; }
+  .ab-sig-3 { aspect-ratio: auto; height: 68%; top: calc(50% - 34.1463%); transform: none; width: 55%; }
+  .ab-sig-4 { aspect-ratio: auto; bottom: auto; height: 96%; left: 0; top: calc(50% - 48.1707%); width: 84%; }
+  .ab-sig-5 { aspect-ratio: auto; bottom: auto; height: 79%; top: calc(50% - 39.6341%); width: 79%; }
+  .ab-sig-6 { aspect-ratio: auto; height: 46%; left: 1px; top: calc(50% - 23.1707%); transform: none; width: 79%; }
+  .ab-sig-7 { aspect-ratio: auto; bottom: auto; height: 60%; left: 1px; top: calc(50% - 29.878%); width: 68%; }
+  .ab-sig-8 { aspect-ratio: auto; height: 56%; top: calc(48.7805% - 28.0488%); transform: none; width: 79%; }
+  .ab-sig-9 { aspect-ratio: auto; bottom: auto; height: 82%; top: calc(50% - 40.8537%); width: 56%; }
+  .ab-sig-10 { aspect-ratio: auto; height: 87%; top: calc(50% - 43.2927%); transform: none; width: 68%; }
+  .ab-sig-11 { aspect-ratio: auto; height: 67%; top: calc(50% - 33.5366%); transform: none; width: 64%; }
+  .ab-sig-12 { aspect-ratio: auto; height: 52%; top: calc(50% - 26.2195%); transform: none; width: 68%; }
+
+  .ab-backers { padding: 48px 20px; }
+  .ab-backers-strip { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; height: 80px; padding: 0; }
+  .ab-backers-logo { top: auto; bottom: auto; left: auto; height: 100%; width: 342px; }
+
+  .ab-hiring { height: 250px; padding: 0 20px; order: 1; }
+  .ab-hiring-content { align-items: center; justify-content: flex-start; bottom: 41px; gap: 24px; left: 50%; transform: translateX(-50%); width: 80%; }
+  .ab-hiring-title { font-size: 38px; line-height: 42.56px; letter-spacing: -1.14px; text-align: center; }
+  .ab-hiring-buttons { width: 100%; }
+  .ab-hiring-btn { flex: 1 0 0px; width: 1px; }
+}

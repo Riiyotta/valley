@@ -1,0 +1,113 @@
+## h2
+  n=23 posts=['claude-code-guide-', 'linkedin-outreach-', 'sales-kpi-definiti', 'silent-killer-of-s'] w=[760] {"color": "#1c292d", "font": "PP Neue Montreal Medium, PP Neue Montreal Medium", "lh": "40.12px", "ls": "-0.85px", "margin": "20px 0px 0px", "size": "34px", "w": "500"} gaps: {'20px after p': 16, '20px after ul': 4, '20px after img': 1, '20px after h2': 1, '20px after ol': 1}
+  n=17 posts=['claude-code-guide-', 'integrate-aisdr-to', 'linkedin-outreach-', 'sales-kpi-definiti', 'silent-killer-of-s', 'skylead-alternativ'] w=[760] {"color": "#1c292d", "font": "PP Neue Montreal Medium, PP Neue Montreal Medium", "lh": "44.8px", "ls": "-1.2px", "size": "40px", "w": "500"} gaps: {}
+## p
+  n=348 posts=['claude-code-guide-', 'integrate-aisdr-to', 'linkedin-outreach-', 'sales-kpi-definiti', 'silent-killer-of-s', 'skylead-alternativ'] w=[760] {"color": "#4e606a", "font": "PP Neue Montreal Variable, PP Neue Montreal Variable", "lh": "31px", "ls": "normal", "margin": "20px 0px 0px", "size": "20px", "w": "400"} gaps: {'20px after p': 173, '20px after h3': 71, '20px after ol': 44, '20px after ul': 20, '20px after img': 12}
+  n=10 posts=['claude-code-guide-', 'integrate-aisdr-to', 'linkedin-outreach-', 'sales-kpi-definiti', 'silent-killer-of-s', 'skylead-alternativ'] w=[760] {"color": "#4e606a", "font": "PP Neue Montreal Variable, PP Neue Montreal Variable", "lh": "31px", "ls": "normal", "size": "20px", "w": "400"} gaps: {}
+## p>em
+  n=14 posts=['claude-code-guide-', 'integrate-aisdr-to', 'linkedin-outreach-', 'sales-kpi-definiti', 'silent-killer-of-s', 'skylead-alternativ'] w=[477, 478, 484, 498] {"color": "#4e606a", "font": "Inter, Inter", "lh": "31px", "ls": "normal", "size": "20px", "style": "italic", "w": "400"} gaps: {}
+## p>strong
+  n=96 posts=['claude-code-guide-', 'linkedin-outreach-', 'sales-kpi-definiti', 'skylead-alternativ'] w=[203, 204, 337, 645] {"color": "#4e606a", "font": "Inter, Inter", "lh": "31px", "ls": "normal", "size": "20px", "w": "700"} gaps: {'-24px after a': 5, '-24px after strong': 2, '131px after strong': 1, '7px after strong': 1, '-26px after code': 1}
+## p>a
+  n=56 posts=['claude-code-guide-', 'integrate-aisdr-to', 'linkedin-outreach-', 'sales-kpi-definiti', 'silent-killer-of-s', 'skylead-alternativ'] w=[68, 77, 143, 722] {"color": "#002669", "cursor": "pointer", "font": "PP Neue Montreal Variable, PP Neue Montreal Variable", "lh": "31px", "ls": "normal", "size": "20px", "w": "400"} gaps: {'-24px after strong': 6, '-24px after em': 2, '7px after em': 1, '7px after a': 1}
+## p>a>strong
+  n=26 posts=['claude-code-guide-', 'integrate-aisdr-to', 'linkedin-outreach-', 'sales-kpi-definiti', 'silent-killer-of-s', 'skylead-alternativ'] w=[77, 198, 303, 380] {"color": "#002669", "font": "Inter, Inter", "lh": "31px", "ls": "normal", "size": "20px", "w": "700"} gaps: {}
+## figure
+  n=4 posts=['claude-code-guide-', 'linkedin-outreach-', 'sales-kpi-definiti', 'skylead-alternativ'] w=[760] {"::before": "content=\"Compare the details \u00b7 Scroll across to see every column \u2192\" sticky 760pxx19.5px top=auto left=0px bg=#000000/0 color=#53676e font=13px/19.5px sans-serif border=0px #53676e", "color": "#000000", "font": "sans-serif", "lh": "normal", "ls": "normal", "margin": "28px 0px", "maxw": "100%", "ovf": "auto", "pad": "0px 0px 12px", "size": "12px", "w": "400"} gaps: {'28px after p': 3, '28px after h3': 1}
+## figure>table
+  n=4 posts=['claude-code-guide-', 'linkedin-outreach-', 'sales-kpi-definiti', 'skylead-alternativ'] w=[760, 1440] {"border": "1px 1px 1px 1px solid #e8e8e8", "color": "#000000", "font": "sans-serif", "lh": "22.5px", "ls": "normal", "ovf": "hidden", "radius": "8px", "size": "15px", "w": "400"} gaps: {}
+## figure>table>tbody>tr
+  n=29 posts=['claude-code-guide-', 'linkedin-outreach-', 'sales-kpi-definiti', 'skylead-alternativ'] w=[759, 1439] {"color": "#000000", "font": "sans-serif", "lh": "22.5px", "ls": "normal", "size": "15px", "w": "400"} gaps: {'0px after tr': 25}
+## table>tbody>tr>th
+  n=7 posts=['claude-code-guide-', 'skylead-alternativ'] w=[190, 253] {"bg": "#e8eeea", "border": "1px 1px 1px 1px solid #d5dedb", "color": "#20373b", "font": "sans-serif", "lh": "22.5px", "ls": "normal", "pad": "18px 20px", "size": "15px", "w": "500"} gaps: {'-59px after th': 5}
+## tbody>tr>th>p
+  n=7 posts=['claude-code-guide-', 'skylead-alternativ'] w=[149, 212] {"color": "#4e606a", "font": "PP Neue Montreal Variable, PP Neue Montreal Variable", "lh": "22.5px", "ls": "normal", "size": "15px", "w": "400"} gaps: {}
+## table>tbody>tr>td
+  n=89 posts=['claude-code-guide-', 'linkedin-outreach-', 'sales-kpi-definiti', 'skylead-alternativ'] w=[190, 253, 288] {"bg": "#fbfcf9", "border": "1px 1px 1px 1px solid #d5dedb", "color": "#35494f", "font": "sans-serif", "lh": "22.5px", "ls": "normal", "pad": "18px 20px", "size": "15px", "w": "400"} gaps: {'-59px after td': 30, '-82px after td': 17, '-104px after td': 15, '-127px after td': 2}
+  n=8 posts=['linkedin-outreach-', 'sales-kpi-definiti'] w=[253, 288] {"bg": "#e8eeea", "border": "1px 1px 1px 1px solid #d5dedb", "color": "#20373b", "font": "sans-serif", "lh": "22.5px", "ls": "normal", "pad": "18px 20px", "size": "15px", "w": "500"} gaps: {'-59px after td': 6}
+## tbody>tr>td>p
+  n=97 posts=['claude-code-guide-', 'linkedin-outreach-', 'sales-kpi-definiti', 'skylead-alternativ'] w=[149, 212, 247] {"color": "#4e606a", "font": "PP Neue Montreal Variable, PP Neue Montreal Variable", "lh": "22.5px", "ls": "normal", "size": "15px", "w": "400"} gaps: {}
+## CTA img
+  n=18 posts=['claude-code-guide-', 'integrate-aisdr-to', 'linkedin-outreach-', 'sales-kpi-definiti', 'silent-killer-of-s', 'skylead-alternativ'] w=[760] {"color": "#000000", "fit": "cover", "font": "sans-serif", "lh": "normal", "ls": "normal", "ovf": "clip", "size": "12px", "w": "400"} gaps: {}
+## CTA h2
+  n=18 posts=['claude-code-guide-', 'integrate-aisdr-to', 'linkedin-outreach-', 'sales-kpi-definiti', 'silent-killer-of-s', 'skylead-alternativ'] w=[251] {"color": "#000000", "font": "PP Neue Montreal Medium, PP Neue Montreal Medium", "lh": "39.2px", "ls": "normal", "size": "28px", "w": "400"} gaps: {}
+## h3
+  n=69 posts=['claude-code-guide-', 'linkedin-outreach-', 'sales-kpi-definiti', 'skylead-alternativ'] w=[760] {"color": "#1c292d", "font": "PP Neue Montreal Medium, PP Neue Montreal Medium", "lh": "31.2px", "ls": "-0.52px", "margin": "20px 0px 0px", "size": "26px", "w": "500"} gaps: {'20px after p': 45, '20px after ul': 16, '20px after h2': 7, '20px after img': 1}
+  n=4 posts=['linkedin-outreach-', 'skylead-alternativ'] w=[760] {"color": "#1c292d", "font": "PP Neue Montreal Medium, PP Neue Montreal Medium", "lh": "31.2px", "ls": "-0.52px", "size": "26px", "w": "500"} gaps: {}
+## img
+  n=14 posts=['claude-code-guide-', 'integrate-aisdr-to', 'linkedin-outreach-', 'sales-kpi-definiti', 'silent-killer-of-s'] w=[720] {"color": "#000000", "fit": "fill", "font": "sans-serif", "lh": "normal", "ls": "normal", "maxw": "100%", "ovf": "clip", "size": "12px", "w": "400"} gaps: {'0px after p': 9, '0px after h2': 3}
+## h5
+  n=4 posts=['integrate-aisdr-to', 'silent-killer-of-s'] w=[760] {"color": "#000000", "font": "PP Neue Montreal Medium, PP Neue Montreal Medium", "lh": "28px", "ls": "normal", "margin": "40px 0px 0px", "size": "20px", "w": "400"} gaps: {'40px after p': 3, '40px after ol': 1}
+  n=2 posts=['integrate-aisdr-to', 'silent-killer-of-s'] w=[760] {"color": "#000000", "font": "PP Neue Montreal Medium, PP Neue Montreal Medium", "lh": "28px", "ls": "normal", "size": "20px", "w": "400"} gaps: {}
+## h5>strong
+  n=4 posts=['integrate-aisdr-to'] w=[274] {"color": "#000000", "font": "PP Neue Montreal Medium, PP Neue Montreal Medium", "lh": "28px", "ls": "normal", "size": "20px", "w": "400"} gaps: {}
+## h6
+  n=1 posts=['integrate-aisdr-to'] w=[760] {"color": "#000000", "font": "PP Neue Montreal Medium, PP Neue Montreal Medium", "lh": "22.4px", "ls": "normal", "margin": "40px 0px 0px", "size": "16px", "w": "400"} gaps: {'40px after p': 1}
+## ul
+  n=44 posts=['claude-code-guide-', 'linkedin-outreach-', 'sales-kpi-definiti', 'silent-killer-of-s'] w=[760] {"color": "#000000", "font": "Inter, Inter", "lh": "19.2px", "list": "disc outside", "ls": "normal", "size": "16px", "w": "400"} gaps: {'0px after p': 37, '0px after ol': 5, '0px after h3': 1, '0px after h2': 1}
+## ul>li
+  n=44 posts=['claude-code-guide-', 'linkedin-outreach-', 'sales-kpi-definiti', 'silent-killer-of-s'] w=[760] {"::before": "content=\"\u2022\" absolute 7.17188pxx31px top=0px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a", "color": "#4e606a", "font": "PP Neue Montreal Variable, PP Neue Montreal Variable", "lh": "31px", "list": "none outside", "ls": "normal", "marker": "normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable", "pad": "0px 0px 0px 24.6796px", "size": "20px", "w": "400"} gaps: {}
+  n=41 posts=['claude-code-guide-', 'linkedin-outreach-', 'sales-kpi-definiti', 'silent-killer-of-s'] w=[760] {"::before": "content=\"\u2022\" absolute 7.17188pxx31px top=31px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a", "color": "#4e606a", "font": "PP Neue Montreal Variable, PP Neue Montreal Variable", "lh": "31px", "list": "none outside", "ls": "normal", "marker": "normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable", "pad": "0px 0px 0px 24.6796px", "size": "20px", "w": "400"} gaps: {'0px after li': 41}
+  n=39 posts=['claude-code-guide-', 'linkedin-outreach-', 'sales-kpi-definiti', 'silent-killer-of-s'] w=[760] {"::before": "content=\"\u2022\" absolute 7.17188pxx31px top=62px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a", "color": "#4e606a", "font": "PP Neue Montreal Variable, PP Neue Montreal Variable", "lh": "31px", "list": "none outside", "ls": "normal", "marker": "normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable", "pad": "0px 0px 0px 24.6796px", "size": "20px", "w": "400"} gaps: {'0px after li': 39}
+  n=37 posts=['claude-code-guide-', 'linkedin-outreach-', 'sales-kpi-definiti', 'silent-killer-of-s'] w=[760] {"::before": "content=\"\u2022\" absolute 7.17188pxx31px top=93px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a", "color": "#4e606a", "font": "PP Neue Montreal Variable, PP Neue Montreal Variable", "lh": "31px", "list": "none outside", "ls": "normal", "marker": "normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable", "pad": "0px 0px 0px 24.6796px", "size": "20px", "w": "400"} gaps: {'0px after li': 37}
+## ul>li>p
+  n=178 posts=['claude-code-guide-', 'linkedin-outreach-', 'sales-kpi-definiti', 'silent-killer-of-s'] w=[735] {"color": "#4e606a", "font": "PP Neue Montreal Variable, PP Neue Montreal Variable", "lh": "31px", "ls": "normal", "size": "20px", "w": "400"} gaps: {}
+## ul>li>p>code
+  n=16 posts=['claude-code-guide-'] w=[33] {"bg": "#000000/0.1", "color": "#333333", "font": "Fragment Mono, monospace", "lh": "31px", "ls": "normal", "pad": "2px 4px", "radius": "6px", "size": "20px", "w": "400"} gaps: {'-28px after code': 4}
+## p>code
+  n=12 posts=['claude-code-guide-'] w=[82] {"bg": "#000000/0.1", "color": "#333333", "font": "Fragment Mono, monospace", "lh": "31px", "ls": "normal", "pad": "2px 4px", "radius": "6px", "size": "20px", "w": "400"} gaps: {'-26px after strong': 4, '-28px after code': 2}
+## ul>li>p>strong
+  n=74 posts=['claude-code-guide-', 'linkedin-outreach-', 'sales-kpi-definiti'] w=[62, 269, 374] {"color": "#4e606a", "font": "Inter, Inter", "lh": "31px", "ls": "normal", "size": "20px", "w": "700"} gaps: {}
+## h4
+  n=5 posts=['claude-code-guide-'] w=[760] {"color": "#000000", "font": "PP Neue Montreal Medium, PP Neue Montreal Medium", "lh": "42px", "ls": "normal", "margin": "40px 0px 0px", "size": "42px", "w": "400"} gaps: {'40px after p': 4, '40px after h2': 1}
+## h4>strong
+  n=6 posts=['claude-code-guide-'] w=[688] {"color": "#000000", "font": "PP Neue Montreal Medium, PP Neue Montreal Medium", "lh": "42px", "ls": "normal", "size": "42px", "w": "700"} gaps: {'-55px after code': 1}
+## h4>code
+  n=1 posts=['claude-code-guide-'] w=[121] {"bg": "#000000/0.1", "color": "#333333", "font": "Fragment Mono, monospace", "lh": "42px", "ls": "normal", "pad": "4.2px 8.4px", "radius": "6px", "size": "42px", "w": "400"} gaps: {'-54px after strong': 1}
+## h4>code>strong
+  n=1 posts=['claude-code-guide-'] w=[104] {"color": "#333333", "font": "Fragment Mono, monospace", "lh": "42px", "ls": "normal", "size": "42px", "w": "700"} gaps: {}
+## p>a>em
+  n=3 posts=['claude-code-guide-'] w=[205] {"color": "#002669", "font": "Inter, Inter", "lh": "31px", "ls": "normal", "size": "20px", "style": "italic", "w": "400"} gaps: {}
+## blockquote
+  n=1 posts=['sales-kpi-definiti'] w=[760] {"::before": "content=\" \" absolute 4pxx160px top=0px left=0px bg=#dddddd color=#000000 font=12px/normal sans-serif border=0px #000000", "color": "#000000", "font": "sans-serif", "lh": "normal", "ls": "normal", "margin": "20px 0px 0px", "pad": "0px 0px 0px 24px", "size": "12px", "w": "400"} gaps: {'20px after p': 1}
+## blockquote>p
+  n=1 posts=['sales-kpi-definiti'] w=[736] {"color": "#000000", "font": "PP Neue Montreal Medium, PP Neue Montreal Medium", "lh": "40px", "ls": "normal", "size": "20px", "w": "400"} gaps: {}
+## h2>strong
+  n=6 posts=['sales-kpi-definiti'] w=[97] {"color": "#1c292d", "font": "PP Neue Montreal SemiBold, PP Neue Montreal SemiBold", "lh": "40.12px", "ls": "-0.85px", "size": "34px", "w": "600"} gaps: {}
+## h3>strong
+  n=35 posts=['sales-kpi-definiti'] w=[310] {"color": "#1c292d", "font": "PP Neue Montreal SemiBold, PP Neue Montreal SemiBold", "lh": "31.2px", "ls": "-0.52px", "size": "26px", "w": "600"} gaps: {}
+## tr>td>p>strong
+  n=11 posts=['sales-kpi-definiti'] w=[60] {"color": "#4e606a", "font": "Inter, Inter", "lh": "22.5px", "ls": "normal", "size": "15px", "w": "700"} gaps: {}
+## ol
+  n=51 posts=['linkedin-outreach-', 'sales-kpi-definiti', 'silent-killer-of-s'] w=[760] {"color": "#000000", "font": "Inter, Inter", "lh": "19.2px", "list": "decimal outside", "ls": "normal", "size": "16px", "w": "400"} gaps: {'0px after p': 46, '0px after ul': 4, '0px after h5': 1}
+## ol>li
+  n=41 posts=['sales-kpi-definiti', 'silent-killer-of-s'] w=[760] {"::before": "content=counter(list-item) \".\" absolute 38.7344pxx42px top=0px left=0px bg=#000000/0 color=#000000 font=42px/42px PP Neue Montreal Medium, PP Neue Montreal Medium border=0px #000000", "color": "#000000", "font": "PP Neue Montreal Medium, PP Neue Montreal Medium", "lh": "42px", "list": "none outside", "ls": "normal", "marker": "normal #000000 42px PP Neue Montreal Medium, PP Neue Montreal Medium", "pad": "0px 0px 0px 53.34px", "size": "42px", "w": "400"} gaps: {}
+  n=9 posts=['linkedin-outreach-', 'silent-killer-of-s'] w=[760] {"::before": "content=counter(list-item) \".\" absolute 17.3125pxx31px top=0px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a", "color": "#4e606a", "font": "PP Neue Montreal Variable, PP Neue Montreal Variable", "lh": "31px", "list": "none outside", "ls": "normal", "marker": "normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable", "pad": "0px 0px 0px 24.6796px", "size": "20px", "w": "400"} gaps: {}
+  n=9 posts=['linkedin-outreach-', 'silent-killer-of-s'] w=[760] {"::before": "content=counter(list-item) \".\" absolute 17.3125pxx31px top=62px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a", "color": "#4e606a", "font": "PP Neue Montreal Variable, PP Neue Montreal Variable", "lh": "31px", "list": "none outside", "ls": "normal", "marker": "normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable", "pad": "0px 0px 0px 24.6796px", "size": "20px", "w": "400"} gaps: {'0px after li': 9}
+  n=8 posts=['linkedin-outreach-', 'silent-killer-of-s'] w=[760] {"::before": "content=counter(list-item) \".\" absolute 17.3125pxx31px top=31px left=0px bg=#000000/0 color=#4e606a font=20px/31px PP Neue Montreal Variable, PP Neue Montreal Variable border=0px #4e606a", "color": "#4e606a", "font": "PP Neue Montreal Variable, PP Neue Montreal Variable", "lh": "31px", "list": "none outside", "ls": "normal", "marker": "normal #4e606a 20px PP Neue Montreal Variable, PP Neue Montreal Variable", "pad": "0px 0px 0px 24.6796px", "size": "20px", "w": "400"} gaps: {'0px after li': 8}
+## ol>li>h4
+  n=41 posts=['sales-kpi-definiti', 'silent-killer-of-s'] w=[707] {"color": "#000000", "font": "PP Neue Montreal Medium, PP Neue Montreal Medium", "lh": "42px", "ls": "normal", "size": "42px", "w": "400"} gaps: {}
+## ol>li>h4>strong
+  n=37 posts=['sales-kpi-definiti'] w=[459] {"color": "#000000", "font": "PP Neue Montreal Medium, PP Neue Montreal Medium", "lh": "42px", "ls": "normal", "size": "42px", "w": "700"} gaps: {}
+## h2>em
+  n=1 posts=['sales-kpi-definiti'] w=[675] {"color": "#1c292d", "font": "PP Neue Montreal Medium, PP Neue Montreal Medium", "lh": "40.12px", "ls": "-0.85px", "size": "34px", "style": "italic", "w": "500"} gaps: {}
+## h2>em>strong
+  n=1 posts=['sales-kpi-definiti'] w=[675] {"color": "#1c292d", "font": "PP Neue Montreal Medium, PP Neue Montreal Medium", "lh": "40.12px", "ls": "-0.85px", "size": "34px", "style": "italic", "w": "700"} gaps: {}
+## h1
+  n=1 posts=['silent-killer-of-s'] w=[760] {"color": "#1c292d", "font": "PP Neue Montreal Medium, PP Neue Montreal Medium", "lh": "44.8px", "ls": "-1.2px", "margin": "20px 0px 0px", "size": "40px", "w": "500"} gaps: {'20px after p': 1}
+## ol>li>p
+  n=38 posts=['linkedin-outreach-', 'silent-killer-of-s'] w=[735] {"color": "#4e606a", "font": "PP Neue Montreal Variable, PP Neue Montreal Variable", "lh": "31px", "ls": "normal", "size": "20px", "w": "400"} gaps: {}
+## ol>li>p>a
+  n=2 posts=['silent-killer-of-s'] w=[110] {"color": "#002669", "cursor": "pointer", "font": "PP Neue Montreal Variable, PP Neue Montreal Variable", "lh": "31px", "ls": "normal", "size": "20px", "w": "400"} gaps: {}
+## ol>li>h3
+  n=1 posts=['silent-killer-of-s'] w=[727] {"color": "#1c292d", "font": "PP Neue Montreal Medium, PP Neue Montreal Medium", "lh": "31.2px", "ls": "-0.52px", "size": "26px", "w": "500"} gaps: {}
+## ol>li>h4>a
+  n=1 posts=['silent-killer-of-s'] w=[468] {"color": "#002669", "cursor": "pointer", "font": "PP Neue Montreal Medium, PP Neue Montreal Medium", "lh": "42px", "ls": "normal", "size": "42px", "w": "400"} gaps: {}
+## ul>li>p>a
+  n=1 posts=['silent-killer-of-s'] w=[147] {"color": "#002669", "cursor": "pointer", "font": "PP Neue Montreal Variable, PP Neue Montreal Variable", "lh": "31px", "ls": "normal", "size": "20px", "w": "400"} gaps: {}
+## tr>td>p>a
+  n=3 posts=['linkedin-outreach-'] w=[37] {"color": "#002669", "cursor": "pointer", "font": "PP Neue Montreal Variable, PP Neue Montreal Variable", "lh": "22.5px", "ls": "normal", "size": "15px", "w": "400"} gaps: {}
+## codeblock div>span
+  n=91 posts=['linkedin-outreach-'] w=[17] {"color": "#eeeeee", "font": "Fragment Mono, monospace", "lh": "21px", "ls": "normal", "size": "14px", "w": "400"} gaps: {'-17px after span': 82}
+## ol>li>p>strong
+  n=23 posts=['linkedin-outreach-'] w=[263] {"color": "#4e606a", "font": "Inter, Inter", "lh": "31px", "ls": "normal", "size": "20px", "w": "700"} gaps: {}

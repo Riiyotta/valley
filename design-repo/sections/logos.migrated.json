@@ -1,0 +1,28 @@
+{
+  "id": "logos.migrated",
+  "layer": "section",
+  "purpose": "Landing-page 'Variant 1' migrated-off competitor comparison logo grid (template + agency pages).",
+  "composes": ["logo-grid", "badge"],
+  "measuredFrom": "spec/pages/landing.md:180-194",
+  "content": {
+    "type": "object",
+    "properties": {
+      "heading": { "type": "string", "maxWords": 12 },
+      "competitors": { "type": "array", "maxItems": 3 },
+      "grid": { "type": "array", "maxItems": 18 }
+    },
+    "required": ["heading", "grid"],
+    "additionalProperties": false
+  },
+  "constraints": { "maxPerPage": 1 },
+  "responsive": {
+    "desktop": { "minWidth": 1200, "layout": "row-1 3x448x240 blocks + grid repeat(6,191px)" },
+    "tablet": { "minWidth": 810, "maxWidth": 1199.98, "layout": "row-1 stacked 728x240; grid 2 columns 324" },
+    "phone": { "maxWidth": 809.98, "layout": "blocks 350x240; grid 2x135" },
+    "measuredFrom": "spec/pages/landing.md:193-194"
+  },
+  "motion": { "pattern": "dot-blink", "keyframeRefs": ["dot-blink"], "reducedMotionFallback": "dot renders static" },
+  "assetRoles": {
+    "customer-logo": { "enum": "customer-logo", "generationPolicy": "must-reuse-exact", "guidance": "Same compliance rule as logos.wall: real competitor wordmarks (HeyReach/Expandi/Lemlist) must never be AI-generated or altered." }
+  }
+}

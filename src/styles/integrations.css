@@ -1,0 +1,792 @@
+/* integrations section (CLONE_SPEC.md section 15). Owned by the integrations builder.
+   The shared .vgs component CSS from spec/components.css, verbatim, scoped under
+   #integrations so it can't collide with the steps / wall-of-love copies.
+   Renders in Inter through the global "PP Neue Montreal" alias (spec section 4). */
+
+#integrations {
+  position: relative;
+  width: 100%;
+}
+/* Undo Preflight's svg `display:block; vertical-align:middle`. On the live page the hub
+   connector svg is inline on the baseline of a 27px line box, which adds the measured 7px
+   between the connector and the first tool row. */
+#integrations svg {
+  display: inline;
+  vertical-align: baseline;
+}
+
+/* ---- spec/components.css (verbatim, scoped) ---- */
+#integrations .vgs {
+  color: rgb(28, 41, 46);
+  font-family: "PP Neue Montreal", Inter, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  background: rgb(247, 249, 247);
+}
+#integrations .vgs * {
+  box-sizing: border-box;
+}
+#integrations .vgs h2, #integrations .vgs h3, #integrations .vgs p {
+  margin: 0px;
+}
+#integrations .vgs a {
+  color: inherit;
+}
+#integrations .vgs button {
+  font: inherit;
+}
+#integrations .vgs :focus-visible {
+  outline: rgb(52, 118, 167) solid 3px;
+  outline-offset: 4px;
+}
+#integrations .vgs-wrap {
+  max-width: 1456px;
+  margin: auto;
+  padding: 88px 48px;
+}
+#integrations .vgs-header {
+  margin-bottom: 56px;
+  max-width: 890px;
+}
+#integrations .vgs-eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgb(66, 104, 124);
+  display: block;
+  margin-bottom: 22px;
+}
+#integrations .vgs h2 {
+  font-size: clamp(36px, 4.1vw, 58px);
+  letter-spacing: -0.035em;
+  font-weight: 500;
+  line-height: 1.07;
+}
+#integrations .vgs-header > p {
+  font-size: 21px;
+  color: rgb(82, 99, 108);
+  margin-top: 24px;
+  max-width: 780px;
+}
+#integrations .vgs h3 {
+  font-size: 32px;
+  line-height: 1.16;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+#integrations .vgs-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  white-space: nowrap;
+  background: rgb(25, 41, 46);
+  min-height: 52px;
+  padding: 14px 22px;
+  text-decoration: none;
+  font-size: 16px;
+  color: rgb(255, 255, 255) !important;
+}
+#integrations .vgs-cta:hover {
+  background: rgb(52, 78, 87);
+}
+#integrations .vgs-textlink {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+  font-size: 16px;
+  color: rgb(50, 101, 139) !important;
+}
+#integrations .vgs-textlink:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+#integrations .vgs-walk {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 48px;
+}
+#integrations .vgs-stepnav {
+  position: sticky;
+  top: 115px;
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+}
+#integrations .vgs-stepnav a {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 18px 0px;
+  border-bottom: 1px solid rgb(212, 222, 219);
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(100, 118, 126);
+}
+#integrations .vgs-stepnav a > span {
+  font-size: 11px;
+}
+#integrations .vgs-stepnav a > svg {
+  margin-left: auto;
+  width: 15px;
+  opacity: 0;
+}
+#integrations .vgs-stepnav a[aria-current] {
+  color: rgb(28, 41, 46);
+  border-color: rgb(53, 108, 147);
+}
+#integrations .vgs-stepnav a[aria-current] > svg {
+  opacity: 1;
+}
+#integrations .vgs-stepbody {
+  min-width: 0px;
+}
+#integrations .vgs-stepbody article {
+  display: grid;
+  grid-template-columns: minmax(0px, 0.85fr) minmax(0px, 1fr);
+  gap: 36px;
+  align-items: center;
+  padding: 0px 0px 100px;
+  scroll-margin-top: 130px;
+}
+#integrations .vgs-stepbody article:last-child {
+  padding-bottom: 0px;
+}
+#integrations .vgs-stepcopy > p {
+  color: rgb(82, 99, 108);
+  font-size: 18px;
+  margin: 22px 0px;
+}
+#integrations .vgs-stepcopy > small {
+  display: block;
+  font-size: 14px;
+  border-top: 1px solid rgb(204, 216, 211);
+  padding: 18px 0px;
+  color: rgb(82, 99, 108);
+}
+#integrations .vgs-stepcopy > .vgs-cta, #integrations .vgs-stepcopy > .vgs-textlink {
+  margin-top: 18px;
+}
+#integrations .vgs-scene {
+  padding: 22px;
+  background-size: cover;
+  background-position: center center;
+  min-height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#integrations .vgs-scene-caption {
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: rgb(29, 49, 56);
+  color: rgb(255, 255, 255);
+  align-self: start;
+  padding: 6px 9px;
+  margin-bottom: 18px;
+}
+#integrations .vgs-window {
+  background: rgb(252, 253, 247);
+  box-shadow: rgba(21, 43, 52, 0.125) 0px 10px 25px;
+  padding: 22px;
+}
+#integrations .vgs-window-head {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border-bottom: 1px solid rgb(212, 221, 214);
+  padding-bottom: 14px;
+  margin-bottom: 18px;
+  font-size: 15px;
+}
+#integrations .vgs-window-head > span {
+  margin-left: auto;
+  font-size: 12px;
+  color: rgb(94, 111, 114);
+}
+#integrations .vgs-window-head svg {
+  width: 23px;
+}
+#integrations .vgs-url {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  border: 1px solid rgb(196, 210, 203);
+  padding: 12px;
+  font-size: 13px;
+}
+#integrations .vgs-url span {
+  font-size: 10px;
+  color: rgb(53, 102, 83);
+  margin-left: auto;
+}
+#integrations .vgs-scene-title {
+  font-size: 26px;
+  line-height: 1.14;
+  letter-spacing: -0.025em;
+  margin: 22px 0px;
+}
+#integrations .vgs-check {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0px;
+}
+#integrations .vgs-check > span {
+  color: rgb(74, 117, 92);
+}
+#integrations .vgs-check b {
+  font-weight: 500;
+  font-size: 15px;
+}
+#integrations .vgs-check p {
+  font-size: 13px;
+  color: rgb(83, 104, 102);
+  margin-top: 5px;
+}
+#integrations .vgs-connections {
+  display: flex;
+  gap: 12px;
+  border-top: 1px solid rgb(212, 221, 214);
+  padding-top: 16px;
+  font-size: 13px;
+}
+#integrations .vgs-connections span {
+  background: rgb(233, 239, 235);
+  padding: 8px 12px;
+}
+#integrations .vgs-illustration {
+  font-size: 10px;
+  background: rgb(249, 252, 242);
+  padding: 3px 7px;
+  align-self: end;
+  margin-top: 12px;
+  color: rgb(82, 96, 91);
+}
+#integrations .vgs-micro {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: rgb(77, 113, 130);
+}
+#integrations .vgs-plan-step {
+  display: flex;
+  gap: 12px;
+  font-size: 14px;
+  padding: 12px 0px;
+  border-bottom: 1px solid rgb(212, 221, 214);
+  align-items: center;
+}
+#integrations .vgs-plan-step > span {
+  border: 1px solid rgb(191, 207, 196);
+  border-radius: 50%;
+  width: 23px;
+  height: 23px;
+  display: grid;
+  place-items: center;
+  font-size: 11px;
+  flex-shrink: 0;
+}
+#integrations .vgs-ready {
+  background: rgb(237, 243, 237);
+  padding: 14px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 12px;
+}
+#integrations .vgs-ready svg {
+  flex-shrink: 0;
+}
+#integrations .vgs-message {
+  background: rgb(234, 241, 238);
+  padding: 18px;
+}
+#integrations .vgs-message p {
+  font-size: 25px;
+  line-height: 1.2;
+  margin-top: 18px;
+}
+#integrations .vgs-features {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0px, 1fr));
+  gap: 0px;
+  border-top: 1px solid rgb(204, 216, 211);
+  border-left: 1px solid rgb(204, 216, 211);
+}
+#integrations .vgs-features article {
+  padding: 32px;
+  border-right: 1px solid rgb(204, 216, 211);
+  border-bottom: 1px solid rgb(204, 216, 211);
+  min-height: 275px;
+}
+#integrations .vgs-feature-top {
+  display: flex;
+  gap: 12px;
+  color: rgb(65, 105, 135);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 36px;
+}
+#integrations .vgs-feature-top svg {
+  margin-left: auto;
+}
+#integrations .vgs-features h3 {
+  font-size: 26px;
+  max-width: 280px;
+}
+#integrations .vgs-features p {
+  font-size: 17px;
+  color: rgb(83, 99, 106);
+  margin-top: 18px;
+}
+#integrations .vgs-learning {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  justify-content: space-between;
+  background: rgb(234, 240, 236);
+  padding: 36px;
+  margin-top: 20px;
+}
+#integrations .vgs-learning .vgs-eyebrow {
+  margin-bottom: 12px;
+}
+#integrations .vgs-learning p {
+  color: rgb(82, 99, 108);
+  max-width: 620px;
+  margin-top: 14px;
+  font-size: 17px;
+}
+#integrations .vgs-integration {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid rgb(212, 222, 219);
+  background: rgb(255, 255, 255);
+}
+#integrations .vgs-hub {
+  background: rgb(234, 240, 236);
+  position: relative;
+  padding: 48px 32px;
+}
+#integrations .vgs-hub-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  margin: auto;
+  width: 200px;
+  padding: 22px;
+  background: rgb(252, 253, 248);
+  border: 1px solid rgb(207, 219, 212);
+}
+#integrations .vgs-hub-center b {
+  font-size: 26px;
+  font-weight: 500;
+}
+#integrations .vgs-hub-center > span {
+  font-size: 10px;
+  color: rgb(87, 109, 104);
+}
+#integrations .vgs-lines {
+  height: 96px;
+  width: 100%;
+  fill: none;
+  stroke: rgb(150, 178, 162);
+  stroke-width: 1;
+}
+#integrations .vgs-toolrow {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0px, 1fr));
+  gap: 12px;
+}
+#integrations .vgs-toolrow > span {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(205, 218, 211);
+  padding: 17px 9px;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+#integrations .vgs-toolrow small {
+  font-size: 11px;
+  color: rgb(82, 109, 99);
+  margin-top: 5px;
+}
+#integrations .vgs-toolrow-two {
+  grid-template-columns: repeat(2, minmax(0px, 1fr));
+  margin-top: 16px;
+}
+#integrations .vgs-toolrow-two > span {
+  background: transparent;
+  font-size: 15px;
+}
+#integrations .vgs-client {
+  padding: 32px;
+}
+#integrations .vgs-tabs {
+  display: flex;
+  gap: 24px;
+  border-bottom: 1px solid rgb(212, 223, 217);
+  margin-bottom: 30px;
+}
+#integrations .vgs-tabs button {
+  border: 0px;
+  background: none;
+  color: rgb(82, 99, 108);
+  padding: 10px 0px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#integrations .vgs-tabs button[aria-selected="true"] {
+  color: rgb(25, 41, 46);
+  border-bottom: 2px solid rgb(66, 111, 148);
+}
+#integrations .vgs-prompt {
+  font-size: 23px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  margin-top: 14px !important;
+}
+#integrations .vgs-agent {
+  display: flex;
+  gap: 16px;
+  align-items: start;
+  background: rgb(241, 245, 238);
+  padding: 20px;
+  margin: 28px 0px;
+}
+#integrations .vgs-agent svg {
+  flex-shrink: 0;
+}
+#integrations .vgs-agent p {
+  font-size: 16px;
+}
+#integrations .vgs-connection-note {
+  font-size: 14px;
+  color: rgb(82, 99, 108);
+  margin-bottom: 26px !important;
+}
+#integrations .vgs-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0px, 1fr));
+  gap: 40px;
+  margin: 0px 0px 42px;
+}
+#integrations .vgs-metrics a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+#integrations .vgs-metrics b {
+  font-size: 72px;
+  font-weight: 500;
+  letter-spacing: -0.045em;
+  line-height: 1;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgb(205, 217, 212);
+}
+#integrations .vgs-metrics span {
+  font-size: 19px;
+  margin-top: 16px;
+}
+#integrations .vgs-metrics small {
+  color: rgb(66, 116, 151);
+  font-size: 13px;
+  margin-top: 8px;
+}
+#integrations .vgs-quotes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0px, 1fr));
+  gap: 16px;
+}
+#integrations .vgs-quotes figure {
+  margin: 0px;
+  padding: 28px;
+  background: white;
+  border: 1px solid rgb(212, 222, 219);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+}
+#integrations .vgs-quotes blockquote {
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: -0.015em;
+  margin: 0px;
+}
+#integrations .vgs-quotes figcaption {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+#integrations .vgs-quotes img {
+  width: 52px;
+  height: 52px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+#integrations .vgs-quotes figcaption span {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+#integrations .vgs-quotes figcaption b {
+  font-size: 15px;
+  font-weight: 500;
+}
+#integrations .vgs-quotes figcaption small {
+  font-size: 13px;
+  color: rgb(82, 99, 108);
+}
+#integrations .vgs-love-bottom {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 28px;
+}
+#integrations .vgs-love-bottom button {
+  border: 1px solid rgb(174, 191, 182);
+  background: transparent;
+  padding: 12px 20px;
+  color: rgb(28, 41, 46);
+  font-size: 15px;
+  cursor: pointer;
+}
+@media (max-width: 1100px) {
+  #integrations .vgs-walk {
+      grid-template-columns: 130px 1fr;
+      gap: 28px;
+    }
+}
+@media (max-width: 1100px) {
+  #integrations .vgs-stepbody article {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+}
+@media (max-width: 1100px) {
+  #integrations .vgs-scene {
+      min-height: 400px;
+    }
+}
+@media (max-width: 1100px) {
+  #integrations .vgs-window {
+      max-width: 500px;
+      margin: auto;
+      width: 100%;
+    }
+}
+@media (max-width: 1100px) {
+  #integrations .vgs-scene-caption {
+      align-self: center;
+    }
+}
+@media (max-width: 1100px) {
+  #integrations .vgs-quotes {
+      grid-template-columns: repeat(2, minmax(0px, 1fr));
+    }
+}
+@media (max-width: 1100px) {
+  #integrations .vgs-quotes figure:first-child {
+      grid-column: 1 / -1;
+    }
+}
+@media (max-width: 1100px) {
+  #integrations .vgs-features article {
+      padding: 24px;
+    }
+}
+@media (max-width: 1100px) {
+  #integrations .vgs-integration {
+      grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 1100px) {
+  #integrations .vgs-hub {
+      padding: 48px 20px;
+    }
+}
+@media (max-width: 1100px) {
+  #integrations .vgs-toolrow > span {
+      font-size: 15px;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-wrap {
+      padding: 64px 24px;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-header {
+      margin-bottom: 36px;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-header > p {
+      font-size: 19px;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-walk {
+      display: block;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-stepnav {
+      flex-direction: row;
+      gap: 16px;
+      top: 64px;
+      background: rgb(247, 249, 247);
+      z-index: 2;
+      margin-bottom: 30px;
+      padding-top: 8px;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-stepnav a {
+      font-size: 13px;
+      gap: 7px;
+      flex: 1 1 0%;
+      padding: 14px 0px;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-stepnav a > svg {
+      display: none;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-stepbody article {
+      padding-bottom: 56px;
+      scroll-margin-top: 130px;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-stepcopy h3 {
+      font-size: 32px;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-scene {
+      padding: 16px;
+      min-height: 410px;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-window {
+      padding: 20px;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-features {
+      grid-template-columns: repeat(2, minmax(0px, 1fr));
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-features article {
+      padding: 22px;
+      min-height: 270px;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-features h3 {
+      font-size: 23px;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-learning {
+      display: block;
+      padding: 26px;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-learning .vgs-cta {
+      margin-top: 28px;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-integration {
+      grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-client {
+      padding: 26px;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-metrics {
+      gap: 22px;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-metrics b {
+      font-size: 48px;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-metrics span {
+      font-size: 15px;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-metrics small {
+      font-size: 12px;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-quotes {
+      grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-quotes figure:first-child {
+      grid-column: auto;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-love-bottom {
+      flex-direction: column;
+      align-items: start;
+    }
+}
+@media (max-width: 720px) {
+  #integrations .vgs-quotes blockquote {
+      font-size: 20px;
+    }
+}
+@media (max-width: 400px) {
+  #integrations .vgs-features {
+      grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 400px) {
+  #integrations .vgs-features article {
+      min-height: 220px;
+    }
+}
+@media (max-width: 400px) {
+  #integrations .vgs-metrics {
+      gap: 16px;
+    }
+}
+@media (max-width: 400px) {
+  #integrations .vgs-metrics b {
+      font-size: 42px;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+  #integrations .vgs * {
+      scroll-behavior: auto !important;
+      transition: none !important;
+    }
+}

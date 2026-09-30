@@ -1,0 +1,4346 @@
+{
+ "slug": "linkedin-outreach-for-agencies",
+ "W": 1440,
+ "sections": [
+  {
+   "i": 0,
+   "name": "Hero",
+   "y": 0,
+   "h": 658.375,
+   "moving": [
+    {
+     "el": "div[Tag]",
+     "depth": 4,
+     "changes": 4,
+     "ser": [
+      "0ms none|1|48,569|430x25|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms none|1|48,569|434x25|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2136ms none|1|48,569|429x25|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms none|1|48,569|410x25|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "div",
+     "depth": 5,
+     "changes": 4,
+     "ser": [
+      "0ms none|1|102,575|376x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms none|1|102,575|380x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2136ms none|1|102,575|375x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms none|1|102,575|356x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "div",
+     "depth": 6,
+     "changes": 4,
+     "ser": [
+      "0ms none|1|102,575|376x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms none|1|102,575|380x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2136ms none|1|102,575|375x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms none|1|102,575|356x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "div",
+     "depth": 8,
+     "changes": 4,
+     "ser": [
+      "0ms none|1|102,575|376x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms none|1|102,575|380x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2136ms none|1|102,575|375x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms none|1|102,575|356x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Variant 2]",
+     "depth": 9,
+     "changes": 15,
+     "ser": [
+      "0ms none|1|102,575|376x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms matrix(0.994469, 0, 0, 1, -1.05118, 0)|1|102,575|378x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms matrix(1, 0, 0, 1, -0.017777, 0)|1|102,575|380x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms matrix(1.00026, 0, 0, 1, 0.0486288, 0)|1|102,575|380x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "511ms none|1|102,575|380x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2136ms matrix(1.0139, 0, 0, 1, 2.60474, 0)|1|102,575|380x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms matrix(1.00366, 0, 0, 1, 0.686127, 0)|1|102,575|376x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms matrix(0.99971, 0, 0, 1, -0.0542829, 0)|1|102,575|375x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2442ms matrix(0.999786, 0, 0, 1, -0.0401046, 0)|1|102,575|375x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2544ms none|1|102,575|375x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms matrix(1.03737, 0, 0, 1, 6.65018, 0)|1|102,575|369x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5288ms matrix(1.00389, 0, 0, 1, 0.69221, 0)|1|102,575|357x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5391ms matrix(0.998531, 0, 0, 1, -0.261475, 0)|1|102,575|355x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5493ms matrix(0.999644, 0, 0, 1, -0.0633238, 0)|1|102,575|356x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5594ms none|1|102,575|356x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Tag Description 1]",
+     "depth": 10,
+     "changes": 21,
+     "ser": [
+      "0ms matrix(1, 0, 0, 1, -187.445, 0)|1|95,526|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms matrix(1.00556, 0, 0, 1, -187.445, 12.1435)|1|96,514|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms matrix(1, 0, 0, 1, -187.445, 0.205367)|1|97,502|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms matrix(0.999744, 0, 0, 1, -187.445, -0.561776)|1|97,501|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "511ms matrix(1, 0, 0, 1, -187.445, -0.0717432)|1|97,501|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "612ms matrix(1, 0, 0, 1, -187.445, 0.019146)|1|97,501|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "713ms matrix(1, 0, 0, 1, -187.445, 0)|1|97,501|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2136ms matrix(0.986294, 0, 0, 1, -187.445, 24.8811)|1|97,501|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms matrix(0.996353, 0, 0, 1, -187.445, 6.55405)|1|95,483|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms matrix(1.00029, 0, 0, 1, -187.445, -0.518523)|1|94,476|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2442ms matrix(1.00021, 0, 0, 1, -187.445, -0.383089)|1|94,476|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2544ms matrix(1, 0, 0, 1, -187.445, -0.0189132)|1|94,476|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2645ms matrix(1, 0, 0, 1, -187.445, 0.0148221)|1|94,476|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2745ms matrix(1, 0, 0, 1, -187.445, 0)|1|94,476|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "3152ms none|1|102,575|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms matrix(0.963979, 0, 0, 1, -182.369, 16.842)|1|97,568|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5288ms matrix(0.996126, 0, 0, 1, -186.899, 1.75307)|1|87,553|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5391ms matrix(1.00147, 0, 0, 1, -187.653, -0.662203)|1|85,551|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5493ms matrix(1.00036, 0, 0, 1, -187.495, -0.160372)|1|85,551|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5594ms matrix(1, 0, 0, 1, -187.432, 0.0189004)|1|85,551|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5696ms matrix(1, 0, 0, 1, -187.445, 0)|1|85,551|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "p \"bolt booked\"",
+     "depth": 11,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|95,526|375x18|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms none|1|96,514|375x18|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms none|1|97,502|375x18|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms none|1|97,501|375x18|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms none|1|95,483|375x18|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms none|1|94,476|375x18|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "3152ms none|1|102,575|375x18|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms none|1|97,568|375x18|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "5288ms none|1|87,553|375x18|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "5391ms none|1|85,551|375x18|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "span \"25\"",
+     "depth": 12,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|208,525|18x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms none|1|209,513|18x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms none|1|210,501|18x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms none|1|210,500|18x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms none|1|208,482|18x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms none|1|207,475|18x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "3152ms none|1|215,574|18x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms none|1|210,567|18x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5288ms none|1|199,552|18x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5391ms none|1|198,550|18x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "span \"45 days\"",
+     "depth": 12,
+     "changes": 11,
+     "ser": [
+      "0ms none|1|408,525|62x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms none|1|409,513|62x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms none|1|410,501|62x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms none|1|410,500|62x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms none|1|408,482|62x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms none|1|408,475|62x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "3152ms none|1|415,574|62x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms none|1|410,567|62x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5288ms none|1|400,552|62x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5391ms none|1|398,550|62x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5594ms none|1|399,550|62x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Tag Description 2]",
+     "depth": 10,
+     "changes": 21,
+     "ser": [
+      "0ms none|1|102,550|312x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms matrix(1.00556, 0, 0, 1, 0.868454, 12.1435)|1|102,538|312x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms matrix(1, 0, 0, 1, 0.017777, 0.205367)|1|102,526|312x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms matrix(0.999744, 0, 0, 1, -0.0399434, -0.561776)|1|102,525|312x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "511ms matrix(1, 0, 0, 1, 0, -0.0717431)|1|102,525|312x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "612ms matrix(1, 0, 0, 1, 0, 0.0191459)|1|102,525|312x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "713ms none|1|102,525|312x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2136ms matrix(0.986294, 0, 0, 1, -2.14021, 24.8811)|1|102,525|312x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms matrix(0.996353, 0, 0, 1, -0.569512, 6.55405)|1|102,507|312x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms matrix(1.00029, 0, 0, 1, 0.0452349, -0.518523)|1|102,500|312x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2442ms matrix(1.00021, 0, 0, 1, 0.0334174, -0.383089)|1|102,500|312x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2544ms matrix(1, 0, 0, 1, 0, -0.0189131)|1|102,500|312x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2645ms matrix(1, 0, 0, 1, 0, 0.014822)|1|102,500|312x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2745ms none|1|102,500|312x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "3152ms none|1|102,600|312x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms matrix(0.881068, 0, 0, 0.912749, -21.1662, 16.4911)|1|102,593|325x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5288ms matrix(0.987208, 0, 0, 0.990918, -2.27664, 1.71654)|1|102,577|353x17|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5391ms matrix(1.00486, 0, 0, 1.00343, 0.864591, -0.648407)|1|102,575|357x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5493ms matrix(1.00118, 0, 0, 1.00083, 0.209153, -0.157031)|1|102,575|356x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5594ms matrix(1, 0, 0, 1, -0.0171777, 0.0185066)|1|102,575|356x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5696ms none|1|102,575|356x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "p \"Gallea AI generated 15\"",
+     "depth": 11,
+     "changes": 11,
+     "ser": [
+      "0ms none|1|102,550|312x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms none|1|102,538|312x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms none|1|102,526|312x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms none|1|102,525|312x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms none|1|102,507|312x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms none|1|102,500|312x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "3152ms none|1|102,600|312x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms none|1|102,593|325x16|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "5288ms none|1|102,577|353x17|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "5391ms none|1|102,575|357x18|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "5493ms none|1|102,575|356x18|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "span \"MEETINGS in 14 DAYS\"",
+     "depth": 12,
+     "changes": 11,
+     "ser": [
+      "0ms none|1|231,549|26x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms none|1|231,537|26x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms none|1|231,525|26x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms none|1|231,524|26x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms none|1|231,506|26x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms none|1|231,499|26x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "3152ms none|1|231,599|26x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms none|1|278,592|149x17|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5288ms none|1|293,576|162x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5391ms none|1|295,574|164x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5594ms none|1|294,574|164x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "span \"3 months\"",
+     "depth": 1,
+     "changes": 8,
+     "ser": [
+      "0ms none|1|343,549|71x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms none|1|343,537|71x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms none|1|343,525|71x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms none|1|343,524|71x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms none|1|343,506|71x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms none|1|343,499|71x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "3152ms none|1|343,599|71x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms ||0,0|0x0||||"
+     ]
+    },
+    {
+     "el": "div[Tag Description 3]",
+     "depth": 10,
+     "changes": 21,
+     "ser": [
+      "0ms none|0|102,575|376x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms matrix(1.07533, 0, 0, 1.06897, 12.3852, 12.6748)|0|102,563|352x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms matrix(1.00117, 0, 0, 1.00117, 0.210693, 0.214351)|0|102,551|329x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms matrix(0.996535, 0, 0, 0.996809, -0.569639, -0.586354)|0|102,550|328x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "511ms matrix(0.99959, 0, 0, 0.999593, -0.0673937, -0.0748819)|0|102,550|329x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "612ms matrix(1.00011, 0, 0, 1.00011, 0.0179853, 0.0199836)|0|102,550|329x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "713ms none|0|102,550|329x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2136ms matrix(0.986294, 0, 0, 1, -2.25339, 24.8811)|0|102,550|329x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms matrix(0.996353, 0, 0, 1, -0.599628, 6.55405)|0|102,532|329x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms matrix(1.00029, 0, 0, 1, 0.047627, -0.518523)|0|102,525|329x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2442ms matrix(1.00021, 0, 0, 1, 0.0351845, -0.383089)|0|102,525|329x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2544ms matrix(1, 0, 0, 1, 0, -0.0189131)|0|102,525|329x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2645ms matrix(1, 0, 0, 1, 0, 0.014822)|0|102,525|329x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2745ms none|0|102,525|329x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "3152ms none|0|102,625|329x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms matrix(0.963979, 0, 0, 1, -5.92238, 16.842)|0|102,618|329x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5288ms matrix(0.996126, 0, 0, 1, -0.637011, 1.75307)|0|102,603|329x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5391ms matrix(1.00147, 0, 0, 1, 0.241916, -0.662203)|0|102,600|329x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5493ms matrix(1.00036, 0, 0, 1, 0.0585217, -0.160372)|0|102,601|329x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5594ms matrix(1, 0, 0, 1, 0, 0.0189004)|0|102,601|329x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5696ms none|0|102,601|329x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "p \"Linarca booked\"",
+     "depth": 11,
+     "changes": 12,
+     "ser": [
+      "0ms none|1|102,575|376x18|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms none|1|102,563|352x16|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms none|1|102,551|329x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms none|1|102,550|328x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "511ms none|1|102,550|329x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms none|1|102,532|329x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms none|1|102,525|329x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "3152ms none|1|102,625|329x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms none|1|102,618|329x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "5288ms none|1|102,603|329x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "5391ms none|1|102,600|329x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "5493ms none|1|102,601|329x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "span \"15\"",
+     "depth": 12,
+     "changes": 12,
+     "ser": [
+      "0ms none|1|242,574|15x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms none|1|233,561|14x17|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms none|1|225,550|13x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms none|1|224,549|13x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "511ms none|1|225,549|13x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms none|1|225,531|13x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms none|1|225,524|13x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "3152ms none|1|225,624|13x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms none|1|225,617|13x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5288ms none|1|225,602|13x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5391ms none|1|225,599|13x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5493ms none|1|225,600|13x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "span \"first month\"",
+     "depth": 12,
+     "changes": 11,
+     "ser": [
+      "0ms none|1|373,574|104x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms none|1|356,561|98x17|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms none|1|340,550|91x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms none|1|339,549|91x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms none|1|339,531|91x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms none|1|339,524|91x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "3152ms none|1|339,624|91x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms none|1|339,617|91x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5288ms none|1|339,602|91x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5391ms none|1|339,599|91x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5493ms none|1|339,600|91x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Tag Description 4]",
+     "depth": 10,
+     "changes": 21,
+     "ser": [
+      "0ms none|0|102,601|333x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms matrix(0.944506, 0, 0, 0.939606, -10.5473, 11.9007)|0|102,588|357x17|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms matrix(0.998973, 0, 0, 0.998979, -0.177385, 0.201259)|0|102,576|380x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms matrix(1.00255, 0, 0, 1.00279, 0.48511, -0.550541)|0|102,575|381x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "511ms matrix(1.00036, 0, 0, 1.00036, 0.0681784, -0.0703083)|0|102,575|380x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "612ms matrix(1, 0, 0, 1, -0.0181946, 0.018763)|0|102,575|380x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "713ms none|0|102,575|380x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2136ms matrix(1.12652, 0, 0, 1.14131, 21.0415, 25.9697)|0|102,575|380x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms matrix(1.03367, 0, 0, 1.03722, 5.59916, 6.84079)|0|102,557|345x16|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms matrix(0.997326, 0, 0, 0.997055, -0.444727, -0.541209)|0|102,550|332x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2442ms matrix(0.998024, 0, 0, 0.997824, -0.328543, -0.399849)|0|102,550|332x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2544ms matrix(0.999892, 0, 0, 0.999893, -0.0179734, -0.0197406)|0|102,550|333x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2645ms matrix(1, 0, 0, 1, 0.0140856, 0.0154705)|0|102,550|333x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2745ms none|0|102,550|333x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "3152ms none|0|102,651|333x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms matrix(0.963979, 0, 0, 1, -5.99048, 16.842)|0|102,644|333x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5288ms matrix(0.996126, 0, 0, 1, -0.644336, 1.75307)|0|102,629|333x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5391ms matrix(1.00147, 0, 0, 1, 0.244698, -0.662203)|0|102,626|333x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5493ms matrix(1.00036, 0, 0, 1, 0.0591947, -0.160372)|0|102,627|333x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5594ms matrix(1, 0, 0, 1, 0, 0.0189004)|0|102,627|333x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5696ms none|0|102,627|333x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "p \"Thinkfish books\"",
+     "depth": 11,
+     "changes": 13,
+     "ser": [
+      "0ms none|1|102,601|333x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms none|1|102,588|357x17|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms none|1|102,576|380x18|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms none|1|102,575|381x18|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "511ms none|1|102,575|380x18|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms none|1|102,557|345x16|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms none|1|102,550|332x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "2544ms none|1|102,550|333x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "3152ms none|1|102,651|333x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms none|1|102,644|333x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "5288ms none|1|102,629|333x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "5391ms none|1|102,626|333x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "5493ms none|1|102,627|333x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "span \">400\"",
+     "depth": 12,
+     "changes": 12,
+     "ser": [
+      "0ms none|1|228,600|33x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms none|1|237,587|36x18|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms none|1|246,575|38x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms none|1|246,574|38x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2136ms none|1|246,574|38x18|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms none|1|233,556|34x17|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms none|1|228,549|33x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "3152ms none|1|228,650|33x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms none|1|228,643|33x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5288ms none|1|228,628|33x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5391ms none|1|228,625|33x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5493ms none|1|228,626|33x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "span \"Every month\"",
+     "depth": 12,
+     "changes": 13,
+     "ser": [
+      "0ms none|1|337,600|97x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms none|1|354,587|105x18|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms none|1|371,575|111x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms none|1|372,574|112x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "511ms none|1|371,574|111x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2136ms none|1|371,574|111x18|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms none|1|346,556|101x17|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms none|1|337,549|97x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "3152ms none|1|337,650|97x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms none|1|337,643|97x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5288ms none|1|337,628|97x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5391ms none|1|337,625|97x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5493ms none|1|337,626|97x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Tag Description 5]",
+     "depth": 10,
+     "changes": 21,
+     "ser": [
+      "0ms none|0|102,626|328x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms matrix(1.00556, 0, 0, 1, 0.912207, 12.1435)|0|102,613|328x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms matrix(1, 0, 0, 1, 0.017777, 0.205367)|0|102,601|328x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms matrix(0.999744, 0, 0, 1, -0.0419558, -0.561776)|0|102,600|328x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "511ms matrix(1, 0, 0, 1, 0, -0.0717431)|0|102,601|328x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "612ms matrix(1, 0, 0, 1, 0, 0.0191459)|0|102,601|328x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "713ms none|0|102,601|328x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2136ms matrix(0.86364, 0, 0, 0.876257, -25.5601, 24.3835)|0|102,601|328x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms matrix(0.963714, 0, 0, 0.967404, -6.80156, 6.42297)|0|102,582|363x17|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms matrix(1.00288, 0, 0, 1.00258, 0.540231, -0.508153)|0|102,575|376x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2442ms matrix(1.00213, 0, 0, 1.00191, 0.399097, -0.375427)|0|102,575|376x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2544ms matrix(1, 0, 0, 1, 0.0177192, -0.0185348)|0|102,575|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2645ms matrix(1, 0, 0, 1, -0.0138864, 0.0145256)|0|102,575|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "2745ms none|0|102,575|375x18|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "3152ms none|0|102,676|328x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms matrix(0.963979, 0, 0, 1, -5.90831, 16.842)|0|102,669|328x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5288ms matrix(0.996126, 0, 0, 1, -0.635498, 1.75307)|0|102,654|328x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5391ms matrix(1.00147, 0, 0, 1, 0.241341, -0.662203)|0|102,651|328x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5493ms matrix(1.00036, 0, 0, 1, 0.0583827, -0.160372)|0|102,652|328x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5594ms matrix(1, 0, 0, 1, 0, 0.0189004)|0|102,652|328x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "5696ms none|0|102,652|328x15|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "p \"bolt booked\"",
+     "depth": 11,
+     "changes": 13,
+     "ser": [
+      "0ms none|1|102,626|328x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms none|1|102,613|328x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms none|1|102,601|328x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms none|1|102,600|328x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "511ms none|1|102,601|328x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms none|1|102,582|363x17|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms none|1|102,575|376x18|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "2544ms none|1|102,575|375x18|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "3152ms none|1|102,676|328x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms none|1|102,669|328x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "5288ms none|1|102,654|328x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "5391ms none|1|102,651|328x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible",
+      "5493ms none|1|102,652|328x15|rgba(0, 0, 0, 0.6)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "span \"25\"",
+     "depth": 12,
+     "changes": 13,
+     "ser": [
+      "0ms none|1|201,625|16x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms none|1|201,612|16x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms none|1|201,600|16x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms none|1|201,599|16x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "511ms none|1|201,600|16x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2136ms none|1|201,600|16x17|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms none|1|211,581|18x18|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms none|1|215,574|18x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "3152ms none|1|201,675|16x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms none|1|201,668|16x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5288ms none|1|201,653|16x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5391ms none|1|201,650|16x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5493ms none|1|201,651|16x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "span \"45 days\"",
+     "depth": 12,
+     "changes": 14,
+     "ser": [
+      "0ms none|1|376,625|54x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "204ms none|1|376,612|54x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "305ms none|1|376,600|54x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "407ms none|1|376,599|54x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "511ms none|1|376,600|54x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2136ms none|1|376,600|54x17|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2238ms none|1|405,581|60x18|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2340ms none|1|416,574|62x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "2544ms none|1|415,574|62x19|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "3152ms none|1|376,675|54x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5186ms none|1|376,668|54x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5288ms none|1|376,653|54x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5391ms none|1|376,650|54x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible",
+      "5493ms none|1|376,651|54x16|rgb(0, 118, 181)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "name": "Variant 1",
+   "y": 658.375,
+   "h": 759.59375,
+   "moving": [
+    {
+     "el": "div[Dot Blink]",
+     "depth": 10,
+     "changes": 70,
+     "ser": [
+      "0ms none|0.220972|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "101ms none|0.0327363|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "202ms none|0.00449416|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "304ms none|0.0273937|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "406ms none|0.0706317|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "509ms none|0.134514|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "610ms none|0.216737|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "713ms none|0.321649|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "815ms none|0.464408|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "916ms none|0.610509|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1018ms none|0.779028|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1120ms none|0.963212|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1221ms none|0.99531|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1324ms none|0.971681|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1425ms none|0.928311|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1529ms none|0.863185|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1633ms none|0.764432|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1733ms none|0.657914|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1835ms none|0.532958|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1937ms none|0.382932|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2040ms none|0.217408|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2144ms none|0.0287541|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2247ms none|0.00687188|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2350ms none|0.0410658|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2452ms none|0.0914658|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2554ms none|0.160639|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2657ms none|0.251452|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2760ms none|0.359657|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2864ms none|0.492123|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2966ms none|0.667116|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3068ms none|0.840477|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3170ms none|0.999747|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3272ms none|0.986443|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3376ms none|0.952653|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3479ms none|0.89892|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3582ms none|0.813097|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3684ms none|0.714657|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3786ms none|0.598212|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3888ms none|0.46349|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3991ms none|0.306665|94,874|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Dot Blink]",
+     "depth": 9,
+     "changes": 70,
+     "ser": [
+      "0ms none|1|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "101ms none|0.989984|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "202ms none|0.960033|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "304ms none|0.910875|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "406ms none|0.84132|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "509ms none|0.750837|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "610ms none|0.643495|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "713ms none|0.511843|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "815ms none|0.33675|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "916ms none|0.162842|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1018ms none|0|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1120ms none|0.00987379|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1221ms none|0.0405148|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1324ms none|0.0899026|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1425ms none|0.159659|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1529ms none|0.250307|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1633ms none|0.37933|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1733ms none|0.513309|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1835ms none|0.665184|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1937ms none|0.840477|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2040ms none|0.999792|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2144ms none|0.986771|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2247ms none|0.953825|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2350ms none|0.889338|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2452ms none|0.813097|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2554ms none|0.717628|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2657ms none|0.602079|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2760ms none|0.466142|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2864ms none|0.308571|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2966ms none|0.103735|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3068ms none|0.000937624|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3170ms none|0.0177898|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3272ms none|0.0537141|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3376ms none|0.110662|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3479ms none|0.187942|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3582ms none|0.299121|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3684ms none|0.420565|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3786ms none|0.560365|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3888ms none|0.720425|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3991ms none|0.898257|565,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Dot Blink]",
+     "depth": 9,
+     "changes": 70,
+     "ser": [
+      "0ms none|1|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "101ms none|0.990126|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "202ms none|0.960033|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "304ms none|0.910875|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "406ms none|0.84132|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "509ms none|0.750837|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "610ms none|0.643495|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "713ms none|0.511843|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "815ms none|0.338039|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "916ms none|0.162842|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1018ms none|0|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1120ms none|0.00987379|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1221ms none|0.0405148|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1324ms none|0.0899026|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1425ms none|0.159659|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1529ms none|0.250307|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1633ms none|0.37933|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1733ms none|0.513309|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1835ms none|0.665184|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1937ms none|0.840477|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2040ms none|0.999792|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2144ms none|0.986771|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2247ms none|0.954406|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2350ms none|0.889338|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2452ms none|0.813097|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2554ms none|0.717628|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2657ms none|0.602079|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2760ms none|0.466142|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2864ms none|0.308571|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2966ms none|0.103735|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3068ms none|0.000937624|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3170ms none|0.0174163|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3272ms none|0.0537141|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3376ms none|0.110662|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3479ms none|0.186903|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3582ms none|0.299121|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3684ms none|0.420565|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3786ms none|0.560365|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3888ms none|0.720425|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3991ms none|0.898257|1234,1090|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Dot Blink]",
+     "depth": 9,
+     "changes": 70,
+     "ser": [
+      "0ms none|1|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "101ms none|0.989984|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "202ms none|0.959759|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "304ms none|0.910875|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "406ms none|0.84132|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "509ms none|0.750837|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "610ms none|0.642235|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "713ms none|0.510521|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "815ms none|0.33675|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "916ms none|0.162842|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1018ms none|0|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1120ms none|0.00987379|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1221ms none|0.0405148|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1324ms none|0.0902923|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1425ms none|0.159659|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1529ms none|0.250307|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1633ms none|0.37933|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1733ms none|0.513309|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1835ms none|0.665184|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1937ms none|0.840477|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2040ms none|0.999792|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2144ms none|0.986443|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2247ms none|0.953825|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2350ms none|0.889338|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2452ms none|0.813097|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2554ms none|0.717628|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2657ms none|0.602079|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2760ms none|0.466142|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2864ms none|0.308571|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2966ms none|0.103735|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3068ms none|0.000937624|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3170ms none|0.0177898|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3272ms none|0.0540262|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3376ms none|0.111512|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3479ms none|0.187942|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3582ms none|0.300328|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3684ms none|0.420565|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3786ms none|0.560365|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3888ms none|0.720425|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3991ms none|0.898257|100,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Dot Blink]",
+     "depth": 9,
+     "changes": 70,
+     "ser": [
+      "0ms none|1|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "101ms none|0.989984|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "202ms none|0.959759|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "304ms none|0.910875|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "406ms none|0.84132|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "509ms none|0.750837|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "610ms none|0.642235|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "713ms none|0.510521|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "815ms none|0.33675|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "916ms none|0.162842|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1018ms none|0|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1120ms none|0.00987379|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1221ms none|0.0405148|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1324ms none|0.0902923|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1425ms none|0.159659|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1529ms none|0.251452|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1633ms none|0.380607|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1733ms none|0.513309|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1835ms none|0.665184|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1937ms none|0.842681|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2040ms none|0.99977|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2144ms none|0.986443|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2247ms none|0.953825|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2350ms none|0.888488|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2452ms none|0.812058|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2554ms none|0.717628|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2657ms none|0.600791|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2760ms none|0.466142|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2864ms none|0.306665|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2966ms none|0.101743|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3068ms none|0.00098308|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3170ms none|0.0179779|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3272ms none|0.0546527|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3376ms none|0.111938|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3479ms none|0.188983|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3582ms none|0.301536|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3684ms none|0.421865|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3786ms none|0.561689|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3888ms none|0.721674|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3991ms none|0.90024|504,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Dot Blink]",
+     "depth": 9,
+     "changes": 70,
+     "ser": [
+      "0ms none|1|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "101ms none|0.989984|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "202ms none|0.959759|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "304ms none|0.910875|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "406ms none|0.84132|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "509ms none|0.750837|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "610ms none|0.642235|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "713ms none|0.510521|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "815ms none|0.33675|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "916ms none|0.162842|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1018ms none|0|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1120ms none|0.00987379|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1221ms none|0.0405148|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1324ms none|0.0902923|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1425ms none|0.159659|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1529ms none|0.250307|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1633ms none|0.37933|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1733ms none|0.513309|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1835ms none|0.665184|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1937ms none|0.840477|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2040ms none|0.999792|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2144ms none|0.986443|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2247ms none|0.953825|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2350ms none|0.889338|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2452ms none|0.813097|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2554ms none|0.717628|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2657ms none|0.602079|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2760ms none|0.466142|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2864ms none|0.306665|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2966ms none|0.103735|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3068ms none|0.00098308|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3170ms none|0.0177898|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3272ms none|0.0540262|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3376ms none|0.111512|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3479ms none|0.187942|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3582ms none|0.300328|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3684ms none|0.421865|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3786ms none|0.561689|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3888ms none|0.720425|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3991ms none|0.90024|773,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Dot Blink]",
+     "depth": 9,
+     "changes": 70,
+     "ser": [
+      "0ms none|1|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "101ms none|0.990126|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "202ms none|0.960033|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "304ms none|0.910875|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "406ms none|0.84132|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "509ms none|0.750837|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "610ms none|0.643495|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "713ms none|0.511843|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "815ms none|0.338039|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "916ms none|0.162842|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1018ms none|0|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1120ms none|0.00987379|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1221ms none|0.0405148|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1324ms none|0.0899026|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1425ms none|0.159659|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1529ms none|0.250307|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1633ms none|0.37933|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1733ms none|0.513309|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1835ms none|0.66325|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1937ms none|0.840477|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2040ms none|1|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2144ms none|0.989984|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2247ms none|0.960577|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2350ms none|0.899736|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2452ms none|0.82641|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2554ms none|0.734679|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2657ms none|0.621945|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2760ms none|0.489341|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2864ms none|0.334816|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2966ms none|0.133567|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3068ms none|0.000208291|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3170ms none|0.0137223|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3272ms none|0.0470531|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3376ms none|0.10108|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3479ms none|0.174095|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3582ms none|0.282966|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3684ms none|0.400498|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3786ms none|0.537836|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3888ms none|0.693335|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3991ms none|0.870125|1011,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Dot Blink]",
+     "depth": 9,
+     "changes": 70,
+     "ser": [
+      "0ms none|1|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "101ms none|0.989984|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "202ms none|0.959759|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "304ms none|0.910875|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "406ms none|0.84132|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "509ms none|0.750837|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "610ms none|0.642235|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "713ms none|0.510521|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "815ms none|0.33675|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "916ms none|0.162842|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1018ms none|0|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1120ms none|0.00987379|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1221ms none|0.0405148|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1324ms none|0.0902923|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1425ms none|0.159659|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1529ms none|0.251452|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1633ms none|0.37933|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1733ms none|0.513309|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1835ms none|0.665184|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1937ms none|0.842681|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2040ms none|0.99977|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2144ms none|0.986443|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2247ms none|0.953825|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2350ms none|0.888488|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2452ms none|0.812058|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2554ms none|0.717628|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2657ms none|0.602079|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2760ms none|0.466142|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2864ms none|0.306665|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2966ms none|0.101743|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3068ms none|0.00098308|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3170ms none|0.0177898|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3272ms none|0.0540262|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3376ms none|0.111512|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3479ms none|0.187942|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3582ms none|0.300328|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3684ms none|0.421865|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3786ms none|0.561689|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3888ms none|0.721674|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3991ms none|0.90024|1207,1186|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Dot Blink]",
+     "depth": 9,
+     "changes": 70,
+     "ser": [
+      "0ms none|1|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "101ms none|0.989984|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "202ms none|0.959759|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "304ms none|0.910875|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "406ms none|0.84132|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "509ms none|0.750837|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "610ms none|0.642235|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "713ms none|0.510521|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "815ms none|0.33675|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "916ms none|0.162842|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1018ms none|0|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1120ms none|0.00987379|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1221ms none|0.0405148|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1324ms none|0.0902923|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1425ms none|0.159659|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1529ms none|0.250307|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1633ms none|0.37933|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1733ms none|0.513309|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1835ms none|0.665184|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1937ms none|0.840477|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2040ms none|0.999792|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2144ms none|0.986443|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2247ms none|0.953825|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2350ms none|0.889338|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2452ms none|0.813097|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2554ms none|0.717628|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2657ms none|0.602079|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2760ms none|0.466142|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2864ms none|0.308571|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2966ms none|0.103735|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3068ms none|0.000937624|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3170ms none|0.0177898|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3272ms none|0.0540262|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3376ms none|0.111512|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3479ms none|0.187942|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3582ms none|0.300328|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3684ms none|0.420565|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3786ms none|0.561689|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3888ms none|0.720425|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3991ms none|0.90024|550,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Dot Blink]",
+     "depth": 9,
+     "changes": 70,
+     "ser": [
+      "0ms none|1|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "101ms none|0.989984|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "202ms none|0.960033|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "304ms none|0.910875|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "406ms none|0.84132|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "509ms none|0.750837|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "610ms none|0.643495|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "713ms none|0.511843|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "815ms none|0.33675|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "916ms none|0.162842|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1018ms none|0|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1120ms none|0.00987379|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1221ms none|0.0405148|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1324ms none|0.0899026|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1425ms none|0.159659|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1529ms none|0.250307|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1633ms none|0.37933|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1733ms none|0.513309|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1835ms none|0.665184|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "1937ms none|0.840477|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2040ms none|0.999792|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2144ms none|0.986771|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2247ms none|0.953825|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2350ms none|0.889338|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2452ms none|0.813097|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2554ms none|0.717628|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2657ms none|0.602079|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2760ms none|0.466142|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2864ms none|0.308571|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "2966ms none|0.103735|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3068ms none|0.000937624|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3170ms none|0.0177898|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3272ms none|0.0537141|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3376ms none|0.110662|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3479ms none|0.187942|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3582ms none|0.299121|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3684ms none|0.420565|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3786ms none|0.560365|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3888ms none|0.720425|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible",
+      "3991ms none|0.898257|770,1282|5x5|rgb(0, 0, 0)|rgb(0, 119, 181)|none|visible"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "name": "agencyMargin",
+   "y": 1417.96875,
+   "h": 918.8125,
+   "moving": []
+  },
+  {
+   "i": 3,
+   "name": "Process V2",
+   "y": 2336.78125,
+   "h": 931.78125,
+   "moving": []
+  },
+  {
+   "i": 4,
+   "name": "Why sales teams love valley",
+   "y": 3268.5625,
+   "h": 1089.125,
+   "moving": [
+    {
+     "el": "div[Video Container]",
+     "depth": 4,
+     "changes": 20,
+     "ser": [
+      "0ms matrix(1, 0, 0, 1, 0, 15)|0|48,3555|318x715|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "714ms matrix(1, 0, 0, 1, 0, 11.6046)|0.226361|48,3551|318x715|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "816ms matrix(1, 0, 0, 1, 0, 8.50407)|0.433062|48,3548|318x715|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "919ms matrix(1, 0, 0, 1, 0, 6.2118)|0.58588|48,3546|318x715|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1022ms matrix(1, 0, 0, 1, 0, 4.52319)|0.698454|48,3544|318x715|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1125ms matrix(1, 0, 0, 1, 0, 3.13217)|0.791188|48,3543|318x715|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1226ms matrix(1, 0, 0, 1, 0, 2.2879)|0.847473|48,3542|318x715|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1327ms matrix(1, 0, 0, 1, 0, 1.68173)|0.887885|48,3541|318x715|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1429ms matrix(1, 0, 0, 1, 0, 1.22073)|0.918618|48,3541|318x715|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1531ms matrix(1, 0, 0, 1, 0, 0.891681)|0.940555|48,3541|318x715|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1633ms matrix(1, 0, 0, 1, 0, 0.651329)|0.956578|48,3540|318x715|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1735ms none|0.968282|48,3540|318x715|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1837ms none|0.976832|48,3540|318x715|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1941ms none|0.983906|48,3540|318x715|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2043ms none|0.988207|48,3540|318x715|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2145ms none|0.991386|48,3540|318x715|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2246ms none|0.993728|48,3540|318x715|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2348ms none|0.995418|48,3540|318x715|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2451ms none|0.996643|48,3540|318x715|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2553ms none|1|48,3540|318x715|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible"
+     ]
+    },
+    {
+     "el": "div",
+     "depth": 5,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|48,3555|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|48,3551|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|48,3548|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|48,3546|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|48,3544|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|48,3543|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|48,3542|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|48,3541|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1633ms none|1|48,3540|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "article",
+     "depth": 6,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|48,3555|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|48,3551|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|48,3548|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|48,3546|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|48,3544|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|48,3543|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|48,3542|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|48,3541|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1633ms none|1|48,3540|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "img",
+     "depth": 7,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|48,3555|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|48,3551|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|48,3548|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|48,3546|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|48,3544|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|48,3543|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|48,3542|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|48,3541|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1633ms none|1|48,3540|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "button",
+     "depth": 7,
+     "changes": 9,
+     "ser": [
+      "0ms matrix(1, 0, 0, 1, -34, -24)|1|173,3814|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms matrix(1, 0, 0, 1, -34, -24)|1|173,3811|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms matrix(1, 0, 0, 1, -34, -24)|1|173,3808|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms matrix(1, 0, 0, 1, -34, -24)|1|173,3805|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms matrix(1, 0, 0, 1, -34, -24)|1|173,3804|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms matrix(1, 0, 0, 1, -34, -24)|1|173,3802|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms matrix(1, 0, 0, 1, -34, -24)|1|173,3801|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1429ms matrix(1, 0, 0, 1, -34, -24)|1|173,3800|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms matrix(1, 0, 0, 1, -34, -24)|1|173,3799|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "svg",
+     "depth": 8,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|173,3814|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|173,3811|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|173,3808|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|173,3805|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|173,3804|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|173,3802|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|173,3801|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1429ms none|1|173,3800|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|173,3799|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Heading]",
+     "depth": 5,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|48,4121|318x148|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|48,4118|318x148|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|48,4115|318x148|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|48,4113|318x148|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|48,4111|318x148|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|48,4110|318x148|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|48,4109|318x148|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|48,4108|318x148|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|48,4107|318x148|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|48,4106|318x148|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Sorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.]",
+     "depth": 6,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|64,4137|286x116|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|64,4134|286x116|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|64,4131|286x116|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|64,4129|286x116|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|64,4127|286x116|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|64,4126|286x116|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|64,4125|286x116|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|64,4124|286x116|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|64,4123|286x116|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|64,4122|286x116|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "p \"Valley remove the anxiety arou\"",
+     "depth": 7,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|64,4137|286x116|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|64,4134|286x116|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|64,4131|286x116|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|64,4129|286x116|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|64,4127|286x116|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|64,4126|286x116|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|64,4125|286x116|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|64,4124|286x116|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|64,4123|286x116|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|64,4122|286x116|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "a",
+     "depth": 8,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|64,4139|120x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|64,4136|120x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|64,4133|120x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|64,4131|120x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|64,4129|120x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|64,4128|120x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|64,4127|120x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|64,4126|120x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|64,4125|120x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|64,4124|120x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "strong \"Growth Protocol:\"",
+     "depth": 9,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|64,4139|120x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|64,4136|120x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|64,4133|120x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|64,4131|120x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|64,4129|120x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|64,4128|120x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|64,4127|120x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|64,4126|120x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|64,4125|120x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|64,4124|120x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "br",
+     "depth": 8,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|184,4139|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|184,4136|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|184,4133|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|184,4131|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|184,4129|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|184,4128|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|184,4127|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|184,4126|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|184,4125|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|184,4124|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "br",
+     "depth": 8,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|64,4163|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|64,4159|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|64,4156|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|64,4154|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|64,4152|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|64,4151|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|64,4150|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|64,4149|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1633ms none|1|64,4148|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Video Container]",
+     "depth": 4,
+     "changes": 20,
+     "ser": [
+      "0ms matrix(1, 0, 0, 1, 0, 15)|0|390,3555|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "714ms matrix(1, 0, 0, 1, 0, 11.5683)|0.228783|390,3551|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "816ms matrix(1, 0, 0, 1, 0, 8.50407)|0.433062|390,3548|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "919ms matrix(1, 0, 0, 1, 0, 6.19232)|0.587179|390,3546|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1022ms matrix(1, 0, 0, 1, 0, 4.52319)|0.698454|390,3544|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1125ms matrix(1, 0, 0, 1, 0, 3.12235)|0.791843|390,3543|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1226ms matrix(1, 0, 0, 1, 0, 2.2879)|0.847473|390,3542|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1327ms matrix(1, 0, 0, 1, 0, 1.67645)|0.888236|390,3541|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1429ms matrix(1, 0, 0, 1, 0, 1.2169)|0.918873|390,3541|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1531ms matrix(1, 0, 0, 1, 0, 0.891681)|0.940555|390,3541|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1633ms matrix(1, 0, 0, 1, 0, 0.649286)|0.956714|390,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1735ms none|0.968382|390,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1837ms none|0.976905|390,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1941ms none|0.983957|390,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2043ms none|0.988244|390,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2145ms none|0.991413|390,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2246ms none|0.993747|390,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2348ms none|0.995418|390,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2451ms none|0.996653|390,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2553ms none|1|390,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible"
+     ]
+    },
+    {
+     "el": "div",
+     "depth": 5,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|390,3555|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|390,3551|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|390,3548|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|390,3546|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|390,3544|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|390,3543|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|390,3542|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|390,3541|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1633ms none|1|390,3540|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "article",
+     "depth": 6,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|390,3555|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|390,3551|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|390,3548|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|390,3546|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|390,3544|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|390,3543|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|390,3542|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|390,3541|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1633ms none|1|390,3540|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "img",
+     "depth": 7,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|390,3555|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|390,3551|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|390,3548|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|390,3546|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|390,3544|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|390,3543|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|390,3542|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|390,3541|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1633ms none|1|390,3540|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "button",
+     "depth": 7,
+     "changes": 9,
+     "ser": [
+      "0ms matrix(1, 0, 0, 1, -34, -24)|1|515,3814|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms matrix(1, 0, 0, 1, -34, -24)|1|515,3811|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms matrix(1, 0, 0, 1, -34, -24)|1|515,3808|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms matrix(1, 0, 0, 1, -34, -24)|1|515,3805|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms matrix(1, 0, 0, 1, -34, -24)|1|515,3804|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms matrix(1, 0, 0, 1, -34, -24)|1|515,3802|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms matrix(1, 0, 0, 1, -34, -24)|1|515,3801|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1429ms matrix(1, 0, 0, 1, -34, -24)|1|515,3800|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms matrix(1, 0, 0, 1, -34, -24)|1|515,3799|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "svg",
+     "depth": 8,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|515,3814|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|515,3811|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|515,3808|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|515,3805|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|515,3804|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|515,3802|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|515,3801|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1429ms none|1|515,3800|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|515,3799|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Heading]",
+     "depth": 5,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|390,4121|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|390,4118|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|390,4115|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|390,4113|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|390,4111|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|390,4110|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|390,4109|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|390,4108|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|390,4107|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|390,4106|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Sorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.]",
+     "depth": 6,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|406,4137|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|406,4134|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|406,4131|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|406,4129|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|406,4127|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|406,4126|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|406,4125|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|406,4124|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|406,4123|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|406,4122|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "p",
+     "depth": 7,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|406,4137|286x46|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|406,4134|286x46|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|406,4131|286x46|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|406,4129|286x46|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|406,4127|286x46|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|406,4126|286x46|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|406,4125|286x46|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|406,4124|286x46|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|406,4123|286x46|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|406,4122|286x46|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "a",
+     "depth": 8,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|406,4139|64x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|406,4136|64x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|406,4133|64x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|406,4131|64x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|406,4129|64x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|406,4128|64x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|406,4127|64x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|406,4126|64x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|406,4125|64x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|406,4124|64x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "strong \"Tacnode:\"",
+     "depth": 9,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|406,4139|64x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|406,4136|64x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|406,4133|64x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|406,4131|64x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|406,4129|64x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|406,4128|64x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|406,4127|64x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|406,4126|64x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|406,4125|64x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|406,4124|64x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "br",
+     "depth": 8,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|470,4139|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|470,4136|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|470,4133|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|470,4131|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|470,4129|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|470,4128|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|470,4127|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|470,4126|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|470,4125|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|470,4124|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "br",
+     "depth": 8,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|406,4163|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|406,4159|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|406,4156|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|406,4154|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|406,4152|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|406,4151|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|406,4150|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|406,4149|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1633ms none|1|406,4148|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "p \"I’ve never used a tool like th\"",
+     "depth": 7,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|406,4184|286x93|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|406,4180|286x93|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|406,4177|286x93|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|406,4175|286x93|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|406,4173|286x93|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|406,4172|286x93|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|406,4171|286x93|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1429ms none|1|406,4170|286x93|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|406,4169|286x93|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Video Container]",
+     "depth": 4,
+     "changes": 20,
+     "ser": [
+      "0ms matrix(1, 0, 0, 1, 0, 15)|0|732,3555|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "714ms matrix(1, 0, 0, 1, 0, 11.5683)|0.228783|732,3551|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "816ms matrix(1, 0, 0, 1, 0, 8.50407)|0.433062|732,3548|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "919ms matrix(1, 0, 0, 1, 0, 6.2118)|0.58588|732,3546|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1022ms matrix(1, 0, 0, 1, 0, 4.52319)|0.698454|732,3544|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1125ms matrix(1, 0, 0, 1, 0, 3.13217)|0.791188|732,3543|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1226ms matrix(1, 0, 0, 1, 0, 2.2879)|0.847473|732,3542|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1327ms matrix(1, 0, 0, 1, 0, 1.68173)|0.887885|732,3541|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1429ms matrix(1, 0, 0, 1, 0, 1.22073)|0.918618|732,3541|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1531ms matrix(1, 0, 0, 1, 0, 0.891681)|0.940555|732,3541|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1633ms matrix(1, 0, 0, 1, 0, 0.651329)|0.956578|732,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1735ms none|0.968282|732,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1837ms none|0.976832|732,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1941ms none|0.983906|732,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2043ms none|0.988207|732,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2145ms none|0.991386|732,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2246ms none|0.993728|732,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2348ms none|0.995418|732,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2451ms none|0.996643|732,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2553ms none|1|732,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible"
+     ]
+    },
+    {
+     "el": "div",
+     "depth": 5,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|732,3555|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|732,3551|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|732,3548|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|732,3546|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|732,3544|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|732,3543|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|732,3542|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|732,3541|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1633ms none|1|732,3540|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "article",
+     "depth": 6,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|732,3555|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|732,3551|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|732,3548|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|732,3546|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|732,3544|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|732,3543|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|732,3542|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|732,3541|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1633ms none|1|732,3540|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "img",
+     "depth": 7,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|732,3555|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|732,3551|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|732,3548|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|732,3546|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|732,3544|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|732,3543|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|732,3542|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|732,3541|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1633ms none|1|732,3540|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "button",
+     "depth": 7,
+     "changes": 9,
+     "ser": [
+      "0ms matrix(1, 0, 0, 1, -34, -24)|1|857,3814|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms matrix(1, 0, 0, 1, -34, -24)|1|857,3811|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms matrix(1, 0, 0, 1, -34, -24)|1|857,3808|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms matrix(1, 0, 0, 1, -34, -24)|1|857,3805|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms matrix(1, 0, 0, 1, -34, -24)|1|857,3804|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms matrix(1, 0, 0, 1, -34, -24)|1|857,3802|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms matrix(1, 0, 0, 1, -34, -24)|1|857,3801|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1429ms matrix(1, 0, 0, 1, -34, -24)|1|857,3800|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms matrix(1, 0, 0, 1, -34, -24)|1|857,3799|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "svg",
+     "depth": 8,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|857,3814|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|857,3811|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|857,3808|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|857,3805|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|857,3804|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|857,3802|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|857,3801|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1429ms none|1|857,3800|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|857,3799|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Heading]",
+     "depth": 5,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|732,4121|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|732,4118|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|732,4115|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|732,4113|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|732,4111|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|732,4110|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|732,4109|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|732,4108|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|732,4107|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|732,4106|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Sorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.]",
+     "depth": 6,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|748,4137|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|748,4134|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|748,4131|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|748,4129|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|748,4127|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|748,4126|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|748,4125|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|748,4124|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|748,4123|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|748,4122|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "p \"I care a lot about costs as an\"",
+     "depth": 7,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|748,4137|286x139|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|748,4134|286x139|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|748,4131|286x139|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|748,4129|286x139|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|748,4127|286x139|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|748,4126|286x139|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|748,4125|286x139|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|748,4124|286x139|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|748,4123|286x139|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|748,4122|286x139|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "a",
+     "depth": 8,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|748,4139|71x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|748,4136|71x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|748,4133|71x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|748,4131|71x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|748,4129|71x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|748,4128|71x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|748,4127|71x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|748,4126|71x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|748,4125|71x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|748,4124|71x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "strong \"ThinkFish:\"",
+     "depth": 9,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|748,4139|71x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|748,4136|71x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|748,4133|71x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|748,4131|71x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|748,4129|71x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|748,4128|71x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|748,4127|71x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|748,4126|71x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|748,4125|71x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|748,4124|71x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "br",
+     "depth": 8,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|819,4139|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|819,4136|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|819,4133|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|819,4131|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|819,4129|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|819,4128|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|819,4127|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|819,4126|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|819,4125|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|819,4124|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "br",
+     "depth": 8,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|748,4163|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|748,4159|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|748,4156|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|748,4154|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|748,4152|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|748,4151|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|748,4150|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|748,4149|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1633ms none|1|748,4148|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Video Container]",
+     "depth": 4,
+     "changes": 20,
+     "ser": [
+      "0ms matrix(1, 0, 0, 1, 0, 15)|0|1074,3555|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "714ms matrix(1, 0, 0, 1, 0, 11.5683)|0.228783|1074,3551|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "816ms matrix(1, 0, 0, 1, 0, 8.50407)|0.433062|1074,3548|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "919ms matrix(1, 0, 0, 1, 0, 6.19232)|0.587179|1074,3546|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1022ms matrix(1, 0, 0, 1, 0, 4.52319)|0.698454|1074,3544|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1125ms matrix(1, 0, 0, 1, 0, 3.13217)|0.791188|1074,3543|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1226ms matrix(1, 0, 0, 1, 0, 2.2879)|0.847473|1074,3542|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1327ms matrix(1, 0, 0, 1, 0, 1.67645)|0.888236|1074,3541|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1429ms matrix(1, 0, 0, 1, 0, 1.22073)|0.918618|1074,3541|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1531ms matrix(1, 0, 0, 1, 0, 0.891681)|0.940555|1074,3541|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1633ms matrix(1, 0, 0, 1, 0, 0.651329)|0.956578|1074,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1735ms none|0.968282|1074,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1837ms none|0.976832|1074,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "1941ms none|0.983906|1074,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2043ms none|0.988244|1074,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2145ms none|0.991386|1074,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2246ms none|0.993728|1074,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2348ms none|0.995418|1074,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2451ms none|0.996643|1074,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible",
+      "2553ms none|1|1074,3540|318x738|rgb(0, 0, 0)|rgb(233, 239, 240)|none|visible"
+     ]
+    },
+    {
+     "el": "div",
+     "depth": 5,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|1074,3555|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|1074,3551|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|1074,3548|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|1074,3546|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|1074,3544|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|1074,3543|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|1074,3542|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|1074,3541|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1633ms none|1|1074,3540|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "article",
+     "depth": 6,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|1074,3555|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|1074,3551|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|1074,3548|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|1074,3546|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|1074,3544|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|1074,3543|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|1074,3542|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|1074,3541|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1633ms none|1|1074,3540|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "img",
+     "depth": 7,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|1074,3555|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|1074,3551|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|1074,3548|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|1074,3546|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|1074,3544|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|1074,3543|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|1074,3542|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|1074,3541|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1633ms none|1|1074,3540|318x567|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "button",
+     "depth": 7,
+     "changes": 9,
+     "ser": [
+      "0ms matrix(1, 0, 0, 1, -34, -24)|1|1199,3814|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms matrix(1, 0, 0, 1, -34, -24)|1|1199,3811|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms matrix(1, 0, 0, 1, -34, -24)|1|1199,3808|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms matrix(1, 0, 0, 1, -34, -24)|1|1199,3805|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms matrix(1, 0, 0, 1, -34, -24)|1|1199,3804|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms matrix(1, 0, 0, 1, -34, -24)|1|1199,3802|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms matrix(1, 0, 0, 1, -34, -24)|1|1199,3801|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1429ms matrix(1, 0, 0, 1, -34, -24)|1|1199,3800|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms matrix(1, 0, 0, 1, -34, -24)|1|1199,3799|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "svg",
+     "depth": 8,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|1199,3814|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|1199,3811|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|1199,3808|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|1199,3805|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|1199,3804|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|1199,3802|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|1199,3801|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1429ms none|1|1199,3800|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|1199,3799|68x48|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Heading]",
+     "depth": 5,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|1074,4121|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|1074,4118|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|1074,4115|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|1074,4113|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|1074,4111|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|1074,4110|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|1074,4109|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|1074,4108|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|1074,4107|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|1074,4106|318x171|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "div[Sorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.]",
+     "depth": 6,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|1090,4137|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|1090,4134|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|1090,4131|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|1090,4129|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|1090,4127|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|1090,4126|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|1090,4125|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|1090,4124|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|1090,4123|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|1090,4122|286x139|rgb(0, 0, 0)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "p \"Dude, even if the org won’t pa\"",
+     "depth": 7,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|1090,4137|286x139|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|1090,4134|286x139|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|1090,4131|286x139|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|1090,4129|286x139|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|1090,4127|286x139|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|1090,4126|286x139|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|1090,4125|286x139|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|1090,4124|286x139|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|1090,4123|286x139|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|1090,4122|286x139|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "a",
+     "depth": 8,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|1090,4139|61x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|1090,4136|61x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|1090,4133|61x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|1090,4131|61x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|1090,4129|61x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|1090,4128|61x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|1090,4127|61x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|1090,4126|61x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|1090,4125|61x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|1090,4124|61x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "strong \"Bolt.new\"",
+     "depth": 9,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|1090,4139|61x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|1090,4136|61x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|1090,4133|61x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|1090,4131|61x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|1090,4129|61x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|1090,4128|61x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|1090,4127|61x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|1090,4126|61x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|1090,4125|61x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|1090,4124|61x19|rgb(0, 38, 105)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "br",
+     "depth": 8,
+     "changes": 10,
+     "ser": [
+      "0ms none|1|1151,4139|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|1151,4136|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|1151,4133|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|1151,4131|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|1151,4129|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|1151,4128|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|1151,4127|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|1151,4126|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1531ms none|1|1151,4125|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1735ms none|1|1151,4124|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    },
+    {
+     "el": "br",
+     "depth": 8,
+     "changes": 9,
+     "ser": [
+      "0ms none|1|1090,4163|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "714ms none|1|1090,4159|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "816ms none|1|1090,4156|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "919ms none|1|1090,4154|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1022ms none|1|1090,4152|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1125ms none|1|1090,4151|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1226ms none|1|1090,4150|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1327ms none|1|1090,4149|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible",
+      "1633ms none|1|1090,4148|0x19|rgb(64, 88, 98)|rgba(0, 0, 0, 0)|none|visible"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "name": "Case Studies v2",
+   "y": 4357.6875,
+   "h": 495,
+   "moving": []
+  },
+  {
+   "i": 6,
+   "name": "agencyPaths",
+   "y": 4852.6875,
+   "h": 1131.203125,
+   "moving": []
+  },
+  {
+   "i": 7,
+   "name": "agencyCompare",
+   "y": 5983.890625,
+   "h": 1613.453125,
+   "moving": []
+  },
+  {
+   "i": 8,
+   "name": "FAQs- V3 2",
+   "y": 7597.34375,
+   "h": 605,
+   "moving": []
+  },
+  {
+   "i": 9,
+   "name": "Desktop",
+   "y": 8202.34375,
+   "h": 596.53125,
+   "moving": []
+  },
+  {
+   "i": 10,
+   "name": "Large Desktop",
+   "y": 0,
+   "h": 84,
+   "moving": []
+  }
+ ],
+ "anims": [
+  {
+   "type": "CSSAnimation",
+   "name": "vc-light-pass",
+   "target": "[object SVGAnimatedString]",
+   "dur": 11000,
+   "delay": 0,
+   "iter": null,
+   "easing": "linear",
+   "kf": "[{\"offset\":0,\"easing\":\"ease-in-out\",\"composite\":\"auto\",\"transform\":\"translateX(0px)\",\"computedOffset\":0},{\"offset\":0.12,\"easing\":\"ease-in-out\",\"composite\":\"auto\",\"transform\":\"translateX(0px)\",\"computedOffset\":0.12},{\"offset\":0.6,\"easing\":\"ease-in-out\",\"composite\":\"auto\",\"transform\":\"translateX(1620p"
+  },
+  {
+   "type": "CSSAnimation",
+   "name": "vc-trace-in",
+   "target": "[object SVGAnimatedString]",
+   "dur": 800,
+   "delay": 0,
+   "iter": 1,
+   "easing": "linear",
+   "kf": "[{\"offset\":0,\"easing\":\"ease-out\",\"composite\":\"auto\",\"opacity\":\"0.3\",\"strokeDashoffset\":\"1px\",\"computedOffset\":0},{\"offset\":1,\"easing\":\"ease-out\",\"composite\":\"auto\",\"opacity\":\"1\",\"strokeDashoffset\":\"0px\",\"computedOffset\":1}]"
+  },
+  {
+   "type": "Animation",
+   "name": "",
+   "target": "Heading",
+   "dur": 960,
+   "delay": 0,
+   "iter": 1,
+   "easing": "linear",
+   "kf": "[{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"transform\":\"none\",\"computedOffset\":0},{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"transform\":\"none\",\"computedOffset\":0.010416666666666666},{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"transform\":\"none\",\"computedOffset\":0.02083333"
+  },
+  {
+   "type": "Animation",
+   "name": "",
+   "target": "Tag Description 2",
+   "dur": 760,
+   "delay": 50,
+   "iter": 1,
+   "easing": "linear",
+   "kf": "[{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"opacity\":\"0.001\",\"computedOffset\":0},{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"opacity\":\"0.0100469\",\"computedOffset\":0.013157894736842105},{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"opacity\":\"0.0338257\",\"computedOffset\":0.026"
+  },
+  {
+   "type": "Animation",
+   "name": "",
+   "target": "Tag Description 3",
+   "dur": 460,
+   "delay": 50,
+   "iter": 1,
+   "easing": "linear",
+   "kf": "[{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"opacity\":\"0\",\"computedOffset\":0},{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"opacity\":\"0\",\"computedOffset\":0.021739130434782608},{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"opacity\":\"0\",\"computedOffset\":0.043478260869565216},{\"o"
+  },
+  {
+   "type": "Animation",
+   "name": "",
+   "target": "Tag Description 4",
+   "dur": 460,
+   "delay": 50,
+   "iter": 1,
+   "easing": "linear",
+   "kf": "[{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"opacity\":\"0\",\"computedOffset\":0},{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"opacity\":\"0\",\"computedOffset\":0.021739130434782608},{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"opacity\":\"0\",\"computedOffset\":0.043478260869565216},{\"o"
+  },
+  {
+   "type": "Animation",
+   "name": "",
+   "target": "Tag Description 5",
+   "dur": 460,
+   "delay": 50,
+   "iter": 1,
+   "easing": "linear",
+   "kf": "[{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"opacity\":\"0\",\"computedOffset\":0},{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"opacity\":\"0\",\"computedOffset\":0.021739130434782608},{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"opacity\":\"0\",\"computedOffset\":0.043478260869565216},{\"o"
+  },
+  {
+   "type": "Animation",
+   "name": "",
+   "target": "framer-ghl8rt-container",
+   "dur": 500,
+   "delay": 0,
+   "iter": 1,
+   "easing": "cubic-bezier(0.55, 0, 0.14, 1)",
+   "kf": "[{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"transform\":\"translateY(-79px)\",\"computedOffset\":0},{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"transform\":\"none\",\"computedOffset\":1}]"
+  }
+ ],
+ "io": [
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Video Container",
+   "opt": {
+    "rootMargin": "0px 0px 0px 0px",
+    "threshold": [
+     0,
+     0.01,
+     0.02,
+     0.03,
+     0.04,
+     0.05,
+     0.06,
+     0.07,
+     0.08,
+     0.09,
+     0.1,
+     0.11,
+     0.12,
+     0.13,
+     0.14,
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.2,
+     0.21,
+     0.22,
+     0.23,
+     0.24,
+     0.25,
+     0.26,
+     0.27,
+     0.28,
+     0.29,
+     0.3,
+     0.31,
+     0.32,
+     0.33,
+     0.34,
+     0.35000000000000003,
+     0.36,
+     0.37,
+     0.38,
+     0.39,
+     0.4,
+     0.41000000000000003,
+     0.42,
+     0.43,
+     0.44,
+     0.45,
+     0.46,
+     0.47000000000000003,
+     0.48,
+     0.49,
+     0.5,
+     0.51,
+     0.52,
+     0.53,
+     0.54,
+     0.55,
+     0.56,
+     0.5700000000000001,
+     0.58,
+     0.59,
+     0.6,
+     0.61,
+     0.62,
+     0.63,
+     0.64,
+     0.65,
+     0.66,
+     0.67,
+     0.68,
+     0.6900000000000001,
+     0.7000000000000001,
+     0.71,
+     0.72,
+     0.73,
+     0.74,
+     0.75,
+     0.76,
+     0.77,
+     0.78,
+     0.79,
+     0.8,
+     0.81,
+     0.8200000000000001,
+     0.8300000000000001,
+     0.84,
+     0.85,
+     0.86,
+     0.87,
+     0.88,
+     0.89,
+     0.9,
+     0.91,
+     0.92,
+     0.93,
+     0.9400000000000001,
+     0.9500000000000001,
+     0.96,
+     0.97,
+     0.98,
+     0.99
+    ]
+   }
+  },
+  {
+   "name": "Video Container",
+   "opt": {
+    "rootMargin": "0px 0px 0px 0px",
+    "threshold": [
+     0,
+     0.01,
+     0.02,
+     0.03,
+     0.04,
+     0.05,
+     0.06,
+     0.07,
+     0.08,
+     0.09,
+     0.1,
+     0.11,
+     0.12,
+     0.13,
+     0.14,
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.2,
+     0.21,
+     0.22,
+     0.23,
+     0.24,
+     0.25,
+     0.26,
+     0.27,
+     0.28,
+     0.29,
+     0.3,
+     0.31,
+     0.32,
+     0.33,
+     0.34,
+     0.35000000000000003,
+     0.36,
+     0.37,
+     0.38,
+     0.39,
+     0.4,
+     0.41000000000000003,
+     0.42,
+     0.43,
+     0.44,
+     0.45,
+     0.46,
+     0.47000000000000003,
+     0.48,
+     0.49,
+     0.5,
+     0.51,
+     0.52,
+     0.53,
+     0.54,
+     0.55,
+     0.56,
+     0.5700000000000001,
+     0.58,
+     0.59,
+     0.6,
+     0.61,
+     0.62,
+     0.63,
+     0.64,
+     0.65,
+     0.66,
+     0.67,
+     0.68,
+     0.6900000000000001,
+     0.7000000000000001,
+     0.71,
+     0.72,
+     0.73,
+     0.74,
+     0.75,
+     0.76,
+     0.77,
+     0.78,
+     0.79,
+     0.8,
+     0.81,
+     0.8200000000000001,
+     0.8300000000000001,
+     0.84,
+     0.85,
+     0.86,
+     0.87,
+     0.88,
+     0.89,
+     0.9,
+     0.91,
+     0.92,
+     0.93,
+     0.9400000000000001,
+     0.9500000000000001,
+     0.96,
+     0.97,
+     0.98,
+     0.99
+    ]
+   }
+  },
+  {
+   "name": "Video Container",
+   "opt": {
+    "rootMargin": "0px 0px 0px 0px",
+    "threshold": [
+     0,
+     0.01,
+     0.02,
+     0.03,
+     0.04,
+     0.05,
+     0.06,
+     0.07,
+     0.08,
+     0.09,
+     0.1,
+     0.11,
+     0.12,
+     0.13,
+     0.14,
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.2,
+     0.21,
+     0.22,
+     0.23,
+     0.24,
+     0.25,
+     0.26,
+     0.27,
+     0.28,
+     0.29,
+     0.3,
+     0.31,
+     0.32,
+     0.33,
+     0.34,
+     0.35000000000000003,
+     0.36,
+     0.37,
+     0.38,
+     0.39,
+     0.4,
+     0.41000000000000003,
+     0.42,
+     0.43,
+     0.44,
+     0.45,
+     0.46,
+     0.47000000000000003,
+     0.48,
+     0.49,
+     0.5,
+     0.51,
+     0.52,
+     0.53,
+     0.54,
+     0.55,
+     0.56,
+     0.5700000000000001,
+     0.58,
+     0.59,
+     0.6,
+     0.61,
+     0.62,
+     0.63,
+     0.64,
+     0.65,
+     0.66,
+     0.67,
+     0.68,
+     0.6900000000000001,
+     0.7000000000000001,
+     0.71,
+     0.72,
+     0.73,
+     0.74,
+     0.75,
+     0.76,
+     0.77,
+     0.78,
+     0.79,
+     0.8,
+     0.81,
+     0.8200000000000001,
+     0.8300000000000001,
+     0.84,
+     0.85,
+     0.86,
+     0.87,
+     0.88,
+     0.89,
+     0.9,
+     0.91,
+     0.92,
+     0.93,
+     0.9400000000000001,
+     0.9500000000000001,
+     0.96,
+     0.97,
+     0.98,
+     0.99
+    ]
+   }
+  },
+  {
+   "name": "Video Container",
+   "opt": {
+    "rootMargin": "0px 0px 0px 0px",
+    "threshold": [
+     0,
+     0.01,
+     0.02,
+     0.03,
+     0.04,
+     0.05,
+     0.06,
+     0.07,
+     0.08,
+     0.09,
+     0.1,
+     0.11,
+     0.12,
+     0.13,
+     0.14,
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.2,
+     0.21,
+     0.22,
+     0.23,
+     0.24,
+     0.25,
+     0.26,
+     0.27,
+     0.28,
+     0.29,
+     0.3,
+     0.31,
+     0.32,
+     0.33,
+     0.34,
+     0.35000000000000003,
+     0.36,
+     0.37,
+     0.38,
+     0.39,
+     0.4,
+     0.41000000000000003,
+     0.42,
+     0.43,
+     0.44,
+     0.45,
+     0.46,
+     0.47000000000000003,
+     0.48,
+     0.49,
+     0.5,
+     0.51,
+     0.52,
+     0.53,
+     0.54,
+     0.55,
+     0.56,
+     0.5700000000000001,
+     0.58,
+     0.59,
+     0.6,
+     0.61,
+     0.62,
+     0.63,
+     0.64,
+     0.65,
+     0.66,
+     0.67,
+     0.68,
+     0.6900000000000001,
+     0.7000000000000001,
+     0.71,
+     0.72,
+     0.73,
+     0.74,
+     0.75,
+     0.76,
+     0.77,
+     0.78,
+     0.79,
+     0.8,
+     0.81,
+     0.8200000000000001,
+     0.8300000000000001,
+     0.84,
+     0.85,
+     0.86,
+     0.87,
+     0.88,
+     0.89,
+     0.9,
+     0.91,
+     0.92,
+     0.93,
+     0.9400000000000001,
+     0.9500000000000001,
+     0.96,
+     0.97,
+     0.98,
+     0.99
+    ]
+   }
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  },
+  {
+   "name": "Dot Blink",
+   "opt": {}
+  }
+ ],
+ "scrollListeners": 6
+}

@@ -1,0 +1,722 @@
+# lead-generation-for-content-agencies @1280 H=7947
+{"i":0,"name":"Bottom Sticky bar 3","code":"","y":891,"h":88,"w":1280,"pos":"fixed","display":"flex"}
+{"i":1,"name":"Hero","code":"","y":0,"h":794,"w":1280,"pos":"relative","display":"flex"}
+{"i":2,"name":"Desktop","code":"","y":794,"h":360,"w":1280,"pos":"static","display":"contents"}
+{"i":3,"name":"Variant 1","code":"","y":1154,"h":736,"w":1280,"pos":"static","display":"contents"}
+{"i":4,"name":"Process V2","code":"","y":1890,"h":936,"w":1280,"pos":"relative","display":"flex"}
+{"i":5,"name":"Why sales teams love valley","code":"","y":2826,"h":975,"w":1280,"pos":"relative","display":"flex"}
+{"i":6,"name":"Case Studies v2","code":"","y":3800,"h":479,"w":1280,"pos":"relative","display":"flex"}
+{"i":7,"name":"Comparative Analysis","code":"","y":4279,"h":961,"w":1280,"pos":"relative","display":"flex"}
+{"i":8,"name":"Desktop","code":"","y":5241,"h":1505,"w":1280,"pos":"static","display":"contents"}
+{"i":9,"name":"FAQs- V3 2","code":"valley-start-questions","y":6746,"h":605,"w":1280,"pos":"relative","display":"flex"}
+{"i":10,"name":"Desktop","code":"vf","y":7351,"h":597,"w":1280,"pos":"static","display":"contents"}
+{"i":11,"name":"Large Desktop","code":"vpm","y":0,"h":84,"w":1280,"pos":"static","display":"contents"}
+
+######## [0] Bottom Sticky bar 3  y=891 h=88 pos=fixed
+  B <section Bottom Sticky bar 3> 0,891 1280x88 pad=0px 52px flex column gap=0px jc=center ai=center ::after{absolute 1280pxx88px inset=0px,0px border=1px 0px 0px 0px solid #000000/0.07} bg=#ffffff op=0 tf=matrix(1, 0, 0, 1, 0, 79) pos=fixed top=812px
+  B <nav Nav Container> 52,911 1176x48 radius=3px
+  B <div Links & Button> 52,911 1176x48 flex row gap=normal jc=space-between ai=center 
+  B <div Mob Logo + Menu> 52,912 1024x45 pad=0px 40px 0px 0px 
+  B <div> 52,912 984x45 flex column gap=4px jc=center ai=center 
+  T <h1> 52,912 984x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/21.6px ls=normal w500 #000000 ta=left  | "One engine per client. Content's audience, finally converted."
+  T <h2> 52,938 984x19 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/19.2px ls=normal w500 #000000/0.6 ta=left  | "A 30-min walkthrough on your real client - no deck, no discovery"
+  B <a Default> 1076,911 152x48 pad=12px 18px flex row gap=0px jc=center ai=center bg=#111111 ovf=hidden
+  T <p> 1094,923 116x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/22.4px ls=normal w500 #ffffff  | "Book a Demo   →"
+  B <div> 1094,966 116x22 tf=matrix(1, 0, 0, 1, -58.1016, 0)
+  T <p> 1094,966 116x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/22.4px ls=normal w500 #ffffff  | "Book a Demo   →"
+  B <div Back> 1076,911 152x48 pad=10px 
+  IMG 1076,911 152x48 fit=cover pos=33.4% 14.3%  src=https://framerusercontent.com/images/x4WGqv5aU1EbJsAAySHvFBp9HaY.webp?width=680&height=920 alt=""
+  B <div Open> 52,959 1176x1 flex column gap=0px jc=flex-start ai=center bg=#fdfdfd op=0 ovf=clip
+  B <div> 52,959 1176x1 flex row gap=0px jc=center ai=center 
+  B <div Sec 1> 52,959 392x1 flex column gap=0px jc=flex-start ai=flex-start 
+  B <div Header> 52,959 392x58 pad=20px 40px 20px 56px ::after{absolute 392pxx57.5938px inset=0px,0px border=0px 1px 1px 1px solid #000000/0.08}
+  T <p> 108,979 61x18 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/17.6px ls=normal w500 #000000/0.4  | "Features"
+  B <div Content> 52,1016 392x320 flex column gap=0px jc=flex-start ai=flex-start 
+  B <div Frame 2147240975> 52,1016 392x80 pad=28px 40px 28px 56px flex row gap=8px jc=flex-start ai=center ::after{absolute 392pxx80px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.08}
+  SVG 108,1044 24x24 fill=#000000 stroke=none color=#000000 
+  T <p> 140,1048 168x15 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/15.4px ls=normal w500 #000000/0.8  | "LinkedIn profile viewers"
+  B <div Frame 2147240976> 52,1096 392x80 pad=28px 40px 28px 56px flex row gap=8px jc=flex-start ai=center ::after{absolute 392pxx80px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.08}
+  SVG 108,1124 24x24 fill=#000000 stroke=none color=#000000 
+  T <p> 140,1128 168x15 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/15.4px ls=normal w500 #000000/0.8  | "Company profile viewers"
+  B <div Frame 2147240977> 52,1176 392x80 pad=28px 40px 28px 56px flex row gap=8px jc=flex-start ai=center ::after{absolute 392pxx80px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.08}
+  SVG 108,1204 24x24 fill=#000000 stroke=none color=#000000 
+  T <p> 140,1208 168x15 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/15.4px ls=normal w500 #000000/0.8  | "LinkedIn post engagers"
+  B <div Frame 2147240979> 52,1256 392x80 pad=28px 40px 28px 56px flex row gap=8px jc=flex-start ai=center ::after{absolute 392pxx80px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.08}
+  SVG 108,1284 24x24 fill=#000000 stroke=none color=#000000 
+  T <p> 140,1288 168x15 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/15.4px ls=normal w500 #000000/0.8  | "LinkedIn post engagers"
+  B <div Sec 2> 444,959 392x1 flex column gap=0px jc=flex-start ai=flex-start 
+  B <div Frame 2147241030> 444,959 392x58 pad=20px 40px 20px 56px ::after{absolute 392pxx57.5938px inset=0px,0px border=0px 1px 1px 1px solid #000000/0.08}
+  T <p> 500,979 61x18 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/17.6px ls=normal w500 #000000/0.4  | "Features"
+  B <div Frame 2147241025> 444,1016 392x320 flex column gap=0px jc=flex-start ai=flex-start 
+  B <div Frame 2147240975> 444,1016 392x80 pad=28px 40px 28px 56px flex row gap=8px jc=flex-start ai=center ::after{absolute 392pxx80px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.08}
+  SVG 500,1044 24x24 fill=#000000 stroke=none color=#000000 
+  T <p> 532,1048 168x15 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/15.4px ls=normal w500 #000000/0.8  | "LinkedIn profile viewers"
+  B <div Frame 2147240976> 444,1096 392x80 pad=28px 40px 28px 56px flex row gap=8px jc=flex-start ai=center ::after{absolute 392pxx80px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.08}
+  SVG 500,1124 24x24 fill=#000000 stroke=none color=#000000 
+  T <p> 532,1128 168x15 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/15.4px ls=normal w500 #000000/0.8  | "Company profile viewers"
+  B <div Frame 2147240977> 444,1176 392x80 pad=28px 40px 28px 56px flex row gap=8px jc=flex-start ai=center ::after{absolute 392pxx80px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.08}
+  SVG 500,1204 24x24 fill=#000000 stroke=none color=#000000 
+  T <p> 532,1208 168x15 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/15.4px ls=normal w500 #000000/0.8  | "LinkedIn post engagers"
+  B <div Frame 2147240979> 444,1256 392x80 pad=28px 40px 28px 56px flex row gap=8px jc=flex-start ai=center ::after{absolute 392pxx80px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.08}
+  SVG 500,1284 24x24 fill=#000000 stroke=none color=#000000 
+  T <p> 532,1288 168x15 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/15.4px ls=normal w500 #000000/0.8  | "LinkedIn post engagers"
+  B <div Sec 3> 836,959 392x1 flex column gap=0px jc=flex-start ai=flex-start 
+  B <div Frame 2147241030> 836,959 392x58 pad=20px 40px 20px 56px ::after{absolute 392pxx57.5938px inset=0px,0px border=0px 1px 1px 1px solid #000000/0.08}
+  T <p> 892,979 61x18 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/17.6px ls=normal w500 #000000/0.4  | "Features"
+  B <div Frame 2147241025> 836,1016 392x491 pad=24px flex column gap=0px jc=flex-start ai=flex-start 
+  IMG 836,1016 392x491 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/gxrttgWMerlEv4wXpfhXvX5aHA.png?width=602&height=748 alt=""
+  B <div Frame 2147241046> 860,1040 344x443 flex column gap=238px jc=flex-start ai=flex-start 
+  B <div Frame 2147241019> 860,1040 344x165 flex column gap=24px jc=flex-start ai=flex-start 
+  SVG 860,1040 45x42 fill=#000000 stroke=none color=#000000 
+  T <p> 860,1106 344x99 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/19.8px ls=normal w500 #000000/0.6  | "I've been doing this about 12 years and I've never used a tool like this before - we have Outreach, HubSpot, Seamless, but Valley has booked us more meetings than anything else we're using right now."
+  B <div Author container> 860,1443 344x40 flex row gap=normal jc=space-between ai=center 
+  B <div Author info container> 860,1443 249x40 flex row gap=4px jc=flex-start ai=center 
+  B <div Avatar [1.0]> 860,1443 40x40 radius=969px
+  B <div image> 860,1443 40x40 radius=951px
+  B <div> 860,1443 40x40 radius=951px
+  IMG 860,1443 40x40 fit=cover pos=50% 50% radius=951px ovf=clip src=https://framerusercontent.com/images/JvGRz9VfqW7xVnNtsRvAGNLprUo.png?width=800&height=800 alt=""
+  B <div Author text container> 904,1446 205x35 flex column gap=4px jc=flex-start ai=flex-start 
+  T <p> 904,1446 113x18 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/17.6px ls=normal w500 #222222  | "Jason Hardman"
+  T <p> 904,1467 205x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/13.2px ls=normal w500 #222222/0.5  | "Founding Enterprise Account Executive"
+  IMG 1112,1451 92x24 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/6xRDiE0k6Pldjv2UfxwgPKYcbFo.png?width=4096&height=1084 alt=""
+  B <div Last section> 52,960 1176x68 ::after{absolute 1176pxx68px inset=0px,0px border=1px 1px 1px 1px solid #e0e0e0 radius=0px 0px 4px 4px} bg=#ffffff radius=0px 0px 4px 4px backdrop=blur(41px) ovf=hidden
+  B <div Frame 2147241021> 52,960 1176x68 pad=28px 56px ::after{absolute 1176pxx68px inset=0px,0px border=1px 0px 0px 0px solid #d2d2d2}
+  B <div Footer> 108,988 1064x12 flex row gap=28px jc=flex-start ai=center 
+  B <div Frame 2147241045> 108,988 775x12 flex row gap=28px jc=flex-start ai=center 
+  T <p> 108,988 108x12 | Geist Mono, monospace 12px/12px ls=0.48px w400 #000000 tt=uppercase  | "PRIVACY POLICY"
+  T <p> 244,988 131x12 | Geist Mono, monospace 12px/12px ls=0.48px w400 #000000 tt=uppercase  | "TERMS OF SERVICES"
+  B <div Copyright> 911,988 261x12 op=0
+  T <p> 911,988 261x12 | Geist Mono, monospace 12px/12px ls=0.48px w400 #000000 tt=uppercase  | "© 2025 Valley. All rights reserved"
+
+######## [1] Hero  y=0 h=794 pos=relative
+  B <section Hero> 0,0 1280x794 pad=112px 0px 0px bg=#f8f9f7
+  B <div Text-container> 0,112 1280x682 pad=24px 48px 56px flex row gap=32px jc=flex-start ai=center 
+  B <div> 48,136 651x602 flex column gap=32px jc=center ai=flex-start 
+  B <div Heading> 48,136 651x473 flex column gap=26px jc=center ai=flex-start 
+  B <div Tag> 48,136 394x30 pad=8px 12px flex row gap=8px jc=center ai=center bg=#e7eff0 ovf=clip
+  B <div Tag dot> 60,149 4x4 bg=#0077b5 ovf=clip
+  T <code> 72,142 358x18 | Geist Mono, monospace 14px/14px ls=0.56px w400 #0077b5 tt=uppercase  | "FOR FULL-SERVICE GTM & LINKEDIN AGENCIES"
+  T <span> 48,192 106x63 | PP Neue Montreal Medium, PP Neue Montreal Medium 56px/62.72px ls=-1.4px w500 #1c292d ta=left  | "Your"
+  T <span> 164,192 177x63 | PP Neue Montreal Medium, PP Neue Montreal Medium 56px/62.72px ls=-1.4px w500 #1c292d ta=left  | "content"
+  T <span> 352,192 137x63 | PP Neue Montreal Medium, PP Neue Montreal Medium 56px/62.72px ls=-1.4px w500 #1c292d ta=left  | "builds"
+  T <span> 498,192 75x63 | PP Neue Montreal Medium, PP Neue Montreal Medium 56px/62.72px ls=-1.4px w500 #1c292d ta=left  | "the"
+  T <span> 48,255 224x63 | PP Neue Montreal Medium, PP Neue Montreal Medium 56px/62.72px ls=-1.4px w500 #1c292d ta=left  | "audience."
+  T <span> 282,255 135x63 | PP Neue Montreal Medium, PP Neue Montreal Medium 56px/62.72px ls=-1.4px w500 #1c292d ta=left  | "Valley"
+  T <span> 427,255 118x63 | PP Neue Montreal Medium, PP Neue Montreal Medium 56px/62.72px ls=-1.4px w500 #1c292d ta=left  | "turns"
+  T <span> 556,255 26x63 | PP Neue Montreal Medium, PP Neue Montreal Medium 56px/62.72px ls=-1.4px w500 #1c292d ta=left  | "it"
+  T <span> 592,255 85x63 | PP Neue Montreal Medium, PP Neue Montreal Medium 56px/62.72px ls=-1.4px w500 #1c292d ta=left  | "into"
+  T <span> 48,317 176x63 | PP Neue Montreal Medium, PP Neue Montreal Medium 56px/62.72px ls=-1.4px w500 #1c292d ta=left  | "booked"
+  T <span> 234,317 113x63 | PP Neue Montreal Medium, PP Neue Montreal Medium 56px/62.72px ls=-1.4px w500 #1c292d ta=left  | "calls."
+  T <h2> 48,406 651x203 | PP Neue Montreal Variable, PP Neue Montreal Variable 20px/29px ls=normal w400 #4e606a ta=left  | "You ghostwrite the posts, grow the founder’s following, fill the top of funnel. Then the outbound layer sends generic DMs that waste it. Valley messages the people who actually engaged - in the founder’s voice, off 60+ data points of research - at 15–45% reply rates. One engine per client, live in 3"
+  B <div> 48,641 651x97 flex column gap=24px jc=center ai=flex-start 
+  B <div cta-wrapper> 48,641 304x48 flex row gap=10px jc=flex-end ai=center 
+  B <a Default> 48,641 152x48 pad=12px 18px flex row gap=0px jc=center ai=center bg=#111111 ovf=hidden
+  T <p> 66,654 116x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/22.4px ls=normal w500 #ffffff  | "Book a Demo   →"
+  B <div> 66,697 116x22 tf=matrix(1, 0, 0, 1, -58.1016, 0)
+  T <p> 66,697 116x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/22.4px ls=normal w500 #ffffff  | "Book a Demo   →"
+  B <div Back> 48,641 152x48 pad=10px 
+  IMG 48,641 152x48 fit=cover pos=33.4% 14.3%  src=https://framerusercontent.com/images/x4WGqv5aU1EbJsAAySHvFBp9HaY.webp?width=680&height=920 alt=""
+  B <a Default> 210,641 142x48 pad=12px 18px flex row gap=0px jc=center ai=center bg=#111111 ovf=hidden
+  T <p> 228,654 106x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/22.4px ls=normal w500 #ffffff  | "Start for free  →"
+  B <div> 228,697 106x22 tf=matrix(1, 0, 0, 1, -53.0859, 0)
+  T <p> 228,697 106x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/22.4px ls=normal w500 #ffffff  | "Start for free  →"
+  B <div Back> 210,641 142x48 pad=10px 
+  IMG 210,641 142x48 fit=cover pos=33.4% 14.3%  src=https://framerusercontent.com/images/x4WGqv5aU1EbJsAAySHvFBp9HaY.webp?width=680&height=920 alt=""
+  B <div Tag> 48,713 429x25 pad=4px 0px 1px 6px flex row gap=8px jc=center ai=center backdrop=blur(2px)
+  B <div Ellipse 43704> 54,717 20x20 radius=100% op=0.25
+  B <div> 54,717 20x20 radius=100%
+  IMG 54,717 20x20 fit=fill pos=50% 50% radius=100% ovf=clip src=https://framerusercontent.com/images/U8j0K3SkdLeBpY8MYtbVddKkV0.jpg?scale-down-to=1024&width=2316&height=3088 alt=""
+  B <div Ellipse 43705> 64,717 20x20 radius=100% op=0.62
+  B <div> 64,717 20x20 radius=100%
+  IMG 64,717 20x20 fit=fill pos=50% 50% radius=100% ovf=clip src=https://framerusercontent.com/images/WtSAHrTok8mtlR2CI7nq7oEQ6Y.jpeg?scale-down-to=512&width=800&height=800 alt=""
+  B <div Ellipse 43706> 76,717 20x20 radius=100%
+  B <div> 76,717 20x20 radius=100%
+  IMG 76,717 20x20 fit=fill pos=50% 50% radius=100% ovf=clip src=https://framerusercontent.com/images/R5AeuyDxdoeADin1x32gC6L5St0.png?width=480&height=480 alt=""
+  B <div Variant 1> 102,719 375x16 flex column gap=10px jc=flex-start ai=flex-start 
+  T <p> 102,719 375x18 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/17.6px ls=normal w500 #000000/0.6 tt=uppercase ta=left  | "bolt booked enterprise demos in"
+  T <span> 215,718 18x19 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/17.6px ls=normal w500 #0076b5 tt=uppercase ta=left  | "25"
+  T <span> 415,718 62x19 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/17.6px ls=normal w500 #0076b5 tt=uppercase ta=left  | "45 days"
+  B <div Tag Description 2> 102,744 312x15 op=0
+  T <p> 102,744 312x15 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/15.4px ls=normal w500 #000000/0.6 tt=uppercase ta=left  | "Ridge generated revenue in"
+  T <span> 231,743 26x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/15.4px ls=normal w500 #0076b5 tt=uppercase ta=left  | "60K"
+  T <span> 343,743 71x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/15.4px ls=normal w500 #0076b5 tt=uppercase ta=left  | "3 months"
+  B <div Tag Description 3> 102,769 329x15 op=0
+  T <p> 102,769 329x15 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/15.4px ls=normal w500 #000000/0.6 tt=uppercase ta=left  | "Linarca booked demos in the"
+  T <span> 225,768 13x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/15.4px ls=normal w500 #0076b5 tt=uppercase ta=left  | "15"
+  T <span> 339,768 91x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/15.4px ls=normal w500 #0076b5 tt=uppercase ta=left  | "first month"
+  B <div Tag Description 4> 102,795 333x15 op=0
+  T <p> 102,795 333x15 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/15.4px ls=normal w500 #000000/0.6 tt=uppercase ta=left  | "Thinkfish books Meetings"
+  T <span> 228,794 33x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/15.4px ls=normal w500 #0076b5 tt=uppercase ta=left  | ">400"
+  T <span> 337,794 97x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/15.4px ls=normal w500 #0076b5 tt=uppercase ta=left  | "Every month"
+  B <div Tag Description 5> 102,820 328x15 op=0
+  T <p> 102,820 328x15 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/15.4px ls=normal w500 #000000/0.6 tt=uppercase ta=left  | "bolt booked enterprise demos in"
+  T <span> 201,819 16x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/15.4px ls=normal w500 #0076b5 tt=uppercase ta=left  | "25"
+  T <span> 376,819 54x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/15.4px ls=normal w500 #0076b5 tt=uppercase ta=left  | "45 days"
+  B <div> 731,141 501x591 flex column gap=24px jc=center ai=center 
+  IMG 731,141 501x532 fit=cover pos=50% 50%  src=https://i.ytimg.com/vi_webp/t9cYsNR2goo/maxresdefault.webp alt=""
+  B <button> 948,383 68x48 tf=matrix(1, 0, 0, 1, -34, -24)
+  SVG 948,383 68x48 fill=#000000 stroke=none color=#000000 
+  T <p> 731,697 501x35 | CUSTOMV2;PP Neue Montreal Medium 16px/17.6px ls=normal w400 #000000/0.6 tt=uppercase ta=left  | "30-min walkthrough · no deck, no discovery · see your client use-case live"
+  B <div [SEO]Indexing text> 220,736 840x72 op=0 tf=matrix(1, 0, 0, 1, 0, -36)
+  T <p> 220,736 840x72 | CUSTOMV2;PP Neue Montreal Medium 20px/24px ls=normal w400 #000000/0.6 ta=center  | "Valley replaces the Clay + HeyReach + ChatGPT stack your agency duct-tapes together for every client — with one warm-outbound engine. Onboard a new client in 30 minutes instead of 4 hours, and scale outreach without scaling your team."
+
+######## [2] Desktop  y=794 h=360 pos=static
+  B <section Desktop> 0,794 1280x360 pad=48px flex column gap=32px jc=center ai=center bg=#f8f9f7 ovf=hidden
+  B <div> 48,842 1184x264 flex row gap=10px jc=center ai=center 
+  B <div Call to action container> 48,842 289x264 pad=20px flex column gap=normal jc=space-between ai=flex-start ::after{absolute 288.5pxx264px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1} bg=#1c292d ovf=hidden
+  IMG 48,842 289x264 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/GGiHIlYdU4o4MMMkKUEQbJ1CUvw.png?scale-down-to=2048&width=2496&height=662 alt=""
+  B <div Star Col> 252,715 100x500 flex column gap=0px jc=center ai=center 
+  B <div Dark> 252,715 100x100 radius=10px
+  B <div> 252,715 100x100 radius=10px
+  IMG 252,715 100x100 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Dark> 252,815 100x100 radius=10px
+  B <div> 252,815 100x100 radius=10px
+  IMG 252,815 100x100 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Dark> 252,915 100x100 radius=10px
+  B <div> 252,915 100x100 radius=10px
+  IMG 252,915 100x100 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Highlight> 252,1015 100x100 radius=10px
+  B <div> 252,1015 100x100 radius=10px
+  IMG 252,1015 100x100 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/ysxcQkBhX6DvdxX0UA6jJSJnSk.png?width=213&height=190 alt=""
+  B <div Dark> 252,1115 100x100 radius=10px
+  B <div> 252,1115 100x100 radius=10px
+  IMG 252,1115 100x100 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  T <p> 68,862 199x79 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/26.4px ls=-0.48px w500 #ffffff  | "The output of an SDR, a fraction of the cost"
+  B <div Case study date container> 68,1064 108x22 pad=4px 8px ::after{absolute 108.172pxx22px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1 radius=1px} bg=#34474e radius=1px backdrop=blur(2px) ovf=hidden
+  T <p> 76,1069 92x12 | Geist Mono, Geist Mono, monospace 12px/12px ls=0.48px w400 #ffffff tt=uppercase ta=center  | "better leads"
+  B <div Call to action container> 347,842 289x264 pad=20px flex column gap=normal jc=space-between ai=flex-start ::after{absolute 288.5pxx264px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1} bg=#1c292d ovf=hidden
+  IMG 347,842 289x264 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/GGiHIlYdU4o4MMMkKUEQbJ1CUvw.png?scale-down-to=2048&width=2496&height=662 alt=""
+  B <div Star Col> 550,715 100x500 flex column gap=0px jc=center ai=center 
+  B <div Dark> 550,715 100x100 radius=10px
+  B <div> 550,715 100x100 radius=10px
+  IMG 550,715 100x100 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Dark> 550,815 100x100 radius=10px
+  B <div> 550,815 100x100 radius=10px
+  IMG 550,815 100x100 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Dark> 550,915 100x100 radius=10px
+  B <div> 550,915 100x100 radius=10px
+  IMG 550,915 100x100 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Highlight> 550,1015 100x100 radius=10px
+  B <div> 550,1015 100x100 radius=10px
+  IMG 550,1015 100x100 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/ysxcQkBhX6DvdxX0UA6jJSJnSk.png?width=213&height=190 alt=""
+  B <div Dark> 550,1115 100x100 radius=10px
+  B <div> 550,1115 100x100 radius=10px
+  IMG 550,1115 100x100 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  T <p> 367,862 199x79 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/26.4px ls=-0.48px w500 #ffffff  | "Bolt booked 25 enterprise demos in 45 days"
+  B <div Case study date container> 367,1064 116x22 pad=4px 8px ::after{absolute 115.844pxx22px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1 radius=1px} bg=#34474e radius=1px backdrop=blur(2px) ovf=hidden
+  T <p> 375,1069 100x12 | Geist Mono, Geist Mono, monospace 12px/12px ls=0.48px w400 #ffffff tt=uppercase ta=center  | "Faster Set up"
+  B <div Call to action container> 645,842 289x264 pad=20px flex column gap=normal jc=space-between ai=flex-start ::after{absolute 288.5pxx264px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1} bg=#1c292d ovf=hidden
+  IMG 645,842 289x264 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/GGiHIlYdU4o4MMMkKUEQbJ1CUvw.png?scale-down-to=2048&width=2496&height=662 alt=""
+  B <div Star Col> 849,715 100x500 flex column gap=0px jc=center ai=center 
+  B <div Dark> 849,715 100x100 radius=10px
+  B <div> 849,715 100x100 radius=10px
+  IMG 849,715 100x100 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Dark> 849,815 100x100 radius=10px
+  B <div> 849,815 100x100 radius=10px
+  IMG 849,815 100x100 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Dark> 849,915 100x100 radius=10px
+  B <div> 849,915 100x100 radius=10px
+  IMG 849,915 100x100 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Highlight> 849,1015 100x100 radius=10px
+  B <div> 849,1015 100x100 radius=10px
+  IMG 849,1015 100x100 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/ysxcQkBhX6DvdxX0UA6jJSJnSk.png?width=213&height=190 alt=""
+  B <div Dark> 849,1115 100x100 radius=10px
+  B <div> 849,1115 100x100 radius=10px
+  IMG 849,1115 100x100 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  T <p> 665,862 199x53 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/26.4px ls=-0.48px w500 #ffffff  | "Less than $100 per meeting booked"
+  B <div Case study date container> 665,1064 93x22 pad=4px 8px ::after{absolute 92.8125pxx22px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1 radius=1px} bg=#34474e radius=1px backdrop=blur(2px) ovf=hidden
+  T <p> 673,1069 77x12 | Geist Mono, Geist Mono, monospace 12px/12px ls=0.48px w400 #ffffff tt=uppercase ta=center  | "Higher ROI"
+  B <div Call to action container> 944,842 289x264 pad=20px flex column gap=normal jc=space-between ai=flex-start ::after{absolute 288.5pxx264px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1} bg=#1c292d ovf=hidden
+  IMG 944,842 289x264 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/GGiHIlYdU4o4MMMkKUEQbJ1CUvw.png?scale-down-to=2048&width=2496&height=662 alt=""
+  B <div Star Col> 1147,715 100x500 flex column gap=0px jc=center ai=center 
+  B <div Dark> 1147,715 100x100 radius=10px
+  B <div> 1147,715 100x100 radius=10px
+  IMG 1147,715 100x100 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Dark> 1147,815 100x100 radius=10px
+  B <div> 1147,815 100x100 radius=10px
+  IMG 1147,815 100x100 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Dark> 1147,915 100x100 radius=10px
+  B <div> 1147,915 100x100 radius=10px
+  IMG 1147,915 100x100 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Highlight> 1147,1015 100x100 radius=10px
+  B <div> 1147,1015 100x100 radius=10px
+  IMG 1147,1015 100x100 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/ysxcQkBhX6DvdxX0UA6jJSJnSk.png?width=213&height=190 alt=""
+  B <div Dark> 1147,1115 100x100 radius=10px
+  B <div> 1147,1115 100x100 radius=10px
+  IMG 1147,1115 100x100 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  T <p> 964,862 199x106 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/26.4px ls=-0.48px w500 #ffffff  | "Clone the voice of your best sales rep for every team member"
+  B <div Case study date container> 964,1064 108x22 pad=4px 8px ::after{absolute 108.172pxx22px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1 radius=1px} bg=#34474e radius=1px backdrop=blur(2px) ovf=hidden
+  T <p> 972,1069 92x12 | Geist Mono, Geist Mono, monospace 12px/12px ls=0.48px w400 #ffffff tt=uppercase ta=center  | "better leads"
+  B <div [SEO]Indexing text> 220,1107 840x72 op=0 tf=matrix(1, 0, 0, 1, 0, -36)
+  T <p> 220,1107 840x72 | CUSTOMV2;PP Neue Montreal Medium 20px/24px ls=normal w400 #000000/0.6 ta=center  | "Valley replaces the Clay + HeyReach + ChatGPT stack your agency duct-tapes together for every client — with one warm-outbound engine. Onboard a new client in 30 minutes instead of 4 hours, and scale outreach without scaling your team."
+
+######## [3] Variant 1  y=1154 h=736 pos=static
+  B <section Variant 1> 0,1154 1280x736 pad=32px 48px flex column gap=24px jc=center ai=center bg=#f8f9f7
+  T <p> 48,1186 1184x54 | PP Neue Montreal Medium, PP Neue Montreal Medium 20px/27px ls=normal w500 #19282e ta=center  | "300+ B2B SaaS teams trust Valley’s LinkedIn outbound — more pipeline from the reps they already have."
+  B <div Logo-container> 48,1264 1184x594 pad=28px 0px 0px flex column gap=0px jc=flex-start ai=center bg=#f8f9f7
+  B <div> 48,1292 1184x240 flex row gap=0px jc=center ai=center ::after{absolute 1184pxx240px inset=0px,0px border=1px 1px 1px 1px solid #e0e0e0} bg=#f8f9f7
+  B <div> 48,1292 395x240 pad=52px 28px 28px grid gap=52px 28px cols=155.328px 155.328px jc=normal ai=normal ::after{absolute 394.656pxx240px inset=0px,0px border=0px 1px 0px 0px solid #cccccc} bg=#f8f9f7
+  B <div> 76,1344 155x160 flex column gap=52px normal jc=normal ai=normal 
+  B <div> 81,1348 146x40 flex row gap=10px jc=center ai=center 
+  B <div Dot Blink> 81,1366 5x5 bg=#0077b5
+  B <div> 96,1348 131x40 op=0.7
+  IMG 96,1348 131x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Bx6e2ANj69WlGVSGixBWFjy4WY.png?width=754&height=230 alt="Ridge"
+  B <div> 116,1448 75x40 op=0.7
+  IMG 116,1448 75x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/7ii3QW0Ru8RimJQ33PMayGEtvI.png?width=225&height=120 alt="Capsule"
+  B <div Tag> 153,1270 184x48 pad=8px bg=#ffffff
+  IMG 161,1275 168x38 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/jx1u5bQyJQTHE8DVeFhTlV7WEQ.png?scale-down-to=512&width=8000&height=1812 alt="Heyreach"
+  B <div> 259,1344 155x160 flex column gap=52px normal jc=normal ai=normal 
+  B <div> 299,1348 76x40 op=0.7
+  IMG 299,1348 76x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/VuqKYnHWoTofCCM3yIH85eHOpo.png?width=228&height=120 alt="Circuit"
+  B <div> 289,1448 96x40 op=0.7
+  IMG 289,1448 96x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/yvTz5ONEScQRG5OWmiMEDzXpas.png?width=288&height=120 alt="Ditchcarbon"
+  B <div> 443,1292 395x240 pad=52px 28px 28px grid gap=52px 28px cols=155.328px 155.344px jc=normal ai=normal ::after{absolute 394.672pxx240px inset=0px,0px border=1px 0px 1px 0px solid #cccccc} bg=#f8f9f7
+  B <div> 471,1344 155x160 flex column gap=52px normal jc=normal ai=normal 
+  B <div> 507,1348 82x40 op=0.7
+  IMG 507,1348 82x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/gj2oKe8h7wzUNC5y3oBGI34mM.png?width=246&height=120 alt="growthexperts"
+  B <div> 502,1448 93x40 op=0.7
+  IMG 502,1448 93x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/ktz6KWkTv0W6wZYpr8fDzYPvY4I.png?width=279&height=120 alt="storygen"
+  B <div Tag> 548,1270 184x48 pad=8px bg=#ffffff
+  IMG 556,1270 168x49 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/cLS5abTnQ5XywuBkuSOLzapiDo.png?scale-down-to=512&width=1284&height=372 alt="Expandi"
+  B <div> 654,1344 155x160 flex column gap=52px normal jc=normal ai=normal 
+  B <div> 688,1348 88x40 op=0.7
+  IMG 688,1348 88x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/YG1tT9kh0M7mlsBDlaOdgRR0.png?width=264&height=120 alt="wegoliath"
+  B <div> 684,1448 96x40 op=0.7
+  IMG 684,1448 96x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/DIlJZPjonPeUe4ZwL1CEYmCOUw.png?width=288&height=120 alt="more"
+  B <div> 837,1292 395x240 pad=52px 28px 28px grid gap=52px 28px cols=155.328px 155.344px jc=normal ai=normal ::after{absolute 394.672pxx240px inset=0px,0px border=0px 1px 0px 1px solid #cccccc} bg=#f8f9f7
+  B <div> 865,1344 155x160 flex column gap=52px normal jc=normal ai=normal 
+  B <div> 902,1348 82x40 op=0.7
+  IMG 902,1348 82x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/ujCoumqWwdBQpRvvlCfiVuOzso.png?width=246&height=120 alt="experio"
+  B <div> 915,1448 56x40 op=0.7
+  IMG 915,1448 56x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/XR2mg0m5jaEuY77g9McpBAjsHw.png?width=168&height=120 alt="websity"
+  B <div Tag> 943,1270 184x48 pad=8px bg=#ffffff
+  IMG 951,1266 168x56 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/W4Pger03NHoxtfZHRcbAIfQ6P4.png?scale-down-to=512&width=1910&height=632 alt="Lemlist"
+  B <div> 1049,1344 155x160 flex column gap=52px normal jc=normal ai=normal 
+  B <div> 1066,1348 120x40 op=0.7
+  IMG 1066,1348 120x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/8muhkAJTPNewpFOWmKmjxRbWdI.png?width=360&height=120 alt="salesmotion"
+  B <div> 1078,1448 96x40 op=0.7
+  IMG 1078,1448 96x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/DIlJZPjonPeUe4ZwL1CEYmCOUw.png?width=288&height=120 alt="more"
+  B <div> 48,1532 1184x281 bg=#f8f9f7
+  B <div> 48,1532 1184x281 pad=28px grid gap=40px 28px cols=164.656px 164.672px 164.672px 164.656px 164.672px 164.672px jc=center ai=normal ::after{absolute 1184pxx281.109px inset=0px,0px border=0px 1px 1px 1px solid #cccccc} bg=#f8f9f7
+  B <div> 97,1564 123x40 op=0.7
+  IMG 97,1564 123x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/3UCjPMpY3Nkuy1xoJaCCN3TKJk.png?width=230&height=75 alt="UiPath"
+  B <div> 291,1564 120x40 op=0.7
+  IMG 291,1564 120x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/glOVQL3Qd1fVRyHWORpg8KFVY.png?width=360&height=120 alt="smallest.ai"
+  B <div> 498,1564 91x40 flex row gap=10px jc=center ai=center 
+  B <div Dot Blink> 498,1582 5x5 bg=#0077b5
+  B <div> 513,1564 76x40 op=0.7
+  IMG 513,1564 76x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/i9MrwcnTeJlupc8YonFW5eaOgec.png?width=228&height=120 alt="miro"
+  B <div> 689,1564 95x40 op=0.7
+  IMG 689,1564 95x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/AYyRFkyykfeW6XOj952lPF0Zc.png?width=285&height=120 alt="peecai"
+  B <div> 897,1564 64x40 op=0.7
+  IMG 897,1564 64x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/fSMDCykUwcEbvyXPdSXFjdNF4hY.png?width=193&height=120 alt="glean"
+  B <div> 1088,1564 68x40 flex row gap=10px jc=center ai=center 
+  B <div Dot Blink> 1088,1582 5x5 bg=#0077b5
+  B <div> 1103,1564 53x40 op=0.7
+  IMG 1103,1564 53x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/ZlOSMxkKcwvpfjkFDJ0ZUgjJKk.png?width=165&height=125 alt="10X"
+  B <div> 87,1653 143x40 flex row gap=10px jc=center ai=center 
+  B <div Dot Blink> 87,1670 5x5 bg=#0077b5
+  B <div> 102,1653 128x40 op=0.7
+  IMG 102,1653 128x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/NfiYqyXn6RqMDJGpeS3bJkL9eEU.png?width=138&height=43 alt="Tacnode"
+  B <div> 306,1653 89x40 op=0.7
+  IMG 306,1653 89x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/PamliAUziZnsHcig47BKJwoquY.png?width=267&height=120 alt="ggwp"
+  B <div> 438,1653 212x40 flex row gap=10px jc=center ai=center 
+  B <div Dot Blink> 438,1670 5x5 bg=#0077b5
+  B <div> 453,1653 197x40 op=0.7
+  IMG 453,1653 197x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/4uqpOIDAG2RqFhTLQVKnRR4ENRE.png?width=591&height=120 alt="growthproctocol"
+  B <div> 680,1653 112x40 flex row gap=10px jc=center ai=center 
+  B <div Dot Blink> 680,1670 5x5 bg=#0077b5
+  B <div> 695,1653 97x40 op=0.7
+  IMG 695,1653 97x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/uoWIwAg1brM2fxpy5tHe7EYdLbU.png?width=292&height=120 alt="kaster"
+  B <div> 891,1653 76x40 flex row gap=10px jc=center ai=center 
+  B <div Dot Blink> 891,1670 5x5 bg=#0077b5
+  B <div> 906,1653 61x40 op=0.7
+  IMG 906,1653 61x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/fPy3rajrBwOXFvdygI98ux0wDiI.png?width=183&height=120 alt="bolt"
+  B <div> 1061,1653 122x40 flex row gap=10px jc=center ai=center 
+  B <div Dot Blink> 1061,1670 5x5 bg=#0077b5
+  B <div> 1076,1653 107x40 op=0.7
+  IMG 1076,1653 107x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/2MD4BqAIsMousaVLu0QWFtAnBjA.png?width=322&height=120 alt="gocanvas"
+  B <div> 106,1741 104x40 op=0.7
+  IMG 106,1741 104x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/SOyfehqzz61uEv0nABhxHZXPaI.png?width=312&height=120 alt="Panda Doc"
+  B <div> 320,1741 61x40 op=0.7
+  IMG 320,1741 61x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/gdAPP1HxjcIBX7yTqHcYhTrA.png?width=183&height=120 alt="stubhub"
+  B <div> 483,1741 121x40 flex row gap=10px jc=center ai=center 
+  B <div Dot Blink> 483,1758 5x5 bg=#0077b5
+  B <div> 498,1741 106x40 op=0.7
+  IMG 498,1741 106x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/SsCt2nwZM7v3r1iJr5go5IakYfA.png?width=317&height=120 alt="franq"
+  B <div> 677,1741 119x40 flex row gap=10px jc=center ai=center 
+  B <div Dot Blink> 677,1758 5x5 bg=#0077b5
+  B <div> 692,1741 104x40 op=0.7
+  IMG 692,1741 104x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/10dfy9LKXgJaLU5a86bKVRe9HE.png?width=312&height=120 alt="darwinian "
+  B <div> 881,1741 96x40 op=0.7
+  IMG 881,1741 96x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/yJ5cYSTyer3TnYG3EFxM8MXhpg.png?width=289&height=120 alt="antler"
+  B <div> 1074,1741 96x40 op=0.7
+  IMG 1074,1741 96x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/DIlJZPjonPeUe4ZwL1CEYmCOUw.png?width=288&height=120 alt="more"
+  B <div Vector 1194233990> 232,1813 817x45 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 0.687 45%22><path d=%22M 0.999 23.463 L 0.999 22.507 L 0.5 22.507 M 0.001 23.463 L 0.001 2
+  B <div Tag> 578,1249 124x30 pad=8px bg=#ffffff tf=matrix(1, 0, 0, 1, -61.7656, 0)
+  T <p> 586,1257 108x14 | Geist Mono, monospace 14px/14px ls=0.56px w400 #0077b5  | "MIGRATED OFF"
+
+######## [4] Process V2  y=1890 h=936 pos=relative
+  B <section Process V2> 0,1890 1280x936 pad=56px 48px bg=#f8f9f7 ovf=clip
+  B <div Container> 48,1946 1184x824 flex column gap=40px jc=center ai=center 
+  B <div Heading> 48,1946 1184x231 flex column gap=20px jc=center ai=center 
+  B <div Tag> 523,1946 233x30 pad=8px 12px bg=#e7eff0 ovf=clip
+  B <div> 535,1954 209x14 flex row gap=8px jc=center ai=center 
+  B <div Tag dot> 535,1959 4x4 bg=#0077b5 ovf=clip
+  T <code> 547,1952 197x18 | Geist Mono, monospace 14px/14px ls=0.56px w400 #0077b5  | "WHERE THE FUNNEL LEAKS"
+  T <p> 286,1996 708x45 | PP Neue Montreal Medium, PP Neue Montreal Medium 40px/44.8px ls=-1px w500 #1c292d ta=center  | "Great content, wasted by generic outbound"
+  T <h2> 260,2061 760x116 | PP Neue Montreal Variable, PP Neue Montreal Variable 20px/29px ls=normal w400 #4e606a ta=center  | "You grow the founder’s audience - then bolt Clay, ChatGPT, and HeyReach onto the retainer to message them. It’s ~$753/mo per client in tools, hours of setup, and the DMs read nothing like the posts that earned the engagement. The warm audience you built gets cold outreach."
+  B <div Use Cases - Product Page 2> 48,2217 1184x553 flex column gap=0px jc=flex-start ai=flex-start bg=#ffffff ovf=clip
+  IMG 48,2217 1184x56 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/cSfuUaRCe6mtjQgGygGXc0Ms.png?scale-down-to=2048&width=5312&height=224 alt=""
+  B <div> 48,2273 1184x497 flex row gap=0px jc=flex-start ai=center 
+  B <div Step Card Active> 48,2273 395x497 flex column gap=0px jc=center ai=center ::after{absolute 394.656pxx496.812px inset=0px,0px border=1px 0px 1px 1px solid #cccccc} bg=#ffffff
+  B <div Frame 1> 48,2273 395x223 pad=40px 30px 
+  B <div Container> 78,2313 335x143 flex column gap=19px jc=flex-start ai=flex-start 
+  B <div Heading> 78,2313 335x100 flex column gap=7.44828px jc=center ai=flex-start 
+  T <p> 78,2313 298x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 20px/22px ls=normal w500 #000000  | "The content works. The DMs don't."
+  T <p> 78,2343 335x70 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/17.6px ls=normal w500 #000000/0.6  | "You earn the engagement, then send templated connection requests that sound like a different company wrote them. The voice breaks the moment outbound starts."
+  B <div Case study date container> 78,2432 308x24 pad=6px 12px ::after{absolute 308.156pxx24px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1 radius=1px} bg=#e5e5e5/0.4 radius=1px backdrop=blur(2px) ovf=hidden
+  T <p> 90,2438 284x12 | Geist Mono, monospace 12px/12px ls=0.48px w400 #000000/0.6 tt=uppercase ta=center  | "TONE MISMATCH KILLS THE WARM AUDIENCE"
+  B <div Frame 2> 48,2496 395x274 bg=#ffffff/0.21 backdrop=blur(5px) ovf=hidden
+  IMG 48,2496 395x274 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/0WWjyvAaj9FemoWYIj02vT4iyDM.png?scale-down-to=1024&width=1020&height=1266 alt=""
+  B <div> 124,2540 327x238 radius=4px shadow=rgba(0, 0, 0, 0.02) 0px 0.602187px 0.602187px 0px, rgba(0, 0, 0, 0.06) 0px 2.28853px 2.28853px 0px, rgba(0, 0, 0, 0.25) 0px 10px 10px 0px
+  B <div> 124,2540 327x238 radius=4px
+  IMG 124,2540 327x238 fit=cover pos=50% 50% radius=4px ovf=clip src=https://framerusercontent.com/images/wbD2M1e4heMO5vhFyOVSd06raU.png?scale-down-to=512&width=654&height=652 alt=""
+  B <div Step Card Active> 443,2273 395x497 flex column gap=0px jc=center ai=center ::after{absolute 394.672pxx496.812px inset=0px,0px border=1px 0px 1px 1px solid #cccccc} bg=#ffffff
+  B <div Frame 1> 443,2273 395x223 pad=40px 30px 
+  B <div Container> 473,2313 335x143 flex column gap=19px jc=flex-start ai=flex-start 
+  B <div Heading> 473,2313 335x100 flex column gap=7.44828px jc=center ai=flex-start 
+  T <p> 473,2313 325x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 20px/22px ls=normal w500 #000000  | "A new stack on every content retainer"
+  T <p> 473,2343 335x70 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/17.6px ls=normal w500 #000000/0.6  | "Sales Nav, Clay tables, ChatGPT prompts, a sender — rebuilt per client, on top of the content work. 4 hours of setup before a single DM goes out."
+  B <div Case study date container> 473,2432 247x24 pad=6px 12px ::after{absolute 246.719pxx24px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1 radius=1px} bg=#e5e5e5/0.4 radius=1px backdrop=blur(2px) ovf=hidden
+  T <p> 485,2438 223x12 | Geist Mono, monospace 12px/12px ls=0.48px w400 #000000/0.6 tt=uppercase ta=center  | "BILLABLE HOURS LOST TO SETUP"
+  B <div Frame 2> 443,2496 395x274 bg=#ffffff/0.21 backdrop=blur(5px) ovf=hidden
+  IMG 443,2496 395x274 fit=cover pos=49% 20.1%  src=https://framerusercontent.com/images/pcdOvBzgiyoCEwCOpF4fCU2wFE.png?scale-down-to=1024&width=1132&height=1272 alt=""
+  B <div> 518,2540 327x238 radius=4px shadow=rgba(0, 0, 0, 0.02) 0px 0.602187px 0.602187px 0px, rgba(0, 0, 0, 0.06) 0px 2.28853px 2.28853px 0px, rgba(0, 0, 0, 0.25) 0px 10px 10px 0px
+  B <div> 518,2540 327x238 radius=4px
+  IMG 518,2540 327x238 fit=cover pos=50% 50% radius=4px ovf=clip src=https://framerusercontent.com/images/KXmPUH6iN7kM8tUEwzTIvGKjKw.png?scale-down-to=512&width=638&height=454 alt=""
+  B <div Step Card Active> 837,2273 395x497 flex column gap=0px jc=center ai=center ::after{absolute 394.672pxx496.812px inset=0px,0px border=1px 1px 1px 1px solid #cccccc} bg=#ffffff
+  B <div Frame 1> 837,2273 395x223 pad=40px 30px 
+  B <div Container> 867,2313 335x143 flex column gap=19px jc=flex-start ai=flex-start 
+  B <div Heading> 867,2313 335x100 flex column gap=7.44828px jc=center ai=flex-start 
+  T <p> 867,2313 305x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 20px/22px ls=normal w500 #000000  | "One ban torches the whole retainer"
+  T <p> 867,2343 335x70 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/17.6px ls=normal w500 #000000/0.6  | "Aggressive DM automation gets a client's LinkedIn restricted — the same account your content strategy depends on. Nothing worse to explain on a call."
+  B <div Case study date container> 867,2432 262x24 pad=6px 12px ::after{absolute 262.078pxx24px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1 radius=1px} bg=#e5e5e5/0.4 radius=1px backdrop=blur(2px) ovf=hidden
+  T <p> 879,2438 238x12 | Geist Mono, monospace 12px/12px ls=0.48px w400 #000000/0.6 tt=uppercase ta=center  | "RESTRICTIONS ON CLIENT ACCOUNTS"
+  B <div Frame 2> 837,2496 395x274 bg=#ffffff/0.21 backdrop=blur(5px) ovf=hidden
+  IMG 837,2496 395x274 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/d2ZWq2gqUINlAfjT4c6EGNOvcE.png?scale-down-to=1024&width=1194&height=1260 alt=""
+  B <div> 913,2540 327x238 radius=4px shadow=rgba(0, 0, 0, 0.02) 0px 0.602187px 0.602187px 0px, rgba(0, 0, 0, 0.06) 0px 2.28853px 2.28853px 0px, rgba(0, 0, 0, 0.25) 0px 10px 10px 0px
+  B <div> 913,2540 327x238 radius=4px
+  IMG 913,2540 327x238 fit=cover pos=50% 50% radius=4px ovf=clip src=https://framerusercontent.com/images/A7eybC2DWbIXqCqH5pElLOD4s.png?scale-down-to=512&width=576&height=360 alt=""
+
+######## [5] Why sales teams love valley  y=2826 h=975 pos=relative
+  B <section Why sales teams love valley> 0,2826 1280x975 pad=56px 48px flex row gap=40px jc=flex-start ai=center bg=#e7eff0 ovf=hidden
+  B <section> 48,2882 1184x863 flex column gap=64px jc=center ai=center 
+  B <div Heading> 48,2882 1184x148 flex column gap=28px jc=flex-start ai=center 
+  B <div Tag> 483,2882 314x30 pad=8px 12px flex row gap=8px jc=center ai=center bg=#e7eff0 ovf=clip
+  B <div Tag dot> 495,2895 4x4 bg=#b77541 ovf=clip
+  T <p> 507,2890 278x14 | Geist Mono, monospace 14px/14px ls=0.56px w400 #b77541  | "REAL RESULTS FROM REAL AGENCIES"
+  T <h2> 260,2940 760x90 | PP Neue Montreal Medium, PP Neue Montreal Medium 40px/44.8px ls=-1px w500 #1c292d ta=center  | "“ I would pay $5,000, $10,000 a month for my Valley account.”"
+  B <div> 48,3093 1184x651 flex row gap=10px jc=center ai=center 
+  B <div Video Container> 48,3102 289x634 flex column gap=4px jc=center ai=center bg=#ffffff ovf=hidden
+  IMG 48,3102 289x514 fit=cover pos=50% 50%  src=https://i.ytimg.com/vi_webp/XJ-4VYbgO0M/maxresdefault.webp alt=""
+  B <button> 158,3335 68x48 tf=matrix(1, 0, 0, 1, -34, -24)
+  SVG 158,3335 68x48 fill=#000000 stroke=none color=#000000 
+  B <div Heading> 48,3620 289x116 pad=16px 
+  T <p> 64,3636 257x84 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w500 #000000/0.6  | "Valley remove the anxiety around weekly pipeline and sales review meetings. I just say "Look what I booked using Valley""
+  T <strong> 64,3636 105x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w700 #000000/0.6  | "Growth Protocol:"
+  B <div Video Container> 347,3093 289x651 flex column gap=4px jc=center ai=center bg=#ffffff ovf=hidden
+  IMG 347,3093 289x514 fit=cover pos=50% 50%  src=https://i.ytimg.com/vi_webp/bmTEE6d1oiI/maxresdefault.webp alt=""
+  B <button> 457,3327 68x48 tf=matrix(1, 0, 0, 1, -34, -24)
+  SVG 457,3327 68x48 fill=#000000 stroke=none color=#000000 
+  B <div Heading> 347,3612 289x133 pad=16px 
+  B <div Sorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.> 363,3628 257x101 flex column gap=normal jc=flex-start ai=normal 
+  T <strong> 363,3628 56x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w700 #000000/0.6  | "Tacnode:"
+  T <p> 363,3661 257x67 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w500 #000000/0.6  | "I've never used a tool like this before - we have Outreach, Seamless, but Valley has booked us more meetings than anything else."
+  B <div Video Container> 645,3102 289x634 flex column gap=4px jc=center ai=center bg=#ffffff ovf=hidden
+  IMG 645,3102 289x514 fit=cover pos=50% 50%  src=https://i.ytimg.com/vi_webp/Yr5M2U7JTkU/maxresdefault.webp alt=""
+  B <button> 755,3335 68x48 tf=matrix(1, 0, 0, 1, -34, -24)
+  SVG 755,3335 68x48 fill=#000000 stroke=none color=#000000 
+  B <div Heading> 645,3620 289x116 pad=16px 
+  T <p> 661,3636 257x84 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w500 #000000/0.6  | "I care a lot about costs as an agency owner - Valley is far more effective than any other tool we could use for our clients."
+  T <strong> 661,3636 62x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w700 #000000/0.6  | "ThinkFish:"
+  B <div Video Container> 944,3093 289x651 flex column gap=4px jc=center ai=center bg=#ffffff ovf=hidden
+  IMG 944,3093 289x514 fit=cover pos=50% 50%  src=https://i.ytimg.com/vi_webp/19w3cPwB6cg/maxresdefault.webp alt=""
+  B <button> 1054,3327 68x48 tf=matrix(1, 0, 0, 1, -34, -24)
+  SVG 1054,3327 68x48 fill=#000000 stroke=none color=#000000 
+  B <div Heading> 944,3612 289x133 pad=16px 
+  T <p> 960,3628 257x101 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w500 #000000/0.6  | "Dude, even if the org won’t pay for this, I would invest with this out of my own money and just build pipeline. Then u can justify your raise going into 2026."
+  T <strong> 960,3628 53x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w700 #000000/0.6  | "Bolt.new"
+  B <div [SEO]Indexing text> 220,3733 840x72 op=0 tf=matrix(1, 0, 0, 1, 0, -36)
+  T <p> 220,3733 840x72 | CUSTOMV2;PP Neue Montreal Medium 20px/24px ls=normal w400 #000000/0.6 ta=center  | "Valley replaces the Clay + HeyReach + ChatGPT stack your agency duct-tapes together for every client — with one warm-outbound engine. Onboard a new client in 30 minutes instead of 4 hours, and scale outreach without scaling your team."
+
+######## [6] Case Studies v2  y=3800 h=479 pos=relative
+  B <section Case Studies v2> 0,3800 1280x479 pad=56px 48px bg=#e7eff0 ovf=hidden
+  B <div Testimonial Desktop> 48,3856 1184x367 pad=32px flex row gap=21px jc=flex-start ai=flex-end ::after{absolute 1184pxx367px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1} bg=#f6f6f6 ovf=hidden
+  IMG 48,3856 1184x367 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/GGiHIlYdU4o4MMMkKUEQbJ1CUvw.png?scale-down-to=2048&width=2496&height=662 alt=""
+  B <div Call to action text container> 80,3888 586x303 flex column gap=28px jc=flex-start ai=flex-start 
+  T <p> 80,3888 586x79 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/26.4px ls=normal w500 #ffffff  | ""If you're an expert at GTM, Valley is the go-to tool. It's a no-brainer. Train it, upload your leads, and forget — half of the heavy lifting is done by Valley.""
+  B <div Author Info Container> 80,3996 586x40 flex row gap=11px jc=flex-start ai=center 
+  B <div Avatar [1.0]> 80,3996 40x40 radius=969.37px
+  B <div image> 80,3996 40x40 radius=950.93px
+  B <div> 80,3996 40x40 radius=950.93px
+  IMG 80,3996 40x40 fit=cover pos=50% 50% radius=950.93px ovf=clip src=https://framerusercontent.com/images/Nl9qrqIvNbOpysNp69Ya9w6U.png?scale-down-to=512&width=638&height=586 alt=""
+  B <div Author Details> 131,3998 176x35 flex column gap=4px jc=flex-start ai=flex-start 
+  T <p> 131,3998 176x18 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/17.6px ls=normal w500 #ffffff  | "Sam Momin"
+  T <p> 131,4020 176x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/13.2px ls=normal w500 #ffffff/0.7  | "GTM & Sales Lead @Smallest.ai"
+  B <div> 773,3401 422x1040 flex row gap=16px jc=center ai=center 
+  B <div Star Col> 776,3701 200x1040 flex column gap=10px jc=center ai=center 
+  B <div Dark> 776,3701 200x200 radius=10px
+  B <div> 776,3701 200x200 radius=10px
+  IMG 776,3701 200x200 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Dark> 776,3911 200x200 radius=10px
+  B <div> 776,3911 200x200 radius=10px
+  IMG 776,3911 200x200 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Dark> 776,4121 200x200 radius=10px
+  B <div> 776,4121 200x200 radius=10px
+  IMG 776,4121 200x200 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Highlight> 776,4331 200x200 radius=10px
+  B <div> 776,4331 200x200 radius=10px
+  IMG 776,4331 200x200 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/ysxcQkBhX6DvdxX0UA6jJSJnSk.png?width=213&height=190 alt=""
+  B <div Dark> 776,4541 200x200 radius=10px
+  B <div> 776,4541 200x200 radius=10px
+  IMG 776,4541 200x200 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Star Col> 991,3407 200x1040 flex column gap=10px jc=center ai=center 
+  B <div Dark> 991,3407 200x200 radius=10px
+  B <div> 991,3407 200x200 radius=10px
+  IMG 991,3407 200x200 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Dark> 991,3617 200x200 radius=10px
+  B <div> 991,3617 200x200 radius=10px
+  IMG 991,3617 200x200 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Dark> 991,3827 200x200 radius=10px
+  B <div> 991,3827 200x200 radius=10px
+  IMG 991,3827 200x200 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div Highlight> 991,4037 200x200 radius=10px
+  B <div> 991,4037 200x200 radius=10px
+  IMG 991,4037 200x200 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/ysxcQkBhX6DvdxX0UA6jJSJnSk.png?width=213&height=190 alt=""
+  B <div Dark> 991,4247 200x200 radius=10px
+  B <div> 991,4247 200x200 radius=10px
+  IMG 991,4247 200x200 fit=contain pos=50% 50% radius=10px ovf=clip src=https://framerusercontent.com/images/dc5azD2YYmyls1TdpsaWego0N4.png?width=213&height=190 alt=""
+  B <div> 80,4140 371x51 flex row gap=8px jc=center ai=flex-start 
+  B <div Case study date container> 80,4140 182x51 pad=10px 12px ::after{absolute 181.5pxx51.1875px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1 radius=4px} bg=#ffffff/0.12 radius=4px backdrop=blur(8px) ovf=hidden
+  T <p> 92,4150 158x31 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/15.6px ls=0.12px w500 #ffffff/0.74 tt=capitalize ta=left  | "10-15x better meeting quality across 10 client accounts"
+  B <div Case study date container> 270,4140 182x51 pad=10px 12px ::after{absolute 181.5pxx51.1875px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1 radius=4px} bg=#ffffff/0.12 radius=4px backdrop=blur(8px) ovf=hidden
+  T <p> 282,4150 158x31 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/15.6px ls=0.12px w500 #ffffff/0.74 tt=capitalize ta=left  | "1/3 the cost of the agency they replaced"
+  B <a cta__primary> 1063,3881 132x48 pad=5px 0px 0px 
+  B <div Button Content> 1063,3886 132x43 ::after{absolute 132pxx43.2031px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.2} bg=#111111 shadow=rgba(0, 0, 0, 0.6) 0px 6px 0px 0px ovf=hidden
+  B <div Text Wrap> 1063,3886 132x43 pad=12px 18px bg=#111111 ovf=hidden
+  T <p> 1076,3898 105x19 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/19.2px ls=-0.16px w400 #ffffff  | "Book a demo →"
+
+######## [7] Comparative Analysis  y=4279 h=961 pos=relative
+  B <section Comparative Analysis> 0,4279 1280x961 flex column gap=8px jc=center ai=center 
+  B <div Compare Table 2> 0,4279 1280x961 pad=56px 48px flex column gap=40px jc=flex-start ai=center bg=#f8f9f7 ovf=hidden
+  B <div Heading> 260,4335 760x148 flex column gap=28px jc=center ai=center 
+  B <div Tag> 282,4335 717x30 pad=8px 12px flex row gap=8px jc=center ai=center bg=#e7eff0 ovf=clip
+  B <div Tag dot> 294,4348 4x4 bg=#b77541 ovf=clip
+  T <p> 306,4343 681x14 | Geist Mono, monospace 14px/14px ls=0.56px w400 #b77541  | "THE BEST LINKEDIN AUTOMATION TOOL FOR GTM AND DONE FOR YOU LEAD GEN AGENCIES"
+  B <div Main Heading> 260,4393 760x90 flex column gap=normal jc=flex-start ai=normal 
+  T <p> 260,4393 760x45 | PP Neue Montreal Medium, PP Neue Montreal Medium 40px/44.8px ls=-1px w500 #1c292d ta=center  | "How gtm & content a gencies"
+  T <p> 260,4438 760x45 | PP Neue Montreal Medium, PP Neue Montreal Medium 40px/44.8px ls=-1px w500 #1c292d ta=center  | "run client outbound today"
+  B <div [SEO]Indexing text> 220,5174 840x72 op=0 tf=matrix(1, 0, 0, 1, 0, -36)
+  T <p> 220,5174 840x72 | CUSTOMV2;PP Neue Montreal Medium 20px/24px ls=normal w400 #000000/0.6 ta=center  | "Valley replaces the Clay + HeyReach + ChatGPT stack your agency duct-tapes together for every client — with one warm-outbound engine. Onboard a new client in 30 minutes instead of 4 hours, and scale outreach without scaling your team."
+  B <div> 48,4523 1184x661 flex row gap=10px jc=center ai=center 
+  B <div Variant 1> 48,4558 388x591 pad=28px flex column gap=24px jc=flex-start ai=flex-start ::after{absolute 388pxx591.078px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9 radius=2px} bg=#f8f9f7 radius=2px
+  B <div> 76,4586 332x77 flex column gap=24px jc=center ai=flex-start 
+  B <div Tag> 76,4586 196x32 pad=8px 10px bg=#f8f9f7 ovf=clip
+  T <p> 86,4594 176x16 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/15.6px ls=0.56px w400 #315e8d  | "PATH 01 - HIRE ANOTHER SDR"
+  T <p> 76,4642 332x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/21.6px ls=normal w500 #405862  | "New Hire + Three month long ramp up"
+  B <div Heading> 76,4687 332x138 flex column gap=7.44828px jc=center ai=flex-start 
+  T <p> 76,4687 332x55 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/27.6px ls=normal w500 #19282e  | "One more person at the manual ceiling"
+  T <p> 76,4750 332x76 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/25.2px ls=normal w500 #405862  | "Bulk connection requests and messages. No personalisation. A lot more difficult to get results."
+  B <div Case study date container> 76,4850 332x96 pad=14px 16px flex column gap=8px jc=center ai=flex-start ::after{absolute 332pxx95.8438px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1 radius=4px} bg=#f8f9f7 radius=4px backdrop=blur(8px) ovf=hidden
+  T <p> 92,4864 300x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 15px/20.25px ls=0.15px w500 #405862 tt=capitalize ta=left  | "Monthly Cost"
+  T <p> 92,4892 300x40 | PP Neue Montreal Medium, PP Neue Montreal Medium 36px/39.6px ls=normal w500 #19282e  | "~$8,300"
+  B <div> 76,4970 332x96 flex column gap=10px jc=center ai=center 
+  B <div> 76,4970 332x25 flex row gap=10px jc=center ai=center 
+  B <div Tag dot> 76,4980 4x4 bg=#666666 ovf=clip
+  T <p> 90,4970 318x25 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/25.2px ls=normal w500 #405862  | "2 hours setup per client"
+  B <div> 76,5005 332x25 flex row gap=10px jc=center ai=center 
+  B <div Tag dot> 76,5015 4x4 bg=#666666 ovf=clip
+  T <p> 90,5005 318x25 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/25.2px ls=normal w500 #405862  | "Near zero reply rate"
+  B <div> 76,5040 332x25 flex row gap=10px jc=center ai=center 
+  B <div Tag dot> 76,5051 4x4 bg=#666666 ovf=clip
+  T <p> 90,5040 318x25 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/25.2px ls=normal w500 #405862  | "Risk of Account suspensions"
+  B <div Case study date container> 76,5089 332x32 pad=8px 12px ::after{absolute 332pxx32.2031px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1 radius=1px} bg=#f8f9f7 radius=1px backdrop=blur(2px) ovf=hidden
+  T <p> 88,5097 308x16 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/16.2px ls=0.48px w400 #405862 tt=uppercase ta=center  | "Burns client linkedin accounts"
+  B <div Variant 1> 446,4559 388x589 pad=28px flex column gap=24px jc=flex-start ai=flex-start ::after{absolute 388pxx588.688px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9 radius=2px} bg=#f8f9f7 radius=2px
+  B <div> 474,4587 332x77 flex column gap=24px jc=center ai=flex-start 
+  B <div Tag> 474,4587 176x32 pad=8px 10px bg=#f8f9f7 ovf=clip
+  T <p> 484,4595 156x16 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/15.6px ls=0.56px w400 #315e8d  | "PATH 02 -DIY LEGO STACK"
+  T <p> 474,4643 332x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/21.6px ls=normal w500 #405862  | "Trigify + Clay + Hey Reach + Chatgpt"
+  B <div Heading> 474,4689 332x111 flex column gap=7.44828px jc=center ai=flex-start 
+  T <p> 474,4689 332x28 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/27.6px ls=normal w500 #19282e  | "Stich four tools together"
+  T <p> 474,4724 332x76 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/25.2px ls=normal w500 #405862  | "Scrape signals, enrich in Clay,
+write in ChatGPT, send from
+HeyReach. Hope nothing breaks."
+  B <div Case study date container> 474,4823 332x96 pad=14px 16px flex column gap=8px jc=center ai=flex-start ::after{absolute 332pxx95.8438px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1 radius=4px} bg=#f8f9f7 radius=4px backdrop=blur(8px) ovf=hidden
+  T <p> 490,4837 300x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 15px/20.25px ls=0.15px w500 #405862 tt=capitalize ta=left  | "Per Client Per Month"
+  T <p> 490,4866 300x40 | PP Neue Montreal Medium, PP Neue Montreal Medium 36px/39.6px ls=normal w500 #19282e  | "$753/client"
+  B <div> 474,4943 332x121 flex column gap=10px jc=center ai=center 
+  B <div> 474,4943 332x25 flex row gap=10px jc=center ai=center 
+  B <div Tag dot> 474,4954 4x4 bg=#666666 ovf=clip
+  T <p> 488,4943 318x25 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/25.2px ls=normal w500 #405862  | "15 hours setup per client"
+  B <div> 474,4978 332x50 flex row gap=10px jc=center ai=center 
+  B <div Tag dot> 474,5002 4x4 bg=#666666 ovf=clip
+  T <p> 488,4978 318x50 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/25.2px ls=normal w500 #405862  | "10-15% reply rates + expensive clay tables"
+  B <div> 474,5039 332x25 flex row gap=10px jc=center ai=center 
+  B <div Tag dot> 474,5049 4x4 bg=#666666 ovf=clip
+  T <p> 488,5039 318x25 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/25.2px ls=normal w500 #405862  | "2-5 hours maintainence"
+  B <div Case study date container> 474,5088 332x32 pad=8px 12px ::after{absolute 332pxx32.2031px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1 radius=1px} bg=#f8f9f7 radius=1px backdrop=blur(2px) ovf=hidden
+  T <p> 486,5096 308x16 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/16.2px ls=0.48px w400 #405862 tt=uppercase ta=center  | "EATS YOUR RETAINER MARGINS"
+  B <div Variant 2> 844,4523 388x661 pad=28px flex column gap=24px jc=flex-start ai=flex-start ::after{absolute 388pxx661.484px inset=0px,0px border=1px 1px 1px 1px solid #d9d9d9 radius=2px} bg=#e8efef radius=2px ovf=clip
+  B <div> 872,4551 332x77 flex column gap=24px jc=center ai=flex-start 
+  B <div Tag> 872,4551 126x32 pad=8px 10px bg=#f8f9f7 ovf=clip
+  T <p> 882,4559 106x16 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/15.6px ls=0.56px w400 #315e8d  | "PATH 03 - VALLEY"
+  T <p> 872,4607 332x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/21.6px ls=normal w500 #405862  | "VALLEY"
+  B <div Heading> 872,4652 332x138 flex column gap=7.44828px jc=center ai=flex-start 
+  T <p> 872,4652 332x55 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/27.6px ls=normal w500 #19282e  | "Finds warm leads, qualifies,  researches, writes, sends"
+  T <p> 872,4715 332x76 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/25.2px ls=normal w500 #405862  | "Warm signal outreach without the
+duct-tape stack. One bill, one
+workspace per client."
+  B <div Case study date container> 872,4814 332x96 pad=14px 16px flex column gap=8px jc=center ai=flex-start ::after{absolute 332pxx95.8438px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1 radius=4px} bg=#f8f9f7 radius=4px backdrop=blur(8px) ovf=hidden
+  T <p> 888,4828 300x20 | PP Neue Montreal Medium, PP Neue Montreal Medium 15px/20.25px ls=0.15px w500 #405862 tt=capitalize ta=left  | "Per Client Per Month"
+  T <p> 888,4857 300x40 | PP Neue Montreal Medium, PP Neue Montreal Medium 36px/39.6px ls=normal w500 #19282e  | "$149/client"
+  B <div> 872,4934 332x96 flex column gap=10px jc=center ai=center 
+  B <div> 872,4934 332x25 flex row gap=10px jc=center ai=center 
+  B <div Tag dot> 872,4945 4x4 bg=#666666 ovf=clip
+  T <p> 886,4934 318x25 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/25.2px ls=normal w500 #405862  | "30 mins setup per client"
+  B <div> 872,4970 332x25 flex row gap=10px jc=center ai=center 
+  B <div Tag dot> 872,4980 4x4 bg=#666666 ovf=clip
+  T <p> 886,4970 318x25 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/25.2px ls=normal w500 #405862  | "15-45% reply rates"
+  B <div> 872,5005 332x25 flex row gap=10px jc=center ai=center 
+  B <div Tag dot> 872,5015 4x4 bg=#666666 ovf=clip
+  T <p> 886,5005 318x25 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/25.2px ls=normal w500 #405862  | "3x better client results"
+  B <div Case study date container> 872,5054 332x32 pad=8px 12px ::after{absolute 332pxx32.2031px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.1 radius=2px} bg=#f8f9f7 radius=2px backdrop=blur(2px) ovf=hidden
+  T <p> 884,5062 308x16 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/16.2px ls=0.48px w400 #405862 tt=uppercase ta=center  | "2-3x Cheaper, 10x the replies"
+  B <a Default> 872,5110 150x46 pad=12px 18px flex row gap=0px jc=center ai=center bg=#000000 ovf=hidden
+  T <p> 890,5122 114x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/22.4px ls=normal w500 #ffffff  | "Book a demo   →"
+  B <div> 890,5164 114x22 tf=matrix(1, 0, 0, 1, -57.0859, 0)
+  T <p> 890,5164 114x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/22.4px ls=normal w500 #ffffff  | "Book a demo   →"
+  B <div Back> 872,5110 150x46 pad=10px 
+  IMG 872,5110 150x46 fit=cover pos=33.4% 14.3%  src=https://framerusercontent.com/images/x4WGqv5aU1EbJsAAySHvFBp9HaY.webp?width=680&height=920 alt=""
+  B <div [SEO]Indexing text> 220,5174 840x72 op=0 tf=matrix(1, 0, 0, 1, 0, -36)
+  T <p> 220,5174 840x72 | CUSTOMV2;PP Neue Montreal Medium 20px/24px ls=normal w400 #000000/0.6 ta=center  | "Valley replaces the Clay + HeyReach + ChatGPT stack your agency duct-tapes together for every client — with one warm-outbound engine. Onboard a new client in 30 minutes instead of 4 hours, and scale outreach without scaling your team."
+
+######## [8] Desktop  y=5241 h=1505 pos=static
+  B <section Desktop> 0,5241 1280x1505 pad=80px 52px 120px flex column gap=80px jc=center ai=center 
+  B <div> 0,5241 1280x1505 bgi=url("https://framerusercontent.com/images/ceUkuYsnQN6G6F5pnloZWV1iU.png?width=136&height=148")
+  B <div Container> 52,5321 1176x1305 pad=40px flex column gap=80px jc=center ai=center 
+  B <div Heading> 92,5361 1096x252 flex column gap=20px jc=center ai=center 
+  B <div Tag> 299,5361 681x30 pad=8px 12px flex row gap=8px jc=center ai=center bg=#fff8df ovf=clip
+  B <div Tag dot> 311,5374 4x4 bg=#b77541 ovf=clip
+  T <p> 323,5369 645x14 | Geist Mono, monospace 14px/14px ls=0.56px w400 #b77541  | "SEE VALLEY FIND LEADS TO START A CAMPAIGN WITHIN 20 MINUTES IN REAL TIME"
+  B <div Heading> 258,5411 765x202 flex column gap=0px jc=flex-start ai=center 
+  B <div Main Heading> 258,5411 765x134 flex column gap=normal jc=flex-start ai=normal 
+  T <p> 258,5411 765x67 | PP Neue Montreal Medium, PP Neue Montreal Medium 56px/67.2px ls=-1.12px w500 #000000 ta=center  | "The only complete outbound tool"
+  T <p> 258,5478 765x67 | PP Neue Montreal Medium, PP Neue Montreal Medium 56px/67.2px ls=-1.12px w500 #000000 ta=center  | "for LinkedIn"
+  IFRAME 218,5693 845x893 src=https://meetings.hubspot.com/zayd-from-valley/tryvalley
+
+######## [9] FAQs- V3 2 valley-start-questions y=6746 h=605 pos=relative
+  B <section FAQs- V3 2> 0,6746 1280x605 pad=48px bg=#f8f9f7 ovf=hidden
+  B <div .vsq-faq> 48,6794 1184x509 pad=40px grid gap=48px cols=405.375px 648.625px jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d6dede
+  T <h2> 89,6835 240x86 | Valley Body Montreal, Arial 40px/43.2px ls=-1.6px w500 #1c292d  | "Questions, answered."
+  T <p> 89,6941 260x52 | Valley Body Montreal, Arial 18px/26.1px ls=normal w400 #52616a  | "The practical details before your first campaign."
+  B <details> 542,6835 649x72 border=1px 0px 1px 0px solid #cfd8d8
+  T <summary> 542,6836 649x70 | Valley Body Montreal, Arial 20px/26px ls=-0.4px w500 #1c292d pad=21px 0px  | "What do I need to get started?"
+  T <span> 1163,6857 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.4px w400 #547997  | "+"
+  T <p> 542,6906 649x77 | Valley Body Montreal, Arial 17px/26.35px ls=normal w400 #4a5b64 pad=0px 34px 24px 0px  | "Tell Valley what you sell, who you sell to and how you write. Choose a play or bring your own list, connect your sending accounts, then review the outreach before launch."
+  B <details> 542,6907 649x71 border=0px 0px 1px 0px none #1c292d b:#cfd8d8
+  T <summary> 542,6907 649x70 | Valley Body Montreal, Arial 20px/26px ls=-0.4px w500 #1c292d pad=21px 0px  | "Can I review and edit the messages?"
+  T <span> 1163,6928 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.4px w400 #547997  | "+"
+  T <p> 542,6977 649x77 | Valley Body Montreal, Arial 17px/26.35px ls=normal w400 #4a5b64 pad=0px 34px 24px 0px  | "Yes. Review, edit and approve drafts before they go out. You choose the sending schedule and follow-up steps for your campaign."
+  B <details> 542,6978 649x71 border=0px 0px 1px 0px none #1c292d b:#cfd8d8
+  T <summary> 542,6978 649x70 | Valley Body Montreal, Arial 20px/26px ls=-0.4px w500 #1c292d pad=21px 0px  | "Does Valley send email as well as LinkedIn messages?"
+  T <span> 1163,6999 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.4px w400 #547997  | "+"
+  T <p> 542,7048 649x103 | Valley Body Montreal, Arial 17px/26.35px ls=normal w400 #4a5b64 pad=0px 34px 24px 0px  | "Yes. Combine email and LinkedIn in the same sequence. Email sending is an optional add-on on the base plan; the middle and upper plans include 1,000 email messages per month. Connect your Gmail or Microsoft inbox to send."
+  B <details> 542,7049 649x71 border=0px 0px 1px 0px none #1c292d b:#cfd8d8
+  T <summary> 542,7049 649x70 | Valley Body Montreal, Arial 20px/26px ls=-0.4px w500 #1c292d pad=21px 0px  | "Which plan includes email and priority support?"
+  T <span> 1163,7070 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.4px w400 #547997  | "+"
+  T <p> 542,7119 649x156 | Valley Body Montreal, Arial 17px/26.35px ls=normal w400 #4a5b64 pad=0px 34px 24px 0px  | "Starter is $199/month or $149/month billed quarterly. Email sending, priority Slack support, and an onboarding call are optional add-ons. Plus, at $299/month or $249/month billed quarterly, includes 1,000 email messages per month, a priority support Slack group, and an onboarding call. Growth includ"
+  B <details> 542,7120 649x71 border=0px 0px 1px 0px none #1c292d b:#cfd8d8
+  T <summary> 542,7120 649x70 | Valley Body Montreal, Arial 20px/26px ls=-0.4px w500 #1c292d pad=21px 0px  | "What uses credits?"
+  T <span> 1163,7141 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.4px w400 #547997  | "+"
+  T <p> 542,7190 649x103 | Valley Body Montreal, Arial 17px/26.35px ls=normal w400 #4a5b64 pad=0px 34px 24px 0px  | "Finding new prospects, finding and verifying email addresses, and upgraded message generation use credits. Research, base message writing, imports and LinkedIn sending are included in the subscription."
+  B <details> 542,7191 649x71 border=0px 0px 1px 0px none #1c292d b:#cfd8d8
+  T <summary> 542,7191 649x70 | Valley Body Montreal, Arial 20px/26px ls=-0.4px w500 #1c292d pad=21px 0px  | "How does the free trial work?"
+  T <span> 1163,7212 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.4px w400 #547997  | "+"
+  T <p> 542,7261 649x77 | Valley Body Montreal, Arial 17px/26.35px ls=normal w400 #4a5b64 pad=0px 34px 24px 0px  | "Eligible new subscribers get a 7-day trial. A payment method is required. Cancel before the trial ends to avoid starting the paid subscription."
+
+######## [10] Desktop vf y=7351 h=597 pos=static
+  B <footer Desktop> 0,7351 1280x597 bg=#1c3036 ovf=hidden
+  B <footer .vf> 0,7351 1280x597 bg=#1c3036
+  B <div .vf-inner> 0,7351 1280x597 pad=64px 48px 28px 
+  B <div .vf-top> 48,7415 1184x223 pad=0px 0px 48px grid gap=64px cols=653.328px 466.656px jc=normal ai=center border=0px 0px 1px 0px none #f8f9f7 b:#ffffff/0.19
+  T <h2> 48,7415 650x99 | ValleyFooter, Arial 44px/49.28px ls=-1.54px w500 #f8f9f7  | "Find your people. Give them a reason to reply."
+  T <p> 48,7531 570x57 | ValleyFooter, Arial 19px/28.5px ls=normal w400 #c2d0d2  | "Find, qualify, research, and reach your next buyers across email and LinkedIn."
+  B <div .vf-actions> 765,7476 467x52 flex row gap=16px jc=flex-end ai=normal 
+  T <a> 922,7476 152x52 | ValleyFooter, Arial 17px/normal ls=normal w400 #1c3036 pad=15px 22px bg=#f8f9f7 border=1px 1px 1px 1px solid #f8f9f7 | "Start for free →"
+  T <a> 1090,7476 142x52 | ValleyFooter, Arial 17px/normal ls=normal w400 #f8f9f7 pad=15px 22px border=1px 1px 1px 1px solid #718589 | "Book a demo"
+  B <div .vf-links> 48,7637 1184x242 pad=44px 0px grid gap=48px cols=448px 320px 320px jc=normal ai=normal 
+  T <a> 48,7681 448x38 | ValleyFooter, Arial 30px/normal ls=-1.05px w500 #f8f9f7  | "Valley"
+  SVG 48,7681 38x38 fill=#f8f9f7 stroke=none color=#f8f9f7 
+  T <p> 48,7719 290x45 | ValleyFooter, Arial 15px/22.5px ls=normal w400 #bbcdce  | "Your outbound team. One connected platform."
+  T <a> 48,7764 89x14 | ValleyFooter, Arial 12px/normal ls=normal w400 #f8f9f7  | "hey@joinvalley.co"
+  B <nav> 544,7681 320x154 flex column gap=14px jc=normal ai=flex-start 
+  T <strong> 544,7681 106x14 | ValleyFooter, Arial 12px/normal ls=0.72px w400 #9eb6ba tt=uppercase  | "Explore Valley"
+  T <a> 544,7717 54x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Product"
+  T <a> 544,7750 74x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Customers"
+  T <a> 544,7783 64x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Agencies"
+  T <a> 544,7816 47x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Pricing"
+  B <nav> 912,7681 320x154 flex column gap=14px jc=normal ai=flex-start 
+  T <strong> 912,7681 82x14 | ValleyFooter, Arial 12px/normal ls=0.72px w400 #9eb6ba tt=uppercase  | "Learn more"
+  T <a> 912,7717 73x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Resources"
+  T <a> 912,7750 68x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "All articles"
+  T <a> 912,7783 83x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "About Valley"
+  T <a> 912,7816 41x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Log in"
+  B <div .vf-bottom> 48,7879 1184x40 pad=24px 0px 0px flex row gap=20px jc=space-between ai=normal border=1px 0px 0px 0px solid #ffffff/0.19 b:#b4c7c9
+  T <span> 48,7904 150x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "© Valley. All rights reserved."
+  B <div> 1043,7904 189x15 flex row gap=24px jc=normal ai=normal 
+  T <a> 1043,7904 75x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "Privacy policy"
+  T <a> 1142,7904 90x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "Terms of service"
+
+######## [11] Large Desktop vpm y=0 h=84 pos=static
+  B <div> 0,0 1280x84 tf=matrix(1, 0, 0, 1, 0, 0) pos=fixed top=0px
+  B <header Large Desktop> 0,0 1280x84 pad=20px 48px bg=#f8f9f7
+  B <div Links & Button> 48,20 1184x44 flex row gap=normal jc=space-between ai=center 
+  B <div> 48,28 99x29 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 99 29.078%22 overflow=%22visible%22><path d=%22M 6.402 0 L 14.539 8.137 L 11.738 11.071 L 
+  B <div Menu Links> 335,20 543x44 flex row gap=28px jc=center ai=center 
+  B <a Link - Black> 335,20 37x44 pad=12px 0px 
+  B <div> 335,32 37x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 335,34 37x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Home"
+  T <p> 335,54 37x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Home"
+  T <summary> 400,20 68x44 | PP Neue Montreal, Inter, Arial 14px/16.8px ls=normal w500 #19252e  | "Product"
+  SVG 458,37 10x10 fill=none stroke=#4f6373 color=#4f6373 trans=[transform|0.15s|ease|0s]
+  B <div .vpm-panel> 400,64 330x213 pad=10px bg=#ffffff border=1px 1px 1px 1px solid #d4dedb shadow=rgba(25, 41, 46, 0.082) 0px 12px 30px 0px
+  B <a> 411,75 308x105 pad=18px 16px 
+  T <span> 427,93 276x20 | PP Neue Montreal, Inter, Arial 17px/20.4px ls=normal w500 #1c292e  | "Explore Product"
+  T <b> 686,93 17x20 | PP Neue Montreal, Inter, Arial 17px/20.4px ls=normal w400 #1c292e  | "↗"
+  T <small> 427,120 276x42 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52636c  | "See how Valley works, from signal to reply."
+  B <a> 411,180 308x85 pad=18px 16px border=1px 0px 0px 0px solid #e3e9e5 b:#1c292e
+  T <span> 427,199 276x20 | PP Neue Montreal, Inter, Arial 17px/20.4px ls=normal w500 #1c292e  | "All Playbooks"
+  T <b> 686,199 17x20 | PP Neue Montreal, Inter, Arial 17px/20.4px ls=normal w400 #1c292e  | "↗"
+  T <small> 427,227 276x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52636c  | "Find your next play. See every step."
+  B <a Link - Black> 496,20 132x44 pad=12px 0px 
+  B <div> 496,32 132x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 496,34 132x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Valley vs. Competition"
+  T <p> 496,54 132x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Valley vs. Competition"
+  B <a Link - Black> 655,20 67x44 pad=12px 0px 
+  B <div> 655,32 67x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 655,34 67x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Customers"
+  T <p> 655,54 67x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Customers"
+  B <a Link - Black> 750,20 57x44 pad=12px 0px 
+  B <div> 750,32 57x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 750,34 57x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Agencies"
+  T <p> 750,54 57x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Agencies"
+  B <a Link - Black> 836,20 42x44 pad=12px 0px 
+  B <div> 836,32 42x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 836,34 42x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Pricing"
+  T <p> 836,54 42x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Pricing"
+  B <div cta__nav> 1066,22 166x40 flex row gap=16px jc=flex-end ai=center 
+  T <a> 1066,32 42x19 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/19.2px ls=normal w500 #002669  | "Log in"
+  B <a Launch for Free> 1124,22 108x40 pad=10px 16px bg=#19282e ovf=clip
+  T <p> 1140,34 76x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w500 #ffffff  | "Start for free"

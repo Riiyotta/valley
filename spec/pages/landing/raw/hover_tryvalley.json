@@ -1,0 +1,888 @@
+[
+ {
+  "x": 97.5,
+  "y": 42,
+  "tag": "A",
+  "nm": "logo - black",
+  "cls": "",
+  "text": "",
+  "href": "./",
+  "diffs": []
+ },
+ {
+  "x": 433.3828125,
+  "y": 42,
+  "tag": "A",
+  "nm": "Link - Black",
+  "cls": "",
+  "text": "Home Home",
+  "href": "./",
+  "diffs": [
+   [
+    "DIV",
+    {
+     "box": "415,32 37x20 -> 415,12 37x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "415,34 37x17 -> 415,14 37x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "415,34 37x17 -> 415,14 37x17"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "415,52 37x20 -> 415,32 37x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "415,54 37x17 -> 415,34 37x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "415,54 37x17 -> 415,34 37x17"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 513.734375,
+  "y": 42,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "Product",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 644.828125,
+  "y": 127.6953125,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "",
+  "href": "/product",
+  "diffs": []
+ },
+ {
+  "x": 644.828125,
+  "y": 223.0859375,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "",
+  "href": "/playbooks",
+  "diffs": []
+ },
+ {
+  "x": 641.53125,
+  "y": 42,
+  "tag": "A",
+  "nm": "Link - Black",
+  "cls": "",
+  "text": "Valley vs. Competition Valley vs. Competition",
+  "href": "./compare",
+  "diffs": [
+   [
+    "DIV",
+    {
+     "box": "576,32 132x20 -> 576,12 132x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "576,34 132x17 -> 576,14 132x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "576,34 132x17 -> 576,14 132x17"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "576,52 132x20 -> 576,32 132x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "576,54 132x17 -> 576,34 132x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "576,54 132x17 -> 576,34 132x17"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 768.953125,
+  "y": 42,
+  "tag": "A",
+  "nm": "Link - Black",
+  "cls": "",
+  "text": "Customers Customers",
+  "href": "./casestudies",
+  "diffs": [
+   [
+    "DIV",
+    {
+     "box": "735,32 67x20 -> 735,12 67x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "735,34 67x17 -> 735,14 67x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "735,34 67x17 -> 735,14 67x17"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "735,52 67x20 -> 735,32 67x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "735,54 67x17 -> 735,34 67x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "735,54 67x17 -> 735,34 67x17"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 859.0234375,
+  "y": 42,
+  "tag": "A",
+  "nm": "Link - Black",
+  "cls": "",
+  "text": "Agencies Agencies",
+  "href": "./linkedin-outreach-for-agencies",
+  "diffs": [
+   [
+    "DIV",
+    {
+     "box": "830,32 57x20 -> 830,12 57x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "830,34 57x17 -> 830,14 57x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "830,34 57x17 -> 830,14 57x17"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "830,52 57x20 -> 830,32 57x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "830,54 57x17 -> 830,34 57x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "830,54 57x17 -> 830,34 57x17"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 936.7265625,
+  "y": 42,
+  "tag": "A",
+  "nm": "Link - Black",
+  "cls": "",
+  "text": "Pricing Pricing",
+  "href": "./pricing",
+  "diffs": [
+   [
+    "DIV",
+    {
+     "box": "916,32 42x20 -> 916,12 42x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "916,34 42x17 -> 916,14 42x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "916,34 42x17 -> 916,14 42x17"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "916,52 42x20 -> 916,32 42x20"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "916,54 42x17 -> 916,34 42x17"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "916,54 42x17 -> 916,34 42x17"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1246.84375,
+  "y": 41.890625,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Log in",
+  "href": "https://beta.joinvalley.co/login",
+  "diffs": [
+   [
+    "A",
+    {
+     "c": "rgb(0, 38, 105) -> rgb(0, 0, 0)",
+     "bc": "rgb(0, 38, 105) -> rgb(0, 0, 0)",
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1337.9296875,
+  "y": 42,
+  "tag": "A",
+  "nm": "Launch for Free",
+  "cls": "",
+  "text": "Start for free",
+  "href": "https://beta.joinvalley.co/signup",
+  "diffs": []
+ },
+ {
+  "x": 1056,
+  "y": 392.65625,
+  "tag": "BUTTON",
+  "nm": "Default",
+  "cls": "surface-form-button",
+  "text": "Book a demo",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 198,
+  "y": 449.828125,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "CASE STUDY",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 546,
+  "y": 449.828125,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "CASE STUDY",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 894,
+  "y": 449.828125,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "CASE STUDY",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 1242,
+  "y": 449.828125,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "CASE STUDY",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 372,
+  "y": 449.828125,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "CASE STUDY",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 546,
+  "y": 449.828125,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "CASE STUDY",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 720,
+  "y": 449.828125,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "CASE STUDY",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 1242,
+  "y": 449.828125,
+  "tag": "DIV",
+  "nm": "Variant 1",
+  "cls": "",
+  "text": "CASE STUDY",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 330.75,
+  "y": 450.484375,
+  "tag": "DIV",
+  "nm": "trig -100%",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 275.0625,
+  "y": 450.484375,
+  "tag": "DIV",
+  "nm": "trig -75%",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 219.375,
+  "y": 450.484375,
+  "tag": "DIV",
+  "nm": "trig -50%",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 163.6875,
+  "y": 450.484375,
+  "tag": "DIV",
+  "nm": "trig -25%",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 330.75,
+  "y": 450.484375,
+  "tag": "DIV",
+  "nm": "50%",
+  "cls": "",
+  "text": "",
+  "href": null,
+  "diffs": [
+   [
+    "DIV[Slider Movement ]",
+    {
+     "tf": "matrix(1, 0, 0, 1, 0, -24) -> matrix(0.986545, 0, 0, 1, -2.2478, -24)",
+     "box": "108,426 223x48 -> 108,426 330x48"
+    }
+   ],
+   [
+    "DIV[Slider Grad Img]",
+    {
+     "tf": "none -> matrix(1, 0, 0, 1, 0, 0)",
+     "box": "108,448 223x4 -> 108,448 330x4"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "108,448 223x4 -> 108,448 330x4"
+    }
+   ],
+   [
+    "IMG",
+    {
+     "box": "108,448 223x4 -> 108,448 330x4"
+    }
+   ],
+   [
+    "DIV[Knob Frame]",
+    {
+     "box": "108,426 238x48 -> 108,426 353x48"
+    }
+   ],
+   [
+    "DIV[Slider Knob]",
+    {
+     "tf": "none -> matrix(1.01364, 0, 0, 1, -0.327533, 0)",
+     "box": "298,426 48x48 -> 413,426 48x48"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "278,406 89x89 -> 393,406 89x89"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "296,424 53x53 -> 411,424 53x53"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "304,433 37x35 -> 418,433 37x35"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "307,436 31x29 -> 421,436 31x29"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "tf": "matrix(1, 0, 0, 1, 0, 0) -> matrix(0.965629, -0.259924, 0.259924, 0.965629, 0, 0)",
+     "box": "314,443 17x15 -> 427,441 20x19"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "bg": "rgb(255, 195, 145) -> rgb(253, 178, 105)"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 174,
+  "y": 450.328125,
+  "tag": "DIV",
+  "nm": "Default",
+  "cls": "",
+  "text": "Start for free ",
+  "href": null,
+  "diffs": [
+   [
+    "DIV[Default]",
+    {
+     "tf": "none -> matrix(1.05, 0, 0, 1.05, 0, 0)",
+     "box": "108,418 132x65 -> 105,416 139x68"
+    }
+   ],
+   [
+    "DIV[Hole]",
+    {
+     "tf": "none -> matrix(1.02, 0, 0, 1.02, 0, 0)",
+     "sh": "none -> rgba(0, 0, 0, 0.2) 0px 10px 10px 0px",
+     "box": "108,426 132x48 -> 103,427 141x46"
+    }
+   ],
+   [
+    "A[cta__primary]",
+    {
+     "box": "108,426 132x48 -> 103,427 141x46"
+    }
+   ],
+   [
+    "DIV[Button Content]",
+    {
+     "sh": "rgba(0, 0, 0, 0.6) 0px 6px 0px 0px -> rgba(0, 0, 0, 0) 0px 6px 0px 0px",
+     "box": "108,431 132x43 -> 103,427 141x46"
+    }
+   ],
+   [
+    "DIV[Text Wrap]",
+    {
+     "box": "108,431 132x43 -> 103,427 141x46"
+    }
+   ],
+   [
+    "DIV",
+    {
+     "box": "130,443 88x19 -> 127,440 94x21"
+    }
+   ],
+   [
+    "P",
+    {
+     "box": "130,443 88x19 -> 127,440 94x21"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 977.4609375,
+  "y": 449.640625,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "What do I need to get started? +",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 977.4609375,
+  "y": 449.640625,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "Can I review and edit the messages? +",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 977.4609375,
+  "y": 449.640625,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "Does Valley send email as well as LinkedIn message",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 977.4609375,
+  "y": 449.640625,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "Which plan includes email and priority support? +",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 977.4609375,
+  "y": 449.640625,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "What uses credits? +",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 977.4609375,
+  "y": 449.640625,
+  "tag": "SUMMARY",
+  "nm": "",
+  "cls": "",
+  "text": "How does the free trial work? +",
+  "href": null,
+  "diffs": []
+ },
+ {
+  "x": 1158.40625,
+  "y": 454.40625,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Start for free →",
+  "href": "https://beta.joinvalley.co/signup",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1321.15625,
+  "y": 454.40625,
+  "tag": "A",
+  "nm": "",
+  "cls": "surface-form-button",
+  "text": "Book a demo",
+  "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+  "diffs": [
+   [
+    "A.surface-form-button",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 304.9375,
+  "y": 653.171875,
+  "tag": "A",
+  "nm": "",
+  "cls": "vf-brand",
+  "text": "Valley",
+  "href": "/",
+  "diffs": [
+   [
+    "A.vf-brand",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 92.421875,
+  "y": 724.171875,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "hey@joinvalley.co",
+  "href": "mailto:hey@joinvalley.co",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 636.6875,
+  "y": 679.671875,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Product",
+  "href": "/product",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 647.109375,
+  "y": 712.671875,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Customers",
+  "href": "/casestudies",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 641.625,
+  "y": 745.671875,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Agencies",
+  "href": "/linkedin-outreach-for-agencies",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 633.21875,
+  "y": 778.671875,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Pricing",
+  "href": "/pricing",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1061.515625,
+  "y": 679.671875,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Resources",
+  "href": "/blog",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1059.171875,
+  "y": 712.671875,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "All articles",
+  "href": "/blog/archive",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1066.6171875,
+  "y": 745.671875,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "About Valley",
+  "href": "/about",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1045.46875,
+  "y": 778.671875,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Log in",
+  "href": "https://beta.joinvalley.co/login",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1240.8046875,
+  "y": 864.671875,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Privacy policy",
+  "href": "/privacy-policy",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1347.140625,
+  "y": 864.671875,
+  "tag": "A",
+  "nm": "",
+  "cls": "",
+  "text": "Terms of service",
+  "href": "/terms-of-service",
+  "diffs": [
+   [
+    "A",
+    {
+     "td": "none -> underline"
+    }
+   ]
+  ]
+ },
+ {
+  "x": 1400,
+  "y": 862.171875,
+  "tag": "BUTTON",
+  "nm": "",
+  "cls": "__framer-cookie-component-button",
+  "text": "",
+  "href": null,
+  "diffs": []
+ }
+]

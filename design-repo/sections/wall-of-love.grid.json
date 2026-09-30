@@ -1,0 +1,27 @@
+{
+  "id": "wall-of-love.grid",
+  "layer": "section",
+  "purpose": "Aggregate social proof: metrics + a grid of short customer testimonial quotes (homepage variant, a static grid, NOT the marquee ticker used on tryvalley/linkedin-automation).",
+  "composes": ["stat-block", "quote-block"],
+  "measuredFrom": "CLONE_SPEC.md section 17; spec/GRID.md:179-181",
+  "content": {
+    "type": "object",
+    "properties": {
+      "metrics": { "type": "array", "minItems": 1, "maxItems": 3 },
+      "quotes": { "type": "array", "minItems": 3, "maxItems": 12, "items": { "type": "object", "properties": { "quote": { "type": "string", "maxWords": 40 }, "personName": { "type": "string", "maxWords": 4 } }, "required": ["quote", "personName"], "additionalProperties": false } }
+    },
+    "required": ["quotes"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "notSameVariantAs": "wall-of-love.marquee-ticker" },
+  "responsive": {
+    "desktop": { "layout": "metrics repeat(3,minmax(0,1fr)) gap 40; quotes repeat(3,minmax(0,1fr)) gap 16" },
+    "phoneBand720": { "viewportMax": 720, "layout": "metrics gap 22; quotes 1 column" },
+    "measuredFrom": "spec/GRID.md:180-181"
+  },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a, static grid, no motion" },
+  "assetRoles": {
+    "customer-photo": { "enum": "customer-photo", "generationPolicy": "must-not-fabricate", "guidance": "COMPLIANCE: real named customers. Never generate a fabricated likeness of a real person; use a licensed real photo or a generic placeholder avatar." },
+    "customer-logo": { "enum": "customer-logo", "generationPolicy": "must-reuse-exact", "guidance": "Real third-party trademarks; never AI-generate or alter." }
+  }
+}

@@ -1,0 +1,563 @@
+/* /casestudies (spec/pages/casestudies-index.md; Framer page HKeLB + logo band O7DDc rules in
+   spec/pages/casestudies-index/components.css). Page breakpoints: phone <= 809.98,
+   tablet 810-1099.98 (this page's own Framer breakpoint), desktop >= 1100. */
+
+.csi-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+.csi-page p, .csi-page h1, .csi-page h2, .csi-page h4 { margin: 0; }
+
+/* ---------- 2. Hero ---------- */
+.csi-hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  padding: 144px 48px 40px;
+  background: #f8f9f7;
+  overflow: hidden;
+}
+.csi-hero-inner {
+  width: 100%;
+  max-width: 1360px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.csi-hero-text {
+  width: 100%;
+  max-width: 760px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.csi-hero-title {
+  width: 100%;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 56px;
+  line-height: 59.36px;
+  letter-spacing: -1.5px;
+  font-weight: 500;
+  color: #1c292d;
+}
+.csi-hero-sub {
+  width: 100%;
+  font-family: "PP Neue Montreal Variable", "PP Neue Montreal Variable Placeholder", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #4e606a;
+}
+.csi-hero-form {
+  width: 100%;
+  max-width: 520px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 12px;
+}
+.csi-hero-input {
+  position: relative;
+  flex: 1 0 0px;
+  width: 1px;
+  height: 48px;
+  display: block;
+  background: #fff;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.csi-hero-input::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #d6dede;
+  border-radius: 2px;
+  pointer-events: none;
+}
+.csi-hero-input:focus-within::after { border-color: #3278a1; }
+.csi-hero-input input {
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  border: 0;
+  outline: none;
+  background: transparent;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 500;
+  color: #1c292d;
+}
+.csi-hero-input input::placeholder { color: #4e606a; opacity: 1; }
+.csi-hero-btn {
+  flex: 0 0 auto;
+  width: 119px;
+  height: 48px;
+  padding: 12px 22px;
+  background: #111111;
+  border: 0;
+  border-radius: 0;
+  overflow: hidden;
+  cursor: pointer;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 500;
+  color: #fff;
+  white-space: nowrap;
+}
+
+/* ---------- 3. Case grid ---------- */
+.csi-list-wrap {
+  width: 100%;
+  max-width: 1456px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 48px;
+  background: #f8f9f7;
+}
+.csi-list {
+  width: 100%;
+  max-width: 1360px;
+  padding: 40px 0 64px;
+}
+.csi-list-inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.csi-list-title {
+  width: 100%;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 36px;
+  line-height: 39.6px;
+  letter-spacing: -0.5px;
+  font-weight: 500;
+  color: #1c292d;
+}
+.csi-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(240px, 1fr));
+  grid-auto-rows: min-content;
+  justify-content: start;
+  gap: 28px;
+}
+.csi-card {
+  position: relative;
+  place-self: start;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 24px;
+  background: #fff;
+  overflow: hidden;
+}
+.csi-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #d6dede;
+  pointer-events: none;
+}
+.csi-card-cover {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  min-height: 180px;
+  overflow: clip;
+}
+.csi-card-cover img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.csi-card-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  overflow: hidden;
+}
+.csi-card-logo {
+  width: 100%;
+  height: 64px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  background: #f0f3f1;
+  overflow: hidden;
+}
+.csi-card-logo img {
+  flex: 1 0 0px;
+  width: 1px;
+  max-width: 180px;
+  height: 34px;
+  object-fit: contain;
+  object-position: 0% 50%;
+  mix-blend-mode: multiply;
+}
+.csi-card-title {
+  width: 100%;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 26px;
+  line-height: 31.2px;
+  letter-spacing: -0.5px;
+  font-weight: 500;
+  color: #1c292d;
+}
+.csi-card-meta {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  overflow: hidden;
+}
+.csi-card-person {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+}
+.csi-card-avatar {
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: 50% 0%;
+}
+.csi-card-who {
+  flex: 1 0 0px;
+  width: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+  overflow: hidden;
+}
+.csi-card-name {
+  width: 100%;
+  font-family: "PP Neue Montreal Variable", "PP Neue Montreal Variable Placeholder", sans-serif;
+  font-size: 18px;
+  line-height: 25.2px;
+  font-weight: 400;
+  color: #1c292d;
+}
+.csi-card-role, .csi-card-stat-label {
+  width: 100%;
+  font-family: "PP Neue Montreal Variable", "PP Neue Montreal Variable Placeholder", sans-serif;
+  font-size: 14px;
+  line-height: 19.6px;
+  font-weight: 400;
+  color: #52616a;
+}
+.csi-card-stats {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  overflow: hidden;
+}
+.csi-card-stat {
+  flex: 1 0 0px;
+  width: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  overflow: hidden;
+}
+.csi-card-stat-value {
+  width: 100%;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 36px;
+  line-height: 39.6px;
+  font-weight: 500;
+  color: #1c292d;
+}
+
+/* ---------- 4. Video testimonials ---------- */
+.csi-videos {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 0 48px;
+  background: #f8f9f7;
+  overflow: hidden;
+}
+.csi-videos::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-bottom: 1px solid rgba(34, 34, 34, 0.07);
+  pointer-events: none;
+}
+.csi-videos-dots {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  transform: matrix3d(-1, 0, 0, 0, 0, 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1);
+  background-image: radial-gradient(rgba(0, 0, 0, 0.07) 0.6px, rgba(0, 0, 0, 0) 1.4px);
+  background-size: 10px 10px;
+  pointer-events: none;
+}
+.csi-videos-main {
+  position: relative;
+  width: 100%;
+  max-width: 1360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 64px 0;
+  background: #f8f9f7;
+}
+.csi-videos-title {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 36px;
+  line-height: 39.6px;
+  letter-spacing: -0.5px;
+  font-weight: 500;
+  color: #1c292d;
+  text-align: left;
+}
+.csi-videos-grid {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(50px, 1fr));
+  grid-template-rows: repeat(1, minmax(0px, 1fr));
+  grid-auto-rows: minmax(0px, 1fr);
+  justify-content: center;
+  gap: 20px;
+  overflow: hidden;
+}
+.csi-video {
+  place-self: start;
+  width: 100%;
+  height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.csi-video-inner {
+  position: relative;
+  flex: 1 0 0px;
+  width: 1px;
+  max-width: 100%;
+  aspect-ratio: 0.561053 / 1;
+}
+.csi-video-thumb, .csi-video-frame {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border: 0;
+}
+.csi-video-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 68px;
+  height: 48px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.csi-video-play svg { display: block; }
+
+/* ---------- 5. Logo band ---------- */
+.csi-logos {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.csi-logos::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  pointer-events: none;
+}
+.csi-logos-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.csi-logos-content {
+  position: relative;
+  z-index: 1;
+  flex: 1 0 0px;
+  width: 1px;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 46px 0;
+  overflow: hidden;
+}
+.csi-logos-text {
+  width: 100%;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 18px;
+  line-height: 22.5px;
+  font-weight: 500;
+  color: #575757;
+  text-align: center;
+  white-space: pre-wrap;
+}
+.csi-logos-rows {
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+.csi-logos-row {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(2, minmax(0px, 1fr));
+  grid-auto-rows: minmax(0px, 1fr);
+  justify-content: center;
+  gap: 32px;
+  overflow: visible;
+}
+.csi-logos-row--1 { grid-template-columns: repeat(8, minmax(50px, 1fr)); height: 81px; }
+.csi-logos-row--2 { grid-template-columns: repeat(7, minmax(50px, 1fr)); height: 196px; }
+.csi-logo {
+  place-self: start;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  overflow: visible;
+}
+.csi-logo img { flex: 0 0 auto; display: block; object-position: 50% 50%; }
+.csi-logo--case { height: 90px; }
+.csi-logo--spread { justify-content: space-between; padding-bottom: 6px; }
+.csi-logo--white { height: 39px; background: #fff; overflow: hidden; }
+.csi-logo-badge {
+  flex: 0 0 auto;
+  display: block;
+  padding: 6px;
+  background: #d9eeff;
+  border-radius: 4.5px;
+  overflow: hidden;
+  font-family: "Geist Mono", monospace;
+  font-size: 12px;
+  line-height: 14.4px;
+  font-weight: 700;
+  color: #0077b5;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+}
+.csi-logo-badge--sm { padding: 5px; border-radius: 3.75px; }
+.csi-logo-badge--tall { padding: 6px 6px 7px; }
+
+/* ---------- 6. FAQ (homepage PricingFaq, .vsq-faq only) ---------- */
+#pricing-faq.pf-frame.csi-faq {
+  max-width: 1456px;
+  padding: 48px;
+  background: transparent;
+  overflow: clip;
+}
+
+/* ---------- Tablet 810-1099.98 (measured live at 1080/1024/900/810 in the tablet audit) ---------- */
+@media (min-width: 810px) and (max-width: 1099.98px) {
+  .csi-hero { padding: 144px 32px 40px; }
+  .csi-hero-title { font-size: 44px; line-height: 46.64px; letter-spacing: -1.5px; }
+  .csi-list-wrap { padding: 0 32px; }
+  .csi-list-title { font-size: 30px; line-height: 33px; }
+  /* the tablet card variant has no logo strip and no avatar, 22/26.4 title */
+  .csi-card-logo { display: none; }
+  .csi-card-avatar { display: none; }
+  .csi-card-title { font-size: 22px; line-height: 26.4px; letter-spacing: -0.5px; }
+  .csi-videos-title { font-size: 30px; line-height: 33px; }
+  .csi-videos { padding: 0 28px; }
+  .csi-videos-grid { grid-template-rows: repeat(2, minmax(0px, 1fr)); grid-template-columns: repeat(2, minmax(50px, 1fr)); }
+  .csi-video { grid-row: span 2; height: 420px; }
+  .csi-logos-rows { gap: 0; width: 750px; }
+  .csi-logos-row--1 { grid-template-rows: repeat(3, minmax(0px, 1fr)); grid-template-columns: repeat(4, minmax(50px, 1fr)); height: 228px; }
+  .csi-logos-row--2 { grid-template-columns: repeat(4, minmax(50px, 1fr)); height: 190px; }
+}
+
+/* ---------- Phone <= 809.98 ---------- */
+@media (max-width: 809.98px) {
+  .csi-hero { padding: 120px 20px 40px; }
+  .csi-hero-title { font-size: 38px; line-height: 40.28px; letter-spacing: -1.5px; }
+  .csi-hero-form { flex-direction: column; }
+  .csi-hero-input { flex: 0 0 auto; width: 100%; }
+
+  .csi-list-wrap { padding: 0 20px; }
+  .csi-list { padding: 32px 0 48px; }
+  .csi-list-title { font-size: 28px; line-height: 30.8px; }
+  .csi-grid { display: flex; flex-direction: column; align-items: flex-start; gap: 24px; }
+  .csi-card { padding: 20px; }
+  /* the phone card variant has no logo strip (dump_390/768) */
+  .csi-card-logo { display: none; }
+  .csi-card-title { font-size: 22px; line-height: 26.4px; letter-spacing: normal; }
+  .csi-card-person { order: 1; }
+  .csi-card-stats { order: 0; }
+
+  .csi-videos { padding: 0 20px; }
+  .csi-videos-main { padding: 48px 0; }
+  .csi-videos-title { font-size: 28px; line-height: 30.8px; }
+  .csi-videos-grid { grid-template-rows: repeat(2, minmax(0px, 1fr)); grid-template-columns: repeat(1, minmax(50px, 1fr)); }
+
+  .csi-logos { padding: 40px 16px; }
+  .csi-logos-rows { gap: 0; }
+  .csi-logos-row--1 { order: 0; grid-template-rows: repeat(3, 200px); grid-template-columns: repeat(2, minmax(50px, 1fr)); grid-auto-rows: 200px; gap: 10px 16px; height: 864px; }
+  .csi-logos-row--2 { order: 1; grid-template-rows: repeat(2, 200px); grid-template-columns: repeat(2, minmax(50px, 1fr)); grid-auto-rows: 200px; gap: 10px 32px; height: auto; }
+
+  #pricing-faq.pf-frame.csi-faq { padding: 32px 20px; }
+}

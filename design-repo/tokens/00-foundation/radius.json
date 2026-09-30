@@ -1,0 +1,15 @@
+{
+  "category": "radius",
+  "description": "Border radius scale. The design is almost entirely square (radius 0); documented exceptions only, per real usage.",
+  "measuredFrom": "tailwind.config.cjs:151-159; CLONE_SPEC.md:155",
+  "tokens": {
+    "radius.none": { "value": "0px", "note": "Default for all section panels and buttons.", "measuredFrom": "CLONE_SPEC.md:155" },
+    "radius.chip": { "value": "3px", "usage": "hero-visual chips, stories avatar, wall-of-love avatars", "measuredFrom": "tailwind.config.cjs:153" },
+    "radius.card": { "value": "4px", "usage": "hero cards, hero proof avatar, logo tooltip, showcase sidebar items", "measuredFrom": "tailwind.config.cjs:154" },
+    "radius.arrow": { "value": "2px", "usage": "stories arrows, endorsement avatar, hamburger button", "measuredFrom": "tailwind.config.cjs:155" },
+    "radius.shell": { "value": "5px", "usage": "showcase shell", "measuredFrom": "tailwind.config.cjs:156" },
+    "radius.showcase-card": { "value": "6px", "usage": "showcase cards", "measuredFrom": "tailwind.config.cjs:157" },
+    "radius.menu": { "value": "12px", "usage": "mobile menu panel", "measuredFrom": "tailwind.config.cjs:158" },
+    "radius.full": { "value": "50%", "usage": "avatars, step numbers", "measuredFrom": "CLONE_SPEC.md:155" }
+  }
+}

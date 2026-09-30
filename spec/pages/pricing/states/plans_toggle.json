@@ -1,0 +1,60 @@
+{
+ "monthly": {
+  "toggle": [
+   "Monthly aria-pressed=true bg=rgb(28, 41, 45) color=rgb(255, 255, 255)",
+   "Quarterly · save aria-pressed=false bg=rgba(0, 0, 0, 0) color=rgb(65, 86, 95)"
+  ],
+  "cards": [
+   {
+    "h": "Starter",
+    "price": "$199 / seat / month",
+    "bill": "Billed monthly.\n7-day trial. Payment method required.",
+    "btn": "Start for free →",
+    "btnHref": "https://beta.joinvalley.co/signup"
+   },
+   {
+    "h": "Plus",
+    "price": "$299 / seat / month",
+    "bill": "Billed monthly.\nIncludes email, priority support, and onboarding.",
+    "btn": "Book a demo →",
+    "btnHref": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b"
+   },
+   {
+    "h": "Growth",
+    "price": "$499 / seat / month",
+    "bill": "Billed monthly.\nIncludes email, priority support, and onboarding.",
+    "btn": "Book a demo →",
+    "btnHref": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b"
+   }
+  ]
+ },
+ "quarterly": {
+  "toggle": [
+   "Monthly aria-pressed=false bg=rgba(0, 0, 0, 0) color=rgb(65, 86, 95)",
+   "Quarterly · save aria-pressed=true bg=rgb(28, 41, 45) color=rgb(255, 255, 255)"
+  ],
+  "cards": [
+   {
+    "h": "Starter",
+    "price": "$149 / seat / month",
+    "bill": "$447 billed every three months.\n7-day trial. Payment method required.",
+    "btn": "Start for free →",
+    "btnHref": "https://beta.joinvalley.co/signup"
+   },
+   {
+    "h": "Plus",
+    "price": "$249 / seat / month",
+    "bill": "$747 billed every three months.\nIncludes email, priority support, and onboarding.",
+    "btn": "Book a demo →",
+    "btnHref": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b"
+   },
+   {
+    "h": "Growth",
+    "price": "$419 / seat / month",
+    "bill": "$1257 billed every three months.\nIncludes email, priority support, and onboarding.",
+    "btn": "Book a demo →",
+    "btnHref": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b"
+   }
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "badge",
+  "layer": "primitive",
+  "description": "Small chip/tag element, e.g. eyebrow tags, category labels, 'MIGRATED OFF' tags, blog cardLabel.",
+  "measuredFrom": "spec/pages/landing.md:134-138 (tag), 188 (migrated-off tag); spec/pages/blog/posts.json (cardLabel field)",
+  "props": {
+    "text": { "type": "string", "maxLength": 30 },
+    "hasDot": { "type": "boolean" },
+    "dotColor": { "type": "string", "enum": ["indicator.linkedin", "amber", "none"] },
+    "variant": { "type": "string", "enum": ["outline", "filled-light", "filled-dark"] }
+  },
+  "tokens": { "radius": "radius.none-or-chip", "typography": "eyebrow.default" }
+}

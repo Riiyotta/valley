@@ -1,0 +1,28 @@
+{
+  "id": "landing.sticky-bar",
+  "layer": "section",
+  "purpose": "Direction-aware fixed bottom conversion bar, desktop-only (>=1200), on the 3 SEO landing-template routes only.",
+  "composes": ["button"],
+  "measuredFrom": "spec/pages/landing.md:107-125",
+  "content": {
+    "type": "object",
+    "properties": {
+      "title": { "type": "string", "maxWords": 6 },
+      "subtitle": { "type": "string", "maxWords": 10 },
+      "ctaLabel": { "type": "string", "maxWords": 4 }
+    },
+    "required": ["title", "ctaLabel"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "landingSeoTemplateOnly", "desktopOnly": true },
+  "responsive": { "desktop": { "minWidth": 1200, "display": "flex" }, "belowDesktop": { "maxWidth": 1199.98, "display": "none" }, "measuredFrom": "spec/pages/landing.md:107" },
+  "motion": {
+    "pattern": "scroll-direction-slide",
+    "easingRef": "sticky-bar-scroll",
+    "durationMs": 500,
+    "reducedMotionFallback": "bar stays permanently visible in its resting position, no hide/show on scroll direction",
+    "measuredFrom": "spec/pages/landing.md:117-124"
+  },
+  "assetRoles": {},
+  "note": "Hidden 'Open' panel and 'Last section' footer strip exist in the DOM but never become visible on hover or scroll in any measured probe (spec/pages/landing.md:115-116) — documented dead design layers, deliberately NOT built."
+}

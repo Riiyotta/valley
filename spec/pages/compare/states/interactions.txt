@@ -1,0 +1,113 @@
+## select options [{"value":"All competitors","text":"All competitors"},{"value":"LinkedIn & sequencing","text":"LinkedIn & sequencing"},{"value":"AI outbound platforms","text":"AI outbound platforms"},{"value":"Email & infrastructure","text":"Email & infrastructure"},{"value":"Data & automation","text":"Data & automation"},{"value":"Revenue platforms","text":"Revenue platforms"}]
+
+## chips ["HeyReach pressed=true","Gojiberry pressed=false","Amplemarket pressed=false","lemlist pressed=false","Instantly pressed=false","Artisan pressed=false","11x pressed=false","Expandi pressed=false","Clay pressed=false","PhantomBuster pressed=false","All 19 competitors pressed=null"]
+
+## "All 19 competitors" click: companies height 97 -> 99; chips now ["HeyReach","Gojiberry","Amplemarket","lemlist","Instantly","Artisan","11x","Expandi","Clay","PhantomBuster","Apollo","Smartlead","Dripify","Linked Helper","AiSDR","Regie.ai","Reply.io","Outreach","Salesloft","Show featured"]
+
+## search "cl": chips ["Clay"]
+
+## search "zzz": ""
+
+## criteria <details>: closed h=75, 50ms after open h=711.28125, 550ms h=711.28125; summary marker: none / none / none
+
+## animations [{"n":"vc-light-pass","t":"vc-light","cur":5516,"timing":{"delay":0,"direction":"normal","duration":11000,"easing":"linear","endDelay":0,"fill":"none","iterationStart":0,"iterations":null}},{"n":"vc-trace-in","t":"vc-trace","cur":800,"timing":{"delay":0,"direction":"normal","duration":800,"easing":"linear","endDelay":0,"fill":"both","iterationStart":0,"iterations":1}}]
+
+## competitors captured: 6 ; url after select: https://www.joinvalley.co/compare ; anims right after switch: vc-light-pass@9916,vc-trace-in@800
+
+## HOVER company chip[0]  transition(root)=all
+  0:button.vc-company backgroundColor: rgba(0, 0, 0, 0) -> rgb(234, 240, 229)
+  0:button.vc-company borderTopColor: rgb(211, 218, 206) -> rgb(113, 135, 120)
+  0:button.vc-company borderBottomColor: rgb(211, 218, 206) -> rgb(113, 135, 120)
+  0:button.vc-company borderLeftColor: rgb(211, 218, 206) -> rgb(113, 135, 120)
+  timeline 0:button.vc-company backgroundColor: 31ms=rgb(234, 240, 229) | 82ms=rgb(234, 240, 229) | 152ms=rgb(234, 240, 229) | 251ms=rgb(234, 240, 229) | 401ms=rgb(234, 240, 229) | 701ms=rgb(234, 240, 229)
+
+## HOVER All competitors button[0]  transition(root)=all
+  (no computed change)
+
+## HOVER See Valley in action[0]  transition(root)=all
+  0:a.vc-cta backgroundColor: rgb(28, 41, 46) -> rgb(62, 92, 67)
+  timeline 0:a.vc-cta backgroundColor: 32ms=rgb(62, 92, 67) | 88ms=rgb(62, 92, 67) | 153ms=rgb(62, 92, 67) | 255ms=rgb(62, 92, 67) | 401ms=rgb(62, 92, 67) | 702ms=rgb(62, 92, 67)
+
+## HOVER Read the full comparison[0]  transition(root)=all
+  (no computed change)
+
+## HOVER directory link[0]  transition(root)=all
+  (no computed change)
+
+## HOVER Compare plans[0]  transition(root)=all
+  (no computed change)
+
+## FOCUS-VISIBLE (keyboard) company chip[1]
+  0:button.vc-company outlineStyle: none -> solid
+  0:button.vc-company outlineColor: rgb(78, 94, 82) -> rgb(67, 108, 155)
+  0:button.vc-company outlineOffset: 0px -> 4px
+
+## svg vc track html saved
+
+## category select -> chips (* = pressed) {
+ "All competitors": [
+  "HeyReach*",
+  "Gojiberry",
+  "Amplemarket",
+  "lemlist",
+  "Instantly",
+  "Artisan",
+  "11x",
+  "Expandi",
+  "Clay",
+  "PhantomBuster",
+  "All 19 competitors"
+ ],
+ "LinkedIn & sequencing": [
+  "HeyReach*",
+  "lemlist",
+  "Expandi",
+  "Dripify",
+  "Linked Helper",
+  "Reply.io"
+ ],
+ "AI outbound platforms": [
+  "Gojiberry",
+  "Amplemarket",
+  "Artisan",
+  "11x",
+  "Apollo",
+  "AiSDR",
+  "Regie.ai"
+ ],
+ "Email & infrastructure": [
+  "Instantly",
+  "Smartlead"
+ ],
+ "Data & automation": [
+  "Clay",
+  "PhantomBuster"
+ ],
+ "Revenue platforms": [
+  "Outreach",
+  "Salesloft"
+ ]
+}
+
+## competitors: HeyReach, Gojiberry, Amplemarket, lemlist, Instantly, Artisan, 11x, Expandi, Clay, PhantomBuster, Apollo, Smartlead, Dripify, Linked Helper, AiSDR, Regie.ai, Reply.io, Outreach, Salesloft
+  HeyReach: vc height 4373, anims 1 frame after click: vc-light-pass@6916,vc-trace-in@800, url https://www.joinvalley.co/compare
+  Gojiberry: vc height 4481, anims 1 frame after click: vc-light-pass@0,vc-trace-in@0, url https://www.joinvalley.co/compare
+  Amplemarket: vc height 4463, anims 1 frame after click: vc-light-pass@17,vc-trace-in@17, url https://www.joinvalley.co/compare
+  lemlist: vc height 4436, anims 1 frame after click: vc-light-pass@0,vc-trace-in@0, url https://www.joinvalley.co/compare
+  Instantly: vc height 4463, anims 1 frame after click: vc-light-pass@33,vc-trace-in@33, url https://www.joinvalley.co/compare
+  Artisan: vc height 4374, anims 1 frame after click: vc-light-pass@17,vc-trace-in@17, url https://www.joinvalley.co/compare
+  11x: vc height 4510, anims 1 frame after click: vc-light-pass@0,vc-trace-in@0, url https://www.joinvalley.co/compare
+  Expandi: vc height 4373, anims 1 frame after click: vc-light-pass@0,vc-trace-in@0, url https://www.joinvalley.co/compare
+  Clay: vc height 4492, anims 1 frame after click: vc-light-pass@0,vc-trace-in@0, url https://www.joinvalley.co/compare
+  PhantomBuster: vc height 4456, anims 1 frame after click: vc-light-pass@0,vc-trace-in@0, url https://www.joinvalley.co/compare
+  Apollo: vc height 4491, anims 1 frame after click: vc-light-pass@0,vc-trace-in@0, url https://www.joinvalley.co/compare
+  Smartlead: vc height 4492, anims 1 frame after click: vc-light-pass@0,vc-trace-in@0, url https://www.joinvalley.co/compare
+  Dripify: vc height 4400, anims 1 frame after click: vc-light-pass@0,vc-trace-in@0, url https://www.joinvalley.co/compare
+  Linked Helper: vc height 4465, anims 1 frame after click: vc-light-pass@0,vc-trace-in@0, url https://www.joinvalley.co/compare
+  AiSDR: vc height 4483, anims 1 frame after click: vc-light-pass@0,vc-trace-in@0, url https://www.joinvalley.co/compare
+  Regie.ai: vc height 4483, anims 1 frame after click: vc-light-pass@0,vc-trace-in@0, url https://www.joinvalley.co/compare
+  Reply.io: vc height 4427, anims 1 frame after click: vc-light-pass@0,vc-trace-in@0, url https://www.joinvalley.co/compare
+  Outreach: vc height 4460, anims 1 frame after click: vc-light-pass@0,vc-trace-in@0, url https://www.joinvalley.co/compare
+  Salesloft: vc height 4491, anims 1 frame after click: vc-light-pass@17,vc-trace-in@17, url https://www.joinvalley.co/compare
+
+## svg {"viewBox":"0 0 48 48","cls":null,"light":[],"trace":[]}

@@ -1,0 +1,26 @@
+{
+  "id": "content.article-body",
+  "layer": "section",
+  "purpose": "Long-form article body with an inline CTA card and sticky TOC sidebar, shared by blog-post and casestudy templates via RichText.jsx + placeholderArticle.js.",
+  "composes": ["rich-text-block"],
+  "measuredFrom": "src/components/longform/placeholderArticle.js:1-9; spec/pages/blog-post.md 'Content rule'; spec/pages/casestudy.md 'Content rule'",
+  "content": {
+    "type": "object",
+    "properties": {
+      "sections": { "type": "array", "minItems": 3, "maxItems": 3, "items": { "type": "object", "properties": { "id": { "type": "string" }, "title": { "type": "string", "maxWords": 12 }, "blocks": { "type": "array" } }, "required": ["id", "title", "blocks"], "additionalProperties": false } },
+      "idPrefix": { "type": "string", "enum": ["blog-section-", "cs-section-"] }
+    },
+    "required": ["sections", "idPrefix"],
+    "additionalProperties": false
+  },
+  "contentPolicy": {
+    "status": "generated-placeholder-not-measured-real",
+    "citation": "src/components/longform/placeholderArticle.js:1-9 — 'The clone does not reproduce article bodies (blog-post.md \"Content rule\"); every post renders this generic outbound-sales filler, written for the clone, inside the faithful template.' Deterministic per seed (string hash), so pages differ from each other but never change between loads.",
+    "aiGenerationRule": "AI generation for this field MAY produce new neutral outbound-sales-adjacent filler prose in this same structural shape (h2/h3, paragraphs with strong/em/links, a list, a blockquote, an image, a table, inline code, a code block). It must NEVER attempt to reconstruct or approximate Valley's real, unrecorded article text — that text was deliberately never captured (dumps show '[redacted N chars]', screenshots are blurred)."
+  },
+  "constraints": { "onePerPage": true },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {
+    "inline-article-image": { "enum": "editorial-card-image", "generationPolicy": "may-generate-new", "guidance": "Generic illustrative image inside placeholder body copy; safe to AI-generate brand-neutral imagery." }
+  }
+}

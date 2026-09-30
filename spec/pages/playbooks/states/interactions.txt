@@ -1,0 +1,45 @@
+## categories: All plays | 58 plays | Search playbooks (58 cards) url=https://www.joinvalley.co/playbooks
+  The basics | 7 plays | Search playbooks (7 cards) url=https://www.joinvalley.co/playbooks
+  Content & social signals | 9 plays | Search playbooks (9 cards) url=https://www.joinvalley.co/playbooks
+  Buying signals | 29 plays | Search playbooks (29 cards) url=https://www.joinvalley.co/playbooks
+  Your lists & network | 16 plays | Search playbooks (16 cards) url=https://www.joinvalley.co/playbooks
+  Press, investors & advisors | 3 plays | Search playbooks (3 cards) url=https://www.joinvalley.co/playbooks
+
+## search "hiring": All plays | 3 plays matching your search | Search playbooks cards: Hiring for roles that signal your problem; Hiring the role you replace; Reach candidates engaging hiring content
+
+## search "zzzz": <div class="vpl-empty"><h3>No plays match that search.</h3><p>Try a signal such as hiring, profile viewers or funding.</p><button>Show all plays</button></div>
+
+## HOVER play card[0]  transition(root)=background 0.18s, border-color 0.18s
+  0:a backgroundColor: rgb(255, 255, 255) -> rgb(237, 243, 241)
+  0:a borderTopColor: rgb(212, 222, 221) -> rgb(119, 150, 140)
+  0:a borderBottomColor: rgb(212, 222, 221) -> rgb(119, 150, 140)
+  0:a borderLeftColor: rgb(212, 222, 221) -> rgb(119, 150, 140)
+  timeline 0:a backgroundColor: 31ms=rgb(253, 254, 254) | 80ms=rgb(244, 247, 246) | 152ms=rgb(237, 243, 241) | 250ms=rgb(237, 243, 241) | 401ms=rgb(237, 243, 241) | 701ms=rgb(237, 243, 241)
+
+## HOVER category tile[1]  transition(root)=all
+  (no computed change)
+
+## HOVER hero Start for free[0]  transition(root)=all
+  0:a.vpl-cta backgroundColor: rgb(24, 40, 45) -> rgb(48, 76, 86)
+  timeline 0:a.vpl-cta backgroundColor: 31ms=rgb(48, 76, 86) | 81ms=rgb(48, 76, 86) | 151ms=rgb(48, 76, 86) | 251ms=rgb(48, 76, 86) | 402ms=rgb(48, 76, 86) | 701ms=rgb(48, 76, 86)
+
+## HOVER Explore the product[0]  transition(root)=all
+  (no computed change)
+
+## FOCUS-VISIBLE (keyboard) play card[0]
+  0:a outlineStyle: none -> solid
+  0:a outlineColor: rgb(28, 41, 46) -> rgb(52, 118, 167)
+  0:a outlineOffset: 0px -> 4px
+
+## drawer open sampled (60ms): open=true op=1 tf=none url=?play=message-your-qualified-profile-viewers || open=true op=1 tf=none url=?play=message-your-qualified-profile-viewers || open=true op=1 tf=none url=?play=message-your-qualified-profile-viewers || open=true op=1 tf=none url=?play=message-your-qualified-profile-viewers || open=true op=1 tf=none url=?play=message-your-qualified-profile-viewers || open=true op=1 tf=none url=?play=message-your-qualified-profile-viewers
+
+## dialog geometry: {"x":760,"y":0,"w":680,"h":900,"margin":"0px 0px 0px 760px","bg":"rgb(252, 253, 251)","shadow":"none","backdrop":"rgba(17, 31, 38, 0.48) blur(5px)","bodyOverflow":"hidden","htmlOverflow":"visible"}
+
+## HOVER drawer close[0]  transition(root)=all
+  (no computed change)
+
+## after close url: https://www.joinvalley.co/playbooks
+
+## plays captured 58
+
+## 390 dialog: {"x":0,"y":0,"w":390,"h":844}

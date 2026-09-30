@@ -1,0 +1,60 @@
+div
+  div
+    main [Main]
+      div.framer-1v5umer-container
+        div.ssr-variant.hidden-1hicejw.hidden-3ig1r0
+          header.framer-v-15mpar8 [Large Desktop]
+      div.framer-1hrdiv3-container
+        div.ssr-variant.hidden-3ig1r0
+          section.framer-v-tg6248 [Variant 1]
+      div.framer-14m5ox1-container.hidden-3ig1r0
+        div.ssr-variant.hidden-1hicejw
+          section.framer-v-p3xbdf [Desktop]
+      section [Feature Section]
+        div [Content]
+          div [Heading + Desc]
+          div [Feature Cards]
+      div
+        div.ssr-variant.hidden-1hicejw.hidden-3ig1r0
+          div.framer-lq8h27-container
+      section [Case Study Section]
+        div [Content]
+          div [Heading + Desc]
+          div [Card Rows]
+          div.ssr-variant
+      div
+        div.framer-19j1d46-container
+          div.ssr-variant.hidden-3ig1r0
+      section [Process Section]
+        div [Heading + Desc]
+          div.ssr-variant.hidden-3ig1r0
+          div.ssr-variant.hidden-3ig1r0
+        div.ssr-variant.hidden-1hicejw.hidden-3ig1r0
+          div.framer-1639lxa-container
+      section [Spacer]
+      div.hidden-3ig1r0 [Valley magic Section]
+        div.ssr-variant.hidden-1hicejw
+          div.framer-sy956j-container
+      section [Spacer]
+      section [Calendar Section]
+        div [Content]
+          div#cal-home [Heading + Desc]
+      section [Spacer]
+      section [Testimonial Section]
+        div [Content]
+          div [Heading + Desc]
+      section.hidden-3ig1r0 [Spacer]
+      section [FAQ Section]
+        div.framer-15kk0ld-container [Questions answered]
+          section.valley-start-questions
+    div.ssr-variant.hidden-1hicejw.hidden-3ig1r0
+      div.framer-6fvfid-container
+        div.framer-v-1hx1hpb [Desktop]
+          div.framer-1ivyyil-container [Valley multichannel footer]
+  div#overlay
+  div
+  div
+    div.framer-ng2619-container
+      button.__framer-cookie-component-button
+        svg
+          path

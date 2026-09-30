@@ -1,0 +1,281 @@
+{
+ "note": "Template chrome images used by the long-form templates (CTA backgrounds, avatars, company logos, YouTube thumbnails, waitlist mock avatars and so on). Blog/case cards are in public/assets/pages/blog and /casestudies (see posts.json, cases.json). Images already present elsewhere in public/assets (matched by Framer file id) are skipped. inArticleBody=true images belong to the sampled article body; the clone should use placeholders instead.",
+ "images": [
+  {
+   "url": "https://framerusercontent.com/images/RkYMuyEtdgStGU8zRVpb3dYfnE.jpeg?scale-down-to=512&width=1334&height=978",
+   "local": "/assets/pages/templates/RkYMuyEtdgStGU8zRVpb3dYfnE.jpeg",
+   "error": null,
+   "natural": "24x17",
+   "rendered": [
+    "24x24"
+   ],
+   "usedOn": [
+    "blog-index"
+   ],
+   "inArticleBody": false
+  },
+  {
+   "url": "https://framerusercontent.com/images/XA88EO8N36qShdbqaMtTCXsoba8.png?scale-down-to=512&width=1200&height=600",
+   "local": "/assets/pages/templates/XA88EO8N36qShdbqaMtTCXsoba8.png",
+   "error": null,
+   "natural": "400x200",
+   "rendered": [
+    "400x200"
+   ],
+   "usedOn": [
+    "blog-index"
+   ],
+   "inArticleBody": false
+  },
+  {
+   "url": "https://framerusercontent.com/images/0OwviQTxzr6r2l4SfckrYH3tE0.jpeg?scale-down-to=1024&width=836&height=1038",
+   "local": "/assets/pages/templates/0OwviQTxzr6r2l4SfckrYH3tE0.jpeg",
+   "error": null,
+   "natural": "48x59",
+   "rendered": [
+    "48x48"
+   ],
+   "usedOn": [
+    "blog-post"
+   ],
+   "inArticleBody": false
+  },
+  {
+   "url": "https://framerusercontent.com/images/BKhwazmhCmOQuEHju5t2RCgyLk0.jpeg?scale-down-to=1024&width=1200&height=1500",
+   "local": "/assets/pages/templates/BKhwazmhCmOQuEHju5t2RCgyLk0.jpeg",
+   "error": null,
+   "natural": "760x950",
+   "rendered": [
+    "760x311"
+   ],
+   "usedOn": [
+    "blog-post",
+    "casestudy"
+   ],
+   "inArticleBody": false
+  },
+  {
+   "url": "https://framerusercontent.com/images/ftaOQXeRTkzekiBu3G0v4DZ6PI.jpg?scale-down-to=1024&width=4914&height=3766",
+   "local": "/assets/pages/templates/ftaOQXeRTkzekiBu3G0v4DZ6PI.jpg",
+   "error": null,
+   "natural": "759x582",
+   "rendered": [
+    "760x311"
+   ],
+   "usedOn": [
+    "blog-post",
+    "casestudy"
+   ],
+   "inArticleBody": false
+  },
+  {
+   "url": "https://framerusercontent.com/images/IT76Aaq67wchbfaIkDJdbLY4phM.jpg?scale-down-to=1024&width=6000&height=4000",
+   "local": "/assets/pages/templates/IT76Aaq67wchbfaIkDJdbLY4phM.jpg",
+   "error": null,
+   "natural": "759x506",
+   "rendered": [
+    "760x311"
+   ],
+   "usedOn": [
+    "blog-post",
+    "casestudy"
+   ],
+   "inArticleBody": false
+  },
+  {
+   "url": "https://i.ytimg.com/vi_webp/bmTEE6d1oiI/maxresdefault.webp",
+   "local": "/assets/pages/templates/yt-bmTEE6d1oiI.webp",
+   "error": null,
+   "natural": "1280x720",
+   "rendered": [
+    "321x572"
+   ],
+   "usedOn": [
+    "casestudies-index"
+   ],
+   "inArticleBody": false
+  },
+  {
+   "url": "https://i.ytimg.com/vi_webp/XJ-4VYbgO0M/maxresdefault.webp",
+   "local": "/assets/pages/templates/yt-XJ-4VYbgO0M.webp",
+   "error": null,
+   "natural": "1280x720",
+   "rendered": [
+    "321x572"
+   ],
+   "usedOn": [
+    "casestudies-index"
+   ],
+   "inArticleBody": false
+  },
+  {
+   "url": "https://i.ytimg.com/vi_webp/Yr5M2U7JTkU/maxresdefault.webp",
+   "local": "/assets/pages/templates/yt-Yr5M2U7JTkU.webp",
+   "error": null,
+   "natural": "1280x720",
+   "rendered": [
+    "321x572"
+   ],
+   "usedOn": [
+    "casestudies-index"
+   ],
+   "inArticleBody": false
+  },
+  {
+   "url": "https://i.ytimg.com/vi_webp/19w3cPwB6cg/maxresdefault.webp",
+   "local": "/assets/pages/templates/yt-19w3cPwB6cg.webp",
+   "error": null,
+   "natural": "1280x720",
+   "rendered": [
+    "321x572"
+   ],
+   "usedOn": [
+    "casestudies-index"
+   ],
+   "inArticleBody": false
+  },
+  {
+   "url": "https://framerusercontent.com/images/1yAumaR84b2Z0lmNLKMqNrgY.jpeg?scale-down-to=1024&width=1692&height=936",
+   "local": "/assets/pages/templates/1yAumaR84b2Z0lmNLKMqNrgY.jpeg",
+   "error": null,
+   "natural": "759x420",
+   "rendered": [
+    "760x270"
+   ],
+   "usedOn": [
+    "casestudy"
+   ],
+   "inArticleBody": false
+  },
+  {
+   "url": "https://framerusercontent.com/images/AOv6knwp0gsbQ0DAg3NJpbQ5Clg.png?scale-down-to=512&width=600&height=400",
+   "local": "/assets/pages/templates/AOv6knwp0gsbQ0DAg3NJpbQ5Clg.png",
+   "error": null,
+   "natural": "54x35",
+   "rendered": [
+    "54x54"
+   ],
+   "usedOn": [
+    "casestudy"
+   ],
+   "inArticleBody": false
+  },
+  {
+   "url": "https://framerusercontent.com/images/IQKddGGUVKfESbTRhHhxUrBqwQ.jpg?scale-down-to=512&width=4928&height=3264",
+   "local": "/assets/pages/templates/IQKddGGUVKfESbTRhHhxUrBqwQ.jpg",
+   "error": null,
+   "natural": "54x35",
+   "rendered": [
+    "54x54"
+   ],
+   "usedOn": [
+    "casestudy"
+   ],
+   "inArticleBody": false
+  },
+  {
+   "url": "https://framerusercontent.com/images/F8ur4MxzltB6kcNMHbY8uVKQbg.jpg?scale-down-to=1024&width=3624&height=5436",
+   "local": "/assets/pages/templates/F8ur4MxzltB6kcNMHbY8uVKQbg.jpg",
+   "error": null,
+   "natural": "54x81",
+   "rendered": [
+    "54x54"
+   ],
+   "usedOn": [
+    "casestudy"
+   ],
+   "inArticleBody": false
+  },
+  {
+   "url": "https://framerusercontent.com/images/GLRr9uvTdE0X3XmXVEeXLdXHgS8.jpg?scale-down-to=512&width=4928&height=3264",
+   "local": "/assets/pages/templates/GLRr9uvTdE0X3XmXVEeXLdXHgS8.jpg",
+   "error": null,
+   "natural": "54x35",
+   "rendered": [
+    "54x54"
+   ],
+   "usedOn": [
+    "casestudy"
+   ],
+   "inArticleBody": false
+  },
+  {
+   "url": "https://framerusercontent.com/images/th5MyfiqIwKlQIzoyZCDs5tVlk.png?scale-down-to=512&width=540&height=360",
+   "local": "/assets/pages/templates/th5MyfiqIwKlQIzoyZCDs5tVlk.png",
+   "error": null,
+   "natural": "54x35",
+   "rendered": [
+    "54x54"
+   ],
+   "usedOn": [
+    "casestudy"
+   ],
+   "inArticleBody": false
+  },
+  {
+   "url": "https://framerusercontent.com/images/MmGrf8ysKLgt7WYL0OdoM7ZbOQ.jpg?scale-down-to=512&width=6000&height=4000",
+   "local": "/assets/pages/templates/MmGrf8ysKLgt7WYL0OdoM7ZbOQ.jpg",
+   "error": null,
+   "natural": "54x35",
+   "rendered": [
+    "54x54"
+   ],
+   "usedOn": [
+    "casestudy"
+   ],
+   "inArticleBody": false
+  },
+  {
+   "url": "https://framerusercontent.com/images/Y9KmJAQ4w53hsc4jJojfokLZ7D8.jpg?scale-down-to=1024&width=2662&height=3993",
+   "local": "/assets/pages/templates/Y9KmJAQ4w53hsc4jJojfokLZ7D8.jpg",
+   "error": null,
+   "natural": "54x81",
+   "rendered": [
+    "54x54"
+   ],
+   "usedOn": [
+    "casestudy"
+   ],
+   "inArticleBody": false
+  },
+  {
+   "url": "https://framerusercontent.com/images/oUkBi1c8nERocfQrJWNLxZ9Fipw.jpg?scale-down-to=1024&width=3974&height=5000",
+   "local": "/assets/pages/templates/oUkBi1c8nERocfQrJWNLxZ9Fipw.jpg",
+   "error": null,
+   "natural": "54x68",
+   "rendered": [
+    "54x54"
+   ],
+   "usedOn": [
+    "casestudy"
+   ],
+   "inArticleBody": false
+  },
+  {
+   "url": "https://framerusercontent.com/images/JKorM5B0WmJOc8WoLSGW2e0hNG8.jpg?scale-down-to=1024&width=4160&height=6240",
+   "local": "/assets/pages/templates/JKorM5B0WmJOc8WoLSGW2e0hNG8.jpg",
+   "error": null,
+   "natural": "54x81",
+   "rendered": [
+    "54x54"
+   ],
+   "usedOn": [
+    "casestudy"
+   ],
+   "inArticleBody": false
+  },
+  {
+   "url": "https://framerusercontent.com/images/dNEIQlELj9wVHIBlIYAMLCENUeI.png?scale-down-to=512&width=640&height=596",
+   "local": "/assets/pages/templates/dNEIQlELj9wVHIBlIYAMLCENUeI.png",
+   "error": null,
+   "natural": "54x50",
+   "rendered": [
+    "54x54"
+   ],
+   "usedOn": [
+    "casestudy"
+   ],
+   "inArticleBody": false
+  }
+ ]
+}

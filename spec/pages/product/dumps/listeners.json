@@ -1,0 +1,566 @@
+{
+ "io": [
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {
+    "threshold": 0
+   },
+   "targets": [
+    "valley-hero-visual"
+   ],
+   "cb": "([e])=>S(e.isIntersecting)"
+  },
+  {
+   "opt": {
+    "threshold": [
+     0,
+     0.12
+    ]
+   },
+   "targets": [
+    "valley-showcase"
+   ],
+   "cb": "([e])=>A(e.isIntersecting&&e.intersectionRatio>=.12)"
+  },
+  {
+   "opt": {
+    "threshold": 0.15
+   },
+   "targets": [
+    "vir-stage vir-prospecting"
+   ],
+   "cb": "e=>{r=!!e[0]?.isIntersecting,a()}"
+  },
+  {
+   "opt": {
+    "threshold": 0.15
+   },
+   "targets": [
+    "vir-stage vir-qualification"
+   ],
+   "cb": "e=>{r=!!e[0]?.isIntersecting,a()}"
+  },
+  {
+   "opt": {
+    "threshold": 0.15
+   },
+   "targets": [
+    "vir-stage vir-research"
+   ],
+   "cb": "e=>{r=!!e[0]?.isIntersecting,a()}"
+  },
+  {
+   "opt": {
+    "threshold": 0.12
+   },
+   "targets": [
+    "ver-row"
+   ],
+   "cb": "e=>e.forEach(e=>{let t=e.target.dataset.row||``;d(n=>({...n,[t]:e.isIntersecting})),e.isIntersecting&&g(e=>({...e,[t]:!0}))})"
+  },
+  {
+   "opt": {
+    "threshold": 0.12
+   },
+   "targets": [
+    "ver-row"
+   ],
+   "cb": "e=>e.forEach(e=>{let t=e.target.dataset.row||``;d(n=>({...n,[t]:e.isIntersecting})),e.isIntersecting&&g(e=>({...e,[t]:!0}))})"
+  },
+  {
+   "opt": {
+    "threshold": 0.12
+   },
+   "targets": [
+    "ver-row"
+   ],
+   "cb": "e=>e.forEach(e=>{let t=e.target.dataset.row||``;d(n=>({...n,[t]:e.isIntersecting})),e.isIntersecting&&g(e=>({...e,[t]:!0}))})"
+  },
+  {
+   "opt": {
+    "threshold": 0.15
+   },
+   "targets": [
+    "valley-learning-row"
+   ],
+   "cb": "([e])=>{t=e.isIntersecting,n()}"
+  },
+  {
+   "opt": {
+    "threshold": 0
+   },
+   "targets": [
+    "valley-customer-results"
+   ],
+   "cb": "([e])=>D(e.isIntersecting)"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  },
+  {
+   "opt": {},
+   "targets": [
+    "framer-tgc7rj[Dot Blink]"
+   ],
+   "cb": "function () { [native code] }"
+  }
+ ],
+ "scroll": [
+  {
+   "type": "scroll",
+   "on": "window",
+   "fn": "function () {\n    var h = document.body.scrollHeight - window.innerHeight;\n    if (h <= 0) return;\n    var pct = Math.round((window.scrollY / h) * 100);\n    [50, 75, 90].forEach(function (mark) {\n      if (pct >= mark && !fired[mark]) {\n        fired[mark] = true;\n        push('scroll_depth', { depth: mark });\n      }\n    });\n  }"
+  },
+  {
+   "type": "resize",
+   "on": "window",
+   "fn": "function c(){NL(a,b);OL(c,!0)}"
+  },
+  {
+   "type": "resize",
+   "on": "DIV",
+   "fn": "function () { [native code] }"
+  },
+  {
+   "type": "scroll",
+   "on": "DIV",
+   "fn": "function () { [native code] }"
+  },
+  {
+   "type": "wheel",
+   "on": "DIV",
+   "fn": "function () { [native code] }"
+  },
+  {
+   "type": "wheel",
+   "on": "DIV",
+   "fn": "function () { [native code] }"
+  },
+  {
+   "type": "resize",
+   "on": "window",
+   "fn": "()=>{let e=p.innerWidth;e!==r&&(r=e,this.root.updateBlockedByResize=!0,n&&n(),n=_i(i,250),zd.hasAnimatedSinceResize&&(zd.hasAnimatedSinceResize=!1,this.nodes.forEach(Mi)))}"
+  },
+  {
+   "type": "resize",
+   "on": "window",
+   "fn": "()=>R.read(e)"
+  },
+  {
+   "type": "scroll",
+   "on": "window",
+   "fn": "()=>R.read(e)"
+  },
+  {
+   "type": "resize",
+   "on": "window",
+   "fn": "()=>{if(t)return;let n=e.getBoundingClientRect().width;n<=900||x([640,540,560,540,620,540][S]+(n<1100?40:0))}"
+  },
+  {
+   "type": "resize",
+   "fn": "()=>{if(t)return;let n=e.getBoundingClientRect().width;n<=900||x([640,540,560,540,620,540][S]+(n<1100?40:0))}"
+  },
+  {
+   "type": "resize",
+   "on": "BODY",
+   "fn": "function () { [native code] }"
+  },
+  {
+   "type": "scroll",
+   "on": "BODY",
+   "fn": "function () { [native code] }"
+  },
+  {
+   "type": "wheel",
+   "on": "BODY",
+   "fn": "function () { [native code] }"
+  },
+  {
+   "type": "wheel",
+   "on": "BODY",
+   "fn": "function () { [native code] }"
+  },
+  {
+   "type": "scroll",
+   "on": "window",
+   "fn": "function(){clearTimeout(sdt);sdt=setTimeout(tsc,100)}"
+  },
+  {
+   "type": "scroll",
+   "on": "window",
+   "fn": "()=>{this.recordActivity()}"
+  },
+  {
+   "type": "scroll",
+   "on": "window",
+   "fn": "()=>{this.recordActivity()}"
+  },
+  {
+   "type": "scroll",
+   "on": "window",
+   "fn": "()=>{this.recordActivity()}"
+  }
+ ],
+ "anims": [
+  {
+   "name": "vhv-detail-in",
+   "target": "vhv-dossier vhv-surface vhv-reveal",
+   "dur": 350,
+   "iter": 1,
+   "state": "finished"
+  },
+  {
+   "name": "vhv-detail-in",
+   "target": "vhv-decision vhv-fit-stack vhv-surface vhv-reveal",
+   "dur": 350,
+   "iter": 1,
+   "state": "finished"
+  },
+  {
+   "name": "vhv-detail-in",
+   "target": "vhv-decision vhv-skip-stack vhv-surface vhv-reveal",
+   "dur": 350,
+   "iter": 1,
+   "state": "finished"
+  },
+  {
+   "name": "vs-appear",
+   "target": "vs-home-main vs-enter",
+   "dur": 550,
+   "iter": 1,
+   "state": "paused"
+  },
+  {
+   "name": "ver-enter",
+   "target": "ver-message-inputs ver-reveal",
+   "dur": 650,
+   "iter": 1,
+   "state": "paused"
+  },
+  {
+   "name": "ver-enter",
+   "target": "ver-letter ver-surface ver-reveal",
+   "dur": 650,
+   "iter": 1,
+   "state": "paused"
+  },
+  {
+   "name": "ver-enter",
+   "target": "ver-sequence-step ver-sequence-first ver-surface ver-reveal",
+   "dur": 650,
+   "iter": 1,
+   "state": "paused"
+  },
+  {
+   "name": "ver-enter",
+   "target": "ver-wait ver-reveal",
+   "dur": 650,
+   "iter": 1,
+   "state": "paused"
+  },
+  {
+   "name": "ver-enter",
+   "target": "ver-sequence-step ver-sequence-second ver-surface ver-reveal",
+   "dur": 650,
+   "iter": 1,
+   "state": "paused"
+  },
+  {
+   "name": "ver-enter",
+   "target": "ver-reply-stop ver-reveal",
+   "dur": 650,
+   "iter": 1,
+   "state": "paused"
+  },
+  {
+   "name": "ver-enter",
+   "target": "ver-analysis-heading ver-reveal",
+   "dur": 650,
+   "iter": 1,
+   "state": "paused"
+  },
+  {
+   "name": "ver-enter",
+   "target": "ver-analysis-step ver-reveal",
+   "dur": 650,
+   "iter": 1,
+   "state": "paused"
+  },
+  {
+   "name": "ver-enter",
+   "target": "ver-analysis-step ver-reveal",
+   "dur": 650,
+   "iter": 1,
+   "state": "paused"
+  },
+  {
+   "name": "ver-enter",
+   "target": "ver-analysis-step ver-reveal",
+   "dur": 650,
+   "iter": 1,
+   "state": "paused"
+  },
+  {
+   "name": "ver-enter",
+   "target": "ver-pipeline ver-surface ver-reveal",
+   "dur": 650,
+   "iter": 1,
+   "state": "paused"
+  },
+  {
+   "name": "vcr-reveal",
+   "target": "vcr-slide",
+   "dur": 350,
+   "iter": 1,
+   "state": "finished"
+  },
+  {
+   "name": "vtf-arrive",
+   "target": "vtf-panel",
+   "dur": 240,
+   "iter": 1,
+   "state": "finished"
+  },
+  {
+   "name": "vc-light-pass",
+   "target": "vc-light",
+   "dur": 11000,
+   "iter": null,
+   "state": "running"
+  },
+  {
+   "name": "vc-trace-in",
+   "target": "vc-trace",
+   "dur": 800,
+   "iter": 1,
+   "state": "finished"
+  },
+  {
+   "name": "Animation",
+   "target": "framer-1wt8hpc-container",
+   "dur": 500,
+   "iter": 1,
+   "state": "finished"
+  },
+  {
+   "name": "Animation",
+   "target": "vs-tab-progress",
+   "dur": 6000,
+   "iter": 1,
+   "state": "paused"
+  }
+ ]
+}

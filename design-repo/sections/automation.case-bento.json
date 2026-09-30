@@ -1,0 +1,25 @@
+{
+  "id": "automation.case-bento",
+  "layer": "section",
+  "purpose": "5-card bento-layout case-study strip, unique to /linkedin-automation. NOTE: cards link href='./' verbatim (they link to the home page) — a real, deliberate quirk, not a broken link to fix silently.",
+  "composes": ["stat-block"],
+  "measuredFrom": "spec/pages/landing.md:520-527",
+  "content": {
+    "type": "object",
+    "properties": {
+      "label": { "type": "string", "maxWords": 6 },
+      "h3": { "type": "string", "maxWords": 10 },
+      "cards": { "type": "array", "minItems": 5, "maxItems": 5 },
+      "ctaLabel": { "type": "string", "maxWords": 4 },
+      "ctaHref": { "type": "string", "const": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b" }
+    },
+    "required": ["h3", "cards"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "automationOnly" },
+  "motion": { "pattern": "hover-invert", "reducedMotionFallback": "cards render in rest state; hover-invert still applies instantly without a transition" },
+  "assetRoles": {
+    "customer-logo": { "enum": "customer-logo", "generationPolicy": "must-reuse-exact", "guidance": "Real company trademarks (Franq, GGWP, etc); never alter." }
+  },
+  "note": "The bento cards' href='./' (verbatim, linking to home) is a documented real quirk from spec/pages/landing.md:522 — reproduce, do not silently rewrite to the case study's real URL unless explicitly asked to fix it."
+}

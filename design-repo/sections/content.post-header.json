@@ -1,0 +1,25 @@
+{
+  "id": "content.post-header",
+  "layer": "section",
+  "purpose": "Blog-post title/meta header (author, date, read time, TOC card) at the top of a /blog/:slug article.",
+  "measuredFrom": "spec/pages/blog-post.md; spec/pages/blog/posts.json",
+  "content": {
+    "type": "object",
+    "properties": {
+      "title": { "type": "string", "maxWords": 20 },
+      "author": { "type": "string", "maxWords": 4 },
+      "authorAvatar": { "type": "string" },
+      "dateDisplayed": { "type": "string" },
+      "readTime": { "type": "string", "maxWords": 3 },
+      "tocLabels": { "type": "array", "maxItems": 3 }
+    },
+    "required": ["title", "author", "dateDisplayed"],
+    "additionalProperties": false
+  },
+  "contentPolicy": { "note": "All fields here ARE measured-real from posts.json — title/author/date/readTime metadata is real. Only the article BODY (content.article-body) is generated placeholder." },
+  "constraints": { "onePerPage": true, "mustBeFirstAfterNav": true },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {
+    "author-photo": { "enum": "author-photo", "generationPolicy": "must-not-fabricate", "guidance": "Real named author photo (framerusercontent.com URL). Never fabricate a real person's likeness." }
+  }
+}

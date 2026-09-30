@@ -1,0 +1,24 @@
+/* Framer appear-in-view used on /pricing (spec/pages/pricing.md 8.2).
+   Spring stiffness 210 / damping 70 / mass 1 (zeta 2.415, overdamped, no overshoot), sampled
+   over 2000ms into linear() (value .998 at the end). Checks against the live samples:
+   .105 at 50ms (live .10), .51 at 240ms (live .48), .77 at 485ms (live .75), .99 at 1.6s. */
+.pr-reveal {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 15px));
+}
+.pr-reveal[data-shown="true"] {
+  opacity: 1;
+  transform: none;
+  transition-property: opacity, transform;
+  transition-duration: 2000ms;
+  transition-delay: var(--reveal-delay, 0s);
+  transition-timing-function: linear(0, 0.0084 0.5%, 0.0417 1.3%, 0.2215 4.75%, 0.3283 7.1%, 0.4277 9.65%, 0.5185 12.4%, 0.6012 15.4%, 0.6769 18.75%, 0.7447 22.5%, 0.8045 26.75%, 0.8563 31.65%, 0.9002 37.45%, 0.9361 44.55%, 0.964 53.7%, 0.984 66.55%, 0.9959 88.35%, 1);
+}
+@media (prefers-reduced-motion: reduce) {
+  .pr-reveal,
+  .pr-reveal[data-shown="true"] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "category": "component-token",
+  "component": "button",
+  "description": "Component-scoped token overrides for the button primitive's real variants observed across homepage and landing pages.",
+  "measuredFrom": "CLONE_SPEC.md section 7-19 (nav/hero CTA); spec/pages/landing.md:113-116,289-297",
+  "variants": {
+    "primary-dark": { "bg": "dark.button", "text": "framer.white", "usage": "hero primary button, nav CTA", "measuredFrom": "tailwind.config.cjs:71" },
+    "default-expanding": {
+      "bg": "#111111",
+      "text": "framer.white",
+      "height": 48,
+      "padding": "12px 18px",
+      "behavior": "widens 152px->240px on hover via spring, label translates up out of box",
+      "usage": "landing hero CTAs, sticky bar CTA",
+      "measuredFrom": "spec/pages/landing.md:290-295"
+    },
+    "cta-primary-3d": {
+      "bg": "#111111",
+      "boxShadowRest": "0 6px 0 rgba(0,0,0,.6)",
+      "hoverBehavior": "shadow alpha falls to 0, content moves down ~5px and scaleY .898 then springs back",
+      "usage": "case-banner CTA, video-wall CTAs on agency/tryvalley/automation",
+      "measuredFrom": "spec/pages/landing.md:296-297"
+    },
+    "ghost-footer": { "border": "line.footer-ghost", "usage": "footer ghost button", "measuredFrom": "tailwind.config.cjs:146" }
+  }
+}

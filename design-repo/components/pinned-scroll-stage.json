@@ -1,0 +1,11 @@
+{
+  "id": "pinned-scroll-stage",
+  "layer": "component",
+  "description": "Scroll-pinned staged content, used by endorsement (2610px track) and jobs (.vstack, with the 801-816px viewport quirk). Real scroll-driven pattern, not a CSS keyframe animation.",
+  "measuredFrom": "spec/GRID.md:121,123,213 (jobs quirk 7.1); CLONE_SPEC.md section 11 (endorsement), section 13 (jobs)",
+  "motion": {
+    "pattern": "scroll-pin",
+    "trackHeightPx": "2610 (endorsement) or 2846 (jobs, when pinned)",
+    "reducedMotionFallback": "pinning disabled entirely; content renders as a normal static in-flow section (CLONE_SPEC.md:25)"
+  }
+}

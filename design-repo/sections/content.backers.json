@@ -1,0 +1,18 @@
+{
+  "id": "content.backers",
+  "layer": "section",
+  "purpose": "Investor/backer logo strip on /about.",
+  "composes": ["logo-mark"],
+  "measuredFrom": "spec/pages/about.md (backers, Frame 2147223575)",
+  "content": {
+    "type": "object",
+    "properties": { "heading": { "type": "string", "maxWords": 6 }, "logos": { "type": "array", "maxItems": 20 } },
+    "required": ["logos"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "aboutRouteOnly" },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {
+    "investor-logo": { "enum": "customer-logo", "generationPolicy": "must-reuse-exact", "guidance": "Real investor-firm trademarks; never AI-generate or alter." }
+  }
+}

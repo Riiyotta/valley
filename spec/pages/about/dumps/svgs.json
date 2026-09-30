@@ -1,0 +1,114 @@
+[
+ {
+  "sid": "nav",
+  "w": 10,
+  "h": 10,
+  "cls": " < ",
+  "html": "<svg width=\"10\" height=\"10\" viewBox=\"0 0 12 12\" fill=\"none\" stroke=\"currentColor\" aria-hidden=\"true\"><path d=\"m3 4 3 3 3-3\"></path></svg>",
+  "n": 1
+ },
+ {
+  "sid": "mission",
+  "w": 148,
+  "h": 152,
+  "cls": " < svgContainer",
+  "html": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 151 155\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-847186079_301\"></use></svg>",
+  "n": 1
+ },
+ {
+  "sid": "mission",
+  "w": 149,
+  "h": 152,
+  "cls": " < svgContainer",
+  "html": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 151 155\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg1983953836_305\"></use></svg>",
+  "n": 1
+ },
+ {
+  "sid": "mission",
+  "w": 265,
+  "h": 195,
+  "cls": " < svgContainer",
+  "html": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 267 197\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg317077510_311\"></use></svg>",
+  "n": 1
+ },
+ {
+  "sid": "mission",
+  "w": 25,
+  "h": 24,
+  "cls": " < svgContainer",
+  "html": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 27 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-414138011_186\"></use></svg>",
+  "n": 1
+ },
+ {
+  "sid": "mission",
+  "w": 25,
+  "h": 25,
+  "cls": " < svgContainer",
+  "html": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 27 28\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg319473683_185\"></use></svg>",
+  "n": 1
+ },
+ {
+  "sid": "mission",
+  "w": 41,
+  "h": 41,
+  "cls": " < svgContainer",
+  "html": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 41 41\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-1083849739_860\"></use></svg>",
+  "n": 1
+ },
+ {
+  "sid": "mission",
+  "w": 28,
+  "h": 29,
+  "cls": " < svgContainer",
+  "html": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 31 32\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-537710975_187\"></use></svg>",
+  "n": 1
+ },
+ {
+  "sid": "team",
+  "w": 157,
+  "h": 73,
+  "cls": " < svgContainer",
+  "html": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 176 82\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-999717700_21925\"></use></svg>",
+  "n": 1
+ },
+ {
+  "sid": "team",
+  "w": 22,
+  "h": 22,
+  "cls": " < ",
+  "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" focusable=\"false\" viewBox=\"0 0 24 24\" color=\"rgb(57, 119, 154)\" style=\"user-select: none; width: 100%; height: 100%; display: inline-block; fill: rgb(57, 119, 154); flex-shrink: 0;\"><path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z\"></path></svg>",
+  "n": 12
+ },
+ {
+  "sid": "team",
+  "w": 296,
+  "h": 48,
+  "cls": " < svgContainer",
+  "html": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 2286 368\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg634852589_29730\"></use></svg>",
+  "n": 1
+ },
+ {
+  "sid": "hiring",
+  "w": 16,
+  "h": 16,
+  "cls": " < svgContainer",
+  "html": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 16 16\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg-1168501209_236\"></use></svg>",
+  "n": 1
+ },
+ {
+  "sid": "hiring",
+  "w": 16,
+  "h": 16,
+  "cls": " < svgContainer",
+  "html": "<svg style=\"width:100%;height:100%;\" viewBox=\"0 0 16 16\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><use href=\"#svg2106186794_355\"></use></svg>",
+  "n": 1
+ },
+ {
+  "sid": "footer",
+  "w": 38,
+  "h": 38,
+  "cls": " < vf-brand",
+  "html": "<svg viewBox=\"0 0 48 45\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M11.8368 4.67773L21.796 14.637L18.3674 18.2288L13.796 22.9635H4V18.2288H18.3674L8.24491 8.26958L11.8368 4.67773Z M36.1632 4.67773L26.204 14.637L29.6326 18.2288L34.204 22.9635H44V18.2288H29.6326L39.7551 8.26958L36.1632 4.67773Z M8.24512 32.5954L24.0819 16.9219L39.9187 32.5954L36.4901 36.024L26.5309 26.228V40.2689H21.4697V26.228L11.6737 36.024L8.24512 32.5954Z\"></path></svg>",
+  "n": 1
+ }
+]

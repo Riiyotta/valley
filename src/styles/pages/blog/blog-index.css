@@ -1,0 +1,855 @@
+/* /blog. spec/pages/blog-index.md + dumps/dump_{1440,1280,768,390}.txt.
+   Framer has three variants here: desktop (>= 1200), tablet (810-1199, measured on live at
+   1199/1100/900/810 in the tablet audit) and phone (< 810). */
+@import './blog-shared.css';
+
+.bl-index {
+  background: #fff;
+}
+.bl-index h1,
+.bl-index h2,
+.bl-index h3,
+.bl-index h5,
+.bl-index p {
+  margin: 0;
+}
+
+/* =========================== 1. Hero =========================== */
+.bl-hero {
+  padding: 132px 48px 48px;
+  background: theme('colors.surface.DEFAULT');
+  overflow: hidden;
+  filter: brightness(1);
+}
+.bl-hero-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 48px;
+}
+.bl-hero-copy {
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 760px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.bl-hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.bl-hero-text h1 {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 56px;
+  line-height: 59.36px;
+  letter-spacing: -1.5px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+}
+.bl-hero-text p {
+  font-family: theme('fontFamily.inter');
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 400;
+  color: #000;
+}
+.bl-hero-form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 12px;
+  width: 520px;
+  max-width: 100%;
+  margin: 0;
+}
+.bl-hero-input {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  height: 48px;
+  padding: 16px;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.bl-hero-input::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid theme('colors.line.faq-panel');
+  border-radius: 2px;
+  pointer-events: none;
+}
+.bl-hero-input input {
+  width: 100%;
+  height: 16px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: transparent;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+}
+.bl-hero-input input::placeholder {
+  color: theme('colors.ink.vsq');
+  opacity: 1;
+}
+.bl-hero-btn {
+  flex: none;
+  height: 48px;
+  margin: 0;
+  padding: 12px 22px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 0;
+  background: #111111;
+  overflow: hidden;
+  cursor: pointer;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 500;
+  color: #fff;
+  white-space: nowrap;
+}
+
+/* Featured card */
+.bl-feat {
+  position: relative;
+  flex: none;
+  display: block;
+  width: 400px;
+  background: #fff;
+  border-radius: 3px;
+  color: inherit;
+  text-decoration: none;
+}
+.bl-feat::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid theme('colors.line.faq-panel');
+  border-radius: 3px;
+  pointer-events: none;
+  z-index: 2;
+}
+.bl-feat-inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  background: theme('colors.framer.f8');
+  overflow: hidden;
+}
+.bl-feat-inner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid theme('colors.framer.d9');
+  pointer-events: none;
+}
+.bl-feat-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 64px;
+  padding: 12px;
+  box-sizing: border-box;
+}
+.bl-feat-author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 40px;
+  padding: 8px 12px 8px 8px;
+  box-sizing: border-box;
+  background: #fbfbfb;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+.bl-feat-avatar {
+  position: relative;
+  flex: none;
+  width: 24px;
+  height: 24px;
+  filter: drop-shadow(rgba(0, 0, 0, 0.06) 0px 2px 2px) drop-shadow(rgba(0, 0, 0, 0.05) 1px 7px 3px)
+    drop-shadow(rgba(0, 0, 0, 0.03) 3px 15px 4px) drop-shadow(rgba(0, 0, 0, 0.01) 5px 27px 5px)
+    drop-shadow(rgba(0, 0, 0, 0) 8px 43px 6px);
+}
+.bl-feat-avatar img {
+  display: block;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.bl-feat-avatar::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  pointer-events: none;
+}
+.bl-feat-name {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #000;
+  white-space: nowrap;
+}
+.bl-feat-img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+}
+.bl-feat-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff;
+  overflow: hidden;
+}
+.bl-feat-body h5 {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 24px;
+  line-height: 28.8px;
+  letter-spacing: -0.5px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+}
+
+/* =========================== 2. Research library =========================== */
+.bl-research {
+  padding: 64px 48px;
+  background: theme('colors.surface.DEFAULT');
+}
+.bl-research-panel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  padding: 40px;
+  background: #e9eff0;
+  overflow: clip;
+}
+.bl-research-panel::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #d3dfe1;
+  pointer-events: none;
+}
+.bl-research-panel > h2 {
+  width: 100%;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 36px;
+  line-height: 41.4px;
+  letter-spacing: -0.9px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+}
+.bl-research-intro {
+  width: 100%;
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #4e606a;
+}
+.bl-research-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 24px;
+  width: 100%;
+}
+.bl-report {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 20px;
+  background: #fff;
+  overflow: clip;
+  color: inherit;
+  text-decoration: none;
+}
+.bl-report img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+}
+.bl-report h3 {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+}
+.bl-report p {
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #4e606a;
+}
+.bl-research-btn {
+  display: inline-block;
+  padding: 16px 24px;
+  background: theme('colors.ink.vsq');
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* =========================== 3. All Blogs grid =========================== */
+.bl-list {
+  padding: 48px 48px 64px;
+  background: theme('colors.surface.DEFAULT');
+}
+.bl-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-rows: 1fr; /* every row is as tall as the tallest card (live row pitch 475) */
+  align-items: start;
+  gap: 16px;
+  padding-bottom: 80px;
+}
+.bl-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #fff;
+  overflow: hidden;
+}
+.bl-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid theme('colors.line.faq-panel');
+  pointer-events: none;
+  z-index: 3;
+}
+.bl-card-media {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  aspect-ratio: 664 / 306;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.bl-card-img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bl-card-overlay,
+.bl-card-time-top {
+  display: none;
+}
+.bl-card-bottom {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.bl-card-time {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-weight: 400;
+  color: #fff;
+  white-space: nowrap;
+}
+.bl-card-time--desk {
+  font-size: 14px;
+  line-height: 19.6px;
+}
+.bl-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  color: inherit;
+  text-decoration: none;
+}
+.bl-card-title {
+  margin: 0;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 24px;
+  line-height: 32.4px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+}
+.bl-more {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 40px;
+  margin: 0;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 0;
+  background: #000;
+  cursor: pointer;
+  font-family: theme('fontFamily.inter');
+  font-size: 14px;
+  line-height: 16.8px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* =========================== 4. Case studies strip =========================== */
+.bl-cases {
+  padding: 64px 48px;
+  background: theme('colors.surface.DEFAULT');
+}
+.bl-cases-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.bl-cases-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+.bl-cases-head h2 {
+  flex: 1 1 0;
+  min-width: 0;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 36px;
+  line-height: 39.6px;
+  letter-spacing: -0.5px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+}
+.bl-cases-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px;
+  width: 100%;
+  padding-bottom: 80px;
+}
+.bl-case-cell {
+  background: #fff;
+}
+.bl-case {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  color: inherit;
+  text-decoration: none;
+}
+.bl-case-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  width: 100%;
+  height: 435px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: theme('colors.framer.f8');
+  overflow: hidden;
+}
+.bl-case-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid theme('colors.framer.d9');
+  pointer-events: none;
+}
+.bl-case-main {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  min-height: 0;
+}
+.bl-case-logo {
+  display: block;
+  width: 100%;
+  height: 38px;
+  object-fit: contain;
+  object-position: 0% 50%;
+}
+.bl-case-main h2 {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 24px;
+  line-height: 33.6px;
+  font-weight: 500;
+  color: #000;
+}
+.bl-case-meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+  margin-top: auto;
+}
+.bl-case-person {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bl-case-person img {
+  flex: none;
+  display: block;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: 50% 0%;
+}
+.bl-case-person > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+.bl-case-name {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 18px;
+  line-height: 25.2px;
+  font-weight: 500;
+  color: theme('colors.ink.vgs');
+}
+.bl-case-role {
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 14px;
+  line-height: 16.8px;
+  font-weight: 400;
+  color: #52616a;
+}
+.bl-case-stats {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+.bl-case-stats > div {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+.bl-case-value {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 36px;
+  line-height: 39.6px;
+  font-weight: 500;
+  color: theme('colors.ink.vgs');
+}
+.bl-case-label {
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 14px;
+  line-height: 19.6px;
+  font-weight: 400;
+  color: #52616a;
+}
+
+/* =========================== 5. FAQ wrapper (PricingFaq faq-only) =========================== */
+#pricing-faq.pf-frame.bl-faq {
+  padding: 48px;
+}
+
+/* =========================== Tablet (810-1199) ===========================
+   Live "Blog Page Hero"/"Featured - Tablet" variants, measured at 1199/1100/900/810:
+   stacked hero, 2-col research grid, 2-col overlay cards (phone card with 24px padding),
+   one-column case strip with a 24%-wide person image and an 80px title box. */
+@media screen(tablet) {
+  .bl-hero {
+    padding: 112px 28px 48px;
+  }
+  .bl-hero-row {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .bl-hero-copy {
+    flex: none;
+    width: 100%;
+    max-width: 760px;
+  }
+  .bl-hero-text h1 {
+    font-size: 44px;
+    line-height: 46.64px;
+    letter-spacing: -1.5px;
+  }
+  .bl-hero-text p {
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+  .bl-feat {
+    width: 100%;
+  }
+
+  .bl-research {
+    padding: 48px 28px;
+  }
+  .bl-research-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .bl-list {
+    padding: 40px 28px 64px;
+  }
+  .bl-grid {
+    gap: 32px;
+  }
+  .bl-card {
+    overflow: visible;
+  }
+  .bl-card-media {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 16px;
+    aspect-ratio: 15 / 7; /* live 556x259.2, 506x236.1, 361x168.5 */
+    padding: 24px;
+  }
+  .bl-card-overlay {
+    display: block;
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.23);
+    overflow: hidden;
+  }
+  .bl-card-time-top {
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 0;
+    right: 0;
+    padding-right: 16px;
+    text-align: right;
+  }
+  .bl-card-time--phone {
+    font-size: 24px;
+    line-height: 33.6px;
+  }
+  .bl-card-time--desk {
+    display: none;
+  }
+  .bl-card-bottom {
+    width: auto;
+  }
+  .bl-card-body {
+    justify-content: center;
+  }
+  .bl-more {
+    width: 100px;
+    padding: 0;
+  }
+
+  .bl-cases {
+    padding: 64px 28px;
+  }
+  .bl-cases-head h2 {
+    font-size: 30px;
+    line-height: 33px;
+  }
+  .bl-cases-grid {
+    grid-template-columns: minmax(0, 1fr);
+    grid-auto-rows: 1fr;
+  }
+  .bl-case-card {
+    height: auto;
+  }
+  .bl-case-main {
+    flex: none;
+  }
+  .bl-case-main h2 {
+    height: 80px;
+  }
+  .bl-case-meta {
+    margin-top: 0;
+  }
+  .bl-case-person img {
+    width: 24%;
+    height: 46px;
+  }
+}
+
+/* =========================== Phone (< 810) =========================== */
+@media screen(phone) {
+  .bl-hero {
+    padding: 112px 20px 40px;
+  }
+  .bl-hero-row {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .bl-hero-copy {
+    flex: none;
+    width: 100%;
+    max-width: none;
+  }
+  .bl-hero-text h1 {
+    font-size: 38px;
+    line-height: 40.28px;
+    letter-spacing: -1.5px;
+  }
+  .bl-hero-text p {
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+  .bl-feat {
+    width: 100%;
+  }
+  .bl-feat-author {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .bl-research {
+    padding: 40px 20px;
+  }
+  .bl-research-panel {
+    padding: 24px 20px;
+  }
+  .bl-research-panel > h2 {
+    font-size: 30px;
+    line-height: 34.5px;
+    letter-spacing: -0.75px;
+  }
+  .bl-research-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .bl-list {
+    padding: 32px 20px 48px;
+  }
+  .bl-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 32px;
+  }
+  .bl-card {
+    overflow: visible;
+  }
+  .bl-card-media {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 16px;
+    aspect-ratio: 728 / 340;
+    padding: 16px;
+  }
+  .bl-card-overlay {
+    display: block;
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.23);
+    overflow: hidden;
+  }
+  .bl-card-time-top {
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 0;
+    right: 0;
+    padding-right: 16px;
+    text-align: right;
+  }
+  .bl-card-time--phone {
+    font-size: 24px;
+    line-height: 33.6px;
+  }
+  .bl-card-time--desk {
+    display: none;
+  }
+  .bl-card-bottom {
+    width: auto;
+  }
+  .bl-card-body {
+    justify-content: center;
+  }
+  .bl-more {
+    width: 100px;
+    padding: 0;
+  }
+
+  .bl-cases {
+    padding: 48px 20px;
+  }
+  .bl-cases-head h2 {
+    font-size: 28px;
+    line-height: 30.8px;
+  }
+  .bl-cases-grid {
+    grid-template-columns: minmax(0, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 24px;
+  }
+  .bl-case {
+    height: auto;
+  }
+  .bl-case-card {
+    height: auto;
+    padding: 16px;
+  }
+  .bl-case-main {
+    flex: none;
+  }
+  .bl-case-main h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .bl-case-meta {
+    flex-direction: column-reverse;
+    margin-top: 0;
+  }
+
+  #pricing-faq.pf-frame.bl-faq {
+    padding: 32px 20px;
+  }
+}

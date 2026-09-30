@@ -1,0 +1,1479 @@
+# linkedin-automation @1280 H=13342
+{"i":0,"name":"Large Desktop","code":"vpm","y":0,"h":84,"w":1280,"pos":"relative","display":"block"}
+{"i":1,"name":"Variant 1","code":"","y":84,"h":828,"w":1280,"pos":"relative","display":"block"}
+{"i":2,"name":"Desktop","code":"","y":912,"h":480,"w":1280,"pos":"relative","display":"block"}
+{"i":3,"name":"Feature Section","code":"","y":1392,"h":626,"w":1280,"pos":"relative","display":"flex"}
+{"i":4,"name":"Variant 3","code":"","y":2017,"h":810,"w":1280,"pos":"relative","display":"flex"}
+{"i":5,"name":"Case Study Section","code":"","y":2827,"h":1074,"w":1280,"pos":"relative","display":"flex"}
+{"i":6,"name":"","code":"","y":3902,"h":4140,"w":1280,"pos":"relative","display":"flex"}
+{"i":7,"name":"Process Section","code":"","y":8042,"h":1244,"w":1280,"pos":"relative","display":"flex"}
+{"i":8,"name":"Spacer","code":"","y":9286,"h":48,"w":1280,"pos":"relative","display":"flex"}
+{"i":9,"name":"Valley magic Section","code":"","y":9334,"h":709,"w":1280,"pos":"relative","display":"flex"}
+{"i":10,"name":"Spacer","code":"","y":10043,"h":48,"w":1280,"pos":"relative","display":"flex"}
+{"i":11,"name":"Calendar Section","code":"","y":10091,"h":1216,"w":1280,"pos":"relative","display":"flex"}
+{"i":12,"name":"Spacer","code":"","y":11308,"h":48,"w":1280,"pos":"relative","display":"flex"}
+{"i":13,"name":"Testimonial Section","code":"","y":11356,"h":737,"w":1280,"pos":"relative","display":"flex"}
+{"i":14,"name":"Spacer","code":"","y":12092,"h":48,"w":1280,"pos":"relative","display":"flex"}
+{"i":15,"name":"FAQ Section","code":"valley-start-questions","y":12140,"h":605,"w":1280,"pos":"relative","display":"flex"}
+{"i":16,"name":"Desktop","code":"vf","y":12745,"h":597,"w":1280,"pos":"static","display":"contents"}
+
+######## [0] Large Desktop vpm y=0 h=84 pos=relative
+  B <header Large Desktop> 0,0 1280x84 pad=20px 48px bg=#f8f9f7
+  B <div Links & Button> 48,20 1184x44 flex row gap=normal jc=space-between ai=center 
+  B <div> 48,28 99x29 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 99 29.078%22 overflow=%22visible%22><path d=%22M 6.402 0 L 14.539 8.137 L 11.738 11.071 L 
+  B <div Menu Links> 335,20 543x44 flex row gap=28px jc=center ai=center 
+  B <a Link - Black> 335,20 37x44 pad=12px 0px 
+  B <div> 335,32 37x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 335,34 37x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Home"
+  T <p> 335,54 37x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Home"
+  T <summary> 400,20 68x44 | PP Neue Montreal, Inter, Arial 14px/16.8px ls=normal w500 #19252e  | "Product"
+  SVG 458,37 10x10 fill=none stroke=#4f6373 color=#4f6373 trans=[transform|0.15s|ease|0s]
+  B <div .vpm-panel> 400,64 330x213 pad=10px bg=#ffffff border=1px 1px 1px 1px solid #d4dedb shadow=rgba(25, 41, 46, 0.082) 0px 12px 30px 0px
+  B <a> 411,75 308x105 pad=18px 16px 
+  T <span> 427,93 276x20 | PP Neue Montreal, Inter, Arial 17px/20.4px ls=normal w500 #1c292e  | "Explore Product"
+  T <b> 686,93 17x20 | PP Neue Montreal, Inter, Arial 17px/20.4px ls=normal w400 #1c292e  | "↗"
+  T <small> 427,120 276x42 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52636c  | "See how Valley works, from signal to reply."
+  B <a> 411,180 308x85 pad=18px 16px border=1px 0px 0px 0px solid #e3e9e5 b:#1c292e
+  T <span> 427,199 276x20 | PP Neue Montreal, Inter, Arial 17px/20.4px ls=normal w500 #1c292e  | "All Playbooks"
+  T <b> 686,199 17x20 | PP Neue Montreal, Inter, Arial 17px/20.4px ls=normal w400 #1c292e  | "↗"
+  T <small> 427,227 276x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52636c  | "Find your next play. See every step."
+  B <a Link - Black> 496,20 132x44 pad=12px 0px 
+  B <div> 496,32 132x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 496,34 132x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Valley vs. Competition"
+  T <p> 496,54 132x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Valley vs. Competition"
+  B <a Link - Black> 655,20 67x44 pad=12px 0px 
+  B <div> 655,32 67x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 655,34 67x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Customers"
+  T <p> 655,54 67x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Customers"
+  B <a Link - Black> 750,20 57x44 pad=12px 0px 
+  B <div> 750,32 57x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 750,34 57x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Agencies"
+  T <p> 750,54 57x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Agencies"
+  B <a Link - Black> 836,20 42x44 pad=12px 0px 
+  B <div> 836,32 42x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 836,34 42x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Pricing"
+  T <p> 836,54 42x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Pricing"
+  B <div cta__nav> 1066,22 166x40 flex row gap=16px jc=flex-end ai=center 
+  T <a> 1066,32 42x19 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/19.2px ls=normal w500 #002669  | "Log in"
+  B <a Launch for Free> 1124,22 108x40 pad=10px 16px bg=#19282e ovf=clip
+  T <p> 1140,34 76x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w500 #ffffff  | "Start for free"
+
+######## [1] Variant 1  y=84 h=828 pos=relative
+  B <div Content> 0,84 1280x828 flex column gap=0px jc=center ai=center ::after{absolute 1280pxx828px inset=0px,0px border=0px 1px 0px 1px solid #000000/0.07}
+  B <div Heading + Desc> 0,153 1280x691 pad=160px 0px flex column gap=35px jc=center ai=center 
+  B <div Label> 400,313 480x26 pad=6px ::after{absolute 480pxx26.4062px inset=0px,0px border=1px 1px 1px 1px solid #000000}
+  T <p> 406,319 468x14 | Geist Mono, monospace 12px/14.4px ls=normal w400 #000000 tt=uppercase ta=center  | "The quality-first alternative to Heyreach, expandi & linkedhelper"
+  T <span> 374,374 47x56 | PP Neue Montreal Medium, PP Neue Montreal Medium 52px/55.64px ls=normal w400 #000000 ta=center filter=blur(0px) | "AI"
+  T <span> 432,374 191x56 | PP Neue Montreal Medium, PP Neue Montreal Medium 52px/55.64px ls=normal w400 #0077b5 ta=center filter=blur(0px) | "LinkedIn"
+  T <span> 634,374 261x56 | PP Neue Montreal Medium, PP Neue Montreal Medium 52px/55.64px ls=normal w400 #000000 ta=center filter=blur(0px) | "Automation"
+  T <span> 272,430 88x56 | PP Neue Montreal Medium, PP Neue Montreal Medium 52px/55.64px ls=normal w400 #000000 ta=center filter=blur(0px) | "that"
+  T <span> 370,430 144x56 | PP Neue Montreal Medium, PP Neue Montreal Medium 52px/55.64px ls=normal w400 #000000 ta=center filter=blur(0px) | "Books"
+  T <span> 525,430 85x56 | PP Neue Montreal Medium, PP Neue Montreal Medium 52px/55.64px ls=normal w400 #000000 ta=center filter=blur(0px) | "You"
+  T <span> 621,430 119x56 | PP Neue Montreal Medium, PP Neue Montreal Medium 52px/55.64px ls=normal w400 #000000 ta=center filter=blur(0px) | "More"
+  T <span> 751,430 125x56 | PP Neue Montreal Medium, PP Neue Montreal Medium 52px/55.64px ls=normal w400 #000000 ta=center filter=blur(0px) | "Sales"
+  T <span> 887,430 122x56 | PP Neue Montreal Medium, PP Neue Montreal Medium 52px/55.64px ls=normal w400 #000000 ta=center  | "Calls."
+  T <p> 265,520 750x40 | PP Neue Montreal Medium 16px/20px ls=normal w400 #3d3d3d ta=center  | "Valley AI automatically qualifies every lead for ICP fit, conducts deep research, crafts hyper-personalized messages that sound just like you, and automates it on LinkedIn while keeping your account safe."
+  B <div> -80,595 1440x88 pad=8px flex row gap=16px jc=center ai=center 
+  B <a cta__primary> 500,615 132x48 pad=5px 0px 0px 
+  B <div Button Content> 500,620 132x43 ::after{absolute 132pxx43.2031px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.2} bg=#000000 shadow=rgba(0, 0, 0, 0.6) 0px 6px 0px 0px ovf=hidden
+  B <div Text Wrap> 500,620 132x43 pad=12px 18px bg=#000000 ovf=hidden
+  T <p> 518,632 96x19 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/19.2px ls=-0.16px w400 #ffffff  | "Book Demo →"
+  B <div cta__secondary> 648,615 132x48 pad=5px 0px 0px 
+  B <div Button Content> 648,620 132x43 ::after{absolute 132pxx43.2031px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.2} bg=#ffffff shadow=rgba(0, 0, 0, 0.6) 0px 6px 0px 0px ovf=hidden
+  B <div Text Wrap> 648,620 132x43 pad=12px 18px bg=#ffffff ovf=hidden
+  T <p> 665,632 98x19 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/19.2px ls=-0.16px w400 #000000  | "Try Valley Now"
+  B <div Fade Card Stack 1> 0,180 232x234 pad=0px 0px 16px 
+  B <div ctrl> 16,258 200x116 bg=#ffffff/0
+  B <div 1> 16,258 200x116 filter=blur(2px) op=0
+  B <div Card 1> 16,258 200x116 pad=16px 12px flex column gap=16px jc=center ai=center ::after{absolute 200pxx116px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.2 radius=3px} bgi=linear-gradient(179deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 98%) radius=3px ovf=hidden
+  B <div> 28,276 176x34 op=0.6
+  T <p> 28,276 176x34 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000 ta=center  | ""No other outbound tool can compete""
+  B <div Client Details> 24,326 184x29 flex row gap=10px jc=center ai=center 
+  B <div Client Photo> 82,326 29x29 radius=50% ovf=hidden
+  B <div> 82,326 29x29 radius=50%
+  IMG 82,326 29x29 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/PEnd2BVpOQgqZSJpQ0LveYRg0.png?scale-down-to=1024&width=1024&height=1536 alt=""
+  B <div> 121,326 30x28 flex column gap=4px jc=center ai=flex-start 
+  T <p> 121,326 26x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #595959  | "Greg"
+  IMG 121,345 30x10 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/8aai3kbA67mLlwK6YCBMunST8.png?scale-down-to=512&width=1172&height=327 alt=""
+  IMG 16,258 200x116 fit=fill pos=50% 50%  src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 200 116" xmlns="http://www.w3.org/2000/svg"><path d="M 0 0 L 200 0 L 200 116 L 0 116 Z" fill="transparent" height="116px" id="Qcl79R2uE" stroke-dasharray="0" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-width="2" stroke="rgba(255, 255, 255, 0)" width="200px"/></svg> alt=""
+  IMG 16,258 200x116 fit=fill pos=50% 50% op=0 src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 200 116" xmlns="http://www.w3.org/2000/svg"><path d="M 0 0 L 200 0 L 200 116 L 0 116 Z" fill="transparent" height="116px" id="Qcl79R2uE" stroke-dasharray="0" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-width="2" stroke="rgba(255, 255, 255, 0)" width="200px"/></svg> alt=""
+  B <div Fade Card Stack 3> 1098,206 128x169 pad=0px 0px 16px 
+  B <div ctrl> 1062,219 200x116 bg=#ffffff/0
+  B <div 1> 1062,219 200x116 filter=blur(2px) op=0
+  B <div Card 1> 1062,219 200x116 pad=16px 12px flex column gap=16px jc=center ai=center ::after{absolute 200pxx116px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.2 radius=3px} bgi=linear-gradient(179deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 98%) radius=3px ovf=hidden
+  B <div> 1074,237 176x34 op=0.6
+  T <p> 1074,237 176x34 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000 ta=center  | ""No other outbound tool can compete""
+  B <div Client Details> 1070,287 184x29 flex row gap=10px jc=center ai=center 
+  B <div Client Photo> 1128,287 29x29 radius=50% ovf=hidden
+  B <div> 1128,287 29x29 radius=50%
+  IMG 1128,287 29x29 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/PEnd2BVpOQgqZSJpQ0LveYRg0.png?scale-down-to=1024&width=1024&height=1536 alt=""
+  B <div> 1167,287 30x28 flex column gap=4px jc=center ai=flex-start 
+  T <p> 1167,287 26x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #595959  | "Greg"
+  IMG 1167,306 30x10 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/8aai3kbA67mLlwK6YCBMunST8.png?scale-down-to=512&width=1172&height=327 alt=""
+  SVG 1062,219 200x116 fill=#000000 stroke=none color=#000000 
+  IMG 1062,219 200x116 fit=fill pos=50% 50% op=0 src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 200 116" xmlns="http://www.w3.org/2000/svg"><path d="M 0 0 L 200 0 L 200 116 L 0 116 Z" fill="transparent" height="116px" id="Qcl79R2uE" stroke-dasharray="0" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-width="2" stroke="rgba(255, 255, 255, 0)" width="200px"/></svg> alt=""
+  B <div Fade Card Stack 1> 1024,512 128x267 pad=0px 0px 16px 
+  B <div ctrl> 988,623 200x116 bg=#ffffff/0
+  B <div 1> 988,623 200x116 filter=blur(2px) op=0
+  B <div Variant 4> 988,623 200x116 pad=16px 12px flex column gap=16px jc=center ai=center ::after{absolute 200pxx116px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.2 radius=3px} bgi=linear-gradient(179deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 98%) radius=3px ovf=hidden
+  B <div> 1000,640 176x34 op=0.6
+  T <p> 1000,640 176x34 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000 ta=center  | ""Valley is dominating all other channels""
+  B <div Client Details> 996,689 184x34 flex row gap=10px jc=center ai=center 
+  B <div Client Photo> 1046,692 29x29 radius=50% ovf=hidden
+  B <div> 1046,692 29x29 radius=50%
+  IMG 1046,692 29x29 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/Rn5R4PlzpIgnagliXVRg4NnLlvE.png?scale-down-to=1024&width=1024&height=1536 alt=""
+  B <div> 1085,689 46x34 flex column gap=4px jc=center ai=flex-start 
+  T <p> 1085,689 32x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #595959  | "Jason"
+  IMG 1085,708 46x15 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/smONImap5ISmB6bwJgBIPPsAAKM.png?scale-down-to=512&width=1603&height=289 alt=""
+  IMG 988,623 200x116 fit=fill pos=50% 50%  src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 200 116" xmlns="http://www.w3.org/2000/svg"><path d="M 0 0 L 200 0 L 200 116 L 0 116 Z" fill="transparent" height="116px" id="Qcl79R2uE" stroke-dasharray="0" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-width="2" stroke="rgba(255, 255, 255, 0)" width="200px"/></svg> alt=""
+  IMG 988,623 200x116 fit=fill pos=50% 50% op=0 src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 200 116" xmlns="http://www.w3.org/2000/svg"><path d="M 0 0 L 200 0 L 200 116 L 0 116 Z" fill="transparent" height="116px" id="Qcl79R2uE" stroke-dasharray="0" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-width="2" stroke="rgba(255, 255, 255, 0)" width="200px"/></svg> alt=""
+  B <div Fade Card Stack 3> 64,458 288x267 pad=0px 0px 16px 
+  B <div ctrl> 108,569 200x116 bg=#ffffff/0
+  B <div 1> 108,569 200x116 filter=blur(2px) op=0
+  B <div Card 1> 108,569 200x116 pad=16px 12px flex column gap=16px jc=center ai=center ::after{absolute 200pxx116px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.2 radius=3px} bgi=linear-gradient(179deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 98%) radius=3px ovf=hidden
+  B <div> 120,588 176x34 op=0.6
+  T <p> 120,588 176x34 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000 ta=center  | ""No other outbound tool can compete""
+  B <div Client Details> 116,638 184x29 flex row gap=10px jc=center ai=center 
+  B <div Client Photo> 174,638 29x29 radius=50% ovf=hidden
+  B <div> 174,638 29x29 radius=50%
+  IMG 174,638 29x29 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/PEnd2BVpOQgqZSJpQ0LveYRg0.png?scale-down-to=1024&width=1024&height=1536 alt=""
+  B <div> 213,638 30x28 flex column gap=4px jc=center ai=flex-start 
+  T <p> 213,638 26x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #595959  | "Greg"
+  IMG 213,656 30x10 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/8aai3kbA67mLlwK6YCBMunST8.png?scale-down-to=512&width=1172&height=327 alt=""
+  IMG 108,569 200x116 fit=fill pos=50% 50%  src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 200 116" xmlns="http://www.w3.org/2000/svg"><path d="M 0 0 L 200 0 L 200 116 L 0 116 Z" fill="transparent" height="116px" id="Qcl79R2uE" stroke-dasharray="0" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-width="2" stroke="rgba(255, 255, 255, 0)" width="200px"/></svg> alt=""
+  IMG 108,569 200x116 fit=fill pos=50% 50% op=0 src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 200 116" xmlns="http://www.w3.org/2000/svg"><path d="M 0 0 L 200 0 L 200 116 L 0 116 Z" fill="transparent" height="116px" id="Qcl79R2uE" stroke-dasharray="0" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-width="2" stroke="rgba(255, 255, 255, 0)" width="200px"/></svg> alt=""
+  IMG 0,84 1280x828 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/y9E8JCzvNWid9P6Sv5ODRz6mcHo.png?width=1328&height=655 alt=""
+
+######## [2] Desktop  y=912 h=480 pos=relative
+  B <section Desktop> 0,912 1280x480 flex row gap=0px jc=center ai=center ::after{absolute 1280pxx479.5px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.07}
+  B <div Content> 0,912 1280x480 pad=46px 0px flex column gap=40px jc=flex-start ai=center 
+  T <p> 0,958 1280x23 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/22.5px ls=normal w500 #575757 ta=center  | "300+ teams trust Valley’s LinkedIn automation because we keep their calendars full of high quality prospects"
+  B <div Logos> 85,1021 1110x325 flex column gap=48px jc=center ai=center 
+  B <div> 85,1021 1110x81 grid gap=32px cols=110.75px 110.75px 110.75px 110.75px 110.75px 110.75px 110.75px 110.75px jc=center ai=normal 
+  B <div Variant 1> 85,1021 150x90 flex column gap=1px jc=flex-start ai=center 
+  IMG 89,1021 142x47 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/exjlJuQDsYyeztQTb0LsCqAZ8.png?scale-down-to=512&width=3375&height=3375 alt="Tacnode logo"
+  B <div Label> 118,1068 84x26 pad=6px bg=#d9eeff radius=4.5px ovf=hidden
+  T <p> 124,1074 72x14 | Geist Mono, monospace 12px/14.4px ls=normal w700 #0077b5 tt=uppercase ta=center  | "Case Study"
+  IMG 236,1021 134x45 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/MP04NtLiOAgx6Flcj0bLyLuJhf4.png?scale-down-to=512&width=3375&height=3375 alt="Brevity logo"
+  B <div Variant 1> 371,1021 150x90 pad=0px 0px 6px flex column gap=normal jc=space-between ai=center 
+  IMG 386,1021 120x40 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/JuRdyYQcFBSuDij8ZL37n65zg.png?scale-down-to=1024&width=3375&height=2194 alt=""
+  B <div Label> 404,1078 84x26 pad=6px bg=#d9eeff radius=4.5px ovf=hidden
+  T <p> 410,1084 72x14 | Geist Mono, monospace 12px/14.4px ls=normal w700 #0077b5 tt=uppercase ta=center  | "Case Study"
+  IMG 515,1021 147x49 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/7zYsuXzHf0XumN9loYVwvdjakg.png?scale-down-to=512&width=3375&height=3375 alt="Aminochain logo"
+  B <div Variant 1> 656,1021 150x90 flex column gap=4px jc=flex-start ai=center 
+  IMG 671,1021 121x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/BfAzR1hw8fexsRS6vpNJ0AfH8.png?scale-down-to=512&width=3375&height=1027 alt=""
+  B <div Label> 690,1065 82x24 pad=5px bg=#d9eeff radius=3.75px ovf=hidden
+  T <p> 695,1070 72x14 | Geist Mono, monospace 12px/14.4px ls=normal w700 #0077b5 tt=uppercase ta=center  | "Case Study"
+  IMG 805,1021 138x46 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/13VWnJxbNcWJ4RQrywuWhxmAqk.png?scale-down-to=512&width=3375&height=3375 alt="Wayside logo"
+  B <div Variant 1> 942,1021 150x90 flex column gap=3px jc=flex-start ai=center 
+  IMG 957,1021 120x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/NNRya8wNzQbwSmEGV2bOBinXE.png?scale-down-to=512&width=3375&height=3375 alt=""
+  B <div Label> 975,1064 84x26 pad=6px bg=#d9eeff radius=4.5px ovf=hidden
+  T <p> 981,1070 72x14 | Geist Mono, monospace 12px/14.4px ls=normal w700 #0077b5 tt=uppercase  | "Case Study"
+  IMG 1099,1021 120x39 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/SKLVId5vPIbOlS1MzMdYuKEcul0.png?scale-down-to=512&width=3375&height=3375 alt="Gather Voices logo"
+  B <div> 85,1150 1110x196 grid gap=32px cols=131.141px 131.141px 131.141px 131.141px 131.141px 131.141px 131.141px jc=center ai=normal 
+  IMG 91,1150 138x46 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/pjDoCjQc6XQezYrJDxYMWLOzcEI.png?scale-down-to=512&width=3375&height=3375 alt="Credal logo"
+  B <div Variant 1> 248,1150 150x90 flex column gap=2px jc=flex-start ai=center 
+  IMG 254,1150 138x46 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/QMLPZOfhOV2eI7Cra36pzTCabLs.png?scale-down-to=512&width=3375&height=2752 alt=""
+  B <div Label> 281,1198 84x26 pad=6px bg=#d9eeff radius=4.5px ovf=hidden
+  T <p> 287,1204 72x14 | Geist Mono, monospace 12px/14.4px ls=normal w700 #0077b5 tt=uppercase ta=center  | "Case Study"
+  B <div Variant 1> 411,1150 150x82 flex column gap=13px jc=flex-start ai=center 
+  IMG 426,1150 120x40 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/WjgwsB4gYPINGk0swCPJGw2KtVE.png?scale-down-to=512&width=3375&height=3375 alt=""
+  B <div Label> 444,1203 84x26 pad=6px bg=#d9eeff radius=4.5px ovf=hidden
+  T <p> 450,1209 72x14 | Geist Mono, monospace 12px/14.4px ls=normal w700 #0077b5 tt=uppercase ta=center  | "Case Study"
+  B <div Variant 1> 574,1150 150x90 pad=0px 0px 6px flex column gap=normal jc=space-between ai=center 
+  IMG 592,1150 115x38 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/8OUD83TeyILiI9IDCw0yl6ocQxU.png?scale-down-to=512&width=3375&height=3000 alt=""
+  B <div Label> 607,1207 84x26 pad=6px bg=#d9eeff radius=4.5px ovf=hidden
+  T <p> 613,1213 72x14 | Geist Mono, monospace 12px/14.4px ls=normal w700 #0077b5 tt=uppercase ta=center  | "Case Study"
+  IMG 744,1150 138x46 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/ky7AyFh3vwBaJOjgEbBX3IaSFI4.png?scale-down-to=512&width=3375&height=3375 alt="Antler logo"
+  B <a Logo 7> 901,1150 150x39 bg=#ffffff ovf=hidden
+  IMG 931,1150 89x29 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/ao6dOk2BlJI7MvuVQqyCNjT9Is.png?width=500&height=500 alt=""
+  B <div Variant 1> 1064,1150 150x90 flex column gap=6px jc=flex-start ai=center 
+  IMG 1079,1150 120x39 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Zj3dcUQEL8lIDnaOv8ZTEbZbPm0.png?scale-down-to=512&width=3375&height=3375 alt=""
+  B <div Label> 1097,1195 84x27 pad=6px bg=#d9eeff radius=4.5px ovf=hidden
+  T <p> 1103,1201 72x14 | Geist Mono, monospace 12px/14.4px ls=normal w700 #0077b5 tt=uppercase ta=center  | "Case Study"
+  IMG 0,912 1280x480 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/GYo82zsW5GvTwz5BUTfdARIZrY.jpg?width=1328&height=770 alt=""
+
+######## [3] Feature Section  y=1392 h=626 pos=relative
+  B <section Feature Section> 0,1392 1280x626 ::after{absolute 1280pxx625.812px inset=0px,0px border=0px 0px 1px 0px solid #000000/0.07} bg=#f7f8f4 ovf=hidden
+  B <div Content> 0,1392 1280x626 pad=64px 48px flex column gap=40px jc=flex-start ai=center ::after{absolute 1280pxx625.812px inset=0px,0px border=1px 1px 0px 1px solid #000000/0.07} bg=#f7f8f4 ovf=hidden
+  B <div Heading + Desc> 48,1456 1184x102 flex column gap=25px jc=center ai=center 
+  B <div Label> 533,1456 213x26 pad=6px ::after{absolute 213.031pxx26.4062px inset=0px,0px border=1px 1px 1px 1px solid #000000}
+  T <p> 539,1462 201x14 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/14.4px ls=normal w400 #000000 tt=uppercase ta=center  | "End to End LinkedIN Automation"
+  B <div> 48,1507 1184x50 flex row gap=10px jc=center ai=center 
+  T <h2> 218,1507 692x50 | PP Neue Montreal Medium, PP Neue Montreal Medium 42px/50.4px ls=normal w500 #000000 ta=center  | "Finally, a LinkedIn Automation tool that"
+  T <h3> 920,1507 142x50 | PP Neue Montreal Medium, PP Neue Montreal Medium 42px/50.4px ls=normal w500 #223b85 ta=center  | "delivers"
+  B <div Feature Cards> 48,1597 1184x356 flex row gap=18px jc=center ai=center 
+  B <div Variant 5> 48,1597 283x356 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 282.5pxx356px inset=0px,0px border=1px 1px 1px 1px solid #d1d1d1 radius=3px} bg=#ffffff radius=3px ovf=hidden
+  B <div> 48,1597 283x56 pad=16px 
+  T <h6> 64,1613 251x24 | PP Neue Montreal Medium, PP Neue Montreal Medium 20px/24px ls=normal w400 #000000  | "Zero complex integrations"
+  B <div BG Grad> 48,1653 283x300 flex column gap=10px jc=center ai=center 
+  CANVAS 39,1653 300x300 src=
+  B <div Feature BG 1> 48,1653 283x300 filter=brightness(0.9) op=0.8
+  IMG 48,1653 283x300 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/dtRktHlARsttJsKSZbUw244HeU.png?width=306&height=320 alt="a blurry image of a cell phone with a blurry background"
+  B <div Variant 6> 349,1597 283x356 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 282.5pxx356px inset=0px,0px border=1px 1px 1px 1px solid #d1d1d1 radius=3px} bg=#ffffff radius=3px ovf=hidden
+  B <div> 349,1597 283x56 pad=16px 
+  T <h6> 365,1613 251x24 | PP Neue Montreal Medium, PP Neue Montreal Medium 20px/24px ls=normal w400 #000000  | "Talks like you"
+  B <div BG Grad> 349,1653 283x300 flex column gap=0px jc=center ai=center 
+  CANVAS 340,1653 300x300 src=
+  B <div Feature BG 2> 349,1653 283x300 filter=brightness(0.9) op=0.8
+  IMG 349,1653 283x300 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/4vW4VmcBU27VlUmHmFX1fy582lo.png?width=306&height=320 alt="a blurry image of a cell phone with a blurry background"
+  B <div Variant 7> 649,1597 283x356 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 282.5pxx356px inset=0px,0px border=1px 1px 1px 1px solid #d1d1d1 radius=3px} bg=#ffffff radius=3px ovf=hidden
+  B <div> 649,1597 283x56 pad=16px 
+  T <h6> 665,1613 251x24 | PP Neue Montreal Medium, PP Neue Montreal Medium 20px/24px ls=normal w400 #000000  | "Keeps account safe"
+  B <div BG Grad> 649,1653 283x300 flex column gap=10px jc=center ai=center 
+  CANVAS 640,1653 300x300 src=
+  B <div Feature BG 3> 649,1653 283x300 filter=brightness(0.9) op=0.8
+  IMG 649,1653 283x300 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/BaYYEM6uPfe2e8kfQbG496DoyI.png?width=306&height=320 alt="a blurry image of a cell phone with a blurry background"
+  B <div Variant 8> 950,1597 283x356 flex column gap=0px jc=flex-start ai=flex-start ::after{absolute 282.5pxx356px inset=0px,0px border=1px 1px 1px 1px solid #d1d1d1 radius=3px} bg=#ffffff radius=3px ovf=hidden
+  B <div> 950,1597 283x56 pad=16px 
+  T <h6> 966,1613 251x24 | PP Neue Montreal Medium, PP Neue Montreal Medium 20px/24px ls=normal w400 #000000  | "One person powerhouse"
+  B <div BG Grad> 950,1653 283x300 flex column gap=10px jc=center ai=center 
+  CANVAS 941,1653 300x300 src=
+  B <div Feature BG 4> 950,1653 283x300 filter=brightness(0.9) op=0.8
+  IMG 950,1653 283x300 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/SVw8cbcJKKM1TQhIlKwHkQOA66Y.png?width=306&height=320 alt="a blurry image of a cell phone with a blurry background"
+
+######## [4] Variant 3  y=2017 h=810 pos=relative
+  B <div Variant 3> 0,2017 1280x810 flex row gap=10px jc=center ai=center 
+  B <div Variant 1> 0,2017 1280x810 pad=55px 54px flex row gap=0px jc=center ai=center ::after{absolute 1280pxx810px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.07}
+  IMG 0,2017 1280x810 fit=fill pos=50% 50%  src=https://framerusercontent.com/images/72PrJH6fdiIsbCJzzwnqVIi90Ho.png?scale-down-to=2048&width=3978&height=2463 alt=""
+  B <div> 54,2072 1172x700 flex row gap=40px jc=center ai=center 
+  B <div Group 2085663137> 54,2110 566x624 flex column gap=45px jc=center ai=flex-start 
+  B <div> 54,2110 566x144 flex column gap=25px jc=center ai=flex-start 
+  B <div Label> 54,2110 240x26 pad=6px 12px ::after{absolute 240pxx26.4062px inset=0px,0px border=1px 1px 1px 1px solid #000000 radius=1px} radius=1px ovf=hidden
+  T <p> 66,2116 216x14 | Geist Mono, monospace 12px/14.4px ls=normal w400 #000000 tt=uppercase ta=center  | "timing, relevance and research"
+  T <h3> 54,2162 566x92 | PP Neue Montreal Medium, PP Neue Montreal Medium 42px/46.2px ls=normal w400 #000000 ta=left  | "A top 1% rep working 24/7 on LinkedIn"
+  B <div Steps> 54,2299 566x326 flex column gap=24px jc=center ai=flex-start 
+  B <div> 54,2299 566x43 flex row gap=10px jc=flex-start ai=flex-start 
+  T <p> 54,2299 59x21 | Geist Mono, monospace 14px/21px ls=normal w400 #000000 tt=uppercase  | "STEP 1:"
+  T <p> 123,2299 497x43 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/21.6px ls=normal w500 #000000  | "Identify leads from LinkedIn viewers, followers and post engagers"
+  B <div> 54,2366 566x1 bg=#000000/0.4 ovf=hidden
+  B <div> 54,2391 566x22 flex row gap=10px jc=flex-start ai=flex-start 
+  T <p> 54,2391 59x21 | Geist Mono, monospace 14px/21px ls=normal w400 #000000 tt=uppercase  | "STEP 2:"
+  T <p> 123,2391 497x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/21.6px ls=normal w500 #000000  | "Deeply research every prospect across 200+ data points"
+  B <div> 54,2437 566x1 bg=#000000/0.4 ovf=hidden
+  B <div> 54,2462 566x22 flex row gap=10px jc=flex-start ai=flex-start 
+  T <p> 54,2462 59x21 | Geist Mono, monospace 14px/21px ls=normal w400 #000000 tt=uppercase  | "STEP 3:"
+  T <p> 123,2462 497x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/21.6px ls=normal w500 #000000  | "Automatically qualify for ICP fit & prioritize the best leads"
+  B <div> 54,2507 566x1 bg=#000000/0.4 ovf=hidden
+  B <div> 54,2532 566x22 flex row gap=10px jc=flex-start ai=flex-start 
+  T <p> 54,2532 59x21 | Geist Mono, monospace 14px/21px ls=normal w400 #000000 tt=uppercase  | "STEP 4:"
+  T <p> 123,2532 497x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/21.6px ls=normal w400 #000000  | "Craft messages in your voice automatically"
+  B <div> 54,2578 566x1 bg=#000000/0.4 ovf=hidden
+  B <div> 54,2603 566x22 flex row gap=10px jc=flex-start ai=flex-start 
+  T <p> 54,2603 59x21 | Geist Mono, monospace 14px/21px ls=normal w400 #000000 tt=uppercase  | "STEP 5:"
+  T <p> 123,2603 497x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/21.6px ls=normal w400 #000000  | "Send at scale, manage replies and keep your profile safe"
+  B <a cta__primary> 54,2678 132x48 pad=5px 0px 0px 
+  B <div Button Content> 54,2683 132x43 ::after{absolute 132pxx43.2031px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.2} bg=#000000 shadow=rgba(0, 0, 0, 0.6) 0px 6px 0px 0px ovf=hidden
+  B <div Text Wrap> 54,2683 132x43 pad=12px 18px bg=#000000 ovf=hidden
+  T <p> 72,2695 96x19 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/19.2px ls=-0.16px w400 #ffffff  | "Book Demo →"
+  B <div Hero> 642,2017 640x810 flex column gap=0px jc=center ai=center ::after{absolute 640pxx810px inset=0px,0px border=1px 1px 1px 1px solid #e0e0e0}
+  IMG 642,2017 640x810 fit=fill pos=50% 50%  src=https://framerusercontent.com/images/FDSF0RPQuFvV3vud3xQsDxqIc8.png?width=665&height=823 alt=""
+  CANVAS 665,2072 594x700 src=
+
+######## [5] Case Study Section  y=2827 h=1074 pos=relative
+  B <section Case Study Section> 0,2827 1280x1074 ::after{absolute 1280pxx1074.41px inset=0px,0px border=1px 0px 1px 0px solid #000000/0.07} bg=#f7f8f4 ovf=hidden
+  B <div Content> 0,2827 1280x1074 pad=64px 48px flex column gap=40px jc=flex-start ai=center ::after{absolute 1280pxx1074.41px inset=0px,0px border=0px 1px 1px 1px solid #e0e0e0} bg=#f7f8f4 ovf=hidden
+  B <div Heading + Desc> 48,2891 1184x95 flex column gap=25px jc=center ai=center 
+  B <div Label> 570,2891 141x26 pad=6px 13px ::after{absolute 140.891pxx26.4062px inset=0px,0px border=1px 1px 1px 1px solid #000000}
+  T <p> 583,2897 115x14 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/14.4px ls=normal w400 #000000 tt=uppercase ta=center  | "customer stories"
+  T <h3> 210,2943 860x44 | PP Neue Montreal Medium, PP Neue Montreal Medium 40px/44px ls=normal w500 #1d2a2e ta=left  | "300+ Teams trust Valley with LinkedIn Automation"
+  B <div Card Rows> 48,3027 1184x706 flex column gap=18px jc=center ai=center 
+  B <div Card row 1> 48,3027 1184x344 flex row gap=18px jc=center ai=center 
+  B <a Plain> 48,3027 583x344 pad=24px flex column gap=10px jc=flex-start ai=flex-start bg=#f2f2f2 ovf=hidden
+  B <div Content Frame> 72,3051 535x296 flex column gap=normal jc=space-between ai=center 
+  B <div Headline & labels> 72,3051 535x98 flex column gap=18px jc=flex-start ai=flex-start 
+  T <h6> 72,3051 428x58 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/28.8px ls=normal w400 #000000  | "How Kaster generated $400k in pipeline in 2 months using Valley"
+  B <div Labels> 72,3126 106x22 flex row gap=10px jc=center ai=center 
+  B <div Label> 72,3126 55x22 pad=4px 6px ::after{absolute 55.2031pxx22.4062px inset=0px,0px border=1px 1px 1px 1px solid #e9e9e9 radius=3px} bg=#000000 radius=3px ovf=hidden
+  T <p> 78,3130 43x14 | Geist Mono, monospace 12px/14.4px ls=normal w400 #ffffff tt=uppercase ta=center  | "kaster"
+  B <div Label> 137,3126 41x22 pad=4px 6px ::after{absolute 40.8125pxx22.4062px inset=0px,0px border=1px 1px 1px 1px solid #9f9f9f radius=3px} radius=3px ovf=hidden
+  T <p> 143,3130 29x14 | Geist Mono, monospace 12px/14.4px ls=normal w400 #000000 tt=uppercase ta=center  | "TECH"
+  B <div Bottom Row> 72,3287 535x60 flex row gap=normal jc=space-between ai=center 
+  B <div Client name & Designation> 72,3298 70x38 flex column gap=4px jc=center ai=flex-start 
+  T <p> 72,3298 58x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Joe Leiva"
+  T <p> 72,3319 70x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #595959  | "Co-founder"
+  IMG 457,3278 150x77 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/8aai3kbA67mLlwK6YCBMunST8.png?scale-down-to=512&width=1172&height=327 alt=""
+  B <div Arrow> 593,3054 14x14 tf=matrix(0.707107, -0.707107, 0.707107, 0.707107, 0, 0)
+  B <div> 594,3054 12x12 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 11.219 6.186%22 overflow=%22visible%22><path d=%22M 11.096 3.389 C 11.26 3.226 11.26 2.961
+  B <a With Stats> 649,3027 583x344 pad=24px flex column gap=10px jc=flex-start ai=flex-start bg=#f2f2f2 ovf=hidden
+  B <div Content Frame> 673,3051 535x296 flex column gap=normal jc=space-between ai=center 
+  B <div Main Content> 673,3051 535x188 flex column gap=29px jc=center ai=center 
+  B <div Headline & labels> 673,3051 535x98 flex column gap=18px jc=flex-start ai=flex-start 
+  T <h6> 673,3051 428x58 | PP Neue Montreal Medium 24px/28.8px ls=normal w400 #000000  | "How 10x Management generated $84K+ ARR with Valley"
+  B <div Labels> 673,3126 207x22 flex row gap=10px jc=center ai=center 
+  B <div Label> 673,3126 113x22 pad=4px 6px ::after{absolute 112.812pxx22.4062px inset=0px,0px border=1px 1px 1px 1px solid #e9e9e9 radius=3px} bg=#000000 radius=3px ovf=hidden
+  T <p> 679,3130 101x14 | Geist Mono, monospace 12px/14.4px ls=normal w400 #ffffff tt=uppercase ta=center  | "10X management"
+  B <div Label> 796,3126 84x22 pad=4px 6px ::after{absolute 84pxx22.4062px inset=0px,0px border=1px 1px 1px 1px solid #9f9f9f radius=3px} radius=3px ovf=hidden
+  T <p> 802,3130 72x14 | Geist Mono, monospace 12px/14.4px ls=normal w400 #000000 tt=uppercase ta=center  | "consulting"
+  B <div Highights> 673,3178 535x61 flex row gap=10px jc=center ai=center 
+  B <div> 673,3178 263x61 pad=9px 12px flex column gap=2px jc=flex-start ai=flex-start ::after{absolute 262.5pxx60.7969px inset=0px,0px border=1px 1px 1px 1px solid #e9e9e9} bg=#f8f8f8 ovf=hidden
+  T <h6> 685,3187 48x24 | PP Neue Montreal Medium, PP Neue Montreal Medium 20px/24px ls=normal w400 #000000  | "8-10x"
+  T <p> 685,3213 165x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000/0.6  | "More website intent signals"
+  B <div> 946,3178 263x61 pad=9px 12px flex column gap=2px jc=flex-start ai=flex-start ::after{absolute 262.5pxx60.7969px inset=0px,0px border=1px 1px 1px 1px solid #e9e9e9} bg=#f8f8f8 ovf=hidden
+  T <h6> 958,3187 59x24 | PP Neue Montreal Medium, PP Neue Montreal Medium 20px/24px ls=normal w400 #000000  | "$84K+"
+  T <p> 958,3213 169x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000/0.6  | "ARR from a single customer"
+  B <div Bottom Row> 673,3287 535x60 flex row gap=normal jc=space-between ai=center 
+  B <div Client name & Designation> 673,3298 80x38 flex column gap=4px jc=center ai=flex-start 
+  T <p> 673,3298 39x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Sam Z"
+  T <p> 673,3319 80x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #595959  | "Sales Leader"
+  IMG 1058,3287 150x60 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/aL9GUFUNbpsZQkPutstMxFaG1Ko.png?width=238&height=160 alt=""
+  B <div Arrow> 1194,3054 14x14 tf=matrix(0.707107, -0.707107, 0.707107, 0.707107, 0, 0)
+  B <div> 1195,3054 12x12 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 11.219 6.186%22 overflow=%22visible%22><path d=%22M 11.096 3.389 C 11.26 3.226 11.26 2.961
+  B <div Card row 2> 48,3389 1184x344 flex row gap=18px jc=center ai=center 
+  B <a Plain> 48,3389 383x344 pad=24px flex column gap=10px jc=flex-start ai=flex-start bg=#f2f2f2 ovf=hidden
+  B <div Content Frame> 72,3413 335x296 flex column gap=normal jc=space-between ai=center 
+  B <div Headline & labels> 72,3413 335x127 flex column gap=18px jc=flex-start ai=flex-start 
+  T <h6> 72,3413 268x86 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/28.8px ls=normal w400 #000000  | "How Tacnode booked 25+ meetings per month with Valley"
+  B <div Labels> 72,3517 135x22 flex row gap=10px jc=center ai=center 
+  B <div Label> 72,3517 84x22 pad=4px 6px ::after{absolute 84pxx22.4062px inset=0px,0px border=1px 1px 1px 1px solid #e9e9e9 radius=3px} bg=#000000 radius=3px ovf=hidden
+  T <p> 78,3521 72x14 | Geist Mono, monospace 12px/14.4px ls=normal w400 #ffffff tt=uppercase ta=center  | "Tacnode.io"
+  B <div Label> 166,3517 41x22 pad=4px 6px ::after{absolute 40.8125pxx22.4062px inset=0px,0px border=1px 1px 1px 1px solid #9f9f9f radius=3px} radius=3px ovf=hidden
+  T <p> 172,3521 29x14 | Geist Mono, monospace 12px/14.4px ls=normal w400 #000000 tt=uppercase ta=center  | "TECH"
+  B <div Client name & Designation> 72,3671 51x38 flex column gap=4px jc=center ai=flex-start 
+  T <p> 72,3671 37x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Jason"
+  T <p> 72,3692 51x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #595959  | "Founder"
+  B <div Arrow> 393,3416 14x14 tf=matrix(0.707107, -0.707107, 0.707107, 0.707107, 0, 0)
+  B <div> 394,3416 12x12 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 11.219 6.186%22 overflow=%22visible%22><path d=%22M 11.096 3.389 C 11.26 3.226 11.26 2.961
+  B <a Variant 1> 449,3389 383x344 pad=24px flex column gap=10px jc=flex-start ai=flex-start bg=#000000 ovf=hidden
+  B <div Content Frame> 473,3413 335x296 flex column gap=normal jc=space-between ai=center 
+  B <div Headline & labels> 473,3413 335x88 flex column gap=18px jc=flex-start ai=flex-start 
+  T <h6> 473,3413 268x48 | PP Neue Montreal Medium, PP Neue Montreal Medium 20px/24px ls=normal w400 #ffffff  | "How GGWP generated $4M in pipeline with Valley"
+  B <div Labels> 473,3479 106x22 flex row gap=10px jc=center ai=center 
+  B <div Label> 473,3479 41x22 pad=4px 6px ::after{absolute 40.8125pxx22.4062px inset=0px,0px border=1px 1px 1px 1px solid #e9e9e9 radius=3px} bg=#ffffff radius=3px ovf=hidden
+  T <p> 479,3483 29x14 | Geist Mono, monospace 12px/14.4px ls=normal w400 #000000 tt=uppercase ta=center  | "GGWP"
+  B <div Label> 523,3479 55x22 pad=4px 6px ::after{absolute 55.2031pxx22.4062px inset=0px,0px border=1px 1px 1px 1px solid #ffffff radius=3px} radius=3px ovf=hidden
+  T <p> 529,3483 43x14 | Geist Mono, monospace 12px/14.4px ls=normal w400 #ffffff tt=uppercase ta=center  | "GAMING"
+  IMG 473,3649 60x60 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/SHcFhghwS3Mbun18Ks8LZ7n368.png?scale-down-to=512&width=750&height=486 alt=""
+  B <div Arrow> 794,3416 14x14 tf=matrix(0.707107, -0.707107, 0.707107, 0.707107, 0, 0)
+  B <div> 794,3416 12x12 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 11.219 6.186%22 overflow=%22visible%22><path d=%22M 11.096 3.389 C 11.26 3.226 11.26 2.961
+  IMG 449,3389 383x344 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/LMuU7y23LItIPfFr2MbBtHvrzI.jpeg?scale-down-to=1024&width=1080&height=1350 alt=""
+  B <a With Testimonial> 849,3389 383x344 pad=24px flex column gap=10px jc=flex-start ai=flex-start bg=#f2f2f2 ovf=hidden
+  B <div Content Frame> 873,3413 335x296 flex column gap=normal jc=space-between ai=center 
+  B <div Headline & labels> 873,3413 335x127 flex column gap=18px jc=flex-start ai=flex-start 
+  T <h6> 873,3413 268x86 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/28.8px ls=normal w400 #000000  | "How Franq generated $64k in pipeline with Valley in one month"
+  B <div Labels> 873,3517 120x22 flex row gap=10px jc=center ai=center 
+  B <div Label> 873,3517 48x22 pad=4px 6px ::after{absolute 48pxx22.4062px inset=0px,0px border=1px 1px 1px 1px solid #e9e9e9 radius=3px} bg=#000000 radius=3px ovf=hidden
+  T <p> 879,3521 36x14 | Geist Mono, monospace 12px/14.4px ls=normal w400 #ffffff tt=uppercase ta=center  | "FRANQ"
+  B <div Label> 931,3517 62x22 pad=4px 6px ::after{absolute 62.4062pxx22.4062px inset=0px,0px border=1px 1px 1px 1px solid #9f9f9f radius=3px} radius=3px ovf=hidden
+  T <p> 937,3521 50x14 | Geist Mono, monospace 12px/14.4px ls=normal w400 #000000 tt=uppercase ta=center  | "FINANCE"
+  B <div Company Details> 873,3563 335x145 flex column gap=23px jc=flex-start ai=flex-start 
+  T <p> 873,3563 301x62 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000/0.6 ta=left  | ""Valley has standardized our approach, allowing us to A/B test without depending on someone being in a good mood that day."
+  B <div Bottom Row> 873,3649 335x60 flex row gap=normal jc=space-between ai=center 
+  B <div Client name & Designation> 873,3660 96x38 flex column gap=4px jc=center ai=flex-start 
+  T <p> 873,3660 95x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Rafael Sampaio"
+  T <p> 873,3681 96x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #595959  | "Head of Growth"
+  IMG 1058,3649 150x60 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/k9ThAwIdVaT1s2ZuKZfri84Q5J8.png?width=512&height=161 alt=""
+  B <div Arrow> 1194,3416 14x14 tf=matrix(0.707107, -0.707107, 0.707107, 0.707107, 0, 0)
+  B <div> 1195,3416 12x12 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 11.219 6.186%22 overflow=%22visible%22><path d=%22M 11.096 3.389 C 11.26 3.226 11.26 2.961
+  B <a cta__primary> 574,3781 132x48 pad=5px 0px 0px 
+  B <div Button Content> 574,3786 132x43 ::after{absolute 132pxx43.2031px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.2} bg=#000000 shadow=rgba(0, 0, 0, 0.6) 0px 6px 0px 0px ovf=hidden
+  B <div Text Wrap> 574,3786 132x43 pad=12px 18px bg=#000000 ovf=hidden
+  T <p> 592,3798 96x19 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/19.2px ls=-0.16px w400 #ffffff  | "Book Demo →"
+
+######## [6]   y=3902 h=4140 pos=relative
+  B <div> 0,3902 1280x4140 bg=#000000
+  B <div> 0,3902 1280x900 pad=60px 40px flex column gap=normal jc=center ai=center bgi=url("https://framerusercontent.com/images/D2Y8s7ddqFfxnp0I3xAHYq2wyB4.png?width=1328&height=811") pos=sticky top=0px
+  B <div> 240,3952 800x800 radius=50% filter=blur(100px) tf=matrix(1, 0, 0, 1, -400, -400)
+  B <div> 190,4229 900x132 flex row gap=12px jc=center ai=normal 
+  B <span> 236,4229 104x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 236,4229 24x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "T"
+  T <span> 260,4229 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "h"
+  T <span> 282,4229 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "e"
+  T <span> 304,4229 14x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "r"
+  T <span> 318,4229 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "e"
+  B <span> 352,4229 63x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 352,4229 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "h"
+  T <span> 373,4229 21x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "a"
+  T <span> 395,4229 20x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "s"
+  B <span> 426,4229 89x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 426,4229 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "b"
+  T <span> 449,4229 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "e"
+  T <span> 471,4229 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "e"
+  T <span> 493,4229 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "n"
+  T <span> 527,4229 21x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "a"
+  B <span> 560,4229 43x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 560,4229 8x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "l"
+  T <span> 568,4229 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "o"
+  T <span> 591,4229 12x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "t"
+  B <span> 615,4229 34x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 615,4229 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "o"
+  T <span> 638,4229 12x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "f"
+  B <span> 662,4229 62x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 662,4229 12x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "t"
+  T <span> 674,4229 21x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "a"
+  T <span> 695,4229 8x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "l"
+  T <span> 704,4229 20x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "k"
+  B <span> 736,4229 211x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 736,4229 20x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "s"
+  T <span> 755,4229 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "u"
+  T <span> 777,4229 14x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "r"
+  T <span> 791,4229 14x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "r"
+  T <span> 805,4229 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "o"
+  T <span> 827,4229 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "u"
+  T <span> 849,4229 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "n"
+  T <span> 871,4229 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "d"
+  T <span> 894,4229 8x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "i"
+  T <span> 902,4229 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "n"
+  T <span> 924,4229 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "g"
+  B <span> 959,4229 86x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 959,4229 30x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "w"
+  T <span> 989,4229 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "h"
+  T <span> 1011,4229 21x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "a"
+  T <span> 1032,4229 12x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "t"
+  B <span> 198,4277 106x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 198,4277 30x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "w"
+  T <span> 229,4277 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "o"
+  T <span> 251,4277 14x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "r"
+  T <span> 265,4277 20x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "k"
+  T <span> 285,4277 20x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "s"
+  B <span> 316,4277 30x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 316,4277 8x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "i"
+  T <span> 325,4277 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "n"
+  B <span> 359,4277 169x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 359,4277 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "o"
+  T <span> 381,4277 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "u"
+  T <span> 403,4277 12x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "t"
+  T <span> 415,4277 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "b"
+  T <span> 438,4277 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "o"
+  T <span> 461,4277 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "u"
+  T <span> 483,4277 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "n"
+  T <span> 504,4277 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "d"
+  B <span> 539,4277 83x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 539,4277 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "n"
+  T <span> 561,4277 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "o"
+  T <span> 584,4277 30x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "w"
+  T <span> 614,4277 8x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "."
+  B <span> 634,4277 68x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 634,4277 24x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "T"
+  T <span> 658,4277 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "h"
+  T <span> 680,4277 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "e"
+  B <span> 714,4277 129x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 714,4277 21x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "a"
+  T <span> 735,4277 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "n"
+  T <span> 757,4277 20x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "s"
+  T <span> 776,4277 30x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "w"
+  T <span> 807,4277 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "e"
+  T <span> 829,4277 14x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "r"
+  B <span> 855,4277 28x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 855,4277 8x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "i"
+  T <span> 863,4277 20x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "s"
+  B <span> 895,4277 114x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 895,4277 25x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "V"
+  T <span> 920,4277 21x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "a"
+  T <span> 941,4277 8x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "l"
+  T <span> 949,4277 8x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "l"
+  T <span> 958,4277 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "e"
+  T <span> 980,4277 20x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "y"
+  T <span> 1000,4277 8x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "."
+  B <span> 1020,4277 62x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 1020,4277 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "F"
+  T <span> 1043,4277 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "u"
+  T <span> 1065,4277 8x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "l"
+  T <span> 1073,4277 8x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "l"
+  B <span> 220,4325 91x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 220,4325 25x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "S"
+  T <span> 245,4325 12x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "t"
+  T <span> 258,4325 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "o"
+  T <span> 280,4325 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "p"
+  T <span> 303,4325 8x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "."
+  B <span> 323,4325 106x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 323,4325 25x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "V"
+  T <span> 348,4325 21x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "a"
+  T <span> 370,4325 8x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "l"
+  T <span> 378,4325 8x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "l"
+  T <span> 386,4325 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "e"
+  T <span> 408,4325 20x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "y"
+  B <span> 440,4325 28x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 440,4325 8x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "i"
+  T <span> 449,4325 20x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "s"
+  B <span> 480,4325 56x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 480,4325 12x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "t"
+  T <span> 493,4325 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "h"
+  T <span> 515,4325 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "e"
+  B <span> 549,4325 76x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 549,4325 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "n"
+  T <span> 570,4325 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "e"
+  T <span> 592,4325 19x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "x"
+  T <span> 612,4325 12x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "t"
+  B <span> 636,4325 189x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 636,4325 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "g"
+  T <span> 659,4325 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "e"
+  T <span> 681,4325 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "n"
+  T <span> 703,4325 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "e"
+  T <span> 725,4325 14x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "r"
+  T <span> 739,4325 21x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "a"
+  T <span> 760,4325 12x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "t"
+  T <span> 773,4325 8x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "i"
+  T <span> 781,4325 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "o"
+  T <span> 803,4325 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "n"
+  B <span> 837,4325 34x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 837,4325 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "o"
+  T <span> 860,4325 12x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "f"
+  B <span> 884,4325 177x36 flex row gap=normal jc=normal ai=normal 
+  T <span> 884,4325 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "o"
+  T <span> 906,4325 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "u"
+  T <span> 928,4325 12x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "t"
+  T <span> 940,4325 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "b"
+  T <span> 963,4325 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "o"
+  T <span> 986,4325 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "u"
+  T <span> 1008,4325 22x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "n"
+  T <span> 1029,4325 23x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "d"
+  T <span> 1052,4325 8x36 | PP Neue Montreal Medium 40px/36px ls=normal w400 #ffffff/0.4 ta=center op=0.7 | "."
+  T <div> 491,4421 299x24 | PP Neue Montreal Medium 20px/normal ls=2px w700 #ffffff ta=center  | "JEFF BECKER"
+  T <div> 491,4453 299x21 | PP Neue Montreal Medium 18px/normal ls=1px w400 #ffffff/0.9 ta=center  | "[EX - HEAD OF SALES, LINKEDIN]"
+
+######## [7] Process Section  y=8042 h=1244 pos=relative
+  B <section Process Section> 0,8042 1280x1244 pad=64px 48px flex column gap=32px jc=flex-start ai=center ::after{absolute 1280pxx1244.41px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.07} bg=#f7f8f4 ovf=hidden
+  B <div Heading + Desc> 48,8106 1184x95 flex column gap=25px jc=center ai=center 
+  B <div Label> 524,8106 232x26 pad=6px 13px ::after{absolute 232.359pxx26.4062px inset=0px,0px border=1px 1px 1px 1px solid #000000}
+  T <p> 537,8112 206x14 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/14.4px ls=normal w400 #000000 tt=uppercase ta=center  | "days to get results, not months"
+  T <h3> 123,8157 1035x44 | PP Neue Montreal Medium, PP Neue Montreal Medium 40px/44px ls=normal w500 #1d2a2e ta=center  | "End to End LinkedIn Automation - No GTM Engineer needed"
+  B <div Variant 1> 48,8233 1184x989 flex column gap=1px jc=center ai=center bg=#ffffff ovf=hidden
+  B <div> 48,8233 1184x56 pad=0px 82px flex row gap=0px jc=center ai=center 
+  B <div> 130,8233 1x56 bg=#000000/0.05 ovf=hidden
+  B <div> 131,8233 203x56 pad=0px 0px 12px flex row gap=12px jc=center ai=center ::after{absolute 202.797pxx56px inset=0px,0px border=0px 0px 2px 0px solid #222222}
+  B <div Graphic> 178,8245 20x20 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 20 20%22><path d=%22M 7.5 17.5 L 7.5 12.5 C 7.5 11.579 8.246 10.833 9.167 10.833 L 10.833 
+  T <p> 210,8244 77x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/22.4px ls=normal w400 #000000 ta=left  | "Dashboard"
+  B <div> 334,8233 1x56 bg=#000000/0.05 ovf=hidden
+  B <div> 335,8233 203x56 pad=0px 0px 12px flex row gap=12px jc=center ai=center op=0.6
+  B <div Graphic> 377,8245 20x20 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 20 20%22><path d=%22M 5 6.667 L 5.008 6.667 M 7.5 6.667 L 7.508 6.667 M 2.5 5.833 C 2.5 4.
+  T <p> 409,8244 87x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/22.4px ls=normal w400 #000000 ta=left  | "Warm Leads"
+  B <div> 538,8233 1x56 bg=#000000/0.05 ovf=hidden
+  B <div> 539,8233 203x56 pad=0px 0px 12px flex row gap=12px jc=center ai=center op=0.6
+  B <div Graphic> 584,8245 20x20 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 20 20%22><path d=%22M 10 5.833 C 7.699 5.834 5.834 7.7 5.835 10.001 C 5.836 12.302 7.702 1
+  T <p> 616,8244 79x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/22.4px ls=normal w400 #000000 ta=left  | "Campaigns"
+  B <div> 741,8233 1x56 bg=#000000/0.05 ovf=hidden
+  B <div> 742,8233 203x56 pad=0px 0px 12px flex row gap=12px jc=center ai=center op=0.6
+  B <div Graphic> 793,8245 20x20 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 20 20%22><path d=%22M 7.5 9.167 L 10 11.667 L 16.668 5 M 16.668 10 L 16.668 15 C 16.668 15
+  T <p> 825,8244 70x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/22.4px ls=normal w400 #000000 ta=left  | "Approvals"
+  B <div> 945,8233 1x56 bg=#000000/0.05 ovf=hidden
+  B <div> 946,8233 203x56 pad=0px 0px 12px flex row gap=12px jc=center ai=center op=0.6
+  B <div Graphic> 1013,8245 20x20 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 20 20%22><path d=%22M 3.334 10.834 L 5.834 10.834 L 8.334 13.334 L 11.667 13.334 L 14.167 
+  T <p> 1045,8244 38x22 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/22.4px ls=normal w400 #000000 ta=left  | "Inbox"
+  B <div> 1149,8233 1x56 bg=#000000/0.05 ovf=hidden
+  B <div Rectangle> 48,8290 1184x933 filter=blur(10px)
+  IMG 48,8290 1184x933 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/wz7LBgOdjfBjcqdsOpbqnwRzS8.png?scale-down-to=2048&width=2098&height=1696 alt=""
+  B <div Rectangle> 49,8289 1184x932 flex column gap=45px jc=center ai=center 
+  IMG 49,8289 1184x932 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Gl9u6E5bAyZgehsQ4HjFHgoDGsc.png?lossless=1&width=1536&height=1024 alt=""
+  B <div> 120,8416 1042x679 pad=12px ::after{absolute 1041.91pxx679.047px inset=0px,0px border=12px 12px 12px 12px solid #000000/0.1} backdrop=blur(4px)
+  B <div Image> 132,8428 1018x655 shadow=rgba(0, 0, 0, 0.1) 0px 0px 24px 32px
+  IMG 132,8428 1018x655 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/aSykMoBwdyZZEF29uxf3LFX2jwg.png?scale-down-to=1024&width=2496&height=1606 alt="Valley Dashboard"
+
+######## [8] Spacer  y=9286 h=48 pos=relative
+  B <section Spacer> 0,9286 1280x48 bg=#f7f8f4 ovf=hidden
+
+######## [9] Valley magic Section  y=9334 h=709 pos=relative
+  B <div Valley magic Section> 0,9334 1280x709 pad=0px 48px bg=#f7f8f4 ovf=hidden
+  B <div 50% Magic> 48,9334 1184x709 flex row gap=0px jc=flex-start ai=center ::after{absolute 1184pxx709px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.07} bg=#000000 ovf=hidden
+  B <div Cont 1> 48,9334 506x709 pad=72px 60px flex column gap=normal jc=space-between ai=flex-start 
+  B <div LABEL & HEADING> 108,9406 386x146 flex column gap=24px jc=flex-start ai=flex-start 
+  B <div Label> 108,9406 112x26 pad=6px 13px ::after{absolute 112.406pxx26.4062px inset=0px,0px border=1px 1px 1px 1px solid #ffffff radius=1px} radius=1px ovf=hidden
+  T <p> 121,9412 86x14 | Geist Mono, monospace 12px/14.4px ls=normal w400 #ffffff tt=uppercase ta=center  | "VALLEY MAGIC"
+  T <p> 108,9457 386x96 | PP Neue Montreal Medium, PP Neue Montreal Medium 40px/48px ls=normal w400 #ffffff  | "See how Valley fills your calendar"
+  B <div> 108,9656 386x87 flex column gap=60px jc=flex-start ai=flex-start 
+  T <p> 108,9656 195x23 | PP Neue Montreal Medium, PP Neue Montreal Medium 18px/22.5px ls=normal w400 #ffffff/0.5 ta=center  | "Outreach sent with valley"
+  B <div Main Slider> 108,9739 386x4 flex row gap=10px jc=center ai=center 
+  B <div trig -50%> 108,9737 193x8 tf=matrix(1, 0, 0, 1, 0, -4)
+  B <div 50%> 108,9739 386x4 flex row gap=10px jc=flex-start ai=center 
+  B <div BG Line> 108,9740 386x1 bg=#767676 ovf=hidden
+  B <div Slider Movement > 108,9717 193x48 flex row gap=10px jc=center ai=center tf=matrix(1, 0, 0, 1, 0, -24)
+  IMG 108,9739 193x4 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/cyqCnH73kdkUeeoIFSQCM01Qcs.png?scale-down-to=512 alt=""
+  B <div Knob Frame> 108,9717 206x48 tf=matrix(1, 0, 0, 1, 0, -24)
+  B <div Slider Knob> 266,9717 48x48 flex row gap=10px jc=center ai=center 
+  B <div> 246,9697 89x89 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 89 89%22 overflow=%22visible%22><g><defs><radialGradient id=%22idseBeb9SGVbYFQ9xaqwK_1g162
+  B <div> 264,9715 53x53 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 53 53%22 overflow=%22visible%22><g><defs><radialGradient id=%22idseBeb9SGVbfuAYI8yYI_1g162
+  B <div> 272,9723 37x35 pad=3px bg=#ffffff/0.15 radius=10.8108% / 11.4286% tf=matrix(1, 0, 0, 1, -18.5, -17.5) ovf=hidden
+  B <div> 275,9726 31x29 pad=7px bg=#ffffff radius=3px ovf=hidden
+  B <div> 282,9733 17x15 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 17 15.125%22 overflow=%22visible%22><g><path d=%22M 0 0 L 17 0 L 17 15.125 L 0 15.125 Z%22 tf=matrix(1, 0, 0, 1, 0, 0)
+  B <div> 196,9737 8x8 bg=#ffc391 radius=2px ovf=hidden
+  B <div trig -50%> 108,9737 193x8 tf=matrix(1, 0, 0, 1, 0, -4)
+  B <div> 293,9737 8x8 bg=#ffffff radius=2px ovf=hidden
+  B <div> 389,9737 8x8 bg=#ffffff radius=2px ovf=hidden
+  B <div> 486,9737 8x8 bg=#ffffff radius=2px ovf=hidden
+  B <div> 108,9847 386x125 flex column gap=26px jc=flex-start ai=flex-start 
+  T <p> 108,9847 301x34 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #ffffff/0.7  | "Most other LinkedIn automation tools gets 2-5% response rates - Valley triples that instantly"
+  B <a cta__primary> 108,9915 132x48 pad=5px 0px 0px 
+  B <div Button Content> 108,9920 132x43 ::after{absolute 132pxx43.2031px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.2} bg=#ffffff shadow=rgba(0, 0, 0, 0.6) 0px 6px 0px 0px ovf=hidden
+  B <div Text Wrap> 108,9920 132x43 pad=12px 18px bg=#ffffff ovf=hidden
+  T <p> 130,9932 88x19 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/19.2px ls=-0.16px w400 #000000  | "Start for free"
+  B <div Cont 2> 554,9334 679x709 pad=24px 18px flex column gap=10px jc=flex-start ai=center ::after{absolute 678.5pxx709px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.07} bg=#fafafa ovf=hidden
+  B <div> 572,9358 643x59 pad=12px flex row gap=normal jc=space-between ai=center 
+  T <p> 584,9370 120x35 | PP Neue Montreal Medium, PP Neue Montreal Medium 28px/35px ls=normal w400 #252525  | "July"
+  T <span> 638,9370 66x34 | PP Neue Montreal Medium, PP Neue Montreal Medium 28px/35px ls=normal w400 #252525/0.7  | "2025"
+  B <div> 1144,9376 58x24 flex row gap=10px jc=center ai=center 
+  B <div> 1144,9376 24x24 bg=#252525
+  B <div> 1178,9376 24x24 bg=#252525
+  B <div> 572,9427 643x10 flex row gap=0px jc=center ai=center op=0.5
+  B <div> 572,9427 92x10 pad=5px 35px 
+  B <div> 663,9427 92x10 pad=5px 35px 
+  B <div> 755,9427 92x10 pad=5px 35px 
+  B <div> 847,9427 92x10 pad=5px 35px 
+  B <div> 939,9427 92x10 pad=5px 35px 
+  B <div> 1030,9427 92x10 pad=5px 35px 
+  B <div> 1122,9427 92x10 pad=5px 35px 
+  B <div> 572,9447 643x572 grid gap=8px 0px cols=91.7812px 91.7812px 91.7812px 91.7969px 91.7812px 91.7812px 91.7812px jc=center ai=normal 
+  B <div 2 Labels - Hide> 572,9447 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 610,9454 13x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525/0.5  | "29"
+  B <div Label Stack> 574,9473 85x42 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 574,9473 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 578,9477 77x26 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Danny/Followup"
+  IMG 574,9473 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 574,9495 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 578,9499 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 574,9495 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div hider 1> 572,9473 89x20 bg=#fafafa
+  B <div hider 2> 572,9495 89x20 bg=#fafafa
+  B <div 1 Label - Show> 663,9447 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 701,9454 14x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525/0.5  | "30"
+  B <div Label 1> 665,9473 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 669,9477 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Kastor CEO"
+  IMG 665,9473 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div hider 1> 663,9473 89x20 bg=#fafafa op=0
+  B <div 2 Labels - Hide> 755,9447 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 798,9454 4x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "1"
+  B <div Label Stack> 757,9473 85x42 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 757,9473 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 761,9477 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Discovery Call"
+  IMG 757,9473 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/44mBuaKUzJt59tKLF2RwhwGsYsg.png?width=86&height=20 alt=""
+  B <div Label 2> 757,9495 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 761,9499 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Acme<>John"
+  IMG 757,9495 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div hider 1> 755,9473 89x20 bg=#fafafa
+  B <div hider 2> 755,9495 89x20 bg=#fafafa
+  B <div 3 Label - Show> 847,9447 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 888,9454 6x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "2"
+  B <div Label Stack> 849,9473 85x64 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 849,9473 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 853,9477 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Liam/Followup"
+  IMG 849,9473 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 849,9495 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 853,9499 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 849,9495 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div Label 3> 849,9517 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#ffe8a4 radius=1px ovf=hidden
+  T <p> 853,9521 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Valley/Demo"
+  IMG 849,9517 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/44mBuaKUzJt59tKLF2RwhwGsYsg.png?width=86&height=20 alt=""
+  B <div hider 1> 847,9473 89x20 bg=#fafafa op=0
+  B <div hider 2> 847,9495 89x20 bg=#fafafa op=0
+  B <div hider 3> 847,9517 89x20 bg=#fafafa op=0
+  B <div 1 Label - Hide> 939,9447 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 980,9454 7x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "3"
+  B <div Label 1> 941,9473 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 945,9477 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 941,9473 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div hider 1> 939,9473 89x20 bg=#fafafa
+  B <div 3 Labels - Hide> 1030,9447 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 1072,9454 7x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "4"
+  B <div Label Stack> 1032,9473 85x64 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 1032,9473 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 1036,9477 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Liam/Followup"
+  IMG 1032,9473 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/44mBuaKUzJt59tKLF2RwhwGsYsg.png?width=86&height=20 alt=""
+  B <div Label 2> 1032,9495 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 1036,9499 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 1032,9495 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div Label 3> 1032,9517 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 1036,9521 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Valley/Demo"
+  IMG 1032,9517 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/44mBuaKUzJt59tKLF2RwhwGsYsg.png?width=86&height=20 alt=""
+  B <div hider 1> 1030,9473 89x20 bg=#fafafa
+  B <div hider 2> 1030,9495 89x20 bg=#fafafa
+  B <div hider 3> 1030,9517 89x20 bg=#fafafa
+  B <div 2 Labels - Show> 1122,9447 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 1164,9454 6x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "5"
+  B <div Label Stack> 1124,9473 85x42 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 1124,9473 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 1128,9477 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Intro/OpenAI"
+  IMG 1124,9473 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 1124,9495 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 1128,9499 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 1124,9495 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div hider 1> 1122,9473 89x20 bg=#fafafa op=0
+  B <div hider 2> 1122,9495 89x20 bg=#fafafa op=0
+  B <div 3 Labels - Hide> 572,9563 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 613,9570 7x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "6"
+  B <div Label Stack> 574,9589 85x64 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 574,9589 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 578,9593 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Liam/Followup"
+  IMG 574,9589 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 574,9611 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 578,9615 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 574,9611 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div Label 3> 574,9633 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 578,9637 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Valley/Demo"
+  IMG 574,9633 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/44mBuaKUzJt59tKLF2RwhwGsYsg.png?width=86&height=20 alt=""
+  B <div hider 1> 572,9589 89x20 bg=#fafafa
+  B <div hider 2> 572,9611 89x20 bg=#fafafa
+  B <div hider 3> 572,9633 89x20 bg=#fafafa
+  B <div 3 Labels - Hide> 663,9563 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 705,9570 6x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "7"
+  B <div Label Stack> 665,9589 85x64 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 665,9589 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 669,9593 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Discovery Call"
+  IMG 665,9589 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 665,9611 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 669,9615 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Quick Deo"
+  IMG 665,9611 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div Label 3> 665,9633 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#ffe495 radius=1px ovf=hidden
+  T <p> 669,9637 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Acme<>Sophie"
+  IMG 665,9633 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/44mBuaKUzJt59tKLF2RwhwGsYsg.png?width=86&height=20 alt=""
+  B <div hider 1> 663,9589 89x20 bg=#fafafa
+  B <div hider 2> 663,9611 89x20 bg=#fafafa
+  B <div hider 3> 663,9633 89x20 bg=#fafafa
+  B <div 2 Labels - Show> 755,9563 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 796,9570 7x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "8"
+  B <div Label Stack> 757,9589 85x42 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 757,9589 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 761,9593 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 757,9589 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 757,9611 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 761,9615 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Close/Outline"
+  IMG 757,9611 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div hider 1> 755,9589 89x20 bg=#fafafa op=0
+  B <div hider 2> 755,9611 89x20 bg=#fafafa op=0
+  B <div 3 Labels - Hide> 847,9563 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 888,9570 7x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "9"
+  B <div Label Stack> 849,9589 85x64 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 849,9589 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 853,9593 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Liam/Followup"
+  IMG 849,9589 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 849,9611 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 853,9615 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 849,9611 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div Label 3> 849,9633 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 853,9637 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Valley/Demo"
+  IMG 849,9633 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/44mBuaKUzJt59tKLF2RwhwGsYsg.png?width=86&height=20 alt=""
+  B <div hider 1> 847,9589 89x20 bg=#fafafa
+  B <div hider 2> 847,9611 89x20 bg=#fafafa
+  B <div hider 3> 847,9633 89x20 bg=#fafafa
+  B <div 3 Labels - Hide> 939,9563 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 978,9570 11x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "10"
+  B <div Label Stack> 941,9589 85x64 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 941,9589 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 945,9593 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Liam/Followup"
+  IMG 941,9589 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 941,9611 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 945,9615 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 941,9611 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div Label 3> 941,9633 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 945,9637 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Valley/Demo"
+  IMG 941,9633 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/44mBuaKUzJt59tKLF2RwhwGsYsg.png?width=86&height=20 alt=""
+  B <div hider 1> 939,9589 89x20 bg=#fafafa
+  B <div hider 2> 939,9611 89x20 bg=#fafafa
+  B <div hider 3> 939,9633 89x20 bg=#fafafa
+  B <div 3 Labels - Hide> 1030,9563 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 1071,9570 8x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "11"
+  B <div Label Stack> 1032,9589 85x64 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 1032,9589 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 1036,9593 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Liam/Followup"
+  IMG 1032,9589 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 1032,9611 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 1036,9615 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 1032,9611 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div Label 3> 1032,9633 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 1036,9637 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Valley/Demo"
+  IMG 1032,9633 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/44mBuaKUzJt59tKLF2RwhwGsYsg.png?width=86&height=20 alt=""
+  B <div hider 1> 1030,9589 89x20 bg=#fafafa
+  B <div hider 2> 1030,9611 89x20 bg=#fafafa
+  B <div hider 3> 1030,9633 89x20 bg=#fafafa
+  B <div 2 Labels - Hide> 1122,9563 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 1162,9570 10x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "12"
+  B <div Label Stack> 1124,9589 85x42 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 1124,9589 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 1128,9593 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Asheley's Demo"
+  IMG 1124,9589 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 1124,9611 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 1128,9615 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Growth Team"
+  IMG 1124,9611 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div hider 1> 1122,9589 89x20 bg=#fafafa
+  B <div hider 2> 1122,9611 89x20 bg=#fafafa
+  B <div 3 Labels - Hide> 572,9679 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 611,9686 10x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "13"
+  B <div Label Stack> 574,9705 85x64 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 574,9705 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 578,9709 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Liam/Followup"
+  IMG 574,9705 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 574,9727 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 578,9731 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Jake/Intro"
+  IMG 574,9727 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div Label 3> 574,9749 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 578,9753 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Valley/Demo"
+  IMG 574,9749 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/44mBuaKUzJt59tKLF2RwhwGsYsg.png?width=86&height=20 alt=""
+  B <div hider 1> 572,9705 89x20 bg=#fafafa
+  B <div hider 2> 572,9727 89x20 bg=#fafafa
+  B <div hider 3> 572,9749 89x20 bg=#fafafa
+  B <div 2 Labels - Hide> 663,9679 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 703,9686 10x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "14"
+  B <div Label Stack> 665,9705 85x42 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 665,9705 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 669,9709 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Rahee Demo"
+  IMG 665,9705 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 665,9727 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 669,9731 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Discovery Call"
+  IMG 665,9727 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div hider 1> 663,9705 89x20 bg=#fafafa
+  B <div hider 2> 663,9727 89x20 bg=#fafafa
+  B <div 1 Label - Show> 755,9679 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 794,9686 10x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "15"
+  B <div Label 1> 757,9705 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 761,9709 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Valley Demo"
+  IMG 757,9705 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div hider 1> 755,9705 89x20 bg=#fafafa op=0
+  B <div 3 Labels - Hide> 847,9679 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 886,9686 10x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "16"
+  B <div Label Stack> 849,9705 85x64 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 849,9705 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 853,9709 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Liam/Followup"
+  IMG 849,9705 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 849,9727 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 853,9731 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 849,9727 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div Label 3> 849,9749 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#ffe8a4 radius=1px ovf=hidden
+  T <p> 853,9753 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Valley/Demo"
+  IMG 849,9749 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/44mBuaKUzJt59tKLF2RwhwGsYsg.png?width=86&height=20 alt=""
+  B <div hider 1> 847,9705 89x20 bg=#fafafa
+  B <div hider 2> 847,9727 89x20 bg=#fafafa
+  B <div hider 3> 847,9749 89x20 bg=#fafafa
+  B <div 2 Labels - Hide> 939,9679 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 978,9686 9x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "17"
+  B <div Label Stack> 941,9705 85x42 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 941,9705 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 945,9709 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Close/Outline"
+  IMG 941,9705 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 941,9727 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 945,9731 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 941,9727 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div hider 1> 939,9705 89x20 bg=#fafafa
+  B <div hider 2> 939,9727 89x20 bg=#fafafa
+  B <div 1 Label - Hide> 1030,9679 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 1070,9686 10x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "18"
+  B <div Label 1> 1032,9705 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 1036,9709 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Clay/AE Demo"
+  IMG 1032,9705 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div hider 1> 1030,9705 89x20 bg=#fafafa
+  B <div 3 Label - Show> 1122,9679 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 1162,9686 10x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "19"
+  B <div Label Stack> 1124,9705 85x64 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 1124,9705 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 1128,9709 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Liam/Followup"
+  IMG 1124,9705 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 1124,9727 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 1128,9731 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 1124,9727 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div Label 3> 1124,9749 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 1128,9753 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Valley/Demo"
+  IMG 1124,9749 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/44mBuaKUzJt59tKLF2RwhwGsYsg.png?width=86&height=20 alt=""
+  B <div hider 1> 1122,9705 89x20 bg=#fafafa op=0
+  B <div hider 2> 1122,9727 89x20 bg=#fafafa op=0
+  B <div hider 3> 1122,9749 89x20 bg=#fafafa op=0
+  B <div 1 Label - Show> 572,9795 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 609,9802 13x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "20"
+  B <div Label 1> 574,9821 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 578,9825 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Jessica/Intro"
+  IMG 574,9821 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div hider 1> 572,9821 89x20 bg=#fafafa op=0
+  B <div 3 Labels - Hide> 663,9795 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 703,9802 10x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "21"
+  B <div Label Stack> 665,9821 85x64 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 665,9821 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 669,9825 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Liam/Followup"
+  IMG 665,9821 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 665,9843 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 669,9847 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 665,9843 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div Label 3> 665,9865 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 669,9869 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Valley/Demo"
+  IMG 665,9865 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/44mBuaKUzJt59tKLF2RwhwGsYsg.png?width=86&height=20 alt=""
+  B <div hider 1> 663,9821 89x20 bg=#fafafa
+  B <div hider 2> 663,9843 89x20 bg=#fafafa
+  B <div hider 3> 663,9865 89x20 bg=#fafafa
+  B <div 2 Labels - Hide> 755,9795 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 793,9802 13x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "22"
+  B <div Label Stack> 757,9821 85x42 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 757,9821 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 761,9825 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 757,9821 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 757,9843 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 761,9847 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Folk Demo"
+  IMG 757,9843 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div hider 1> 755,9821 89x20 bg=#fafafa
+  B <div hider 2> 755,9843 89x20 bg=#fafafa
+  B <div 3 Labels - Hide> 847,9795 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 885,9802 13x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "23"
+  B <div Label Stack> 849,9821 85x64 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 849,9821 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 853,9825 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Liam/Followup"
+  IMG 849,9821 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 849,9843 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 853,9847 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 849,9843 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div Label 3> 849,9865 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 853,9869 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Valley/Demo"
+  IMG 849,9865 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/44mBuaKUzJt59tKLF2RwhwGsYsg.png?width=86&height=20 alt=""
+  B <div hider 1> 847,9821 89x20 bg=#fafafa
+  B <div hider 2> 847,9843 89x20 bg=#fafafa
+  B <div hider 3> 847,9865 89x20 bg=#fafafa
+  B <div 3 Labels - Hide> 939,9795 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 977,9802 13x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "24"
+  B <div Label Stack> 941,9821 85x64 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 941,9821 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 945,9825 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Liam/Followup"
+  IMG 941,9821 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 941,9843 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 945,9847 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 941,9843 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div Label 3> 941,9865 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 945,9869 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Valley/Demo"
+  IMG 941,9865 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/44mBuaKUzJt59tKLF2RwhwGsYsg.png?width=86&height=20 alt=""
+  B <div hider 1> 939,9821 89x20 bg=#fafafa
+  B <div hider 2> 939,9843 89x20 bg=#fafafa
+  B <div hider 3> 939,9865 89x20 bg=#fafafa
+  B <div 1 Label - Show> 1030,9795 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 1069,9802 13x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "25"
+  B <div Label 1> 1032,9821 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 1036,9825 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Rahee Demo"
+  IMG 1032,9821 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div hider 1> 1030,9821 89x20 bg=#fafafa op=0
+  B <div 3 Labels - Hide> 1122,9795 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 1160,9802 13x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "26"
+  B <div Label Stack> 1124,9821 85x64 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 1124,9821 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 1128,9825 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Liam/Followup"
+  IMG 1124,9821 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 1124,9843 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 1128,9847 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 1124,9843 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div Label 3> 1124,9865 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#ffe8a4 radius=1px ovf=hidden
+  T <p> 1128,9869 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Valley/Demo"
+  IMG 1124,9865 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/44mBuaKUzJt59tKLF2RwhwGsYsg.png?width=86&height=20 alt=""
+  B <div hider 1> 1122,9821 89x20 bg=#fafafa
+  B <div hider 2> 1122,9843 89x20 bg=#fafafa
+  B <div hider 3> 1122,9865 89x20 bg=#fafafa
+  B <div 3 Labels - Hide> 572,9911 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 610,9918 12x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "27"
+  B <div Label Stack> 574,9937 85x64 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 574,9937 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 578,9941 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Liam/Followup"
+  IMG 574,9937 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 574,9959 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 578,9963 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 574,9959 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div Label 3> 574,9981 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 578,9985 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Valley/Demo"
+  IMG 574,9981 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/44mBuaKUzJt59tKLF2RwhwGsYsg.png?width=86&height=20 alt=""
+  B <div hider 1> 572,9937 89x20 bg=#fafafa
+  B <div hider 2> 572,9959 89x20 bg=#fafafa
+  B <div hider 3> 572,9981 89x20 bg=#fafafa
+  B <div 1 Label - Hide> 663,9911 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 701,9918 13x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "28"
+  B <div Label 1> 665,9937 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 669,9941 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo"
+  IMG 665,9937 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div hider 1> 663,9937 89x20 bg=#fafafa
+  B <div 2 Labels - Show> 755,9911 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 793,9918 13x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "29"
+  B <div Label Stack> 757,9937 85x42 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 757,9937 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 761,9941 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Growth Team"
+  IMG 757,9937 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 757,9959 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 761,9963 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Zayd/Demo"
+  IMG 757,9959 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div hider 1> 755,9937 89x20 bg=#fafafa op=0
+  B <div hider 2> 755,9959 89x20 bg=#fafafa op=0
+  B <div 3 Labels - Hide> 847,9911 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 885,9918 14x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "30"
+  B <div Label Stack> 849,9937 85x64 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 849,9937 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 853,9941 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Liam/Followup"
+  IMG 849,9937 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 849,9959 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#ffe8a4 radius=1px ovf=hidden
+  T <p> 853,9963 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 849,9959 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div Label 3> 849,9981 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 853,9985 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Valley/Demo"
+  IMG 849,9981 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/44mBuaKUzJt59tKLF2RwhwGsYsg.png?width=86&height=20 alt=""
+  B <div hider 1> 847,9937 89x20 bg=#fafafa
+  B <div hider 2> 847,9959 89x20 bg=#fafafa
+  B <div hider 3> 847,9981 89x20 bg=#fafafa
+  B <div 1 Label - Show> 939,9911 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 978,9918 10x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525  | "31"
+  B <div Label 1> 941,9937 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 945,9941 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Monthly Review"
+  IMG 941,9937 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div hider 1> 939,9937 89x20 bg=#fafafa op=0
+  B <div 3 Labels - Hide> 1030,9911 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 1070,9918 11x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525/0.5  | "01"
+  B <div Label Stack> 1032,9937 85x64 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 1032,9937 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 1036,9941 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Liam/Followup"
+  IMG 1032,9937 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 1032,9959 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 1036,9963 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 1032,9959 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div Label 3> 1032,9981 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 1036,9985 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Valley/Demo"
+  IMG 1032,9981 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/44mBuaKUzJt59tKLF2RwhwGsYsg.png?width=86&height=20 alt=""
+  B <div hider 1> 1030,9937 89x20 bg=#fafafa
+  B <div hider 2> 1030,9959 89x20 bg=#fafafa
+  B <div hider 3> 1030,9981 89x20 bg=#fafafa
+  B <div 3 Labels - Hide> 1122,9911 89x107 pad=2px flex column gap=0px jc=flex-start ai=center bg=#fafafa ovf=hidden
+  T <p> 1160,9918 13x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.75px ls=normal w400 #252525/0.5  | "02"
+  B <div Label Stack> 1124,9937 85x64 flex column gap=2px jc=flex-start ai=center 
+  B <div Label 1> 1124,9937 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#bde9ff radius=1px ovf=hidden
+  T <p> 1128,9941 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Liam/Followup"
+  IMG 1124,9937 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/Dm2wyGw2FNtyCmJ52IxV7mLplo.png?width=87&height=20 alt=""
+  B <div Label 2> 1124,9959 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#fccece radius=1px ovf=hidden
+  T <p> 1128,9963 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Demo Call"
+  IMG 1124,9959 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/rkdfi8FlTUYhYphEH5CjUmF4I.png?width=86&height=20 alt=""
+  B <div Label 3> 1124,9981 85x20 pad=4px flex row gap=0px jc=flex-start ai=center bg=#ffe8a4 radius=1px ovf=hidden
+  T <p> 1128,9985 77x13 | PP Neue Montreal Medium, PP Neue Montreal Medium 11px/13.2px ls=normal w400 #000000  | "Valley/Demo"
+  IMG 1124,9981 85x20 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/44mBuaKUzJt59tKLF2RwhwGsYsg.png?width=86&height=20 alt=""
+  B <div hider 1> 1122,9937 89x20 bg=#fafafa
+  B <div hider 2> 1122,9959 89x20 bg=#fafafa
+  B <div hider 3> 1122,9981 89x20 bg=#fafafa
+  B <div Valley Magic section BG> 48,9334 1184x709 ::after{absolute 1184pxx709px inset=0px,0px border=1px 1px 1px 1px solid #e0e0e0}
+  IMG 48,9334 1184x709 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/3MqHudIBy1ZEIFJXaNZZ7UPNreE.png?width=1328&height=709 alt=""
+
+######## [10] Spacer  y=10043 h=48 pos=relative
+  B <section Spacer> 0,10043 1280x48 bg=#f7f8f4 ovf=hidden
+
+######## [11] Calendar Section  y=10091 h=1216 pos=relative
+  B <section Calendar Section> 0,10091 1280x1216 ::after{absolute 1280pxx1216.41px inset=0px,0px border=0px 0px 1px 0px solid #000000/0.07} bg=#1d2a2e ovf=hidden
+  B <div Content> 0,10091 1280x1216 ::after{absolute 1280pxx1216.41px inset=0px,0px border=1px 1px 1px 1px solid #e0e0e0} bg=#1d2a2e ovf=hidden
+  B <div Heading + Desc> 0,10091 1280x1216 pad=95px 0px 120px flex column gap=58px jc=center ai=center 
+  T <h3> 175,10186 931x50 | PP Neue Montreal Medium, PP Neue Montreal Medium 42px/50.4px ls=normal w500 #ffffff ta=center  | "The only way outbound should be done on LinkedIn"
+  IFRAME 218,10295 845x893 src=https://meetings.hubspot.com/zayd-from-valley/tryvalley
+
+######## [12] Spacer  y=11308 h=48 pos=relative
+  B <section Spacer> 0,11308 1280x48 bg=#f7f8f4 ovf=hidden
+
+######## [13] Testimonial Section  y=11356 h=737 pos=relative
+  B <section Testimonial Section> 0,11356 1280x737 ::after{absolute 1280pxx736.812px inset=0px,0px border=1px 0px 1px 0px solid #000000/0.07} bg=#1d2a2e ovf=hidden
+  B <div Content> 0,11356 1280x737 ::after{absolute 1280pxx736.812px inset=0px,0px border=0px 1px 1px 1px solid #e0e0e0} bg=#1d2a2e ovf=hidden
+  B <div Heading + Desc> 0,11356 1280x737 pad=80px 54px flex column gap=25px jc=center ai=center 
+  B <div Label> 532,11436 217x26 pad=6px 13px ::after{absolute 216.922pxx26.4062px inset=0px,0px border=1px 1px 1px 1px solid #ffffff radius=1px} radius=1px ovf=hidden
+  T <p> 545,11442 191x14 | PP Neue Montreal Variable, PP Neue Montreal Variable 12px/14.4px ls=normal w400 #ffffff tt=uppercase ta=center  | "REal messages, real feedback"
+  T <h3> 467,11487 345x50 | PP Neue Montreal Medium, PP Neue Montreal Medium 42px/50.4px ls=normal w500 #ffffff ta=center  | "Wall of loooooveee"
+  B <section> 54,11562 1172x450 pad=10px 
+  B <ul> 29,11572 1152x430 flex row gap=32px jc=normal ai=center tf=matrix(1, 0, 0, 1, -34.9971, 0)
+  B <div Variant 1> 29,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 35,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 35,11594 305x99 pad=18px 
+  IMG 99,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/xeGwnd3aYXqpW5qby827e0t9CB4.png?width=225&height=225 alt=""
+  B <div> 35,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 35,11693 305x125 pad=0px 36px 
+  T <p> 71,11693 233x125 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | ""The website intent data has been really useful too. It was literally like 8 to 10x the number of hits that we were getting on Valley versus the other product that we were using at the time.""
+  B <div Client Detail> 96,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 165,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 162,11861 52x52 radius=50% ovf=hidden
+  B <div> 162,11861 52x52 radius=50%
+  IMG 162,11861 52x52 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/R5AeuyDxdoeADin1x32gC6L5St0.png?width=480&height=480 alt=""
+  B <div Client Name & Desg> 122,11917 130x39 flex column gap=4px jc=center ai=center 
+  B <div> 165,11917 45x21 op=0.8
+  T <p> 165,11917 45x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Sam Z"
+  B <div> 122,11942 130x14 op=0.8
+  T <p> 122,11942 130x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "Growth 10x Management"
+  B <div Variant 1> 378,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 384,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 384,11594 305x99 pad=18px 
+  IMG 448,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/qMlFY64Vqx8JelzVT6YLOjTuEKc.png?scale-down-to=512&width=889&height=732 alt=""
+  B <div> 384,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 384,11693 305x125 pad=0px 36px 
+  T <p> 420,11693 233x125 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | ""I found myself looking at some of the messages that it's created and thinking like, wow, where did it find this? This went really deep to find information that you could never do in just a cursory search.""
+  B <div Client Detail> 445,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 514,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 511,11861 52x52 radius=50% ovf=hidden
+  B <div> 511,11861 52x52 radius=50%
+  IMG 511,11861 52x52 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/WtSAHrTok8mtlR2CI7nq7oEQ6Y.jpeg?scale-down-to=512&width=800&height=800 alt=""
+  B <div Client Name & Desg> 489,11917 95x39 flex column gap=4px jc=center ai=center 
+  B <div> 501,11917 71x21 op=0.8
+  T <p> 501,11917 71x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Tim O'Neil"
+  B <div> 489,11942 95x14 op=0.8
+  T <p> 489,11942 95x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "VP Sales & BizDev"
+  B <div Variant 1> 727,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 733,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 733,11594 305x99 pad=18px 
+  IMG 797,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/mRuougUbRy1GQgps9Eeug1DG18.png?width=500&height=344 alt=""
+  B <div> 733,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 733,11693 305x62 pad=0px 36px 
+  T <p> 769,11693 233x62 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "“If you're not using tools like Valley, you will be left behind. This is the future. ”"
+  B <div Client Detail> 794,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 863,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 860,11861 52x52 radius=50% ovf=hidden
+  B <div> 860,11861 52x52 radius=50%
+  IMG 860,11861 52x52 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/US3dcHl6lQODo0h1pv6U4JkIH7o.jpeg?scale-down-to=512&width=800&height=800 alt=""
+  B <div Client Name & Desg> 834,11917 102x39 flex column gap=4px jc=center ai=center 
+  B <div> 834,11917 102x21 op=0.8
+  T <p> 834,11917 102x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Garrett Marker"
+  B <div> 853,11942 65x14 op=0.8
+  T <p> 853,11942 65x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "CRO @ Brex"
+  B <div Variant 1> 1076,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 1082,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 1082,11594 305x99 pad=18px 
+  IMG 1146,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/p1o11T9Jt3naTduCjFwxKLZqc.jpg?width=464&height=59 alt=""
+  B <div> 1082,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 1082,11693 305x146 pad=0px 36px 
+  T <p> 1118,11693 233x146 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | ""I'm able to come into those [pipeline review] meetings and be like, look at what I booked through Valley. You know, if my other kind of channels have slowed down, I'm like, but Valley, Valley's there.""
+  B <div Client Detail> 1143,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 1212,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 1209,11861 52x52 radius=50% ovf=hidden
+  B <div> 1209,11861 52x52 radius=50%
+  IMG 1209,11861 52x52 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/2cLT52mkcmCsZRQcm5LtdZPflg.png?width=480&height=480 alt=""
+  B <div Client Name & Desg> 1157,11917 154x39 flex column gap=4px jc=center ai=center 
+  B <div> 1157,11917 154x21 op=0.8
+  T <p> 1157,11917 154x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Angelene Perez-Vento"
+  B <div> 1177,11942 116x14 op=0.8
+  T <p> 1177,11942 116x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "AE at Growth Protocol"
+  B <div Variant 1> 1425,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 1431,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 1431,11594 305x99 pad=18px 
+  IMG 1495,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/7Rj9hCxcOkh3hnDV5SLMepxp0A.svg?scale-down-to=512&width=685&height=133 alt=""
+  B <div> 1431,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 1431,11693 305x166 pad=0px 36px 
+  T <p> 1467,11693 233x166 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "“A real response to a message Valley sent a prospect: “I was never considering anything until you reached out with a message that literally spoke to me.” The automation is great but the sauce within Valley is the messaging itself.”"
+  B <div Client Detail> 1492,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 1561,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 1558,11861 52x52 radius=50% ovf=hidden
+  B <div> 1558,11861 52x52 radius=50%
+  IMG 1558,11861 52x52 fit=cover pos=52.1% 43.8% radius=50% ovf=clip src=https://framerusercontent.com/images/ZLYSGUvKkVzLXYs0HskrNMPEys4.jpeg?width=500&height=500 alt=""
+  B <div Client Name & Desg> 1492,11917 184x39 flex column gap=4px jc=center ai=center 
+  B <div> 1529,11917 110x21 op=0.8
+  T <p> 1529,11917 110x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Jason Hardman"
+  B <div> 1492,11942 184x14 op=0.8
+  T <p> 1492,11942 184x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "Founding Enterprise AE @ Tacnode"
+  B <div Variant 1> 1774,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 1780,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 1780,11594 305x99 pad=18px 
+  IMG 1844,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/KrX5x7Ck65tnR95uH6lwq7cyhc.jpeg?width=200&height=200 alt=""
+  B <div> 1780,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 1780,11693 305x146 pad=0px 36px 
+  T <p> 1816,11693 233x146 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | ""If you don't have an active, engaged LinkedIn pipeline and you have a clearly defined ICP and persona, you need to add Valley to your tech stack immediately to supplement your sales.”"
+  B <div Client Detail> 1841,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 1910,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 1907,11861 52x52 radius=50% ovf=hidden
+  B <div> 1907,11861 52x52 radius=50%
+  IMG 1907,11861 52x52 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/xpYEgDiwByLk8eJwucCaEvb7tMU.jpeg?width=200&height=200 alt=""
+  B <div Client Name & Desg> 1876,11917 112x39 flex column gap=4px jc=center ai=center 
+  B <div> 1880,11917 105x21 op=0.8
+  T <p> 1880,11917 105x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Greg Kantziper"
+  B <div> 1876,11942 112x14 op=0.8
+  T <p> 1876,11942 112x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "Co-Founder at Kaster"
+  B <div Variant 1> 2123,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 2129,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 2129,11594 305x99 pad=18px 
+  IMG 2193,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/AzaTFg5utqMkNxsdehiBzaluLaI.png?width=200&height=200 alt="superposition logo"
+  B <div> 2129,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 2129,11693 305x146 pad=0px 36px 
+  T <p> 2165,11693 233x146 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | ""The messages it writes are actually really high-taste. I was really surprised by the personalization. I don’t want to be a bottleneck for those connection requests going out - it’s that good.""
+  B <div Client Detail> 2190,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 2259,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 2256,11861 52x52 radius=50% ovf=hidden
+  B <div> 2256,11861 52x52 radius=50%
+  IMG 2256,11861 52x52 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/homcQSgPT5DxHpbumCgZ7mevjTc.jpeg?scale-down-to=512&width=800&height=800 alt="edmund cuthbert"
+  B <div Client Name & Desg> 2216,11917 132x39 flex column gap=4px jc=center ai=center 
+  B <div> 2220,11917 124x21 op=0.8
+  T <p> 2220,11917 124x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Edmund Cuthbert"
+  B <div> 2216,11942 132x14 op=0.8
+  T <p> 2216,11942 132x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "Founder at Superposition"
+  B <div Variant 1> 2472,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 2478,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 2478,11594 305x99 pad=18px 
+  IMG 2542,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/xeGwnd3aYXqpW5qby827e0t9CB4.png?width=225&height=225 alt=""
+  B <div> 2478,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 2478,11693 305x125 pad=0px 36px 
+  T <p> 2514,11693 233x125 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | ""The website intent data has been really useful too. It was literally like 8 to 10x the number of hits that we were getting on Valley versus the other product that we were using at the time.""
+  B <div Client Detail> 2539,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 2608,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 2605,11861 52x52 radius=50% ovf=hidden
+  B <div> 2605,11861 52x52 radius=50%
+  IMG 2605,11861 52x52 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/R5AeuyDxdoeADin1x32gC6L5St0.png?width=480&height=480 alt=""
+  B <div Client Name & Desg> 2565,11917 130x39 flex column gap=4px jc=center ai=center 
+  B <div> 2608,11917 45x21 op=0.8
+  T <p> 2608,11917 45x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Sam Z"
+  B <div> 2565,11942 130x14 op=0.8
+  T <p> 2565,11942 130x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "Growth 10x Management"
+  B <div Variant 1> 2821,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 2827,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 2827,11594 305x99 pad=18px 
+  IMG 2891,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/qMlFY64Vqx8JelzVT6YLOjTuEKc.png?scale-down-to=512&width=889&height=732 alt=""
+  B <div> 2827,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 2827,11693 305x125 pad=0px 36px 
+  T <p> 2863,11693 233x125 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | ""I found myself looking at some of the messages that it's created and thinking like, wow, where did it find this? This went really deep to find information that you could never do in just a cursory search.""
+  B <div Client Detail> 2888,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 2957,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 2954,11861 52x52 radius=50% ovf=hidden
+  B <div> 2954,11861 52x52 radius=50%
+  IMG 2954,11861 52x52 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/WtSAHrTok8mtlR2CI7nq7oEQ6Y.jpeg?scale-down-to=512&width=800&height=800 alt=""
+  B <div Client Name & Desg> 2932,11917 95x39 flex column gap=4px jc=center ai=center 
+  B <div> 2944,11917 71x21 op=0.8
+  T <p> 2944,11917 71x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Tim O'Neil"
+  B <div> 2932,11942 95x14 op=0.8
+  T <p> 2932,11942 95x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "VP Sales & BizDev"
+  B <div Variant 1> 3170,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 3176,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 3176,11594 305x99 pad=18px 
+  IMG 3240,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/mRuougUbRy1GQgps9Eeug1DG18.png?width=500&height=344 alt=""
+  B <div> 3176,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 3176,11693 305x62 pad=0px 36px 
+  T <p> 3212,11693 233x62 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "“If you're not using tools like Valley, you will be left behind. This is the future. ”"
+  B <div Client Detail> 3237,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 3306,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 3303,11861 52x52 radius=50% ovf=hidden
+  B <div> 3303,11861 52x52 radius=50%
+  IMG 3303,11861 52x52 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/US3dcHl6lQODo0h1pv6U4JkIH7o.jpeg?scale-down-to=512&width=800&height=800 alt=""
+  B <div Client Name & Desg> 3277,11917 102x39 flex column gap=4px jc=center ai=center 
+  B <div> 3277,11917 102x21 op=0.8
+  T <p> 3277,11917 102x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Garrett Marker"
+  B <div> 3296,11942 65x14 op=0.8
+  T <p> 3296,11942 65x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "CRO @ Brex"
+  B <div Variant 1> 3519,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 3525,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 3525,11594 305x99 pad=18px 
+  IMG 3589,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/p1o11T9Jt3naTduCjFwxKLZqc.jpg?width=464&height=59 alt=""
+  B <div> 3525,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 3525,11693 305x146 pad=0px 36px 
+  T <p> 3561,11693 233x146 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | ""I'm able to come into those [pipeline review] meetings and be like, look at what I booked through Valley. You know, if my other kind of channels have slowed down, I'm like, but Valley, Valley's there.""
+  B <div Client Detail> 3586,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 3655,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 3652,11861 52x52 radius=50% ovf=hidden
+  B <div> 3652,11861 52x52 radius=50%
+  IMG 3652,11861 52x52 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/2cLT52mkcmCsZRQcm5LtdZPflg.png?width=480&height=480 alt=""
+  B <div Client Name & Desg> 3600,11917 154x39 flex column gap=4px jc=center ai=center 
+  B <div> 3600,11917 154x21 op=0.8
+  T <p> 3600,11917 154x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Angelene Perez-Vento"
+  B <div> 3620,11942 116x14 op=0.8
+  T <p> 3620,11942 116x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "AE at Growth Protocol"
+  B <div Variant 1> 3868,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 3874,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 3874,11594 305x99 pad=18px 
+  IMG 3938,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/7Rj9hCxcOkh3hnDV5SLMepxp0A.svg?scale-down-to=512&width=685&height=133 alt=""
+  B <div> 3874,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 3874,11693 305x166 pad=0px 36px 
+  T <p> 3910,11693 233x166 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "“A real response to a message Valley sent a prospect: “I was never considering anything until you reached out with a message that literally spoke to me.” The automation is great but the sauce within Valley is the messaging itself.”"
+  B <div Client Detail> 3935,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 4004,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 4001,11861 52x52 radius=50% ovf=hidden
+  B <div> 4001,11861 52x52 radius=50%
+  IMG 4001,11861 52x52 fit=cover pos=52.1% 43.8% radius=50% ovf=clip src=https://framerusercontent.com/images/ZLYSGUvKkVzLXYs0HskrNMPEys4.jpeg?width=500&height=500 alt=""
+  B <div Client Name & Desg> 3935,11917 184x39 flex column gap=4px jc=center ai=center 
+  B <div> 3972,11917 110x21 op=0.8
+  T <p> 3972,11917 110x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Jason Hardman"
+  B <div> 3935,11942 184x14 op=0.8
+  T <p> 3935,11942 184x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "Founding Enterprise AE @ Tacnode"
+  B <div Variant 1> 4217,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 4223,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 4223,11594 305x99 pad=18px 
+  IMG 4287,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/KrX5x7Ck65tnR95uH6lwq7cyhc.jpeg?width=200&height=200 alt=""
+  B <div> 4223,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 4223,11693 305x146 pad=0px 36px 
+  T <p> 4259,11693 233x146 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | ""If you don't have an active, engaged LinkedIn pipeline and you have a clearly defined ICP and persona, you need to add Valley to your tech stack immediately to supplement your sales.”"
+  B <div Client Detail> 4284,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 4353,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 4350,11861 52x52 radius=50% ovf=hidden
+  B <div> 4350,11861 52x52 radius=50%
+  IMG 4350,11861 52x52 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/xpYEgDiwByLk8eJwucCaEvb7tMU.jpeg?width=200&height=200 alt=""
+  B <div Client Name & Desg> 4319,11917 112x39 flex column gap=4px jc=center ai=center 
+  B <div> 4323,11917 105x21 op=0.8
+  T <p> 4323,11917 105x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Greg Kantziper"
+  B <div> 4319,11942 112x14 op=0.8
+  T <p> 4319,11942 112x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "Co-Founder at Kaster"
+  B <div Variant 1> 4566,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 4572,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 4572,11594 305x99 pad=18px 
+  IMG 4636,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/AzaTFg5utqMkNxsdehiBzaluLaI.png?width=200&height=200 alt="superposition logo"
+  B <div> 4572,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 4572,11693 305x146 pad=0px 36px 
+  T <p> 4608,11693 233x146 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | ""The messages it writes are actually really high-taste. I was really surprised by the personalization. I don’t want to be a bottleneck for those connection requests going out - it’s that good.""
+  B <div Client Detail> 4633,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 4702,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 4699,11861 52x52 radius=50% ovf=hidden
+  B <div> 4699,11861 52x52 radius=50%
+  IMG 4699,11861 52x52 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/homcQSgPT5DxHpbumCgZ7mevjTc.jpeg?scale-down-to=512&width=800&height=800 alt="edmund cuthbert"
+  B <div Client Name & Desg> 4659,11917 132x39 flex column gap=4px jc=center ai=center 
+  B <div> 4663,11917 124x21 op=0.8
+  T <p> 4663,11917 124x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Edmund Cuthbert"
+  B <div> 4659,11942 132x14 op=0.8
+  T <p> 4659,11942 132x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "Founder at Superposition"
+  B <div Variant 1> 4915,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 4921,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 4921,11594 305x99 pad=18px 
+  IMG 4985,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/xeGwnd3aYXqpW5qby827e0t9CB4.png?width=225&height=225 alt=""
+  B <div> 4921,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 4921,11693 305x125 pad=0px 36px 
+  T <p> 4957,11693 233x125 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | ""The website intent data has been really useful too. It was literally like 8 to 10x the number of hits that we were getting on Valley versus the other product that we were using at the time.""
+  B <div Client Detail> 4982,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 5051,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 5048,11861 52x52 radius=50% ovf=hidden
+  B <div> 5048,11861 52x52 radius=50%
+  IMG 5048,11861 52x52 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/R5AeuyDxdoeADin1x32gC6L5St0.png?width=480&height=480 alt=""
+  B <div Client Name & Desg> 5008,11917 130x39 flex column gap=4px jc=center ai=center 
+  B <div> 5051,11917 45x21 op=0.8
+  T <p> 5051,11917 45x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Sam Z"
+  B <div> 5008,11942 130x14 op=0.8
+  T <p> 5008,11942 130x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "Growth 10x Management"
+  B <div Variant 1> 5264,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 5270,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 5270,11594 305x99 pad=18px 
+  IMG 5334,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/qMlFY64Vqx8JelzVT6YLOjTuEKc.png?scale-down-to=512&width=889&height=732 alt=""
+  B <div> 5270,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 5270,11693 305x125 pad=0px 36px 
+  T <p> 5306,11693 233x125 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | ""I found myself looking at some of the messages that it's created and thinking like, wow, where did it find this? This went really deep to find information that you could never do in just a cursory search.""
+  B <div Client Detail> 5331,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 5400,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 5397,11861 52x52 radius=50% ovf=hidden
+  B <div> 5397,11861 52x52 radius=50%
+  IMG 5397,11861 52x52 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/WtSAHrTok8mtlR2CI7nq7oEQ6Y.jpeg?scale-down-to=512&width=800&height=800 alt=""
+  B <div Client Name & Desg> 5375,11917 95x39 flex column gap=4px jc=center ai=center 
+  B <div> 5387,11917 71x21 op=0.8
+  T <p> 5387,11917 71x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Tim O'Neil"
+  B <div> 5375,11942 95x14 op=0.8
+  T <p> 5375,11942 95x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "VP Sales & BizDev"
+  B <div Variant 1> 5613,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 5619,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 5619,11594 305x99 pad=18px 
+  IMG 5683,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/mRuougUbRy1GQgps9Eeug1DG18.png?width=500&height=344 alt=""
+  B <div> 5619,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 5619,11693 305x62 pad=0px 36px 
+  T <p> 5655,11693 233x62 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "“If you're not using tools like Valley, you will be left behind. This is the future. ”"
+  B <div Client Detail> 5680,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 5749,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 5746,11861 52x52 radius=50% ovf=hidden
+  B <div> 5746,11861 52x52 radius=50%
+  IMG 5746,11861 52x52 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/US3dcHl6lQODo0h1pv6U4JkIH7o.jpeg?scale-down-to=512&width=800&height=800 alt=""
+  B <div Client Name & Desg> 5720,11917 102x39 flex column gap=4px jc=center ai=center 
+  B <div> 5720,11917 102x21 op=0.8
+  T <p> 5720,11917 102x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Garrett Marker"
+  B <div> 5739,11942 65x14 op=0.8
+  T <p> 5739,11942 65x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "CRO @ Brex"
+  B <div Variant 1> 5962,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 5968,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 5968,11594 305x99 pad=18px 
+  IMG 6032,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/p1o11T9Jt3naTduCjFwxKLZqc.jpg?width=464&height=59 alt=""
+  B <div> 5968,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 5968,11693 305x146 pad=0px 36px 
+  T <p> 6004,11693 233x146 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | ""I'm able to come into those [pipeline review] meetings and be like, look at what I booked through Valley. You know, if my other kind of channels have slowed down, I'm like, but Valley, Valley's there.""
+  B <div Client Detail> 6029,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 6098,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 6095,11861 52x52 radius=50% ovf=hidden
+  B <div> 6095,11861 52x52 radius=50%
+  IMG 6095,11861 52x52 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/2cLT52mkcmCsZRQcm5LtdZPflg.png?width=480&height=480 alt=""
+  B <div Client Name & Desg> 6043,11917 154x39 flex column gap=4px jc=center ai=center 
+  B <div> 6043,11917 154x21 op=0.8
+  T <p> 6043,11917 154x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Angelene Perez-Vento"
+  B <div> 6063,11942 116x14 op=0.8
+  T <p> 6063,11942 116x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "AE at Growth Protocol"
+  B <div Variant 1> 6311,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 6317,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 6317,11594 305x99 pad=18px 
+  IMG 6381,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/7Rj9hCxcOkh3hnDV5SLMepxp0A.svg?scale-down-to=512&width=685&height=133 alt=""
+  B <div> 6317,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 6317,11693 305x166 pad=0px 36px 
+  T <p> 6353,11693 233x166 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "“A real response to a message Valley sent a prospect: “I was never considering anything until you reached out with a message that literally spoke to me.” The automation is great but the sauce within Valley is the messaging itself.”"
+  B <div Client Detail> 6378,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 6447,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 6444,11861 52x52 radius=50% ovf=hidden
+  B <div> 6444,11861 52x52 radius=50%
+  IMG 6444,11861 52x52 fit=cover pos=52.1% 43.8% radius=50% ovf=clip src=https://framerusercontent.com/images/ZLYSGUvKkVzLXYs0HskrNMPEys4.jpeg?width=500&height=500 alt=""
+  B <div Client Name & Desg> 6378,11917 184x39 flex column gap=4px jc=center ai=center 
+  B <div> 6415,11917 110x21 op=0.8
+  T <p> 6415,11917 110x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Jason Hardman"
+  B <div> 6378,11942 184x14 op=0.8
+  T <p> 6378,11942 184x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "Founding Enterprise AE @ Tacnode"
+  B <div Variant 1> 6660,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 6666,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 6666,11594 305x99 pad=18px 
+  IMG 6730,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/KrX5x7Ck65tnR95uH6lwq7cyhc.jpeg?width=200&height=200 alt=""
+  B <div> 6666,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 6666,11693 305x146 pad=0px 36px 
+  T <p> 6702,11693 233x146 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | ""If you don't have an active, engaged LinkedIn pipeline and you have a clearly defined ICP and persona, you need to add Valley to your tech stack immediately to supplement your sales.”"
+  B <div Client Detail> 6727,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 6796,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 6793,11861 52x52 radius=50% ovf=hidden
+  B <div> 6793,11861 52x52 radius=50%
+  IMG 6793,11861 52x52 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/xpYEgDiwByLk8eJwucCaEvb7tMU.jpeg?width=200&height=200 alt=""
+  B <div Client Name & Desg> 6762,11917 112x39 flex column gap=4px jc=center ai=center 
+  B <div> 6766,11917 105x21 op=0.8
+  T <p> 6766,11917 105x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Greg Kantziper"
+  B <div> 6762,11942 112x14 op=0.8
+  T <p> 6762,11942 112x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "Co-Founder at Kaster"
+  B <div Variant 1> 7009,11588 317x398 pad=6px bg=#ffffff/0.5 ovf=hidden
+  B <div Content> 7015,11594 305x386 flex column gap=0px jc=flex-start ai=center bg=#ffffff ovf=hidden
+  B <div Image Container> 7015,11594 305x99 pad=18px 
+  IMG 7079,11613 178x61 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/AzaTFg5utqMkNxsdehiBzaluLaI.png?width=200&height=200 alt="superposition logo"
+  B <div> 7015,11693 305x287 pad=0px 0px 24px flex column gap=normal jc=space-between ai=center 
+  B <div Testimonial Text> 7015,11693 305x146 pad=0px 36px 
+  T <p> 7051,11693 233x146 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | ""The messages it writes are actually really high-taste. I was really surprised by the personalization. I don’t want to be a bottleneck for those connection requests going out - it’s that good.""
+  B <div Client Detail> 7076,11864 184x92 flex column gap=8px jc=center ai=center 
+  B <div Client Image> 7145,11864 45x45 bg=#ffeadd radius=50% ovf=hidden
+  B <div Client Photo> 7142,11861 52x52 radius=50% ovf=hidden
+  B <div> 7142,11861 52x52 radius=50%
+  IMG 7142,11861 52x52 fit=cover pos=50% 50% radius=50% ovf=clip src=https://framerusercontent.com/images/homcQSgPT5DxHpbumCgZ7mevjTc.jpeg?scale-down-to=512&width=800&height=800 alt="edmund cuthbert"
+  B <div Client Name & Desg> 7102,11917 132x39 flex column gap=4px jc=center ai=center 
+  B <div> 7106,11917 124x21 op=0.8
+  T <p> 7106,11917 124x21 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/20.8px ls=normal w400 #000000 ta=center  | "Edmund Cuthbert"
+  B <div> 7102,11942 132x14 op=0.8
+  T <p> 7102,11942 132x14 | PP Neue Montreal Medium, PP Neue Montreal Medium 12px/14.4px ls=normal w400 #000000 ta=center  | "Founder at Superposition"
+
+######## [14] Spacer  y=12092 h=48 pos=relative
+  B <section Spacer> 0,12092 1280x48 bg=#f7f8f4 ovf=hidden
+
+######## [15] FAQ Section valley-start-questions y=12140 h=605 pos=relative
+  B <section FAQ Section> 0,12140 1280x605 pad=48px bg=#f8f9f7 ovf=hidden
+  B <div .vsq-faq> 48,12188 1184x509 pad=40px grid gap=48px cols=405.375px 648.625px jc=normal ai=normal bg=#ffffff border=1px 1px 1px 1px solid #d6dede
+  T <h2> 89,12229 240x86 | Valley Body Montreal, Arial 40px/43.2px ls=-1.6px w500 #1c292d  | "Questions, answered."
+  T <p> 89,12336 260x52 | Valley Body Montreal, Arial 18px/26.1px ls=normal w400 #52616a  | "The practical details before your first campaign."
+  B <details> 542,12229 649x72 border=1px 0px 1px 0px solid #cfd8d8
+  T <summary> 542,12230 649x70 | Valley Body Montreal, Arial 20px/26px ls=-0.4px w500 #1c292d pad=21px 0px  | "What do I need to get started?"
+  T <span> 1163,12251 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.4px w400 #547997  | "+"
+  T <p> 542,12300 649x77 | Valley Body Montreal, Arial 17px/26.35px ls=normal w400 #4a5b64 pad=0px 34px 24px 0px  | "Tell Valley what you sell, who you sell to and how you write. Choose a play or bring your own list, connect your sending accounts, then review the outreach before launch."
+  B <details> 542,12301 649x71 border=0px 0px 1px 0px none #1c292d b:#cfd8d8
+  T <summary> 542,12301 649x70 | Valley Body Montreal, Arial 20px/26px ls=-0.4px w500 #1c292d pad=21px 0px  | "Can I review and edit the messages?"
+  T <span> 1163,12322 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.4px w400 #547997  | "+"
+  T <p> 542,12371 649x77 | Valley Body Montreal, Arial 17px/26.35px ls=normal w400 #4a5b64 pad=0px 34px 24px 0px  | "Yes. Review, edit and approve drafts before they go out. You choose the sending schedule and follow-up steps for your campaign."
+  B <details> 542,12372 649x71 border=0px 0px 1px 0px none #1c292d b:#cfd8d8
+  T <summary> 542,12372 649x70 | Valley Body Montreal, Arial 20px/26px ls=-0.4px w500 #1c292d pad=21px 0px  | "Does Valley send email as well as LinkedIn messages?"
+  T <span> 1163,12393 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.4px w400 #547997  | "+"
+  T <p> 542,12442 649x103 | Valley Body Montreal, Arial 17px/26.35px ls=normal w400 #4a5b64 pad=0px 34px 24px 0px  | "Yes. Combine email and LinkedIn in the same sequence. Email sending is an optional add-on on the base plan; the middle and upper plans include 1,000 email messages per month. Connect your Gmail or Microsoft inbox to send."
+  B <details> 542,12443 649x71 border=0px 0px 1px 0px none #1c292d b:#cfd8d8
+  T <summary> 542,12443 649x70 | Valley Body Montreal, Arial 20px/26px ls=-0.4px w500 #1c292d pad=21px 0px  | "Which plan includes email and priority support?"
+  T <span> 1163,12464 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.4px w400 #547997  | "+"
+  T <p> 542,12513 649x156 | Valley Body Montreal, Arial 17px/26.35px ls=normal w400 #4a5b64 pad=0px 34px 24px 0px  | "Starter is $199/month or $149/month billed quarterly. Email sending, priority Slack support, and an onboarding call are optional add-ons. Plus, at $299/month or $249/month billed quarterly, includes 1,000 email messages per month, a priority support Slack group, and an onboarding call. Growth includ"
+  B <details> 542,12514 649x71 border=0px 0px 1px 0px none #1c292d b:#cfd8d8
+  T <summary> 542,12514 649x70 | Valley Body Montreal, Arial 20px/26px ls=-0.4px w500 #1c292d pad=21px 0px  | "What uses credits?"
+  T <span> 1163,12535 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.4px w400 #547997  | "+"
+  T <p> 542,12584 649x103 | Valley Body Montreal, Arial 17px/26.35px ls=normal w400 #4a5b64 pad=0px 34px 24px 0px  | "Finding new prospects, finding and verifying email addresses, and upgraded message generation use credits. Research, base message writing, imports and LinkedIn sending are included in the subscription."
+  B <details> 542,12585 649x71 border=0px 0px 1px 0px none #1c292d b:#cfd8d8
+  T <summary> 542,12585 649x70 | Valley Body Montreal, Arial 20px/26px ls=-0.4px w500 #1c292d pad=21px 0px  | "How does the free trial work?"
+  T <span> 1163,12606 28x28 | Valley Body Montreal, Arial 22px/24.2px ls=-0.4px w400 #547997  | "+"
+  T <p> 542,12655 649x77 | Valley Body Montreal, Arial 17px/26.35px ls=normal w400 #4a5b64 pad=0px 34px 24px 0px  | "Eligible new subscribers get a 7-day trial. A payment method is required. Cancel before the trial ends to avoid starting the paid subscription."
+
+######## [16] Desktop vf y=12745 h=597 pos=static
+  B <div Desktop> 0,12745 1280x597 bg=#1c3036 ovf=hidden
+  B <footer .vf> 0,12745 1280x597 bg=#1c3036
+  B <div .vf-inner> 0,12745 1280x597 pad=64px 48px 28px 
+  B <div .vf-top> 48,12809 1184x223 pad=0px 0px 48px grid gap=64px cols=653.328px 466.656px jc=normal ai=center border=0px 0px 1px 0px none #f8f9f7 b:#ffffff/0.19
+  T <h2> 48,12809 650x99 | ValleyFooter, Arial 44px/49.28px ls=-1.54px w500 #f8f9f7  | "Find your people. Give them a reason to reply."
+  T <p> 48,12926 570x57 | ValleyFooter, Arial 19px/28.5px ls=normal w400 #c2d0d2  | "Find, qualify, research, and reach your next buyers across email and LinkedIn."
+  B <div .vf-actions> 765,12870 467x52 flex row gap=16px jc=flex-end ai=normal 
+  T <a> 922,12870 152x52 | ValleyFooter, Arial 17px/normal ls=normal w400 #1c3036 pad=15px 22px bg=#f8f9f7 border=1px 1px 1px 1px solid #f8f9f7 | "Start for free →"
+  T <a> 1090,12870 142x52 | ValleyFooter, Arial 17px/normal ls=normal w400 #f8f9f7 pad=15px 22px border=1px 1px 1px 1px solid #718589 | "Book a demo"
+  B <div .vf-links> 48,13032 1184x242 pad=44px 0px grid gap=48px cols=448px 320px 320px jc=normal ai=normal 
+  T <a> 48,13076 448x38 | ValleyFooter, Arial 30px/normal ls=-1.05px w500 #f8f9f7  | "Valley"
+  SVG 48,13076 38x38 fill=#f8f9f7 stroke=none color=#f8f9f7 
+  T <p> 48,13114 290x45 | ValleyFooter, Arial 15px/22.5px ls=normal w400 #bbcdce  | "Your outbound team. One connected platform."
+  T <a> 48,13159 89x14 | ValleyFooter, Arial 12px/normal ls=normal w400 #f8f9f7  | "hey@joinvalley.co"
+  B <nav> 544,13076 320x154 flex column gap=14px jc=normal ai=flex-start 
+  T <strong> 544,13076 106x14 | ValleyFooter, Arial 12px/normal ls=0.72px w400 #9eb6ba tt=uppercase  | "Explore Valley"
+  T <a> 544,13112 54x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Product"
+  T <a> 544,13145 74x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Customers"
+  T <a> 544,13178 64x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Agencies"
+  T <a> 544,13211 47x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Pricing"
+  B <nav> 912,13076 320x154 flex column gap=14px jc=normal ai=flex-start 
+  T <strong> 912,13076 82x14 | ValleyFooter, Arial 12px/normal ls=0.72px w400 #9eb6ba tt=uppercase  | "Learn more"
+  T <a> 912,13112 73x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Resources"
+  T <a> 912,13145 68x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "All articles"
+  T <a> 912,13178 83x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "About Valley"
+  T <a> 912,13211 41x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Log in"
+  B <div .vf-bottom> 48,13274 1184x40 pad=24px 0px 0px flex row gap=20px jc=space-between ai=normal border=1px 0px 0px 0px solid #ffffff/0.19 b:#b4c7c9
+  T <span> 48,13299 150x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "© Valley. All rights reserved."
+  B <div> 1043,13299 189x15 flex row gap=24px jc=normal ai=normal 
+  T <a> 1043,13299 75x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "Privacy policy"
+  T <a> 1142,13299 90x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "Terms of service"

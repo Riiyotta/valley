@@ -1,0 +1,27 @@
+{
+  "category": "semantic-color",
+  "description": "Semantic roles built from 00-foundation/color.json. An LLM generating a PageSpec references these role names, never a raw hex, per Genesis principle 'layer tokens by role, not by value.'",
+  "resolvesFrom": "../00-foundation/color.json",
+  "tokens": {
+    "text.primary": { "resolvesTo": "ink.default", "value": "#19282e" },
+    "text.primary-on-vgs": { "resolvesTo": "ink.vgs", "value": "#1c292e" },
+    "text.secondary": { "resolvesTo": "grey.body", "value": "#52636c" },
+    "text.eyebrow": { "resolvesTo": "grey.hero-eyebrow", "value": "#4a5e68" },
+    "text.on-dark": { "resolvesTo": "ink.on-dark", "value": "#f6f8f4" },
+    "text.on-dark-secondary": { "resolvesTo": "grey.on-dark-b8", "value": "#b8cbce" },
+    "text.link": { "resolvesTo": "accent.default", "value": "#376f9c" },
+    "text.link-login": { "resolvesTo": "accent.login", "value": "#002669" },
+    "surface.page": { "resolvesTo": "surface.default", "value": "#f8f9f7" },
+    "surface.page-vgs": { "resolvesTo": "surface.vgs", "value": "#f7f9f7" },
+    "surface.card": { "resolvesTo": "surface.card", "value": "#ffffff" },
+    "surface.brand-dark": { "resolvesTo": "dark.button", "value": "#19282e" },
+    "surface.panel-offer": { "resolvesTo": "surface.offer", "value": "#e8eff0" },
+    "surface.panel-team": { "resolvesTo": "surface.team", "value": "#e8efef" },
+    "border.default": { "resolvesTo": "line.default", "value": "#d6dfdd" },
+    "border.faq": { "resolvesTo": "line.faq", "value": "#cfd8d8" },
+    "border.on-dark": { "resolvesTo": "line.footer", "value": "rgba(255,255,255,0.19)" },
+    "accent.brand": { "resolvesTo": "accent.default", "value": "#376f9c" },
+    "success.check": { "resolvesTo": "leaf.check", "value": "#4a755c" },
+    "indicator.linkedin": { "resolvesTo": "accent.blink", "value": "#0077b5" }
+  }
+}

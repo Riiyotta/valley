@@ -1,0 +1,11 @@
+{
+  "id": "tab-group",
+  "layer": "component",
+  "description": "Group of tab primitives with active-state switching, used by hero-visual, showcase, integrations, team-fit.",
+  "composes": ["tab"],
+  "measuredFrom": "CLONE_SPEC.md typography roles (hero tab, showcase tab)",
+  "props": {
+    "items": { "type": "array", "minItems": 2, "maxItems": 6 },
+    "activeIndex": { "type": "number" }
+  }
+}

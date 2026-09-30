@@ -1,0 +1,10 @@
+{
+  "id": "divider",
+  "layer": "primitive",
+  "description": "Hairline rule, real border tokens only.",
+  "measuredFrom": "tokens/00-foundation/color.json line.* tokens",
+  "props": {
+    "color": { "type": "string", "enum": ["border.default", "border.faq", "border.on-dark"] },
+    "orientation": { "type": "string", "enum": ["horizontal", "vertical"] }
+  }
+}

@@ -1,0 +1,106 @@
+/* /product Framer layers. Values: spec/pages/product.md and the page module's Framer CSS
+   (spec/pages/product/source, framer-tK2wI rules). Page breakpoints are the homepage ones
+   (Desktop >= 1200, Tablet 810-1199.98, Phone <= 809.98); per the module, Tablet only changes
+   the showcase padding. */
+
+.product-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: theme('colors.surface.DEFAULT');
+}
+/* Code-component wrappers (Framer "-container" layers) are full width. */
+.product-page > * { width: 100%; }
+
+/* ---------- showcase (Showcase frameClassName="pd-showcase") ---------- */
+#showcase.pd-showcase {
+  padding: 56px 48px;
+  overflow: visible;
+}
+#showcase.pd-showcase .showcase-container {
+  max-width: 1600px;
+}
+
+/* ---------- workflow ---------- */
+.pd-workflow {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1800px;
+  margin-inline: auto;
+  padding: 48px;
+  background: theme('colors.surface.DEFAULT');
+  overflow: visible;
+  scroll-margin-top: 84px;
+}
+.pd-workflow-col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  width: 100%;
+  max-width: 1360px;
+}
+.pd-workflow-item {
+  position: relative;
+  flex: none;
+  width: 100%;
+  height: auto;
+}
+.pd-stack { position: sticky; }
+.pd-stack-1 { top: 99px; z-index: 1; }
+.pd-stack-2 { top: 102px; z-index: 2; }
+.pd-stack-3 { top: 105px; z-index: 3; }
+.pd-stack-4 { top: 108px; z-index: 4; }
+.pd-stack-5 { top: 111px; z-index: 5; }
+.pd-stack-6 { top: 114px; z-index: 6; }
+.pd-stack-7 { top: 117px; z-index: 7; }
+
+/* ---------- proof / team-fit / comparison / pricing-faq wrappers ----------
+   max-width 1456, padding 48 (phone 32 20), overflow clip; containers max 1360. */
+.stories.pd-frame {
+  max-width: 1456px;
+  padding: 48px;
+}
+#team-fit.pd-frame {
+  max-width: 1456px;
+  padding: 48px;
+}
+.pd-comparison {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1456px;
+  margin-inline: auto;
+  padding: 48px;
+  overflow: clip;
+  position: relative;
+}
+.pd-comparison-container {
+  width: 100%;
+  max-width: 1360px;
+  position: relative;
+}
+#pricing-faq.pf-frame.pd-frame {
+  max-width: 1456px;
+  padding: 48px;
+  overflow: clip;
+}
+
+@media screen(tablet) {
+  #showcase.pd-showcase { padding: 48px 28px; }
+}
+@media screen(phone) {
+  #showcase.pd-showcase { padding: 40px 20px; }
+  .pd-workflow { padding: 48px 20px; }
+  .pd-stack { position: relative; top: auto; }
+  .stories.pd-frame,
+  #team-fit.pd-frame,
+  .pd-comparison,
+  #pricing-faq.pf-frame.pd-frame { padding: 32px 20px; }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "rich-text-block",
+  "layer": "component",
+  "description": "Long-form body renderer (headings, paragraphs, lists, blockquote, image, table, inline/block code). Backs blog-post and case-study article bodies via src/components/longform/RichText.jsx + placeholderArticle.js. CONTENT POLICY: the body content this component renders is ALWAYS generated placeholder text, never measured-real copy — see sections/content-article-body.json for the full compliance note.",
+  "measuredFrom": "src/components/longform/placeholderArticle.js:1-9; src/components/longform/RichText.jsx",
+  "props": {
+    "sections": {
+      "type": "array",
+      "items": {
+        "id": { "type": "string", "pattern": "^(blog-section[0-9]?|cs-section-[0-9]+)$" },
+        "title": { "type": "string", "maxWords": 12 },
+        "blocks": { "type": "array" }
+      }
+    }
+  },
+  "contentPolicy": {
+    "status": "generated-placeholder-not-measured-real",
+    "citation": "src/components/longform/placeholderArticle.js:1-9",
+    "rule": "Deterministic per seed (string hash), so pages differ from each other but never change between loads. AI generation for this field MAY produce new neutral outbound-sales filler text; it must never attempt to reproduce Valley's real, unrecorded article bodies."
+  }
+}

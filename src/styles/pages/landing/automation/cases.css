@@ -1,0 +1,437 @@
+/* /linkedin-automation "Case Study Section" (spec 6 la-case-studies; dump [5]; hover diffs in
+   raw/hover_linkedin-automation.json). */
+
+.la-outline-label--wide {
+  padding: 6px 13px;
+}
+
+.la-cases {
+  position: relative;
+  background: #f7f8f4;
+  overflow: hidden;
+}
+.la-cases::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  pointer-events: none;
+}
+.la-cases__content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 64px 48px;
+  background: #f7f8f4;
+  overflow: hidden;
+}
+.la-cases__content::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #e0e0e0;
+  border-top-width: 0;
+  pointer-events: none;
+}
+.la-cases__head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+}
+.la-cases__head h3 {
+  font: 500 40px/44px theme('fontFamily.ppnm-medium');
+  color: #1d2a2e;
+  text-align: left;
+}
+.la-cases__rows {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
+}
+.la-cases__row {
+  display: flex;
+  gap: 18px;
+  height: 344px;
+}
+
+/* ---------- card ---------- */
+.la-case {
+  position: relative;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  min-width: 0;
+  padding: 24px;
+  background: #f2f2f2;
+  color: #000;
+  text-decoration: none;
+  overflow: hidden;
+}
+.la-case__frame {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.la-case__headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  width: 100%;
+}
+.la-case__headline h6 {
+  width: 80%;
+  font: 400 24px/28.8px theme('fontFamily.ppnm-medium');
+  color: #000;
+}
+.la-case__labels {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.la-case__tag {
+  position: relative;
+  padding: 4px 6px;
+  border-radius: 3px;
+  font: 400 12px/14.4px "Valley Landing Geist Mono", monospace;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.la-case__tag::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid;
+  border-radius: 3px;
+  pointer-events: none;
+}
+.la-case__tag--solid {
+  background: #000;
+  color: #fff;
+}
+.la-case__tag--solid::after {
+  border-color: #e9e9e9;
+}
+.la-case__tag--outline {
+  color: #000;
+}
+.la-case__tag--outline::after {
+  border-color: #9f9f9f;
+}
+.la-case__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+}
+.la-case--nologo .la-case__bottom {
+  height: auto;
+}
+.la-case__client {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.la-case__name,
+.la-case__role {
+  font: 400 14px/16.8px theme('fontFamily.ppnm-medium');
+  white-space: nowrap;
+}
+.la-case__name {
+  color: #000;
+}
+.la-case__role {
+  color: #595959;
+}
+.la-case__logo {
+  flex: none;
+  width: 150px;
+  height: 60px;
+  object-fit: contain;
+}
+.la-case__logo--tall {
+  height: 77px;
+}
+.la-case__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 29px;
+  width: 100%;
+}
+.la-case__stats {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+.la-case__stat {
+  position: relative;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  gap: 2px;
+  padding: 9px 12px;
+  background: #f8f8f8;
+  overflow: hidden;
+}
+.la-case__stat::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #e9e9e9;
+  pointer-events: none;
+}
+.la-case__stat h6 {
+  font: 400 20px/24px theme('fontFamily.ppnm-medium');
+  color: #000;
+}
+.la-case__stat p {
+  font: 400 14px/16.8px theme('fontFamily.ppnm-medium');
+  color: rgba(0, 0, 0, 0.6);
+}
+.la-case__details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 23px;
+  width: 100%;
+}
+.la-case__quote {
+  width: 90%;
+  font: 400 16px/20.8px theme('fontFamily.ppnm-medium');
+  color: rgba(0, 0, 0, 0.6);
+  text-align: left;
+}
+.la-case__arrow {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14px;
+  height: 14px;
+  transform: rotate(-45deg);
+}
+.la-case__arrow-icon {
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: url("/assets/pages/landing/svg/case-arrow.svg") 0 0 / 100% 100% no-repeat;
+}
+.la-case--image .la-case__arrow-icon,
+.la-case:not(.la-case--image):hover .la-case__arrow-icon {
+  background-image: url("/assets/pages/landing/svg/case-arrow-hover.svg");
+}
+
+/* GGWP image card ("Variant 1"): black, full-bleed photo, white type. */
+.la-case--image {
+  background: #000;
+}
+.la-case__bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+.la-case__bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.la-case--image .la-case__headline h6 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+}
+.la-case--image .la-case__tag--solid {
+  background: #fff;
+  color: #000;
+}
+.la-case--image .la-case__tag--outline {
+  color: #fff;
+}
+.la-case--image .la-case__tag--outline::after {
+  border-color: #fff;
+}
+.la-case__badge {
+  align-self: flex-start;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+/* ---------- hover ----------
+   Measured frame by frame on live (Kaster, 10x, Tacnode, Franq cards): every colour tweens
+   335ms cubic-bezier(.44, 0, .56, 1) both ways (rms .004), but Framer mixes each channel as
+   sqrt(a^2 (1-t) + b^2 t), so a plain CSS colour transition would read lighter mid-way. One
+   registered number, --la-t, carries the eased progress and every colour is rebuilt from it
+   with the same formula (at rest t = 0 gives back exactly the static colours).
+   The h6 headings are the exception: on hover they restart from transparent white and fade
+   to #fff on the same curve; on leave they drop back to #000 instantly. */
+@property --la-t {
+  syntax: '<number>';
+  inherits: true;
+  initial-value: 0;
+}
+.la-case:not(.la-case--image) {
+  --lp-appear-extra: --la-t 335ms cubic-bezier(0.44, 0, 0.56, 1);
+  transition: --la-t 335ms cubic-bezier(0.44, 0, 0.56, 1);
+}
+.la-case:not(.la-case--image):hover {
+  --la-t: 1;
+}
+.la-case:not(.la-case--image):hover .la-case__headline h6,
+.la-case:not(.la-case--image):hover .la-case__stat h6 {
+  color: rgba(255, 255, 255, var(--la-t));
+}
+@supports (width: calc(sqrt(4) * 1px)) {
+  .la-case:not(.la-case--image) {
+    --la-v: calc(sqrt(58564 - 58564 * var(--la-t)));
+    background: rgb(var(--la-v) var(--la-v) var(--la-v));
+  }
+  .la-case:not(.la-case--image) .la-case__tag--solid {
+    --la-bg: calc(sqrt(65025 * var(--la-t)));
+    --la-fg: calc(sqrt(65025 - 65025 * var(--la-t)));
+    background: rgb(var(--la-bg) var(--la-bg) var(--la-bg));
+    color: rgb(var(--la-fg) var(--la-fg) var(--la-fg));
+  }
+  .la-case:not(.la-case--image) .la-case__tag--outline,
+  .la-case:not(.la-case--image) .la-case__name {
+    --la-v: calc(sqrt(65025 * var(--la-t)));
+    color: rgb(var(--la-v) var(--la-v) var(--la-v));
+  }
+  .la-case:not(.la-case--image) .la-case__role {
+    --la-v: calc(sqrt(7921 + 17043 * var(--la-t)));
+    color: rgb(var(--la-v) var(--la-v) var(--la-v));
+  }
+  .la-case:not(.la-case--image) .la-case__stat {
+    --la-v: calc(sqrt(61504 - 60543 * var(--la-t)));
+    background: rgb(var(--la-v) var(--la-v) var(--la-v));
+  }
+  .la-case:not(.la-case--image) .la-case__stat p {
+    --la-v: calc(sqrt(37636 * var(--la-t)));
+    color: rgb(var(--la-v) var(--la-v) var(--la-v) / 0.6);
+  }
+  .la-case:not(.la-case--image) .la-case__quote {
+    --la-v: calc(sqrt(42849 * var(--la-t)));
+    color: rgb(var(--la-v) var(--la-v) var(--la-v) / 0.6);
+  }
+}
+/* Fallback without CSS sqrt(): the measured end states, switched instantly. */
+@supports not (width: calc(sqrt(4) * 1px)) {
+  .la-case:not(.la-case--image):hover {
+    background: #000;
+  }
+  .la-case:not(.la-case--image):hover .la-case__name,
+  .la-case:not(.la-case--image):hover .la-case__tag--outline {
+    color: #fff;
+  }
+  .la-case:not(.la-case--image):hover .la-case__tag--solid {
+    background: #fff;
+    color: #000;
+  }
+  .la-case:not(.la-case--image):hover .la-case__role {
+    color: #9e9e9e;
+  }
+  .la-case:not(.la-case--image):hover .la-case__stat {
+    background: #1f1f1f;
+  }
+  .la-case:not(.la-case--image):hover .la-case__stat p {
+    color: rgba(194, 194, 194, 0.6);
+  }
+  .la-case:not(.la-case--image):hover .la-case__quote {
+    color: rgba(207, 207, 207, 0.6);
+  }
+}
+/* GGWP: the photo grows from 436x344 to 471x372 around its centre (x1.08). Live frames fit
+   420ms cubic-bezier(.4, .05, .45, .8) (rms .002), the same both ways. */
+.la-case--image .la-case__bg img {
+  transition: transform 420ms cubic-bezier(0.4, 0.05, 0.45, 0.8);
+}
+.la-case--image:hover .la-case__bg img {
+  transform: scale(1.08);
+}
+
+@media screen(below-desktop) {
+  .la-cases__content {
+    gap: 28px;
+    padding: 44px 20px;
+  }
+  .la-cases__head h3 {
+    width: 100%;
+    font-size: 32px;
+    line-height: 35.2px;
+    text-align: center;
+  }
+  .la-cases__row {
+    flex-direction: column;
+    height: auto;
+  }
+  .la-case {
+    flex: none;
+    width: 100%;
+    padding: 16px;
+  }
+  .la-case__frame {
+    flex: none;
+    justify-content: center;
+    gap: 64px;
+  }
+  .la-case--stats .la-case__frame,
+  .la-case--quote .la-case__frame {
+    gap: 48px;
+  }
+  .la-case__bottom {
+    align-items: flex-start;
+    height: 40px;
+  }
+  .la-case--nologo .la-case__bottom,
+  .la-case--quote .la-case__bottom {
+    height: auto;
+  }
+  .la-case__logo {
+    align-self: center;
+    width: 100px;
+    height: 40px;
+  }
+  .la-case__logo--tall {
+    height: 51px;
+  }
+  .la-case__logo--desktop {
+    display: none;
+  }
+  .la-case__stats {
+    flex-direction: column;
+  }
+  .la-case__stat {
+    flex: none;
+    width: 100%;
+  }
+  .la-case__quote {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+  .la-case--image {
+    height: 344px;
+    padding: 24px;
+  }
+  .la-case--image .la-case__frame {
+    flex: 1 1 0;
+    justify-content: space-between;
+    gap: 0;
+  }
+}

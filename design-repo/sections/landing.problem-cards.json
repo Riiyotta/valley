@@ -1,0 +1,23 @@
+{
+  "id": "landing.problem-cards",
+  "layer": "section",
+  "purpose": "3-card 'Process V2' problem/solution strip on the SEO landing-template routes.",
+  "measuredFrom": "spec/pages/landing.md:196-222",
+  "content": {
+    "type": "object",
+    "properties": {
+      "eyebrow": { "type": "string", "maxWords": 6 },
+      "h2": { "type": "string", "maxWords": 10 },
+      "lead": { "type": "string", "maxWords": 24 },
+      "cards": { "type": "array", "minItems": 3, "maxItems": 3, "items": { "type": "object", "properties": { "title": { "type": "string", "maxWords": 8 }, "body": { "type": "string", "maxWords": 20 }, "tag": { "type": "string", "maxWords": 6 } }, "required": ["title", "body"], "additionalProperties": false } }
+    },
+    "required": ["h2", "cards"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "landingSeoTemplateOnly" },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a", "note": "cards register an IntersectionObserver but no sampled transform/opacity change occurs (spec/pages/landing.md:217)" },
+  "assetRoles": {
+    "card-screenshot": { "enum": "product-screenshot", "generationPolicy": "may-generate-new", "guidance": "Synthetic product screenshot bleeding off card edge; safe to AI-generate." },
+    "card-watercolor-bg": { "enum": "hero-visual-art", "generationPolicy": "may-generate-new", "guidance": "Abstract watercolor background; safe to AI-generate." }
+  }
+}

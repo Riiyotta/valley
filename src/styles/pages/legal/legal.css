@@ -1,0 +1,60 @@
+/* /terms-of-service and /privacy-policy (spec/pages/legal.md; Framer rules in
+   spec/pages/legal/components.css). The page's only breakpoint is max-width 1199.98px
+   (padding 112/20/48 and the 38px title); 810-1199 re-measured live in the tablet audit. */
+
+.lg-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+.lg-col {
+  width: 100%;
+  max-width: 856px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  padding: 140px 48px 72px;
+  overflow: hidden;
+}
+.lg-title { width: 100%; display: flex; flex-direction: column; }
+.lg-title h1, .lg-subtitle {
+  margin: 0;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 56px;
+  line-height: 62.72px;
+  letter-spacing: -1.68px;
+  font-weight: 500;
+  color: #1c292d;
+}
+.lg-body { width: 100%; display: flex; flex-direction: column; }
+.lg-body p {
+  margin: 0;
+  font-family: "PP Neue Montreal Variable", "PP Neue Montreal Variable Placeholder", sans-serif;
+  font-size: 20px;
+  line-height: 31px;
+  font-weight: 400;
+  color: #4e606a;
+  text-align: left;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+.lg-body strong { font-weight: 700; color: #4e606a; }
+.lg-body em { font-style: italic; }
+.lg-link { color: #002669; text-decoration: none; transition: all 0s; }
+.lg-link strong { color: inherit; }
+.lg-link:hover { color: #000; text-decoration: underline; }
+.lg-link--plain, .lg-link--plain:hover { color: #4e606a; text-decoration: none; }
+
+@media (max-width: 1199.98px) {
+  .lg-col { padding: 112px 20px 48px; }
+  .lg-title h1, .lg-subtitle { font-size: 38px; line-height: 42.56px; letter-spacing: -1.14px; }
+  .lg-body p { font-size: 18px; line-height: 27.9px; }
+  /* live: the title spans the column (816 at 1100) but the text block stays 760 wide */
+  .lg-body { max-width: 760px; }
+}

@@ -1,0 +1,1310 @@
+/* /casestudies/:slug (spec/pages/casestudy.md; Framer page 5psgT rules in
+   spec/pages/casestudy/components.css). Breakpoints on this page: phone <= 809.98,
+   tablet 810-1279.98, desktop >= 1280. Tablet values are the Framer rules (not measured live). */
+
+.cs-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: #f8f9f7;
+  -webkit-font-smoothing: antialiased;
+}
+.cs-page p, .cs-page h1, .cs-page h2, .cs-page h3, .cs-page h5 { margin: 0; }
+
+/* shared chip (hero stats: white; body chips and result stats: black) */
+.cs-chip {
+  position: relative;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: min-content;
+  height: 24px;
+  padding: 6px 12px;
+  white-space: nowrap;
+}
+.cs-chip--auto { height: auto; }
+.cs-chip::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #000;
+  pointer-events: none;
+}
+.cs-chip--light::after { border-color: #fff; }
+.cs-chip-icon {
+  position: relative;
+  flex: 0 0 auto;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+.cs-chip-icon .csx-arrow { position: absolute; top: 3px; left: 3px; }
+.cs-chip-icon--body .csx-arrow { width: 9px; height: 10px; }
+.cs-chip-text {
+  font-family: "Geist Mono Regular", "Geist Mono Regular Placeholder", monospace;
+  font-size: 14px;
+  line-height: 16.8px;
+  font-weight: 400;
+  color: #000;
+}
+.cs-chip--light .cs-chip-text { color: #fff; }
+
+/* ---------- 2. Hero ---------- */
+.cs-hero {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #1a3037;
+}
+.cs-hero-pad {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 148px 48px 72px;
+  background: #1a3037;
+  box-shadow: rgba(88, 92, 95, 0.2) 0px 40px 96px -8px;
+}
+.cs-hero-frame {
+  flex: 1 0 0px;
+  width: 1px;
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+.cs-hero-title-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.cs-hero-title {
+  flex: 1 0 0px;
+  width: 1px;
+  max-width: 960px;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 56px;
+  line-height: 62.72px;
+  letter-spacing: -1.68px;
+  font-weight: 500;
+  color: #fff;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+.cs-hero-stats {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.cs-hero-stat {
+  position: relative;
+  flex: 1 0 0px;
+  width: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 24px;
+}
+.cs-hero-stat::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-left: 1px solid rgba(255, 255, 255, 0.25);
+  pointer-events: none;
+}
+.cs-hero-stat-label {
+  width: 100%;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.cs-hero-stat-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: min-content;
+}
+.cs-hero-stat-value {
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 56px;
+  line-height: 56px;
+  font-weight: 500;
+  color: #fff;
+  white-space: nowrap;
+}
+
+/* ---------- 3. Testimonial + CTA line ---------- */
+.cs-testi, .cs-body, .cs-more {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 72px 48px;
+  background: #f8f9f7;
+}
+.cs-testi-inner {
+  width: 100%;
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  overflow: hidden;
+}
+.cs-testi-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+}
+.cs-testi-photo {
+  position: relative;
+  flex: 0 0 auto;
+  width: 28%;
+  aspect-ratio: 1.09689 / 1;
+}
+.cs-testi-photo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.cs-testi-quote {
+  flex: 1 0 0px;
+  width: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  overflow: hidden;
+}
+.cs-testi-text {
+  width: 100%;
+  max-width: 960px;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 40px;
+  line-height: 44.8px;
+  letter-spacing: -1.2px;
+  font-weight: 500;
+  color: #1c292d;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+.cs-testi-who {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  width: min-content;
+}
+.cs-testi-name {
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #000;
+  white-space: nowrap;
+}
+.cs-testi-role {
+  font-family: "Geist Mono Regular", "Geist Mono Regular Placeholder", monospace;
+  font-size: 12px;
+  line-height: 14.4px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.cs-testi-rule { width: 100%; height: 1px; background: #d9d9d9; overflow: hidden; }
+.cs-testi-cta {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.cs-testi-cta-text {
+  flex: 1 0 0px;
+  width: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  overflow: hidden;
+}
+.cs-testi-cta-text h2 {
+  width: 100%;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 28px;
+  line-height: 39.2px;
+  font-weight: 400;
+  color: #000;
+  text-align: left;
+}
+.cs-testi-cta-text p {
+  width: 100%;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 16px;
+  line-height: 20.8px;
+  font-weight: 400;
+  color: #000;
+  text-align: left;
+}
+
+/* ---------- 4. Body: article (left) + sticky sidebar (right) ---------- */
+.cs-body-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 48px;
+}
+.cs-article {
+  flex: 1 0 0px;
+  width: 1px;
+  max-width: 760px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 42px;
+}
+.cs-article-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  padding-bottom: 16px;
+}
+.cs-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  scroll-margin-top: 240px;
+}
+.cs-group-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  overflow: hidden;
+}
+.cs-group-title {
+  width: 100%;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 40px;
+  line-height: 44.8px;
+  letter-spacing: -1.2px;
+  font-weight: 500;
+  color: #1c292d;
+}
+.cs-group-body .cs-rich { width: 100%; }
+
+.cs-pullquote {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 48px;
+}
+.cs-pullquote::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-top-width: 0;
+  pointer-events: none;
+}
+.cs-pullquote-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.cs-pullquote-panel {
+  position: relative;
+  flex: 1 0 0px;
+  width: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 48px 28px;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: rgba(27, 28, 29, 0.02) 0px 2px 4px 0px, rgba(27, 28, 29, 0.06) 0px 6px 10px 0px, rgba(228, 229, 231, 0.48) 0px -3px 3px 0px inset;
+}
+.cs-pullquote-mark {
+  flex: 0 0 auto;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #000;
+}
+.cs-pullquote-text {
+  flex: 1 0 0px;
+  width: 1px;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 28px;
+  line-height: 39.2px;
+  font-weight: 400;
+  color: #000;
+}
+
+.cs-results {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0;
+  overflow: hidden;
+}
+.cs-result {
+  position: relative;
+  flex: 1 0 0px;
+  width: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 20px 24px;
+}
+.cs-result::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.25);
+  pointer-events: none;
+}
+.cs-result-label {
+  height: 40px;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+/* live text boxes: 168 / 183 / 147 wide, 40 tall */
+.cs-result-label--0 { width: 168px; }
+.cs-result-label--1 { width: 183px; }
+.cs-result-label--2 { width: 147px; }
+.cs-result-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: min-content;
+}
+.cs-result-value {
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 48px;
+  line-height: 57.6px;
+  font-weight: 400;
+  color: #000;
+  white-space: nowrap;
+}
+
+/* sidebar */
+.cs-side {
+  position: sticky;
+  top: 220px;
+  z-index: 1;
+  flex: 0 0 auto;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.cs-about {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.cs-about::after, .cs-cta::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #d9d9d9;
+  pointer-events: none;
+}
+.cs-about-logo {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 0 0 12px;
+  background: #fff;
+  overflow: clip;
+}
+.cs-about-logo img {
+  flex: 1 0 0px;
+  width: 1px;
+  height: 47px;
+  object-fit: contain;
+  object-position: 50% 50%;
+}
+.cs-about-text {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 24px;
+}
+.cs-about-text::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-top: 1px solid #d9d9d9;
+  pointer-events: none;
+}
+.cs-about-text p {
+  flex: 1 0 0px;
+  width: 1px;
+  font-family: "PP Neue Montreal Variable", "PP Neue Montreal Variable Placeholder", sans-serif;
+  font-size: 18px;
+  line-height: 27.9px;
+  font-weight: 400;
+  color: #4e606a;
+  text-transform: uppercase;
+}
+.cs-cta {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 24px;
+  background: #e7eff0;
+}
+.cs-cta-head {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  overflow: hidden;
+}
+.cs-cta-head h2 {
+  width: 100%;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 28px;
+  line-height: 39.2px;
+  font-weight: 400;
+  color: #000;
+}
+.cs-cta-head p {
+  width: 100%;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 16px;
+  line-height: 20.8px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  white-space: pre-wrap;
+}
+.cs-cta-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+  overflow: hidden;
+}
+.cs-cta-form .lf-input-box { width: 100%; }
+.cs-cta-form .lf-input-box input::placeholder { color: #7a7a7a; }
+
+/* ---------- 5. More Case Studies ---------- */
+.cs-more-inner {
+  width: 100%;
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.cs-more-heading {
+  width: 100%;
+  max-width: 960px;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 40px;
+  line-height: 44.8px;
+  letter-spacing: -1.2px;
+  font-weight: 500;
+  color: #1c292d;
+  text-align: left;
+}
+.cs-more-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(50px, 1fr));
+  grid-auto-rows: minmax(0px, 1fr);
+  justify-content: center;
+  gap: 32px;
+}
+.cs-more-cell {
+  place-self: start;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  gap: 40px;
+  background: #fff;
+}
+.cs-more-link {
+  position: relative;
+  z-index: 1;
+  flex: 1 0 0px;
+  width: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  text-decoration: none;
+  overflow: hidden;
+}
+.cs-more-card {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 20px;
+  background: #f8f8f8;
+  overflow: hidden;
+}
+.cs-more-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #d9d9d9;
+  pointer-events: none;
+}
+.cs-more-top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.cs-more-logo-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  overflow: hidden;
+}
+.cs-more-logo {
+  flex: 1 0 0px;
+  width: 1px;
+  height: 38px;
+  overflow: hidden;
+}
+.cs-more-logo img { width: 100%; height: 100%; object-fit: contain; object-position: 0% 50%; }
+.cs-more-kind {
+  flex: 1 0 0px;
+  width: 1px;
+  font-family: "Geist Mono Regular", "Geist Mono Regular Placeholder", monospace;
+  font-size: 11px;
+  line-height: 13.2px;
+  font-weight: 400;
+  color: #000;
+  text-transform: uppercase;
+  text-align: right;
+}
+.cs-more-title {
+  width: 100%;
+  max-width: 960px;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 28px;
+  line-height: 31.36px;
+  letter-spacing: -0.84px;
+  font-weight: 500;
+  color: #1c292d;
+}
+.cs-more-meta {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  overflow: hidden;
+}
+.cs-more-person {
+  position: relative;
+  flex: 0 0 auto;
+  width: 220px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 0 32px 0 0;
+}
+.cs-more-person::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-right: 1px solid #d9d9d9;
+  pointer-events: none;
+}
+.cs-more-person img {
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: 50% 0%;
+}
+.cs-more-who, .cs-more-stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+}
+.cs-more-stats {
+  flex: 1 0 0px;
+  width: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  overflow: hidden;
+}
+.cs-more-stat { flex: 1 0 0px; width: 1px; overflow: hidden; }
+.cs-more-name {
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 400;
+  color: #000;
+  text-align: left;
+  white-space: pre;
+}
+.cs-more-sub {
+  opacity: 0.6;
+  font-family: "Geist Mono Regular", "Geist Mono Regular Placeholder", monospace;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 400;
+  color: #000;
+  text-transform: uppercase;
+  text-align: left;
+  white-space: pre;
+}
+.cs-more-stat .cs-more-name, .cs-more-stat .cs-more-sub { width: 100%; white-space: pre-wrap; }
+
+/* ---------- 6. Join Waitlist band ---------- */
+.cs-wait {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #1a3037;
+  overflow: hidden;
+}
+.cs-wait::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-top-width: 0;
+  pointer-events: none;
+}
+.cs-wait-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1600px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 48px;
+  padding: 72px 48px;
+}
+.cs-wait-copy {
+  position: relative;
+  z-index: 1;
+  flex: 1 0 0px;
+  width: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 41px;
+}
+.cs-wait-heading { width: 100%; }
+.cs-wait-heading h3 {
+  width: 100%;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 40px;
+  line-height: 44.8px;
+  letter-spacing: -1.2px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}
+.cs-wait-form {
+  width: 414px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0;
+}
+.cs-wait-label {
+  flex: 1 0 0px;
+  width: 1px;
+  height: 48px;
+  display: block;
+  padding: 5px 0 0;
+}
+.cs-wait-box {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 43px;
+  padding: 9px;
+  background: #fff;
+  border-radius: 1px;
+  overflow: hidden;
+}
+.cs-wait-box::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 1px;
+  pointer-events: none;
+}
+.cs-wait-box:focus-within::after { border-color: #09f; }
+.cs-wait-box input {
+  width: 100%;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: transparent;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 400;
+  color: #000;
+}
+.cs-wait-box input::placeholder { color: rgba(0, 0, 0, 0.5); opacity: 1; }
+.cs-wait-mock {
+  position: relative;
+  flex: 0 0 auto;
+  width: 439px;
+  height: 772px;
+}
+
+/* inbox mock */
+.cs-inbox {
+  position: relative;
+  width: 100%;
+  height: 772px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: rgba(2, 133, 192, 0.2) 0px 1px 40px 0px;
+}
+.cs-inbox::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  pointer-events: none;
+}
+.cs-inbox p { margin: 0; }
+.cs-inbox-dim { opacity: 0.8; }
+.cs-inbox-head {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 10px 16px;
+}
+.cs-inbox-head::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  pointer-events: none;
+}
+.cs-inbox-head p {
+  flex: 1 0 0px;
+  width: 1px;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 400;
+  color: #000;
+}
+.cs-inbox-icon {
+  flex: 0 0 auto;
+  display: block;
+  width: 16px;
+  height: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.cs-inbox-icon svg { display: block; width: 16px; height: 16px; }
+.cs-inbox-icon--rot { transform: rotate(90deg); }
+.cs-inbox-search {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 6px 10px;
+}
+.cs-inbox-search-box {
+  flex: 1 0 0px;
+  width: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  background: #f8f9fb;
+}
+.cs-inbox-search-left {
+  flex: 1 0 0px;
+  width: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.cs-inbox-search-text {
+  flex: 1 0 0px;
+  width: 1px;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 14px;
+  line-height: 19.6px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+.cs-inbox-list {
+  width: 100%;
+  height: 688px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0;
+  overflow: visible;
+}
+.cs-inbox-row {
+  position: relative;
+  flex: 0 0 auto;
+  width: 100%;
+  height: 86px;
+  animation-duration: 0.4s;
+  animation-timing-function: cubic-bezier(0.44, 0, 0.21, 1);
+  animation-fill-mode: both;
+}
+@keyframes cs-inbox-slide-a { from { transform: translateY(-86px); } to { transform: none; } }
+@keyframes cs-inbox-slide-b { from { transform: translateY(-86px); } to { transform: none; } }
+.cs-inbox-row::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  pointer-events: none;
+}
+.cs-inbox-row-inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 12px;
+  background: #fff;
+}
+.cs-inbox-avatar {
+  position: relative;
+  flex: 0 0 auto;
+  width: 54px;
+  height: 54px;
+}
+.cs-inbox-avatar img {
+  width: 54px;
+  height: 54px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+.cs-inbox-dot {
+  position: absolute;
+  left: 41px;
+  top: 42px;
+  width: 12px;
+  height: 12px;
+  border-radius: 100px;
+  background: #077542;
+}
+.cs-inbox-dot::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #fff;
+  border-radius: 100px;
+}
+.cs-inbox-body {
+  flex: 1 0 0px;
+  width: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2px;
+}
+.cs-inbox-line {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.cs-inbox-line--end { align-items: flex-end; }
+.cs-inbox-name {
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 400;
+  color: #000;
+  white-space: nowrap;
+}
+.cs-inbox-time, .cs-inbox-preview {
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000;
+  white-space: nowrap;
+}
+.cs-inbox-preview {
+  flex: 1 0 0px;
+  width: 1px;
+  color: #4a4b4d;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cs-inbox-badge {
+  flex: 0 0 auto;
+  width: 18px;
+  height: 18px;
+  border-radius: 100px;
+  background: #0285c0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  line-height: 14.4px;
+  font-weight: 400;
+  color: #fff;
+}
+@media (prefers-reduced-motion: reduce) {
+  .cs-inbox-row { animation: none !important; }
+}
+
+/* ---------- 7. FAQ accordion ---------- */
+.cs-faq {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 31px;
+  padding: 72px 48px;
+  background: #f8f9f7;
+}
+.cs-faq-label {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 13px;
+}
+.cs-faq-label::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #000;
+  pointer-events: none;
+}
+.cs-faq-label p {
+  font-family: "Geist Mono", monospace;
+  font-size: 12px;
+  line-height: 14.4px;
+  font-weight: 400;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+}
+.cs-faq-heading { width: 100%; max-width: 960px; }
+.cs-faq-heading h3 {
+  width: 100%;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 40px;
+  line-height: 44.8px;
+  letter-spacing: -1.2px;
+  font-weight: 500;
+  color: #1c292d;
+}
+.cs-faq-list {
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+.cs-faq-item {
+  --faq-ease: linear(0, 0.0281 2.5%, 0.0925 5%, 0.1787 7.5%, 0.2759 10%, 0.3759 12.5%, 0.4733 15%, 0.5685 17.5%, 0.6505 20%, 0.7228 22.5%, 0.7851 25%, 0.8376 27.5%, 0.8811 30%, 0.9163 32.5%, 0.9454 35%, 0.9668 37.5%, 0.983 40%, 0.9948 42.5%, 1.0032 45%, 1.0087 47.5%, 1.0121 50%, 1.0139 52.5%, 1.0144 55%, 1.014 57.5%, 1.0132 60%, 1.012 62.5%, 1.0106 65%, 1.0091 67.5%, 1.0077 70%, 1.0063 72.5%, 1.0052 75%, 1.0041 77.5%, 1.0032 80%, 1.0024 82.5%, 1.0017 85%, 1.0012 87.5%, 1.0008 90%, 1.0005 92.5%, 1.0003 95%, 1.0001 97.5%, 1);
+  position: relative;
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+  transition: height 423ms var(--faq-ease);
+}
+.cs-faq-item::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  pointer-events: none;
+}
+.cs-faq-top {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin: 0;
+  padding: 12px 24px;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  transition: padding 423ms var(--faq-ease);
+}
+.cs-faq-item.is-open .cs-faq-top { align-items: flex-start; padding: 20px 24px; }
+.cs-faq-text {
+  flex: 1 0 0px;
+  width: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.cs-faq-q {
+  display: block;
+  width: 100%;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 16px;
+  line-height: 20.8px;
+  font-weight: 400;
+  color: #000;
+}
+.cs-faq-a {
+  display: block;
+  width: 100%;
+  opacity: 0.7;
+  font-family: "PP Neue Montreal Medium", "PP Neue Montreal Medium Placeholder", sans-serif;
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
+}
+.cs-faq-icon {
+  position: relative;
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+}
+.cs-faq-bar-h, .cs-faq-bar-v {
+  position: absolute;
+  background: #999;
+}
+.cs-faq-bar-h { left: 13px; top: 19px; width: 14px; height: 2px; border-radius: 1px; }
+.cs-faq-bar-v { left: 19px; top: 13px; width: 2px; height: 14px; border-radius: 10px; }
+.cs-faq-top:focus-visible { outline: 2px solid #000; outline-offset: -2px; }
+
+/* ---------- Tablet 810-1279.98 (measured live at 1240/1100/900/810 in the tablet audit) ---------- */
+@media (min-width: 810px) and (max-width: 1279.98px) {
+  .cs-hero-pad { padding: 148px 28px 56px; }
+  .cs-hero-title { font-size: 44px; line-height: 49.28px; letter-spacing: -1.32px; }
+  .cs-hero-stat-value { font-size: 40px; line-height: 40px; }
+  .cs-testi-text { font-size: 36px; line-height: 40.32px; letter-spacing: -1.08px; }
+  .cs-testi-cta-text h2 { font-size: 46px; line-height: 55.2px; }
+  .cs-group-title { font-size: 36px; line-height: 40.32px; letter-spacing: -1.08px; }
+  .cs-pullquote-text { font-size: 24px; line-height: 33.6px; }
+  .cs-cta-head h2 { font-size: 24px; line-height: 33.6px; }
+  .cs-more-heading { font-size: 36px; line-height: 40.32px; letter-spacing: -1.08px; }
+  .cs-wait-heading h3 { font-size: 36px; line-height: 40.32px; letter-spacing: -1.08px; }
+  .cs-faq-heading h3 { font-size: 36px; line-height: 40.32px; letter-spacing: -1.08px; }
+  .cs-testi, .cs-body, .cs-more, .cs-faq { padding: 56px 28px; }
+  .cs-testi-cta { width: 89%; }
+  .cs-body-container { flex-direction: column; }
+  .cs-article { flex: 0 0 auto; order: 1; width: 100%; }
+  .cs-side { position: relative; top: auto; order: 0; width: 100%; }
+  .cs-more-grid { grid-template-columns: repeat(1, minmax(50px, 1fr)); }
+  .cs-more-person { height: auto; } /* live 220x38.4: sized by the name/role column */
+  /* contain: size keeps the photo's intrinsic ratio out of the row height (live wraps it in a box) */
+  .cs-more-person img { align-self: stretch; width: 24%; height: auto; contain: size; }
+  .cs-wait { padding: 0 32px; }
+  .cs-wait-content { flex-direction: column; align-items: center; padding: 56px 28px; }
+  .cs-wait-copy { flex: 0 0 auto; order: 0; align-items: center; width: 100%; }
+  .cs-wait-mock { order: 1; }
+}
+
+/* testimonial name is the Framer h5 preset, which switches at 1200 (not 1280) */
+@media (min-width: 810px) and (max-width: 1199.98px) {
+  .cs-testi-name { font-size: 16px; line-height: 22.4px; }
+}
+
+/* ---------- Phone <= 809.98 ---------- */
+@media (max-width: 809.98px) {
+  .cs-page { gap: 0; }
+  .cs-hero-pad { padding: 124px 20px 48px; }
+  .cs-hero-title { font-size: 38px; line-height: 42.56px; letter-spacing: -1.14px; }
+  .cs-hero-stats { flex-direction: column; }
+  .cs-hero-stat { flex: 0 0 auto; width: 100%; min-width: 240px; }
+  .cs-hero-stat-group { gap: 12px; }
+  .cs-hero-stat-value { font-size: 38px; line-height: 38px; }
+
+  .cs-testi, .cs-body, .cs-more, .cs-faq { padding: 48px 20px; }
+  .cs-testi-row { flex-direction: column; }
+  .cs-testi-photo { order: 1; width: 100%; }
+  .cs-testi-quote { flex: 0 0 auto; order: 0; gap: 24px; width: 100%; }
+  .cs-testi-text { font-size: 30px; line-height: 33.6px; letter-spacing: -0.9px; }
+  .cs-testi-who { gap: 8px; }
+  .cs-testi-name { font-size: 13px; line-height: 18.2px; }
+  .cs-testi-cta { flex-direction: column; align-items: flex-start; }
+  .cs-testi-cta-text { flex: 0 0 auto; width: 100%; }
+  .cs-testi-cta-text h2 { line-height: 30.8px; }
+
+  .cs-body-container { flex-direction: column; gap: 32px; }
+  .cs-article { flex: 0 0 auto; order: 1; width: 100%; }
+  .cs-side { position: relative; top: auto; order: 0; width: 100%; }
+  .cs-group-title { font-size: 30px; line-height: 33.6px; letter-spacing: -0.9px; }
+  .cs-pullquote-text { font-size: 20px; line-height: 28px; }
+  .cs-results { flex-direction: column; gap: 12px; }
+  .cs-result { flex: 0 0 auto; gap: 24px; width: 100%; }
+  .cs-result::after { border: 1px solid rgba(0, 0, 0, 0.25); }
+  .cs-result-label { width: 100%; height: auto; }
+  .cs-result-group { gap: 12px; }
+  .cs-result-value { font-size: 28px; line-height: 30.8px; }
+  .cs-about-text p { font-size: 16px; line-height: 24.8px; }
+  .cs-cta-head h2 { font-size: 20px; line-height: 28px; }
+  .lf-cta.cs-cta-flat .lf-cta-form { padding: 0; }
+
+  .cs-more-heading { font-size: 30px; line-height: 33.6px; letter-spacing: -0.9px; }
+  .cs-more-grid { grid-template-columns: repeat(1, minmax(50px, 1fr)); gap: 24px 32px; }
+  .cs-more-card { padding: 16px; }
+  .cs-more-title { font-size: 24px; line-height: 26.88px; letter-spacing: -0.72px; }
+  .cs-more-meta { flex-direction: column; align-items: flex-start; }
+  .cs-more-person { order: 1; }
+  /* live quirk: the border widths are "unset", so they inherit the card's 1px all round */
+  .cs-more-person::after { border: 1px solid #d9d9d9; }
+  .cs-more-stats { flex: 0 0 auto; order: 0; width: 100%; }
+  .cs-more-name { font-size: 14px; }
+
+  .cs-wait-content { flex-direction: column; padding: 48px 20px; }
+  .cs-wait-copy { flex: 0 0 auto; order: 0; align-items: center; gap: 24px; width: 100%; }
+  .cs-wait-heading h3 { font-size: 30px; line-height: 33.6px; letter-spacing: -0.9px; }
+  .cs-wait-br { display: none; }
+  .cs-wait-form { width: 100%; }
+  .cs-wait-mock { order: 1; width: 100%; }
+
+  .cs-faq-heading h3 { font-size: 30px; line-height: 33.6px; letter-spacing: -0.9px; text-align: center; }
+}

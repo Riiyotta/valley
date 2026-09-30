@@ -1,0 +1,24 @@
+{
+  "id": "pricing.plans-toggle",
+  "layer": "section",
+  "purpose": "Three-plan pricing table with Monthly/Quarterly toggle, on /pricing (.vp-plans).",
+  "composes": ["button", "badge"],
+  "measuredFrom": "spec/pages/pricing.md (plans, .vp-plans; states/plans_toggle.json)",
+  "content": {
+    "type": "object",
+    "properties": {
+      "toggleOptions": { "type": "array", "items": { "type": "string" }, "minItems": 2, "maxItems": 2 },
+      "plans": { "type": "array", "minItems": 2, "maxItems": 4, "items": { "type": "object", "properties": { "name": { "type": "string", "maxWords": 4 }, "price": { "type": "string", "maxWords": 3 }, "features": { "type": "array", "maxItems": 12 }, "ctaLabel": { "type": "string", "maxWords": 4 } }, "required": ["name", "price", "ctaLabel"], "additionalProperties": false } }
+    },
+    "required": ["plans"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "pricingRouteOnly" },
+  "responsive": {
+    "desktop": { "gutter": 48, "padding": "48px" },
+    "phone": { "gutter": 20, "padding": "32px 20px" },
+    "measuredFrom": "spec/pages/pricing.md:22"
+  },
+  "motion": { "pattern": "toggle-fade", "reducedMotionFallback": "toggle switches copy instantly with no fade" },
+  "assetRoles": {}
+}

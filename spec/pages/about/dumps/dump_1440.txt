@@ -1,0 +1,229 @@
+
+=== SECTION 0 nav [] 0,0 1440x84 tag=DIV
+  B <div> 0,0 1440x84 tf=matrix(1, 0, 0, 1, 0, 0) pos=fixed top=0px
+  B <header Large Desktop> 0,0 1440x84 pad=20px 48px bg=#f8f9f7
+  B <div Links & Button> 48,20 1344x44 flex row gap=normal jc=space-between ai=center 
+  B <div> 48,28 99x29 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 99 29.078%22 overflow=%22visible%22><path d=%22M 6.402 0 L 14.539 8.137 L 11.738 11.071 L 
+  B <div Menu Links> 415,20 543x44 flex row gap=28px jc=center ai=center 
+  B <a Link - Black> 415,20 37x44 pad=12px 0px 
+  B <div> 415,32 37x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 415,34 37x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Home"
+  T <p> 415,54 37x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Home"
+  T <summary> 480,20 68x44 | PP Neue Montreal, Inter, Arial 14px/16.8px ls=normal w500 #19252e  | "Product"
+  SVG 538,37 10x10 fill=none stroke=#4f6373 color=#4f6373 trans=[transform|0.15s|ease|0s]
+  B <div .vpm-panel> 480,64 330x213 pad=10px bg=#ffffff border=1px 1px 1px 1px solid #d4dedb shadow=rgba(25, 41, 46, 0.082) 0px 12px 30px 0px
+  B <a> 491,75 308x105 pad=18px 16px 
+  T <span> 507,93 276x20 | PP Neue Montreal, Inter, Arial 17px/20.4px ls=normal w500 #1c292e  | "Explore Product"
+  T <b> 766,93 17x20 | PP Neue Montreal, Inter, Arial 17px/20.4px ls=normal w400 #1c292e  | "↗"
+  T <small> 507,120 276x42 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52636c  | "See how Valley works, from signal to reply."
+  B <a> 491,180 308x85 pad=18px 16px border=1px 0px 0px 0px solid #e3e9e5 b:#1c292e
+  T <span> 507,199 276x20 | PP Neue Montreal, Inter, Arial 17px/20.4px ls=normal w500 #1c292e  | "All Playbooks"
+  T <b> 766,199 17x20 | PP Neue Montreal, Inter, Arial 17px/20.4px ls=normal w400 #1c292e  | "↗"
+  T <small> 507,227 276x21 | PP Neue Montreal, Inter, Arial 14px/21px ls=normal w400 #52636c  | "Find your next play. See every step."
+  B <a Link - Black> 576,20 132x44 pad=12px 0px 
+  B <div> 576,32 132x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 576,34 132x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Valley vs. Competition"
+  T <p> 576,54 132x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Valley vs. Competition"
+  B <a Link - Black> 735,20 67x44 pad=12px 0px 
+  B <div> 735,32 67x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 735,34 67x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Customers"
+  T <p> 735,54 67x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Customers"
+  B <a Link - Black> 830,20 57x44 pad=12px 0px 
+  B <div> 830,32 57x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 830,34 57x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Agencies"
+  T <p> 830,54 57x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Agencies"
+  B <a Link - Black> 916,20 42x44 pad=12px 0px 
+  B <div> 916,32 42x20 flex column gap=0px jc=flex-start ai=flex-start 
+  T <p> 916,34 42x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Pricing"
+  T <p> 916,54 42x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w400 #000000  | "Pricing"
+  B <div cta__nav> 1226,22 166x40 flex row gap=16px jc=flex-end ai=center 
+  T <a> 1226,32 42x19 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/19.2px ls=normal w500 #002669  | "Log in"
+  B <a Launch for Free> 1284,22 108x40 pad=10px 16px bg=#19282e ovf=clip
+  T <p> 1300,34 76x17 | PP Neue Montreal Medium, PP Neue Montreal Medium 14px/16.8px ls=normal w500 #ffffff  | "Start for free"
+
+=== SECTION 1 about-hero [Frame 2085663185] 0,0 1440x624 tag=DIV
+  B <div Frame 2085663185> 0,0 1440x624 pad=132px 48px 0px 
+  B <div Frame 2147223570> 48,132 1344x492 bg=#1a3037
+  B <div Rectangle> 48,132 1344x492 op=0.62
+  IMG 48,132 1344x492 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/5Elg5B9vPo2Xblz2XfnsvZzgqlA.png?width=1536&height=768 alt="Painted Valley landscape with open sky, green hills and a winding river"
+  B <div Frame 2085663151> 48,348 1344x236 pad=0px 32px flex column gap=24px jc=center ai=flex-start tf=matrix(1, 0, 0, 1, -672, 0)
+  B <div Frame 2147223414> 80,348 218x24 pad=6px 12px ::after{absolute 218.406pxx24px inset=0px,0px border=1px 1px 1px 1px solid #ffffff}
+  T <p> 92,353 194x14 | Geist Mono Regular, Geist Mono Regular, monospace 12px/14.4px ls=normal w400 #ffffff  | "A NEW YORK SALES OS COMPANY"
+  T <h1> 80,396 960x188 | PP Neue Montreal Medium, PP Neue Montreal Medium 56px/62.72px ls=-1.68px w500 #ffffff  | "Augmenting Sales Intelligence for the Next Generation"
+
+=== SECTION 2 mission [Frame 2085663181] 0,696 1440x827 tag=DIV
+  B <div Frame 2085663181> 0,696 1440x827 pad=0px 48px 
+  B <div Frame 2147223583> 48,696 1344x827 flex row gap=0px jc=flex-start ai=flex-start 
+  B <div Frame 2085663185> 48,696 538x827 pad=24px ::after{absolute 537.594pxx826.797px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.25}
+  IMG 72,720 490x779 fit=fill pos=50% 50%  src=https://framerusercontent.com/images/5Elg5B9vPo2Xblz2XfnsvZzgqlA.png?width=1536&height=768 alt="Painted Valley landscape with open sky, green hills and a winding river"
+  B <div Group 2085663129> 72,720 334x297 blend=hard-light
+  SVG 71,719 148x152 fill=#000000 stroke=none color=#000000 
+  SVG 256,719 149x152 fill=#000000 stroke=none color=#000000 
+  SVG 106,821 265x195 fill=#000000 stroke=none color=#000000 
+  SVG 289,744 25x24 fill=#000000 stroke=none color=#000000 
+  SVG 303,789 25x25 fill=#000000 stroke=none color=#000000 
+  SVG 239,820 41x41 fill=#000000 stroke=none color=#000000 
+  SVG 138,892 28x29 fill=#000000 stroke=none color=#000000 
+  B <div Frame 2147223584> 586,696 806x827 flex column gap=0px jc=center ai=flex-start ::after{absolute 806.406pxx826.797px inset=0px,0px border=1px 1px 1px 0px solid #000000/0.25}
+  B <div Frame 2147223582> 586,696 806x660 pad=32px flex column gap=24px jc=flex-start ai=flex-start 
+  T <h2> 618,728 742x45 | PP Neue Montreal Medium, PP Neue Montreal Medium 40px/44.8px ls=-1.2px w500 #1c292d  | "Built by the outbound-obsessed."
+  B <div The game has changed for sales reps. Prospects are seeing through templated “spray and pray” outbound sequences — or worse, not seeing them at all. Volume-based outreach & robotic sales reps are dead. Today's best reps are running an outbound playbook built on personalization, relevance, and timing. We built Valley to help businesses like yours scale & automate the complex world of what's required to run a profitable outbound motion today. It used to take an army of SDRs to achieve hyper-personalization at scale. We designed Valley to be your army of one. It’s a single AI-led outbound engine that understands your product, clones your voice, and learns all about your prospects — then fills up your sales calendar to prove it. Valley is the hyper-personalized AI sales rep that books you quality meetings while your team does literally anything else. Signed> 618,797 742x527 flex column gap=normal jc=flex-start ai=normal 
+  T <p> 618,797 742x93 | PP Neue Montreal Variable, PP Neue Montreal Variable 20px/31px ls=normal w400 #4e606a  | "The game has changed for sales reps. Prospects are seeing through templated “spray and pray” outbound sequences — or worse, not seeing them at all. Volume-based outreach & robotic sales reps are dead."
+  T <p> 618,921 742x93 | PP Neue Montreal Variable, PP Neue Montreal Variable 20px/31px ls=normal w400 #4e606a  | "Today’s best reps are running an outbound playbook built on personalization, relevance, and timing. We built to help businesses like yours scale & automate the complex world of what’s required to run a profitable outbound motion today."
+  T <a> 783,955 49x24 | PP Neue Montreal Variable, PP Neue Montreal Variable 20px/31px ls=normal w400 #002669  | "Valley"
+  T <p> 618,1045 742x124 | PP Neue Montreal Variable, PP Neue Montreal Variable 20px/31px ls=normal w400 #4e606a  | "It used to take an army of SDRs to achieve hyper-personalization at scale. We designed to be your army of one. It’s a single AI-led outbound engine that understands your product, clones your voice, and learns all about your prospects — then fills up your sales calendar to prove it."
+  T <a> 618,1079 49x24 | PP Neue Montreal Variable, PP Neue Montreal Variable 20px/31px ls=normal w400 #002669  | "Valley"
+  T <p> 618,1200 742x62 | PP Neue Montreal Variable, PP Neue Montreal Variable 20px/31px ls=normal w400 #4e606a  | "Valley is the hyper-personalized AI sales rep that books you quality meetings while your team does literally anything else."
+  T <p> 618,1293 742x31 | PP Neue Montreal Variable, PP Neue Montreal Variable 20px/31px ls=normal w400 #4e606a  | "Signed"
+  B <div Frame 2147223496> 586,1356 806x167 flex column gap=12px jc=center ai=flex-start 
+  B <div Frame 2147223585> 586,1356 221x75 bgi=url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 221 75%22><path d=%22M 26.196 53.111 C 25.684 53.271 25.14 53.527 24.756 52.919 C 24.436 5
+  B <div Ordered List> 586,1443 806x80 pad=24px ::after{absolute 806.406pxx80px inset=0px,0px border=1px 0px 0px 0px solid #000000/0.25}
+  B <div Zayd Ali CEO @Valley> 610,1467 106x32 flex column gap=normal jc=center ai=normal 
+  T <p> 610,1467 106x16 | Geist Mono Regular, monospace 16px/16px ls=normal w400 #000000/0.5  | "Zayd Ali"
+  T <p> 610,1483 106x16 | Geist Mono Regular, monospace 16px/16px ls=normal w400 #000000/0.5  | "CEO @"
+  T <a> 658,1481 58x19 | Geist Mono Regular, monospace 16px/16px ls=normal w400 #002669  | "Valley"
+
+=== SECTION 3 team [Frame 2147223576] 0,1571 1440x1281 tag=DIV
+  B <div Frame 2147223576> 0,1571 1440x1281 pad=0px 48px flex column gap=24px jc=flex-start ai=flex-start 
+  B <div Frame 2147223591> 48,1571 1344x93 pad=24px 0px 
+  T <h1> 48,1595 960x45 | PP Neue Montreal Medium, PP Neue Montreal Medium 40px/44.8px ls=-1.2px w500 #1c292d  | "Our team"
+  B <div Frame 2085663172> 48,1688 1344x1164 grid gap=0px cols=672px 672px jc=center ai=normal 
+  B <div Frame 2085663172> 48,1688 672x194 pad=24px flex column gap=24px jc=center ai=flex-start ::after{absolute 672pxx194px inset=0px,0px border=1px 1px 0px 1px solid #000000/0.25}
+  B <div Description> 72,1716 157x73 op=0.5
+  SVG 72,1716 157x73 fill=#000000 stroke=none color=#000000 
+  B <div Frame 2085663200> 72,1818 624x40 flex row gap=normal jc=space-between ai=center 
+  T <p> 72,1826 163x24 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/24px ls=normal w400 #000000/0.5  | "CEO & Founder"
+  B <a Variant 1> 656,1818 40x40 pad=8px 12px bg=#000000/0.05
+  SVG 665,1827 22x22 fill=#39779a stroke=none color=#39779a 
+  B <div Frame 2147223424> 720,1688 672x194 pad=24px flex column gap=24px jc=center ai=flex-start ::after{absolute 672pxx194px inset=0px,0px border=1px 1px 0px 1px solid #000000/0.25}
+  B <div Group_2085663200> 745,1729 294x62 op=0.5
+  IMG 745,1729 294x62 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/ceFmbLE7EVlcXOeZtbdGkcX7Slk.png?scale-down-to=512&width=1120&height=261 alt="LinkedIn automation specialist Alex Bondarev's signature with professional black and gray overlay design."
+  B <div Frame 2085663200> 744,1818 624x40 flex row gap=normal jc=space-between ai=center 
+  T <p> 744,1826 181x24 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/24px ls=normal w400 #000000/0.5  | "Head of Frontend"
+  B <a Variant 1> 1328,1818 40x40 pad=8px 12px bg=#000000/0.05
+  SVG 1337,1827 22x22 fill=#39779a stroke=none color=#39779a 
+  B <div Frame 2085663172> 48,1882 672x194 pad=24px flex column gap=24px jc=center ai=flex-start ::after{absolute 672pxx194px inset=0px,0px border=1px 1px 0px 1px solid #000000/0.25}
+  B <div image_25_> 72,1913 196x67 op=0.5 tf=matrix(1, 0, 0, 1, 0, -33.4766)
+  IMG 72,1913 196x67 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/5REZncOoHM98LbuEfgHkkupYdfQ.png?scale-down-to=512&width=764&height=261 alt="Ari Gellicrist signature in elegant cursive, Valley AI's LinkedIn automation innovation example."
+  B <div Frame 2085663200> 72,2012 624x40 flex row gap=normal jc=space-between ai=center 
+  T <p> 72,2020 179x24 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/24px ls=normal w400 #000000/0.5  | "Head of Backend"
+  B <a Variant 1> 656,2012 40x40 pad=8px 12px bg=#000000/0.05
+  SVG 665,2021 22x22 fill=#39779a stroke=none color=#39779a 
+  B <div Frame 2147223424> 720,1882 672x194 pad=24px flex column gap=24px jc=center ai=flex-start ::after{absolute 672pxx194px inset=0px,0px border=1px 1px 0px 1px solid #000000/0.25}
+  B <div Catherine_McCollian> 738,1901 292x93 op=0.5
+  IMG 738,1901 292x93 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/o3pqKKuHfNrbxiocH0w5CTo0k3c.png?scale-down-to=512&width=2277&height=724 alt="Valley AI founder Catherine McCollian's elegant cursive signature on a professional black background."
+  B <div Frame 2085663200> 744,2012 624x40 flex row gap=normal jc=space-between ai=center 
+  T <p> 744,2020 117x24 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/24px ls=normal w400 #000000/0.5  | "Head of CX"
+  B <a Variant 1> 1328,2012 40x40 pad=8px 12px bg=#000000/0.05
+  SVG 1337,2021 22x22 fill=#39779a stroke=none color=#39779a 
+  B <div Frame 2147223424> 48,2076 672x194 pad=24px flex column gap=24px jc=center ai=flex-start ::after{absolute 672pxx194px inset=0px,0px border=1px 1px 0px 1px solid #000000/0.25}
+  B <div image> 73,2100 316x82 op=0.5
+  IMG 73,2100 316x82 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/5aK4s89tXffGFWh3J7I07ycfUw.png?scale-down-to=512&width=2529&height=656 alt="Iconic Almeida signature logo on a sleek black background for Valley AI."
+  B <div Frame 2085663200> 72,2206 624x40 flex row gap=normal jc=space-between ai=center 
+  T <p> 72,2214 194x24 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/24px ls=normal w400 #000000/0.5  | "Software Engineer"
+  B <a Variant 1> 656,2206 40x40 pad=8px 12px bg=#000000/0.05
+  SVG 665,2215 22x22 fill=#39779a stroke=none color=#39779a 
+  B <div Frame 2085663172> 720,2076 672x194 pad=24px flex column gap=24px jc=center ai=flex-start ::after{absolute 672pxx194px inset=0px,0px border=1px 1px 0px 1px solid #000000/0.25}
+  B <div graphic> 744,2117 296x48 op=0.5 tf=matrix(1, 0, 0, 1, 0, -23.8203)
+  SVG 744,2117 296x48 fill=#000000 stroke=none color=#000000 
+  B <div Frame 2085663200> 744,2206 624x40 flex row gap=normal jc=space-between ai=center 
+  T <p> 744,2214 131x24 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/24px ls=normal w400 #000000/0.5  | "Design Lead"
+  B <a Variant 1> 1328,2206 40x40 pad=8px 12px bg=#000000/0.05
+  SVG 1337,2215 22x22 fill=#39779a stroke=none color=#39779a 
+  B <div Frame 2147223424> 48,2270 672x194 pad=24px flex column gap=24px jc=center ai=flex-start ::after{absolute 672pxx194px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.25}
+  B <div image> 72,2294 343x82 op=0.5
+  IMG 72,2294 343x82 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/e1V36ySVpiyAy3VNTYYO8lN4vvY.png?width=402&height=96 alt="Mehul Gawde's LinkedIn automation expert profile in elegant cursive script on black background displayed."
+  B <div Frame 2085663200> 72,2400 624x40 flex row gap=normal jc=space-between ai=center 
+  T <p> 72,2408 194x24 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/24px ls=normal w400 #000000/0.5  | "Software Engineer"
+  B <a Variant 1> 656,2400 40x40 pad=8px 12px bg=#000000/0.05
+  SVG 665,2409 22x22 fill=#39779a stroke=none color=#39779a 
+  B <div Frame 2147223424> 720,2270 672x194 pad=24px flex column gap=24px jc=center ai=flex-start ::after{absolute 672pxx194px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.25}
+  B <div image> 744,2298 348x72 op=0.5 tf=matrix(1, 0, 0, 1, 0, -35.75)
+  IMG 744,2298 348x72 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/SWCBrx1BJR6plVkyXmGdN9UUxs.png?scale-down-to=512&width=696&height=143 alt="Valley AI logo featuring elegant cursive signature with gray text on black background."
+  B <div Frame 2085663200> 744,2400 624x40 flex row gap=normal jc=space-between ai=center 
+  T <p> 744,2408 330x24 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/24px ls=normal w400 #000000/0.5  | "Founding Customer Experience"
+  B <a Variant 1> 1328,2400 40x40 pad=8px 12px bg=#000000/0.05
+  SVG 1337,2409 22x22 fill=#39779a stroke=none color=#39779a 
+  B <div Frame 2147223424> 48,2464 672x194 pad=24px flex column gap=24px jc=center ai=flex-start ::after{absolute 672pxx194px inset=0px,0px border=1px 1px 0px 1px solid #000000/0.25}
+  B <div Jai_Compas> 72,2488 201x82 op=0.5
+  IMG 72,2488 201x82 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/w8MdWyDEexwl6WS9l6tnUOXq5JU.png?scale-down-to=512&width=6882&height=2803 alt="Gray lettering on a black background highlights the brand 'Filiq Compas with AI LinkedIn automation."
+  B <div Frame 2085663200> 72,2594 624x40 flex row gap=normal jc=space-between ai=center 
+  T <p> 72,2602 193x24 | PP Neue Montreal Medium 24px/24px ls=normal w400 #000000/0.5  | "Customer Support"
+  B <a Variant 1> 656,2594 40x40 pad=8px 12px bg=#000000/0.05
+  SVG 665,2603 22x22 fill=#39779a stroke=none color=#39779a 
+  B <div Frame 2147223424> 720,2464 672x194 pad=24px flex column gap=24px jc=center ai=flex-start ::after{absolute 672pxx194px inset=0px,0px border=1px 1px 0px 1px solid #000000/0.25}
+  B <div Group_2085663201> 744,2488 229x81 op=0.5 tf=matrix(1, 0, 0, 1, 0, -40.4766)
+  IMG 744,2488 229x81 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/x578HY2mjrMOfIUEXJ6TRvFGqHE.png?scale-down-to=512&width=981&height=230 alt="Richard Hixon's elegant signature in luxury font on high-end LinkedIn AI SDR background."
+  B <div Frame 2085663200> 744,2594 624x40 flex row gap=normal jc=space-between ai=center 
+  T <p> 744,2602 193x24 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/24px ls=normal w400 #000000/0.5  | "Customer Support"
+  B <a Variant 1> 1328,2594 40x40 pad=8px 12px bg=#000000/0.05
+  SVG 1337,2603 22x22 fill=#39779a stroke=none color=#39779a 
+  B <div Frame 2085663172> 48,2658 672x194 pad=24px flex column gap=24px jc=center ai=flex-start ::after{absolute 672pxx194px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.25}
+  B <div Anna_Vecera_2_> 72,2688 236x69 op=0.5 tf=matrix(1, 0, 0, 1, 0, -34.4062)
+  IMG 72,2688 236x69 fit=contain pos=50% 50%  src=https://framerusercontent.com/images/mc7b6xZvyoZb6XQvbilO0Hzhc.png?scale-down-to=512&width=1747&height=395 alt="Valley AI's AI SDR automates LinkedIn outreach with elegant, professional, black signature design accents."
+  B <div Frame 2085663200> 72,2788 624x40 flex row gap=normal jc=space-between ai=center 
+  T <p> 72,2796 202x24 | PP Neue Montreal Medium, PP Neue Montreal Medium 24px/24px ls=normal w400 #000000/0.5  | "Executive Assistant"
+  B <a Variant 1> 656,2788 40x40 pad=8px 12px bg=#000000/0.05
+  SVG 665,2797 22x22 fill=#39779a stroke=none color=#39779a 
+  B <div Frame 2147223424> 720,2658 672x194 pad=24px flex column gap=24px jc=center ai=flex-start ::after{absolute 672pxx194px inset=0px,0px border=1px 1px 1px 1px solid #000000/0.25}
+  B <div signature_Shubh> 745,2693 277x59 op=0.5 tf=matrix(1, 0, 0, 1, 0, -29.4922)
+  IMG 745,2693 277x59 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/hFVHZnBo5uhvNaSGn3QsqUBquY.png?scale-down-to=512&width=9518&height=2027 alt="Expert LinkedIn Automation, AI SDR, and Outreach signature in elegant black cursive font."
+  B <div Frame 2085663200> 744,2788 624x40 flex row gap=normal jc=space-between ai=center 
+  T <p> 744,2796 164x24 | PP Neue Montreal Medium 24px/24px ls=normal w400 #000000/0.5  | "Head of Growth"
+  B <a Variant 1> 1328,2788 40x40 pad=8px 12px bg=#000000/0.05
+  SVG 1337,2797 22x22 fill=#39779a stroke=none color=#39779a 
+
+=== SECTION 4 backers [Frame 2147223575] 0,2852 1440x461 tag=DIV
+  B <div Frame 2147223575> 0,2852 1440x461 pad=72px 48px 
+  B <div Frame 2147223592> 48,2924 1344x317 flex column gap=32px jc=flex-start ai=flex-start 
+  T <h1> 48,2924 960x45 | PP Neue Montreal Medium, PP Neue Montreal Medium 40px/44.8px ls=-1.2px w500 #1c292d  | "Backed by great partners"
+  B <div Frame 2147223593> 144,3000 1152x240 ::after{absolute 1152pxx240px inset=0px,0px border=0px 1px 0px 1px solid #000000/0.25}
+  IMG 144,3000 1152x240 fit=cover pos=50% 50%  src=https://framerusercontent.com/images/NhkTWgcyjDvBUlCEbsiXQaQ2Yk.png?scale-down-to=2048&width=3702&height=723 alt="Valley VC House Capital and Valley AI logo on a sleek black background."
+
+=== SECTION 5 hiring [Frame 2085663186] 0,3312 1440x768 tag=DIV
+  B <div Frame 2085663186> 0,3312 1440x768 pad=0px 48px 
+  B <div Group 2085663186> 48,3312 1344x768 bg=#1a3037
+  B <div Rectangle> 48,3312 1344x768 op=0.62
+  IMG 48,3312 1344x768 fit=fill pos=50% 50%  src=https://framerusercontent.com/images/5Elg5B9vPo2Xblz2XfnsvZzgqlA.png?width=1536&height=768 alt="Painted Valley landscape with open sky, green hills and a winding river"
+  B <div Frame 2085663152> 88,3904 618x135 flex column gap=32px jc=center ai=flex-start 
+  T <p> 88,3904 618x63 | PP Neue Montreal Medium, PP Neue Montreal Medium 56px/62.72px ls=-1.68px w500 #ffffff  | "Valley is growing."
+  B <div Frame 2147223413> 88,3998 270x40 flex row gap=8px jc=flex-start ai=flex-start 
+  B <a Frame 2085663150> 88,3998 140x40 pad=8px 12px flex row gap=4px jc=center ai=center bg=#ffffff backdrop=blur(2px)
+  T <p> 100,4010 96x16 | PP Neue Montreal Medium, PP Neue Montreal Medium 16px/16px ls=normal w400 #000000  | "Explore Roles"
+  SVG 200,4010 16x16 fill=#000000 stroke=none color=#000000 
+  B <a Frame 2085663151> 236,3998 122x40 pad=8px 12px flex row gap=4px jc=center ai=center bg=#000000/0.25
+  T <p> 248,4010 78x16 | PP Neue Montreal Medium 16px/16px ls=normal w400 #ffffff  | "Contact Us"
+  SVG 330,4010 16x16 fill=#000000 stroke=none color=#000000 
+
+=== SECTION 6 footer [] 0,4080 1440x597 tag=DIV
+  B <div Desktop> 0,4080 1440x597 bg=#1c3036 ovf=hidden
+  B <footer .vf> 0,4080 1440x597 bg=#1c3036
+  B <div .vf-inner> 0,4080 1440x597 pad=64px 48px 28px 
+  B <div .vf-top> 48,4144 1344x223 pad=0px 0px 48px grid gap=64px cols=746.656px 533.328px jc=normal ai=center border=0px 0px 1px 0px none #f8f9f7 b:#ffffff/0.19
+  T <h2> 48,4144 650x99 | ValleyFooter, Arial 44px/49.28px ls=-1.54px w500 #f8f9f7  | "Find your people. Give them a reason to reply."
+  T <p> 48,4261 570x57 | ValleyFooter, Arial 19px/28.5px ls=normal w400 #c2d0d2  | "Find, qualify, research, and reach your next buyers across email and LinkedIn."
+  B <div .vf-actions> 859,4205 533x52 flex row gap=16px jc=flex-end ai=normal 
+  T <a> 1082,4205 152x52 | ValleyFooter, Arial 17px/normal ls=normal w400 #1c3036 pad=15px 22px bg=#f8f9f7 border=1px 1px 1px 1px solid #f8f9f7 | "Start for free →"
+  T <a> 1250,4205 142x52 | ValleyFooter, Arial 17px/normal ls=normal w400 #f8f9f7 pad=15px 22px border=1px 1px 1px 1px solid #718589 | "Book a demo"
+  B <div .vf-links> 48,4367 1344x242 pad=44px 0px grid gap=48px cols=513.875px 367.062px 367.047px jc=normal ai=normal 
+  T <a> 48,4411 514x38 | ValleyFooter, Arial 30px/normal ls=-1.05px w500 #f8f9f7  | "Valley"
+  SVG 48,4411 38x38 fill=#f8f9f7 stroke=none color=#f8f9f7 
+  T <p> 48,4449 290x45 | ValleyFooter, Arial 15px/22.5px ls=normal w400 #bbcdce  | "Your outbound team. One connected platform."
+  T <a> 48,4494 89x14 | ValleyFooter, Arial 12px/normal ls=normal w400 #f8f9f7  | "hey@joinvalley.co"
+  B <nav> 610,4411 367x154 flex column gap=14px jc=normal ai=flex-start 
+  T <strong> 610,4411 106x14 | ValleyFooter, Arial 12px/normal ls=0.72px w400 #9eb6ba tt=uppercase  | "Explore Valley"
+  T <a> 610,4447 54x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Product"
+  T <a> 610,4480 74x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Customers"
+  T <a> 610,4513 64x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Agencies"
+  T <a> 610,4546 47x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Pricing"
+  B <nav> 1025,4411 367x154 flex column gap=14px jc=normal ai=flex-start 
+  T <strong> 1025,4411 82x14 | ValleyFooter, Arial 12px/normal ls=0.72px w400 #9eb6ba tt=uppercase  | "Learn more"
+  T <a> 1025,4447 73x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Resources"
+  T <a> 1025,4480 68x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "All articles"
+  T <a> 1025,4513 83x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "About Valley"
+  T <a> 1025,4546 41x19 | ValleyFooter, Arial 16px/normal ls=normal w400 #f8f9f7  | "Log in"
+  B <div .vf-bottom> 48,4609 1344x40 pad=24px 0px 0px flex row gap=20px jc=space-between ai=normal border=1px 0px 0px 0px solid #ffffff/0.19 b:#b4c7c9
+  T <span> 48,4634 150x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "© Valley. All rights reserved."
+  B <div> 1203,4634 189x15 flex row gap=24px jc=normal ai=normal 
+  T <a> 1203,4634 75x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "Privacy policy"
+  T <a> 1302,4634 90x15 | ValleyFooter, Arial 13px/normal ls=normal w400 #b4c7c9  | "Terms of service"

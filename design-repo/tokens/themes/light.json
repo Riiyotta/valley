@@ -1,0 +1,20 @@
+{
+  "themeId": "light",
+  "isDefault": true,
+  "description": "The site has exactly one real theme (light). No dark-mode variant exists anywhere in tailwind.config.cjs or src/ — 'dark.*' color tokens are section-local dark SURFACES (endorsement, jobs, footer, buttons), not a dark color-scheme mode. Every semantic token resolves to a foundation value below.",
+  "measuredFrom": "tailwind.config.cjs (entire file; no darkMode key present, confirming single-theme design)",
+  "resolution": {
+    "text.primary": "#19282e",
+    "text.secondary": "#52636c",
+    "text.eyebrow": "#4a5e68",
+    "text.on-dark": "#f6f8f4",
+    "text.link": "#376f9c",
+    "surface.page": "#f8f9f7",
+    "surface.card": "#ffffff",
+    "surface.brand-dark": "#19282e",
+    "border.default": "#d6dfdd",
+    "accent.brand": "#376f9c",
+    "success.check": "#4a755c",
+    "indicator.linkedin": "#0077b5"
+  }
+}

@@ -1,0 +1,384 @@
+[
+ {
+  "sid": "nav",
+  "name": null,
+  "text": "Home\n\nHome\n\nProduct\n\nValley vs. Competition\n\nValley vs. Competition\n\nCustomers\n\nCustomers\n\nAgencies\n\nAgencies\n\nPricing\n\nPricing\n\nLog in\n\nStart for free",
+  "links": [
+   {
+    "text": "",
+    "href": "./",
+    "abs": "https://www.joinvalley.co/",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Home Home",
+    "href": "./",
+    "abs": "https://www.joinvalley.co/",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "/product",
+    "abs": "https://www.joinvalley.co/product",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "/playbooks",
+    "abs": "https://www.joinvalley.co/playbooks",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. Competition Valley vs. Competition",
+    "href": "./compare",
+    "abs": "https://www.joinvalley.co/compare",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Customers Customers",
+    "href": "./casestudies",
+    "abs": "https://www.joinvalley.co/casestudies",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Agencies Agencies",
+    "href": "./linkedin-outreach-for-agencies",
+    "abs": "https://www.joinvalley.co/linkedin-outreach-for-agencies",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Pricing Pricing",
+    "href": "./pricing",
+    "abs": "https://www.joinvalley.co/pricing",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Log in",
+    "href": "https://beta.joinvalley.co/login",
+    "abs": "https://beta.joinvalley.co/login",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Start for free",
+    "href": "https://beta.joinvalley.co/signup",
+    "abs": "https://beta.joinvalley.co/signup",
+    "target": "",
+    "visible": true
+   }
+  ]
+ },
+ {
+  "sid": "hero",
+  "name": null,
+  "text": "For founders, sales teams and agencies\n\nThe complete outbound system for B2B sales teams and lead generation agencies\n\nFind, qualify, research, and personalize in a single platform and automate outreach to book more calls and generate more pipeline.\n\nStart for free\n\nBook a demo\n\n“Instead of going small, we actually go big and just segment them according to ICP fit.”\nFreizle Abarrientos\nChief Operating Officer · ThinkFish\nTHE RIGHT PEOPLE, FOR YOUR BUSINESS\nA signal is a start.\nFit comes next.\nMaya Chen\nVP Revenue · Fieldwork\nHigh ICP-Fit\nWHY SHE FITS\nThe right role\nLeads the revenue team\nThe right company\nB2B software · growing sales team\nA possible need\nBuilding outbound capacity\nSKIP\n×\nWrong role\n×\nWrong company\n\nEngagement alone is not enough.\n\nFind\nQualify\nResearch\nWrite\nSend",
+  "links": [
+   {
+    "text": "Start for free",
+    "href": "https://beta.joinvalley.co/signup",
+    "abs": "https://beta.joinvalley.co/signup",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "Book a demo",
+    "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+    "abs": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+    "target": "_blank",
+    "visible": true
+   },
+   {
+    "text": "Stefano McCoy at Bolt.new, read their customer story",
+    "href": "https://www.joinvalley.co/casestudies/how-bolt.new-generated-seven-figures-in-pipeline-with-valley-in-under-60-days",
+    "abs": "https://www.joinvalley.co/casestudies/how-bolt.new-generated-seven-figures-in-pipeline-with-valley-in-under-60-days",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "“Instead of going small, we actually go big and just segment them according to ICP fit.” Freizle Abarrientos Chief Operating Officer · ThinkFish",
+    "href": "https://www.joinvalley.co/casestudies/how-thinkfish-books-380-400-meetings-monthly-with-valley",
+    "abs": "https://www.joinvalley.co/casestudies/how-thinkfish-books-380-400-meetings-monthly-with-valley",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Tim O'Neil at GGWP, read their customer story",
+    "href": "https://www.joinvalley.co/casestudies/how-ggwp-generated-4m-in-pipeline-with-valley",
+    "abs": "https://www.joinvalley.co/casestudies/how-ggwp-generated-4m-in-pipeline-with-valley",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "David Baeza at Butteredtoast, read their customer story",
+    "href": "https://www.joinvalley.co/casestudies/how-butteredtoast-generated-1m-in-pipeline-scaling-one-founder-s-personal-brand",
+    "abs": "https://www.joinvalley.co/casestudies/how-butteredtoast-generated-1m-in-pipeline-scaling-one-founder-s-personal-brand",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Conrad de Claro at GoCanvas, read their customer story",
+    "href": "https://www.joinvalley.co/casestudies/how-gocanvas-30x’d-outbound-pipeline-with-valley",
+    "abs": "https://www.joinvalley.co/casestudies/how-gocanvas-30x%E2%80%99d-outbound-pipeline-with-valley",
+    "target": "",
+    "visible": true
+   }
+  ]
+ },
+ {
+  "sid": "logos",
+  "name": null,
+  "text": "Customers who migrated off of HeyReach, Expandi, and Lemlist.",
+  "links": []
+ },
+ {
+  "sid": "showcase",
+  "name": "Product in action",
+  "text": "Dashboard\nPlaybooks\nProspects\nAI Studio\nCampaigns\nScout\nPlay product tour\nMission control for the world's best outbound.\n\nSee the work in motion, track pipeline generated, analyze results, and manage replies.\n\nValley\n/\nDashboard\nHome\nConversations\nCampaigns\nProspects\nPlaybooks\nAI Studio\nScout\nAlex’s workspace\nGood morning, Alex.\nDemo workspace\nToday’s Plan\nScout is on it\n\nFind revenue leaders at companies hiring AEs.\n\nResearch in progress\nReview Maya’s draft\nYour results\nLast 30 days\n$450,000\nPotential pipeline\n128\nInterested replies\n12\nActive campaigns\nPipeline growth\nDemo data · Last 30 days\n$450k\n$225k\n$0\nDay 1\nDay 12\nDay 24\nDay 30\nRecent activity\nToday\nMaya replied on LinkedIn\nRevenue leaders hiring AEs\n9:42\nJordan’s email is ready\nWritten in your voice\n9:38\nNew leads\nHigh fit\nMaya Chen\nVP Revenue · Fieldwork\nJordan Lee\nHead of Sales · Northline",
+  "links": []
+ },
+ {
+  "sid": "workflow",
+  "name": "The complete outbound workflow",
+  "text": "YOUR OUTBOUND TEAM, WORKING TOGETHER\nAn entire outbound team.\nOne piece of software.\n\nValley finds the people, does the research, writes the message and follows through. Every step shares the same context.\n\nGTM engineer\nBuild the right audience\nResearcher\nFind the reason to reach out\nCopywriter\nMake it sound like you\nSDR\nSend and follow through\nAnalyst\nLearn what earns a reply\nValley\nOne connected\noutbound workflow.\n01 / 07\nPROSPECTING\nFind your next buyers.\n\nCatch relevant engagement, hiring, competitor frustrations and conversations around your keywords. Turn what’s happening now into the next people worth reaching.\n\nWHAT’S CHANGING\nLead magnet\nengagement\nHiring signals\nCompetitor\nfrustrations\nRelevant keywords\nA PERSON TO QUALIFY\nMC\nMaya Chen\nVP Revenue\nFieldwork\nHiring account executives\n02 / 07\nQUALIFICATION\nQualify every prospect.\n\nValley checks each person against your ideal customer and explains the match. Correct a decision, refine the criteria, and re-check who belongs in your campaign.\n\nYOUR IDEAL CUSTOMER\nB2B software. Revenue leaders. Growing teams.\nMC\nMaya Chen\nVP Revenue · Fieldwork\nHigh ICP-Fit\nRight role. Right company.\nHiring account executives.\nSam Price\nCommunity Manager · Outside your target roles.\nSkip\n03 / 07\nRESEARCH\nResearch each person.\n\nPull useful context from posts, interviews and company news. See the sources behind the findings, so the message starts with a reason to reach out.\n\nNews\nPodcasts\nLinkedIn / X\nYouTube\nNewsletters\nWHAT MATTERS TO MAYA\nBuilding a bigger revenue team.\nCompany news\nQuality matters more than volume.\nLinkedIn post\nNew reps need a better starting point.\nPodcast interview\n04 / 07\nMESSAGE GENERATION\nWrite messages in your voice.\n\nValley combines what it learns about each prospect with your phrasing, punctuation and style. You get a relevant first draft that sounds like you, ready to review, edit and make your own.\n\nTheir context\nYour voice\nAa\nTo Maya at Fieldwork\nDraft\n\nMaya, saw you’re adding AEs.\n\nValley gives each rep researched prospects and a first message in your team’s voice.\n\nWant to see a few examples?\n\nReady for your review.\n05 / 07\nEMAIL & LINKEDIN\nSend across email and LinkedIn.\n\nConnect your own accounts and put both channels in one sequence. Choose the timing, review the messages and let the follow-ups run. When someone replies, the sequence stops so you can pick up the conversation.\n\nFIRST TOUCH\nConnect on LinkedIn\n01\nYour timing\nFOLLOW-UP\nContinue by email\n02\nThey reply. Follow-ups stop.\nThe conversation is yours.\n06 / 07\nANALYTICS & PIPELINE\nTrack replies, meetings, and pipeline.\n\nSee replies and meetings beside campaign activity. Estimate potential pipeline from interested prospects and your average deal size, then use what you learn to improve the next campaign.\n\nFOLLOW THE CONVERSATION\nCampaign\nThe outreach you run\nReply\nPeople responding\nMeeting\nConversations booked\nPotential pipeline\n\nInterested prospects\n× your average deal size\n\nAn estimate, with its inputs in view.\n07 / 07\nCONTINUOUS LEARNING\nImprove with every reply.\n\nValley learns from what earns positive replies, across your campaigns and the customers before you. It studies the audience and the message to improve what comes next.\n\nA POSITIVE REPLY\n\n“This is exactly what we’re working on. Let’s talk.”\n\nWho responds\nRole · Company size\nGeography · Signals\nWhat resonates\nLength · Tone · Openers\nCTAs · Punctuation\nBetter context for your next campaign.",
+  "links": []
+ },
+ {
+  "sid": "proof",
+  "name": "product-proof-current",
+  "text": "“Valley is a cheat code.”\nStefano McCoy\nSales, Bolt.new\nRead Bolt.new’s story\nStart for free\nBOLT.NEW, WITH VALLEY\n$1M+\n\nPipeline generated in the first 60 days.\n\n15–20\nEnterprise meetings booked\n3 hrs\nSaved per rep daily\nBolt.new\nGGWP\nLinarca\nThinkFish\nPause\n01 / 04",
+  "links": [
+   {
+    "text": "Read Bolt.new’s story",
+    "href": "https://www.joinvalley.co/casestudies/how-bolt.new-generated-seven-figures-in-pipeline-with-valley-in-under-60-days",
+    "abs": "https://www.joinvalley.co/casestudies/how-bolt.new-generated-seven-figures-in-pipeline-with-valley-in-under-60-days",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Start for free",
+    "href": "https://beta.joinvalley.co/signup",
+    "abs": "https://beta.joinvalley.co/signup",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://www.joinvalley.co/casestudies/how-ggwp-generated-4m-in-pipeline-with-valley",
+    "abs": "https://www.joinvalley.co/casestudies/how-ggwp-generated-4m-in-pipeline-with-valley",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://beta.joinvalley.co/signup",
+    "abs": "https://beta.joinvalley.co/signup",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://www.joinvalley.co/casestudies/how-linarca-booked-14-qualified-meetings-in-their-first-month-with-valley",
+    "abs": "https://www.joinvalley.co/casestudies/how-linarca-booked-14-qualified-meetings-in-their-first-month-with-valley",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://beta.joinvalley.co/signup",
+    "abs": "https://beta.joinvalley.co/signup",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://www.joinvalley.co/casestudies/how-thinkfish-books-380-400-meetings-monthly-with-valley",
+    "abs": "https://www.joinvalley.co/casestudies/how-thinkfish-books-380-400-meetings-monthly-with-valley",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "",
+    "href": "https://beta.joinvalley.co/signup",
+    "abs": "https://beta.joinvalley.co/signup",
+    "target": "",
+    "visible": true
+   }
+  ]
+ },
+ {
+  "sid": "team-fit",
+  "name": "product-fit-current",
+  "text": "FOR YOUR TEAM\nBuilt around the way you sell.\nFounders\nSales teams\nAgencies\nKeep outbound moving.\nKeep building your company.\n\nGive Valley your offer, your ideal customer and your voice. Review the outreach it prepares, then spend your time on the conversations it starts.\n\nA repeatable starting point for founder-led sales.\nLINARCA, WITH VALLEY\n14 meetings\n\nIn the first month, from a single seat.\n\nRoberto Arrieta\nFounder, Linarca\nSee Linarca’s story",
+  "links": [
+   {
+    "text": "See Linarca’s story",
+    "href": "https://www.joinvalley.co/casestudies/how-linarca-booked-14-qualified-meetings-in-their-first-month-with-valley",
+    "abs": "https://www.joinvalley.co/casestudies/how-linarca-booked-14-qualified-meetings-in-their-first-month-with-valley",
+    "target": "",
+    "visible": true
+   }
+  ]
+ },
+ {
+  "sid": "comparison",
+  "name": "product-comparison-current",
+  "text": "VALLEY VS. COMPETITION\nThe whole workflow.\nA clearer choice.\n\nFrom the first buying signal to the next conversation. See what happens in Valley, and what each alternative brings.\n\nCompare Valley with\nAll competitors\nLinkedIn & sequencing\nAI outbound platforms\nEmail & infrastructure\nData & automation\nRevenue platforms\nHeyReach\nGojiberry\nAmplemarket\nlemlist\nInstantly\nArtisan\n11x\nExpandi\nClay\nPhantomBuster\nAll 19 competitors\nValley vs. HeyReach\n\nLinkedIn & sequencing\n\nRead the full comparison ↗\n\nStart with the signal. Follow it to the reply.\nRead left to right. Valley is the upper track; HeyReach is below.\n\nValley\nUpper track\nHeyReach\nLower track\nEmail\n↗\nOther tool\nLinkedIn\n✓\nBuilt in\n01\nLive buyingsignals\n◐\n02\nQualify\n◐\n03\nDeepresearch\n◐\n04\nYour writingvoice\n◐\n05\nEmail +LinkedIn\n◐\n06\nManagereplies\n✓\n07\nLearn &improve\n◐\n✓\nBuilt in\n◐\nLimited / external\n—\nNo confirmed coverage\n\nEmail is included with Plus; optional on Starter. Open the stage guide for definitions; the detailed comparison retains each exact status and source.\n\nWhat each stage means 7 steps in the workflow\nCompare the work. Then decide.\n\nExplore all seven stages and the details behind each comparison.\n\nValley vs. Competition ↗\nSee Valley in action\n↗",
+  "links": [
+   {
+    "text": "Read the full comparison ↗",
+    "href": "/blog/valley-vs-heyreach-ai-powered-personalization-vs-multi-account-volume",
+    "abs": "https://www.joinvalley.co/blog/valley-vs-heyreach-ai-powered-personalization-vs-multi-account-volume",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley vs. Competition ↗",
+    "href": "/compare",
+    "abs": "https://www.joinvalley.co/compare",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "See Valley in action ↗",
+    "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+    "abs": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+    "target": "",
+    "visible": true
+   }
+  ]
+ },
+ {
+  "sid": "pricing-faq",
+  "name": "product-questions-current",
+  "text": "MAKE YOUR NEXT CONVERSATION COUNT\nStart with one seat.\nPut Valley to work.\n$199\n/ seat / month\n\nOr $149/month, billed quarterly.\n$447 every three months.\n\nStart for free\nSee plans →\n\n7-day trial for eligible new subscribers.\nPayment method required.\n\nIncluded in every plan.\nFind prospects through plays or your own lists.\nQualify and research the people worth reaching.\nWrite in your voice. Review before sending.\nFollow up on LinkedIn. Add email when you need it.\n\nOne seat connects one LinkedIn account.\nEmail sending, priority Slack support, and an onboarding call are optional add-ons on this plan. Discovery and enrichment use credits.\n\nQuestions,\nanswered.\n\nThe practical details before your first campaign.\n\nWhat do I need to get started?\n+\nCan I review and edit the messages?\n+\nDoes Valley send email as well as LinkedIn messages?\n+\nWhich plan includes email and priority support?\n+\nWhat uses credits?\n+\nHow does the free trial work?\n+",
+  "links": [
+   {
+    "text": "Start for free",
+    "href": "https://beta.joinvalley.co/signup",
+    "abs": "https://beta.joinvalley.co/signup",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "See plans →",
+    "href": "/pricing",
+    "abs": "https://www.joinvalley.co/pricing",
+    "target": "",
+    "visible": true
+   }
+  ]
+ },
+ {
+  "sid": "footer",
+  "name": null,
+  "text": "Find your people.\nGive them a reason to reply.\n\nFind, qualify, research, and reach your next buyers across email and LinkedIn.\n\nStart for free →\nBook a demo\nValley\n\nYour outbound team.\nOne connected platform.\n\nhey@joinvalley.co\nEXPLORE VALLEY\nProduct\nCustomers\nAgencies\nPricing\nLEARN MORE\nResources\nAll articles\nAbout Valley\nLog in\n© Valley. All rights reserved.\nPrivacy policy\nTerms of service",
+  "links": [
+   {
+    "text": "Start for free →",
+    "href": "https://beta.joinvalley.co/signup",
+    "abs": "https://beta.joinvalley.co/signup",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Book a demo",
+    "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+    "abs": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Valley",
+    "href": "/",
+    "abs": "https://www.joinvalley.co/",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "hey@joinvalley.co",
+    "href": "mailto:hey@joinvalley.co",
+    "abs": "mailto:hey@joinvalley.co",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Product",
+    "href": "/product",
+    "abs": "https://www.joinvalley.co/product",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Customers",
+    "href": "/casestudies",
+    "abs": "https://www.joinvalley.co/casestudies",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Agencies",
+    "href": "/linkedin-outreach-for-agencies",
+    "abs": "https://www.joinvalley.co/linkedin-outreach-for-agencies",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Pricing",
+    "href": "/pricing",
+    "abs": "https://www.joinvalley.co/pricing",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Resources",
+    "href": "/blog",
+    "abs": "https://www.joinvalley.co/blog",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "All articles",
+    "href": "/blog/archive",
+    "abs": "https://www.joinvalley.co/blog/archive",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "About Valley",
+    "href": "/about",
+    "abs": "https://www.joinvalley.co/about",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Log in",
+    "href": "https://beta.joinvalley.co/login",
+    "abs": "https://beta.joinvalley.co/login",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Privacy policy",
+    "href": "/privacy-policy",
+    "abs": "https://www.joinvalley.co/privacy-policy",
+    "target": "",
+    "visible": true
+   },
+   {
+    "text": "Terms of service",
+    "href": "/terms-of-service",
+    "abs": "https://www.joinvalley.co/terms-of-service",
+    "target": "",
+    "visible": true
+   }
+  ]
+ }
+]

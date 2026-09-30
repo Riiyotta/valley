@@ -1,0 +1,479 @@
+/* /linkedin-outreach-for-agencies variant (spec/pages/landing.md section 4): hero, agencyMargin,
+   agency "Process V2" workflow, agencyPaths and the .vc wrapper. Logos, video wall, case banner,
+   FAQ and the proof ticker come from shared.css. */
+
+/* ---------- 4.1 agency-hero ---------- */
+.lp-ahero {
+  padding: 144px 48px 64px;
+  background: theme('colors.surface.DEFAULT');
+}
+.lp-ahero__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+/* 624 / 672 at 1440 and 544 / 592 at 1280: two flex:1 0 0 columns, the right one adding its
+   24px padding on each side. */
+.lp-ahero__left {
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+  min-width: 0;
+}
+.lp-ahero__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+.lp-eyebrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  width: 100%;
+}
+.lp-eyebrow--team .lp-tag__dot { background: theme('colors.accent.team'); }
+.lp-alabel {
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #557885;
+}
+.lp-ahero__h1 {
+  width: 100%;
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 64px;
+  line-height: 71.68px;
+  font-weight: 400;
+  color: theme('colors.ink.vsq');
+}
+.lp-ahero__sub {
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #52646a;
+}
+.lp-ahero__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+}
+.lp-ahero__cta {
+  display: block;
+  padding: 16px 24px;
+  background: theme('colors.ink.vsq');
+  overflow: clip;
+  text-decoration: none;
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #f8f9f7;
+  white-space: nowrap;
+}
+.lp-ahero__right {
+  position: relative;
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  min-width: 0;
+  height: 368px;
+  padding: 24px;
+}
+.lp-ahero__art {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.lp-ahero__video {
+  position: relative;
+  flex: 1 0 0px;
+}
+@media screen(below-desktop) {
+  .lp-ahero { padding: 144px 24px 64px; }
+  .lp-ahero__row { flex-direction: column; gap: 48px; }
+  .lp-ahero__left,
+  .lp-ahero__right { flex: none; width: 100%; }
+  .lp-ahero__h1 {
+    font-size: 40px;
+    line-height: 44.8px;
+  }
+  .lp-ahero__sub {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .lp-ahero__ctawrap {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 28px;
+  }
+  .lp-ahero__actions .lp-proof { width: 100%; }
+  .lp-ahero__right { height: 308px; }
+}
+
+/* ---------- 4.2 agency-margin ---------- */
+.lp-margin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 36px;
+  padding: 80px 48px;
+  background: theme('colors.surface.DEFAULT');
+  overflow: clip;
+}
+.lp-margin__h2 {
+  width: 100%;
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 48px;
+  line-height: 55.2px;
+  font-weight: 400;
+  color: theme('colors.ink.vsq');
+  white-space: pre-line;
+}
+.lp-alead {
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #52646a;
+}
+.lp-margin__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+}
+.lp-mcard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 28px;
+  background: #e9eff0;
+  overflow: clip;
+}
+.lp-mcard__title {
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 28px;
+  line-height: 32.2px;
+  font-weight: 400;
+  color: theme('colors.ink.vsq');
+}
+.lp-abody {
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #52646a;
+}
+.lp-mcard__answer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  padding-top: 20px;
+}
+.lp-mcard__answer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-top: 1px solid #cbd6d8;
+  pointer-events: none;
+}
+.lp-mcard__answer .lp-abody { color: theme('colors.ink.vsq'); }
+@media screen(below-desktop) {
+  .lp-margin { padding: 48px 20px; }
+  .lp-margin__h2 {
+    font-size: 34px;
+    line-height: 39.1px;
+  }
+  .lp-margin__grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .lp-mcard { width: 100%; padding: 24px; }
+}
+
+/* ---------- 4.3 agency-workflow ---------- */
+.lp-flow {
+  padding: 80px 48px;
+  background: #e9eff0;
+  overflow: clip;
+}
+.lp-flow__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.lp-flow__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+.lp-ah2 {
+  width: 100%;
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 48px;
+  line-height: 53.76px;
+  font-weight: 400;
+  color: theme('colors.ink.vsq');
+  white-space: pre-line;
+}
+.lp-flow__lead { max-width: 820px; }
+.lp-flow__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+}
+.lp-step {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: theme('colors.surface.DEFAULT');
+  overflow: clip;
+}
+.lp-step__img {
+  display: block;
+  flex: none;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.lp-step__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  padding: 28px;
+}
+.lp-step__title {
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 26px;
+  line-height: 29.12px;
+  font-weight: 400;
+  color: theme('colors.ink.vsq');
+}
+@media screen(below-desktop) {
+  .lp-flow { padding: 80px 24px; }
+  .lp-ah2 {
+    font-size: 34px;
+    line-height: 38.08px;
+  }
+  .lp-flow__lead {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .lp-flow__grid {
+    grid-template-columns: minmax(0, 1fr);
+    grid-auto-rows: 1fr;
+  }
+}
+
+/* ---------- 4.5 agency-paths ---------- */
+.lp-apaths {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 64px 48px;
+}
+.lp-apaths__header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 40px;
+}
+.lp-apaths__art {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.lp-apaths__panel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 850px;
+  max-width: 100%;
+  padding: 32px;
+  background: theme('colors.ink.vsq');
+  overflow: clip;
+}
+.lp-apaths__panel .lp-alabel { color: #b9cfdb; }
+.lp-apaths__h2 {
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 42px;
+  line-height: 48.3px;
+  font-weight: 400;
+  color: #f8f9f7;
+  white-space: pre-line;
+}
+.lp-apaths__panel .lp-alead { color: #c3d0d4; }
+.lp-apaths__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-content: center;
+  gap: 1px;
+  width: 100%;
+  padding: 1px;
+  background: #cbd6d8;
+  overflow: clip;
+}
+.lp-apath {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 28px;
+  background: #ffffff;
+  overflow: clip;
+}
+.lp-apath:nth-child(3) { background: #e9eff0; }
+.lp-apath__label {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 13px;
+  line-height: 19.5px;
+  font-weight: 500;
+  color: #52616a;
+}
+.lp-apath__label--owns { letter-spacing: 0.52px; }
+.lp-apath__title {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 28px;
+  line-height: 32.2px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+}
+.lp-apath__line {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+}
+.lp-inter {
+  font-family: theme('fontFamily.inter');
+  font-size: 17px;
+  line-height: 25.5px;
+  font-weight: 400;
+  color: #52616a;
+}
+.lp-apaths__budget {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  padding: 32px;
+  background: #e9eff0;
+  overflow: clip;
+}
+.lp-apaths__budget-title {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 26px;
+  line-height: 31.2px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+}
+.lp-apaths__cta {
+  display: block;
+  padding: 14px 22px;
+  background: #111111;
+  overflow: clip;
+  text-decoration: none;
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 400;
+  color: #ffffff;
+  white-space: nowrap;
+}
+.lp-apaths__note {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+  padding: 24px 0;
+}
+.lp-apaths__note-title {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 32px;
+  line-height: 36.8px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+}
+.lp-apaths__note-body {
+  font-family: theme('fontFamily.inter');
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 400;
+  color: #000000;
+}
+@media screen(below-desktop) {
+  .lp-apaths { padding: 48px 20px; }
+  .lp-apaths__header { padding: 20px; }
+  .lp-apaths__panel { width: 100%; padding: 20px; }
+  .lp-apaths__h2 {
+    font-size: 34px;
+    line-height: 39.1px;
+  }
+  .lp-apaths__grid {
+    display: flex;
+    flex-direction: column;
+  }
+  /* Reproduced defect (spec 4.5 / 12.8): the path cards collapse to 56px and clip their
+     content, leaving only the "PATH 0x / ..." label visible. */
+  .lp-apath {
+    flex: none;
+    width: 100%;
+    height: 56px;
+  }
+  .lp-apaths__budget { padding: 20px; }
+  .lp-apaths__cta { width: 100%; }
+}
+
+/* ---------- 4.6 agency-compare wrapper (.vc is the shared Comparison component) ---------- */
+.lp-acompare {
+  display: flex;
+  flex-direction: column;
+  padding: 64px 48px;
+}
+@media screen(below-desktop) {
+  .lp-acompare { padding: 64px 24px; }
+}

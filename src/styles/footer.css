@@ -1,0 +1,190 @@
+/* footer (CLONE_SPEC.md section 18; dumps section 12).
+   Framer wrapper "Desktop"/"Tablet"/"Phone" (bg #1c3036, overflow hidden), then the .vf* rules
+   ported verbatim from spec/components.css, scoped under #footer. */
+
+#footer.vf-frame {
+  width: 100%;
+  background-color: theme('colors.dark.footer');
+  overflow: hidden;
+  /* Inherited Framer page size: .vf declares no font-size, so un-sized text (the mailto link,
+     spec 18 "hey@joinvalley.co (12px)") inherits 12px on the live page. */
+  font-size: 12px;
+  /* Framer sets body{-webkit-font-smoothing:antialiased}; the clone body doesn't (index.css is shared). */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#footer .vf {
+  container-type: inline-size;
+  background: theme('colors.dark.footer');
+  color: theme('colors.ink.on-dark-2');
+  width: 100%;
+  box-sizing: border-box;
+  font-family: ValleyFooter, Arial, sans-serif;
+}
+#footer .vf * {
+  box-sizing: border-box;
+  min-width: 0px;
+}
+#footer .vf-inner {
+  max-width: 1456px;
+  padding: 64px 48px 28px;
+  margin: auto;
+}
+#footer .vf-top {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  align-items: center;
+  gap: 64px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid theme('colors.line.footer');
+}
+#footer .vf h2 {
+  font-size: 44px;
+  line-height: 1.12;
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  margin: 0px;
+  max-width: 650px;
+}
+#footer .vf-top p {
+  font-size: 19px;
+  line-height: 1.5;
+  color: theme('colors.grey.on-dark-c2');
+  margin: 18px 0px 0px;
+  max-width: 570px;
+}
+#footer .vf-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+#footer .vf a {
+  color: inherit;
+  text-decoration: none;
+}
+#footer .vf a:hover {
+  text-decoration: underline;
+}
+#footer .vf-actions a {
+  padding: 15px 22px;
+  border: 1px solid theme('colors.line.footer-ghost');
+  font-size: 17px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer .vf-actions a:first-child {
+  background: theme('colors.ink.on-dark-2');
+  color: theme('colors.dark.footer');
+  border-color: theme('colors.ink.on-dark-2');
+}
+#footer .vf-links {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 48px;
+  padding: 44px 0px;
+}
+#footer .vf-brand {
+  font-size: 30px;
+  letter-spacing: -0.035em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+#footer .vf-brand svg {
+  width: 38px;
+  height: 38px;
+}
+#footer .vf-links p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: theme('colors.grey.on-dark-bb');
+  max-width: 290px;
+}
+#footer .vf-links nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  font-size: 16px;
+}
+#footer .vf-links nav strong {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: rgb(158, 182, 186);
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+#footer .vf-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-top: 24px;
+  border-top: 1px solid theme('colors.line.footer');
+  color: theme('colors.grey.on-dark-b4');
+  font-size: 13px;
+}
+#footer .vf-bottom div {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+#footer .vf a:focus-visible {
+  outline: rgb(177, 216, 242) solid 2px;
+  outline-offset: 5px;
+}
+@container (max-width: 850px) {
+  #footer .vf-inner {
+    padding: 48px 28px 24px;
+  }
+  #footer .vf-top {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  #footer .vf-actions {
+    justify-content: flex-start;
+  }
+  #footer .vf h2 {
+    font-size: 38px;
+  }
+  #footer .vf-links {
+    grid-template-columns: 1.2fr 1fr 1fr;
+    gap: 24px;
+  }
+}
+@container (max-width: 560px) {
+  #footer .vf-inner {
+    padding: 40px 24px 24px;
+  }
+  #footer .vf h2 {
+    font-size: 33px;
+  }
+  #footer .vf-top p {
+    font-size: 18px;
+  }
+  #footer .vf-actions {
+    gap: 12px;
+  }
+  #footer .vf-actions a {
+    font-size: 16px;
+    padding: 13px 17px;
+  }
+  #footer .vf-links {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+  #footer .vf-links > div {
+    grid-column: 1 / -1;
+  }
+  #footer .vf-bottom {
+    gap: 18px;
+  }
+  #footer .vf-bottom div {
+    gap: 16px;
+  }
+}

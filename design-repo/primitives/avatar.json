@@ -1,0 +1,11 @@
+{
+  "id": "avatar",
+  "layer": "primitive",
+  "description": "Round or square profile image. See sections' assetRole guidance for real-person-photo compliance when this primitive is used for a real customer/author/team photo.",
+  "measuredFrom": "spec/pages/landing.md:146 (hero proof avatars), 245 (case-banner author), spec/pages/blog/posts.json (authorAvatar)",
+  "props": {
+    "size": { "type": "string", "enum": ["icon.avatar-sm", "icon.avatar-md"] },
+    "radius": { "type": "string", "enum": ["radius.chip", "radius.arrow", "radius.full"] },
+    "assetRef": { "type": "string", "description": "resolved via the section's assetRole contract, never a bare filename" }
+  }
+}

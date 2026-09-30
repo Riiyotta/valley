@@ -1,0 +1,897 @@
+/* Landing pages: blocks shared by the template pages, the agency page and (for .lp-ctap and the
+   Geist Mono face) /tryvalley and /linkedin-automation. Source: spec/pages/landing.md sections
+   1-4, 7, 8 and spec/pages/landing/dumps/*. Breakpoints are the Framer ones (spec 2):
+   desktop >= 1200, tablet 810-1199.98 (not sampled; uses the phone variants), phone <= 809.98. */
+
+/* ---------- New font (spec 2): Geist Mono, latin variable file served for 400 and 700 ---------- */
+@font-face {
+  font-family: "Valley Landing Geist Mono";
+  src: url("/assets/pages/landing/fonts/GeistMono-latin-variable.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- Page shell ---------- */
+.lpx-page {
+  background: theme('colors.surface.DEFAULT');
+  /* Phone overflow defect (spec 3.2 / 12.8): the hero eyebrow, caption and some tags are wider
+     than the viewport and are clipped by the page, not wrapped. */
+  overflow-x: clip;
+}
+.lpx-page *,
+.lpx-page *::before,
+.lpx-page *::after {
+  box-sizing: border-box;
+}
+/* :where() keeps this reset below component rules (e.g. .vc-close p) that set
+   their own margins on these elements. */
+.lpx-page :where(p, h1, h2, h3, h6) {
+  margin: 0;
+}
+.lpx-page img {
+  max-width: none;
+}
+.lp-pre {
+  white-space: pre-line;
+}
+
+/* ---------- Eyebrow tag chip (hero, problem, video wall, comparison, demo) ---------- */
+.lp-tag {
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: #e7eff0;
+  overflow: clip;
+  white-space: nowrap;
+}
+.lp-tag__dot {
+  flex: none;
+  width: 4px;
+  height: 4px;
+  background: theme('colors.framer.linkedin');
+  overflow: clip;
+}
+.lp-tag__text {
+  display: block;
+  font-family: "Valley Landing Geist Mono", monospace;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.56px;
+  font-weight: 400;
+  color: theme('colors.framer.linkedin');
+  white-space: nowrap;
+}
+.lp-tag--amber .lp-tag__dot { background: #b77541; }
+.lp-tag--amber .lp-tag__text { color: #b77541; }
+.lp-tag--cream { background: #fff8df; }
+
+/* Hover scale 1.05 (spec M7): sampled 1.0088 @63ms, 1.0449 @156, 1.0508 peak @248, 1.05 @434. */
+.lp-tag-hover {
+  transition: transform 434ms linear(0, 0 7.1%, 0.176 14.5%, 0.492 21.7%, 0.742 28.8%, 0.898 35.9%, 0.977 43.1%, 1.009 50.2%, 1.015 57.1%, 1.014 64.3%, 1.01 71.4%, 1.006 78.6%, 1.002 85.7%, 1);
+}
+.lp-tag-hover:hover {
+  transform: scale(1.05);
+}
+
+/* ---------- "Default" expanding button (spec 3.13, M8) ----------
+   Rest: bg #111, 48 tall, padding 12px 18px, label duplicated 42px below (hidden by overflow).
+   Hover: width -> 240 (sampled 152,165@62,182@104,197@145,216@186,225@228,233@269,236@311,
+   239@352,240@394) while the visible label rises out of the box (top 13 -> -38): an empty dark
+   bar, exactly as live. Leave: 240,238@41,219@82,202@123,182@164,172@205,162@246,158@287,
+   154@328,153@369,152@409. Rest width is measured in JS (--lp-btn-w) so width can transition. */
+.lp-btn {
+  position: relative;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: var(--lp-btn-w, auto);
+  padding: 12px 18px;
+  background: #111111;
+  overflow: hidden;
+  text-decoration: none;
+  cursor: pointer;
+  transition: width 410ms linear(0, 0.023 10%, 0.239 20%, 0.432 30%, 0.659 40%, 0.773 50%, 0.886 60%, 0.932 70%, 0.977 80%, 0.989 90%, 1),
+    height 410ms linear(0, 0.023 10%, 0.239 20%, 0.432 30%, 0.659 40%, 0.773 50%, 0.886 60%, 0.932 70%, 0.977 80%, 0.989 90%, 1),
+    margin-top 410ms linear(0, 0.023 10%, 0.239 20%, 0.432 30%, 0.659 40%, 0.773 50%, 0.886 60%, 0.932 70%, 0.977 80%, 0.989 90%, 1);
+}
+.lp-btn__label {
+  display: block;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 500;
+  color: #ffffff;
+  white-space: pre;
+  transition: transform 410ms linear(0, 0.023 10%, 0.239 20%, 0.432 30%, 0.659 40%, 0.773 50%, 0.886 60%, 0.932 70%, 0.977 80%, 0.989 90%, 1);
+}
+.lp-btn__label--next {
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: none;
+}
+.lp-btn:hover {
+  width: 240px;
+  transition-duration: 400ms;
+  transition-timing-function: linear(0, 0.148 15.5%, 0.341 26%, 0.511 36.25%, 0.727 46.5%, 0.83 57%, 0.92 67.25%, 0.955 77.75%, 0.989 88%, 1);
+}
+.lp-btn:hover .lp-btn__label:not(.lp-btn__label--next) {
+  transform: translateY(-51px);
+  transition-duration: 400ms;
+  transition-timing-function: linear(0, 0.148 15.5%, 0.341 26%, 0.511 36.25%, 0.727 46.5%, 0.83 57%, 0.92 67.25%, 0.955 77.75%, 0.989 88%, 1);
+}
+/* Comparison card 3 variant: bg #000, 46 tall; hover box 240x40 with the bottom edge fixed
+   (raw/hover_*.json: 979,426 150x46 -> 979,432 240x40). */
+.lp-btn--black {
+  background: #000000;
+  height: 46px;
+}
+.lp-btn--black:hover {
+  height: 40px;
+  margin-top: 6px;
+}
+
+/* ---------- cta__primary 3D button (spec 3.13, M9) ----------
+   Rest: 132x48 <a> with padding-top 5; "Button Content" bg #111, 1px rgba(0,0,0,.2) border,
+   box-shadow 0 6px 0 rgba(0,0,0,.6). Hover (re-measured on the live page, 2026-09-29): the shadow
+   fades to 0 (.584@42ms, .404@83, .26@125, .09@166, .024@208, 0@248), the content squashes to
+   scaleY .898 and springs back (1 by ~450ms), and the whole button grows to 141x46.3 centred on
+   the same point (scale ~1.07; the 5px top padding is absorbed). Shared with /tryvalley and
+   /linkedin-automation (their white variant and "Hole" wrapper are not defined here). */
+.lp-ctap {
+  display: block;
+  width: max-content;
+  padding-top: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 700ms linear(0, 0.3 8.6%, 0.78 21.4%, 1.05 34%, 1.11 42.9%, 1.06 57%, 1.01 75%, 1);
+}
+.lp-ctap__content {
+  position: relative;
+  top: 0;
+  background: #111111;
+  box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  transition: box-shadow 248ms linear(0, 0.027 17%, 0.327 33.5%, 0.567 50.4%, 0.85 67%, 0.96 84%, 1),
+    top 700ms linear(0, 0.3 8.6%, 0.78 21.4%, 1.05 34%, 1.11 42.9%, 1.06 57%, 1.01 75%, 1);
+}
+.lp-ctap__content::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+}
+.lp-ctap__text {
+  display: block;
+  /* The live box is a fixed 132 wide (padding 12px 18px declared); the 105px label is centred. */
+  width: 132px;
+  padding: 12px 0;
+  text-align: center;
+  background: #111111;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 16px;
+  line-height: 19.2px;
+  letter-spacing: -0.16px;
+  font-weight: 400;
+  color: #ffffff;
+  white-space: pre;
+}
+.lp-ctap:hover {
+  transform: scale(1.07);
+}
+.lp-ctap:hover .lp-ctap__content {
+  top: -2.5px;
+  box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0);
+  animation: lp-ctap-squash 450ms linear both;
+}
+@keyframes lp-ctap-squash {
+  0% { transform: scaleY(1); }
+  9.3% { transform: scaleY(0.898); }
+  18.4% { transform: scaleY(0.928); }
+  27.8% { transform: scaleY(0.953); }
+  36.9% { transform: scaleY(0.983); }
+  46.2% { transform: scaleY(0.995); }
+  55% { transform: scaleY(1.004); }
+  64.4% { transform: scaleY(1.005); }
+  73.6% { transform: scaleY(1.004); }
+  82.7% { transform: scaleY(1.003); }
+  91.8% { transform: scaleY(1.001); }
+  100% { transform: scaleY(1); }
+}
+
+/* ---------- YouTube facade (spec 3.2 / 3.6: poster, 68x48 play button, click -> embed) ---------- */
+.lp-yt {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 0;
+}
+.lp-yt__poster,
+.lp-yt__frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.lp-yt__poster {
+  object-fit: cover;
+}
+.lp-yt__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 68px;
+  height: 48px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+.lp-yt__play svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ---------- Hero proof ticker (spec 3.2 "Proof ticker", M2 static state) ----------
+   Row 1 is the visible row; rows 2-5 sit below it at opacity 0 (as captured at rest).
+   The 2.03s step loop is motion work (not built here). */
+.lp-proof {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: max-content;
+  height: 25px;
+  padding: 4px 0 1px 6px;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+.lp-proof__avatars {
+  position: relative;
+  flex: none;
+  width: 42px;
+  height: 20px;
+}
+.lp-proof__avatar {
+  position: absolute;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  overflow: clip;
+}
+.lp-proof__avatar img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.lp-proof__rows {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  height: 16px;
+}
+.lp-proof__row {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 14px;
+  line-height: 15.4px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  text-align: left;
+  white-space: nowrap;
+  opacity: 0;
+}
+.lp-proof__row[data-active='true'] {
+  font-size: 16px;
+  line-height: 17.6px;
+  opacity: 1;
+}
+.lp-proof__hl {
+  color: #0076b5;
+}
+@media screen(below-desktop) {
+  .lp-proof__row,
+  .lp-proof__row[data-active='true'] {
+    font-size: 12px;
+    line-height: 13.2px;
+  }
+}
+
+/* ---------- Star columns (feature tiles, case banner) ---------- */
+.lp-stars {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.lp-stars__tile {
+  flex: none;
+  border-radius: 10px;
+  overflow: clip;
+}
+.lp-stars__tile img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* ---------- Logos "Variant 1" / phone "Variant 3" (spec 3.4) ---------- */
+.lp-logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 32px 48px;
+  background: theme('colors.surface.DEFAULT');
+}
+.lp-logos__heading {
+  width: 100%;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 500;
+  color: theme('colors.ink.DEFAULT');
+  text-align: center;
+  white-space: pre-line;
+}
+.lp-logos__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 28px;
+  background: theme('colors.surface.DEFAULT');
+}
+.lp-logos__migrated {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  z-index: 1;
+  padding: 8px;
+  background: #ffffff;
+  transform: translateX(-50%);
+  font-family: "Valley Landing Geist Mono", monospace;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.56px;
+  font-weight: 400;
+  color: theme('colors.framer.linkedin');
+  white-space: nowrap;
+}
+.lp-logos__groups {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: theme('colors.surface.DEFAULT');
+}
+.lp-logos__groups::after,
+.lp-logos__group::after,
+.lp-logos__grid::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.lp-logos__groups::after { border: 1px solid #e0e0e0; }
+.lp-logos__group {
+  position: relative;
+  display: grid;
+  flex: 1 0 0px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 52px 28px;
+  height: 240px;
+  padding: 52px 28px 28px;
+  background: theme('colors.surface.DEFAULT');
+}
+.lp-logos__group:nth-child(1)::after { border-right: 1px solid #cccccc; }
+.lp-logos__group:nth-child(2)::after { border-top: 1px solid #cccccc; border-bottom: 1px solid #cccccc; }
+.lp-logos__group:nth-child(3)::after { border-left: 1px solid #cccccc; border-right: 1px solid #cccccc; }
+.lp-logos__col {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+/* Group cells: 182x56.5 at 1440, 322x100 at 768 (aspect 3.22). */
+.lp-logos__col .lp-logo {
+  aspect-ratio: 3.22;
+}
+.lp-logos__chip {
+  position: absolute;
+  top: -22px;
+  left: 50%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 184px;
+  height: 48px;
+  padding: 8px;
+  background: #ffffff;
+  transform: translateX(-50%);
+}
+.lp-logos__chip img {
+  flex: none;
+  display: block;
+  width: 168px;
+}
+.lp-logos__grid-wrap {
+  width: 100%;
+  background: theme('colors.surface.DEFAULT');
+}
+.lp-logos__grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  gap: 40px 28px;
+  padding: 28px;
+  background: theme('colors.surface.DEFAULT');
+}
+.lp-logos__grid::after {
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+/* Grid cells: 191.33x56.2 at 1440, 324x94.8 at 768, 135x39.5 at 390. */
+.lp-logos__grid .lp-logo {
+  aspect-ratio: 3.418;
+}
+.lp-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-width: 0;
+  /* aspect-ratio boxes may be shorter than the 40px logo (135x39.5 at 390): no content minimum. */
+  min-height: 0;
+}
+.lp-logo__dot {
+  flex: none;
+  width: 5px;
+  height: 5px;
+  background: theme('colors.framer.linkedin');
+}
+.lp-logo__img {
+  flex: none;
+  height: 40px;
+  opacity: 0.7;
+}
+.lp-logo__img img {
+  display: block;
+  width: auto;
+  height: 40px;
+}
+/* "Vector 1194233990": the bracket connector's paths are fill:transparent with no stroke on the
+   live page, so it paints nothing. Only its 927x45 box is kept. */
+.lp-logos__vector {
+  width: 927px;
+  max-width: 100%;
+  height: 45px;
+}
+
+@media screen(below-desktop) {
+  .lp-logos { padding: 32px 20px; }
+  .lp-logos__groups { flex-direction: column; }
+  .lp-logos__group { flex: none; width: 100%; }
+  .lp-logos__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 24px;
+  }
+  .lp-logos__vector { width: 502px; }
+}
+@media screen(tablet) {
+  .lp-logos { padding: 32px 28px; }
+}
+
+/* ---------- Video wall (spec 3.6 template, 4.4 agency) ---------- */
+.lp-vw {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+  padding: 56px 48px;
+  background: #e7eff0;
+  overflow: hidden;
+}
+.lp-vw__inner {
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  min-width: 0;
+}
+.lp-vw__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  width: 100%;
+}
+.lp-vw__h2 {
+  max-width: 760px;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 40px;
+  line-height: 44.8px;
+  letter-spacing: -1px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+  text-align: center;
+}
+.lp-vw__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+.lp-vw__card {
+  position: relative;
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  min-width: 0;
+  background: #ffffff;
+  overflow: hidden;
+}
+/* Poster 329x586 at 1440, 728x1298 at 768, 350x624 at 390, 318x567 agency: aspect .5609. */
+.lp-vw__video {
+  width: 100%;
+  aspect-ratio: 0.5609;
+  flex: none;
+}
+.lp-vw__text {
+  width: 100%;
+  padding: 16px;
+}
+.lp-vw__quote {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 14px;
+  line-height: 16.8px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+}
+.lp-vw__company {
+  font-weight: 700;
+  color: #002669;
+  text-decoration: none;
+}
+.lp-vw__company strong {
+  font-weight: 700;
+}
+/* Hover: #002669 -> #000 + underline, instant (raw/hover_*.json). */
+.lp-vw__company:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+.lp-vw__company--plain {
+  color: rgba(0, 0, 0, 0.6);
+}
+.lp-vw__suffix {
+  font-weight: 700;
+}
+
+/* Agency restyle (spec 4.4) */
+.lp-vw--agency {
+  gap: 32px;
+  justify-content: center;
+  padding: 80px 48px;
+  background: theme('colors.surface.DEFAULT');
+}
+.lp-vw--agency .lp-vw__inner { gap: 40px; }
+.lp-vw--agency .lp-vw__heading { align-items: flex-start; gap: 28px; }
+.lp-vw--agency .lp-vw__h2 {
+  max-width: none;
+  width: 100%;
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 48px;
+  line-height: 53.76px;
+  letter-spacing: normal;
+  font-weight: 400;
+  text-align: left;
+  white-space: pre-line;
+}
+.lp-vw__eyebrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.lp-vw__eyebrow .lp-tag__dot { background: theme('colors.accent.team'); }
+.lp-vw__eyebrow p {
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 12px;
+  line-height: 15.6px;
+  letter-spacing: 0.56px;
+  font-weight: 400;
+  color: theme('colors.accent.team');
+}
+.lp-vw--agency .lp-vw__row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: start;
+  justify-content: start;
+  gap: 24px;
+}
+.lp-vw--agency .lp-vw__card {
+  flex: none;
+  gap: 0;
+  background: #e9eff0;
+}
+.lp-vw--agency .lp-vw__card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid #d6dede;
+  pointer-events: none;
+}
+.lp-vw--agency .lp-vw__quote {
+  font-size: 16px;
+  line-height: 23.2px;
+  color: #405862;
+}
+
+@media screen(below-desktop) {
+  .lp-vw {
+    flex-direction: column;
+    padding: 56px 20px;
+  }
+  .lp-vw__inner { gap: 40px; width: 100%; }
+  .lp-vw__heading { gap: 18px; }
+  .lp-vw__h2 {
+    font-size: 30px;
+    line-height: 33.6px;
+    letter-spacing: -0.75px;
+  }
+  .lp-vw__row { flex-direction: column; }
+  .lp-vw__card { flex: none; width: 100%; }
+  .lp-vw--agency { padding: 80px 24px; gap: 32px; }
+  .lp-vw--agency .lp-vw__heading { gap: 18px; }
+  .lp-vw--agency .lp-vw__h2 {
+    font-size: 34px;
+    line-height: 38.08px;
+    letter-spacing: normal;
+  }
+  .lp-vw--agency .lp-vw__eyebrow p {
+    font-size: 11px;
+    line-height: 14.3px;
+  }
+  /* Rows are equal height (tallest card), cards stay top-aligned: 758/781 cards on 805 pitch. */
+  .lp-vw--agency .lp-vw__row { grid-template-columns: minmax(0, 1fr); grid-auto-rows: 1fr; }
+}
+@media screen(tablet) {
+  .lp-vw { padding-left: 28px; padding-right: 28px; }
+}
+
+/* ---------- Case-study banner (spec 3.7; agency 4 uses padding 64px 48px on #f8f9f7) ---------- */
+.lp-case {
+  padding: 56px 48px;
+  background: #e7eff0;
+  overflow: hidden;
+}
+.lp-case--agency {
+  padding: 64px 48px;
+  background: theme('colors.surface.DEFAULT');
+}
+.lp-case__card {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 21px;
+  height: 367px;
+  padding: 32px;
+  background: #f6f6f6;
+  overflow: hidden;
+}
+.lp-case__card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  pointer-events: none;
+}
+.lp-case__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.lp-case__text {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  width: 586px;
+  height: 100%;
+}
+.lp-case__quote {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 24px;
+  line-height: 26.4px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.lp-case__author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 11px;
+  width: 100%;
+}
+.lp-case__avatar {
+  flex: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 950.93px;
+  object-fit: cover;
+}
+.lp-case__who {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  width: 176px;
+}
+.lp-case__name {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 16px;
+  line-height: 17.6px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.lp-case__role {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 12px;
+  line-height: 13.2px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.7);
+}
+.lp-case__chips {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  margin-top: auto;
+}
+.lp-case__chip {
+  position: relative;
+  width: 182px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 4px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  overflow: hidden;
+}
+.lp-case__chip::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  pointer-events: none;
+}
+.lp-case__chip p {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 12px;
+  line-height: 15.6px;
+  letter-spacing: 0.12px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.74);
+  text-transform: capitalize;
+  text-align: left;
+}
+.lp-case__cta {
+  position: absolute;
+  top: 25px;
+  right: 37px;
+  z-index: 1;
+}
+/* Star columns: 200 wide, five 200x200 tiles, gap 10. Rest offsets from the card box
+   (dump 1440: x 936/1151, y card-155 / card-449). Hover (M10): col 1 moves up 495, col 2 down 330
+   (raw/hover: 112 -> -383 and -182 -> 148), Framer spring sampled in states/probe csHover:
+   .08@41ms .2@81 .35@122 .54@204 .675@287 .8@410 .88@534 .93@659 .965@822 .9825@987 .994@1237. */
+.lp-case .lp-stars {
+  gap: 10px;
+  width: 200px;
+  transition: transform 1600ms linear(0, 0.08 2.6%, 0.2 5.1%, 0.35 7.6%, 0.44 10.2%, 0.54 12.75%, 0.61 15.4%, 0.675 17.9%, 0.72 20.5%, 0.76 23.1%, 0.8 25.6%, 0.83 28.25%, 0.86 30.75%, 0.88 33.4%, 0.9 36%, 0.915 38.6%, 0.93 41.2%, 0.94 43.75%, 0.95 46.25%, 0.965 51.4%, 0.975 56.5%, 0.9825 61.7%, 0.988 66.9%, 0.994 77.3%, 0.997 87.7%, 1);
+}
+.lp-case .lp-stars__tile { width: 200px; height: 200px; }
+.lp-case__stars1 { right: 256px; top: -155px; }
+.lp-case__stars2 { right: 41px; top: -449px; }
+@media screen(desktop) {
+  .lp-case__card:hover .lp-case__stars1 { transform: translateY(-495px); }
+  .lp-case__card:hover .lp-case__stars2 { transform: translateY(330px); }
+}
+
+@media screen(below-desktop) {
+  .lp-case { padding: 56px 20px; }
+  .lp-case--agency { padding: 48px 20px; }
+  .lp-case__card { height: 659px; }
+  /* Chips and CTA are placed against the card box at phone, so the text column is static and
+     its in-flow children are lifted above the star columns individually. */
+  .lp-case__text { position: static; width: 100%; }
+  .lp-case__quote,
+  .lp-case__author { position: relative; z-index: 1; }
+  .lp-case__author { gap: 4px; }
+  .lp-case__who { width: 210px; }
+  .lp-case__chips {
+    position: absolute;
+    bottom: 140px;
+    left: 50%;
+    width: 82%;
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    z-index: 1;
+    transform: translateX(-50%);
+  }
+  .lp-case__chip { width: 100%; }
+  .lp-case__chip p { color: #ffffff; }
+  .lp-case__cta {
+    top: auto;
+    right: auto;
+    bottom: 30px;
+    left: 32px;
+  }
+  .lp-case .lp-stars { width: 124px; }
+  .lp-case .lp-stars__tile { width: 124px; height: 124px; }
+  .lp-case__stars1 { right: 121px; top: 446px; }
+  .lp-case__stars2 { right: -2px; top: 152px; }
+}
+@media screen(tablet) {
+  .lp-case { padding: 56px 28px; }
+  .lp-case--agency { padding: 48px 28px; }
+}
+
+/* ---------- FAQ frame (spec 1 table: padding 48px, 48px 20px at phone, bg #f8f9f7) ---------- */
+#pricing-faq.pf-frame.lp-faq {
+  padding: 48px;
+}
+@media screen(below-desktop) {
+  #pricing-faq.pf-frame.lp-faq {
+    padding: 48px 20px;
+  }
+}

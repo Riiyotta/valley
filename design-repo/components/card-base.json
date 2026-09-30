@@ -1,0 +1,14 @@
+{
+  "id": "card-base",
+  "layer": "component",
+  "description": "Generic bordered/padded content card composing icon/badge/text, used as the base for BlogCard, CaseStudyCard, showcase cards, pricing offer cards.",
+  "composes": ["badge", "icon"],
+  "measuredFrom": "CLONE_SPEC.md:155-163 (card radii/shadows)",
+  "props": {
+    "eyebrow": { "type": "string", "maxLength": 30, "optional": true },
+    "title": { "type": "string", "maxLength": 80 },
+    "body": { "type": "string", "maxLength": 200, "optional": true },
+    "media": { "type": "object", "optional": true }
+  },
+  "tokens": { "card": "tokens/20-component/card.json" }
+}

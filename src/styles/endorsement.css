@@ -1,0 +1,226 @@
+/* Endorsement section. CLONE_SPEC.md section 11, dumps/dump_*.txt section 3.
+   1) Framer layer wrapper (framer-17qd1yc: bg #f8f9f7, column, overflow visible so sticky works).
+   2) .valley-endorsement root rules (verbatim, spec/components.css), placed FIRST.
+   3) .ve-* component rules (verbatim, spec/components.css). */
+
+/* ---------- 1. Framer layer ---------- */
+.endorsement {
+  background-color: theme('colors.surface.DEFAULT');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  position: relative;
+  overflow: visible;
+}
+
+/* ---------- 2. .valley-endorsement root (verbatim) ---------- */
+.valley-endorsement {
+  position: relative;
+  width: 100%;
+  font-family: "PP Neue Montreal", Arial, sans-serif;
+  line-height: 1.2;
+  color: white;
+  background: rgb(23, 39, 43);
+  box-sizing: border-box;
+  container-type: inline-size;
+}
+.valley-endorsement * {
+  box-sizing: border-box;
+}
+.valley-endorsement[data-scroll="true"] {
+  height: 290vh;
+  min-height: 810px;
+}
+.valley-endorsement[data-scroll="true"] .ve-sticky {
+  position: sticky;
+  top: 88px;
+  min-height: 560px;
+  height: calc(-88px + 100svh);
+}
+.valley-endorsement[data-scroll="true"] .ve-word {
+  color: transparent;
+  -webkit-text-stroke: 0.7px rgba(255, 255, 255, 0.7);
+}
+@media (prefers-reduced-motion: reduce) {
+  .valley-endorsement[data-scroll="true"] {
+    height: auto;
+    min-height: 0px;
+  }
+  .valley-endorsement[data-scroll="true"] .ve-sticky {
+    position: relative;
+    height: auto;
+    min-height: 0px;
+    max-height: none;
+  }
+  .valley-endorsement .ve-word {
+    color: rgb(255, 255, 255) !important;
+    -webkit-text-stroke: 0px transparent !important;
+  }
+}
+
+/* ---------- 3. .ve-* (verbatim) ---------- */
+.ve-sticky {
+  position: relative;
+  min-height: 570px;
+  display: flex;
+  align-items: center;
+  isolation: isolate;
+  padding: 64px 48px;
+  overflow: hidden;
+}
+.ve-art, .ve-shade {
+  position: absolute;
+  inset: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.ve-art {
+  object-fit: cover;
+  object-position: center 56%;
+}
+.ve-shade {
+  background: linear-gradient(110deg, rgba(15, 35, 38, 0.8), rgba(15, 35, 38, 0.57) 58%, rgba(15, 35, 38, 0.42));
+}
+.ve-content {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0px auto;
+}
+.ve-kicker {
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgb(225, 233, 230);
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-bottom: 34px;
+}
+.ve-kicker::before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  background: rgb(225, 233, 230);
+}
+.ve-quote {
+  margin: 0px;
+  max-width: 970px;
+  font-size: 48px;
+  line-height: 1.15;
+  letter-spacing: -0.033em;
+  font-weight: 500;
+}
+.ve-word {
+  display: inline-block;
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+.ve-word::after {
+  content: attr(data-word);
+  position: absolute;
+  inset: 0px;
+  color: rgb(255, 255, 255);
+  opacity: var(--fill,1);
+  -webkit-text-stroke: 0px transparent;
+}
+.ve-author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 50px;
+}
+.ve-author img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+.ve-author strong {
+  display: block;
+  font-size: 18px;
+  line-height: 1.35;
+  font-weight: 500;
+}
+.ve-author span {
+  display: block;
+  font-size: 13px;
+  line-height: 1.4;
+  margin-top: 3px;
+  color: rgb(224, 232, 229);
+}
+.ve-scroll-cue {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  margin-left: -10px;
+  width: 20px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  pointer-events: none;
+  opacity: 0.75;
+  animation: 2.4s ease-in-out 0s infinite normal none running ve-scroll-pulse;
+}
+.ve-scroll-cue svg {
+  display: block;
+  width: 20px;
+  height: 24px;
+}
+@keyframes ve-scroll-pulse {
+  0%, 100% { opacity: 0.4; transform: translateY(0px); }
+  50% { opacity: 0.95; transform: translateY(5px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ve-scroll-cue {
+    animation: auto ease 0s 1 normal none running none;
+    opacity: 0.75;
+  }
+}
+@container (max-width: 900px) {
+  .ve-sticky {
+    min-height: 510px;
+    padding: 48px 28px;
+  }
+  .ve-quote {
+    font-size: 40px;
+  }
+  .ve-author {
+    margin-top: 36px;
+  }
+  .ve-kicker {
+    margin-bottom: 28px;
+  }
+}
+@container (max-width: 600px) {
+  .ve-sticky {
+    min-height: 0px;
+    padding: 48px 20px 80px;
+  }
+  .ve-quote {
+    font-size: 31px;
+    line-height: 1.2;
+  }
+  .ve-author {
+    margin-top: 34px;
+  }
+  .ve-author strong {
+    font-size: 17px;
+  }
+  .ve-author span {
+    font-size: 12px;
+  }
+  .ve-kicker {
+    font-size: 10px;
+    margin-bottom: 26px;
+  }
+  .ve-shade {
+    background: rgba(15, 35, 38, 0.73);
+  }
+}

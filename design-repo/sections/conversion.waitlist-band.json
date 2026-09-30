@@ -1,0 +1,17 @@
+{
+  "id": "conversion.waitlist-band",
+  "layer": "section",
+  "purpose": "Join-waitlist conversion band with a mock inbox illustration, on the casestudy template (WaitlistBand + InboxMock).",
+  "measuredFrom": "spec/pages/casestudy.md (Join Waitlist Section)",
+  "content": {
+    "type": "object",
+    "properties": { "heading": { "type": "string", "maxWords": 10 }, "ctaLabel": { "type": "string", "maxWords": 4 }, "ctaHref": { "type": "string" } },
+    "required": ["heading", "ctaLabel", "ctaHref"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "casestudyDetailOnly" },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {
+    "inbox-illustration": { "enum": "product-screenshot", "generationPolicy": "may-generate-new", "guidance": "Synthetic mock inbox UI; safe to AI-generate." }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "category": "layout-grid",
+  "description": "Reusable column-split templates and container recipes, cited from spec/GRID.md section 5 and 8. These are the ONLY column templates a generated section may declare in a structured responsive field.",
+  "measuredFrom": "spec/GRID.md:134-243",
+  "reusableTwoColumnSplits": ["1fr 1fr", "1fr 1.12fr", "1.12fr 1fr", "1.08fr 1fr", "1.4fr 1fr", "1fr 1.6fr", "1.65fr 1fr", "160px 1fr", "56px 1fr"],
+  "sectionRecipe": {
+    "shell": ".section { padding: 64px 48px; background: theme('colors.surface.DEFAULT'); }",
+    "container": ".section > .container { max-width: 1360px; margin-inline: auto; container-type: inline-size; }",
+    "tablet": "@media screen(tablet) { .section { padding: 56px 28px; } }",
+    "phone": "@media screen(phone) { .section { padding: 56px 20px; } }",
+    "framed1800Variant": ".section--framed { max-width: 1800px; margin-inline: auto; }",
+    "vgsStyleVariant": ".vgs-like .wrap { max-width: 1456px; margin-inline: auto; padding: 88px 48px; } @media (max-width: 720px) { .vgs-like .wrap { padding: 64px 24px; } }",
+    "measuredFrom": "spec/GRID.md:223-241"
+  },
+  "perSectionColumnSystems": {
+    "hero": { "measuredFrom": "spec/GRID.md:138-141" },
+    "logos": { "measuredFrom": "spec/GRID.md:143-146" },
+    "stories": { "measuredFrom": "spec/GRID.md:148-151" },
+    "endorsement": { "measuredFrom": "spec/GRID.md:153-154" },
+    "steps": { "measuredFrom": "spec/GRID.md:156-158" },
+    "jobs": { "measuredFrom": "spec/GRID.md:160-163" },
+    "showcase": { "measuredFrom": "spec/GRID.md:165-168" },
+    "integrations": { "measuredFrom": "spec/GRID.md:170-173" },
+    "team-fit": { "measuredFrom": "spec/GRID.md:175-177" },
+    "wall-of-love": { "measuredFrom": "spec/GRID.md:179-181" },
+    "pricing": { "measuredFrom": "spec/GRID.md:183-185" },
+    "closing-cta": { "measuredFrom": "spec/GRID.md:187-190" },
+    "footer": { "measuredFrom": "spec/GRID.md:192-195" }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "category": "breakpoint",
+  "description": "Viewport breakpoints (Framer layout variants) and container-query breakpoints (per-component, since each code component uses container-type: inline-size). All widths are real, measured CSS px.",
+  "measuredFrom": "tailwind.config.cjs:14-21; spec/GRID.md:15-51",
+  "viewport": {
+    "phone": { "max": "809.98px", "gutter": 20, "navHeight": 68, "navVariant": "hamburger", "measuredFrom": "spec/GRID.md:21-23" },
+    "tablet": { "min": "810px", "max": "1199.98px", "gutter": 28, "navHeight": 68, "navVariant": "hamburger", "measuredFrom": "spec/GRID.md:21-23" },
+    "desktop": { "min": "1200px", "gutter": 48, "navHeight": 84, "navVariant": "inline-links", "measuredFrom": "spec/GRID.md:21-23" },
+    "below-desktop": { "max": "1199.98px", "note": "tablet + phone combined, used for nav hamburger / stacked hero / logos tablet-phone layout", "measuredFrom": "tailwind.config.cjs:19" },
+    "above-phone": { "min": "810px", "note": "tablet + desktop combined", "measuredFrom": "tailwind.config.cjs:20" }
+  },
+  "pageSpecificVariants": {
+    "playbooks": { "desktop": ">=1440", "tablet": "810-1439.98", "phone": "<=809.98", "note": "at 1280 the page already uses Tablet variant (hamburger nav) unlike homepage", "measuredFrom": "spec/pages/playbooks.md:20-21" },
+    "pricing": { "phone": "<=809.98", "tablet": "810-1279.98", "desktop": "1280-1679.98", "largeDesktop": ">=1680", "note": "1440 and 1280 render the same Desktop variant; nav component itself still switches at 1200/810", "measuredFrom": "spec/pages/pricing.md:20" }
+  },
+  "widthCaps": {
+    "1800": { "appliesTo": "section frames of jobs, showcase, pricing, and the who-it-fits group (team-fit, wall-of-love, pricing)", "measuredFrom": "spec/GRID.md:61" },
+    "1600": { "appliesTo": "nav bar (.nav-bar) desktop", "measuredFrom": "spec/GRID.md:62" },
+    "1456": { "appliesTo": ".vgs-wrap (steps, integrations, wall-of-love) and .vf-inner (footer)", "measuredFrom": "spec/GRID.md:63" },
+    "1360": { "appliesTo": "main content width: hero row desktop, logos title/container desktop, stories container, .vstack (jobs), showcase root, team-fit root, pricing container, .vstack-inner, .vcc-scene", "measuredFrom": "spec/GRID.md:64" },
+    "1100": { "appliesTo": "hero row (tablet/phone), logos container (tablet/phone), endorsement .ve-content", "measuredFrom": "spec/GRID.md:65" }
+  },
+  "containerQueries": {
+    "valley-hero-visual": { "thresholds": ["600c-900c", "<=400c"], "firesAtViewport": "600c-900c: vw 810-928 (tablet) and 640-809 (phone); <=400c: vw<=440", "measuredFrom": "spec/GRID.md:41" },
+    "valley-hero-proof": { "thresholds": ["<=380c"], "firesAtViewport": "vw<=420", "measuredFrom": "spec/GRID.md:42" },
+    "valley-customer-results": { "thresholds": ["<=850c", "<=600c"], "firesAtViewport": "850c: vw<=1004 tablet, all phone; 600c: vw<=738", "measuredFrom": "spec/GRID.md:43" },
+    "valley-endorsement": { "thresholds": ["<=900c", "<=600c"], "firesAtViewport": "vw<=900 / vw<=600", "measuredFrom": "spec/GRID.md:44" },
+    "vstack-jobs": { "thresholds": ["<=1100c", "<=760c"], "firesAtViewport": "1100c: vw<=1156; 760c: vw 810-816 tablet and vw<=800 phone (quirk, see spec/GRID.md 7.1)", "measuredFrom": "spec/GRID.md:45" },
+    "valley-showcase": { "thresholds": ["<=1100c", "<=1000c", "<=900c/>=900.01c", "<=600c/>=601c"], "firesAtViewport": "1100c:<=1156; 1000c:<=1056; 900c:<=956; 600c:<=640", "measuredFrom": "spec/GRID.md:46" },
+    "valley-team-fit": { "thresholds": [">=1280c", "<=900c", "<=620c"], "firesAtViewport": "1280c: vw>=1376; 900c:<=956; 620c:<=660", "measuredFrom": "spec/GRID.md:47" },
+    "valley-start-questions": { "thresholds": ["<=850c", "<=560c"], "firesAtViewport": "850c: vw<=906 tablet, all phone; 560c: vw<=600", "measuredFrom": "spec/GRID.md:48" },
+    "vf-footer": { "thresholds": ["<=850c", "<=560c"], "firesAtViewport": "vw<=850 / vw<=560", "measuredFrom": "spec/GRID.md:49" }
+  },
+  "quirks": {
+    "jobsAt801to816": "At 810-816 the tablet gutter of 28 makes container 754-760, jobs is stacked (not pinned, height 1803.5). At 801-809 the phone gutter of 20 makes it 761-769, jobs has 4 columns and IS pinned (height 2846). Reproduce, do not fix.",
+    "heroLogosAt1156to1199": "The tablet 1100 cap engages, content starts at (vw-1100)/2 instead of 28.",
+    "teamFitAt1376": "Uses the large shell (60/64/64 padding, 72 gap). At 1366 uses the medium one.",
+    "vgsGutterHeldTo721": "vgs sections (steps/integrations/wall-of-love) keep a 48px gutter down to 721px, unlike Framer sections which drop to 28/20.",
+    "measuredFrom": "spec/GRID.md:211-217"
+  }
+}

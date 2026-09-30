@@ -1,0 +1,398 @@
+/* pricing-faq (CLONE_SPEC.md section 18; dumps section 10).
+   1) Framer layer "Start with Valley" (.framer-zr637m in the saved HTML) + its 1360px container.
+      Its background comes from the parent Framer stack "Who it fits, plans and questions"
+      (.framer-3j9kjv, #f8f9f7).
+   2) .valley-start-questions root rules FIRST, then the .vsq* component rules, verbatim from
+      spec/components.css, scoped under #pricing-faq. The later .vsq-offer/.vsq-faq override
+      block is kept in its original position (it follows the base rules on the live page). */
+
+/* ---------- Framer layer ---------- */
+#pricing-faq.pf-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 64px 48px;
+  background: theme('colors.surface.DEFAULT');
+  position: relative;
+  /* Framer sets body{-webkit-font-smoothing:antialiased}; the clone body doesn't (index.css is shared). */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: visible;
+}
+#pricing-faq .pf-container {
+  width: 100%;
+  max-width: 1360px;
+  position: relative;
+}
+@media screen(tablet) {
+  #pricing-faq.pf-frame {
+    padding: 56px 28px;
+  }
+}
+@media screen(phone) {
+  #pricing-faq.pf-frame {
+    padding: 56px 20px;
+  }
+}
+
+/* ---------- .valley-start-questions root ---------- */
+#pricing-faq .valley-start-questions {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  color: theme('colors.ink.vsq');
+  /* inline style on the live root overrides the stylesheet's "PP Neue Montreal", Arial */
+  font-family: "Valley Body Montreal", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.45;
+  container-type: inline-size;
+  box-sizing: border-box;
+}
+#pricing-faq .valley-start-questions * {
+  box-sizing: border-box;
+}
+#pricing-faq .valley-start-questions h2, #pricing-faq .valley-start-questions h3, #pricing-faq .valley-start-questions p {
+  margin: 0px;
+}
+#pricing-faq .valley-start-questions a {
+  color: inherit;
+  text-decoration: none;
+}
+#pricing-faq .valley-start-questions a:focus-visible, #pricing-faq .valley-start-questions summary:focus-visible {
+  outline: theme('colors.accent.pricing') solid 2px;
+  outline-offset: 5px;
+}
+#pricing-faq .valley-start-questions h2 {
+  font-size: 44px;
+  line-height: 1.08;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  max-width: 450px;
+}
+#pricing-faq .valley-start-questions .vsq-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  background: theme('colors.ink.vsq');
+  color: rgb(255, 255, 255);
+  min-height: 46px;
+  font-size: 16px;
+  line-height: 1.25;
+}
+@container (max-width: 850px) {
+  #pricing-faq .valley-start-questions h2 {
+    font-size: 36px;
+  }
+}
+@container (max-width: 560px) {
+  #pricing-faq .valley-start-questions h2 {
+    font-size: 34px;
+    max-width: 310px;
+  }
+}
+
+/* ---------- .vsq* ---------- */
+#pricing-faq .vsq-offer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 72px;
+  border-top: 1px solid theme('colors.line.faq');
+  border-bottom: 1px solid theme('colors.line.faq');
+  padding: 52px 0px;
+}
+#pricing-faq .vsq-eyebrow {
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.055em;
+  color: theme('colors.accent.pricing-eyebrow');
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+#pricing-faq .vsq-price {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-top: 28px;
+}
+#pricing-faq .vsq-price strong {
+  font-weight: 500;
+  font-size: 76px;
+  line-height: 1;
+  letter-spacing: -0.06em;
+}
+#pricing-faq .vsq-price span {
+  font-size: 17px;
+  color: rgb(82, 97, 106);
+}
+#pricing-faq .vsq-billing {
+  color: rgb(82, 97, 106);
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 12px !important;
+}
+#pricing-faq .vsq-links {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+#pricing-faq .vsq-secondary {
+  font-size: 16px;
+  color: theme('colors.accent.pricing') !important;
+}
+#pricing-faq .vsq-primary:hover {
+  background: rgb(52, 75, 86);
+}
+#pricing-faq .vsq-secondary:hover {
+  text-decoration: underline;
+}
+#pricing-faq .vsq-trial {
+  font-size: 13px;
+  line-height: 1.5;
+  color: rgb(89, 103, 112);
+  max-width: 390px;
+  margin-top: 16px !important;
+}
+#pricing-faq .vsq-included {
+  padding-top: 35px;
+}
+#pricing-faq .vsq-included h3 {
+  font-size: 23px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+#pricing-faq .vsq-list {
+  list-style: none;
+  padding: 0px;
+  margin: 24px 0px 0px;
+}
+#pricing-faq .vsq-list li {
+  padding: 15px 0px;
+  border-bottom: 1px solid rgb(220, 226, 225);
+  display: flex;
+  gap: 14px;
+  font-size: 17px;
+  line-height: 1.4;
+}
+#pricing-faq .vsq-list li:last-child {
+  border-bottom: 0px;
+}
+#pricing-faq .vsq-list svg {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+  margin-top: 3px;
+  color: theme('colors.leaf.pricing-check');
+}
+#pricing-faq .vsq-seat {
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgb(91, 104, 112);
+  margin-top: 20px !important;
+}
+#pricing-faq .vsq-faq {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 72px;
+  padding-top: 76px;
+}
+#pricing-faq .vsq-faq h2 {
+  font-size: 36px;
+  max-width: 240px;
+}
+#pricing-faq .vsq-faq-intro {
+  color: rgb(82, 97, 106);
+  max-width: 260px;
+  font-size: 17px;
+  margin-top: 20px !important;
+}
+#pricing-faq .vsq-questions details {
+  border-bottom: 1px solid theme('colors.line.faq');
+}
+#pricing-faq .vsq-questions details:first-child {
+  border-top: 1px solid theme('colors.line.faq');
+}
+#pricing-faq .vsq-questions summary {
+  list-style: none;
+  display: flex;
+  align-items: start;
+  gap: 24px;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 21px 0px;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+#pricing-faq .vsq-questions summary::-webkit-details-marker {
+  display: none;
+}
+#pricing-faq .vsq-plus {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 400;
+  color: rgb(84, 121, 151);
+  flex: 0 0 auto;
+  line-height: 1.1;
+}
+/* Spec 18/19: no transition declared on the live site, so open/close and the 45deg plus snap. */
+#pricing-faq .vsq-questions details[open] .vsq-plus {
+  transform: rotate(45deg);
+}
+#pricing-faq .vsq-questions details p {
+  font-size: 17px;
+  line-height: 1.55;
+  color: rgb(74, 91, 100);
+  padding: 0px 34px 24px 0px;
+  max-width: 660px;
+}
+@container (max-width: 850px) {
+  #pricing-faq .vsq-offer {
+    gap: 36px;
+    padding: 40px 0px;
+  }
+  #pricing-faq .vsq-price strong {
+    font-size: 66px;
+  }
+  #pricing-faq .vsq-price {
+    gap: 8px;
+  }
+  #pricing-faq .vsq-price span {
+    font-size: 15px;
+  }
+  #pricing-faq .vsq-included {
+    padding-top: 31px;
+  }
+  #pricing-faq .vsq-list li {
+    font-size: 16px;
+  }
+  #pricing-faq .vsq-links {
+    gap: 18px;
+  }
+  #pricing-faq .vsq-faq {
+    gap: 36px;
+    grid-template-columns: 0.85fr 1.5fr;
+    padding-top: 56px;
+  }
+  #pricing-faq .vsq-faq h2 {
+    font-size: 32px;
+  }
+  #pricing-faq .vsq-questions summary {
+    font-size: 19px;
+  }
+}
+@container (max-width: 560px) {
+  #pricing-faq .vsq-offer {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding: 32px 0px;
+  }
+  #pricing-faq .vsq-price {
+    margin-top: 24px;
+  }
+  #pricing-faq .vsq-price strong {
+    font-size: 66px;
+  }
+  #pricing-faq .vsq-included {
+    border-top: 1px solid rgb(220, 226, 225);
+    padding-top: 26px;
+  }
+  #pricing-faq .vsq-included h3 {
+    font-size: 21px;
+  }
+  #pricing-faq .vsq-list {
+    margin-top: 12px;
+  }
+  #pricing-faq .vsq-seat {
+    margin-top: 14px !important;
+  }
+  #pricing-faq .vsq-faq {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding-top: 48px;
+  }
+  #pricing-faq .vsq-faq h2 {
+    max-width: none;
+    font-size: 32px;
+  }
+  #pricing-faq .vsq-faq-intro {
+    max-width: none;
+    font-size: 16px;
+    margin-top: 12px !important;
+  }
+  #pricing-faq .vsq-questions summary {
+    font-size: 18px;
+    padding: 19px 0px;
+    gap: 18px;
+  }
+  #pricing-faq .vsq-questions details p {
+    font-size: 16px;
+    padding-right: 0px;
+  }
+  #pricing-faq .vsq-links {
+    gap: 20px;
+  }
+  #pricing-faq .vsq-secondary {
+    font-size: 15px;
+  }
+}
+
+/* ---------- panel overrides (second block on the live page) ---------- */
+#pricing-faq .vsq-offer {
+  background: theme('colors.surface.offer');
+  border: 1px solid theme('colors.line.offer');
+  padding: 40px;
+  gap: 48px;
+}
+#pricing-faq .vsq-faq {
+  margin-top: 64px;
+  padding: 40px;
+  background: theme('colors.surface.card');
+  border: 1px solid theme('colors.line.faq-panel');
+  gap: 48px;
+}
+#pricing-faq .vsq-faq:first-of-type {
+  margin-top: 0px;
+}
+#pricing-faq .vsq-included {
+  padding-top: 12px;
+}
+#pricing-faq .vsq-faq h2 {
+  font-size: 40px;
+}
+#pricing-faq .vsq-faq-intro {
+  font-size: 18px;
+}
+@container (max-width: 850px) {
+  #pricing-faq .vsq-offer, #pricing-faq .vsq-faq {
+    padding: 28px;
+    gap: 32px;
+  }
+  #pricing-faq .vsq-faq {
+    margin-top: 48px;
+  }
+}
+@container (max-width: 560px) {
+  #pricing-faq .vsq-offer, #pricing-faq .vsq-faq {
+    padding: 24px 20px;
+    gap: 28px;
+  }
+  #pricing-faq .vsq-faq {
+    margin-top: 40px;
+  }
+  #pricing-faq .vsq-faq h2 {
+    font-size: 32px;
+  }
+}

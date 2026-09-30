@@ -1,0 +1,65 @@
+{
+  "description": "Closed registry of every assetRole used across sections/*.json, with explicit AI-generation guidance and, where the source is a real company/site, explicit licensing guidance. Wired through schema/pagespec.schema.json (assetRole enum), this file, and schema/example.pagespec.json. extraction/verify_all.py checks parity between this registry and every assetRoles block declared across sections/*.json.",
+  "roles": {
+    "hero-visual-art": {
+      "generationPolicy": "may-generate-new",
+      "guidance": "Abstract product-visualization / watercolor / gradient scene artwork with no real people or real brands depicted. Safe to AI-generate new artwork in the same visual language.",
+      "realCompanyRisk": false
+    },
+    "proof-avatar": {
+      "generationPolicy": "must-not-fabricate",
+      "guidance": "COMPLIANCE: small avatar chips in the hero proof ticker may depict real customers. Never generate a fabricated likeness of a real person. Use a licensed real photo, or a clearly generic/illustrated placeholder avatar for a fictional example.",
+      "realCompanyRisk": true
+    },
+    "customer-logo": {
+      "generationPolicy": "must-reuse-exact",
+      "guidance": "COMPLIANCE — PINNED: real third-party company trademarks (e.g. Gallea AI, Smallest.ai, Klaar, SaanSerif, tacnode, GGWP, and dozens more named across spec/pages/blog and spec/pages/casestudies). Never AI-generate, redraw, recolor, or otherwise alter a real company's logo. Use only the licensed/sourced exact asset, or omit the logo entirely and use a neutral placeholder wordmark for a fictional example company.",
+      "realCompanyRisk": true
+    },
+    "competitor-logo": {
+      "generationPolicy": "must-reuse-exact",
+      "guidance": "COMPLIANCE — PINNED: real named competitor products (HeyReach, Expandi, Lemlist, Clay, Apollo, Outreach, Salesloft, and 19 total competitors in spec/pages/compare/states/competitors.json). Never AI-generate or alter; use licensed exact favicon/logo assets only.",
+      "realCompanyRisk": true
+    },
+    "customer-photo": {
+      "generationPolicy": "must-not-fabricate",
+      "guidance": "COMPLIANCE: real named customers appear in case studies, video testimonials, and the wall-of-love/marquee tickers (e.g. Brandon Kay, Sam Momin). Never generate a fabricated likeness of a real person. Use a licensed real photo or a generic placeholder avatar only for a clearly fictional example.",
+      "realCompanyRisk": true
+    },
+    "employee-photo": {
+      "generationPolicy": "must-not-fabricate",
+      "guidance": "COMPLIANCE: real named Valley employees appear on /about and in endorsement/form sections (e.g. Jason Hardman, Zayd, Alex). Never generate a fabricated likeness of a real person. Use a licensed real photo or a generic placeholder silhouette.",
+      "realCompanyRisk": true
+    },
+    "author-photo": {
+      "generationPolicy": "must-not-fabricate",
+      "guidance": "COMPLIANCE: blog post authorAvatar fields (e.g. Saniya Sood) reference real framerusercontent.com photos of real named people. Never generate a fabricated likeness of a real person; use the licensed real photo, or a generic placeholder avatar for a clearly fictional author.",
+      "realCompanyRisk": true
+    },
+    "product-screenshot": {
+      "generationPolicy": "may-generate-new",
+      "guidance": "Synthetic product-UI mockup screenshots (dashboard chrome, card layouts, calendar mockups) are safe to AI-generate in the same visual style, as long as they never fabricate a specific real customer's actual private data or dashboard content.",
+      "realCompanyRisk": false
+    },
+    "editorial-card-image": {
+      "generationPolicy": "may-generate-new",
+      "guidance": "Generic editorial illustration/photo for a blog card, article body image, or YouTube-facade poster. Safe to AI-generate new, brand-neutral imagery not depicting a real identifiable person or trademark.",
+      "realCompanyRisk": false
+    },
+    "brand-animation": {
+      "generationPolicy": "must-reuse-exact",
+      "guidance": "COMPLIANCE — PINNED: Valley's own proprietary Rive animations (the four /linkedin-automation feature-card illustrations and the steps flow diagram, from two .riv files). Never AI-generate a copy, trace, or imitation of them. Reuse only the exact licensed file, or omit the canvas and keep the static card background.",
+      "realCompanyRisk": true,
+      "measuredFrom": "spec/pages/ASSETS_GAPFILL.md:38-55"
+    }
+  },
+  "pinnedGenerationPolicyRoles": [
+    "customer-logo",
+    "competitor-logo",
+    "customer-photo",
+    "employee-photo",
+    "author-photo",
+    "brand-animation"
+  ],
+  "pinnedGenerationPolicyRule": "These 6 roles must NEVER carry generationPolicy 'may-generate-new'. This is a pinned-value check (MASTER-GUIDE.md 3.23), enforced structurally in schema/pagespec.schema.json's assetRef.allOf conditional AND independently re-checked against this registry file by extraction/verify_all.py — two separate enforcement points for the same compliance fact."
+}

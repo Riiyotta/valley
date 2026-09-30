@@ -1,0 +1,19 @@
+{
+  "id": "comparison.landing-cards",
+  "layer": "section",
+  "purpose": "3-card 'Comparative Analysis' pricing/positioning comparison, on the SEO landing-template routes (distinct from the full comparison.widget on /compare and /product).",
+  "composes": ["badge", "button"],
+  "measuredFrom": "spec/pages/landing.md:252-268",
+  "content": {
+    "type": "object",
+    "properties": {
+      "headingLines": { "type": "array", "minItems": 1, "maxItems": 2 },
+      "cards": { "type": "array", "minItems": 3, "maxItems": 3, "items": { "type": "object", "properties": { "tag": { "type": "string", "maxWords": 4 }, "kicker": { "type": "string", "maxWords": 6 }, "title": { "type": "string", "maxWords": 6 }, "body": { "type": "string", "maxWords": 24 }, "costLabel": { "type": "string", "maxWords": 4 }, "costValue": { "type": "string", "maxWords": 3 }, "bullets": { "type": "array", "maxItems": 3 }, "footerTag": { "type": "string", "maxWords": 6 }, "highlight": { "type": "boolean" } }, "required": ["title", "body"], "additionalProperties": false } }
+    },
+    "required": ["cards"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "landingSeoTemplateOnly" },
+  "motion": { "pattern": "none", "reducedMotionFallback": "n/a" },
+  "assetRoles": {}
+}

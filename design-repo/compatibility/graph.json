@@ -1,0 +1,79 @@
+{
+  "description": "Rhythm/adjacency/position rules JSON Schema cannot express. Each rule states severity explicitly. This file and schema/semantic_validate.py's enforcement code are two authoritative sources for the same facts and MUST agree (MASTER-GUIDE.md 3.8) — whenever one is corrected, grep the other.",
+  "rules": [
+    {
+      "id": "ONE_HERO_PER_PAGE",
+      "description": "At most one hero-category section per PageSpec.",
+      "heroSections": ["hero.marketing", "hero.page-simple", "hero.landing-template", "hero.agency", "hero.automation", "form.contact", "content.post-header", "casestudy.hero-stats"],
+      "heroSectionsNote": "form.contact (tryvalley's above-the-fold section), content.post-header (blog-post's title/meta header) and casestudy.hero-stats (casestudy's dark hero+stats) are each the real first-after-nav, above-the-fold section for their template and functionally fill the 'hero' role even though their section id does not start with 'hero.' — counted here so ONE_HERO_PER_PAGE evaluates correctly for template.landing-tryvalley, template.blog-post and template.casestudy.",
+      "severity": "error",
+      "exception": "template.compare, template.playbooks, template.legal, and template.blog-archive have NO hero section at all — this is real and correct, not a gap. See templates/templates.json noHeroTemplates list, kept in sync with this exception.",
+      "exemptTemplates": ["template.compare", "template.playbooks", "template.legal", "template.blog-archive"]
+    },
+    {
+      "id": "SHELL_MUST_BOOKEND",
+      "description": "shell.navbar must be the first node (or, for template.landing-seo-template only, immediately preceded solely by landing.sticky-bar — a real fixed-position bottom bar that precedes nav in DOM order on the live site) and shell.footer must be the last node in every PageSpec, except template.blog-archive which has neither (bare route outside Layout).",
+      "severity": "error",
+      "exemptTemplates": ["template.blog-archive"],
+      "preNavExceptions": { "template.landing-seo-template": ["landing.sticky-bar"] },
+      "measuredFrom": "spec/pages/landing.md:103-105 (section id order: sticky-bar (fixed) · nav (reuse) · hero ...)"
+    },
+    {
+      "id": "NO_ADJACENT_SAME_CATEGORY",
+      "description": "Two sections whose id shares the same category prefix before the first '.' (e.g. two 'cards.*' sections) should not sit directly adjacent, to avoid visually repetitive stacking.",
+      "severity": "warn",
+      "namedExceptions": [
+        "template.casestudy: conversion.blog-cta (repeatable, interleaved inside content.article-body, not truly adjacent at the top level) followed by cards.related-compact is allowed — the blog-cta instances are nested inside the article body node, not sibling top-level nodes.",
+        "template.landing-seo-template: cards.feature-tiles directly followed by logos.migrated is allowed — both are real, measured, adjacent sections on the live site (spec/pages/landing.md section 3 DOM order), not an authoring mistake."
+      ]
+    },
+    {
+      "id": "NO_CONSECUTIVE_SCROLL_STAGES",
+      "description": "Two scroll-pinned sections (motion.pattern == 'scroll-pin') must not be directly adjacent, since only one scroll-hijack region should be active at a time.",
+      "severity": "error",
+      "affectedSections": ["endorsement.pinned", "jobs.stack"],
+      "note": "template.home places steps.walkthrough between endorsement.pinned and jobs.stack, satisfying this rule as-observed on the real site (CLONE_SPEC.md section 3 section map)."
+    },
+    {
+      "id": "FAQ_VARIANT_NOT_INTERCHANGEABLE",
+      "description": "faq.flat-panel-standalone and faq.accordion-detailed are genuinely different real components (flat 6-Q&A panel vs. case-study expand/collapse accordion) and must never be substituted for each other in a template's node list.",
+      "severity": "error",
+      "measuredFrom": "spec/pages/casestudy.md ('Heading + Desc FAQ', new FaqAccordion. Not the homepage .vsq-faq')"
+    },
+    {
+      "id": "WALL_OF_LOVE_VARIANT_NOT_INTERCHANGEABLE",
+      "description": "wall-of-love.grid (homepage static grid) and wall-of-love.marquee-ticker (tryvalley/automation continuous marquee) are different real components and must never be substituted for each other.",
+      "severity": "error",
+      "measuredFrom": "spec/pages/landing.md:69,482-493"
+    },
+    {
+      "id": "CLOSING_CTA_NOT_ON_LANDING",
+      "description": "closing-cta.form must never appear in any of the 6 landing-page templates — confirmed not used on any of them.",
+      "severity": "error",
+      "measuredFrom": "spec/pages/landing.md:62 ('Closing CTA (.vcc) | none | not used on any landing page')",
+      "exemptTemplates": ["template.home"]
+    },
+    {
+      "id": "PINNED_LIVE_ENDPOINT_VALUES",
+      "description": "Any content field whose schema marks it pinnedValue must retain its exact real value; it is not merely one-of-a-closed-enum. Affected fields: closing-cta.form.ctaHref, hero.landing-template.bookDemoHref/startFreeHref, hero.agency.ctaHref, cards.case-banner.ctaHref, agency.paths.budgetCtaHref, hero.automation.bookDemoHref/tryFreeHref, automation.step-rows.ctaHref, automation.case-bento.ctaHref, landing.hubspot-demo.embedUrl, automation.hubspot-calendar.embedUrl, conversion.blog-cta.ctaHref.",
+      "severity": "error",
+      "measuredFrom": "src/components/longform/formSubmit.js:1-11; grep -rl 'forms.withsurface.com|beta.joinvalley.co' src/ (18 files, 25 occurrences)"
+    },
+    {
+      "id": "PLACEHOLDER_CONTENT_FIELDS_NEVER_MEASURED_REAL",
+      "description": "content.article-body, content.legal-prose, and casestudy testimonial/pull-quote/about-blurb text are deliberately generated placeholder, never a reconstruction of Valley's real unrecorded copy. A generator may write NEW placeholder prose in the same structural shape but must never claim it is measured-real.",
+      "severity": "warn",
+      "measuredFrom": "src/components/longform/placeholderArticle.js:1-9; src/components/legal/legalPlaceholder.js:1-7"
+    },
+    {
+      "id": "MOTION_BUDGET_PER_PAGE",
+      "description": "No more than 2 concurrently-autoplaying continuous motion patterns (dot-blink, continuous-marquee, auto-step-slider-reveal, light-pass-and-trace-redraw) per page, to avoid overwhelming the viewport.",
+      "severity": "warn"
+    },
+    {
+      "id": "REDUCED_MOTION_FALLBACK_REQUIRED",
+      "description": "Every section node's motion object must declare a non-empty reducedMotionFallback string.",
+      "severity": "error"
+    }
+  ]
+}

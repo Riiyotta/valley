@@ -1,0 +1,23 @@
+{
+  "id": "product.workflow-rows",
+  "layer": "section",
+  "purpose": "The complete outbound workflow: sticky-stack scroll-driven rows explaining intelligence, execution, and learning stages, on /product.",
+  "measuredFrom": "spec/pages/product.md (.valley-outbound-team/.vot, .valley-intelligence-rows/.vir, .valley-execution-rows/.ver, .valley-learning-row/.vlr)",
+  "content": {
+    "type": "object",
+    "properties": {
+      "h2": { "type": "string", "maxWords": 10 },
+      "rows": { "type": "array", "minItems": 3, "maxItems": 8, "items": { "type": "object", "properties": { "stageLabel": { "type": "string", "maxWords": 4 }, "title": { "type": "string", "maxWords": 10 }, "body": { "type": "string", "maxWords": 30 } }, "required": ["stageLabel", "title", "body"], "additionalProperties": false } }
+    },
+    "required": ["h2", "rows"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "routeRestriction": "productRouteOnly" },
+  "motion": {
+    "pattern": "sticky-stack-scroll",
+    "reducedMotionFallback": "all rows render in their final static state, no sticky-stack scroll-tied transform"
+  },
+  "assetRoles": {
+    "workflow-screenshot": { "enum": "product-screenshot", "generationPolicy": "may-generate-new", "guidance": "Synthetic UI mockups; safe to AI-generate." }
+  }
+}

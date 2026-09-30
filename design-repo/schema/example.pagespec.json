@@ -1,0 +1,223 @@
+{
+  "pageSpecVersion": "1.1.0",
+  "template": "template.home",
+  "route": "/",
+  "meta": {
+    "title": "Valley — AI Outbound Platform for Signal-Based Outreach",
+    "description": "Valley finds buying signals, writes on-brand outreach, and books meetings for your whole outbound team."
+  },
+  "nodes": [
+    {
+      "section": "shell.navbar",
+      "required": true,
+      "repeatable": false,
+      "content": {
+        "logoLabel": "Valley",
+        "links": [
+          { "label": "Product", "href": "/product" },
+          { "label": "Pricing", "href": "/pricing" },
+          { "label": "Compare", "href": "/compare" },
+          { "label": "Blog", "href": "/blog" }
+        ],
+        "ctaLabel": "Start for free"
+      },
+      "motion": { "pattern": "load-appear-or-none", "reducedMotionFallback": "renders in final state immediately, no appear animation" }
+    },
+    {
+      "section": "hero.marketing",
+      "required": true,
+      "repeatable": false,
+      "content": {
+        "eyebrow": "The AI SDR for signal-based outbound",
+        "h1": "Find buyers ready to talk. Reach them first.",
+        "sub": "Valley turns buying signals into personalized outreach, so your team books more qualified meetings without more headcount.",
+        "primaryCta": { "label": "Book a demo", "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b" },
+        "secondaryCta": { "label": "Start for free", "href": "https://beta.joinvalley.co/signup" },
+        "visualScenes": [
+          { "eyebrow": "Research", "h3": "Every signal, in one feed" },
+          { "eyebrow": "Message", "h3": "Written in your voice" }
+        ],
+        "proofStory": { "quote": "Valley found the accounts we were missing and wrote the first message for us.", "personName": "Brandon Kay" }
+      },
+      "assetRefs": [
+        { "assetRole": "hero-visual-art", "generationPolicy": "may-generate-new", "alt": "Abstract research scene illustration" },
+        { "assetRole": "proof-avatar", "generationPolicy": "must-not-fabricate", "alt": "Customer proof avatar" }
+      ],
+      "motion": {
+        "pattern": "scene-cross-fade-keyframes",
+        "keyframeRefs": ["vhv-source-in", "vhv-thread-in", "vhv-card-in", "vhv-detail-in"],
+        "reducedMotionFallback": "static final scene rendered, no cross-fade cycling"
+      }
+    },
+    {
+      "section": "logos.wall",
+      "required": true,
+      "repeatable": false,
+      "content": {
+        "heading": "Trusted by outbound teams at fast-growing companies",
+        "featured": [{ "name": "Gallea AI" }, { "name": "Smallest.ai" }, { "name": "Klaar" }],
+        "grid": [{ "name": "Gallea AI" }, { "name": "Smallest.ai" }, { "name": "Klaar" }, { "name": "SaanSerif" }]
+      },
+      "assetRefs": [
+        { "assetRole": "customer-logo", "generationPolicy": "must-reuse-exact", "alt": "Gallea AI logo" }
+      ],
+      "motion": { "pattern": "dot-blink", "keyframeRefs": ["dot-blink"], "reducedMotionFallback": "dot renders static at full opacity" }
+    },
+    {
+      "section": "stories.rotating",
+      "required": true,
+      "repeatable": false,
+      "content": {
+        "eyebrow": "Customer results",
+        "h2": "Real pipeline, real fast",
+        "sub": "See how outbound teams use Valley to book more qualified meetings.",
+        "slides": [
+          { "quote": "We booked 14 meetings in 20 days, a process that normally takes three months.", "metric": "$600K+", "metricLabel": "Higher Revenue" }
+        ]
+      },
+      "motion": { "pattern": "carousel-reveal-keyframe", "keyframeRefs": ["vcr-reveal"], "reducedMotionFallback": "first slide renders statically, no auto-advance" }
+    },
+    {
+      "section": "endorsement.pinned",
+      "required": true,
+      "repeatable": false,
+      "content": {
+        "kicker": "A note from our advisor",
+        "quote": "Valley is the first outbound platform that actually understands intent, not just activity.",
+        "personName": "Jeff Becker",
+        "personRole": "Go-to-market advisor"
+      },
+      "assetRefs": [{ "assetRole": "employee-photo", "generationPolicy": "must-not-fabricate", "alt": "Jeff Becker headshot" }],
+      "motion": { "pattern": "scroll-pin", "keyframeRefs": ["ve-scroll-pulse"], "reducedMotionFallback": "pinning disabled; renders as a normal static section" }
+    },
+    {
+      "section": "steps.walkthrough",
+      "required": true,
+      "repeatable": false,
+      "content": {
+        "eyebrow": "How it works",
+        "h2": "Paste your website. Choose a play. Launch.",
+        "lead": "Valley builds your first campaign from your own site in minutes.",
+        "steps": [
+          { "label": "Step 1", "title": "Paste your website", "body": "Valley reads your site and learns your ICP automatically." },
+          { "label": "Step 2", "title": "Choose a play", "body": "Pick from proven outbound plays tuned to your market." },
+          { "label": "Step 3", "title": "Launch", "body": "Your first sequence goes live the same day." }
+        ]
+      },
+      "motion": { "pattern": "step-nav-scroll-highlight", "reducedMotionFallback": "first step renders active and static" }
+    },
+    {
+      "section": "jobs.stack",
+      "required": true,
+      "repeatable": false,
+      "content": {
+        "h2": "Your entire outbound team, automated",
+        "price": "$199",
+        "tileGroups": [
+          { "label": "Research" },
+          { "label": "Writing" },
+          { "label": "Sending" },
+          { "label": "Follow-up" }
+        ]
+      },
+      "motion": { "pattern": "scroll-pin", "reducedMotionFallback": "pinning disabled per reduced-motion; renders as static in-flow section with all tiles visible" }
+    },
+    {
+      "section": "showcase.product",
+      "required": true,
+      "repeatable": false,
+      "content": {
+        "toolbarLabel": "Explore Valley",
+        "h3": "Six views into your pipeline",
+        "tabs": [{ "label": "Signals" }, { "label": "Sequences" }, { "label": "Inbox" }, { "label": "Reports" }]
+      },
+      "assetRefs": [{ "assetRole": "product-screenshot", "generationPolicy": "may-generate-new", "alt": "Product dashboard screenshot" }],
+      "motion": { "pattern": "waapi-tab-progress", "keyframeRefs": ["vs-appear", "vs-connect"], "reducedMotionFallback": "active tab content renders statically, no progress bar animation" }
+    },
+    {
+      "section": "integrations.tools",
+      "required": true,
+      "repeatable": false,
+      "content": {
+        "eyebrow": "Works with your stack",
+        "h2": "Claude, ChatGPT, your CRM, and your API",
+        "lead": "Valley plugs into the tools your team already uses.",
+        "tabs": [{ "label": "AI" }, { "label": "CRM" }, { "label": "MCP" }],
+        "toolRows": [{ "tools": ["Claude", "ChatGPT"] }, { "tools": ["Salesforce", "HubSpot"] }]
+      },
+      "assetRefs": [{ "assetRole": "customer-logo", "generationPolicy": "must-reuse-exact", "alt": "Claude logo" }],
+      "motion": { "pattern": "tab-switch-fade", "reducedMotionFallback": "first tab renders active statically" }
+    },
+    {
+      "section": "team-fit.panel",
+      "required": true,
+      "repeatable": false,
+      "content": {
+        "h2": "Who Valley is built for",
+        "tabs": [
+          { "label": "Founders", "h3": "Book your own pipeline", "body": "Run outbound yourself before you hire an SDR team." },
+          { "label": "SDR teams", "h3": "Scale without headcount", "body": "Give every rep an AI research assistant." }
+        ]
+      },
+      "motion": { "pattern": "panel-arrive-keyframe", "keyframeRefs": ["vtf-arrive"], "reducedMotionFallback": "active panel renders statically, no arrive animation" }
+    },
+    {
+      "section": "wall-of-love.grid",
+      "required": true,
+      "repeatable": false,
+      "content": {
+        "metrics": [{ "value": "150+", "label": "Teams" }],
+        "quotes": [
+          { "quote": "Valley replaced three tools and our SDR headcount plan.", "personName": "Sam Momin" },
+          { "quote": "Our reply rate doubled in the first month.", "personName": "Alex Rivera" },
+          { "quote": "Setup took an afternoon, not a quarter.", "personName": "Jordan Lee" }
+        ]
+      },
+      "assetRefs": [{ "assetRole": "customer-photo", "generationPolicy": "must-not-fabricate", "alt": "Sam Momin headshot" }],
+      "motion": { "pattern": "none", "reducedMotionFallback": "n/a, static grid, no motion" }
+    },
+    {
+      "section": "pricing.plans-faq",
+      "required": true,
+      "repeatable": false,
+      "content": {
+        "h2": "Start with Valley",
+        "price": "$199",
+        "faqs": [
+          { "question": "How fast can we launch?", "answer": "Most teams launch their first campaign the same day they sign up, using Valley's guided setup and a starter play matched to your ICP." },
+          { "question": "Do you replace our CRM?", "answer": "No. Valley plugs into your existing CRM and syncs activity both ways, so your pipeline stays the single source of truth your team already trusts." },
+          { "question": "Is there a contract?", "answer": "Plans are month-to-month by default. Annual and quarterly billing are available and include a discount, with no long-term lock-in required." },
+          { "question": "What channels does Valley support?", "answer": "Email and LinkedIn today, with more channels on the roadmap. Every sequence can mix channels based on the signal that triggered it." }
+        ]
+      },
+      "motion": { "pattern": "accordion-expand", "reducedMotionFallback": "instant expand/collapse, no animated height transition" }
+    },
+    {
+      "section": "closing-cta.form",
+      "required": true,
+      "repeatable": false,
+      "content": {
+        "h2Line1": "Ready to fill your calendar?",
+        "h2Line2": "Book a demo today.",
+        "ctaLabel": "Book a demo",
+        "ctaHref": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b"
+      },
+      "assetRefs": [{ "assetRole": "hero-visual-art", "generationPolicy": "may-generate-new", "alt": "Abstract closing scene background" }],
+      "motion": { "pattern": "none", "reducedMotionFallback": "n/a" }
+    },
+    {
+      "section": "shell.footer",
+      "required": true,
+      "repeatable": false,
+      "content": {
+        "heading": "Fill your calendar with Valley",
+        "columns": [
+          { "title": "Product", "links": ["Overview", "Pricing", "Compare"] },
+          { "title": "Company", "links": ["About", "Careers", "Blog"] },
+          { "title": "Legal", "links": ["Terms of Service", "Privacy Policy"] }
+        ]
+      },
+      "motion": { "pattern": "none", "reducedMotionFallback": "n/a" }
+    }
+  ]
+}

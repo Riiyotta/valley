@@ -1,0 +1,193 @@
+
+##### stories TAB 0 "Bolt.new"
+  B <section .valley-customer-results> 48,1809 1344x424 pad=40px 48px 24px bg=#f8f9f7 border=1px 1px 1px 1px solid #d6dfdd
+  B <div .vcr-slides> 97,1850 1246x303 grid gap=normal cols=1246px jc=normal ai=normal 
+  B <article .vcr-slide> 97,1850 1246x303 pad=4px 0px 24px grid gap=48px cols=565.094px 632.906px jc=normal ai=start tf=matrix(1, 0, 0, 1, 0, 0) anim=vcr-reveal 0.35s ease 0s 1
+  B <div .vcr-quote-column> 97,1854 565x211 flex column gap=20px jc=normal ai=flex-start 
+  T <blockquote> 97,1854 253x32 | Valley Results Montreal 27px/31.86px ls=-0.675px w500 #19282e ta=left  | "“ Valley is a cheat code. ”"
+  B <div .vcr-attribution> 97,1905 156x44 flex row gap=12px jc=normal ai=center 
+  IMG 97,1905 44x44 fit=cover pos=50% 50% bg=#e5ebe7 radius=3px ovf=clip src=https://framerusercontent.com/images/QWtiaR1m3BLU5A064IdsPPe2Es.png?scale-down-to=512 alt="Stefano McCoy"
+  B <div> 153,1907 100x41 flex column gap=4px jc=normal ai=normal 
+  T <strong> 153,1907 100x19 | Valley Results Montreal 15px/18.75px ls=normal w500 #19282e ta=left  | "Stefano McCoy"
+  T <span> 153,1930 100x18 | Valley Results Montreal 14px/18.2px ls=normal w400 #4f5e63 ta=left  | "Sales, Bolt.new"
+  T <a> 97,1969 161x21 | Valley Results Montreal 15px/21px ls=normal w400 #376f9c ta=left  | "Read Bolt.new ’s story"
+  SVG 241,1971 17x17 fill=none stroke=#376f9c color=#376f9c 
+  T <a> 97,2018 155x46 | Valley Results Montreal 15px/18px ls=normal w400 #ffffff ta=left pad=14px 22px bg=#111111 trans=[background-color|0.15s|ease|0s] | "Start for free"
+  SVG 213,2033 17x17 fill=none stroke=#ffffff color=#ffffff 
+  B <div .vcr-outcomes> 710,1854 633x249 flex column gap=14px jc=normal ai=normal 
+  T <span> 710,1854 633x17 | Valley Results Montreal 12px/16.8px ls=0.78px w400 #376f9c tt=uppercase ta=left  | "Bolt.new , WITH VALLEY"
+  B <div .vcr-main-metric> 710,1884 633x127 flex column gap=10px jc=normal ai=normal 
+  T <strong> 710,1884 633x91 | Valley Results Montreal 96px/91.2px ls=-5.28px w500 #19282e ta=left fvn=lining-nums  | "$1M+"
+  T <p> 710,1986 370x26 | Valley Results Montreal 20px/26px ls=normal w400 #40525c ta=left  | "Pipeline generated in the first 60 days."
+  B <div .vcr-support> 710,2026 633x77 pad=18px 0px 0px grid gap=28px cols=302.453px 302.453px jc=normal ai=normal border=1px 0px 0px 0px solid #d6dfdd b:#19282e
+  B <div> 710,2045 302x58 flex column gap=6px jc=normal ai=normal 
+  T <strong> 710,2045 302x32 | Valley Results Montreal 29px/31.9px ls=-0.725px w500 #19282e ta=left  | "15–20"
+  T <span> 710,2083 231x20 | Valley Results Montreal 15px/20.25px ls=normal w400 #4f5e63 ta=left  | "Enterprise meetings booked"
+  B <div> 1041,2045 302x58 flex column gap=6px jc=normal ai=normal 
+  T <strong> 1041,2045 302x32 | Valley Results Montreal 29px/31.9px ls=-0.725px w500 #19282e ta=left  | "3 hrs"
+  T <span> 1041,2083 231x20 | Valley Results Montreal 15px/20.25px ls=normal w400 #4f5e63 ta=left  | "Saved per rep daily"
+  B <div .vcr-controls> 97,2152 1246x55 pad=9px 0px 0px flex row gap=40px jc=space-between ai=center border=1px 0px 0px 0px solid #d6dfdd b:#19282e
+  B <div .vcr-tabs> 97,2163 258x43 flex row gap=26px jc=normal ai=stretch 
+  B <button> 97,2163 48x43 pad=5px 0px 12px flex row gap=normal jc=normal ai=center 
+  T <span> 97,2172 48x18 | Valley Results Montreal 13px/18.2px ls=normal w400 #19282e ta=center  | "Bolt.new"
+  B <span .vcr-tab-track> 97,2200 48x2 bg=#d2dcdd
+  B <i> 97,2200 6x2 bg=#376f9c tf=matrix(0.130929, 0, 0, 1, 0, 0)
+  B <button> 171,2163 39x43 pad=5px 0px 12px flex row gap=normal jc=normal ai=center 
+  T <span> 171,2172 39x18 | Valley Results Montreal 13px/18.2px ls=normal w400 #5e7077 ta=center  | "GGWP"
+  B <button> 235,2163 41x43 pad=5px 0px 12px flex row gap=normal jc=normal ai=center 
+  T <span> 235,2172 41x18 | Valley Results Montreal 13px/18.2px ls=normal w400 #5e7077 ta=center  | "Linarca"
+  B <button> 302,2163 53x43 pad=5px 0px 12px flex row gap=normal jc=normal ai=center 
+  T <span> 302,2172 53x18 | Valley Results Montreal 13px/18.2px ls=normal w400 #5e7077 ta=center  | "ThinkFish"
+  B <div .vcr-playback> 1122,2165 221x40 flex row gap=9px jc=normal ai=center 
+  B <button .vcr-play> 1122,2165 62x40 flex row gap=6px jc=center ai=center 
+  SVG 1127,2178 14x14 fill=none stroke=#19282e color=#19282e 
+  T <span> 1147,2178 32x14 | Valley Results Montreal 12px/normal ls=normal w400 #19282e ta=center  | "Pause"
+  T <span> 1203,2177 38x15 | Valley Results Montreal 11px/15.4px ls=normal w400 #62727a ta=left fvn=tabular-nums  | "0 1 / 0 4"
+  B <button .vcr-arrow> 1260,2166 37x37 border=1px 1px 1px 1px solid #ced9d8 radius=2px trans=[background-color|0.15s|ease|0s]
+  SVG 1270,2176 18x18 fill=none stroke=#19282e color=#19282e tf=matrix(-1, 0, 0, -1, 0, 0)
+  B <button .vcr-arrow> 1306,2166 37x37 border=1px 1px 1px 1px solid #ced9d8 radius=2px trans=[background-color|0.15s|ease|0s]
+  SVG 1316,2176 18x18 fill=none stroke=#19282e color=#19282e 
+##### stories TAB 1 "GGWP"
+  B <section .valley-customer-results> 48,1809 1344x424 pad=40px 48px 24px bg=#f8f9f7 border=1px 1px 1px 1px solid #d6dfdd
+  B <div .vcr-slides> 97,1850 1246x303 grid gap=normal cols=1246px jc=normal ai=normal 
+  B <article .vcr-slide> 97,1850 1246x303 pad=4px 0px 24px grid gap=48px cols=565.094px 632.906px jc=normal ai=start tf=matrix(1, 0, 0, 1, 0, 0) anim=vcr-reveal 0.35s ease 0s 1
+  B <div .vcr-quote-column> 97,1854 565x243 flex column gap=20px jc=normal ai=flex-start 
+  T <blockquote> 97,1854 440x64 | Valley Results Montreal 27px/31.86px ls=-0.675px w500 #19282e ta=left  | "“ I can do an afternoon of prospecting in about 20 minutes tops. ”"
+  B <div .vcr-attribution> 97,1937 180x44 flex row gap=12px jc=normal ai=center 
+  IMG 97,1937 44x44 fit=cover pos=50% 50% bg=#e5ebe7 radius=3px ovf=clip src=https://framerusercontent.com/images/rnMa9immzygrPgvq8OXo5QCGAk.jpeg?scale-down-to=512 alt="Tim O'Neil"
+  B <div> 153,1939 124x41 flex column gap=4px jc=normal ai=normal 
+  T <strong> 153,1939 124x19 | Valley Results Montreal 15px/18.75px ls=normal w500 #19282e ta=left  | "Tim O'Neil"
+  T <span> 153,1962 124x18 | Valley Results Montreal 14px/18.2px ls=normal w400 #4f5e63 ta=left  | "Sales Leader, GGWP"
+  T <a> 97,2001 150x21 | Valley Results Montreal 15px/21px ls=normal w400 #376f9c ta=left  | "Read GGWP ’s story"
+  SVG 230,2003 17x17 fill=none stroke=#376f9c color=#376f9c 
+  T <a> 97,2050 155x46 | Valley Results Montreal 15px/18px ls=normal w400 #ffffff ta=left pad=14px 22px bg=#111111 trans=[background-color|0.15s|ease|0s] | "Start for free"
+  SVG 213,2065 17x17 fill=none stroke=#ffffff color=#ffffff 
+  B <div .vcr-outcomes> 710,1854 633x249 flex column gap=14px jc=normal ai=normal 
+  T <span> 710,1854 633x17 | Valley Results Montreal 12px/16.8px ls=0.78px w400 #376f9c tt=uppercase ta=left  | "GGWP , WITH VALLEY"
+  B <div .vcr-main-metric> 710,1884 633x127 flex column gap=10px jc=normal ai=normal 
+  T <strong> 710,1884 633x91 | Valley Results Montreal 96px/91.2px ls=-5.28px w500 #19282e ta=left fvn=lining-nums  | "$4M"
+  T <p> 710,1986 370x26 | Valley Results Montreal 20px/26px ls=normal w400 #40525c ta=left  | "Pipeline generated within a quarter."
+  B <div .vcr-support> 710,2026 633x77 pad=18px 0px 0px grid gap=28px cols=302.453px 302.453px jc=normal ai=normal border=1px 0px 0px 0px solid #d6dfdd b:#19282e
+  B <div> 710,2045 302x58 flex column gap=6px jc=normal ai=normal 
+  T <strong> 710,2045 302x32 | Valley Results Montreal 29px/31.9px ls=-0.725px w500 #19282e ta=left  | "30–40"
+  T <span> 710,2083 231x20 | Valley Results Montreal 15px/20.25px ls=normal w400 #4f5e63 ta=left  | "Meetings with decision makers"
+  B <div> 1041,2045 302x58 flex column gap=6px jc=normal ai=normal 
+  T <strong> 1041,2045 302x32 | Valley Results Montreal 29px/31.9px ls=-0.725px w500 #19282e ta=left  | "20–30%"
+  T <span> 1041,2083 231x20 | Valley Results Montreal 15px/20.25px ls=normal w400 #4f5e63 ta=left  | "Response rate"
+  B <div .vcr-controls> 97,2152 1246x55 pad=9px 0px 0px flex row gap=40px jc=space-between ai=center border=1px 0px 0px 0px solid #d6dfdd b:#19282e
+  B <div .vcr-tabs> 97,2163 258x43 flex row gap=26px jc=normal ai=stretch 
+  B <button> 97,2163 48x43 pad=5px 0px 12px flex row gap=normal jc=normal ai=center 
+  T <span> 97,2172 48x18 | Valley Results Montreal 13px/18.2px ls=normal w400 #5e7077 ta=center  | "Bolt.new"
+  B <button> 171,2163 39x43 pad=5px 0px 12px flex row gap=normal jc=normal ai=center 
+  T <span> 171,2172 39x18 | Valley Results Montreal 13px/18.2px ls=normal w400 #19282e ta=center  | "GGWP"
+  B <span .vcr-tab-track> 171,2200 39x2 bg=#d2dcdd
+  B <i> 171,2200 5x2 bg=#376f9c tf=matrix(0.130943, 0, 0, 1, 0, 0)
+  B <button> 235,2163 41x43 pad=5px 0px 12px flex row gap=normal jc=normal ai=center 
+  T <span> 235,2172 41x18 | Valley Results Montreal 13px/18.2px ls=normal w400 #5e7077 ta=center  | "Linarca"
+  B <button> 302,2163 53x43 pad=5px 0px 12px flex row gap=normal jc=normal ai=center 
+  T <span> 302,2172 53x18 | Valley Results Montreal 13px/18.2px ls=normal w400 #5e7077 ta=center  | "ThinkFish"
+  B <div .vcr-playback> 1122,2165 221x40 flex row gap=9px jc=normal ai=center 
+  B <button .vcr-play> 1122,2165 62x40 flex row gap=6px jc=center ai=center 
+  SVG 1127,2178 14x14 fill=none stroke=#19282e color=#19282e 
+  T <span> 1147,2178 32x14 | Valley Results Montreal 12px/normal ls=normal w400 #19282e ta=center  | "Pause"
+  T <span> 1203,2177 38x15 | Valley Results Montreal 11px/15.4px ls=normal w400 #62727a ta=left fvn=tabular-nums  | "0 2 / 0 4"
+  B <button .vcr-arrow> 1260,2166 37x37 border=1px 1px 1px 1px solid #ced9d8 radius=2px trans=[background-color|0.15s|ease|0s]
+  SVG 1270,2176 18x18 fill=none stroke=#19282e color=#19282e tf=matrix(-1, 0, 0, -1, 0, 0)
+  B <button .vcr-arrow> 1306,2166 37x37 border=1px 1px 1px 1px solid #ced9d8 radius=2px trans=[background-color|0.15s|ease|0s]
+  SVG 1316,2176 18x18 fill=none stroke=#19282e color=#19282e 
+##### stories TAB 2 "Linarca"
+  B <section .valley-customer-results> 48,1809 1344x424 pad=40px 48px 24px bg=#f8f9f7 border=1px 1px 1px 1px solid #d6dfdd
+  B <div .vcr-slides> 97,1850 1246x303 grid gap=normal cols=1246px jc=normal ai=normal 
+  B <article .vcr-slide> 97,1850 1246x303 pad=4px 0px 24px grid gap=48px cols=565.094px 632.906px jc=normal ai=start tf=matrix(1, 0, 0, 1, 0, 0) anim=vcr-reveal 0.35s ease 0s 1
+  B <div .vcr-quote-column> 97,1854 565x275 flex column gap=20px jc=normal ai=flex-start 
+  T <blockquote> 97,1854 440x96 | Valley Results Montreal 27px/31.86px ls=-0.675px w500 #19282e ta=left  | "“ I know that quality is always going to be high, consistency is always going to be there. ”"
+  B <div .vcr-attribution> 97,1969 155x44 flex row gap=12px jc=normal ai=center 
+  IMG 97,1969 44x44 fit=cover pos=50% 50% bg=#e5ebe7 radius=3px ovf=clip src=https://framerusercontent.com/images/OsA3bcBEflELOPp9sIw8e2c0xY.png?scale-down-to=512 alt="Roberto Arrieta"
+  B <div> 153,1971 99x41 flex column gap=4px jc=normal ai=normal 
+  T <strong> 153,1971 99x19 | Valley Results Montreal 15px/18.75px ls=normal w500 #19282e ta=left  | "Roberto Arrieta"
+  T <span> 153,1993 99x18 | Valley Results Montreal 14px/18.2px ls=normal w400 #4f5e63 ta=left  | "Founder, Linarca"
+  T <a> 97,2033 152x21 | Valley Results Montreal 15px/21px ls=normal w400 #376f9c ta=left  | "Read Linarca ’s story"
+  SVG 232,2035 17x17 fill=none stroke=#376f9c color=#376f9c 
+  T <a> 97,2082 155x46 | Valley Results Montreal 15px/18px ls=normal w400 #ffffff ta=left pad=14px 22px bg=#111111 trans=[background-color|0.15s|ease|0s] | "Start for free"
+  SVG 213,2097 17x17 fill=none stroke=#ffffff color=#ffffff 
+  B <div .vcr-outcomes> 710,1854 633x249 flex column gap=14px jc=normal ai=normal 
+  T <span> 710,1854 633x17 | Valley Results Montreal 12px/16.8px ls=0.78px w400 #376f9c tt=uppercase ta=left  | "Linarca , WITH VALLEY"
+  B <div .vcr-main-metric> 710,1884 633x127 flex column gap=10px jc=normal ai=normal 
+  T <strong> 710,1884 633x91 | Valley Results Montreal 96px/91.2px ls=-5.28px w500 #19282e ta=left fvn=lining-nums  | "14"
+  T <p> 710,1986 370x26 | Valley Results Montreal 20px/26px ls=normal w400 #40525c ta=left  | "Meetings booked in the first month."
+  B <div .vcr-support> 710,2026 633x77 pad=18px 0px 0px grid gap=28px cols=302.453px 302.453px jc=normal ai=normal border=1px 0px 0px 0px solid #d6dfdd b:#19282e
+  B <div> 710,2045 302x58 flex column gap=6px jc=normal ai=normal 
+  T <strong> 710,2045 302x32 | Valley Results Montreal 29px/31.9px ls=-0.725px w500 #19282e ta=left  | "20–22%"
+  T <span> 710,2083 231x20 | Valley Results Montreal 15px/20.25px ls=normal w400 #4f5e63 ta=left  | "Reply rate during active training"
+  B <div> 1041,2045 302x58 flex column gap=6px jc=normal ai=normal 
+  T <strong> 1041,2045 302x32 | Valley Results Montreal 29px/31.9px ls=-0.725px w500 #19282e ta=left  | "1–2 hrs"
+  T <span> 1041,2083 231x20 | Valley Results Montreal 15px/20.25px ls=normal w400 #4f5e63 ta=left  | "To the first positive response"
+  B <div .vcr-controls> 97,2152 1246x55 pad=9px 0px 0px flex row gap=40px jc=space-between ai=center border=1px 0px 0px 0px solid #d6dfdd b:#19282e
+  B <div .vcr-tabs> 97,2163 258x43 flex row gap=26px jc=normal ai=stretch 
+  B <button> 97,2163 48x43 pad=5px 0px 12px flex row gap=normal jc=normal ai=center 
+  T <span> 97,2172 48x18 | Valley Results Montreal 13px/18.2px ls=normal w400 #5e7077 ta=center  | "Bolt.new"
+  B <button> 171,2163 39x43 pad=5px 0px 12px flex row gap=normal jc=normal ai=center 
+  T <span> 171,2172 39x18 | Valley Results Montreal 13px/18.2px ls=normal w400 #5e7077 ta=center  | "GGWP"
+  B <button> 235,2163 41x43 pad=5px 0px 12px flex row gap=normal jc=normal ai=center 
+  T <span> 235,2172 41x18 | Valley Results Montreal 13px/18.2px ls=normal w400 #19282e ta=center  | "Linarca"
+  B <span .vcr-tab-track> 235,2200 41x2 bg=#d2dcdd
+  B <i> 235,2200 5x2 bg=#376f9c tf=matrix(0.130957, 0, 0, 1, 0, 0)
+  B <button> 302,2163 53x43 pad=5px 0px 12px flex row gap=normal jc=normal ai=center 
+  T <span> 302,2172 53x18 | Valley Results Montreal 13px/18.2px ls=normal w400 #5e7077 ta=center  | "ThinkFish"
+  B <div .vcr-playback> 1122,2165 221x40 flex row gap=9px jc=normal ai=center 
+  B <button .vcr-play> 1122,2165 62x40 flex row gap=6px jc=center ai=center 
+  SVG 1127,2178 14x14 fill=none stroke=#19282e color=#19282e 
+  T <span> 1147,2178 32x14 | Valley Results Montreal 12px/normal ls=normal w400 #19282e ta=center  | "Pause"
+  T <span> 1203,2177 38x15 | Valley Results Montreal 11px/15.4px ls=normal w400 #62727a ta=left fvn=tabular-nums  | "0 3 / 0 4"
+  B <button .vcr-arrow> 1260,2166 37x37 border=1px 1px 1px 1px solid #ced9d8 radius=2px trans=[background-color|0.15s|ease|0s]
+  SVG 1270,2176 18x18 fill=none stroke=#19282e color=#19282e tf=matrix(-1, 0, 0, -1, 0, 0)
+  B <button .vcr-arrow> 1306,2166 37x37 border=1px 1px 1px 1px solid #ced9d8 radius=2px trans=[background-color|0.15s|ease|0s]
+  SVG 1316,2176 18x18 fill=none stroke=#19282e color=#19282e 
+##### stories TAB 3 "ThinkFish"
+  B <section .valley-customer-results> 48,1809 1344x424 pad=40px 48px 24px bg=#f8f9f7 border=1px 1px 1px 1px solid #d6dfdd
+  B <div .vcr-slides> 97,1850 1246x303 grid gap=normal cols=1246px jc=normal ai=normal 
+  B <article .vcr-slide> 97,1850 1246x303 pad=4px 0px 24px grid gap=48px cols=565.094px 632.906px jc=normal ai=start tf=matrix(1, 0, 0, 1, 0, 0) anim=vcr-reveal 0.35s ease 0s 1
+  B <div .vcr-quote-column> 97,1854 565x243 flex column gap=20px jc=normal ai=flex-start 
+  T <blockquote> 97,1854 440x64 | Valley Results Montreal 27px/31.86px ls=-0.675px w500 #19282e ta=left  | "“ Valley really does get to avoid all the noise. ”"
+  B <div .vcr-attribution> 97,1937 253x44 flex row gap=12px jc=normal ai=center 
+  IMG 97,1937 44x44 fit=cover pos=50% 50% bg=#e5ebe7 radius=3px ovf=clip src=https://framerusercontent.com/images/sfCZQKIFk9u4tjQgtSzASSggZU.jpeg?scale-down-to=512 alt="Freizle Abarrientos"
+  B <div> 153,1939 197x41 flex column gap=4px jc=normal ai=normal 
+  T <strong> 153,1939 197x19 | Valley Results Montreal 15px/18.75px ls=normal w500 #19282e ta=left  | "Freizle Abarrientos"
+  T <span> 153,1962 197x18 | Valley Results Montreal 14px/18.2px ls=normal w400 #4f5e63 ta=left  | "Chief Operating Officer, ThinkFish"
+  T <a> 97,2001 166x21 | Valley Results Montreal 15px/21px ls=normal w400 #376f9c ta=left  | "Read ThinkFish ’s story"
+  SVG 246,2003 17x17 fill=none stroke=#376f9c color=#376f9c 
+  T <a> 97,2050 155x46 | Valley Results Montreal 15px/18px ls=normal w400 #ffffff ta=left pad=14px 22px bg=#111111 trans=[background-color|0.15s|ease|0s] | "Start for free"
+  SVG 213,2065 17x17 fill=none stroke=#ffffff color=#ffffff 
+  B <div .vcr-outcomes> 710,1854 633x269 flex column gap=14px jc=normal ai=normal 
+  T <span> 710,1854 633x17 | Valley Results Montreal 12px/16.8px ls=0.78px w400 #376f9c tt=uppercase ta=left  | "ThinkFish , WITH VALLEY"
+  B <div .vcr-main-metric> 710,1884 633x127 flex column gap=10px jc=normal ai=normal 
+  T <strong> 710,1884 633x91 | Valley Results Montreal 96px/91.2px ls=-5.28px w500 #19282e ta=left fvn=lining-nums  | "400"
+  T <p> 710,1986 370x26 | Valley Results Montreal 20px/26px ls=normal w400 #40525c ta=left  | "Meetings booked monthly across 50 seats."
+  B <div .vcr-support> 710,2026 633x97 pad=18px 0px 0px grid gap=28px cols=302.453px 302.453px jc=normal ai=normal border=1px 0px 0px 0px solid #d6dfdd b:#19282e
+  B <div> 710,2045 302x78 flex column gap=6px jc=normal ai=normal 
+  T <strong> 710,2045 302x32 | Valley Results Montreal 29px/31.9px ls=-0.725px w500 #19282e ta=left  | "50"
+  T <span> 710,2083 231x20 | Valley Results Montreal 15px/20.25px ls=normal w400 #4f5e63 ta=left  | "Valley seats"
+  B <div> 1041,2045 302x78 flex column gap=6px jc=normal ai=normal 
+  T <strong> 1041,2045 302x32 | Valley Results Montreal 29px/31.9px ls=-0.725px w500 #19282e ta=left  | "2"
+  T <span> 1041,2083 231x41 | Valley Results Montreal 15px/20.25px ls=normal w400 #4f5e63 ta=left  | "Team members managing those seats"
+  B <div .vcr-controls> 97,2152 1246x55 pad=9px 0px 0px flex row gap=40px jc=space-between ai=center border=1px 0px 0px 0px solid #d6dfdd b:#19282e
+  B <div .vcr-tabs> 97,2163 258x43 flex row gap=26px jc=normal ai=stretch 
+  B <button> 97,2163 48x43 pad=5px 0px 12px flex row gap=normal jc=normal ai=center 
+  T <span> 97,2172 48x18 | Valley Results Montreal 13px/18.2px ls=normal w400 #5e7077 ta=center  | "Bolt.new"
+  B <button> 171,2163 39x43 pad=5px 0px 12px flex row gap=normal jc=normal ai=center 
+  T <span> 171,2172 39x18 | Valley Results Montreal 13px/18.2px ls=normal w400 #5e7077 ta=center  | "GGWP"
+  B <button> 235,2163 41x43 pad=5px 0px 12px flex row gap=normal jc=normal ai=center 
+  T <span> 235,2172 41x18 | Valley Results Montreal 13px/18.2px ls=normal w400 #5e7077 ta=center  | "Linarca"
+  B <button> 302,2163 53x43 pad=5px 0px 12px flex row gap=normal jc=normal ai=center 
+  T <span> 302,2172 53x18 | Valley Results Montreal 13px/18.2px ls=normal w400 #19282e ta=center  | "ThinkFish"
+  B <span .vcr-tab-track> 302,2200 53x2 bg=#d2dcdd
+  B <i> 302,2200 7x2 bg=#376f9c tf=matrix(0.130943, 0, 0, 1, 0, 0)
+  B <div .vcr-playback> 1122,2165 221x40 flex row gap=9px jc=normal ai=center 
+  B <button .vcr-play> 1122,2165 62x40 flex row gap=6px jc=center ai=center 
+  SVG 1127,2178 14x14 fill=none stroke=#19282e color=#19282e 
+  T <span> 1147,2178 32x14 | Valley Results Montreal 12px/normal ls=normal w400 #19282e ta=center  | "Pause"
+  T <span> 1203,2177 38x15 | Valley Results Montreal 11px/15.4px ls=normal w400 #62727a ta=left fvn=tabular-nums  | "0 4 / 0 4"
+  B <button .vcr-arrow> 1260,2166 37x37 border=1px 1px 1px 1px solid #ced9d8 radius=2px trans=[background-color|0.15s|ease|0s]
+  SVG 1270,2176 18x18 fill=none stroke=#19282e color=#19282e tf=matrix(-1, 0, 0, -1, 0, 0)
+  B <button .vcr-arrow> 1306,2166 37x37 border=1px 1px 1px 1px solid #ced9d8 radius=2px trans=[background-color|0.15s|ease|0s]
+  SVG 1316,2176 18x18 fill=none stroke=#19282e color=#19282e 

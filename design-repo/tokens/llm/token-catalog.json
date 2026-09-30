@@ -1,0 +1,18 @@
+{
+  "description": "Curated view of what an AI generator may reference. NOT the whole token system — a filtered catalog naming every semantic token id an LLM is permitted to cite in a PageSpec's content, plus the closed enum of raw-value categories those ids resolve from.",
+  "referenceableSemanticTokens": {
+    "color": [
+      "text.primary", "text.primary-on-vgs", "text.secondary", "text.eyebrow", "text.on-dark",
+      "text.on-dark-secondary", "text.link", "text.link-login", "surface.page", "surface.page-vgs",
+      "surface.card", "surface.brand-dark", "surface.panel-offer", "surface.panel-team",
+      "border.default", "border.faq", "border.on-dark", "accent.brand", "success.check", "indicator.linkedin"
+    ],
+    "typography": [
+      "heading.hero", "heading.section", "heading.section-vgs", "heading.card", "body.default",
+      "body.lead", "eyebrow.default", "eyebrow.on-dark", "label.nav", "label.button",
+      "metric.display", "faq.question", "faq.answer"
+    ]
+  },
+  "rawValueCategoriesAllowed": ["color", "typography", "radius", "spacing", "breakpoint", "elevation", "motion", "icon-size"],
+  "note": "An LLM generating a PageSpec instance never writes a raw hex/px value into content; it references these semantic ids. Section/component contracts under sections/ and components/ resolve them internally."
+}

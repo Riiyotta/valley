@@ -1,0 +1,346 @@
+/* "Valley magic Section" (spec/pages/landing.md 5.3; dump_tryvalley_1440 section [4];
+   motion M5). Hidden below 1200. */
+
+.vm {
+  padding: 0 48px;
+  background: #f7f8f4;
+  overflow: hidden;
+  /* Knob/fill spring, sampled from states/probe2.json -> magic (no overshoot, ~700ms). */
+  --vm-spring: linear(0, 0.18 14%, 0.46 29%, 0.67 43%, 0.84 57%, 0.92 71%, 0.97 86%, 1);
+}
+@media screen(below-desktop) {
+  .vm {
+    display: none;
+  }
+}
+
+.vm-frame {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 709px;
+  overflow: hidden;
+  background: #000;
+}
+.vm-frame::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  pointer-events: none;
+}
+.vm-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ---------- Cont 1 ----------
+   566 wide at 1440 (1344 frame) and 506 at 1280 (1184 frame): width = 37.5% + 62px fits both
+   measurements; the Framer rule itself wasn't captured. */
+.vm-left {
+  position: relative;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: calc(37.5% + 62px);
+  height: 100%;
+  padding: 72px 60px;
+}
+.vm-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+}
+.vm-label {
+  color: #fff;
+}
+.vm-title {
+  font: 400 40px/48px theme('fontFamily.ppnm-medium');
+  color: #fff;
+}
+.vm-slider-block {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  width: 100%;
+}
+.vm-kicker {
+  font: 400 18px/22.5px theme('fontFamily.ppnm-medium');
+  color: rgba(255, 255, 255, 0.5);
+}
+.vm-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 26px;
+}
+.vm-note {
+  width: 347px;
+  font: 400 14px/16.8px theme('fontFamily.ppnm-medium');
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* ---------- slider (446 x 4 track at 1440) ---------- */
+.vm-slider {
+  position: relative;
+  width: 100%;
+  height: 4px;
+}
+.vm-slider__line {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #767676;
+}
+.vm-slider__fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  overflow: hidden;
+  transition: width 700ms var(--vm-spring);
+}
+.vm-slider__fill img {
+  display: block;
+  width: 100%;
+  height: 4px;
+  object-fit: cover;
+}
+.vm-slider__dot {
+  position: absolute;
+  top: -2px;
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  background: #fff;
+}
+.vm-slider__dot[data-on] {
+  background: #ffc391;
+}
+.vm-knob {
+  position: absolute;
+  top: -22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  transition: left 700ms var(--vm-spring);
+}
+/* The spring back to stop 0 runs on the same ~700ms curve as the forward steps (live knob
+   progress on the reset: .26 @100ms, .72 @300ms, .98 @600ms). */
+/* The two radial glows (89 and 53 px): live SVG background images, rgba(255,215,94,.37) and
+   rgba(255,215,94,.53) fading to 0 (ASSETS_GAPFILL 3). */
+.vm-knob__glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.vm-knob__glow--outer {
+  width: 89px;
+  height: 89px;
+  background: url("/assets/pages/landing/svg/knob-glow-outer.svg") 0 0 / 100% 100% no-repeat;
+}
+.vm-knob__glow--inner {
+  width: 53px;
+  height: 53px;
+  background: url("/assets/pages/landing/svg/knob-glow-inner.svg") 0 0 / 100% 100% no-repeat;
+}
+.vm-knob__frame {
+  position: relative;
+  display: flex;
+  width: 37px;
+  height: 35px;
+  padding: 3px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.15);
+  overflow: hidden;
+}
+.vm-knob__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 31px;
+  height: 29px;
+  padding: 7px;
+  border-radius: 3px;
+  background: #fff;
+  color: #000;
+}
+.vm-knob__mark {
+  display: block;
+  width: 17px;
+  height: 15.125px;
+}
+/* Live: the asterisk turns one full revolution per step on the knob's own spring (0 -> 360
+   between stops 1 and 2, -1080deg on the three-stop spring back), i.e. rotate = 360deg x stop.
+   Measured frame by frame (vm_rot): angle/360 tracks the knob's travel fraction. It keeps
+   running under reduced motion, like the rest of the live slider. */
+.vm-knob__mark {
+  transition: rotate 700ms var(--vm-spring);
+}
+.vm-frame[data-stop="1"] .vm-knob__mark {
+  rotate: 360deg;
+}
+.vm-frame[data-stop="2"] .vm-knob__mark {
+  rotate: 720deg;
+}
+.vm-frame[data-stop="3"] .vm-knob__mark {
+  rotate: 1080deg;
+}
+
+/* ---------- Cont 2: calendar ---------- */
+.vm-cal {
+  position: relative;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  height: 100%;
+  padding: 24px 18px;
+  background: #fafafa;
+  overflow: hidden;
+}
+.vm-cal::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  pointer-events: none;
+}
+.vm-cal__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 59px;
+  padding: 12px;
+}
+.vm-cal__month {
+  font: 400 28px/35px theme('fontFamily.ppnm-medium');
+  color: #252525;
+}
+.vm-cal__month span {
+  color: rgba(37, 37, 37, 0.7);
+}
+.vm-cal__arrows {
+  display: flex;
+  gap: 10px;
+}
+.vm-cal__arrowbox {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+.vm-cal__arrow {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-color: #252525;
+  -webkit-mask: var(--vm-chevron) 0 0 / 100% 100% no-repeat;
+  mask: var(--vm-chevron) 0 0 / 100% 100% no-repeat;
+}
+.vm-cal__arrow--prev {
+  --vm-chevron: url("/assets/pages/landing/svg/calendar-chevron-prev.svg");
+}
+.vm-cal__arrow--next {
+  --vm-chevron: url("/assets/pages/landing/svg/calendar-chevron-next.svg");
+}
+/* Weekday row: 10px tall, opacity .5, seven 106px cells padded 5px 35px. The weekday text
+   style wasn't captured; 11px PPNM Medium #252525 matches the screenshot. */
+.vm-cal__weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  width: 100%;
+  height: 10px;
+  opacity: 0.5;
+}
+.vm-cal__weekdays span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+  font: 400 11px/13.75px theme('fontFamily.ppnm-medium');
+  color: #252525;
+  white-space: nowrap;
+}
+.vm-cal__grid {
+  display: grid;
+  flex: 1 1 0;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  grid-template-rows: repeat(5, minmax(0, 1fr));
+  row-gap: 8px;
+  width: 100%;
+}
+.vm-cell {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: start;
+  width: 89px;
+  padding: 2px;
+  background: #fafafa;
+  overflow: hidden;
+}
+.vm-cell__day {
+  margin: 5px 0;
+  font: 400 11px/13.75px theme('fontFamily.ppnm-medium');
+  color: #252525;
+}
+.vm-cell__day[data-muted] {
+  color: rgba(37, 37, 37, 0.5);
+}
+.vm-cell__stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  width: 85px;
+}
+.vm-event {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  width: 85px;
+  height: 20px;
+  padding: 4px;
+  border-radius: 1px;
+  overflow: hidden;
+}
+.vm-event img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.vm-event p {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 0;
+  font: 400 11px/13.2px theme('fontFamily.ppnm-medium');
+  color: #000;
+}
+.vm-hider {
+  position: absolute;
+  left: 0;
+  width: 89px;
+  height: 20px;
+  background: #fafafa;
+  transition: opacity 500ms cubic-bezier(0.64, 0.02, 0.31, 1.01);
+}

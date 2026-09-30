@@ -1,0 +1,290 @@
+/* Logos (spec 9; dumps section 1 at 1440/1024/768/390; spec/states/logo_tooltips.json). */
+
+/* ---------- "Website Desktop" (>= 1200) ---------- */
+.logos {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: center;
+  padding: 48px 48px 56px;
+  background: theme('colors.surface.DEFAULT');
+}
+.logos-title {
+  width: 100%;
+  max-width: 1360px; /* live "Header Text": 1360 desktop, 860 tablet/phone (grid audit) */
+  text-align: center;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 36px;
+  line-height: 43.2px;
+  font-weight: 500;
+  color: theme('colors.ink.DEFAULT');
+}
+.logos-title--compact { display: none; }
+
+.logos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: center;
+  width: 100%;
+  max-width: 1360px; /* live "Logo-container": 1360 desktop, 1100 tablet/phone (grid audit) */
+}
+.logos-migrated,
+.logos-more-tag { display: none; }
+
+/* "Featured customers": 4 columns, border on all sides via ::after */
+.logos-featured {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-auto-rows: 64px;
+  gap: 24px;
+  padding: 24px;
+}
+.logos-featured::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid theme('colors.line.DEFAULT');
+  pointer-events: none;
+}
+.logos-featured-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+.logos-featured-cell img {
+  flex: none;
+  max-width: none;
+}
+
+/* Main grid: 5 columns, border left/right/bottom only */
+.logos-grid {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  /* Framer's own row definitions (saved page CSS, .framer-hbln4q); unused rows still add gaps */
+  grid-template-rows: repeat(3, min-content);
+  grid-auto-rows: min-content;
+  gap: 12px 20px;
+  padding: 20px;
+}
+.logos-grid::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid theme('colors.line.DEFAULT');
+  border-top-width: 0;
+  pointer-events: none;
+}
+
+/* Cells: "Website Logo Plain" / "Website Logo" (dot + tooltip) / "Website Wide Logo" */
+.logo-cell {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  min-height: 0; /* let the aspect ratio set the height; the 48px logo row overflows like on the site */
+  aspect-ratio: 3.42424; /* Framer container aspect ratio, main grid */
+  background: theme('colors.surface.DEFAULT');
+}
+.logo-row {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 48px;
+}
+.logo-dot {
+  flex: none;
+  width: 5px;
+  height: 5px;
+  background: theme('colors.accent.blink');
+}
+.logo-mark {
+  flex: none;
+  position: relative;
+  height: 46px;
+  max-width: 96%; /* derived: logos narrower than natural at 1024/390 are 96% of the cell */
+  opacity: 0.85;
+}
+.logo-mark--wide {
+  height: auto;
+  width: min(197px, 96%);
+}
+.logo-mark img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Tooltip (portal, z-index 11) */
+.logo-tip {
+  position: absolute;
+  z-index: 11;
+  width: 280px;
+  /* Live Framer spring {bounce:.2, duration:.4} on opacity only (overshoot clamps at 1):
+     ~.46 at 60ms, ~.94 at 130ms, 1 by ~190ms; same curve on hide. Sampled to linear(). */
+  opacity: 0;
+  transition: opacity 400ms linear(0, 0.006 1.25%, 0.0224 2.5%, 0.0475 3.75%, 0.0794 5%, 0.1167 6.25%, 0.2024 8.75%, 0.483 16.25%, 0.6093 20%, 0.6833 22.5%, 0.7483 25%, 0.8044 27.5%, 0.8517 30%, 0.908 33.75%, 0.9487 37.5%, 0.977 41.25%, 0.9999 46.25%, 1.0125 52.5%, 1.0142 62.5%, 1.0009 95%, 1);
+}
+.logo-tip[data-shown="true"] { opacity: 1; }
+.logo-tip-card {
+  position: relative;
+  background: theme('colors.surface.DEFAULT');
+  border-radius: 4px;
+  box-shadow: theme('boxShadow.tooltip');
+  overflow: clip;
+}
+.logo-tip-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid theme('colors.line.DEFAULT');
+  border-radius: 4px;
+  pointer-events: none;
+}
+.logo-tip-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 16px;
+}
+.logo-tip-glyph {
+  display: block;
+  width: 14px;
+  height: 14px;
+  color: #000000;
+}
+.logo-tip-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  width: 100%;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-weight: 500;
+  white-space: pre-wrap; /* ICP lines keep the double space ("GTM  LEADERS") */
+}
+.logo-tip-quote,
+.logo-tip-icp { width: 100%; }
+.logo-tip-quote {
+  font-size: 14px;
+  line-height: 18.9px;
+  color: theme('colors.ink.DEFAULT');
+}
+.logo-tip-icp {
+  font-size: 11px;
+  line-height: 14.85px;
+  color: theme('colors.grey.4f5e63');
+}
+
+/* ---------- "Website Tablet" (810-1199.98) and "Website Phone" (<= 809.98) ---------- */
+@media screen(below-desktop) {
+  .logos-title { max-width: 860px; }
+  .logos-container { max-width: 1100px; }
+  .logos-title--desktop { display: none; }
+  .logos-title--compact { display: inline; }
+  .logos-migrated { display: flex; }
+  .logos-more-tag { display: block; }
+
+  .logos-migrated {
+    position: relative;
+    width: 100%;
+  }
+  .logos-migrated::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 1px solid theme('colors.line.DEFAULT');
+    pointer-events: none;
+  }
+  .logos-group {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-content: start;
+  }
+  .logos-group:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+  .logos-group .logo-cell { aspect-ratio: 3.24242; } /* Framer container aspect ratio, migrated blocks */
+
+  /* Competitor tag chip straddling the block's top border */
+  .logos-tag {
+    position: absolute;
+    z-index: 1;
+    top: -22px;
+    left: 50%;
+    width: 184px;
+    height: 48px;
+    margin-left: -92px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: theme('colors.surface.DEFAULT');
+  }
+  .logos-tag img {
+    flex: none;
+    display: block;
+    max-width: none;
+  }
+
+  .logos-more-tag {
+    width: 100%;
+    padding: 28px 16px 20px;
+    background: theme('colors.surface.DEFAULT');
+  }
+  .logos-more-tag p {
+    text-align: center;
+    font-family: theme('fontFamily.ppnm-medium');
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 500;
+    color: theme('colors.grey.4f5e63');
+  }
+}
+
+@media screen(tablet) {
+  .logos { padding: 40px 28px 48px; gap: 36px; }
+  .logos-title { max-width: 860px; font-size: 32px; line-height: 38.4px; }
+  .logos-container { padding-top: 40px; }
+  .logos-migrated { flex-direction: row; }
+  .logos-group { flex: 1 1 0; min-width: 0; padding: 44px 16px 28px; gap: 24px 16px; }
+  .logos-group:not(:last-child)::after { border-right: 1px solid theme('colors.line.DEFAULT'); }
+  .logos-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); grid-template-rows: repeat(6, min-content); }
+}
+
+@media screen(phone) {
+  .logos { padding: 36px 20px 40px; gap: 32px; }
+  .logos-title { font-size: 28px; line-height: 33.6px; }
+  .logos-container { padding-top: 44px; }
+  .logos-migrated { flex-direction: column; }
+  .logos-group { padding: 44px 16px 24px; gap: 24px 20px; }
+  /* Live dividers: block 1 ::after = right + bottom, block 2 ::after = top + bottom, so the
+     Heyreach/Expandi divider is 2px thick and the Expandi/Lemlist one 1px. */
+  .logos-group:nth-child(1)::after {
+    border-right: 1px solid theme('colors.line.DEFAULT');
+    border-bottom: 1px solid theme('colors.line.DEFAULT');
+  }
+  .logos-group:nth-child(2)::after {
+    border-top: 1px solid theme('colors.line.DEFAULT');
+    border-bottom: 1px solid theme('colors.line.DEFAULT');
+  }
+  .logos-featured { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .logos-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: repeat(9, min-content); }
+}

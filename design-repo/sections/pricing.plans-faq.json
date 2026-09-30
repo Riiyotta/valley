@@ -1,0 +1,27 @@
+{
+  "id": "pricing.plans-faq",
+  "layer": "section",
+  "purpose": "Convert with a pricing offer panel plus answer common objections via FAQ, in one combined section (.valley-start-questions).",
+  "composes": ["faq-item", "button"],
+  "measuredFrom": "CLONE_SPEC.md section 18; spec/GRID.md:48,183-185",
+  "content": {
+    "type": "object",
+    "properties": {
+      "h2": { "type": "string", "maxWords": 10 },
+      "price": { "type": "string", "maxWords": 3 },
+      "faqs": { "type": "array", "minItems": 4, "maxItems": 8, "items": { "type": "object", "properties": { "question": { "type": "string", "maxWords": 20 }, "answer": { "type": "string", "maxWords": 80 } }, "required": ["question", "answer"], "additionalProperties": false } }
+    },
+    "required": ["faqs"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true },
+  "responsive": {
+    "desktop": { "layout": "offer 1fr 1fr gap 48 padding 40; faq 1fr 1.6fr gap 48 padding 40" },
+    "containerBand850": { "containerQuery": "<=850c", "layout": "offer gap 32 padding 28; faq 0.85fr 1.5fr gap 32" },
+    "containerBand560": { "containerQuery": "<=560c", "layout": "offer 1fr gap 28 padding 24 20; faq 1fr gap 28" },
+    "measuredFrom": "spec/GRID.md:184-185"
+  },
+  "motion": { "pattern": "accordion-expand", "reducedMotionFallback": "instant expand/collapse, no animated height transition" },
+  "assetRoles": {},
+  "reuseNote": "The FAQ half of this section (.vsq-faq, same 6 Q&As) is reused standalone (without .vsq-offer) as the FAQ block on blog-index, casestudies-index, and all 6 landing pages — see faq.flat-panel-standalone.json."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "faq-item",
+  "layer": "component",
+  "description": "Single question/answer accordion row. Two real variants exist on the site and must not be merged: the homepage/landing '.vsq-faq' 6-question flat panel, and the case-study 'FaqAccordion' which is a genuinely different expand/collapse component.",
+  "measuredFrom": "CLONE_SPEC.md typography (faq-question/faq-answer roles); spec/pages/casestudy.md section on FaqAccordion",
+  "props": {
+    "question": { "type": "string", "maxWords": 20 },
+    "answer": { "type": "string", "maxWords": 80 },
+    "variant": { "type": "string", "enum": ["flat-panel", "accordion"] }
+  }
+}

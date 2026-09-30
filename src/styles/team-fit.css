@@ -1,0 +1,498 @@
+/* team-fit section (CLONE_SPEC.md section 16). Owned by the team-fit builder.
+   Part 1: the Framer layers around the code component (.framer-3j9kjv bg, .framer-vp5ov1
+   padding, .framer-114jagy-container max-width), from the saved page's Framer CSS.
+   Part 2: spec/components.css verbatim (.valley-team-fit root rules first, then .vtf-*),
+   every selector scoped under #team-fit. */
+
+#team-fit {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 32px 48px;
+  overflow: clip;
+  background-color: theme('colors.surface.DEFAULT');
+}
+@media screen(tablet) {
+  #team-fit { padding: 24px 28px; }
+}
+@media screen(phone) {
+  #team-fit { padding: 24px 20px; }
+}
+#team-fit .team-fit-container {
+  position: relative;
+  width: 100%;
+  max-width: 1360px;
+}
+
+/* ---- spec/components.css (verbatim, scoped) ---- */
+#team-fit .valley-team-fit {
+  container-type: inline-size;
+  isolation: isolate;
+  box-sizing: border-box;
+  max-width: 100%;
+  color: rgb(25, 40, 46);
+  background: rgb(232, 239, 239);
+  border: 1px solid rgb(204, 216, 216);
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+}
+#team-fit .valley-team-fit * {
+  box-sizing: border-box;
+  min-width: 0px;
+}
+#team-fit .valley-team-fit h2, #team-fit .valley-team-fit h3, #team-fit .valley-team-fit p {
+  margin: 0px;
+}
+#team-fit .valley-team-fit button {
+  font: inherit;
+  border: 0px;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  border-radius: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+#team-fit .valley-team-fit a {
+  color: inherit;
+  text-decoration: none;
+}
+#team-fit .valley-team-fit button:focus-visible, #team-fit .valley-team-fit [tabindex]:focus-visible, #team-fit .valley-team-fit a:focus-visible {
+  outline: rgb(49, 94, 160) solid 2px;
+  outline-offset: 5px;
+}
+#team-fit .valley-team-fit svg {
+  flex-shrink: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  #team-fit .valley-team-fit * {
+      animation: auto ease 0s 1 normal none running none !important;
+      transition: none !important;
+    }
+}
+#team-fit .valley-team-fit[data-static="true"] * {
+  animation: auto ease 0s 1 normal none running none !important;
+  transition: none !important;
+}
+#team-fit .vtf-shell {
+  padding: 52px 56px 56px;
+}
+#team-fit .vtf-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+}
+#team-fit .vtf-eyebrow {
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.09em;
+  display: block;
+  margin-bottom: 16px;
+  color: rgb(61, 101, 117);
+}
+#team-fit .vtf-header h2 {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -0.038em;
+  max-width: 26ch;
+}
+#team-fit .vtf-tabs {
+  display: flex;
+  align-items: center;
+  background: rgb(248, 249, 247);
+  border: 1px solid rgb(202, 214, 215);
+  gap: 0px;
+}
+#team-fit .vtf-tabs button {
+  position: relative;
+  font-size: 16px;
+  line-height: 1.35;
+  min-height: 48px;
+  padding: 13px 25px;
+  color: rgb(79, 102, 112);
+  white-space: nowrap;
+  transition: background 0.18s, color 0.18s;
+}
+#team-fit .vtf-tabs button + button {
+  border-left: 1px solid rgb(215, 223, 222);
+}
+#team-fit .vtf-tabs button::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: -1px;
+  height: 2px;
+  background: rgb(49, 94, 141);
+  transform: scaleX(0);
+  transition: transform 0.18s;
+}
+#team-fit .vtf-tabs button[aria-selected="true"] {
+  color: rgb(36, 74, 101);
+  background: rgb(220, 231, 236);
+}
+#team-fit .vtf-tabs button[aria-selected="true"]::after {
+  transform: scaleX(1);
+}
+#team-fit .vtf-tabs button:hover {
+  background: rgb(227, 235, 237);
+}
+#team-fit .vtf-panel {
+  display: grid;
+  grid-template-columns: minmax(0px, 1.12fr) minmax(0px, 1fr);
+  gap: 56px;
+  align-items: stretch;
+  padding-top: 36px;
+  min-height: 322px;
+  animation: 0.24s ease 0s 1 normal both running vtf-arrive;
+}
+#team-fit .vtf-job {
+  padding: 13px 0px 0px;
+}
+#team-fit .vtf-job h3 {
+  font-size: 34px;
+  line-height: 1.14;
+  letter-spacing: -0.032em;
+  font-weight: 500;
+}
+#team-fit .vtf-job > p {
+  font-size: 18px;
+  line-height: 1.55;
+  margin-top: 20px;
+  max-width: 51ch;
+  color: rgb(64, 88, 98);
+}
+#team-fit .vtf-detail {
+  display: block;
+  margin-top: 25px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: rgb(83, 110, 117);
+  max-width: 50ch;
+}
+#team-fit .vtf-case {
+  position: relative;
+  isolation: isolate;
+  padding: 30px 108px 28px 32px;
+  background: rgb(248, 249, 247);
+  border: 1px solid rgb(197, 209, 210);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+#team-fit .vtf-case::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 68px;
+  background: #b5cdd5 var(--vtf-art) center/cover no-repeat;
+  border-left: 1px solid rgb(197, 209, 210);
+  /* live page has no preflight: width is content-box, so the strip is 68px + 1px border */
+  box-sizing: content-box;
+  z-index: -1;
+}
+#team-fit .vtf-case-company {
+  color: rgb(74, 101, 113);
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+}
+#team-fit .vtf-result {
+  font-size: 40px;
+  line-height: 1.08;
+  letter-spacing: -0.038em;
+  font-weight: 500;
+  margin-top: 17px;
+}
+#team-fit .vtf-qualifier {
+  font-size: 16px;
+  line-height: 1.45;
+  color: rgb(67, 91, 100);
+  margin-top: 9px !important;
+}
+#team-fit .vtf-person {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-top: 25px;
+  color: rgb(47, 72, 84);
+}
+#team-fit .vtf-person > span {
+  font-size: 12px;
+  color: rgb(89, 113, 122);
+}
+#team-fit .vtf-case a {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  min-height: 44px;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-top: 16px;
+  color: rgb(49, 94, 141);
+}
+#team-fit .vtf-case a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+@keyframes vtf-arrive {
+0% {
+opacity: 0.35; transform: translateY(4px); }
+100% {
+opacity: 1; transform: translateY(0px); }
+ }
+@container (min-width: 1280px) {
+  #team-fit .vtf-shell {
+      padding: 60px 64px 64px;
+    }
+}
+@container (min-width: 1280px) {
+  #team-fit .vtf-header h2 {
+      font-size: 48px;
+    }
+}
+@container (min-width: 1280px) {
+  #team-fit .vtf-panel {
+      gap: 72px;
+      padding-top: 40px;
+      grid-template-columns: minmax(0px, 1.08fr) minmax(0px, 1fr);
+    }
+}
+@container (min-width: 1280px) {
+  #team-fit .vtf-job {
+      padding-top: 16px;
+    }
+}
+@container (min-width: 1280px) {
+  #team-fit .vtf-job h3 {
+      font-size: 38px;
+    }
+}
+@container (min-width: 1280px) {
+  #team-fit .vtf-job > p {
+      font-size: 19px;
+      max-width: 48ch;
+    }
+}
+@container (min-width: 1280px) {
+  #team-fit .vtf-case {
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
+}
+@container (min-width: 1280px) {
+  #team-fit .vtf-result {
+      font-size: 46px;
+    }
+}
+@container (max-width: 900px) {
+  #team-fit .vtf-shell {
+      padding: 36px;
+    }
+}
+@container (max-width: 900px) {
+  #team-fit .vtf-header h2 {
+      font-size: 39px;
+    }
+}
+@container (max-width: 900px) {
+  #team-fit .vtf-header {
+      gap: 24px;
+    }
+}
+@container (max-width: 900px) {
+  #team-fit .vtf-tabs button {
+      padding: 13px 22px;
+      font-size: 15px;
+    }
+}
+@container (max-width: 900px) {
+  #team-fit .vtf-panel {
+      gap: 32px;
+      grid-template-columns: minmax(0px, 1.08fr) minmax(0px, 1fr);
+      padding-top: 28px;
+    }
+}
+@container (max-width: 900px) {
+  #team-fit .vtf-job {
+      padding-top: 10px;
+    }
+}
+@container (max-width: 900px) {
+  #team-fit .vtf-job h3 {
+      font-size: 29px;
+    }
+}
+@container (max-width: 900px) {
+  #team-fit .vtf-job > p {
+      font-size: 16px;
+    }
+}
+@container (max-width: 900px) {
+  #team-fit .vtf-detail {
+      font-size: 12px;
+      margin-top: 20px;
+    }
+}
+@container (max-width: 900px) {
+  #team-fit .vtf-case {
+      padding: 25px 63px 24px 24px;
+    }
+}
+@container (max-width: 900px) {
+  #team-fit .vtf-case::after {
+      width: 40px;
+    }
+}
+@container (max-width: 900px) {
+  #team-fit .vtf-result {
+      font-size: 33px;
+    }
+}
+@container (max-width: 900px) {
+  #team-fit .vtf-qualifier {
+      font-size: 15px;
+    }
+}
+@container (max-width: 900px) {
+  #team-fit .vtf-person {
+      font-size: 13px;
+      margin-top: 22px;
+    }
+}
+@container (max-width: 900px) {
+  #team-fit .vtf-person > span {
+      font-size: 11px;
+    }
+}
+@container (max-width: 620px) {
+  #team-fit .vtf-shell {
+      padding: 30px 24px 24px;
+    }
+}
+@container (max-width: 620px) {
+  #team-fit .vtf-header {
+      gap: 23px;
+      align-items: stretch;
+    }
+}
+@container (max-width: 620px) {
+  #team-fit .vtf-eyebrow {
+      font-size: 10px;
+      margin-bottom: 13px;
+    }
+}
+@container (max-width: 620px) {
+  #team-fit .vtf-header h2 {
+      font-size: 33px;
+      max-width: 19ch;
+    }
+}
+@container (max-width: 620px) {
+  #team-fit .vtf-tabs {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0px, 1fr));
+    }
+}
+@container (max-width: 620px) {
+  #team-fit .vtf-tabs button {
+      font-size: 13px;
+      min-height: 46px;
+      padding: 12px 5px;
+      text-align: center;
+    }
+}
+@container (max-width: 620px) {
+  #team-fit .vtf-panel {
+      grid-template-columns: 1fr;
+      padding-top: 28px;
+      gap: 28px;
+      min-height: 0px;
+    }
+}
+@container (max-width: 620px) {
+  #team-fit .vtf-job {
+      padding: 0px;
+    }
+}
+@container (max-width: 620px) {
+  #team-fit .vtf-job h3 {
+      font-size: 28px;
+      line-height: 1.14;
+    }
+}
+@container (max-width: 620px) {
+  #team-fit .vtf-job > p {
+      font-size: 16px;
+      margin-top: 17px;
+      line-height: 1.55;
+    }
+}
+@container (max-width: 620px) {
+  #team-fit .vtf-detail {
+      font-size: 12px;
+      margin-top: 20px;
+    }
+}
+@container (max-width: 620px) {
+  #team-fit .vtf-case {
+      padding: 64px 24px 23px;
+      border-top: 0px;
+      overflow: visible;
+    }
+}
+@container (max-width: 620px) {
+  #team-fit .vtf-case::after {
+      inset: 0px -1px auto;
+      width: auto;
+      height: 40px;
+      border-left: 0px;
+      background-position: center 47%;
+    }
+}
+@container (max-width: 620px) {
+  #team-fit .vtf-case-company {
+      font-size: 10px;
+    }
+}
+@container (max-width: 620px) {
+  #team-fit .vtf-result {
+      font-size: 36px;
+      margin-top: 15px;
+    }
+}
+@container (max-width: 620px) {
+  #team-fit .vtf-qualifier {
+      font-size: 15px;
+    }
+}
+@container (max-width: 620px) {
+  #team-fit .vtf-person {
+      font-size: 13px;
+      margin-top: 22px;
+    }
+}
+@container (max-width: 620px) {
+  #team-fit .vtf-person > span {
+      font-size: 12px;
+    }
+}
+@container (max-width: 620px) {
+  #team-fit .vtf-case a {
+      font-size: 14px;
+      margin-top: 15px;
+      min-height: 44px;
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "stories.rotating",
+  "layer": "section",
+  "purpose": "Rotating customer-result carousel proving quantifiable outcomes.",
+  "composes": ["quote-block", "stat-block"],
+  "measuredFrom": "CLONE_SPEC.md section 10; spec/GRID.md:148-151",
+  "content": {
+    "type": "object",
+    "properties": {
+      "eyebrow": { "type": "string", "maxWords": 6 },
+      "h2": { "type": "string", "maxWords": 10 },
+      "sub": { "type": "string", "maxWords": 24 },
+      "slides": { "type": "array", "minItems": 1, "maxItems": 6, "items": { "type": "object", "properties": { "quote": { "type": "string", "maxWords": 30 }, "metric": { "type": "string", "maxWords": 3 }, "metricLabel": { "type": "string", "maxWords": 6 } }, "required": ["quote", "metric"], "additionalProperties": false } }
+    },
+    "required": ["eyebrow", "h2", "slides"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true },
+  "responsive": {
+    "desktop": { "minWidth": 1200, "layout": "1fr 1.12fr, gap 48" },
+    "tablet": { "containerQuery": "<=850c", "layout": "1fr 1.1fr, gap 32" },
+    "phone": { "containerQuery": "<=600c", "layout": "minmax(0,1fr), gap 26" },
+    "measuredFrom": "spec/GRID.md:149"
+  },
+  "motion": {
+    "pattern": "carousel-reveal-keyframe",
+    "keyframeRefs": ["vcr-reveal"],
+    "reducedMotionFallback": "first slide renders statically, no auto-advance or reveal animation"
+  },
+  "assetRoles": {}
+}

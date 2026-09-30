@@ -1,0 +1,27 @@
+{
+  "id": "wall-of-love.marquee-ticker",
+  "layer": "section",
+  "purpose": "Continuously-scrolling testimonial marquee ('Wall of loooooveee'), used on tryvalley and linkedin-automation. A different real component from the homepage's static wall-of-love.grid.",
+  "composes": ["quote-block"],
+  "measuredFrom": "spec/pages/landing.md:482-493",
+  "content": {
+    "type": "object",
+    "properties": {
+      "label": { "type": "string", "maxWords": 6 },
+      "h3": { "type": "string", "maxWords": 6 },
+      "cards": { "type": "array", "minItems": 3, "maxItems": 20, "items": { "type": "object", "properties": { "company": { "type": "string", "maxWords": 4 }, "quote": { "type": "string", "maxWords": 35 }, "personName": { "type": "string", "maxWords": 4 }, "personRole": { "type": "string", "maxWords": 8 } }, "required": ["quote", "personName"], "additionalProperties": false } }
+    },
+    "required": ["h3", "cards"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true, "notSameVariantAs": "wall-of-love.grid" },
+  "motion": {
+    "pattern": "continuous-marquee",
+    "speedPxPerSecond": 70,
+    "reducedMotionFallback": "marquee freezes; cards render as a static wrapped row"
+  },
+  "assetRoles": {
+    "customer-logo": { "enum": "customer-logo", "generationPolicy": "must-reuse-exact", "guidance": "Real third-party trademarks; never AI-generate or alter." },
+    "customer-photo": { "enum": "customer-photo", "generationPolicy": "must-not-fabricate", "guidance": "Real named customers; never generate a fabricated likeness." }
+  }
+}

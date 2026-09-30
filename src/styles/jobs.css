@@ -1,0 +1,641 @@
+/* Jobs section (CLONE_SPEC.md section 13).
+   1) Framer layer "Your entire outbound team" (the wrapper around the code component),
+      paddings from spec/dumps/dump_*.txt section 5.
+   2) The live .vstack component CSS from spec/components.css, pasted verbatim
+      (the .vstack prefix is unique to this section). */
+
+/* ---------- Framer layer: "Your entire outbound team" ---------- */
+.jobs-wrap {
+  /* live "Your entire outbound team" frame: max-width 1800 centered; inner vstack max 1360 (grid audit) */
+  max-width: 1800px;
+  margin-inline: auto;
+  padding: 24px 48px 32px;
+  background: theme('colors.surface.DEFAULT');
+}
+@media screen(tablet) {
+  .jobs-wrap {
+    padding: 24px 28px 32px;
+  }
+}
+@media screen(phone) {
+  .jobs-wrap {
+    padding: 24px 20px 32px;
+  }
+}
+
+/* ---------- .vstack (verbatim) ---------- */
+.vstack {
+  position: relative;
+  width: 100%;
+  max-width: 1360px; /* live "One benefit, one visual" wrapper */
+  margin-inline: auto;
+  color: rgb(246, 248, 244);
+  background: rgb(20, 43, 50);
+  font-family: ValleyStack, Arial, sans-serif;
+  --progress: 1;
+  --blue: #83b6e8;
+  container-type: inline-size;
+}
+.vstack * {
+  box-sizing: border-box;
+}
+.vstack[data-motion="true"] {
+  height: 310vh;
+}
+.vstack-stage {
+  position: relative;
+  min-height: 730px;
+  padding: 48px;
+  display: flex;
+  align-items: center;
+  isolation: isolate;
+  overflow: hidden;
+}
+.vstack[data-motion="true"] .vstack-stage {
+  position: sticky;
+  top: 88px;
+  height: auto;
+  min-height: max(620px, -88px + 100svh);
+}
+.vstack-art {
+  position: absolute;
+  inset: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.12;
+  z-index: -2;
+}
+.vstack-stage::after {
+  content: "";
+  position: absolute;
+  inset: 0px;
+  z-index: -1;
+  background: linear-gradient(100deg, rgb(20, 43, 50) 0%, rgba(20, 43, 50, 0.95) 45%, rgba(20, 43, 50, 0.4));
+}
+.vstack-inner {
+  width: 100%;
+  max-width: 1360px;
+  margin: 0px auto;
+}
+.vstack-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: end;
+  margin-bottom: 32px;
+}
+.vstack-kicker {
+  font-size: 11px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: rgb(164, 198, 223);
+  margin: 0px 0px 15px;
+}
+.vstack h2 {
+  font-size: clamp(38px, 4.2cqw, 62px);
+  line-height: 1.04;
+  letter-spacing: -0.035em;
+  font-weight: 500;
+  margin: 0px;
+  max-width: 780px;
+}
+.vstack-lead {
+  color: rgb(184, 203, 206);
+  font-size: 18px;
+  line-height: 1.45;
+  max-width: 305px;
+  margin: 0px 0px 3px;
+}
+.vstack-body {
+  display: grid;
+  grid-template-columns: minmax(0px, 1.65fr) minmax(0px, 1fr);
+  gap: 36px;
+  align-items: stretch;
+}
+.vstack-map {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0px, 1fr));
+  gap: 10px;
+}
+.vstack-group-title {
+  font-size: 12px;
+  color: rgb(168, 189, 194);
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 12px;
+  padding: 0px 2px;
+}
+.vstack-group-title span {
+  color: rgb(118, 150, 160);
+}
+.vstack-job {
+  position: relative;
+  isolation: isolate;
+  min-height: 68px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(71, 96, 105);
+  padding: 13px 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  line-height: 1.2;
+  overflow: hidden;
+  color: rgb(209, 223, 225);
+}
+.vstack-job::before {
+  content: "";
+  position: absolute;
+  inset: 0px;
+  z-index: -1;
+  background: rgb(169, 208, 236);
+  transform: scaleX(var(--fill,1));
+  transform-origin: left center;
+}
+.vstack-job[data-filled="true"] {
+  color: rgb(24, 55, 65);
+  border-color: rgb(169, 208, 236);
+}
+.vstack-check {
+  flex-shrink: 0;
+  font-size: 12px;
+  opacity: var(--fill,1);
+}
+.vstack-platform {
+  padding: 20px 24px;
+  background: rgba(241, 247, 243, 0.97);
+  color: rgb(29, 52, 59);
+  border-top: 3px solid rgb(131, 182, 232);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 18px;
+}
+.vstack-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.vstack-brand strong {
+  font-size: 25px;
+  font-weight: 500;
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+.vstack-badge {
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgb(72, 114, 92);
+}
+.vstack-price {
+  display: flex;
+  gap: 9px;
+  align-items: baseline;
+  margin: 8px 0px 4px;
+}
+.vstack-price strong {
+  font-size: 52px;
+  font-weight: 500;
+  letter-spacing: -0.045em;
+  line-height: 1;
+}
+.vstack-price span {
+  font-size: 14px;
+  color: rgb(97, 116, 123);
+}
+.vstack-plan {
+  font-size: 12px;
+  line-height: 1.45;
+  color: rgb(82, 106, 113);
+  margin: 0px;
+}
+.vstack-toggle {
+  display: flex;
+  gap: 3px;
+  background: rgb(227, 235, 234);
+  padding: 3px;
+  margin-top: 13px;
+}
+.vstack-toggle button {
+  flex: 1 1 0%;
+  background: transparent;
+  color: rgb(70, 97, 106);
+  border: 0px;
+  font-style: inherit;
+  font-variant: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  font-optical-sizing: inherit;
+  font-size-adjust: inherit;
+  font-kerning: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-language-override: inherit;
+  font-size: 12px;
+  padding: 8px 5px;
+  cursor: pointer;
+}
+.vstack-toggle button[aria-pressed="true"] {
+  background: rgb(255, 255, 255);
+  color: rgb(27, 54, 63);
+}
+.vstack-cost {
+  border-top: 1px solid rgb(207, 221, 218);
+  padding-top: 15px;
+}
+.vstack-cost label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  align-items: center;
+  gap: 12px;
+}
+.vstack-cost input[type="number"] {
+  width: 85px;
+  background: rgb(255, 255, 255);
+  color: rgb(29, 52, 59);
+  border: 1px solid rgb(200, 215, 213);
+  padding: 6px 7px;
+  font-style: inherit;
+  font-variant: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  font-optical-sizing: inherit;
+  font-size-adjust: inherit;
+  font-kerning: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-language-override: inherit;
+  font-size: 14px;
+}
+.vstack-cost input[type="range"] {
+  width: 100%;
+  accent-color: rgb(70, 122, 169);
+  margin: 11px 0px 6px;
+  cursor: pointer;
+}
+.vstack-savings {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+}
+.vstack-savings strong {
+  font-size: 34px;
+  letter-spacing: -0.025em;
+  font-weight: 500;
+}
+.vstack-savings span {
+  font-size: 12px;
+  color: rgb(73, 103, 96);
+}
+.vstack-note {
+  font-size: 10px;
+  color: rgb(96, 118, 124);
+  line-height: 1.45;
+  margin: 7px 0px 0px;
+}
+.vstack-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: center;
+  margin-top: 24px;
+}
+.vstack-status {
+  font-size: 13px;
+  color: rgb(180, 201, 207);
+}
+.vstack-status b {
+  font-weight: 500;
+  color: rgb(245, 248, 244);
+}
+.vstack-link {
+  color: rgb(245, 248, 244);
+  text-decoration: none;
+  border-bottom: 1px solid rgb(120, 151, 160);
+  padding: 6px 0px;
+  font-size: 14px;
+}
+.vstack-link:focus-visible, .vstack button:focus-visible, .vstack input:focus-visible {
+  outline: rgb(108, 179, 235) solid 2px;
+  outline-offset: 4px;
+}
+.vstack-track {
+  height: 2px;
+  background: rgb(53, 80, 91);
+  margin-top: 18px;
+  overflow: hidden;
+}
+.vstack-track div {
+  height: 100%;
+  background: rgb(150, 200, 234);
+  transform: scaleX(var(--progress));
+  transform-origin: left center;
+}
+.vstack-vendor {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  line-height: 1.3;
+  margin-top: 7px;
+  opacity: 0.75;
+}
+.vstack-vendor img {
+  object-fit: contain;
+  filter: grayscale(1);
+  flex: 0 0 auto;
+}
+.vstack-job {
+  min-height: 79px;
+}
+.vstack-cost label {
+  margin-bottom: 13px;
+  line-height: 1.4;
+}
+.vstack-cost input[type="number"] {
+  flex-shrink: 0;
+  width: 90px;
+  min-height: 36px;
+}
+.vstack-cost input[type="number"] {
+  appearance: textfield;
+}
+.vstack-cost input[type="number"]::-webkit-inner-spin-button, .vstack-cost input[type="number"]::-webkit-outer-spin-button {
+  appearance: none;
+  margin: 0px;
+}
+.vstack-input {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.vstack-projection {
+  padding-top: 12px;
+  border-top: 1px solid rgb(207, 221, 218);
+}
+.vstack-projection > span {
+  font-size: 11px;
+  color: rgb(72, 108, 96);
+}
+.vstack-projection strong {
+  display: block;
+  font-weight: 500;
+  font-size: clamp(25px, 2.3cqw, 34px);
+  letter-spacing: -0.035em;
+  margin: 6px 0px;
+}
+.vstack-projection p {
+  font-size: 11px;
+  line-height: 1.4;
+  margin: 0px;
+  color: rgb(82, 106, 113);
+}
+@container (max-width: 1100px) {
+  .vstack-stage {
+    padding: 36px 40px;
+  }
+}
+@container (max-width: 1100px) {
+  .vstack-top {
+    margin-bottom: 26px;
+  }
+}
+@container (max-width: 1100px) {
+  .vstack-body {
+    gap: 24px;
+  }
+}
+@container (max-width: 1100px) {
+  .vstack-job {
+    min-height: 61px;
+    font-size: 13px;
+    padding: 10px 9px;
+  }
+}
+@container (max-width: 1100px) {
+  .vstack-platform {
+    padding: 20px;
+  }
+}
+@container (max-width: 1100px) {
+  .vstack-lead {
+    font-size: 16px;
+    max-width: 255px;
+  }
+}
+@container (max-width: 1100px) {
+  .vstack-price strong {
+    font-size: 54px;
+  }
+}
+@container (max-width: 1100px) {
+  .vstack-savings strong {
+    font-size: 30px;
+  }
+}
+@container (max-width: 760px) {
+  .vstack-stage {
+    padding: 48px 20px;
+    min-height: 0px;
+  }
+}
+@container (max-width: 760px) {
+  .vstack-top {
+    display: block;
+  }
+}
+@container (max-width: 760px) {
+  .vstack h2 {
+    font-size: 38px;
+  }
+}
+@container (max-width: 760px) {
+  .vstack-lead {
+    max-width: none;
+    margin-top: 18px;
+  }
+}
+@container (max-width: 760px) {
+  .vstack-body {
+    grid-template-columns: 1fr;
+  }
+}
+@container (max-width: 760px) {
+  .vstack-map {
+    grid-template-columns: repeat(2, minmax(0px, 1fr));
+    gap: 16px;
+  }
+}
+@container (max-width: 760px) {
+  .vstack-job {
+    min-height: 49px;
+    font-size: 14px;
+  }
+}
+@container (max-width: 760px) {
+  .vstack-platform {
+    padding: 24px;
+  }
+}
+@container (max-width: 760px) {
+  .vstack-bottom {
+    align-items: start;
+  }
+}
+@container (max-width: 760px) {
+  .vstack-status {
+    max-width: 190px;
+    line-height: 1.5;
+  }
+}
+@container (max-width: 760px) {
+  .vstack-link {
+    white-space: nowrap;
+  }
+}
+@container (max-width: 760px) {
+  .vstack-track {
+    display: none;
+  }
+}
+.vstack-group {
+  display: grid;
+  grid-template-rows: auto repeat(4, 90px);
+  gap: 10px;
+  align-content: start;
+  min-width: 0px;
+}
+.vstack-group-title {
+  margin-bottom: 2px;
+}
+.vstack-job {
+  height: 90px;
+  min-height: 0px;
+  margin: 0px;
+  padding: 11px 12px;
+  align-items: start;
+}
+.vstack-check {
+  margin-top: 3px;
+}
+.vstack-job-copy {
+  min-width: 0px;
+  flex: 1 1 0%;
+}
+.vstack-job-label {
+  display: block;
+  min-height: 2.4em;
+}
+.vstack-vendor {
+  margin-top: 6px;
+}
+.vstack-vendor img {
+  align-self: start;
+  margin-top: 1px;
+}
+@container (max-width: 1100px) {
+  .vstack-job {
+    padding: 10px 9px;
+  }
+}
+@container (max-width: 1100px) {
+  .vstack-check {
+    display: none;
+  }
+}
+@container (max-width: 760px) {
+  .vstack-map {
+    row-gap: 24px;
+  }
+}
+@container (max-width: 760px) {
+  .vstack-check {
+    display: block;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .vstack[data-motion="true"] {
+    height: auto;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .vstack[data-motion="true"] .vstack-stage {
+    position: relative;
+    height: auto;
+    min-height: 0px;
+  }
+}
+.vstack-lead {
+  max-width: 650px;
+  margin: 18px 0px 0px;
+  font-size: 18px;
+}
+.vstack-link, .vstack-trial {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  min-height: 48px;
+  padding: 12px 22px;
+  font-size: 16px;
+  line-height: 1.35;
+  text-decoration: none;
+  border: 1px solid rgb(159, 183, 188);
+  font-weight: 500;
+}
+.vstack-link {
+  color: rgb(245, 248, 244);
+  background: transparent;
+}
+.vstack-link:hover {
+  background: rgb(41, 67, 74);
+}
+.vstack-trial {
+  margin-top: 18px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  background: rgb(28, 41, 46);
+  border-color: rgb(28, 41, 46);
+}
+.vstack-trial:hover {
+  background: rgb(52, 79, 74);
+}
+.vstack-trial:focus-visible {
+  outline: rgb(70, 122, 169) solid 3px;
+  outline-offset: 4px;
+}
+.vstack-projection p {
+  font-size: 12px;
+}
+.vstack-platform {
+  gap: 14px;
+}
+@container (max-width: 760px) {
+  .vstack-bottom {
+    flex-direction: column;
+    gap: 18px;
+  }
+}
+@container (max-width: 760px) {
+  .vstack-status {
+    max-width: none;
+  }
+}
+@container (max-width: 760px) {
+  .vstack-link {
+    width: 100%;
+  }
+}
+@container (max-width: 760px) {
+  .vstack-lead {
+    margin-top: 18px;
+  }
+}

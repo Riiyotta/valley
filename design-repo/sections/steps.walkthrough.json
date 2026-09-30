@@ -1,0 +1,30 @@
+{
+  "id": "steps.walkthrough",
+  "layer": "section",
+  "purpose": "Product-onboarding walkthrough explaining the paste-website / choose-play / launch flow.",
+  "measuredFrom": "CLONE_SPEC.md section 12; spec/GRID.md:156-158",
+  "content": {
+    "type": "object",
+    "properties": {
+      "eyebrow": { "type": "string", "maxWords": 6 },
+      "h2": { "type": "string", "maxWords": 10 },
+      "lead": { "type": "string", "maxWords": 24 },
+      "steps": { "type": "array", "minItems": 2, "maxItems": 6, "items": { "type": "object", "properties": { "label": { "type": "string", "maxWords": 4 }, "title": { "type": "string", "maxWords": 10 }, "body": { "type": "string", "maxWords": 24 } }, "required": ["label", "title", "body"], "additionalProperties": false } }
+    },
+    "required": ["eyebrow", "h2", "steps"],
+    "additionalProperties": false
+  },
+  "constraints": { "onePerPage": true },
+  "responsive": {
+    "desktop": { "layout": "160px 1fr, gap 48" },
+    "tabletBand": { "viewportMax": 1100, "layout": "130px 1fr, gap 28" },
+    "phoneBand": { "viewportMax": 720, "layout": "block, step-nav becomes 3-column flex row" },
+    "vgsGutterQuirk": "keeps 48px gutter down to 721px, unlike Framer sections",
+    "measuredFrom": "spec/GRID.md:157,216"
+  },
+  "motion": {
+    "pattern": "step-nav-scroll-highlight",
+    "reducedMotionFallback": "first step renders active and static, no scroll-driven highlight switching"
+  },
+  "assetRoles": {}
+}

@@ -1,0 +1,357 @@
+/* Nav (spec 7; dumps section 13). Framer layer first, then the .vpm Product dropdown
+   CSS ported verbatim from spec/components.css. */
+
+.nav-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* z-index is not in the spec; needed so the fixed nav paints over positioned sections. */
+  z-index: 10;
+}
+
+/* ---------- "Large Desktop" (>= 1200) ---------- */
+.nav-desktop {
+  height: 84px;
+  padding: 20px 48px;
+  background: theme('colors.surface.DEFAULT');
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  max-width: 1600px; /* live "Nav Container": max-width 1600, centered (grid audit) */
+  margin-inline: auto;
+}
+.nav-logo {
+  display: block;
+  flex: none;
+  width: 99px;
+  height: 29px;
+  background: url("/assets/svg/26-nav-logo-valley-wordmark.svg") center / 100% 100% no-repeat;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  justify-content: center;
+  align-items: center;
+}
+.nav-link {
+  display: block;
+  padding: 12px 0;
+  text-decoration: none;
+  color: #000000;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 14px;
+  line-height: 16.8px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.nav-roll {
+  display: block;
+  height: 20px;
+  overflow: hidden;
+}
+.nav-roll-inner {
+  display: flex;
+  flex-direction: column;
+  /* Live Framer spring {bounce:.2, duration:.6} (zeta .8, w0 15 rad/s; measured 20px roll,
+     peak -20.30px at ~350ms, settled ~600ms, same curve on hover-out). Sampled to linear(). */
+  transition: transform 600ms linear(0, 0.0027 0.83%, 0.0104 1.67%, 0.0383 3.33%, 0.0794 5%, 0.1581 7.5%, 0.3117 11.67%, 0.4978 16.67%, 0.6093 20%, 0.706 23.33%, 0.768 25.83%, 0.8369 29.17%, 0.8911 32.5%, 0.9323 35.83%, 0.9688 40%, 0.9954 45%, 1.0104 50.83%, 1.015 60%, 1.0008 95.83%, 1);
+}
+.nav-roll-inner > span {
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+/* Hover end state: both copies shifted up 20px (spring transition above). */
+.nav-link:hover .nav-roll-inner {
+  transform: translateY(-20px);
+}
+.nav-cta {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav-login {
+  text-decoration: none;
+  color: theme('colors.accent.login');
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+/* Framer link preset (framer-styles-preset-1o7h2ue): hover color #000 + underline, instant. */
+.nav-login:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+.nav-start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 108px;
+  height: 40px;
+  padding: 10px 16px;
+  overflow: clip;
+  background: theme('colors.dark.button');
+  color: #ffffff;
+  text-decoration: none;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 14px;
+  line-height: 16.8px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* ---------- "Phone - Close" / "Phone Open" (< 1200) ---------- */
+.nav-mobile { display: none; }
+
+/* The mobile header rules below only take effect while .nav-mobile is displayed (it is
+   display:none on the desktop header), so they live outside the breakpoint query. */
+.nav-mobile {
+  min-height: 68px;
+  padding: 10px 20px;
+  background: theme('colors.surface.DEFAULT');
+  overflow: clip;
+}
+.nav-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+/* Open: Framer spring stiffness 400 / damping 50 / mass 1 (overdamped, zeta 1.25) on the
+   card height 48 -> natural (436 at 390). Measured live: ~50% at 70ms, 94.6% at 320ms, done
+   ~890ms. Nav.jsx sets the from/to heights; closing is instant on live. */
+.nav-mobile[data-open="true"] .nav-card[data-anim] {
+  overflow: clip;
+  transition: height 900ms linear(0, 0.0046 0.56%, 0.017 1.11%, 0.0353 1.67%, 0.0581 2.22%, 0.0842 2.78%, 0.1126 3.33%, 0.1735 4.44%, 0.2985 6.67%, 0.3582 7.78%, 0.4145 8.89%, 0.467 10%, 0.5156 11.11%, 0.5603 12.22%, 0.6012 13.33%, 0.6385 14.44%, 0.6724 15.56%, 0.7033 16.67%, 0.7314 17.78%, 0.7568 18.89%, 0.7906 20.56%, 0.8197 22.22%, 0.8447 23.89%, 0.8664 25.56%, 0.885 27.22%, 0.9058 29.44%, 0.9229 31.67%, 0.9399 34.44%, 0.9555 37.78%, 0.9686 41.67%, 0.979 46.11%, 0.9873 51.67%, 0.9937 59.44%, 0.9979 71.67%, 1);
+}
+.nav-mob-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  padding-left: 16px;
+}
+.nav-burger {
+  position: relative;
+  flex: none;
+  width: 48px;
+  height: 48px;
+  border-radius: 2px;
+  overflow: hidden;
+  padding: 0;
+  cursor: pointer;
+}
+.nav-burger > i {
+  position: absolute;
+  left: 13.8125px; /* live Framer offsets (fractional) */
+  width: 19px;
+  height: 2px;
+  background: #000000;
+}
+.nav-bar-1 { top: 16.8281px; }
+.nav-bar-2, .nav-bar-3 { top: 23.6719px; }
+.nav-bar-4 { top: 30.5312px; }
+
+/* Open: the nav container becomes a card */
+.nav-mobile[data-open="true"] .nav-card {
+  background: theme('colors.surface.DEFAULT');
+  border-radius: 12px;
+  padding: 0 16px 16px;
+}
+.nav-mobile[data-open="true"] .nav-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(34, 55, 72, 0.09);
+  border-radius: 12px;
+  pointer-events: none;
+}
+/* Hamburger -> X: outer bars fade out, middle bars rotate +-45deg */
+.nav-mobile[data-open="true"] .nav-bar-1,
+.nav-mobile[data-open="true"] .nav-bar-4 { opacity: 0; }
+.nav-mobile[data-open="true"] .nav-bar-2 { transform: rotate(45deg); }
+.nav-mobile[data-open="true"] .nav-bar-3 { transform: rotate(-45deg); }
+
+.nav-mob-links {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: stretch;
+}
+.nav-mob-links .nav-link { align-self: flex-start; }
+.nav-mob-cta {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  padding: 0 24px;
+}
+
+/* Which header shows. Default (every route but /playbooks): hamburger below 1200.
+   /playbooks (Nav desktopMin={1440}, data-bp="1440"): its Framer page breakpoints are
+   Desktop >= 1440 / Tablet 810-1439.98, so the hamburger header shows up to 1439.98
+   (spec/pages/playbooks.md section 1). */
+@media screen(below-desktop) {
+  .nav-desktop { display: none; }
+  .nav-mobile { display: block; }
+}
+@media (min-width: 1200px) and (max-width: 1439.98px) {
+  .nav-wrap[data-bp="1440"] .nav-desktop { display: none; }
+  .nav-wrap[data-bp="1440"] .nav-mobile { display: block; }
+}
+/* Blog posts and case studies: Desktop >= 1280, so the hamburger shows up to 1279.98. */
+@media (min-width: 1200px) and (max-width: 1279.98px) {
+  .nav-wrap[data-bp="1280"] .nav-desktop { display: none; }
+  .nav-wrap[data-bp="1280"] .nav-mobile { display: block; }
+}
+/* /casestudies: Desktop >= 1100, so the desktop header already shows from 1100. */
+@media (min-width: 1100px) and (max-width: 1199.98px) {
+  .nav-wrap[data-bp="1100"] .nav-desktop { display: block; }
+  .nav-wrap[data-bp="1100"] .nav-mobile { display: none; }
+}
+
+/* /playbooks: wrapper is position: sticky; top: auto in normal flow, so it takes its
+   84/68px of layout height (spec/pages/playbooks.md section 1). */
+.nav-wrap[data-sticky="true"] {
+  position: sticky;
+  top: auto;
+}
+
+/* /pricing, /product, /about: Framer appear on load. Wrapper starts at opacity .001,
+   y -79 and tweens to rest over 0.5s with cubic-bezier(.55,0,.14,1), delay 0
+   (spec/pages/pricing.md section 8.1). Skipped under reduced motion, like Framer appear
+   effects. Fill backwards only, so no transform stays on the wrapper afterwards. */
+.nav-wrap[data-appear="true"] {
+  animation: nav-appear 0.5s cubic-bezier(0.55, 0, 0.14, 1) backwards;
+}
+@keyframes nav-appear {
+  from { opacity: 0.001; transform: translateY(-79px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .nav-wrap[data-appear="true"] { animation: none; }
+}
+
+/* ===== .vpm* : nav Product dropdown (section: nav) (21 rules) ===== */
+.vpm {
+  font-family: "PP Neue Montreal", Inter, Arial, sans-serif;
+  color: rgb(25, 37, 46);
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.vpm * {
+  box-sizing: border-box;
+}
+.vpm details {
+  position: relative;
+}
+.vpm summary {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  min-height: 44px;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.vpm summary::-webkit-details-marker {
+  display: none;
+}
+.vpm summary svg {
+  color: rgb(79, 99, 115);
+  transition: transform 0.15s;
+}
+.vpm details[open] summary svg {
+  transform: rotate(180deg);
+}
+.vpm :focus-visible {
+  outline: rgb(57, 114, 156) solid 2px;
+  outline-offset: 4px;
+}
+.vpm-panel {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 330px;
+  padding: 10px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(212, 222, 219);
+  box-shadow: rgba(25, 41, 46, 0.082) 0px 12px 30px;
+  z-index: 10;
+}
+.vpm-panel a {
+  display: block;
+  text-decoration: none;
+  color: rgb(28, 41, 46);
+  padding: 18px 16px;
+}
+.vpm-panel a:hover {
+  background: rgb(238, 243, 239);
+}
+.vpm-panel a + a {
+  border-top: 1px solid rgb(227, 233, 229);
+}
+.vpm-panel a > span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 17px;
+  font-weight: 500;
+}
+.vpm-panel b {
+  font-weight: 400;
+}
+.vpm-panel small {
+  display: block;
+  color: rgb(82, 99, 108);
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 7px;
+}
+.vpm-mobile summary {
+  min-height: 44px;
+  width: 100%;
+  justify-content: space-between;
+}
+.vpm-mobile .vpm-panel {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 100%;
+  margin: 4px 0px 12px;
+  box-shadow: none;
+  border-width: 0px 0px 0px 1px;
+  border-style: none none none solid;
+  border-color: currentcolor currentcolor currentcolor rgb(204, 216, 211);
+  border-image: none;
+  padding: 0px 0px 0px 8px;
+  background: transparent;
+}
+.vpm-mobile .vpm-panel a {
+  padding: 14px 12px;
+}
+.vpm-mobile .vpm-panel a > span {
+  font-size: 16px;
+}
+.vpm-mobile .vpm-panel small {
+  font-size: 13px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .vpm * {
+    transition: none !important;
+  }
+}

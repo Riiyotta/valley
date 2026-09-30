@@ -1,0 +1,14 @@
+{
+  "category": "icon-size",
+  "description": "Real measured icon/avatar/dot pixel sizes observed across the homepage and landing pages.",
+  "measuredFrom": "CLONE_SPEC.md (component sections); spec/pages/landing.md",
+  "tokens": {
+    "icon.dot-blink": { "value": "5px", "usage": "logos dot-blink indicator (square)", "measuredFrom": "CLONE_SPEC.md:329" },
+    "icon.checkmark": { "value": "16px", "usage": "pricing/contact-form check-circle glyphs", "measuredFrom": "spec/pages/landing.md:441" },
+    "icon.avatar-sm": { "value": "20px", "usage": "hero proof ticker avatars, tryvalley contact avatar", "measuredFrom": "spec/pages/landing.md:146,442" },
+    "icon.avatar-md": { "value": "40px", "usage": "case-banner author avatar, blog author avatar", "measuredFrom": "spec/pages/landing.md:245" },
+    "icon.favicon-chip": { "value": "20px", "usage": "compare widget competitor favicon", "measuredFrom": "spec/pages/landing.md:398" },
+    "icon.star-tile": { "value": "100px", "usage": "decorative Valley asterisk star-column tiles", "measuredFrom": "spec/pages/landing.md:174" },
+    "icon.play-button": { "value": "68x48", "usage": "YouTube facade play glyph", "measuredFrom": "spec/pages/landing.md:154" }
+  }
+}

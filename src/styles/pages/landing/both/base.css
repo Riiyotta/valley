@@ -1,0 +1,151 @@
+/* Shared base for /tryvalley and /linkedin-automation (spec/pages/landing.md sections 2, 5, 6).
+   Geist Mono is new on these pages (spec 2 "Fonts"). It is registered under a page-local alias
+   so it can't collide with the pricing page's single-weight "Geist Mono" face. */
+
+@font-face {
+  font-family: "Valley Landing Geist Mono";
+  src: url("/assets/pages/landing/fonts/GeistMono-latin-variable.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* The nav is a fixed overlay site-wide (src/styles/nav.css). On these two pages the live nav
+   sits in normal flow (spec 5 / 6), so the page reserves its height: 84 desktop, 68 below. */
+.lx-page {
+  padding-top: 84px;
+  background: #f7f8f4;
+  overflow-x: clip;
+}
+@media screen(below-desktop) {
+  .lx-page {
+    padding-top: 68px;
+  }
+}
+
+/* Spacer sections: 48 desktop, 24 below desktop, bg #f7f8f4 (spec 5). */
+.lx-spacer {
+  height: 48px;
+  background: #f7f8f4;
+  overflow: hidden;
+}
+@media screen(below-desktop) {
+  .lx-spacer {
+    height: 24px;
+  }
+  .lx-spacer[data-desktop-only] {
+    display: none;
+  }
+}
+
+/* Outlined mono label used by several section headings ("VALLEY MAGIC", "REAL MESSAGES…"). */
+.lx-label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 13px;
+  border-radius: 1px;
+  font: 400 12px/14.4px "Valley Landing Geist Mono", monospace;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+}
+.lx-label::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid currentColor;
+  border-radius: 1px;
+  pointer-events: none;
+}
+
+/* ---- cta__primary / cta__secondary 3D button (spec 3.13, M9; hover diffs in
+   raw/hover_tryvalley.json and raw/hover_linkedin-automation.json) ----
+   Rest: "Default" wrapper 132x65 with the "Hole" (the <a>) centered in it. The hole is
+   132x48 with padding-top 5; the content box is 132x43 with a 0 6px 0 rgba(0,0,0,.6) drop.
+   Hover (measured end state): Default scale 1.05 (primary only), Hole scale 1.02 with
+   0 10px 10px rgba(0,0,0,.2); the hole's padding-top collapses (48 -> 43 tall, still
+   centered) so the content fills it, and the content's drop shadow fades to alpha 0. Framer spring sampled ~450ms; converted to linear(). */
+.lx-cta {
+  --lx-cta-spring: linear(0, 0.006 1.25%, 0.0224 2.5%, 0.0475 3.75%, 0.0794 5%, 0.1167 6.25%, 0.2024 8.75%, 0.483 16.25%, 0.6093 20%, 0.6833 22.5%, 0.7483 25%, 0.8044 27.5%, 0.8517 30%, 0.908 33.75%, 0.9487 37.5%, 0.977 41.25%, 0.9999 46.25%, 1.0125 52.5%, 1.0142 62.5%, 1.0009 95%, 1);
+  display: flex;
+  flex: none;
+  width: 132px;
+  height: 65px;
+  align-items: center;
+  transition: transform 450ms var(--lx-cta-spring);
+}
+.lx-cta__hole {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 132px;
+  height: 48px;
+  padding-top: 5px;
+  /* The content's 6px drop shadow sits below the hole and is clipped by it at rest (the live
+     buttons show no dark bar; screens/full_linkedin-automation_1440.jpg). */
+  overflow: hidden;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 450ms var(--lx-cta-spring), box-shadow 450ms var(--lx-cta-spring), padding-top 450ms var(--lx-cta-spring), height 450ms var(--lx-cta-spring);
+}
+.lx-cta__content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  height: 43px;
+  padding: 12px 18px;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.6);
+  transition: box-shadow 250ms linear;
+}
+.lx-cta__content::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+}
+.lx-cta__label {
+  font: 400 16px/19.2px theme('fontFamily.ppnm-medium');
+  letter-spacing: -0.16px;
+  color: #fff;
+  white-space: nowrap;
+}
+.lx-cta[data-tone="light"] .lx-cta__content {
+  background: #fff;
+}
+.lx-cta[data-tone="light"] .lx-cta__label {
+  color: #000;
+}
+.lx-cta:not([data-kind="secondary"]):hover {
+  transform: scale(1.05);
+}
+.lx-cta:hover .lx-cta__hole {
+  height: 43px;
+  padding-top: 0;
+  transform: scale(1.02);
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.lx-cta:hover .lx-cta__content {
+  box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0);
+}
+.lx-cta__hole:focus-visible {
+  outline: 2px solid #0077b5;
+  outline-offset: 2px;
+}
+
+/* FAQ: only the .vsq-faq half of the homepage pricing-faq (spec 1 table). Wrapper padding 48px
+   (48px 20px below desktop), bg #f8f9f7 (the pf-frame default). */
+#pricing-faq.pf-frame.lx-faq {
+  padding: 48px;
+}
+@media screen(below-desktop) {
+  #pricing-faq.pf-frame.lx-faq {
+    padding: 48px 20px;
+  }
+}

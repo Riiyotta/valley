@@ -1,0 +1,68 @@
+div
+  div
+    div.framer-1qybbpt-container
+      div.ssr-variant.hidden-15vpzaj.hidden-xw8paj
+        header.framer-v-15mpar8 [Large Desktop]
+          nav [Nav Container]
+    div [Contact Form]
+      div
+        div
+          div.ssr-variant.hidden-15vpzaj
+          div [Title]
+        div
+          div
+          div
+        div [Frame 11652]
+          div [With Valley we know which companies are on our website researching what we do. ]
+          div
+      div [Form]
+        form.surface-form-handler
+          label
+          label
+          div.ssr-variant
+          input
+          input
+          input
+          input
+          input
+          input
+          input
+          input
+          input
+          input
+          input
+    section [Logos + Case Study Popup]
+      div [Content]
+        div [Heading + Desc]
+          div
+        div [Logos]
+          div
+          div
+    section [Spacer]
+    div.hidden-15vpzaj [Valley magic Section]
+      div.ssr-variant
+        div.framer-cw9sqq-container
+          div.framer-v-1noc1nu [50% Magic]
+    section [Spacer]
+    section [Testimonial Section]
+      div [Content]
+        div [Heading + Desc]
+          div.ssr-variant.hidden-15vpzaj
+          div.ssr-variant.hidden-15vpzaj
+          div.framer-12xm8dd-container
+    section [Spacer]
+    div [Heading + Desc FAQ]
+      div.framer-a90bbc-container [Questions answered]
+        section.valley-start-questions
+          div.vsq-faq
+    div.framer-dnmxzy-container
+      div.ssr-variant.hidden-15vpzaj.hidden-xw8paj
+        div.framer-v-1hx1hpb [Desktop]
+          div.framer-1ivyyil-container [Valley multichannel footer]
+  div#overlay
+  div
+  div
+    div.framer-ng2619-container
+      button.__framer-cookie-component-button
+        svg
+          path

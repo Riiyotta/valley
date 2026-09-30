@@ -1,0 +1,89 @@
+[
+ {
+  "sid": "nav",
+  "kind": "bg",
+  "src": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 99 29.078%22 overflow=%22visible%22><path d=%22M 6.402 0 L 14.539 8.137 L 11.738 11.071 L 8.003 14.939 L 0 14.939 L 0 11.071 L 11.738 11.071 L 3.468 2.935 Z M 26.277 0 L 18.14 8.137 L 20.942 11.071 L 24.676 14.939 L 32.679 14.939 L 32.679 11.071 L 20.942 11.071 L 29.212",
+  "cls": "framer-ul32zn",
+  "w": 99,
+  "h": 29,
+  "size": "100% 100%",
+  "pos": "0% 0%"
+ },
+ {
+  "sid": "studios",
+  "kind": "img",
+  "src": "https://framerusercontent.com/images/DzF7ltBGreQELkgImDCaxxldqH0.jpg?scale-down-to=2048&width=2400&height=1200",
+  "srcset": "https://framerusercontent.com/images/DzF7ltBGreQELkgImDCaxxldqH0.jpg?scale-down-to=512&width=2400&height=1200 512w,https://framerusercontent.com/images/DzF7ltBGreQELkgImDCaxxldqH0.jpg?scale-down-to=1024&width=2400&height=1200 1024w,https://framerusercontent.com/images/DzF7ltBGreQELkgImDCaxxldqH0.jpg?scale-down-to=2048&width=2400&height=1200 2048w,https://framerusercontent.com/images/DzF7ltBGreQELkgImDCaxxldqH0.jpg?width=2400&height=1200 2400w",
+  "alt": "Background for LinkedIn automation and AI SDR outreach with dark gray and white accents.",
+  "nw": 1280,
+  "nh": 640,
+  "w": 1280,
+  "h": 608,
+  "fit": "cover",
+  "pos": "50% 50%",
+  "vis": true
+ },
+ {
+  "sid": "proof",
+  "kind": "img",
+  "src": "https://framerusercontent.com/images/QWtiaR1m3BLU5A064IdsPPe2Es.png?scale-down-to=512",
+  "srcset": "",
+  "alt": "Stefano McCoy",
+  "nw": 376,
+  "nh": 388,
+  "w": 44,
+  "h": 44,
+  "fit": "cover",
+  "pos": "50% 50%",
+  "vis": true
+ },
+ {
+  "sid": "proof",
+  "kind": "img",
+  "src": "https://framerusercontent.com/images/rnMa9immzygrPgvq8OXo5QCGAk.jpeg?scale-down-to=512",
+  "srcset": "",
+  "alt": "Tim O'Neil",
+  "nw": 512,
+  "nh": 512,
+  "w": 44,
+  "h": 44,
+  "fit": "cover",
+  "pos": "50% 50%",
+  "vis": false
+ },
+ {
+  "sid": "proof",
+  "kind": "img",
+  "src": "https://framerusercontent.com/images/OsA3bcBEflELOPp9sIw8e2c0xY.png?scale-down-to=512",
+  "srcset": "",
+  "alt": "Roberto Arrieta",
+  "nw": 406,
+  "nh": 402,
+  "w": 44,
+  "h": 44,
+  "fit": "cover",
+  "pos": "50% 50%",
+  "vis": false
+ },
+ {
+  "sid": "proof",
+  "kind": "img",
+  "src": "https://framerusercontent.com/images/sfCZQKIFk9u4tjQgtSzASSggZU.jpeg?scale-down-to=512",
+  "srcset": "",
+  "alt": "Freizle Abarrientos",
+  "nw": 512,
+  "nh": 512,
+  "w": 44,
+  "h": 44,
+  "fit": "cover",
+  "pos": "50% 50%",
+  "vis": false
+ },
+ {
+  "sid": "calendar",
+  "kind": "iframe",
+  "src": "https://meetings.hubspot.com/zayd-from-valley/tryvalley",
+  "w": 1000,
+  "h": 872
+ }
+]

@@ -1,0 +1,13 @@
+{
+  "id": "link",
+  "layer": "primitive",
+  "description": "Inline or standalone navigational text link.",
+  "measuredFrom": "CLONE_SPEC.md:174 (nav Log in), 144 (accent link colors)",
+  "props": {
+    "label": { "type": "string", "maxLength": 60 },
+    "href": { "type": "string" },
+    "external": { "type": "boolean" },
+    "variant": { "type": "string", "enum": ["nav", "accent", "footer", "inline-body"] }
+  },
+  "tokens": { "color": "text.link" }
+}

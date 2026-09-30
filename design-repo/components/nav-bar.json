@@ -1,0 +1,16 @@
+{
+  "id": "nav-bar",
+  "layer": "component",
+  "description": "Shared site navigation, reused byte-identically across all 16 templates (per landing.md section 1 table and every page spec's section-map). Fixed on most routes; sticky (in-flow) on /playbooks; different desktopMin breakpoints on /casestudies, blog posts and case studies per src/routes/Layout.jsx.",
+  "composes": ["link", "button"],
+  "measuredFrom": "src/routes/Layout.jsx:1-40; CLONE_SPEC.md section 7",
+  "props": {
+    "position": { "type": "string", "enum": ["fixed", "sticky"] },
+    "appear": { "type": "boolean", "description": "true on /pricing, /product, /about — nav plays Framer load-appear" },
+    "desktopMin": { "type": "number", "enum": [1200, 1280, 1440], "optional": true }
+  },
+  "motion": {
+    "pattern": "load-appear-or-none",
+    "reducedMotionFallback": "nav renders in final state immediately, no appear animation"
+  }
+}

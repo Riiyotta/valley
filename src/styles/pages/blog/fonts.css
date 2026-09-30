@@ -1,0 +1,48 @@
+/* Extra faces for the long-form templates (blog-post.md section 9, blog-index.md section 11).
+   Files in public/assets/pages/fonts/. Inter 400/700 and PP Neue Montreal SemiBold are already
+   declared in src/index.css. Duplicate @font-face rules from other page CSS are harmless. */
+
+/* Chips ("FEATURED READ"). Framer-hosted file. */
+@font-face {
+  font-family: "Geist Mono Regular";
+  src: url("/assets/pages/fonts/Lmb0Q1R6W4GsaGVtHGnTyQsZCY.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Post dates. Google variable file, latin subset. */
+@font-face {
+  font-family: "DM Sans";
+  src: url("/assets/pages/fonts/dmsans-latin-var.woff2") format("woff2");
+  font-weight: 100 1000;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Load More label (Inter 600). */
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/pages/fonts/yDtI2UI8XcEg1W2je9XPN3Noo.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Rich-text em (Inter 400 italic). */
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/pages/fonts/vFzuJY0c65av44uhEKB6vyjFMg.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Inline code and code blocks. Google Fonts "Fragment Mono" 400, latin (SIL OFL 1.1). */
+@font-face {
+  font-family: "Fragment Mono";
+  src: url("/assets/pages/fonts/fragmentmono-latin-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

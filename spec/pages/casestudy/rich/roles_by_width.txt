@@ -1,0 +1,52 @@
+p
+   1440: 20px/31px ls=normal w400 #4e606a m=20px 0px 0px (n68); 14px/16.8px ls=normal w400 #000000 (n12); 20px/31px ls=normal w400 #4e606a (n6)
+   768: 18px/27.9px ls=normal w400 #4e606a m=20px 0px 0px (n68); 14px/16.8px ls=normal w400 #000000 (n12); 18px/27.9px ls=normal w400 #4e606a (n6)
+   390: 18px/27.9px ls=normal w400 #4e606a m=20px 0px 0px (n68); 14px/16.8px ls=normal w400 #000000 (n12); 18px/27.9px ls=normal w400 #4e606a (n6)
+h2
+   1440: 40px/44.8px ls=-1.2px w500 #1c292d (n6); 28px/39.2px ls=normal w400 #000000 (n2)
+   768: 30px/33.6px ls=-0.9px w500 #1c292d (n6); 20px/28px ls=normal w400 #000000 (n2)
+   390: 30px/33.6px ls=-0.9px w500 #1c292d (n6); 20px/28px ls=normal w400 #000000 (n2)
+img
+   1440: 12px/normal ls=normal w400 #000000 (n2)
+   768: 12px/normal ls=normal w400 #000000 (n2)
+   390: 12px/normal ls=normal w400 #000000 (n2)
+CTA img
+   1440: 12px/normal ls=normal w400 #000000 (n6)
+   768: 12px/normal ls=normal w400 #000000 (n6)
+   390: 12px/normal ls=normal w400 #000000 (n6)
+CTA h2
+   1440: 28px/39.2px ls=normal w400 #000000 (n6)
+   768: 20px/28px ls=normal w400 #000000 (n6)
+   390: 20px/28px ls=normal w400 #000000 (n6)
+p>strong
+   1440: 20px/31px ls=normal w700 #4e606a (n14)
+   768: 18px/27.9px ls=normal w700 #4e606a (n14)
+   390: 18px/27.9px ls=normal w700 #4e606a (n14)
+ul
+   1440: 16px/19.2px ls=normal w400 #000000 (n1)
+   768: 16px/19.2px ls=normal w400 #000000 (n1)
+   390: 16px/19.2px ls=normal w400 #000000 (n1)
+ul>li
+   1440: 20px/31px ls=normal w400 #4e606a pad=0px 0px 0px 24.6796px (n3)
+   768: 18px/27.9px ls=normal w400 #4e606a pad=0px 0px 0px 22.2116px (n3)
+   390: 18px/27.9px ls=normal w400 #4e606a pad=0px 0px 0px 22.2116px (n3)
+ul>li>p
+   1440: 20px/31px ls=normal w400 #4e606a (n3)
+   768: 18px/27.9px ls=normal w400 #4e606a (n3)
+   390: 18px/27.9px ls=normal w400 #4e606a (n3)
+ul>li>p>strong
+   1440: 20px/31px ls=normal w700 #4e606a (n3)
+   768: 18px/27.9px ls=normal w700 #4e606a (n3)
+   390: 18px/27.9px ls=normal w700 #4e606a (n3)
+p>a
+   1440: 20px/31px ls=normal w400 #002669 (n3)
+   768: 18px/27.9px ls=normal w400 #002669 (n3)
+   390: 18px/27.9px ls=normal w400 #002669 (n3)
+h1
+   1440: 48px/57.6px ls=normal w400 #000000 (n6)
+   768: 28px/30.8px ls=normal w400 #000000 (n6)
+   390: 28px/30.8px ls=normal w400 #000000 (n6)
+p>em
+   1440: 20px/31px ls=normal w400 #4e606a (n1)
+   768: 18px/27.9px ls=normal w400 #4e606a (n1)
+   390: 18px/27.9px ls=normal w400 #4e606a (n1)

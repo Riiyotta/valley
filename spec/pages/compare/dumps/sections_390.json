@@ -1,0 +1,41 @@
+[
+ {
+  "i": 0,
+  "name": "Valley navigation",
+  "tag": "DIV",
+  "id": "Z2d0YOpMg-96do92",
+  "root": "",
+  "y": 0,
+  "h": 68,
+  "w": 390,
+  "pos": "fixed",
+  "text": "",
+  "sid": "nav"
+ },
+ {
+  "i": 1,
+  "name": "Complete outbound comparison",
+  "tag": "DIV",
+  "id": "track-r6",
+  "root": "vc",
+  "y": 0,
+  "h": 9002.25,
+  "w": 390,
+  "pos": "relative",
+  "text": "VALLEY VS. COMPETITION The whole workflow. A clearer choice. From the first buying signal ",
+  "sid": "compare"
+ },
+ {
+  "i": 2,
+  "name": "Valley footer",
+  "tag": "DIV",
+  "id": "",
+  "root": "vf",
+  "y": 9002,
+  "h": 814.86,
+  "w": 390,
+  "pos": "relative",
+  "text": "Find your people. Give them a reason to reply. Find, qualify, research, and reach your nex",
+  "sid": "footer"
+ }
+]

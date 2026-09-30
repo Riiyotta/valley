@@ -1,0 +1,458 @@
+/* /pricing Framer layers. Values: spec/pages/pricing.md (sections 1-5) and the page module's
+   Framer CSS (spec/pages/pricing/source, framer-xo4eo rules). Page breakpoints on this route:
+   Phone <= 809.98, Tablet 810-1279.98, Desktop 1280-1679.98, Large >= 1680. Tablet only changes
+   the page width in the module, so Tablet/Desktop/Large share the desktop values below except
+   where noted (studios border and waitlist note). */
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/assets/pages/pricing/fonts/or3nQ6H-1_WfwkMZI_qYFrcdmg.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.pricing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: theme('colors.surface.DEFAULT');
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ---------- pricing-hero ---------- */
+.pr-hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 1456px;
+  padding: 0 48px;
+  background: theme('colors.surface.DEFAULT');
+  overflow: hidden;
+  position: relative;
+}
+.pr-hero-content {
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 1px;
+  max-width: 1360px;
+  padding: 88px 0 24px;
+}
+.pr-hero-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 960px;
+  position: relative;
+  z-index: 1;
+}
+.pr-hero-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+.pr-hero-label p {
+  white-space: pre;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #52616a;
+}
+.pr-hero-title {
+  width: 100%;
+  max-width: 740px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 68px;
+  line-height: 70.72px;
+  letter-spacing: -2px;
+  font-weight: 500;
+  color: #1c292d;
+  text-align: center;
+}
+.pr-hero-sub {
+  width: 100%;
+  max-width: 760px;
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #526570;
+  text-align: center;
+}
+
+/* ---------- plans wrapper (.vp-plans lives in plans.css) ---------- */
+.pr-plans-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1456px;
+  padding: 48px;
+  overflow: clip;
+  position: relative;
+}
+.pr-plans-container {
+  width: 100%;
+  max-width: 1360px;
+  position: relative;
+}
+
+/* ---------- spacer ---------- */
+.pr-spacer {
+  width: 100%;
+  height: 32px;
+  overflow: hidden;
+}
+
+/* ---------- studios ("Get Early Access Banner") ---------- */
+.pr-studios {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 1360px;
+  overflow: hidden;
+}
+/* 1px bottom hairline via Framer's border ::after; unset in the 1280-1679.98 variant. */
+.pr-studios::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  pointer-events: none;
+}
+.pr-studios-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.pr-studios-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+  max-width: 1360px;
+  padding: 72px 56px;
+  background: rgba(12, 32, 37, 0.72);
+  overflow: hidden;
+}
+.pr-studios-head {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  width: 100%;
+  max-width: 960px;
+}
+.pr-studios-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 13px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+.pr-studios-label p {
+  white-space: pre;
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 11px;
+  line-height: 15.95px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #b9d5e7;
+  text-align: center;
+}
+.pr-studios-titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+}
+.pr-studios-title {
+  width: 100%;
+  max-width: 900px;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 48px;
+  line-height: 51.84px;
+  letter-spacing: -1.2px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+.pr-studios-price {
+  width: 100%;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 32px;
+  line-height: 35.84px;
+  letter-spacing: -0.8px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+.pr-studios-sub {
+  width: 100%;
+  max-width: 760px;
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #d9e6e7;
+  text-align: center;
+}
+.pr-studios-formwrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 520px;
+  overflow: hidden;
+}
+.pr-studios-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  overflow: hidden;
+}
+.pr-studios-field {
+  position: relative;
+  display: flex;
+  flex: 1 0 0px;
+  width: 1px;
+  height: 52px;
+  padding: 12px 16px;
+  background: #ffffff;
+  border-radius: 1px;
+  overflow: hidden;
+}
+.pr-studios-field::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 1px;
+  pointer-events: none;
+}
+.pr-studios-field input {
+  width: 100%;
+  height: 28px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  outline: none; /* measured: no computed change on focus */
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 400;
+  color: #1c292e;
+}
+.pr-studios-btn {
+  position: relative;
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 132px;
+  height: 52px;
+  padding: 12px 18px;
+  background: #111111;
+  overflow: hidden;
+  cursor: pointer;
+}
+.pr-studios-btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+}
+.pr-studios-btn span {
+  white-space: pre;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 16px;
+  line-height: 19.2px;
+  letter-spacing: -0.16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.pr-studios-note {
+  display: none;
+  white-space: pre;
+  font-family: "Geist Mono", monospace;
+  font-size: 12px;
+  line-height: 14.4px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000000; /* as measured; barely visible on the dark overlay on live too */
+  text-align: center;
+}
+@media (min-width: 1280px) and (max-width: 1679.98px) {
+  .pr-studios::after { border-bottom-width: 0; }
+  .pr-studios-formwrap { overflow: visible; }
+  .pr-studios-note { display: block; }
+}
+
+/* ---------- proof (Stories carousel without its header) ---------- */
+.stories.pr-proof {
+  max-width: 1456px;
+  padding: 64px 48px;
+  overflow: hidden;
+}
+.stories.pr-proof::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  pointer-events: none;
+}
+
+/* ---------- calendar ---------- */
+.pr-calendar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 1456px;
+  padding: 32px 48px 64px;
+  background: theme('colors.surface.DEFAULT');
+  overflow: hidden;
+}
+.pr-calendar::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  pointer-events: none;
+}
+.pr-calendar-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  max-width: 1360px;
+  padding: 56px 48px;
+  background: #edf2f2;
+  overflow: hidden;
+}
+.pr-calendar-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #d2dddd;
+  pointer-events: none;
+}
+.pr-calendar-inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  max-width: 1000px;
+}
+.pr-calendar-heading {
+  width: 100%;
+  max-width: 850px;
+}
+.pr-calendar-heading h2 {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 44px;
+  line-height: 49.28px;
+  letter-spacing: -1px;
+  font-weight: 500;
+  color: #1c292d;
+  text-align: center;
+}
+.pr-calendar-embed {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  height: 872px;
+}
+.pr-calendar-embed iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* ---------- faq (PricingFaq variant="faq-only") ---------- */
+#pricing-faq.pf-frame.pr-faq {
+  max-width: 1456px;
+  padding: 48px;
+  overflow: clip;
+}
+
+/* ---------- Tablet page variant (810-1279.98 on this route) ----------
+   Not in the spec; measured on the live page at 1024: the hero h1 text style steps down. */
+@media (min-width: 810px) and (max-width: 1279.98px) {
+  .pr-hero-title { font-size: 52px; line-height: 54.08px; }
+}
+
+/* ---------- Phone (<= 809.98) ---------- */
+@media screen(phone) {
+  .pr-hero { padding: 0 20px; }
+  .pr-hero-content { padding: 64px 0 24px; }
+  .pr-hero-title { font-size: 40px; line-height: 41.6px; }
+  .pr-hero-sub { font-size: 18px; line-height: 27px; }
+
+  .pr-plans-frame { padding: 32px 20px; }
+
+  .pr-studios-content { padding: 48px 24px; }
+  .pr-studios-head { justify-content: flex-start; }
+  .pr-studios-title { font-size: 32px; line-height: 34.56px; letter-spacing: -0.8px; }
+  .pr-studios-sub { font-size: 17px; line-height: 25.5px; }
+  .pr-studios-form { flex-direction: column; }
+  .pr-studios-field { flex: none; width: 100%; }
+
+  .stories.pr-proof { padding: 64px 20px; }
+
+  .pr-calendar { padding: 32px 20px 64px; }
+  .pr-calendar-card { padding: 28px 20px; }
+  .pr-calendar-inner { align-items: flex-start; }
+  .pr-calendar-heading h2 { font-size: 32px; line-height: 35.84px; }
+
+  #pricing-faq.pf-frame.pr-faq { padding: 32px 20px; }
+}

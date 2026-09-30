@@ -1,0 +1,701 @@
+/* Shared long-form parts: rich-text body, dark code block, inline CTA card, "Try Valley"
+   sidebar card. Values from spec/pages/blog-post.md sections 3-4, rich/roles_by_width.txt,
+   rich/merged_styles_1440.txt and custom-styles.css (table rules, verbatim values).
+   Framer text presets have three tiers, measured live: desktop >= 1200, tablet 810-1199.98
+   (screen(tablet)) and phone < 810. The card layouts (Try Valley, inline CTA) follow the
+   long-form page variants instead: tablet 810-1279.98. */
+@import '../../styles/pages/blog/fonts.css';
+
+/* =========================================================================
+   Rich text (Framer RichTextContainer: a flex column, so margins don't collapse)
+   ========================================================================= */
+.lf-rich {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.lf-rich > * {
+  margin: 0;
+}
+.lf-rich p,
+.lf-rich ul,
+.lf-rich ol,
+.lf-rich li,
+.lf-rich blockquote,
+.lf-rich h1,
+.lf-rich h2,
+.lf-rich h3,
+.lf-rich h4,
+.lf-rich h5,
+.lf-rich h6,
+.lf-rich figure {
+  margin: 0;
+  padding: 0;
+}
+
+/* Paragraph spacing: margin-top on every block after the first */
+.lf-rich > :is(p, h1, h2, h3, blockquote):not(:first-child) {
+  margin-top: 20px;
+}
+.lf-rich > :is(h4, h5, h6):not(:first-child) {
+  margin-top: 40px;
+}
+/* ul / ol / img / code block follow the previous block with no gap */
+
+/* ---- body copy ---- */
+.lf-rich p,
+.lf-rich li {
+  font-family: theme('fontFamily.ppnm-variable');
+  font-size: 20px;
+  line-height: 31px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #4e606a;
+}
+.lf-rich strong {
+  font-family: theme('fontFamily.inter');
+  font-weight: 700;
+}
+.lf-rich em {
+  font-family: theme('fontFamily.inter');
+  font-style: italic;
+  font-weight: 400;
+}
+.lf-rich a {
+  font-family: inherit;
+  color: theme('colors.accent.login');
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0s;
+}
+.lf-rich a :is(strong, em) {
+  color: theme('colors.accent.login');
+}
+.lf-rich a:hover,
+.lf-rich a:hover :is(strong, em) {
+  color: #000;
+  text-decoration-line: underline;
+}
+.lf-rich code {
+  font-family: "Fragment Mono", monospace;
+  font-size: 1em;
+  font-weight: 400;
+  color: #333333;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0.1em 0.2em;
+  border-radius: 6px;
+}
+
+/* ---- headings ---- */
+.lf-rich :is(h1, h2, h3, h4, h5, h6) {
+  font-family: theme('fontFamily.ppnm-medium');
+}
+.lf-rich h1 {
+  font-size: 40px;
+  line-height: 44.8px;
+  letter-spacing: -1.2px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+}
+.lf-rich h2 {
+  font-size: 34px;
+  line-height: 40.12px;
+  letter-spacing: -0.85px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+}
+.lf-rich h3 {
+  font-size: 26px;
+  line-height: 31.2px;
+  letter-spacing: -0.52px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+}
+.lf-rich h4 {
+  font-size: 42px;
+  line-height: 42px;
+  letter-spacing: normal;
+  font-weight: 400;
+  color: #000;
+}
+.lf-rich h5 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #000;
+}
+.lf-rich h6 {
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 400;
+  color: #000;
+}
+.lf-rich :is(h1, h2, h3) strong {
+  font-family: "PP Neue Montreal SemiBold", theme('fontFamily.ppnm-medium');
+  font-weight: 600;
+}
+.lf-rich :is(h4, h5, h6) strong {
+  font-family: inherit;
+}
+
+/* ---- lists: native markers off, ::before markers in the paragraph face ---- */
+.lf-rich ul,
+.lf-rich ol {
+  list-style: none;
+  font-family: theme('fontFamily.inter');
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #000;
+}
+.lf-rich li {
+  position: relative;
+  padding-left: 1.234em;
+  list-style: none;
+}
+.lf-rich ol > li {
+  counter-increment: list-item 1;
+}
+.lf-rich ul > li::before {
+  content: "•";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.lf-rich ol > li::before {
+  content: counter(list-item) ".";
+  font-variant-numeric: tabular-nums;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.lf-rich li > :is(p, h3, h4) {
+  margin: 0;
+}
+/* li that holds a heading takes the heading's size for its marker */
+.lf-rich li:has(> h4) {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 42px;
+  line-height: 42px;
+  color: #000;
+  padding-left: 1.27em;
+}
+.lf-rich li:has(> h3) {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 26px;
+  line-height: 31.2px;
+  letter-spacing: -0.52px;
+  font-weight: 500;
+  color: theme('colors.ink.vsq');
+  padding-left: 1.27em;
+}
+
+/* ---- blockquote ---- */
+.lf-rich blockquote {
+  position: relative;
+  padding-left: 24px;
+}
+.lf-rich blockquote::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 4px;
+  height: 100%;
+  border-radius: 2px;
+  background-color: #dddddd;
+}
+.lf-rich blockquote p {
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #000;
+}
+
+/* ---- images ---- */
+.lf-rich > img,
+.lf-rich img.lf-rich-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0;
+  align-self: flex-start;
+}
+
+/* ---- tables (site-wide custom CSS, custom-styles.css) ---- */
+.lf-rich figure:has(table) {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 28px 0;
+  padding-bottom: 12px;
+  overscroll-behavior-x: contain;
+  scrollbar-color: #657e89 #e7edeb;
+  scrollbar-width: auto;
+  font-family: sans-serif;
+}
+.lf-rich figure:has(table)::before {
+  content: "Compare the details · Scroll across to see every column →";
+  display: block;
+  position: sticky;
+  left: 0;
+  margin-bottom: 14px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #53676e;
+}
+.lf-rich figure:has(table):focus-visible {
+  outline: 2px solid #416f91;
+  outline-offset: 5px;
+}
+.lf-rich table {
+  width: 100%;
+  min-width: 740px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: 15px;
+  line-height: 1.5;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.lf-rich table:has(tr > :nth-child(5)) {
+  min-width: 1440px;
+}
+.lf-rich :is(td, th) {
+  padding: 18px 20px;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #d5dedb;
+  word-break: normal;
+  overflow-wrap: normal;
+  background: #fbfcf9;
+  color: #35494f;
+  font-weight: 400;
+}
+.lf-rich th,
+.lf-rich tr:first-child > td {
+  background: #e8eeea;
+  font-weight: 500;
+  color: #20373b;
+}
+.lf-rich :is(td, th) :is(p, a, strong, span) {
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+.lf-rich :is(td, th) p {
+  margin: 0;
+}
+.lf-rich :is(td, th) p + p {
+  margin-top: 8px;
+}
+
+/* ---- tablet presets (810-1199.98), measured on live posts at 1100/1199 ---- */
+@media screen(tablet) {
+  .lf-rich p,
+  .lf-rich li {
+    font-size: 18px;
+    line-height: 27.9px;
+  }
+  .lf-rich h1 {
+    font-size: 34px;
+    line-height: 38.08px;
+    letter-spacing: -1.02px;
+  }
+  .lf-rich h2 {
+    font-size: 28px;
+    line-height: 33.04px;
+    letter-spacing: -0.7px;
+  }
+  .lf-rich h3 {
+    font-size: 23px;
+    line-height: 27.6px;
+    letter-spacing: -0.46px;
+  }
+  .lf-rich h4 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .lf-rich h5 {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+  .lf-rich li:has(> h4) {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .lf-rich li:has(> h3) {
+    font-size: 23px;
+    line-height: 27.6px;
+    letter-spacing: -0.46px;
+  }
+}
+
+/* ---- phone presets (< 810) ---- */
+@media screen(phone) {
+  .lf-rich p,
+  .lf-rich li {
+    font-size: 18px;
+    line-height: 27.9px;
+  }
+  .lf-rich h1 {
+    font-size: 34px;
+    line-height: 38.08px;
+    letter-spacing: -1.02px;
+  }
+  .lf-rich h2 {
+    font-size: 28px;
+    line-height: 33.04px;
+    letter-spacing: -0.7px;
+  }
+  .lf-rich h3 {
+    font-size: 23px;
+    line-height: 27.6px;
+    letter-spacing: -0.46px;
+  }
+  .lf-rich h4 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .lf-rich h5 {
+    font-size: 13px;
+    line-height: 18.2px;
+  }
+  .lf-rich h6 {
+    font-size: 12px;
+    line-height: 16.8px;
+  }
+  .lf-rich li:has(> h4) {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .lf-rich li:has(> h3) {
+    font-size: 23px;
+    line-height: 27.6px;
+    letter-spacing: -0.46px;
+  }
+  /* table cells and blockquotes keep their desktop sizes (measured) */
+  .lf-rich blockquote p {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .lf-rich :is(td, th) :is(p, a, strong, span) {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+}
+
+/* =========================================================================
+   Code block (Framer CodeBlock = Sandpack/CodeMirror, dark theme)
+   ========================================================================= */
+.lf-rich > .lf-code:not(:first-child) {
+  margin-top: 0;
+}
+.lf-code {
+  --sp-colors-surface1: #161820;
+  --sp-colors-surface2: #252525;
+  --sp-colors-surface3: #2f2f2f;
+  width: 100%;
+  background-color: var(--sp-colors-surface1);
+  border-radius: 15px;
+  overflow: hidden;
+  color-scheme: dark;
+}
+.lf-code-scroll {
+  overflow-x: auto;
+  background: var(--sp-colors-surface1);
+}
+.lf-code-content {
+  display: block;
+  width: max-content;
+  min-width: 100%;
+  margin: 0;
+  padding: 30px;
+  box-sizing: border-box;
+  font-family: "Fragment Mono", monospace;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  white-space: pre;
+  overflow-wrap: normal;
+  color: #eeeeee;
+  background: none;
+  border-radius: 0;
+}
+.lf-code-content > code {
+  display: block;
+  font: inherit;
+  color: inherit;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+.lf-code-line {
+  display: block;
+  padding: 0 2px 0 4px;
+  min-height: 21px;
+}
+.lf-code .tok-plain { color: #eeeeee; }
+.lf-code .tok-comment { color: #666666; }
+.lf-code .tok-keyword,
+.lf-code .tok-tag { color: #00bbff; }
+.lf-code .tok-punctuation { color: #999999; }
+.lf-code .tok-definition { color: #ffcc66; }
+.lf-code .tok-property { color: #77dddd; }
+.lf-code .tok-static { color: #ff8866; }
+.lf-code .tok-string { color: #bb88ff; }
+
+/* =========================================================================
+   Shared form parts ("Book a call →" button, bordered inputs)
+   ========================================================================= */
+.lf-input-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 48px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+.lf-input-box::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid theme('colors.framer.d9');
+  pointer-events: none;
+}
+.lf-input-box input {
+  width: 100%;
+  height: 16px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: transparent;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 400;
+  color: #000;
+}
+.lf-input-box input::placeholder {
+  color: #000;
+  opacity: 1;
+}
+.lf-book-btn {
+  position: relative;
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 132px;
+  height: 48px;
+  margin: 0;
+  padding: 12px 18px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 0;
+  background: #111111;
+  overflow: hidden;
+  cursor: pointer;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 400;
+  letter-spacing: -0.16px;
+  color: #fff;
+  white-space: nowrap;
+}
+.lf-book-btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+}
+
+/* =========================================================================
+   Sidebar "Try Valley" card
+   ========================================================================= */
+.lf-try {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  background: theme('colors.framer.f8');
+}
+.lf-try::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid theme('colors.framer.d9');
+  pointer-events: none;
+}
+.lf-try-head {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.lf-try-head h2 {
+  margin: 0;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 28px;
+  line-height: 39.2px;
+  font-weight: 400;
+  color: #000;
+}
+.lf-try-head p {
+  margin: 0;
+  font-family: theme('fontFamily.inter');
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 400;
+  color: #000;
+}
+.lf-try-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+  margin: 0;
+}
+.lf-try-form .lf-input-box {
+  width: 100%;
+}
+@media (min-width: 810px) and (max-width: 1279.98px) {
+  .lf-try-head h2 {
+    font-size: 24px;
+    line-height: 33.6px;
+  }
+}
+@media screen(phone) {
+  .lf-try-head h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+/* =========================================================================
+   Inline CTA card (CTA 1/2/3 between sections)
+   ========================================================================= */
+.lf-cta {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 14px;
+  width: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+}
+.lf-cta::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-width: 0 1px 1px 1px;
+  pointer-events: none;
+}
+.lf-cta-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: clip;
+  display: block;
+}
+.lf-cta-panel {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 24px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.73);
+  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(24px);
+  box-shadow: rgba(27, 28, 29, 0.02) 0 2px 4px 0, rgba(27, 28, 29, 0.06) 0 6px 10px 0,
+    rgba(228, 229, 231, 0.48) 0 -3px 3px 0 inset;
+  overflow: hidden;
+}
+.lf-cta-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: max-content;
+  max-width: 100%;
+}
+.lf-cta-head h2 {
+  margin: 0;
+  font-family: theme('fontFamily.ppnm-medium');
+  font-size: 28px;
+  line-height: 39.2px;
+  font-weight: 400;
+  color: #000;
+  white-space: pre;
+}
+.lf-cta-rule {
+  width: 100%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+}
+.lf-cta-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  margin: 0;
+}
+.lf-cta-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+.lf-cta-row .lf-input-box {
+  flex: 1 1 0;
+  min-width: 0;
+}
+.lf-cta-row .lf-input-box::after {
+  border-color: rgba(0, 0, 0, 0.25);
+}
+@media (min-width: 810px) and (max-width: 1279.98px) {
+  .lf-cta-head h2 {
+    font-size: 24px;
+    line-height: 33.6px;
+  }
+}
+@media screen(phone) {
+  .lf-cta-head h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .lf-cta-form {
+    padding: 16px;
+    box-sizing: border-box;
+  }
+}

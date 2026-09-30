@@ -1,0 +1,14 @@
+{
+  "category": "elevation",
+  "description": "Box-shadow tokens. Backdrop filters are used sparingly (blur only, never with shadow) and are noted where real.",
+  "measuredFrom": "tailwind.config.cjs:160-167; CLONE_SPEC.md:157-165",
+  "tokens": {
+    "shadow.dropdown": { "value": "0 12px 30px rgba(25,41,46,.082)", "usage": "nav dropdown", "measuredFrom": "tailwind.config.cjs:161" },
+    "shadow.vgs-window": { "value": "0 10px 25px rgba(21,43,52,.125)", "usage": "vgs steps window card", "measuredFrom": "tailwind.config.cjs:162" },
+    "shadow.showcase-shell": { "value": "0 10px 35px -20px rgba(21,45,78,.5)", "usage": "showcase app shell", "measuredFrom": "tailwind.config.cjs:163" },
+    "shadow.hero-chip": { "value": "0 12px 24px -15px rgba(20,47,71,.5)", "usage": "hero-visual chips and cards", "measuredFrom": "tailwind.config.cjs:164" },
+    "shadow.hero-card": { "value": "0 22px 45px -18px rgba(21,57,81,.5), 0 2px 5px rgba(41,72,87,.125)", "usage": ".vhv-card", "measuredFrom": "tailwind.config.cjs:165" },
+    "shadow.tooltip": { "value": "0 10px 20px rgba(0,0,0,.05)", "usage": "logo tooltip", "measuredFrom": "tailwind.config.cjs:166" }
+  },
+  "backdropFiltersOnPage": "none are used anywhere on the homepage (CLONE_SPEC.md:165); landing pages use blur(2px)/blur(8px) on a small number of chips/cta rows (spec/pages/landing.md), documented per-section where used."
+}

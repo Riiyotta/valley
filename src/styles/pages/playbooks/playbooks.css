@@ -1,0 +1,110 @@
+/* .vpl playbook library + .vpl-dialog drawer (/playbooks).
+   Verbatim port of the component's own stylesheet (the `z` string in
+   spec/pages/playbooks/source/2fchlP4D...mjs; same values as spec/pages/playbooks/components.css).
+   "PP Neue Montreal" is the Inter alias from index.css (CLONE_SPEC section 4 quirk).
+
+   Tailwind preflight restores: the live page has no CSS reset. Browser defaults that preflight
+   removes are put back here. `html :where(...)` gives specificity 0,0,2 (0,1,2 for the attribute
+   rule): enough to beat preflight's element selectors (which load after this file, see main.jsx)
+   and low enough that every component class rule below still wins. */
+html :where(.vpl, .vpl-dialog) a { text-decoration: underline; }
+html :where(.vpl, .vpl-dialog) input[type='search'] { -webkit-appearance: auto; appearance: auto; outline-offset: revert; }
+html body :where(.vpl, .vpl-dialog) ::placeholder { color: revert; opacity: revert; }
+/* Unstyled by the component, so the live page shows the UA h3 and the native button. */
+html :where(.vpl-empty) h3, html :where(.vpl-empty) button { all: revert; }
+/* Drawer close keeps the UA button padding/appearance (it only sets size, border, bg, font). */
+html body :where(.vpl-close) { padding: revert; appearance: revert; }
+/* Tiles only set background-image inline, so the UA button face colour sits underneath. */
+html body :where(.vpl-categories) button { background-color: revert; appearance: revert; }
+
+.vpl,.vpl-dialog{font-family:"PP Neue Montreal",Inter,Arial,sans-serif;color:#1c292e;font-size:17px;font-weight:400;line-height:1.5}
+.vpl *,.vpl-dialog *{box-sizing:border-box}
+.vpl{background:#f7f9f7}
+.vpl a,.vpl-dialog a{color:inherit}
+.vpl h1,.vpl h2,.vpl h3,.vpl p,.vpl-dialog h2,.vpl-dialog h3,.vpl-dialog p{margin:0}
+.vpl button,.vpl input,.vpl-dialog button{font:inherit}
+.vpl button,.vpl a,.vpl-dialog button,.vpl-dialog a{-webkit-tap-highlight-color:transparent}
+.vpl :focus-visible,.vpl-dialog :focus-visible{outline:3px solid #3476a7;outline-offset:4px}
+.vpl-hero{max-width:1456px;margin:auto;padding:100px 48px 72px}
+.vpl-eyebrow{display:block;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#4b6b7a;margin-bottom:24px}
+.vpl h1{white-space:pre-line;font-size:clamp(40px,5.2vw,72px);font-weight:500;line-height:1.04;letter-spacing:-.04em;max-width:960px}
+.vpl-hero>p{font-size:21px;color:#52616a;max-width:750px;margin:28px 0 32px}
+.vpl-cta{display:inline-flex;justify-content:center;align-items:center;gap:28px;background:#18282d;color:#fff!important;text-decoration:none;padding:16px 24px;font-size:16px;min-height:52px}
+.vpl-cta:hover{background:#304c56}
+.vpl-product{display:inline-block;margin-left:28px;text-underline-offset:6px}
+.vpl-library{max-width:1456px;padding:0 48px;margin:auto}
+.vpl-categories{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}
+.vpl-categories button{text-align:left;border:2px solid transparent;color:white;min-height:150px;padding:20px 16px;background-size:cover;background-position:center;display:flex;flex-direction:column;justify-content:end;cursor:pointer}
+.vpl-categories button[aria-pressed=true]{outline:2px solid #3476a7;outline-offset:3px}
+.vpl-categories span{font-size:16px;font-weight:500;line-height:1.2}
+.vpl-categories small{font-size:13px;margin-top:7px;color:#e0e9e9}
+.vpl-toolbar{display:flex;justify-content:space-between;align-items:end;gap:24px;margin:52px 0 24px}
+.vpl-toolbar h2{font-size:30px;font-weight:500;letter-spacing:-.02em}
+.vpl-toolbar span{font-size:14px;color:#52616a}
+.vpl-search{display:flex;flex-direction:column;gap:7px;width:360px;max-width:100%}
+.vpl-search input{border:1px solid #cfdad9;background:#fff;padding:13px 16px;width:100%;border-radius:0;color:#1c292e}
+.vpl-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.vpl-grid article{display:flex;min-width:0}
+.vpl-grid article>a{display:flex;flex-direction:column;width:100%;padding:28px;background:#fff;border:1px solid #d4dedd;text-decoration:none;transition:background .18s,border-color .18s;min-height:300px}
+.vpl-grid article>a:hover{background:#edf3f1;border-color:#77968c}
+.vpl-card-top{display:flex;justify-content:space-between;align-items:center;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#396585;margin-bottom:24px}
+.vpl-grid h3{font-size:25px;letter-spacing:-.025em;font-weight:500;line-height:1.2}
+.vpl-grid p{font-size:17px;color:#52616a;margin-top:16px;padding-bottom:26px}
+.vpl-card-foot{display:flex;justify-content:space-between;gap:12px;border-top:1px solid #dbe3df;padding-top:18px;margin-top:auto;font-size:14px;color:#52616a}
+.vpl-card-foot span:last-child{text-align:right;color:#52616a}
+.vpl-empty{padding:64px 24px;text-align:center;background:white}
+.vpl-empty button{padding:12px 20px;margin-top:20px;cursor:pointer}
+.vpl-bottom{padding:100px 24px;text-align:center}
+.vpl-bottom h2{font-size:clamp(30px,4vw,46px);font-weight:500;letter-spacing:-.03em;line-height:1.1}
+.vpl-bottom p{margin:20px 0 28px;color:#52616a}
+.vpl-dialog{border:0;padding:0;width:min(680px,100vw);max-width:100vw;max-height:100dvh;height:100dvh;margin:0 0 0 auto;background:#fcfdfb;overflow:auto}
+.vpl-dialog::backdrop{background:rgba(17,31,38,.48);backdrop-filter:blur(5px)}
+.vpl-drawer{position:relative;min-height:100%;display:flex;flex-direction:column}
+.vpl-close{position:absolute;right:20px;top:16px;border:0;background:transparent;font-size:32px!important;color:#1c292e;width:44px;height:44px;cursor:pointer}
+.vpl-detail-body{padding:64px 40px 32px}
+.vpl-dialog h2{font-size:38px;font-weight:500;line-height:1.12;letter-spacing:-.03em;margin-bottom:20px}
+.vpl-channel{margin-top:16px!important;font-size:16px;color:#1c292e}
+.vpl-description{font-size:20px;color:#52616a}
+.vpl-flow{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:30px 0}
+.vpl-flow span{font-size:12px;padding:6px 9px;background:#edf2f5;color:#315b79;border:1px solid #d5e0e8}
+.vpl-flow span[data-kind=send]{background:#1c292e;color:#fff}
+.vpl-flow b{font-weight:400}
+.vpl-steps{padding:0;list-style:none;margin:36px 0}
+.vpl-steps li{display:grid;grid-template-columns:34px 1fr;gap:20px;padding:0 0 28px;position:relative}
+.vpl-number{font-size:12px;border:1px solid #92aca8;border-radius:50%;width:32px;height:32px;display:grid;place-items:center;color:#315b79}
+.vpl-steps h3,.vpl-setup h3{font-size:20px;font-weight:500;margin-bottom:8px}
+.vpl-steps p,.vpl-setup p{color:#52616a;font-size:17px}
+.vpl-setup{padding:24px;background:#eef3ef;border:1px solid #d4dfd9;margin-top:20px}
+.vpl-setup p+p{margin-top:16px}
+.vpl-setup dl{margin:20px 0 0}
+.vpl-setup dl>div{display:flex;justify-content:space-between;gap:20px;border-top:1px solid #d4dfd9;padding:10px 0;font-size:14px}
+.vpl-setup dd{margin:0;text-align:right}
+.vpl-note{font-size:14px;color:#52616a;margin-top:24px!important}
+.vpl-detail-footer{position:sticky;bottom:0;padding:20px 40px;background:#fcfdfb;border-top:1px solid #d4dfd9;margin-top:auto}
+.vpl-detail-footer .vpl-cta{width:100%}
+
+@media(max-width:1000px){.vpl-categories{grid-template-columns:repeat(3,minmax(0,1fr))}
+.vpl-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.vpl-hero{padding-top:80px}
+}
+
+@media(max-width:600px){.vpl-hero{padding:60px 24px 48px}
+.vpl-hero>p{font-size:19px}
+.vpl-eyebrow{font-size:11px}
+.vpl-library{padding:0 24px}
+.vpl-categories{grid-template-columns:repeat(2,minmax(0,1fr))}
+.vpl-categories button{min-height:122px;padding:15px}
+.vpl-toolbar{align-items:stretch;flex-direction:column}
+.vpl-search{width:100%}
+.vpl-grid{grid-template-columns:1fr}
+.vpl-grid article>a{min-height:280px;padding:24px}
+.vpl-product{margin:22px 0 0;display:block}
+.vpl-detail-body{padding:64px 24px 24px}
+.vpl-dialog h2{font-size:32px}
+.vpl-detail-footer{padding:16px 24px}
+.vpl-bottom{padding:72px 0}
+.vpl-steps li{gap:14px}
+}
+
+@media(prefers-reduced-motion:reduce){.vpl *{transition:none!important}
+}

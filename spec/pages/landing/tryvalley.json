@@ -1,0 +1,2170 @@
+{
+ "slug": "tryvalley",
+ "url": "https://www.joinvalley.co/tryvalley",
+ "meta": {
+  "title": "Book a Valley Walkthrough - Teams of 5+",
+  "description": "See Valley on your own ICP: how it finds buyers from signals, researches them, and writes messages in your voice. 20 minutes with Zayd and Alex.",
+  "ogImage": "/assets/pages/landing/img/xALKHBdmIo4HvuEqKwXwZIPGXw.png",
+  "canonical": "https://www.joinvalley.co/tryvalley"
+ },
+ "sections": [
+  {
+   "framerName": "Large Desktop",
+   "items": [
+    {
+     "link": "./",
+     "label": ""
+    },
+    {
+     "link": "./",
+     "label": "Home"
+    },
+    {
+     "t": "p",
+     "text": "Home"
+    },
+    {
+     "t": "summary",
+     "text": "Product"
+    },
+    {
+     "link": "/product",
+     "label": ""
+    },
+    {
+     "t": "b",
+     "text": ""
+    },
+    {
+     "t": "small",
+     "text": ""
+    },
+    {
+     "link": "/playbooks",
+     "label": ""
+    },
+    {
+     "t": "b",
+     "text": ""
+    },
+    {
+     "t": "small",
+     "text": ""
+    },
+    {
+     "link": "./compare",
+     "label": "Valley vs. Competition"
+    },
+    {
+     "t": "p",
+     "text": "Valley vs. Competition"
+    },
+    {
+     "link": "./casestudies",
+     "label": "Customers"
+    },
+    {
+     "t": "p",
+     "text": "Customers"
+    },
+    {
+     "link": "./linkedin-outreach-for-agencies",
+     "label": "Agencies"
+    },
+    {
+     "t": "p",
+     "text": "Agencies"
+    },
+    {
+     "link": "./pricing",
+     "label": "Pricing"
+    },
+    {
+     "t": "p",
+     "text": "Pricing"
+    },
+    {
+     "link": "https://beta.joinvalley.co/login",
+     "label": "Log in"
+    },
+    {
+     "t": "a",
+     "text": "Log in"
+    },
+    {
+     "link": "https://beta.joinvalley.co/signup",
+     "label": "Start for free"
+    },
+    {
+     "t": "p",
+     "text": "Start for free"
+    }
+   ]
+  },
+  {
+   "framerName": "Contact Form",
+   "items": [
+    {
+     "t": "p",
+     "text": "See Valley in action."
+    },
+    {
+     "t": "p",
+     "text": "Talk to Zayd and Alex about your team’s outbound workflow."
+    },
+    {
+     "t": "h6",
+     "text": "Demo of the Valley platform"
+    },
+    {
+     "t": "p",
+     "text": "Find the right setup for your team"
+    },
+    {
+     "t": "h2",
+     "text": "\"I've been doing this about 12 years and I've never used a tool like this before - we have Outreach, HubSpot, Seamless, but Valley has booked us more meetings than anything else we're using right now.”"
+    },
+    {
+     "img": "/assets/pages/landing/img/iwEx5TIcTfi3RasDvugTZhlD7I.jpeg",
+     "alt": "A professional man in a black suit smiling forward on a meeting or call.",
+     "box": "20x20"
+    },
+    {
+     "t": "p",
+     "text": "Jason Hardman, Founding Enterprise Account Executive"
+    },
+    {
+     "t": "p",
+     "text": "Book a demo"
+    }
+   ]
+  },
+  {
+   "framerName": "Logos + Case Study Popup",
+   "items": [
+    {
+     "t": "p",
+     "text": "150+ teams trust Valley because we keep their calendars full of high quality prospects"
+    },
+    {
+     "link": "https://tacnode.io/",
+     "label": ""
+    },
+    {
+     "img": "/assets/pages/landing/img/exjlJuQDsYyeztQTb0LsCqAZ8.png",
+     "alt": "Tacnode logo",
+     "box": "142x47"
+    },
+    {
+     "t": "p",
+     "text": "CASE STUDY"
+    },
+    {
+     "img": "/assets/img/_unused/3uRg4W7Du09SgZ8iq14CDmYcYR8.png",
+     "alt": "Brex logo",
+     "box": "120x40"
+    },
+    {
+     "link": "https://10xmanagement.com/",
+     "label": ""
+    },
+    {
+     "img": "/assets/pages/landing/img/JuRdyYQcFBSuDij8ZL37n65zg.png",
+     "box": "120x40"
+    },
+    {
+     "t": "p",
+     "text": "CASE STUDY"
+    },
+    {
+     "img": "/assets/img/_unused/mFkYfCO2VSJh19ANxRWgNRdfm8.png",
+     "alt": "Valley AI branding featuring interconnected circles on a modern black background.",
+     "box": "138x46"
+    },
+    {
+     "link": "https://www.growthprotocol.ai/",
+     "label": ""
+    },
+    {
+     "img": "/assets/pages/landing/img/BfAzR1hw8fexsRS6vpNJ0AfH8.png",
+     "box": "121x40"
+    },
+    {
+     "t": "p",
+     "text": "CASE STUDY"
+    },
+    {
+     "img": "/assets/img/_unused/5tcZiervDAFIoj05Ml6FPEDSwA.png",
+     "alt": "LinkedIn automation logo featuring interconnected circles on a black background.",
+     "box": "138x46"
+    },
+    {
+     "link": "https://www.gocanvas.com/",
+     "label": ""
+    },
+    {
+     "img": "/assets/pages/landing/img/NNRya8wNzQbwSmEGV2bOBinXE.png",
+     "box": "120x40"
+    },
+    {
+     "t": "p",
+     "text": "CASE STUDY"
+    },
+    {
+     "img": "/assets/img/_unused/uMJVarJL6H5sGSGGAsEVkkV7IU.png",
+     "alt": "Valley AI logo featuring stylized letter G in a clean black design background.",
+     "box": "100x33"
+    },
+    {
+     "img": "/assets/img/_unused/6IeF3jQs8bnbpIHCOHjuvPtIfUw.png",
+     "alt": "CREDAL logo with geometric elements, enhancing LinkedIn automation and AI SDR effectiveness.",
+     "box": "138x46"
+    },
+    {
+     "link": "https://franq.com.br/",
+     "label": ""
+    },
+    {
+     "img": "/assets/pages/landing/img/QMLPZOfhOV2eI7Cra36pzTCabLs.png",
+     "box": "138x46"
+    },
+    {
+     "t": "p",
+     "text": "CASE STUDY"
+    },
+    {
+     "link": "https://www.darwinian.com/",
+     "label": ""
+    },
+    {
+     "img": "/assets/pages/landing/img/WjgwsB4gYPINGk0swCPJGw2KtVE.png",
+     "box": "120x40"
+    },
+    {
+     "t": "p",
+     "text": "CASE STUDY"
+    },
+    {
+     "link": "https://www.kaster.app/",
+     "label": ""
+    },
+    {
+     "img": "/assets/pages/landing/img/8OUD83TeyILiI9IDCw0yl6ocQxU.png",
+     "box": "115x38"
+    },
+    {
+     "t": "p",
+     "text": "CASE STUDY"
+    },
+    {
+     "img": "/assets/img/_unused/6zgSf0wp0U8Bt2HUornH0fUrGkk.png",
+     "alt": "Antler logo png",
+     "box": "120x40"
+    },
+    {
+     "img": "/assets/img/_unused/mX7p7YZ6obsVSXSkOgczWo4vEjM.png",
+     "alt": "Hire tofu logo",
+     "box": "91x30"
+    },
+    {
+     "link": "https://www.ggwp.com/",
+     "label": ""
+    },
+    {
+     "img": "/assets/pages/landing/img/Zj3dcUQEL8lIDnaOv8ZTEbZbPm0.png",
+     "box": "120x39"
+    },
+    {
+     "t": "p",
+     "text": "CASE STUDY"
+    }
+   ]
+  },
+  {
+   "framerName": "Spacer",
+   "items": []
+  },
+  {
+   "framerName": "Valley magic Section",
+   "items": [
+    {
+     "t": "p",
+     "text": "VALLEY MAGIC"
+    },
+    {
+     "t": "p",
+     "text": "See how Valley fills your calendar"
+    },
+    {
+     "t": "p",
+     "text": "Outreach sent with valley"
+    },
+    {
+     "img": "/assets/pages/landing/img/cyqCnH73kdkUeeoIFSQCM01Qcs.png",
+     "box": "223x4"
+    },
+    {
+     "t": "p",
+     "text": "Most other LinkedIn automation tools gets 2-5% response rates - Valley triples that instantly"
+    },
+    {
+     "link": "https://beta.joinvalley.co/signup",
+     "label": "Start for free"
+    },
+    {
+     "t": "p",
+     "text": "Start for free"
+    },
+    {
+     "t": "p",
+     "text": "July 2025"
+    },
+    {
+     "t": "p",
+     "text": "29"
+    },
+    {
+     "t": "p",
+     "text": "Danny/Followup"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "30"
+    },
+    {
+     "t": "p",
+     "text": "Kastor CEO"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "1"
+    },
+    {
+     "t": "p",
+     "text": "Discovery Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/44mBuaKUzJt59tKLF2RwhwGsYsg.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Acme<>John"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "2"
+    },
+    {
+     "t": "p",
+     "text": "Liam/Followup"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Valley/Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/44mBuaKUzJt59tKLF2RwhwGsYsg.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "3"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "4"
+    },
+    {
+     "t": "p",
+     "text": "Liam/Followup"
+    },
+    {
+     "img": "/assets/pages/landing/img/44mBuaKUzJt59tKLF2RwhwGsYsg.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Valley/Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/44mBuaKUzJt59tKLF2RwhwGsYsg.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "5"
+    },
+    {
+     "t": "p",
+     "text": "Intro/OpenAI"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "6"
+    },
+    {
+     "t": "p",
+     "text": "Liam/Followup"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Valley/Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/44mBuaKUzJt59tKLF2RwhwGsYsg.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "7"
+    },
+    {
+     "t": "p",
+     "text": "Discovery Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Quick Deo"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Acme<>Sophie"
+    },
+    {
+     "img": "/assets/pages/landing/img/44mBuaKUzJt59tKLF2RwhwGsYsg.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "8"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Close/Outline"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "9"
+    },
+    {
+     "t": "p",
+     "text": "Liam/Followup"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Valley/Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/44mBuaKUzJt59tKLF2RwhwGsYsg.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "10"
+    },
+    {
+     "t": "p",
+     "text": "Liam/Followup"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Valley/Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/44mBuaKUzJt59tKLF2RwhwGsYsg.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "11"
+    },
+    {
+     "t": "p",
+     "text": "Liam/Followup"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Valley/Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/44mBuaKUzJt59tKLF2RwhwGsYsg.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "12"
+    },
+    {
+     "t": "p",
+     "text": "Asheley's Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Growth Team"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "13"
+    },
+    {
+     "t": "p",
+     "text": "Liam/Followup"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Jake/Intro"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Valley/Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/44mBuaKUzJt59tKLF2RwhwGsYsg.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "14"
+    },
+    {
+     "t": "p",
+     "text": "Rahee Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Discovery Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "15"
+    },
+    {
+     "t": "p",
+     "text": "Valley Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "16"
+    },
+    {
+     "t": "p",
+     "text": "Liam/Followup"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Valley/Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/44mBuaKUzJt59tKLF2RwhwGsYsg.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "17"
+    },
+    {
+     "t": "p",
+     "text": "Close/Outline"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "18"
+    },
+    {
+     "t": "p",
+     "text": "Clay/AE Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "19"
+    },
+    {
+     "t": "p",
+     "text": "Liam/Followup"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Valley/Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/44mBuaKUzJt59tKLF2RwhwGsYsg.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "20"
+    },
+    {
+     "t": "p",
+     "text": "Jessica/Intro"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "21"
+    },
+    {
+     "t": "p",
+     "text": "Liam/Followup"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Valley/Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/44mBuaKUzJt59tKLF2RwhwGsYsg.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "22"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Folk Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "23"
+    },
+    {
+     "t": "p",
+     "text": "Liam/Followup"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Valley/Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/44mBuaKUzJt59tKLF2RwhwGsYsg.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "24"
+    },
+    {
+     "t": "p",
+     "text": "Liam/Followup"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Valley/Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/44mBuaKUzJt59tKLF2RwhwGsYsg.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "25"
+    },
+    {
+     "t": "p",
+     "text": "Rahee Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "26"
+    },
+    {
+     "t": "p",
+     "text": "Liam/Followup"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Valley/Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/44mBuaKUzJt59tKLF2RwhwGsYsg.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "27"
+    },
+    {
+     "t": "p",
+     "text": "Liam/Followup"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Valley/Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/44mBuaKUzJt59tKLF2RwhwGsYsg.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "28"
+    },
+    {
+     "t": "p",
+     "text": "Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "29"
+    },
+    {
+     "t": "p",
+     "text": "Growth Team"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Zayd/Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "30"
+    },
+    {
+     "t": "p",
+     "text": "Liam/Followup"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Valley/Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/44mBuaKUzJt59tKLF2RwhwGsYsg.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "31"
+    },
+    {
+     "t": "p",
+     "text": "Monthly Review"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "01"
+    },
+    {
+     "t": "p",
+     "text": "Liam/Followup"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Valley/Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/44mBuaKUzJt59tKLF2RwhwGsYsg.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "02"
+    },
+    {
+     "t": "p",
+     "text": "Liam/Followup"
+    },
+    {
+     "img": "/assets/pages/landing/img/Dm2wyGw2FNtyCmJ52IxV7mLplo.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Demo Call"
+    },
+    {
+     "img": "/assets/pages/landing/img/rkdfi8FlTUYhYphEH5CjUmF4I.png",
+     "box": "85x20"
+    },
+    {
+     "t": "p",
+     "text": "Valley/Demo"
+    },
+    {
+     "img": "/assets/pages/landing/img/44mBuaKUzJt59tKLF2RwhwGsYsg.png",
+     "box": "85x20"
+    },
+    {
+     "img": "/assets/pages/landing/img/3MqHudIBy1ZEIFJXaNZZ7UPNreE.png",
+     "box": "1344x709"
+    }
+   ]
+  },
+  {
+   "framerName": "Spacer",
+   "items": []
+  },
+  {
+   "framerName": "Testimonial Section",
+   "items": [
+    {
+     "t": "p",
+     "text": "REAL MESSAGES, REAL FEEDBACK"
+    },
+    {
+     "t": "h3",
+     "text": "Wall of loooooveee"
+    },
+    {
+     "img": "/assets/pages/landing/img/KrX5x7Ck65tnR95uH6lwq7cyhc.jpeg",
+     "box": "178x61"
+    },
+    {
+     "t": "p",
+     "text": "\"If you don't have an active, engaged LinkedIn pipeline and you have a clearly defined ICP and persona, you need to add Valley to your tech stack immediately to supplement your sales.”"
+    },
+    {
+     "img": "/assets/pages/landing/img/xpYEgDiwByLk8eJwucCaEvb7tMU.jpeg",
+     "box": "52x52"
+    },
+    {
+     "t": "p",
+     "text": "Greg Kantziper"
+    },
+    {
+     "t": "p",
+     "text": "Co-Founder at Kaster"
+    },
+    {
+     "img": "/assets/pages/landing/img/7Rj9hCxcOkh3hnDV5SLMepxp0A.svg",
+     "box": "178x61"
+    },
+    {
+     "t": "p",
+     "text": "“A real response to a message Valley sent a prospect: “I was never considering anything until you reached out with a message that literally spoke to me.” The automation is great but the sauce within Valley is the messaging itself.”"
+    },
+    {
+     "img": "/assets/img/ZLYSGUvKkVzLXYs0HskrNMPEys4.jpeg",
+     "box": "52x52"
+    },
+    {
+     "t": "p",
+     "text": "Jason Hardman"
+    },
+    {
+     "t": "p",
+     "text": "Founding Enterprise AE @ Tacnode"
+    },
+    {
+     "img": "/assets/pages/landing/img/xeGwnd3aYXqpW5qby827e0t9CB4.png",
+     "box": "178x61"
+    },
+    {
+     "t": "p",
+     "text": "\"The website intent data has been really useful too. It was literally like 8 to 10x the number of hits that we were getting on Valley versus the other product that we were using at the time.\""
+    },
+    {
+     "img": "/assets/pages/landing/img/R5AeuyDxdoeADin1x32gC6L5St0.png",
+     "box": "52x52"
+    },
+    {
+     "t": "p",
+     "text": "Sam Z"
+    },
+    {
+     "t": "p",
+     "text": "Growth 10x Management"
+    },
+    {
+     "img": "/assets/pages/landing/img/qMlFY64Vqx8JelzVT6YLOjTuEKc.png",
+     "box": "178x61"
+    },
+    {
+     "t": "p",
+     "text": "\"I found myself looking at some of the messages that it's created and thinking like, wow, where did it find this? This went really deep to find information that you could never do in just a cursory search.\""
+    },
+    {
+     "img": "/assets/pages/landing/img/WtSAHrTok8mtlR2CI7nq7oEQ6Y.jpeg",
+     "box": "52x52"
+    },
+    {
+     "t": "p",
+     "text": "Tim O'Neil"
+    },
+    {
+     "t": "p",
+     "text": "VP Sales & BizDev"
+    },
+    {
+     "img": "/assets/pages/landing/img/hygAdqGZw7KbG7Kq0snYsPJs0.png",
+     "box": "178x61"
+    },
+    {
+     "t": "p",
+     "text": "“If you're not using tools like Valley, you will be left behind. This is the future. ”"
+    },
+    {
+     "img": "/assets/pages/landing/img/US3dcHl6lQODo0h1pv6U4JkIH7o.jpeg",
+     "box": "52x52"
+    },
+    {
+     "t": "p",
+     "text": "Garrett Marker"
+    },
+    {
+     "t": "p",
+     "text": "CRO @ Brex"
+    },
+    {
+     "img": "/assets/pages/landing/img/p1o11T9Jt3naTduCjFwxKLZqc.jpg",
+     "box": "178x61"
+    },
+    {
+     "t": "p",
+     "text": "\"I'm able to come into those [pipeline review] meetings and be like, look at what I booked through Valley. You know, if my other kind of channels have slowed down, I'm like, but Valley, Valley's there.\""
+    },
+    {
+     "img": "/assets/pages/landing/img/2cLT52mkcmCsZRQcm5LtdZPflg.png",
+     "box": "52x52"
+    },
+    {
+     "t": "p",
+     "text": "Angelene Perez-Vento"
+    },
+    {
+     "t": "p",
+     "text": "AE at Growth Protocol"
+    },
+    {
+     "img": "/assets/pages/landing/img/KrX5x7Ck65tnR95uH6lwq7cyhc.jpeg",
+     "box": "178x61"
+    },
+    {
+     "t": "p",
+     "text": "\"If you don't have an active, engaged LinkedIn pipeline and you have a clearly defined ICP and persona, you need to add Valley to your tech stack immediately to supplement your sales.”"
+    },
+    {
+     "img": "/assets/pages/landing/img/xpYEgDiwByLk8eJwucCaEvb7tMU.jpeg",
+     "box": "52x52"
+    },
+    {
+     "t": "p",
+     "text": "Greg Kantziper"
+    },
+    {
+     "t": "p",
+     "text": "Co-Founder at Kaster"
+    },
+    {
+     "img": "/assets/pages/landing/img/7Rj9hCxcOkh3hnDV5SLMepxp0A.svg",
+     "box": "178x61"
+    },
+    {
+     "t": "p",
+     "text": "“A real response to a message Valley sent a prospect: “I was never considering anything until you reached out with a message that literally spoke to me.” The automation is great but the sauce within Valley is the messaging itself.”"
+    },
+    {
+     "img": "/assets/img/ZLYSGUvKkVzLXYs0HskrNMPEys4.jpeg",
+     "box": "52x52"
+    },
+    {
+     "t": "p",
+     "text": "Jason Hardman"
+    },
+    {
+     "t": "p",
+     "text": "Founding Enterprise AE @ Tacnode"
+    },
+    {
+     "img": "/assets/pages/landing/img/xeGwnd3aYXqpW5qby827e0t9CB4.png",
+     "box": "178x61"
+    },
+    {
+     "t": "p",
+     "text": "\"The website intent data has been really useful too. It was literally like 8 to 10x the number of hits that we were getting on Valley versus the other product that we were using at the time.\""
+    },
+    {
+     "img": "/assets/pages/landing/img/R5AeuyDxdoeADin1x32gC6L5St0.png",
+     "box": "52x52"
+    },
+    {
+     "t": "p",
+     "text": "Sam Z"
+    },
+    {
+     "t": "p",
+     "text": "Growth 10x Management"
+    },
+    {
+     "img": "/assets/pages/landing/img/qMlFY64Vqx8JelzVT6YLOjTuEKc.png",
+     "box": "178x61"
+    },
+    {
+     "t": "p",
+     "text": "\"I found myself looking at some of the messages that it's created and thinking like, wow, where did it find this? This went really deep to find information that you could never do in just a cursory search.\""
+    },
+    {
+     "img": "/assets/pages/landing/img/WtSAHrTok8mtlR2CI7nq7oEQ6Y.jpeg",
+     "box": "52x52"
+    },
+    {
+     "t": "p",
+     "text": "Tim O'Neil"
+    },
+    {
+     "t": "p",
+     "text": "VP Sales & BizDev"
+    },
+    {
+     "img": "/assets/pages/landing/img/hygAdqGZw7KbG7Kq0snYsPJs0.png",
+     "box": "178x61"
+    },
+    {
+     "t": "p",
+     "text": "“If you're not using tools like Valley, you will be left behind. This is the future. ”"
+    },
+    {
+     "img": "/assets/pages/landing/img/US3dcHl6lQODo0h1pv6U4JkIH7o.jpeg",
+     "box": "52x52"
+    },
+    {
+     "t": "p",
+     "text": "Garrett Marker"
+    },
+    {
+     "t": "p",
+     "text": "CRO @ Brex"
+    },
+    {
+     "img": "/assets/pages/landing/img/p1o11T9Jt3naTduCjFwxKLZqc.jpg",
+     "box": "178x61"
+    },
+    {
+     "t": "p",
+     "text": "\"I'm able to come into those [pipeline review] meetings and be like, look at what I booked through Valley. You know, if my other kind of channels have slowed down, I'm like, but Valley, Valley's there.\""
+    },
+    {
+     "img": "/assets/pages/landing/img/2cLT52mkcmCsZRQcm5LtdZPflg.png",
+     "box": "52x52"
+    },
+    {
+     "t": "p",
+     "text": "Angelene Perez-Vento"
+    },
+    {
+     "t": "p",
+     "text": "AE at Growth Protocol"
+    },
+    {
+     "img": "/assets/pages/landing/img/KrX5x7Ck65tnR95uH6lwq7cyhc.jpeg",
+     "box": "178x61"
+    },
+    {
+     "t": "p",
+     "text": "\"If you don't have an active, engaged LinkedIn pipeline and you have a clearly defined ICP and persona, you need to add Valley to your tech stack immediately to supplement your sales.”"
+    },
+    {
+     "img": "/assets/pages/landing/img/xpYEgDiwByLk8eJwucCaEvb7tMU.jpeg",
+     "box": "52x52"
+    },
+    {
+     "t": "p",
+     "text": "Greg Kantziper"
+    },
+    {
+     "t": "p",
+     "text": "Co-Founder at Kaster"
+    },
+    {
+     "img": "/assets/pages/landing/img/7Rj9hCxcOkh3hnDV5SLMepxp0A.svg",
+     "box": "178x61"
+    },
+    {
+     "t": "p",
+     "text": "“A real response to a message Valley sent a prospect: “I was never considering anything until you reached out with a message that literally spoke to me.” The automation is great but the sauce within Valley is the messaging itself.”"
+    },
+    {
+     "img": "/assets/img/ZLYSGUvKkVzLXYs0HskrNMPEys4.jpeg",
+     "box": "52x52"
+    },
+    {
+     "t": "p",
+     "text": "Jason Hardman"
+    },
+    {
+     "t": "p",
+     "text": "Founding Enterprise AE @ Tacnode"
+    },
+    {
+     "img": "/assets/pages/landing/img/xeGwnd3aYXqpW5qby827e0t9CB4.png",
+     "box": "178x61"
+    },
+    {
+     "t": "p",
+     "text": "\"The website intent data has been really useful too. It was literally like 8 to 10x the number of hits that we were getting on Valley versus the other product that we were using at the time.\""
+    },
+    {
+     "img": "/assets/pages/landing/img/R5AeuyDxdoeADin1x32gC6L5St0.png",
+     "box": "52x52"
+    },
+    {
+     "t": "p",
+     "text": "Sam Z"
+    },
+    {
+     "t": "p",
+     "text": "Growth 10x Management"
+    },
+    {
+     "img": "/assets/pages/landing/img/qMlFY64Vqx8JelzVT6YLOjTuEKc.png",
+     "box": "178x61"
+    },
+    {
+     "t": "p",
+     "text": "\"I found myself looking at some of the messages that it's created and thinking like, wow, where did it find this? This went really deep to find information that you could never do in just a cursory search.\""
+    },
+    {
+     "img": "/assets/pages/landing/img/WtSAHrTok8mtlR2CI7nq7oEQ6Y.jpeg",
+     "box": "52x52"
+    },
+    {
+     "t": "p",
+     "text": "Tim O'Neil"
+    },
+    {
+     "t": "p",
+     "text": "VP Sales & BizDev"
+    },
+    {
+     "img": "/assets/pages/landing/img/hygAdqGZw7KbG7Kq0snYsPJs0.png",
+     "box": "178x61"
+    },
+    {
+     "t": "p",
+     "text": "“If you're not using tools like Valley, you will be left behind. This is the future. ”"
+    },
+    {
+     "img": "/assets/pages/landing/img/US3dcHl6lQODo0h1pv6U4JkIH7o.jpeg",
+     "box": "52x52"
+    },
+    {
+     "t": "p",
+     "text": "Garrett Marker"
+    },
+    {
+     "t": "p",
+     "text": "CRO @ Brex"
+    },
+    {
+     "img": "/assets/pages/landing/img/p1o11T9Jt3naTduCjFwxKLZqc.jpg",
+     "box": "178x61"
+    },
+    {
+     "t": "p",
+     "text": "\"I'm able to come into those [pipeline review] meetings and be like, look at what I booked through Valley. You know, if my other kind of channels have slowed down, I'm like, but Valley, Valley's there.\""
+    },
+    {
+     "img": "/assets/pages/landing/img/2cLT52mkcmCsZRQcm5LtdZPflg.png",
+     "box": "52x52"
+    },
+    {
+     "t": "p",
+     "text": "Angelene Perez-Vento"
+    },
+    {
+     "t": "p",
+     "text": "AE at Growth Protocol"
+    }
+   ]
+  },
+  {
+   "framerName": "Spacer",
+   "items": []
+  },
+  {
+   "framerName": "Heading + Desc FAQ",
+   "items": [
+    {
+     "t": "h2",
+     "text": "Questions,\nanswered."
+    },
+    {
+     "t": "p",
+     "text": "The practical details before your first campaign."
+    },
+    {
+     "t": "summary",
+     "text": "What do I need to get started?\n+"
+    },
+    {
+     "t": "p",
+     "text": ""
+    },
+    {
+     "t": "summary",
+     "text": "Can I review and edit the messages?\n+"
+    },
+    {
+     "t": "p",
+     "text": ""
+    },
+    {
+     "t": "summary",
+     "text": "Does Valley send email as well as LinkedIn messages?\n+"
+    },
+    {
+     "t": "p",
+     "text": ""
+    },
+    {
+     "t": "summary",
+     "text": "Which plan includes email and priority support?\n+"
+    },
+    {
+     "t": "p",
+     "text": ""
+    },
+    {
+     "t": "summary",
+     "text": "What uses credits?\n+"
+    },
+    {
+     "t": "p",
+     "text": ""
+    },
+    {
+     "t": "summary",
+     "text": "How does the free trial work?\n+"
+    },
+    {
+     "t": "p",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "framerName": "Desktop",
+   "items": [
+    {
+     "t": "h2",
+     "text": "Find your people.\nGive them a reason to reply."
+    },
+    {
+     "t": "p",
+     "text": "Find, qualify, research, and reach your next buyers across email and LinkedIn."
+    },
+    {
+     "link": "https://beta.joinvalley.co/signup",
+     "label": "Start for free →"
+    },
+    {
+     "t": "a",
+     "text": "Start for free →"
+    },
+    {
+     "link": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+     "label": "Book a demo"
+    },
+    {
+     "t": "a",
+     "text": "Book a demo"
+    },
+    {
+     "link": "/",
+     "label": "Valley"
+    },
+    {
+     "t": "a",
+     "text": "Valley"
+    },
+    {
+     "t": "p",
+     "text": "Your outbound team.\nOne connected platform."
+    },
+    {
+     "link": "mailto:hey@joinvalley.co",
+     "label": "hey@joinvalley.co"
+    },
+    {
+     "t": "a",
+     "text": "hey@joinvalley.co"
+    },
+    {
+     "t": "strong",
+     "text": "EXPLORE VALLEY"
+    },
+    {
+     "link": "/product",
+     "label": "Product"
+    },
+    {
+     "t": "a",
+     "text": "Product"
+    },
+    {
+     "link": "/casestudies",
+     "label": "Customers"
+    },
+    {
+     "t": "a",
+     "text": "Customers"
+    },
+    {
+     "link": "/linkedin-outreach-for-agencies",
+     "label": "Agencies"
+    },
+    {
+     "t": "a",
+     "text": "Agencies"
+    },
+    {
+     "link": "/pricing",
+     "label": "Pricing"
+    },
+    {
+     "t": "a",
+     "text": "Pricing"
+    },
+    {
+     "t": "strong",
+     "text": "LEARN MORE"
+    },
+    {
+     "link": "/blog",
+     "label": "Resources"
+    },
+    {
+     "t": "a",
+     "text": "Resources"
+    },
+    {
+     "link": "/blog/archive",
+     "label": "All articles"
+    },
+    {
+     "t": "a",
+     "text": "All articles"
+    },
+    {
+     "link": "/about",
+     "label": "About Valley"
+    },
+    {
+     "t": "a",
+     "text": "About Valley"
+    },
+    {
+     "link": "https://beta.joinvalley.co/login",
+     "label": "Log in"
+    },
+    {
+     "t": "a",
+     "text": "Log in"
+    },
+    {
+     "t": "span",
+     "text": "© Valley. All rights reserved."
+    },
+    {
+     "link": "/privacy-policy",
+     "label": "Privacy policy"
+    },
+    {
+     "t": "a",
+     "text": "Privacy policy"
+    },
+    {
+     "link": "/terms-of-service",
+     "label": "Terms of service"
+    },
+    {
+     "t": "a",
+     "text": "Terms of service"
+    }
+   ]
+  }
+ ],
+ "assetPrefixes": {
+  "note": "image paths are local (/assets/...); YouTube posters are /assets/pages/landing/yt/<videoId>-maxresdefault.webp and embed as https://www.youtube.com/embed/<videoId>"
+ },
+ "links": [
+  {
+   "href": "https://10xmanagement.com/",
+   "url": "https://10xmanagement.com/",
+   "kind": "external",
+   "labels": [],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "https://beta.joinvalley.co/login",
+   "url": "https://beta.joinvalley.co/login",
+   "kind": "external",
+   "labels": [
+    "Log in"
+   ],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "https://beta.joinvalley.co/signup",
+   "url": "https://beta.joinvalley.co/signup",
+   "kind": "external",
+   "labels": [
+    "Start for free",
+    "Start for free →"
+   ],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+   "url": "https://forms.withsurface.com/s/cmf7e6uw600amlb0cmoloma5b",
+   "kind": "external",
+   "labels": [
+    "Book a demo"
+   ],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "https://franq.com.br/",
+   "url": "https://franq.com.br/",
+   "kind": "external",
+   "labels": [],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "https://tacnode.io/",
+   "url": "https://tacnode.io/",
+   "kind": "external",
+   "labels": [],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "https://www.darwinian.com/",
+   "url": "https://www.darwinian.com/",
+   "kind": "external",
+   "labels": [],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "https://www.ggwp.com/",
+   "url": "https://www.ggwp.com/",
+   "kind": "external",
+   "labels": [],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "https://www.gocanvas.com/",
+   "url": "https://www.gocanvas.com/",
+   "kind": "external",
+   "labels": [],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "https://www.growthprotocol.ai/",
+   "url": "https://www.growthprotocol.ai/",
+   "kind": "external",
+   "labels": [],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "https://www.kaster.app/",
+   "url": "https://www.kaster.app/",
+   "kind": "external",
+   "labels": [],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "./",
+   "url": "https://www.joinvalley.co/",
+   "kind": "internal",
+   "labels": [
+    "Home Home",
+    "Valley"
+   ],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "/about",
+   "url": "https://www.joinvalley.co/about",
+   "kind": "internal",
+   "labels": [
+    "About Valley"
+   ],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "/blog",
+   "url": "https://www.joinvalley.co/blog",
+   "kind": "internal",
+   "labels": [
+    "Resources"
+   ],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "/blog/archive",
+   "url": "https://www.joinvalley.co/blog/archive",
+   "kind": "internal",
+   "labels": [
+    "All articles"
+   ],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "./casestudies",
+   "url": "https://www.joinvalley.co/casestudies",
+   "kind": "internal",
+   "labels": [
+    "Customers",
+    "Customers Customers"
+   ],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "./compare",
+   "url": "https://www.joinvalley.co/compare",
+   "kind": "internal",
+   "labels": [
+    "Valley vs. Competition Valley vs. Competition"
+   ],
+   "visibleAt": [
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "./linkedin-outreach-for-agencies",
+   "url": "https://www.joinvalley.co/linkedin-outreach-for-agencies",
+   "kind": "internal",
+   "labels": [
+    "Agencies",
+    "Agencies Agencies"
+   ],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "/playbooks",
+   "url": "https://www.joinvalley.co/playbooks",
+   "kind": "internal",
+   "labels": [],
+   "visibleAt": [
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "./pricing",
+   "url": "https://www.joinvalley.co/pricing",
+   "kind": "internal",
+   "labels": [
+    "Pricing",
+    "Pricing Pricing"
+   ],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "/privacy-policy",
+   "url": "https://www.joinvalley.co/privacy-policy",
+   "kind": "internal",
+   "labels": [
+    "Privacy policy"
+   ],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "/product",
+   "url": "https://www.joinvalley.co/product",
+   "kind": "internal",
+   "labels": [
+    "Product"
+   ],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "/terms-of-service",
+   "url": "https://www.joinvalley.co/terms-of-service",
+   "kind": "internal",
+   "labels": [
+    "Terms of service"
+   ],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  },
+  {
+   "href": "mailto:hey@joinvalley.co",
+   "url": "mailto:hey@joinvalley.co",
+   "kind": "other",
+   "labels": [
+    "hey@joinvalley.co"
+   ],
+   "visibleAt": [
+    390,
+    768,
+    1280,
+    1440
+   ]
+  }
+ ],
+ "logoCaseStudyPopups": [
+  {
+   "text": "How Tacnode booked 25+ meetings per month with Valley\n\nICP: CTOs, DEVOPS, ENG",
+   "box": {
+    "x": 119.99266052246094,
+    "y": 214.7641143798828,
+    "width": 156.01466369628906,
+    "height": 180.5988006591797,
+    "top": 214.7641143798828,
+    "right": 276.00732421875,
+    "bottom": 395.3629150390625,
+    "left": 119.99266052246094
+   },
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "imgs": [
+    "https://framerusercontent.com/images/21ARQ0zNQJwMBIayeEce33q0SA.png?width=122&height=40"
+   ],
+   "href": "https://www.joinvalley.co/"
+  },
+  {
+   "text": "How 10x Management generated $84K+ ARR with Valley\n\nICP: CTOs, DEVOPS, ENG",
+   "box": {
+    "x": 463.5,
+    "y": 197.828125,
+    "width": 165,
+    "height": 191,
+    "top": 197.828125,
+    "right": 628.5,
+    "bottom": 388.828125,
+    "left": 463.5
+   },
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "imgs": [
+    "https://framerusercontent.com/images/oHzyQ3zMZ9eWYrQeluruiBr72o.png?width=120&height=40"
+   ],
+   "href": "https://www.joinvalley.co/"
+  },
+  {
+   "text": "How Growth Protocol generated $150k pipeline in 4 months with Valley\n\nICP: HEADS OF SALES & MARKETING TEAMS",
+   "box": {
+    "x": 811.5,
+    "y": 197.828125,
+    "width": 165,
+    "height": 191,
+    "top": 197.828125,
+    "right": 976.5,
+    "bottom": 388.828125,
+    "left": 811.5
+   },
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "imgs": [
+    "https://framerusercontent.com/images/cEU3K0kHt8OwuJppD6dSiP8CU.png?width=120&height=40"
+   ],
+   "href": "https://www.joinvalley.co/"
+  },
+  {
+   "text": "How GoCanvas 30x’d outbound pipeline with Valley\n\nICP: OPS, FINANCE & \n\nHR LEADERS",
+   "box": {
+    "x": 1159.5,
+    "y": 197.828125,
+    "width": 165,
+    "height": 191,
+    "top": 197.828125,
+    "right": 1324.5,
+    "bottom": 388.828125,
+    "left": 1159.5
+   },
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "imgs": [
+    "https://framerusercontent.com/images/3kp7sgisLKYY4YnymGAMtFzc.png?width=120&height=40"
+   ],
+   "href": "https://www.joinvalley.co/"
+  },
+  {
+   "text": "How Franq generated $64k in pipeline with Valley in one month\n\nICP: FINANCE & BANKING  DECISION MAKERS",
+   "box": {
+    "x": 289.5,
+    "y": 197.828125,
+    "width": 165,
+    "height": 191,
+    "top": 197.828125,
+    "right": 454.5,
+    "bottom": 388.828125,
+    "left": 289.5
+   },
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "imgs": [
+    "https://framerusercontent.com/images/2u105qmW9Mo9rPq1Pqa4a2TGU.png?width=120&height=40"
+   ],
+   "href": "https://www.joinvalley.co/"
+  },
+  {
+   "text": "How Darwinian Ventures turns leads into revenue with Valley\n\nICP: SALES & GTM LEADERS",
+   "box": {
+    "x": 463.5,
+    "y": 188.828125,
+    "width": 165,
+    "height": 191,
+    "top": 188.828125,
+    "right": 628.5,
+    "bottom": 379.828125,
+    "left": 463.5
+   },
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "imgs": [
+    "https://framerusercontent.com/images/mTfqvalVWVCZWgPNloJ6jtLj4.png?width=120&height=40"
+   ],
+   "href": "https://www.joinvalley.co/"
+  },
+  {
+   "text": "How Kaster generated $400k in pipeline in 2 months using Valley\n\nICP: OPS, FINANCE & \n\nHR LEADERS",
+   "box": {
+    "x": 637.5,
+    "y": 197.828125,
+    "width": 165,
+    "height": 191,
+    "top": 197.828125,
+    "right": 802.5,
+    "bottom": 388.828125,
+    "left": 637.5
+   },
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "imgs": [
+    "https://framerusercontent.com/images/a0X4JO90c87LN6LiUS3wjVVfbEM.png?width=120&height=40"
+   ],
+   "href": "https://www.joinvalley.co/"
+  },
+  {
+   "text": "How GGWP generated $4M in pipeline with Valley\n\nICP: GAME DEVELOPERS & ENGINEERS",
+   "box": {
+    "x": 1159.5,
+    "y": 197.828125,
+    "width": 165,
+    "height": 191,
+    "top": 197.828125,
+    "right": 1324.5,
+    "bottom": 388.828125,
+    "left": 1159.5
+   },
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "imgs": [
+    "https://framerusercontent.com/images/0fxf55YOeJxgnUJVGPgN4kUW2I.png?width=150&height=49"
+   ],
+   "href": "https://www.joinvalley.co/"
+  }
+ ]
+}
